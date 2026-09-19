@@ -1,0 +1,21 @@
+{
+  "last_checked_utc": "2026-09-19T15:31:41.185192+00:00",
+  "last_checked_fr": "19 septembre 2026",
+  "sources": {
+    "commission_sondages": {
+      "ok": false,
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    "verian": {
+      "ok": false,
+      "url": "https://www.veriangroup.com/fr/news-and-insights",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    "verian_sofres": {
+      "ok": false,
+      "url": "https://www.veriangroup.com/fr/a-propos-de-nous",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    }
+  }
+}
