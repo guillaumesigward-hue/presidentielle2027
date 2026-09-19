@@ -22,4 +22,4 @@ jobs:
           python-version: "3.12"
 
       - name: Executer la mise a jour
-      run: python "mettre à jour.py"
+        run: python update.py
