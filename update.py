@@ -2,7 +2,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 import json, re, urllib.request
 
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parent
 SOURCES={
   "commission_sondages":"https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
   "verian":"https://www.veriangroup.com/fr/news-and-insights",
