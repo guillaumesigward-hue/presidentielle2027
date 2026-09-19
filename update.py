@@ -18,7 +18,7 @@ VERIAN_URL = "https://www.veriangroup.com/fr/news-and-insights"
 def fetch(url):
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "Presidentielle2027SourceMonitor/3.0"}
+        headers={"User-Agent": "Presidentielle2027SourceMonitor/4.0"}
     )
     with urllib.request.urlopen(request, timeout=30) as response:
         return response.read().decode("utf-8", "replace")
@@ -45,7 +45,9 @@ data_dir.mkdir(exist_ok=True)
 election_file = data_dir / "election.json"
 
 if election_file.exists():
-    election = json.loads(election_file.read_text(encoding="utf-8"))
+    election = json.loads(
+        election_file.read_text(encoding="utf-8")
+    )
 else:
     election = {
         "titre": "Présidentielle française 2027",
@@ -63,11 +65,11 @@ status = {
     "sources": {}
 }
 
-# Commission des sondages
-#
-# La rubrique "2027 - Présidentielle" contient aussi des enquêtes
-# thématiques. Elles ne doivent pas être présentées automatiquement
-# comme des intentions de vote.
+
+# --------------------------------------------------
+# COMMISSION DES SONDAGES
+# --------------------------------------------------
+
 try:
     body = fetch(COMMISSION_URL)
 
@@ -87,32 +89,30 @@ try:
             seen.add(notice_id)
             notices.append({
                 "id": notice_id,
-                "titre": title,
-                "source": "Commission des sondages",
-                "url": COMMISSION_URL
+                "titre": title
             })
 
-    notices.sort(key=lambda item: item["id"], reverse=True)
-
-    # On conserve les notices comme éléments de contrôle de la source.
-    # On ne les publie PAS comme intentions de vote.
-    election["sondages"] = []
+    notices.sort(
+        key=lambda item: item["id"],
+        reverse=True
+    )
 
     status["sources"]["commission_sondages"] = {
         "ok": True,
         "url": COMMISSION_URL,
         "notices_trouvees": len(notices),
-        "latest_notice_id": notices[0]["id"] if notices else None,
+        "latest_notice_id": (
+            notices[0]["id"] if notices else None
+        ),
         "publication_automatique": False,
         "raison": (
-            "La rubrique contient aussi des enquêtes thématiques ; "
-            "les intentions de vote doivent être identifiées séparément."
+            "La rubrique présidentielle contient aussi "
+            "des enquêtes thématiques. Une notice n'est "
+            "donc pas automatiquement une intention de vote."
         )
     }
 
 except Exception as exc:
-    election["sondages"] = []
-
     status["sources"]["commission_sondages"] = {
         "ok": False,
         "url": COMMISSION_URL,
@@ -120,23 +120,117 @@ except Exception as exc:
     }
 
 
-# Vérification de la source Verian
+# --------------------------------------------------
+# INTENTIONS DE VOTE
+# --------------------------------------------------
+#
+# Aucune enquête n'est ajoutée automatiquement ici
+# tant qu'elle n'est pas explicitement identifiée
+# comme une intention de vote présidentielle.
+#
+
+election["sondages"] = []
+
+
+# --------------------------------------------------
+# VERIAN
+# --------------------------------------------------
+
 try:
-    body = fetch(VERIAN_URL)
+    verian_body = fetch(VERIAN_URL)
 
     status["sources"]["verian"] = {
         "ok": True,
         "url": VERIAN_URL,
-        "bytes": len(body)
+        "bytes": len(verian_body)
     }
 
 except Exception as exc:
+    verian_body = ""
+
     status["sources"]["verian"] = {
         "ok": False,
         "url": VERIAN_URL,
         "error": str(exc)[:180]
     }
 
+
+# --------------------------------------------------
+# ACTUALITES / ETUDES RECENTES
+# --------------------------------------------------
+#
+# On publie ici uniquement des intitulés descriptifs
+# accompagnés d'un lien vers la source.
+#
+
+actualites = []
+
+if verian_body:
+    verian_lower = clean_text(verian_body).lower()
+
+    if (
+        "stature présidentielle" in verian_lower
+        and "vague 5" in verian_lower
+    ):
+        actualites.append({
+            "titre": (
+                "Baromètre de la stature présidentielle "
+                "des candidats potentiels — vague 5"
+            ),
+            "description": (
+                "Étude Verian publiée en septembre 2026 "
+                "sur la perception de candidats potentiels "
+                "à l'élection présidentielle."
+            ),
+            "source": "Verian",
+            "url": (
+                "https://www.veriangroup.com/fr/news-and-insights/"
+                "la-stature-pr%C3%A9sidentielle-de-candidats-"
+                "potentiels-%C3%A0-la-prochaine-%C3%A9lection-"
+                "pr%C3%A9sidentielle-vague-5"
+            )
+        })
+
+    if (
+        "baromètre politique verian" in verian_lower
+        and "septembre 2026" in verian_lower
+    ):
+        actualites.append({
+            "titre": (
+                "Baromètre politique Verian — septembre 2026"
+            ),
+            "description": (
+                "Baromètre mensuel de Verian. "
+                "Il ne doit pas être confondu avec un "
+                "sondage d'intentions de vote."
+            ),
+            "source": "Verian",
+            "url": (
+                "https://www.veriangroup.com/fr/news-and-insights/"
+                "barom%C3%A8tre-politique-verian-pour-le-"
+                "figaro-magazine-septembre-2026"
+            )
+        })
+
+election["actualites"] = actualites
+
+
+# --------------------------------------------------
+# CANDIDATURES
+# --------------------------------------------------
+#
+# Cette rubrique reste vide tant qu'une collecte
+# spécifique de déclarations de candidature,
+# avec sources individualisées, n'est pas mise
+# en place.
+#
+
+election["candidatures"] = []
+
+
+# --------------------------------------------------
+# SOURCES
+# --------------------------------------------------
 
 election["sources"] = [
     {
@@ -147,17 +241,30 @@ election["sources"] = [
     {
         "nom": "Verian",
         "url": VERIAN_URL,
-        "type": "études et sondages"
+        "type": "études d'opinion"
     }
 ]
 
+
+# --------------------------------------------------
+# ENREGISTREMENT
+# --------------------------------------------------
+
 election_file.write_text(
-    json.dumps(election, ensure_ascii=False, indent=2),
+    json.dumps(
+        election,
+        ensure_ascii=False,
+        indent=2
+    ),
     encoding="utf-8"
 )
 
 (data_dir / "status.json").write_text(
-    json.dumps(status, ensure_ascii=False, indent=2),
+    json.dumps(
+        status,
+        ensure_ascii=False,
+        indent=2
+    ),
     encoding="utf-8"
 )
 
