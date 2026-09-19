@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-09-19T20:27:40.031557+00:00",
+  "last_checked_utc": "2026-09-19T20:49:02.192263+00:00",
   "last_checked_fr": "19 septembre 2026",
   "sources": {
     "commission_sondages": {
@@ -8,7 +8,7 @@
       "notices_trouvees": 66,
       "latest_notice_id": "10268",
       "publication_automatique": false,
-      "raison": "La rubrique contient aussi des enquêtes thématiques ; les intentions de vote doivent être identifiées séparément."
+      "raison": "La rubrique présidentielle contient aussi des enquêtes thématiques. Une notice n'est donc pas automatiquement une intention de vote."
     },
     "verian": {
       "ok": true,
