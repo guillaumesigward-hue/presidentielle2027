@@ -1,22 +1,17 @@
 {
-  "last_checked_utc": "2026-09-19T19:56:48.667475+00:00",
+  "last_checked_utc": "2026-09-19T20:15:54.532501+00:00",
   "last_checked_fr": "19 septembre 2026",
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "bytes": 31142,
+      "notices_trouvees": 66,
       "latest_notice_id": "10268"
     },
     "verian": {
       "ok": true,
       "url": "https://www.veriangroup.com/fr/news-and-insights",
       "bytes": 133071
-    },
-    "verian_sofres": {
-      "ok": true,
-      "url": "https://www.veriangroup.com/fr/a-propos-de-nous",
-      "bytes": 82593
     }
   }
 }
