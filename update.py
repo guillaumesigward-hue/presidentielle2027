@@ -1,5 +1,6 @@
 from pathlib import Path
 from datetime import datetime, timezone
+import html
 import json
 import re
 import urllib.request
@@ -17,10 +18,16 @@ VERIAN_URL = "https://www.veriangroup.com/fr/news-and-insights"
 def fetch(url):
     request = urllib.request.Request(
         url,
-        headers={"User-Agent": "Presidentielle2027SourceMonitor/2.0"}
+        headers={"User-Agent": "Presidentielle2027SourceMonitor/3.0"}
     )
     with urllib.request.urlopen(request, timeout=30) as response:
         return response.read().decode("utf-8", "replace")
+
+
+def clean_text(value):
+    value = re.sub(r"<[^>]+>", " ", value)
+    value = html.unescape(value)
+    return re.sub(r"\s+", " ", value).strip()
 
 
 now = datetime.now(timezone.utc)
@@ -57,6 +64,10 @@ status = {
 }
 
 # Commission des sondages
+#
+# La rubrique "2027 - Présidentielle" contient aussi des enquêtes
+# thématiques. Elles ne doivent pas être présentées automatiquement
+# comme des intentions de vote.
 try:
     body = fetch(COMMISSION_URL)
 
@@ -70,7 +81,7 @@ try:
 
     for match in pattern.finditer(body):
         notice_id = match.group(1)
-        title = re.sub(r"\s+", " ", match.group(2)).strip()
+        title = clean_text(match.group(2))
 
         if notice_id not in seen:
             seen.add(notice_id)
@@ -83,16 +94,25 @@ try:
 
     notices.sort(key=lambda item: item["id"], reverse=True)
 
-    election["sondages"] = notices[:10]
+    # On conserve les notices comme éléments de contrôle de la source.
+    # On ne les publie PAS comme intentions de vote.
+    election["sondages"] = []
 
     status["sources"]["commission_sondages"] = {
         "ok": True,
         "url": COMMISSION_URL,
         "notices_trouvees": len(notices),
-        "latest_notice_id": notices[0]["id"] if notices else None
+        "latest_notice_id": notices[0]["id"] if notices else None,
+        "publication_automatique": False,
+        "raison": (
+            "La rubrique contient aussi des enquêtes thématiques ; "
+            "les intentions de vote doivent être identifiées séparément."
+        )
     }
 
 except Exception as exc:
+    election["sondages"] = []
+
     status["sources"]["commission_sondages"] = {
         "ok": False,
         "url": COMMISSION_URL,
@@ -100,7 +120,7 @@ except Exception as exc:
     }
 
 
-# Vérification Verian
+# Vérification de la source Verian
 try:
     body = fetch(VERIAN_URL)
 
@@ -122,7 +142,7 @@ election["sources"] = [
     {
         "nom": "Commission des sondages",
         "url": COMMISSION_URL,
-        "type": "sondages"
+        "type": "contrôle et notices de sondages"
     },
     {
         "nom": "Verian",
