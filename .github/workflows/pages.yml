@@ -22,7 +22,7 @@ jobs:
           python-version: "3.12"
 
       - name: Vérifier les sources
-        run: python "mettre à jour.py"
+      run: python *jour.py
 
       - name: Enregistrer les changements
         run: |
