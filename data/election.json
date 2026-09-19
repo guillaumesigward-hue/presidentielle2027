@@ -2,74 +2,13 @@
   "titre": "Présidentielle française 2027",
   "derniere_mise_a_jour": "19 septembre 2026",
   "candidatures": [],
-  "sondages": [
-    {
-      "id": "10268",
-      "titre": "Pres Question CSA Cnews 18 septembre",
-      "source": "Commission des sondages",
-      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle"
-    },
-    {
-      "id": "10267",
-      "titre": "Pres ODOXA Le Figaro 16 septembre",
-      "source": "Commission des sondages",
-      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle"
-    },
-    {
-      "id": "10266",
-      "titre": "Pres Le pouvoir dachat ELABE 16 septembre",
-      "source": "Commission des sondages",
-      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle"
-    },
-    {
-      "id": "10265",
-      "titre": "Pres Taxe carburants CSA 17 septembre",
-      "source": "Commission des sondages",
-      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle"
-    },
-    {
-      "id": "10264",
-      "titre": "Pres OPINIONWAY Facebook 15 septembre",
-      "source": "Commission des sondages",
-      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle"
-    },
-    {
-      "id": "10263",
-      "titre": "Pres IV TOLUNA HARRIS INTERACTIVE RTL 14 septembre",
-      "source": "Commission des sondages",
-      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle"
-    },
-    {
-      "id": "10262",
-      "titre": "Pres Enquete electorale IPSOS BVA Le Monde 13 septembre",
-      "source": "Commission des sondages",
-      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle"
-    },
-    {
-      "id": "10261",
-      "titre": "Pres Barometre politique IPSOS BVA La Tribune 12 septembre",
-      "source": "Commission des sondages",
-      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle"
-    },
-    {
-      "id": "10260",
-      "titre": "Pres IV OPINIONWAY Cnews 11 septembre",
-      "source": "Commission des sondages",
-      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle"
-    },
-    {
-      "id": "10259",
-      "titre": "Pres Presitrack V2 OPINIONWAY Les Echos 10 septembre",
-      "source": "Commission des sondages",
-      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle"
-    }
-  ],
+  "sondages": [],
   "actualites": [],
   "sources": [
     {
       "nom": "Commission des sondages",
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "type": "sondages"
+      "type": "contrôle et notices de sondages"
     },
     {
       "nom": "Verian",

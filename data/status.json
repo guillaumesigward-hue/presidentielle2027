@@ -1,12 +1,14 @@
 {
-  "last_checked_utc": "2026-09-19T20:15:54.532501+00:00",
+  "last_checked_utc": "2026-09-19T20:27:40.031557+00:00",
   "last_checked_fr": "19 septembre 2026",
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
       "notices_trouvees": 66,
-      "latest_notice_id": "10268"
+      "latest_notice_id": "10268",
+      "publication_automatique": false,
+      "raison": "La rubrique contient aussi des enquêtes thématiques ; les intentions de vote doivent être identifiées séparément."
     },
     "verian": {
       "ok": true,
