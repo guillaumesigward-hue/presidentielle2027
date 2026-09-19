@@ -22,7 +22,7 @@ jobs:
           python-version: "3.12"
 
       - name: Vérifier les sources
-      run: python *jour.py
+  run: python "$(find . -maxdepth 1 -name '*jour.py' -print -quit)"
 
       - name: Enregistrer les changements
         run: |
