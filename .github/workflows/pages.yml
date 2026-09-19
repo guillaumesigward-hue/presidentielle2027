@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Vérifier les sources officielles
-        run: python scripts/update.py
+        run: run: python "mettre à jour.py"
       - name: Enregistrer la vérification quotidienne
         run: |
           git config user.name "presidentielle2027-bot"
