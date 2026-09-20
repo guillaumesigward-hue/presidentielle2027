@@ -109,56 +109,68 @@
       "url": "https://www.parti-reconquete.fr/"
     }
   ],
-"actualites": [
-  {
-    "titre": "Nicolas Dupont-Aignan — nouvelle candidature présidentielle",
-    "description": "Le 19 septembre 2026, Nicolas Dupont-Aignan a annoncé une nouvelle candidature à l'élection présidentielle de 2027.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/election-presidentielle-2027/"
-  },
-  {
-    "titre": "Édouard Philippe — propositions sur l'adaptation climatique",
-    "description": "Le 17 septembre 2026, Édouard Philippe a présenté dans le Maine-et-Loire sa vision de l'adaptation au changement climatique, autour d'une politique de « sécurité climatique ».",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/article/2026/09/18/presidentielle-2027-edouard-philippe-defend-sa-vision-liberale-de-l-ecologie-et-prone-une-politique-de-securite-climatique_6776657_823448.html"
-  },
-  {
-    "titre": "Gabriel Attal — campagne et positionnement du bloc central",
-    "description": "Le 15 septembre 2026, Le Monde analyse la campagne de Gabriel Attal aux côtés de celles d'Édouard Philippe et Bruno Retailleau, dans un contexte de concurrence entre les candidatures de la droite et du centre.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/article/2026/09/15/presidentielle-2027-face-a-marine-le-pen-et-jean-luc-melenchon-les-candidats-de-la-droite-et-du-centre-persistent-dans-la-fragmentation_6774332_823448.html"
-  },
-  {
-    "titre": "Bruno Retailleau — propositions sur le pouvoir d'achat",
-    "description": "Le 15 septembre 2026, Bruno Retailleau a présenté à nouveau plusieurs propositions consacrées au pouvoir d'achat, aux salaires et aux prix de l'énergie et des carburants.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/article/2026/09/16/bruno-retailleau-repart-sur-le-terrain-du-pouvoir-d-achat-pour-se-demarquer-des-bonimenteurs-dans-la-campagne-presidentielle_6775182_823448.html"
-  },
-  {
-    "titre": "Jean-Luc Mélenchon — intervention à la Fête de l'Humanité",
-    "description": "Jean-Luc Mélenchon est intervenu à la Fête de l'Humanité le 12 septembre 2026, dans le cadre de la séquence politique précédant l'élection présidentielle.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/live/2026/09/12/en-direct-presidentielle-2027-jean-luc-melenchon-et-fabien-roussel-a-la-fete-de-l-huma-bruno-retailleau-avec-les-jeunes-lr-suivez-le-deplacement-des-candidats_6770586_823448.html"
-  },
-  {
-    "titre": "Marine Le Pen — déplacement de campagne en Gironde",
-    "description": "Le 17 septembre 2026, Marine Le Pen s'est rendue au Porge, en Gironde, dans le cadre de sa campagne présidentielle, deux mois après les incendies ayant touché la région.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/article/2026/09/18/presidentielle-2027-au-porge-village-sinistre-ou-personne-ne-croit-plus-a-la-politique-marine-le-pen-face-a-des-habitants-desabuses_6776665_823448.html"
-  },
-  {
-    "titre": "Fabien Roussel — lancement de campagne à la Fête de l'Humanité",
-    "description": "Le 12 septembre 2026, Fabien Roussel a tenu son premier meeting après sa désignation comme candidat du Parti communiste français.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/article/2026/09/12/presidentielle-2027-a-la-fete-de-l-humanite-fabien-roussel-au-defi-de-demontrer-l-interet-de-sa-candidature_6770806_823448.html"
-  },
-  {
-    "titre": "Éric Zemmour — confirmation de son intention d'être candidat",
-    "description": "Le 17 septembre 2026, Éric Zemmour a déclaré qu'il serait candidat à l'élection présidentielle. Son entourage indiquait qu'une déclaration formelle devait intervenir ultérieurement.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/live/2026/09/17/en-direct-presidentielle-2027-sebastien-lecornu-vise-un-deficit-public-a-5-et-annonce-un-effort-budgetaire-d-environ-54-milliards-d-euros_6776151_823448.html"
-  }
-],
+  "actualites": [
+    {
+      "titre": "Nicolas Dupont-Aignan — nouvelle candidature présidentielle",
+      "description": "Le 19 septembre 2026, Nicolas Dupont-Aignan a annoncé une nouvelle candidature à l'élection présidentielle de 2027.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/election-presidentielle-2027/"
+    },
+    {
+      "titre": "Édouard Philippe — propositions sur l'adaptation climatique",
+      "description": "Le 17 septembre 2026, Édouard Philippe a présenté dans le Maine-et-Loire sa vision de l'adaptation au changement climatique, autour d'une politique de « sécurité climatique ».",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/18/presidentielle-2027-edouard-philippe-defend-sa-vision-liberale-de-l-ecologie-et-prone-une-politique-de-securite-climatique_6776657_823448.html"
+    },
+    {
+      "titre": "Gabriel Attal — campagne et positionnement du bloc central",
+      "description": "Le 15 septembre 2026, Le Monde analyse la campagne de Gabriel Attal aux côtés de celles d'Édouard Philippe et Bruno Retailleau, dans un contexte de concurrence entre les candidatures de la droite et du centre.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/15/presidentielle-2027-face-a-marine-le-pen-et-jean-luc-melenchon-les-candidats-de-la-droite-et-du-centre-persistent-dans-la-fragmentation_6774332_823448.html"
+    },
+    {
+      "titre": "Bruno Retailleau — propositions sur le pouvoir d'achat",
+      "description": "Le 15 septembre 2026, Bruno Retailleau a présenté à nouveau plusieurs propositions consacrées au pouvoir d'achat, aux salaires et aux prix de l'énergie et des carburants.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/16/bruno-retailleau-repart-sur-le-terrain-du-pouvoir-d-achat-pour-se-demarquer-des-bonimenteurs-dans-la-campagne-presidentielle_6775182_823448.html"
+    },
+    {
+      "titre": "Jean-Luc Mélenchon — intervention à la Fête de l'Humanité",
+      "description": "Jean-Luc Mélenchon est intervenu à la Fête de l'Humanité le 12 septembre 2026, dans le cadre de la séquence politique précédant l'élection présidentielle.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/live/2026/09/12/en-direct-presidentielle-2027-jean-luc-melenchon-et-fabien-roussel-a-la-fete-de-l-huma-bruno-retailleau-avec-les-jeunes-lr-suivez-le-deplacement-des-candidats_6770586_823448.html"
+    },
+    {
+      "titre": "Marine Le Pen — déplacement de campagne en Gironde",
+      "description": "Le 17 septembre 2026, Marine Le Pen s'est rendue au Porge, en Gironde, dans le cadre de sa campagne présidentielle, deux mois après les incendies ayant touché la région.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/18/presidentielle-2027-au-porge-village-sinistre-ou-personne-ne-croit-plus-a-la-politique-marine-le-pen-face-a-des-habitants-desabuses_6776665_823448.html"
+    },
+    {
+      "titre": "Fabien Roussel — lancement de campagne à la Fête de l'Humanité",
+      "description": "Le 12 septembre 2026, Fabien Roussel a tenu son premier meeting après sa désignation comme candidat du Parti communiste français.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/12/presidentielle-2027-a-la-fete-de-l-humanite-fabien-roussel-au-defi-de-demontrer-l-interet-de-sa-candidature_6770806_823448.html"
+    },
+    {
+      "titre": "Éric Zemmour — confirmation de son intention d'être candidat",
+      "description": "Le 17 septembre 2026, Éric Zemmour a déclaré qu'il serait candidat à l'élection présidentielle. Son entourage indiquait qu'une déclaration formelle devait intervenir ultérieurement.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/live/2026/09/17/en-direct-presidentielle-2027-sebastien-lecornu-vise-un-deficit-public-a-5-et-annonce-un-effort-budgetaire-d-environ-54-milliards-d-euros_6776151_823448.html"
+    },
+    {
+      "titre": "Baromètre de la stature présidentielle des candidats potentiels — vague 5",
+      "description": "Étude Verian publiée en septembre 2026 sur la perception de candidats potentiels à l'élection présidentielle.",
+      "source": "Verian",
+      "url": "https://www.veriangroup.com/fr/news-and-insights/la-stature-pr%C3%A9sidentielle-de-candidats-potentiels-%C3%A0-la-prochaine-%C3%A9lection-pr%C3%A9sidentielle-vague-5"
+    },
+    {
+      "titre": "Baromètre politique Verian — septembre 2026",
+      "description": "Baromètre mensuel de Verian. Il ne doit pas être confondu avec un sondage d'intentions de vote.",
+      "source": "Verian",
+      "url": "https://www.veriangroup.com/fr/news-and-insights/barom%C3%A8tre-politique-verian-pour-le-figaro-magazine-septembre-2026"
+    }
+  ],
   "sources": [
     {
       "nom": "Commission des sondages",
