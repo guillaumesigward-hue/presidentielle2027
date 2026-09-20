@@ -59,7 +59,14 @@
     "url": "https://www.ipsos.com/fr-fr/presidentielle-2027-marine-le-pen-conserve-une-avance-nette-dans-les-intentions-de-vote"
   }
 ],
-  "programmes": [],
+"programmes": [
+  {
+    "nom": "Jean-Luc Mélenchon — L’Avenir en commun",
+    "description": "Programme de La France insoumise pour l’élection présidentielle de 2027, mis à jour et ouvert aux contributions citoyennes en 2026.",
+    "source": "La France insoumise",
+    "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
+  }
+],
   "actualites": [
     {
       "titre": "Baromètre de la stature présidentielle des candidats potentiels — vague 5",
