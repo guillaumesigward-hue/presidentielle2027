@@ -212,7 +212,9 @@ if verian_body:
                 "figaro-magazine-septembre-2026"
             )
         })
-
+# Les actualités détectées automatiquement restent séparées
+# des actualités publiées afin d'éviter toute publication non vérifiée.
+actualites_detectees = actualites_verian
 election.setdefault("actualites", [])
 
 urls_existantes = {
