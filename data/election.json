@@ -2,71 +2,71 @@
   "titre": "Présidentielle française 2027",
   "derniere_mise_a_jour": "20 septembre 2026",
   "candidatures": [
-  {
-    "nom": "Nicolas Dupont-Aignan",
-    "description": "Candidature déclarée à l’élection présidentielle de 2027.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/article/2026/09/19/presidentielle-2027-nicolas-dupont-aignan-candidat-pour-la-quatrieme-fois_6777845_823448.html"
-  },
-  {
-    "nom": "Édouard Philippe",
-    "description": "Candidature déclarée à l’élection présidentielle de 2027.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
-  },
-  {
-    "nom": "Gabriel Attal",
-    "description": "Candidature déclarée à l’élection présidentielle de 2027.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/article/2026/06/01/presidentielle-2027-le-timing-de-la-declaration-de-candidature-un-choix-strategique-pour-les-candidats_6695918_823448.html"
-  },
-  {
-    "nom": "Bruno Retailleau",
-    "description": "Candidature déclarée à l’élection présidentielle de 2027.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
-  },
-  {
-    "nom": "Jean-Luc Mélenchon",
-    "description": "Candidature déclarée à l’élection présidentielle de 2027.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
-  },
-  {
-    "nom": "Marine Le Pen",
-    "description": "Candidature déclarée à l’élection présidentielle de 2027.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
-  },
-  {
-    "nom": "Fabien Roussel",
-    "description": "Candidature déclarée à l’élection présidentielle de 2027.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
-  },
-  {
-    "nom": "Éric Zemmour",
-    "description": "Candidature déclarée à l’élection présidentielle de 2027.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
-  }
-],
+    {
+      "nom": "Nicolas Dupont-Aignan",
+      "description": "Candidature déclarée à l’élection présidentielle de 2027.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/19/presidentielle-2027-nicolas-dupont-aignan-candidat-pour-la-quatrieme-fois_6777845_823448.html"
+    },
+    {
+      "nom": "Édouard Philippe",
+      "description": "Candidature déclarée à l’élection présidentielle de 2027.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
+    },
+    {
+      "nom": "Gabriel Attal",
+      "description": "Candidature déclarée à l’élection présidentielle de 2027.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/06/01/presidentielle-2027-le-timing-de-la-declaration-de-candidature-un-choix-strategique-pour-les-candidats_6695918_823448.html"
+    },
+    {
+      "nom": "Bruno Retailleau",
+      "description": "Candidature déclarée à l’élection présidentielle de 2027.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
+    },
+    {
+      "nom": "Jean-Luc Mélenchon",
+      "description": "Candidature déclarée à l’élection présidentielle de 2027.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
+    },
+    {
+      "nom": "Marine Le Pen",
+      "description": "Candidature déclarée à l’élection présidentielle de 2027.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
+    },
+    {
+      "nom": "Fabien Roussel",
+      "description": "Candidature déclarée à l’élection présidentielle de 2027.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
+    },
+    {
+      "nom": "Éric Zemmour",
+      "description": "Candidature déclarée à l’élection présidentielle de 2027.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
+    }
+  ],
   "sondages": [
-  {
-    "institut": "Ipsos bva",
-    "description": "Intentions de vote au premier tour selon six hypothèses. Enquête réalisée du 31 août au 2 septembre 2026 auprès de 1 500 personnes inscrites sur les listes électorales.",
-    "source": "Ipsos bva",
-    "url": "https://www.ipsos.com/fr-fr/presidentielle-2027-marine-le-pen-conserve-une-avance-nette-dans-les-intentions-de-vote"
-  }
-],
-"programmes": [
-  {
-    "nom": "Jean-Luc Mélenchon — L’Avenir en commun",
-    "description": "Programme de La France insoumise pour l’élection présidentielle de 2027, mis à jour et ouvert aux contributions citoyennes en 2026.",
-    "source": "La France insoumise",
-    "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
-  }
-],
+    {
+      "institut": "Ipsos bva",
+      "description": "Intentions de vote au premier tour selon six hypothèses. Enquête réalisée du 31 août au 2 septembre 2026 auprès de 1 500 personnes inscrites sur les listes électorales.",
+      "source": "Ipsos bva",
+      "url": "https://www.ipsos.com/fr-fr/presidentielle-2027-marine-le-pen-conserve-une-avance-nette-dans-les-intentions-de-vote"
+    }
+  ],
+  "programmes": [
+    {
+      "nom": "Jean-Luc Mélenchon — L’Avenir en commun",
+      "description": "Programme de La France insoumise pour l’élection présidentielle de 2027, mis à jour et ouvert aux contributions citoyennes en 2026.",
+      "source": "La France insoumise",
+      "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
+    }
+  ],
   "actualites": [
     {
       "titre": "Baromètre de la stature présidentielle des candidats potentiels — vague 5",
