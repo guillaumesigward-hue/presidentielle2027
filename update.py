@@ -164,7 +164,7 @@ except Exception as exc:
 # accompagnés d'un lien vers la source.
 #
 
-actualites = []
+actualites_verian = []
 
 if verian_body:
     verian_lower = clean_text(verian_body).lower()
@@ -173,7 +173,7 @@ if verian_body:
         "stature présidentielle" in verian_lower
         and "vague 5" in verian_lower
     ):
-        actualites.append({
+        actualites_verian.append({
             "titre": (
                 "Baromètre de la stature présidentielle "
                 "des candidats potentiels — vague 5"
@@ -196,7 +196,7 @@ if verian_body:
         "baromètre politique verian" in verian_lower
         and "septembre 2026" in verian_lower
     ):
-        actualites.append({
+        actualites_verian.append({
             "titre": (
                 "Baromètre politique Verian — septembre 2026"
             ),
@@ -221,7 +221,7 @@ urls_existantes = {
     if item.get("url")
 }
 
-for actualite in actualites:
+for actualite in []:
     if actualite.get("url") not in urls_existantes:
         election["actualites"].append(actualite)
         urls_existantes.add(actualite.get("url"))
