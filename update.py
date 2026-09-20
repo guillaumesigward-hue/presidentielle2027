@@ -213,7 +213,7 @@ if verian_body:
             )
         })
 
-election["actualites"] = actualites
+election.setdefault("actualites", [])
 
 
 # --------------------------------------------------
