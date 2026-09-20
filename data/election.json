@@ -54,7 +54,7 @@
   "sondages": [
     {
       "institut": "Ipsos bva",
-      "description": "Intentions de vote au premier tour selon six hypothèses. Enquête réalisée du 31 août au 2 septembre 2026 auprès de 1 500 personnes inscrites sur les listes électorales.",
+      "description": "Intentions de vote au premier tour selon six hypothèses distinctes. Enquête réalisée du 31 août au 2 septembre 2026 auprès de 1 500 personnes inscrites sur les listes électorales. Les résultats varient selon le scénario testé ; les hypothèses ne doivent pas être mélangées.",
       "source": "Ipsos bva",
       "url": "https://www.ipsos.com/fr-fr/presidentielle-2027-marine-le-pen-conserve-une-avance-nette-dans-les-intentions-de-vote"
     }
