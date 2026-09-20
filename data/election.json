@@ -51,7 +51,14 @@
     "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
   }
 ],
-  "sondages": [],
+  "sondages": [
+  {
+    "institut": "Ipsos bva",
+    "description": "Intentions de vote au premier tour selon six hypothèses. Enquête réalisée du 31 août au 2 septembre 2026 auprès de 1 500 personnes inscrites sur les listes électorales.",
+    "source": "Ipsos bva",
+    "url": "https://www.ipsos.com/fr-fr/presidentielle-2027-marine-le-pen-conserve-une-avance-nette-dans-les-intentions-de-vote"
+  }
+],
   "actualites": [
     {
       "titre": "Baromètre de la stature présidentielle des candidats potentiels — vague 5",
