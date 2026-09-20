@@ -217,16 +217,6 @@ if verian_body:
 actualites_detectees = actualites_verian
 election.setdefault("actualites", [])
 
-urls_existantes = {
-    item.get("url")
-    for item in election["actualites"]
-    if item.get("url")
-}
-
-for actualite in []:
-    if actualite.get("url") not in urls_existantes:
-        election["actualites"].append(actualite)
-        urls_existantes.add(actualite.get("url"))
 
 
 # --------------------------------------------------
