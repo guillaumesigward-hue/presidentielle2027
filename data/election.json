@@ -62,22 +62,22 @@
   "programmes": [
     {
       "nom": "Jean-Luc Mélenchon — L’Avenir en commun",
-"description": "L’Avenir en commun est le programme porté par Jean-Luc Mélenchon et La France insoumise. Une nouvelle version est en cours de réactualisation pour la présidentielle de 2027.",
+      "description": "L’Avenir en commun est le programme porté par Jean-Luc Mélenchon et La France insoumise. Une nouvelle version est en cours de réactualisation pour la présidentielle de 2027.",
       "source": "La France insoumise",
       "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
     },
-        {
-                "nom": "Édouard Philippe — Travaux et propositions pour 2027",
-              "description": "Édouard Philippe a lancé sa campagne présidentielle en 2026. Horizons indique que son pôle Idées travaille à l’élaboration de propositions pour 2027.",
-                "source": "Horizons",
-                "url": "https://horizonsleparti.fr/evenement/grand-meeting-dedouard-philippe-a-ladidas-arena/"
-              },
-        {
-                "nom": "Gabriel Attal — Travaux et propositions",
-                "description": "Renaissance publie des propositions thématiques et mène une consultation autour d’une « Nouvelle République ».",
-                "source": "Renaissance",
-                "url": "https://parti-renaissance.fr/"
-                  },
+    {
+      "nom": "Édouard Philippe — Travaux et propositions pour 2027",
+      "description": "Édouard Philippe a lancé sa campagne présidentielle en 2026. Horizons indique que son pôle Idées travaille à l’élaboration de propositions pour 2027.",
+      "source": "Horizons",
+      "url": "https://horizonsleparti.fr/evenement/grand-meeting-dedouard-philippe-a-ladidas-arena/"
+    },
+    {
+      "nom": "Gabriel Attal — Travaux et propositions",
+      "description": "Renaissance publie des propositions thématiques et mène une consultation autour d’une « Nouvelle République ».",
+      "source": "Renaissance",
+      "url": "https://parti-renaissance.fr/"
+    },
     {
       "nom": "Bruno Retailleau — Propositions pour 2027",
       "description": "Bruno Retailleau présente progressivement ses propositions pour l’élection présidentielle de 2027, notamment sur le travail, l’économie, l’immigration, la justice, la famille et la défense.",
