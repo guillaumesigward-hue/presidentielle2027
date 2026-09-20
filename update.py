@@ -274,7 +274,14 @@ election_file.write_text(
     json_output,
     encoding="utf-8"
 )
-
+(data_dir / "actualites_detectees.json").write_text(
+    json.dumps(
+        actualites_detectees,
+        ensure_ascii=False,
+        indent=2
+    ),
+    encoding="utf-8"
+)
 (data_dir / "status.json").write_text(
     json.dumps(
         status,
