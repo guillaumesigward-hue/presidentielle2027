@@ -225,7 +225,7 @@ election["actualites"] = actualites
 # en place.
 #
 
-election["candidatures"] = []
+election.setdefault("candidatures", [])
 
 
 # --------------------------------------------------
