@@ -53,6 +53,7 @@ else:
         "titre": "Présidentielle française 2027",
         "candidatures": [],
         "sondages": [],
+        "programmes": [],
         "actualites": [],
         "sources": []
     }
