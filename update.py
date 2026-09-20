@@ -129,7 +129,7 @@ except Exception as exc:
 # comme une intention de vote présidentielle.
 #
 
-election["sondages"] = []
+election.setdefault("sondages", [])
 
 
 # --------------------------------------------------
