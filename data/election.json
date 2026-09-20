@@ -71,6 +71,12 @@
               "description": "Édouard Philippe a lancé sa campagne présidentielle en 2026. Horizons indique que son pôle Idées travaille à l’élaboration de propositions pour 2027.",
                 "source": "Horizons",
                 "url": "https://horizonsleparti.fr/evenement/grand-meeting-dedouard-philippe-a-ladidas-arena/"
+              },
+        {
+                "nom": "Gabriel Attal — Travaux et propositions",
+                "description": "Renaissance publie des propositions thématiques et mène une consultation autour d’une « Nouvelle République ».",
+                "source": "Renaissance",
+                "url": "https://parti-renaissance.fr/"
               }
   ],
   "actualites": [
