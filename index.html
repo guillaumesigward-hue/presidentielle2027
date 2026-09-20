@@ -153,6 +153,11 @@
   </section>
 
   <section>
+  <h2>Programmes et propositions</h2>
+  <div id="programmes" class="grid"></div>
+</section>
+
+  <section>
     <h2>Actualité récente</h2>
     <div id="actualites" class="grid"></div>
   </section>
@@ -267,7 +272,11 @@
         data.sondages,
         "Aucun sondage d'intentions de vote vérifié n'est actuellement publié dans les données du site."
       );
-
+afficherCartes(
+  "programmes",
+  data.programmes,
+  "Aucun programme ou proposition sourcée n'est actuellement publié dans les données du site."
+);
       afficherCartes(
         "actualites",
         data.actualites,
