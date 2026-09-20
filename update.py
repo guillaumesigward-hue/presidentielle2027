@@ -2,7 +2,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 import html
 import json
-import reD
+import re
 import urllib.request
 
 ROOT = Path(__file__).resolve().parent
