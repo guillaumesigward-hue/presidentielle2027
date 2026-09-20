@@ -77,7 +77,37 @@
                 "description": "Renaissance publie des propositions thématiques et mène une consultation autour d’une « Nouvelle République ».",
                 "source": "Renaissance",
                 "url": "https://parti-renaissance.fr/"
-              }
+                  },
+    {
+      "nom": "Bruno Retailleau — Propositions pour 2027",
+      "description": "Bruno Retailleau présente progressivement ses propositions pour l’élection présidentielle de 2027, notamment sur le travail, l’économie, l’immigration, la justice, la famille et la défense.",
+      "source": "Les Républicains",
+      "url": "https://republicains.fr/actualites/2026/02/12/je-suis-candidat-a-lelection-presidentielle/"
+    },
+    {
+      "nom": "Fabien Roussel — Projet pour 2027",
+      "description": "Le PCF construit avec Fabien Roussel un projet pour l’élection présidentielle de 2027, autour notamment du travail, des services publics, de la justice sociale, de l’écologie et de la paix.",
+      "source": "Parti communiste français",
+      "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
+    },
+    {
+      "nom": "Nicolas Dupont-Aignan — Projet présidentiel 2027",
+      "description": "Debout la France indique travailler à l’actualisation de son programme pour l’élection présidentielle de 2027 et identifie progressivement les thèmes déjà mis à jour.",
+      "source": "Debout la France",
+      "url": "https://www.debout-la-france.fr/notre-projet/"
+    },
+    {
+      "nom": "Marine Le Pen — Projets et propositions du Rassemblement national",
+      "description": "Le Rassemblement national publie plusieurs projets thématiques et de gouvernement. Son site présente séparément le programme présidentiel de Marine Le Pen de 2022 ; cette carte ne le présente donc pas comme un programme présidentiel 2027 finalisé.",
+      "source": "Rassemblement national",
+      "url": "https://rassemblementnational.fr/"
+    },
+    {
+      "nom": "Éric Zemmour — Programme et priorités",
+      "description": "Reconquête présente le programme et les priorités politiques d’Éric Zemmour, notamment sur l’identité, l’immigration, la sécurité, l’instruction, les impôts, l’industrie et l’indépendance.",
+      "source": "Reconquête",
+      "url": "https://www.parti-reconquete.fr/"
+    }
   ],
   "actualites": [
     {
