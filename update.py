@@ -2,7 +2,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 import html
 import json
-import re
+import reD
 import urllib.request
 
 ROOT = Path(__file__).resolve().parent
@@ -261,13 +261,15 @@ election["sources"] = [
 # --------------------------------------------------
 # ENREGISTREMENT
 # --------------------------------------------------
-
+# Vérifier que les données peuvent produire un JSON valide
+json_output = json.dumps(
+    election,
+    ensure_ascii=False,
+    indent=2
+)
+json.loads(json_output)
 election_file.write_text(
-    json.dumps(
-        election,
-        ensure_ascii=False,
-        indent=2
-    ),
+    json_output,
     encoding="utf-8"
 )
 
