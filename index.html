@@ -1,19 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Présidentielle française 2027</title>
 
   <style>
     :root {
-      --bg: #f5f7fb;
-      --card: #ffffff;
-      --text: #172033;
-      --muted: #667085;
-      --line: #e4e7ec;
-      --accent: #193a6a;
-      --soft: #eef4ff;
+      --bleu: #173b68;
+      --bleu-clair: #eef5fc;
+      --fond: #f5f7fa;
+      --texte: #17202a;
+      --gris: #65717e;
+      --bordure: #dfe5eb;
+      --blanc: #ffffff;
     }
 
     * {
@@ -22,208 +22,377 @@
 
     body {
       margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--fond);
+      color: var(--texte);
       line-height: 1.55;
     }
 
-    main {
-      width: min(1100px, calc(100% - 32px));
-      margin: 32px auto 60px;
-    }
-
     header {
-      padding: 32px;
+      background: linear-gradient(135deg, #12345b, #285b91);
       color: white;
-      background: linear-gradient(135deg, #132d52, #254f83);
-      border-radius: 22px;
+      padding: 42px 20px;
     }
 
-    h1 {
-      margin: 0 0 10px;
-      font-size: clamp(2rem, 5vw, 3.5rem);
+    header .conteneur {
+      max-width: 1180px;
+      margin: auto;
+    }
+
+    header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(30px, 5vw, 48px);
     }
 
     header p {
-      margin: 6px 0;
+      margin: 5px 0;
+      max-width: 850px;
     }
 
-    .date {
-      opacity: .85;
+    nav {
+      background: white;
+      border-bottom: 1px solid var(--bordure);
+      position: sticky;
+      top: 0;
+      z-index: 10;
     }
 
-    .notice {
-      margin-top: 20px;
-      padding: 16px 18px;
-      background: #fff8e6;
-      border: 1px solid #f0d89b;
-      border-radius: 14px;
+    nav .conteneur {
+      max-width: 1180px;
+      margin: auto;
+      display: flex;
+      gap: 18px;
+      overflow-x: auto;
+      padding: 12px 20px;
+    }
+
+    nav a {
+      color: var(--bleu);
+      text-decoration: none;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    main {
+      max-width: 1180px;
+      margin: auto;
+      padding: 24px 20px 60px;
     }
 
     section {
-      margin-top: 28px;
-      padding: 24px;
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 18px;
+      margin: 36px 0 52px;
+      scroll-margin-top: 70px;
     }
 
     h2 {
-      margin-top: 0;
-      color: var(--accent);
+      color: var(--bleu);
+      font-size: 29px;
+      margin-bottom: 8px;
     }
 
-    .grid {
+    .introduction {
+      color: var(--gris);
+      max-width: 900px;
+      margin-top: 0;
+    }
+
+    .grille {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+      margin-top: 22px;
     }
 
-    .card {
-      padding: 18px;
-      border: 1px solid var(--line);
+    .carte {
+      background: var(--blanc);
+      border: 1px solid var(--bordure);
       border-radius: 14px;
-      background: white;
+      padding: 20px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
     }
 
-    .card h3 {
+    .carte h3 {
       margin-top: 0;
+      color: var(--bleu);
     }
 
-    .empty {
-      color: var(--muted);
-      padding: 14px 0;
+    .carte a,
+    .fiche-programme a {
+      color: #145da0;
+      font-weight: bold;
     }
 
-    a {
-      color: #175cd3;
+    .alerte {
+      background: #fff8e6;
+      border-left: 5px solid #d6a329;
+      padding: 15px 18px;
+      border-radius: 8px;
+      margin: 20px 0;
     }
 
-    .sources {
-      margin: 0;
+    .programmes-zone {
+      margin-top: 24px;
+    }
+
+    .onglets {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0 24px;
+    }
+
+    .onglet {
+      border: 1px solid #b9c7d5;
+      background: white;
+      color: var(--bleu);
+      padding: 11px 18px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .onglet.actif {
+      background: var(--bleu);
+      color: white;
+      border-color: var(--bleu);
+    }
+
+    .grille-programmes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      gap: 20px;
+    }
+
+    .fiche-programme {
+      background: white;
+      border: 1px solid var(--bordure);
+      border-radius: 15px;
+      padding: 21px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+    }
+
+    .fiche-programme h3 {
+      margin: 0 0 10px;
+      color: var(--bleu);
+      font-size: 22px;
+    }
+
+    .statut {
+      display: inline-block;
+      background: var(--bleu-clair);
+      color: var(--bleu);
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 14px;
+    }
+
+    .fiche-programme h4 {
+      margin: 18px 0 5px;
+      font-size: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      color: #4e5b67;
+    }
+
+    .fiche-programme p {
+      margin: 5px 0;
+    }
+
+    .sources-programme {
+      margin: 8px 0 0;
       padding-left: 20px;
     }
 
-    footer {
-      margin-top: 28px;
-      color: var(--muted);
-      font-size: .92rem;
-      text-align: center;
+    .message-vide {
+      color: var(--gris);
+      font-style: italic;
+      background: white;
+      padding: 18px;
+      border: 1px dashed #bcc6d0;
+      border-radius: 10px;
     }
 
-    .error {
-      padding: 18px;
-      background: #fff1f0;
-      border: 1px solid #f2b8b5;
+    .methodologie {
+      background: #eef4f9;
       border-radius: 14px;
+      padding: 20px;
+      margin-top: 24px;
+    }
+
+    footer {
+      background: #102d4d;
+      color: white;
+      padding: 28px 20px;
+    }
+
+    footer div {
+      max-width: 1180px;
+      margin: auto;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 30px 18px;
+      }
+
+      main {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+
+      .grille-programmes {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 
 <body>
-<main>
 
-  <header>
+<header>
+  <div class="conteneur">
     <h1>Présidentielle française 2027</h1>
     <p>
-      Informations factuelles, sources et suivi des données publiques.
+      Suivi factuel des candidatures, sondages, programmes et actualités.
     </p>
-    <p class="date">
-      Dernière mise à jour :
-      <strong id="date">chargement…</strong>
-    </p>
-  </header>
-
-  <div class="notice">
-    <strong>À propos des sondages :</strong>
-    les enquêtes thématiques ne sont pas assimilées automatiquement
-    à des intentions de vote. Les données électorales ne sont affichées
-    que lorsqu'elles sont identifiées comme telles dans les données du site.
+    <p id="date-maj">Chargement des données…</p>
   </div>
+</header>
 
-  <section>
+<nav>
+  <div class="conteneur">
+    <a href="#candidatures">Candidatures</a>
+    <a href="#sondages">Sondages</a>
+    <a href="#programmes">Programmes</a>
+    <a href="#actualites">Actualités</a>
+    <a href="#sources">Sources</a>
+  </div>
+</nav>
+
+<main>
+
+  <section id="candidatures">
     <h2>Candidatures et démarches déclarées</h2>
-    <div id="candidatures" class="grid"></div>
+    <p class="introduction">
+      Le statut affiché reprend les informations disponibles dans les sources
+      retenues. Il ne préjuge pas de la présence définitive au premier tour.
+    </p>
+    <div id="liste-candidatures" class="grille"></div>
   </section>
 
-  <section>
-    <h2>Sondages d'intentions de vote</h2>
-    <div id="sondages" class="grid"></div>
+  <section id="sondages">
+    <h2>Sondages</h2>
+    <p class="introduction">
+      Les scénarios publiés par les instituts sont présentés séparément afin
+      de ne pas mélanger des hypothèses de candidatures différentes.
+    </p>
+
+    <div class="alerte">
+      Une enquête thématique ou une question d'opinion n'est pas
+      automatiquement une intention de vote. Les résultats doivent être lus
+      avec leur institut, leurs dates de terrain, leur échantillon et leur
+      scénario.
+    </div>
+
+    <div id="liste-sondages" class="grille"></div>
   </section>
 
-  <section>
-  <h2>Programmes et propositions</h2>
-  <div id="programmes" class="grid"></div>
-</section>
+  <section id="programmes">
+    <h2>Programmes par thème</h2>
+    <p class="introduction">
+      Consultez directement les propositions disponibles sur quatre thèmes
+      prioritaires. Les informations anciennes ne sont pas présentées comme
+      des propositions 2027 sans confirmation.
+    </p>
 
-  <section>
-    <h2>Actualité récente</h2>
-    <div id="actualites" class="grid"></div>
+    <div class="onglets" aria-label="Choisir un thème">
+      <button class="onglet actif" data-theme="ecole">École</button>
+      <button class="onglet" data-theme="sante">Santé</button>
+      <button class="onglet" data-theme="energie">Énergie</button>
+      <button class="onglet" data-theme="fiscalite">Fiscalité</button>
+    </div>
+
+    <div id="liste-programmes" class="grille-programmes"></div>
+
+    <div class="methodologie">
+      <strong>Méthode :</strong>
+      <span id="methodologie-programmes">
+        chargement de la méthodologie…
+      </span>
+    </div>
   </section>
 
-  <section>
-    <h2>Sources suivies</h2>
-    <ul id="sources" class="sources"></ul>
+  <section id="actualites">
+    <h2>Actualités</h2>
+    <p class="introduction">
+      Sélection d'informations récentes liées aux personnes suivies et à la
+      préparation de l'élection présidentielle.
+    </p>
+    <div id="liste-actualites" class="grille"></div>
   </section>
 
-  <footer>
-    Ce site ne recommande aucun candidat et n'établit aucun classement
-    des candidats. Les informations affichées doivent être accompagnées
-    de leurs sources.
-  </footer>
+  <section id="sources">
+    <h2>Sources et suivi</h2>
+    <p class="introduction">
+      Les liens permettent de consulter directement les documents et
+      publications utilisés.
+    </p>
+    <div id="liste-sources" class="grille"></div>
+  </section>
 
 </main>
 
+<footer>
+  <div>
+    Ce site présente des informations et des sources. Il ne recommande,
+    ne classe et ne note aucun candidat ou prétendant.
+  </div>
+</footer>
+
 <script>
-  function texte(element, valeur) {
-    element.textContent = valeur == null ? "" : String(valeur);
+  const nomsThemes = {
+    ecole: "École",
+    sante: "Santé",
+    energie: "Énergie",
+    fiscalite: "Fiscalité"
+  };
+
+  let donneesProgrammes = null;
+  let themeActif = "ecole";
+
+  function echapper(texte) {
+    const div = document.createElement("div");
+    div.textContent = texte == null ? "" : String(texte);
+    return div.innerHTML;
   }
 
-  function messageVide(conteneur, message) {
-    const p = document.createElement("p");
-    p.className = "empty";
-    texte(p, message);
-    conteneur.appendChild(p);
-  }
-
-  function ajouterLien(conteneur, url, libelle) {
-    if (!url) return;
-
-    const p = document.createElement("p");
-    const a = document.createElement("a");
-
-    a.href = url;
-    a.target = "_blank";
-    a.rel = "noopener noreferrer";
-    texte(a, libelle || "Consulter la source");
-
-    p.appendChild(a);
-    conteneur.appendChild(p);
+  function messageVide(conteneur, texte) {
+    conteneur.innerHTML =
+      '<div class="message-vide">' + echapper(texte) + "</div>";
   }
 
   function afficherCartes(id, elements, vide) {
     const conteneur = document.getElementById(id);
-    conteneur.replaceChildren();
 
     if (!Array.isArray(elements) || elements.length === 0) {
       messageVide(conteneur, vide);
       return;
     }
 
+    conteneur.innerHTML = "";
+
     elements.forEach(item => {
       const carte = document.createElement("article");
-      carte.className = "card";
+      carte.className = "carte";
 
-      const titre = document.createElement("h3");
-      texte(
-        titre,
+      const titre =
         item.nom ||
         item.titre ||
         item.institut ||
-        "Information"
-      );
-      carte.appendChild(titre);
+        "Information";
 
       const description =
         item.resume ||
@@ -232,103 +401,203 @@
         item.source ||
         "";
 
-      if (description) {
-        const p = document.createElement("p");
-        texte(p, description);
-        carte.appendChild(p);
+      let lien = "";
+
+      if (item.url) {
+        lien =
+          '<p><a href="' +
+          echapper(item.url) +
+          '" target="_blank" rel="noopener noreferrer">Consulter la source</a></p>';
       }
 
-      ajouterLien(carte, item.url, "Source");
+      carte.innerHTML =
+        "<h3>" + echapper(titre) + "</h3>" +
+        "<p>" + echapper(description) + "</p>" +
+        lien;
+
       conteneur.appendChild(carte);
     });
   }
 
-  async function charger() {
-    try {
-      const reponse = await fetch(
-        "data/election.json?ts=" + Date.now(),
-        { cache: "no-store" }
-      );
+  function afficherProgrammes(theme) {
+    themeActif = theme;
 
-      if (!reponse.ok) {
-        throw new Error("Impossible de charger les données.");
+    document.querySelectorAll(".onglet").forEach(bouton => {
+      bouton.classList.toggle(
+        "actif",
+        bouton.dataset.theme === theme
+      );
+    });
+
+    const conteneur = document.getElementById("liste-programmes");
+
+    if (
+      !donneesProgrammes ||
+      !Array.isArray(donneesProgrammes.pretendants) ||
+      donneesProgrammes.pretendants.length === 0
+    ) {
+      messageVide(
+        conteneur,
+        "Aucune fiche de programme disponible pour le moment."
+      );
+      return;
+    }
+
+    conteneur.innerHTML = "";
+
+    donneesProgrammes.pretendants.forEach(personne => {
+      const themeData =
+        personne.themes && personne.themes[theme]
+          ? personne.themes[theme]
+          : null;
+
+      if (!themeData) {
+        return;
       }
 
-      const data = await reponse.json();
+      const fiche = document.createElement("article");
+      fiche.className = "fiche-programme";
 
-      texte(
-        document.getElementById("date"),
-        data.derniere_mise_a_jour || "non renseignée"
-      );
+      let sourcesHTML = "";
 
-      afficherCartes(
-        "candidatures",
-        data.candidatures,
-        "Aucune candidature ou démarche n'est actuellement publiée dans les données du site."
-      );
+      if (
+        Array.isArray(themeData.sources) &&
+        themeData.sources.length > 0
+      ) {
+        sourcesHTML = '<ul class="sources-programme">';
 
-      afficherCartes(
-        "sondages",
-        data.sondages,
-        "Aucun sondage d'intentions de vote vérifié n'est actuellement publié dans les données du site."
-      );
-afficherCartes(
-  "programmes",
-  data.programmes,
-  "Aucun programme ou proposition sourcée n'est actuellement publié dans les données du site."
-);
-      afficherCartes(
-        "actualites",
-        data.actualites,
-        "Aucune actualité n'est actuellement publiée dans les données du site."
-      );
-
-      const sources = document.getElementById("sources");
-      sources.replaceChildren();
-
-      if (!Array.isArray(data.sources) || data.sources.length === 0) {
-        messageVide(sources, "Aucune source renseignée.");
-      } else {
-        data.sources.forEach(source => {
-          const li = document.createElement("li");
-
+        themeData.sources.forEach(source => {
           if (source.url) {
-            const a = document.createElement("a");
-            a.href = source.url;
-            a.target = "_blank";
-            a.rel = "noopener noreferrer";
-            texte(a, source.nom || "Source");
-            li.appendChild(a);
+            sourcesHTML +=
+              '<li><a href="' +
+              echapper(source.url) +
+              '" target="_blank" rel="noopener noreferrer">' +
+              echapper(source.nom || "Source") +
+              "</a></li>";
           } else {
-            texte(li, source.nom || "Source");
+            sourcesHTML +=
+              "<li>" +
+              echapper(source.nom || "Source") +
+              "</li>";
           }
-
-          if (source.type) {
-            li.appendChild(
-              document.createTextNode(" — " + source.type)
-            );
-          }
-
-          sources.appendChild(li);
         });
+
+        sourcesHTML += "</ul>";
+      } else {
+        sourcesHTML =
+          "<p>Aucune source spécifique encore renseignée pour cette rubrique.</p>";
       }
 
-    } catch (erreur) {
-      texte(document.getElementById("date"), "indisponible");
+      fiche.innerHTML =
+        "<h3>" + echapper(personne.nom) + "</h3>" +
+        '<div class="statut">' +
+        echapper(themeData.statut || "Statut non précisé") +
+        "</div>" +
+        "<h4>" + echapper(nomsThemes[theme]) + "</h4>" +
+        "<p>" + echapper(themeData.resume || "Non renseigné.") + "</p>" +
+        "<h4>Financement / chiffrage</h4>" +
+        "<p>" + echapper(themeData.financement || "Non précisé.") + "</p>" +
+        "<h4>Population concernée</h4>" +
+        "<p>" +
+        echapper(themeData.population_concernee || "Non précisée.") +
+        "</p>" +
+        "<h4>Sources</h4>" +
+        sourcesHTML;
 
-      const premierSection = document.querySelector("section");
-      const erreurBloc = document.createElement("div");
-      erreurBloc.className = "error";
-      texte(
-        erreurBloc,
-        "Les données n'ont pas pu être chargées pour le moment."
+      conteneur.appendChild(fiche);
+    });
+
+    if (!conteneur.children.length) {
+      messageVide(
+        conteneur,
+        "Aucune donnée disponible pour ce thème."
       );
-
-      premierSection.before(erreurBloc);
     }
   }
 
-  charger();
+  async function chargerSite() {
+    const horodatage = Date.now();
+
+    try {
+      const [reponseElection, reponseProgrammes] =
+        await Promise.all([
+          fetch(
+            "data/election.json?ts=" + horodatage,
+            { cache: "no-store" }
+          ),
+          fetch(
+            "data/programmes.json?ts=" + horodatage,
+            { cache: "no-store" }
+          )
+        ]);
+
+      if (!reponseElection.ok) {
+        throw new Error("Impossible de charger election.json");
+      }
+
+      if (!reponseProgrammes.ok) {
+        throw new Error("Impossible de charger programmes.json");
+      }
+
+      const election = await reponseElection.json();
+      donneesProgrammes = await reponseProgrammes.json();
+
+      document.getElementById("date-maj").textContent =
+        "Dernière vérification automatique : " +
+        (election.derniere_mise_a_jour || "date non disponible") +
+        " — Programmes vérifiés : " +
+        (donneesProgrammes.derniere_verification || "date non disponible");
+
+      afficherCartes(
+        "liste-candidatures",
+        election.candidatures,
+        "Aucune candidature ou démarche n'est renseignée."
+      );
+
+      afficherCartes(
+        "liste-sondages",
+        election.sondages,
+        "Aucun sondage n'est publié actuellement."
+      );
+
+      afficherCartes(
+        "liste-actualites",
+        election.actualites,
+        "Aucune actualité n'est publiée actuellement."
+      );
+
+      afficherCartes(
+        "liste-sources",
+        election.sources,
+        "Aucune source n'est renseignée."
+      );
+
+      document.getElementById("methodologie-programmes").textContent =
+        donneesProgrammes.methodologie ||
+        "Méthodologie non renseignée.";
+
+      afficherProgrammes(themeActif);
+
+    } catch (erreur) {
+      console.error(erreur);
+
+      document.getElementById("date-maj").textContent =
+        "Une erreur est survenue pendant le chargement des données.";
+
+      messageVide(
+        document.getElementById("liste-programmes"),
+        "Impossible de charger les programmes pour le moment."
+      );
+    }
+  }
+
+  document.querySelectorAll(".onglet").forEach(bouton => {
+    bouton.addEventListener("click", () => {
+      afficherProgrammes(bouton.dataset.theme);
+    });
+  });
+
+  chargerSite();
 </script>
 
 </body>
