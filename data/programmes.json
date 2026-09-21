@@ -1,11 +1,164 @@
 {
   "derniere_verification": "21 septembre 2026",
-  "methodologie": "Les propositions sont présentées de manière descriptive à partir de sources identifiées. Une proposition ancienne n'est pas présentée comme une proposition pour 2027 sans confirmation. Lorsqu'un montant ou un mode de financement n'est pas précisé dans les sources retenues, il est indiqué comme non chiffré ou non précisé.",
+  "methodologie": "Les propositions sont résumées de manière descriptive à partir de sources identifiées. Une mesure ancienne n'est pas présentée comme une proposition 2027 sans confirmation. Lorsqu'un montant ou un financement n'est pas précisé dans les sources retenues, il est indiqué comme non précisé.",
   "themes_prioritaires": [
     "École",
     "Santé",
     "Énergie",
     "Fiscalité"
   ],
-  "pretendants": []
+  "pretendants": [
+    {
+      "nom": "Gabriel Attal",
+      "themes": {
+        "ecole": {
+          "statut": "Propositions présentées pour 2027",
+          "resume": "Souhaite une loi de programmation pour l'école dès 2027. Il vise moins de 20 élèves par classe en primaire, veut recréer des postes de remplaçants grâce à la baisse démographique, réorganiser le collège, développer les groupes de niveau et renforcer l'autonomie des établissements.",
+          "financement": "Il propose d'augmenter le traitement des enseignants de 200 euros nets par mois, jusqu'à 500 euros nets pour certains enseignants en milieu de carrière. Il indique vouloir financer cette revalorisation par des économies, notamment sur les dépenses sociales. Le coût total de ces mesures n'est pas précisé dans la source retenue.",
+          "population_concernee": "Élèves, familles, enseignants et personnels des établissements.",
+          "sources": [
+            {
+              "nom": "Le Monde — 25 août 2026",
+              "url": "https://www.lemonde.fr/societe/article/2026/08/25/gabriel-attal-je-souhaite-une-loi-de-programmation-pour-l-ecole-et-un-ministre-de-l-education-qui-restera-en-poste-cinq-ans_6756157_3224.html"
+            }
+          ]
+        },
+        "sante": {
+          "statut": "Recherche en cours",
+          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
+          "financement": "Non renseigné à ce stade.",
+          "population_concernee": "À documenter.",
+          "sources": []
+        },
+        "energie": {
+          "statut": "Recherche en cours",
+          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
+          "financement": "Non renseigné à ce stade.",
+          "population_concernee": "À documenter.",
+          "sources": []
+        },
+        "fiscalite": {
+          "statut": "Recherche en cours",
+          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
+          "financement": "Non renseigné à ce stade.",
+          "population_concernee": "À documenter.",
+          "sources": []
+        }
+      }
+    },
+    {
+      "nom": "Bruno Retailleau",
+      "themes": {
+        "ecole": {
+          "statut": "Projet présidentiel présenté pour 2027",
+          "resume": "Son projet éducatif s'organise autour de quatre axes : enseignants, transmission des savoirs, autonomie des établissements et autorité. Il propose notamment un examen d'entrée en sixième, des groupes de niveau, davantage de pouvoir aux équipes éducatives et la création de 1 000 établissements publics disposant d'une autonomie renforcée.",
+          "financement": "Il souhaite rapprocher la rémunération des enseignants de la moyenne européenne. Le montant de la hausse et le financement global de ces mesures ne sont pas précisés dans la source retenue.",
+          "population_concernee": "Élèves, familles, enseignants et établissements scolaires.",
+          "sources": [
+            {
+              "nom": "Public Sénat — 31 août 2026",
+              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
+            }
+          ]
+        },
+        "sante": {
+          "statut": "Recherche en cours",
+          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
+          "financement": "Non renseigné à ce stade.",
+          "population_concernee": "À documenter.",
+          "sources": []
+        },
+        "energie": {
+          "statut": "Recherche en cours",
+          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
+          "financement": "Non renseigné à ce stade.",
+          "population_concernee": "À documenter.",
+          "sources": []
+        },
+        "fiscalite": {
+          "statut": "Recherche en cours",
+          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
+          "financement": "Non renseigné à ce stade.",
+          "population_concernee": "À documenter.",
+          "sources": []
+        }
+      }
+    },
+    {
+      "nom": "Fabien Roussel",
+      "themes": {
+        "ecole": {
+          "statut": "Orientations publiées en 2026 dans la préparation de la présidentielle",
+          "resume": "Fabien Roussel met en avant l'attractivité des métiers de l'éducation. Il cite comme priorités les salaires, les conditions d'enseignement, le statut des AESH et la formation initiale des personnels.",
+          "financement": "Aucun montant précis n'est indiqué dans la source retenue.",
+          "population_concernee": "Enseignants, AESH, personnels de l'éducation et, indirectement, élèves et familles.",
+          "sources": [
+            {
+              "nom": "Parti communiste français — 28 août 2026",
+              "url": "https://www.pcf.fr/lettre_de_fabien_roussel_celles_et_ceux_qui_font_vivre_lecole"
+            }
+          ]
+        },
+        "sante": {
+          "statut": "Recherche en cours",
+          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
+          "financement": "Non renseigné à ce stade.",
+          "population_concernee": "À documenter.",
+          "sources": []
+        },
+        "energie": {
+          "statut": "Recherche en cours",
+          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
+          "financement": "Non renseigné à ce stade.",
+          "population_concernee": "À documenter.",
+          "sources": []
+        },
+        "fiscalite": {
+          "statut": "Recherche en cours",
+          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
+          "financement": "Non renseigné à ce stade.",
+          "population_concernee": "À documenter.",
+          "sources": []
+        }
+      }
+    },
+    {
+      "nom": "Jean-Luc Mélenchon",
+      "themes": {
+        "ecole": {
+          "statut": "Programme 2027 en cours d'actualisation",
+          "resume": "La France insoumise a ouvert en mai 2026 une nouvelle phase de contributions pour actualiser L'Avenir en commun, présenté comme le programme qui sera porté à la présidentielle de 2027. Les mesures détaillées seront intégrées ici après vérification de la version actualisée.",
+          "financement": "À documenter à partir de la version actualisée du programme 2027.",
+          "population_concernee": "À préciser lors de l'intégration des mesures actualisées.",
+          "sources": [
+            {
+              "nom": "La France insoumise — 20 mai 2026",
+              "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
+            }
+          ]
+        },
+        "sante": {
+          "statut": "Programme 2027 en cours d'actualisation",
+          "resume": "Synthèse à établir à partir de la version actualisée de L'Avenir en commun.",
+          "financement": "À documenter.",
+          "population_concernee": "À documenter.",
+          "sources": []
+        },
+        "energie": {
+          "statut": "Programme 2027 en cours d'actualisation",
+          "resume": "Synthèse à établir à partir de la version actualisée de L'Avenir en commun.",
+          "financement": "À documenter.",
+          "population_concernee": "À documenter.",
+          "sources": []
+        },
+        "fiscalite": {
+          "statut": "Programme 2027 en cours d'actualisation",
+          "resume": "Synthèse à établir à partir de la version actualisée de L'Avenir en commun.",
+          "financement": "À documenter.",
+          "population_concernee": "À documenter.",
+          "sources": []
+        }
+      }
+    }
+  ]
 }
