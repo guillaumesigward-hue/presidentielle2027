@@ -393,7 +393,86 @@
     <div class="grid" id="actualites-grid"></div>
   </section>
 
-  <section id="sources">
+  <section id="methodologie">
+  <h2>Méthodologie</h2>
+
+  <p class="section-intro">
+    Ce site rassemble des informations sur l'élection présidentielle française de 2027
+    afin de permettre à chacun de consulter les faits, les propositions publiées,
+    les sondages et leurs sources. Il ne recommande, ne classe et ne note aucun
+    candidat ou prétendant.
+  </p>
+
+  <div class="grid">
+    <article class="card">
+      <h3>Candidatures</h3>
+      <p>
+        Le statut affiché correspond aux informations publiques vérifiées :
+        candidature déclarée, démarche annoncée ou autre situation explicitement
+        indiquée. Le site ne préjuge pas de la validation définitive des candidatures,
+        qui dépend notamment des règles officielles de l'élection.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Programmes et propositions</h3>
+      <p>
+        Les fiches distinguent les propositions présentées pour 2027, les orientations
+        annoncées, les programmes encore en préparation et, lorsque cela est utile,
+        les positions plus anciennes qui ne sont pas considérées comme des engagements
+        2027 sans confirmation récente.
+      </p>
+      <p>
+        Lorsqu'un montant ou un financement n'est pas publié dans les sources retenues,
+        le site l'indique au lieu de l'estimer.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Solidité documentaire</h3>
+      <p>
+        Le pourcentage de solidité documentaire indique uniquement le niveau de
+        confirmation et de précision des sources utilisées pour rédiger une fiche.
+        Il ne mesure ni la qualité, ni la faisabilité, ni l'efficacité d'une proposition,
+        et ne constitue pas une note attribuée à une personne.
+      </p>
+      <p>
+        Lorsque les informations disponibles ne permettent pas une évaluation
+        documentaire suffisamment pertinente, la mention « Non évaluée » est utilisée.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Sondages</h3>
+      <p>
+        Les intentions de vote sont présentées avec leur institut, leur scénario
+        et leur source. Un sondage décrit les réponses recueillies auprès d'un
+        échantillon à une période donnée ; il ne constitue pas une prédiction
+        du résultat de l'élection.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Actualités et automatisation</h3>
+      <p>
+        Le dispositif automatique surveille certaines sources et peut détecter
+        de nouvelles publications. Une détection automatique n'est pas publiée
+        comme information politique ou comme sondage électoral sans vérification
+        de sa nature et de sa source.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Dates de mise à jour</h3>
+      <p>
+        La date de vérification automatique indique le dernier passage du dispositif
+        de surveillance. Elle ne signifie pas nécessairement que le contenu politique
+        du site a été modifié ce jour-là. Les données éditoriales peuvent avoir leur
+        propre date de vérification.
+      </p>
+    </article>
+  </div>
+</section><section id="sources">
     <h2>Sources suivies</h2>
     <p class="section-intro">
       Sources utilisées par le dispositif de suivi automatique ou éditorial.
@@ -421,7 +500,8 @@
     ecole: "École",
     sante: "Santé",
     energie: "Énergie",
-    fiscalite: "Fiscalité"
+    fiscalite: "Fiscalité",
+ecologie: "Écologie"
   };
 
   function escapeHtml(value) {
