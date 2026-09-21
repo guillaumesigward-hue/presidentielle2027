@@ -5,7 +5,8 @@
     "École",
     "Santé",
     "Énergie",
-    "Fiscalité"
+    "Fiscalité",
+    "Écologie"
   ],
   "pretendants": [
     {
@@ -55,6 +56,20 @@
           "financement": "Non précisé à ce stade.",
           "population_concernee": "À documenter.",
           "sources": []
+        },
+        "ecologie": {
+          "statut": "Propositions présentées pour 2027",
+          "solidite_documentaire": 96,
+          "solidite_explication": "Objectifs climatiques et plusieurs mesures concrètes sont rattachés à son programme 2027 ; certains coûts et mécanismes de financement restent à préciser.",
+          "resume": "Gabriel Attal veut accélérer la réduction des émissions de gaz à effet de serre, avec un objectif annoncé de passer d'environ 1,8 % à 5 % de baisse annuelle jusqu'en 2030. Il propose notamment une rénovation thermique massive des logements, le développement de la mobilité électrique et la décarbonation de l'industrie. Il a également fait de l'eau et de l'adaptation aux sécheresses un axe de ses propositions.",
+          "financement": "L'écologie est présentée comme l'une de ses priorités budgétaires. Le coût global de cette stratégie et son financement détaillé ne sont pas encore précisés dans les sources retenues.",
+          "population_concernee": "Ménages, automobilistes, propriétaires et locataires, entreprises industrielles, collectivités et populations exposées aux effets du changement climatique.",
+          "sources": [
+            {
+              "nom": "Le Monde — 5 septembre 2026",
+              "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/05/presidentielle-2027-pour-gabriel-attal-et-edouard-philippe-le-poids-d-un-bilan-ecologique-contraste_6766350_4355770.html"
+            }
+          ]
         }
       }
     },
@@ -115,6 +130,20 @@
               "url": "https://www.lemonde.fr/politique/article/2026/05/19/fiscalite-les-impots-de-production-au-c-ur-de-la-future-bataille-politique_6691520_823448.html"
             }
           ]
+        },
+        "ecologie": {
+          "statut": "Orientation publiée dans la préparation de 2027",
+          "solidite_documentaire": 96,
+          "solidite_explication": "Orientation écologique récente directement publiée par Bruno Retailleau ; le chiffrage d'ensemble reste à préciser.",
+          "resume": "Il défend une politique climatique centrée sur l'adaptation au réchauffement, l'investissement et l'innovation plutôt que sur la décroissance. Il met notamment en avant l'adaptation des bâtiments et infrastructures aux fortes chaleurs ainsi qu'une production d'énergie décarbonée.",
+          "financement": "L'investissement est présenté comme l'un des instruments principaux de cette politique, mais aucun budget écologique global n'est chiffré dans la source retenue.",
+          "population_concernee": "Ménages, collectivités, écoles, établissements de santé, entreprises et populations exposées aux fortes chaleurs et autres conséquences du changement climatique.",
+          "sources": [
+            {
+              "nom": "Les Républicains — Bruno Retailleau, 9 août 2026",
+              "url": "https://republicains.fr/actualites/2026/08/09/face-au-rechauffement-climatique-adapter-la-france-plutot-que-punir/"
+            }
+          ]
         }
       }
     },
@@ -161,6 +190,20 @@
           "financement": "À documenter.",
           "population_concernee": "Contribuables, ménages, entreprises et finances publiques.",
           "sources": []
+        },
+        "ecologie": {
+          "statut": "Orientations présentées en 2026 dans la préparation de 2027",
+          "solidite_documentaire": 97,
+          "solidite_explication": "Orientations climatiques directement exposées par Fabien Roussel en 2026 ; le détail complet du financement reste à intégrer.",
+          "resume": "Fabien Roussel défend un plan visant la sortie des énergies fossiles et la neutralité carbone en 2050. Il associe cette stratégie à la relocalisation industrielle, à la réduction des émissions liées aux importations et à une augmentation de la production d'électricité décarbonée, provenant du nucléaire comme des énergies renouvelables.",
+          "financement": "Il affirme que son plan prévoit un financement des investissements nécessaires, qu'il présente comme très importants. Le montant détaillé et les mécanismes complets de financement doivent encore être intégrés à cette fiche.",
+          "population_concernee": "Ménages, salariés, entreprises industrielles, secteur énergétique, territoires et finances publiques.",
+          "sources": [
+            {
+              "nom": "PCF — discours de Fabien Roussel, université d'été 2026",
+              "url": "https://www.pcf.fr/ue_26_discours_fr"
+            }
+          ]
         }
       }
     },
@@ -222,6 +265,20 @@
               "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
             }
           ]
+        },
+        "ecologie": {
+          "statut": "Programme en cours d'actualisation pour 2027",
+          "solidite_documentaire": null,
+          "solidite_explication": "Non évaluée pour les mesures écologiques : l'actualisation du programme pour 2027 est confirmée, mais les mesures détaillées de la version définitive doivent encore être vérifiées.",
+          "resume": "L'Avenir en commun est explicitement en cours d'actualisation pour l'élection présidentielle 2027. Les propositions écologiques détaillées seront intégrées lorsque leur maintien ou leur modification dans cette version aura été vérifié.",
+          "financement": "À documenter à partir de la version actualisée du programme.",
+          "population_concernee": "Ménages, entreprises, agriculteurs, collectivités et populations exposées aux conséquences environnementales et climatiques.",
+          "sources": [
+            {
+              "nom": "La France insoumise — 20 mai 2026",
+              "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
+            }
+          ]
         }
       }
     },
@@ -275,6 +332,20 @@
             {
               "nom": "Le Monde — 19 mai 2026",
               "url": "https://www.lemonde.fr/politique/article/2026/05/19/fiscalite-les-impots-de-production-au-c-ur-de-la-future-bataille-politique_6691520_823448.html"
+            }
+          ]
+        },
+        "ecologie": {
+          "statut": "Propositions écologiques en cours de construction pour 2027",
+          "solidite_documentaire": 88,
+          "solidite_explication": "Plusieurs propositions récentes sont identifiées, mais le volet environnemental n'est pas encore présenté comme un programme écologique complet et définitif.",
+          "resume": "Édouard Philippe a récemment mis davantage l'accent sur l'adaptation au changement climatique. Il a notamment évoqué la rénovation thermique, les moyens de lutte contre les incendies, la captation de carbone et l'adaptation des infrastructures aux transformations climatiques.",
+          "financement": "Le coût global et le mode de financement de cet ensemble de propositions ne sont pas encore précisés dans la source retenue.",
+          "population_concernee": "Ménages, collectivités, propriétaires et locataires, services de secours, entreprises et populations exposées aux risques climatiques.",
+          "sources": [
+            {
+              "nom": "Le Monde — 5 septembre 2026",
+              "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/05/presidentielle-2027-pour-gabriel-attal-et-edouard-philippe-le-poids-d-un-bilan-ecologique-contraste_6766350_4355770.html"
             }
           ]
         }
@@ -333,6 +404,20 @@
               "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
             }
           ]
+        },
+        "ecologie": {
+          "statut": "Projet 2027 à documenter plus précisément",
+          "solidite_documentaire": null,
+          "solidite_explication": "Non évaluée : le discours de rentrée 2027 documente des orientations économiques et énergétiques, mais ne suffit pas à établir un volet écologique détaillé.",
+          "resume": "La fiche Écologie reste volontairement distincte du volet Énergie. Les propositions précises concernant le climat, l'eau, la biodiversité, la pollution, l'agriculture, les transports et l'adaptation doivent encore être documentées pour 2027.",
+          "financement": "Non documenté à ce stade.",
+          "population_concernee": "À documenter.",
+          "sources": [
+            {
+              "nom": "Nicolas Dupont-Aignan — grands axes du projet 2027, 19 septembre 2026",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
         }
       }
     },
@@ -382,6 +467,20 @@
             {
               "nom": "Le Monde — 29 août 2026",
               "url": "https://www.lemonde.fr/politique/article/2026/08/29/presidentielle-2027-la-regle-d-or-budgetaire-de-marine-le-pen-limiterait-le-deficit-a-3-du-pib_6760267_823448.html"
+            }
+          ]
+        },
+        "ecologie": {
+          "statut": "Orientations récentes à consolider pour 2027",
+          "solidite_documentaire": 90,
+          "solidite_explication": "Des orientations environnementales récentes sont documentées, mais le programme écologique 2027 complet reste susceptible d'être précisé.",
+          "resume": "Les orientations récentes mettent notamment l'accent sur l'adaptation au changement climatique et une approche fondée sur la souveraineté nationale. Le RN défend parallèlement une politique énergétique fortement nucléaire et conteste plusieurs politiques de développement des énergies renouvelables. La distinction entre écologie, climat et politique énergétique est conservée dans cette fiche.",
+          "financement": "Le coût global des politiques d'adaptation et de protection environnementale n'est pas encore détaillé dans cette fiche.",
+          "population_concernee": "Ménages, agriculteurs, entreprises, collectivités et populations exposées aux risques climatiques.",
+          "sources": [
+            {
+              "nom": "Le Monde — 1er septembre 2026",
+              "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/01/presidentielle-2027-souverainisme-et-air-conditionne-les-deux-piliers-de-marine-le-pen-et-du-rn-pour-lutter-contre-le-dereglement-climatique_6763489_4355770.html"
             }
           ]
         }
@@ -434,6 +533,15 @@
           "resume": "Les propositions fiscales des campagnes et documents antérieurs ne sont pas automatiquement attribuées au programme 2027. La fiche sera complétée à partir des nouvelles propositions de campagne.",
           "financement": "Non renseigné pour 2027.",
           "population_concernee": "Contribuables, ménages, entreprises et finances publiques.",
+          "sources": []
+        },
+        "ecologie": {
+          "statut": "Recherche en cours pour 2027",
+          "solidite_documentaire": null,
+          "solidite_explication": "Non évaluée : aucune synthèse écologique 2027 suffisamment documentée n'est encore intégrée.",
+          "resume": "Les positions environnementales provenant de campagnes antérieures ne sont pas automatiquement présentées comme son programme écologique pour 2027. Cette rubrique sera complétée lorsque des propositions récentes et suffisamment précises auront été vérifiées.",
+          "financement": "Non renseigné pour 2027.",
+          "population_concernee": "À documenter.",
           "sources": []
         }
       }
