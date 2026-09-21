@@ -19,6 +19,18 @@
           "resume": "Souhaite une loi de programmation pour l'école dès 2027. Il vise moins de 20 élèves par classe en primaire, veut recréer des postes de remplaçants grâce à la baisse démographique, réorganiser le collège, développer les groupes de niveau et renforcer l'autonomie des établissements.",
           "financement": "Il propose d'augmenter le traitement des enseignants de 200 euros nets par mois, jusqu'à 500 euros nets pour certains enseignants en milieu de carrière. Le coût de la revalorisation a été évalué par son équipe à environ 2,5 milliards d'euros. Des économies, notamment sur certaines dépenses sociales, sont avancées pour contribuer au financement.",
           "population_concernee": "Élèves, familles, enseignants et personnels des établissements.",
+          "handicap_aesh": {
+  "statut": "Proposition présentée pour 2027",
+  "propositions": "Gabriel Attal propose de créer un véritable corps professionnel pour les AESH, avec des perspectives de carrière, de promotion et d'évolution professionnelle, notamment vers d'autres fonctions de l'Éducation nationale.",
+  "impact_familles": "La professionnalisation des AESH pourrait modifier les conditions d'exercice et la continuité de l'accompagnement. En revanche, la source retenue ne précise pas à ce stade le nombre d'AESH supplémentaires, le nombre d'heures d'accompagnement garanti par enfant ni les modalités particulières concernant les élèves avec TDAH ou trouble du spectre de l'autisme.",
+  "financement": "Aucun budget spécifique à cette mesure AESH n'est identifié dans la source retenue.",
+  "sources": [
+    {
+      "nom": "Gabriel Attal — propositions pour l'école, 2026",
+      "url": "https://attalpresident.fr/actualites/france-2-gabriel-attal-fait-de-l-ecole-une-priorite-pour-preparer-l-avenir-du-pays"
+    }
+  ]
+},
           "sources": [
             {
               "nom": "Le Monde — 25 août 2026",
@@ -83,6 +95,18 @@
           "resume": "Son projet éducatif s'organise autour de quatre axes : enseignants, transmission des savoirs, autonomie des établissements et autorité. Il propose notamment un examen d'entrée en sixième, des groupes de niveau, davantage de pouvoir aux équipes éducatives et 1 000 établissements publics disposant d'une autonomie renforcée.",
           "financement": "Il propose une hausse de rémunération d'environ 135 euros nets mensuels en début de carrière, pouvant atteindre environ 300 euros. Le coût annoncé est d'environ 2 milliards d'euros. La baisse démographique scolaire est notamment présentée comme une source de marges budgétaires.",
           "population_concernee": "Élèves, familles, enseignants et établissements scolaires.",
+          "handicap_aesh": {
+  "statut": "Aucune proposition 2027 suffisamment précise identifiée à ce stade",
+  "propositions": "Le projet scolaire 2027 documenté de Bruno Retailleau développe notamment les enseignants, la transmission des savoirs, l'autonomie des établissements et l'autorité. Dans les sources vérifiées pour cette fiche, aucune mesure suffisamment précise n'est identifiée concernant le statut ou le nombre d'AESH, les heures d'accompagnement ou les dispositifs spécifiques pour les élèves avec TDAH ou trouble du spectre de l'autisme.",
+  "impact_familles": "Non précisé à ce stade. L'absence de proposition identifiée dans les sources consultées ne signifie pas nécessairement qu'aucune proposition ne sera présentée ultérieurement.",
+  "financement": "Aucun financement spécifique AESH identifié à ce stade.",
+  "sources": [
+    {
+      "nom": "Public Sénat — propositions pour l'école",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+    }
+  ]
+},
           "sources": [
             {
               "nom": "Public Sénat — projet pour l'école",
@@ -157,6 +181,18 @@
           "resume": "Fabien Roussel met en avant l'attractivité des métiers de l'éducation. Il cite les salaires, les conditions d'enseignement, le statut notamment des AESH et la formation initiale parmi les sujets nécessitant des changements profonds.",
           "financement": "Aucun montant précis n'est indiqué dans la source retenue.",
           "population_concernee": "Enseignants, AESH, personnels de l'éducation et, indirectement, élèves et familles.",
+          "handicap_aesh": {
+  "statut": "Orientation 2027 identifiée — modalités à préciser",
+  "propositions": "Fabien Roussel cite explicitement le statut des AESH parmi les sujets pour lesquels il estime nécessaires des changements profonds. Sa proposition détaillée pour 2027 concernant le statut, la rémunération, les effectifs et l'organisation de l'accompagnement reste toutefois à préciser.",
+  "impact_familles": "Le statut des AESH est donc explicitement identifié comme un sujet à traiter. En revanche, la source récente retenue ne permet pas encore de déterminer le nombre d'AESH supplémentaires, les heures d'accompagnement qui seraient garanties à chaque enfant ni les mesures particulières concernant les élèves avec TDAH ou trouble du spectre de l'autisme.",
+  "financement": "Aucun montant spécifique aux AESH n'est annoncé dans la source récente retenue.",
+  "sources": [
+    {
+      "nom": "Parti communiste français — lettre de Fabien Roussel, 28 août 2026",
+      "url": "https://www.pcf.fr/lettre_de_fabien_roussel_celles_et_ceux_qui_font_vivre_lecole"
+    }
+  ]
+},
           "sources": [
             {
               "nom": "Parti communiste français — 28 août 2026",
@@ -217,6 +253,22 @@
           "resume": "La France insoumise a ouvert en mai 2026 une phase de contributions pour actualiser L'Avenir en commun, programme annoncé pour la présidentielle 2027. Les mesures détaillées seront intégrées après vérification de la version actualisée.",
           "financement": "À documenter à partir de la version actualisée.",
           "population_concernee": "Élèves, familles et personnels de l'éducation.",
+          "handicap_aesh": {
+  "statut": "Propositions documentées dans la préparation du programme 2027",
+  "propositions": "Les documents programmatiques liés à Jean-Luc Mélenchon et à La France insoumise prévoient notamment la titularisation des AESH, la création d'un corps de fonctionnaires de catégorie B et la fin de la mutualisation de l'accompagnement via les PIAL. Une publication de septembre 2026 précise également un temps plein correspondant à 24 heures pour les AESH.",
+  "impact_familles": "La fin de la mutualisation vise à renforcer l'accompagnement individualisé des élèves en situation de handicap. Pour une famille ayant besoin d'un AESH, ces propositions concernent donc directement la stabilité et l'organisation de l'accompagnement. La source retenue ne permet toutefois pas de garantir à ce stade un nombre déterminé d'heures d'AESH pour chaque enfant avec TDAH ou trouble du spectre de l'autisme.",
+  "financement": "Le coût total de ces mesures et leur financement détaillé ne sont pas chiffrés dans les sources retenues pour cette fiche.",
+  "sources": [
+    {
+      "nom": "Mélenchon 2027 — synthèse des contributions",
+      "url": "https://melenchon2027.fr/synthese-des-contributions/"
+    },
+    {
+      "nom": "La France insoumise — école inclusive, 4 septembre 2026",
+      "url": "https://lafranceinsoumise.fr/2026/09/04/conference-nationale-du-handicap-lecole-inclusive-merite-mieux-quun-bilan-en-trompe-loeil/"
+    }
+  ]
+},
           "sources": [
             {
               "nom": "La France insoumise — 20 mai 2026",
@@ -292,6 +344,18 @@
           "resume": "Il propose une refonte importante de l'école : davantage d'autonomie pour les directions d'établissement, une refonte des rythmes scolaires, un soutien scolaire universel et une meilleure rémunération des enseignants.",
           "financement": "Le coût global et le financement détaillé de cette refonte ne sont pas précisés dans la source retenue.",
           "population_concernee": "Élèves, familles, enseignants et directions d'établissement.",
+          "handicap_aesh": {
+  "statut": "Aucune proposition 2027 suffisamment précise identifiée à ce stade",
+  "propositions": "Le projet scolaire présenté par Édouard Philippe comporte plusieurs mesures sur l'organisation de l'école, mais aucune proposition suffisamment précise n'a été identifiée dans les sources vérifiées pour cette fiche concernant le statut ou le nombre d'AESH, les heures d'accompagnement ou les dispositifs spécifiques pour les élèves avec TDAH ou trouble du spectre de l'autisme.",
+  "impact_familles": "Non précisé à ce stade. L'absence de proposition identifiée dans les sources consultées ne signifie pas qu'aucune mesure ne sera présentée ultérieurement.",
+  "financement": "Aucun financement spécifique AESH identifié à ce stade.",
+  "sources": [
+    {
+      "nom": "Le Monde — projet scolaire d'Édouard Philippe, 6 juillet 2026",
+      "url": "https://www.lemonde.fr/politique/article/2026/07/06/en-meeting-edouard-philippe-promet-de-faire-de-l-interet-de-nos-enfants-la-boussole-de-son-projet-presidentiel_6721057_823448.html"
+    }
+  ]
+},
           "sources": [
             {
               "nom": "Le Monde — 6 juillet 2026",
@@ -361,6 +425,18 @@
           "resume": "Il annonce vouloir reconstruire l'école publique. Les mesures opérationnelles, les effectifs, le calendrier et les modalités détaillées doivent encore être précisés.",
           "financement": "Non chiffré dans la source retenue.",
           "population_concernee": "Élèves, familles et personnels de l'éducation.",
+          "handicap_aesh": {
+  "statut": "Aucune proposition AESH 2027 suffisamment précise identifiée à ce stade",
+  "propositions": "Nicolas Dupont-Aignan fait de la reconstruction de l'école publique un axe de son projet présidentiel 2027. Dans les sources récentes vérifiées pour cette fiche, aucune mesure suffisamment précise n'est toutefois identifiée concernant le statut ou le nombre d'AESH, les heures d'accompagnement ou les dispositifs spécifiques pour les élèves avec TDAH ou trouble du spectre de l'autisme.",
+  "impact_familles": "Des propositions concernant la scolarisation des enfants en situation de handicap existaient dans une campagne présidentielle antérieure, mais elles ne sont pas présentées ici comme des engagements 2027 sans confirmation récente. L'effet concret du projet 2027 sur les familles ayant besoin d'un AESH reste donc à préciser.",
+  "financement": "Aucun financement spécifique AESH identifié pour 2027 à ce stade.",
+  "sources": [
+    {
+      "nom": "Nicolas Dupont-Aignan — discours de rentrée, 19 septembre 2026",
+      "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+    }
+  ]
+},
           "sources": [
             {
               "nom": "Nicolas Dupont-Aignan — discours du 19 septembre 2026",
@@ -431,6 +507,13 @@
           "resume": "Les mesures d'anciens programmes ne sont pas reprises automatiquement. Cette rubrique sera complétée lorsque des propositions éducatives seront clairement confirmées pour le projet présidentiel 2027.",
           "financement": "Non précisé à ce stade.",
           "population_concernee": "Élèves, familles et personnels de l'éducation.",
+          "handicap_aesh": {
+  "statut": "Positions antérieures identifiées — confirmation 2027 nécessaire",
+  "propositions": "Marine Le Pen a exprimé lors de campagnes antérieures des positions concernant l'accompagnement du handicap, notamment la formation et la reconnaissance des AESH ainsi que l'accompagnement de l'autisme. Ces positions antérieures ne sont pas présentées ici comme des engagements pour 2027 tant qu'elles ne sont pas confirmées dans son projet actuel.",
+  "impact_familles": "À ce stade, les sources récentes vérifiées ne permettent pas de déterminer précisément ce que son projet 2027 changerait pour une famille ayant besoin d'un AESH, notamment concernant le nombre d'accompagnants, les heures attribuées, la mutualisation ou les besoins particuliers des élèves avec TDAH ou trouble du spectre de l'autisme.",
+  "financement": "Aucun financement spécifique AESH suffisamment documenté pour 2027 n'est identifié à ce stade.",
+  "sources": []
+},
           "sources": []
         },
         "sante": {
@@ -496,6 +579,18 @@
           "resume": "Un programme consacré à l'école demeure publié sur le site programmatique d'Éric Zemmour. Cette fiche ne présente pas ses mesures comme définitivement reprises pour 2027 tant qu'une confirmation récente n'est pas identifiée.",
           "financement": "Non renseigné ici pour 2027.",
           "population_concernee": "Élèves, familles et personnels de l'éducation.",
+          "handicap_aesh": {
+  "statut": "Programme antérieur identifié — confirmation 2027 nécessaire",
+  "propositions": "Éric Zemmour dispose d'un programme publié antérieurement comportant des propositions sur le handicap et l'école. Dans les sources récentes vérifiées, aucune mesure suffisamment précise n'est toutefois confirmée comme proposition AESH spécifiquement arrêtée pour la présidentielle 2027.",
+  "impact_familles": "À ce stade, il n'est donc pas possible d'établir précisément ce que son projet 2027 changerait pour une famille ayant besoin d'un AESH, notamment concernant le nombre d'accompagnants, les heures attribuées, la mutualisation ou l'accompagnement spécifique des élèves avec TDAH ou trouble du spectre de l'autisme.",
+  "financement": "Aucun financement spécifique AESH confirmé pour 2027 n'est identifié à ce stade.",
+  "sources": [
+    {
+      "nom": "Programme publié par Éric Zemmour — Handicap",
+      "url": "https://programme.ericzemmour.fr/handicap"
+    }
+  ]
+},
           "sources": [
             {
               "nom": "Programme publié par Éric Zemmour — École",
