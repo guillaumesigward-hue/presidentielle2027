@@ -570,31 +570,95 @@ ecologie: "Écologie"
   }
 
   function afficherSondages() {
-    const container =
-      document.getElementById("sondages-grid");
+  const container =
+    document.getElementById("sondages-grid");
 
-    const sondages =
-      electionData?.sondages || [];
+  const sondages =
+    electionData?.sondages || [];
 
-    if (!sondages.length) {
-      container.innerHTML =
-        '<div class="card">Aucun sondage publié dans les données du site.</div>';
-      return;
-    }
+  if (!sondages.length) {
+    container.innerHTML =
+      '<div class="card">Aucun sondage publié dans les données du site.</div>';
+    return;
+  }
 
-    container.innerHTML = sondages.map(item => `
+  container.innerHTML = sondages.map(item => {
+    const description = String(item.description || "");
+
+    const resultats = description
+      .split(";")
+      .map(element => element.trim())
+      .filter(Boolean)
+      .map(element => {
+        const match = element.match(
+          /^(.*?)\s+(\d+(?:[,.]\d+)?)\s*%$/
+        );
+
+        if (!match) {
+          return `
+            <tr>
+              <td colspan="2">${escapeHtml(element)}</td>
+            </tr>
+          `;
+        }
+
+        return `
+          <tr>
+            <td>${escapeHtml(match[1].trim())}</td>
+            <td><strong>${escapeHtml(match[2])} %</strong></td>
+          </tr>
+        `;
+      })
+      .join("");
+
+    return `
       <article class="card poll-card">
-        <h3>${escapeHtml(item.titre || item.nom || "Sondage")}</h3>
-        <p>${escapeHtml(item.description || "")}</p>
+        <h3>${escapeHtml(item.titre || item.nom || item.institut || "Sondage")}</h3>
+
+        ${
+          resultats
+            ? `
+              <div style="overflow-x:auto;">
+                <table style="width:100%; border-collapse:collapse;">
+                  <thead>
+                    <tr>
+                      <th style="text-align:left; padding:8px; border-bottom:1px solid #ddd;">
+                        Personne testée
+                      </th>
+                      <th style="text-align:right; padding:8px; border-bottom:1px solid #ddd;">
+                        Intention de vote
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${resultats}
+                  </tbody>
+                </table>
+              </div>
+            `
+            : '<p>Aucun résultat détaillé disponible.</p>'
+        }
+
+        <p style="margin-top:16px;">
+          <strong>Institut / scénario :</strong>
+          ${escapeHtml(item.institut || item.titre || item.nom || "Non précisé")}
+        </p>
+
         ${
           item.url
             ? `<p>${lienSource(item.url, item.source || "Source")}</p>`
             : ""
         }
-      </article>
-    `).join("");
-  }
 
+        <p class="section-intro">
+          Un sondage mesure des intentions déclarées dans un scénario et
+          à une période donnés. Il ne constitue pas une prédiction du
+          résultat de l'élection.
+        </p>
+      </article>
+    `;
+  }).join("");
+}
   function afficherSolidite(theme) {
     const valeur = theme?.solidite_documentaire;
     const explication =
