@@ -645,6 +645,49 @@
           <p>${escapeHtml(
             theme.population_concernee || "Non précisée."
           )}</p>
+     ${
+  themeActif === "ecole" && theme.handicap_aesh
+    ? `
+      <div class="aesh-box">
+        <h4>♿ Handicap, AESH et école inclusive</h4>
+
+        <p><strong>État des propositions :</strong><br>
+        ${escapeHtml(theme.handicap_aesh.statut || "Non précisé.")}</p>
+
+        <p><strong>Ce qui est proposé :</strong><br>
+        ${escapeHtml(theme.handicap_aesh.propositions || "Non précisé.")}</p>
+
+        <p><strong>Conséquences possibles pour les élèves et les familles :</strong><br>
+        ${escapeHtml(theme.handicap_aesh.impact_familles || "Non précisé.")}</p>
+
+        <p><strong>Financement :</strong><br>
+        ${escapeHtml(theme.handicap_aesh.financement || "Non précisé.")}</p>
+        ${
+  Array.isArray(theme.handicap_aesh.sources) &&
+  theme.handicap_aesh.sources.length
+    ? `
+      <p><strong>Sources AESH / handicap :</strong></p>
+      <ul class="sources-list">
+        ${theme.handicap_aesh.sources.map(source => `
+          <li>
+            ${lienSource(
+              source.url,
+              source.nom || "Source"
+            )}
+          </li>
+        `).join("")}
+      </ul>
+    `
+    : `
+      <p class="empty-source">
+        Aucune source 2027 spécifique publiée dans cette fiche à ce stade.
+      </p>
+    `
+}
+      </div>
+    `
+    : ""
+}     
 
           <h4>Sources</h4>
           ${sourcesHtml}
