@@ -1,6 +1,6 @@
 {
   "derniere_verification": "21 septembre 2026",
-  "methodologie": "Les propositions sont résumées de manière descriptive à partir de sources identifiées. Une mesure ancienne n'est pas présentée comme une proposition 2027 sans confirmation. Lorsqu'un montant ou un financement n'est pas précisé dans les sources retenues, il est indiqué comme non précisé.",
+  "methodologie": "Les propositions sont présentées de manière descriptive à partir de sources identifiées. Une mesure ancienne n'est pas présentée comme une proposition pour 2027 sans confirmation. Lorsqu'un montant ou un mode de financement n'est pas précisé dans les sources retenues, il est indiqué comme non chiffré ou non précisé.",
   "themes_prioritaires": [
     "École",
     "Santé",
@@ -25,22 +25,22 @@
         },
         "sante": {
           "statut": "Recherche en cours",
-          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
-          "financement": "Non renseigné à ce stade.",
+          "resume": "Aucune proposition 2027 suffisamment précise n'est encore intégrée dans cette fiche.",
+          "financement": "Non précisé à ce stade.",
           "population_concernee": "À documenter.",
           "sources": []
         },
         "energie": {
           "statut": "Recherche en cours",
-          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
-          "financement": "Non renseigné à ce stade.",
+          "resume": "Aucune proposition 2027 suffisamment précise n'est encore intégrée dans cette fiche.",
+          "financement": "Non précisé à ce stade.",
           "population_concernee": "À documenter.",
           "sources": []
         },
         "fiscalite": {
           "statut": "Recherche en cours",
-          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
-          "financement": "Non renseigné à ce stade.",
+          "resume": "Aucune proposition 2027 suffisamment précise n'est encore intégrée dans cette fiche.",
+          "financement": "Non précisé à ce stade.",
           "population_concernee": "À documenter.",
           "sources": []
         }
@@ -50,7 +50,7 @@
       "nom": "Bruno Retailleau",
       "themes": {
         "ecole": {
-          "statut": "Projet présidentiel présenté pour 2027",
+          "statut": "Projet présenté dans la préparation de 2027",
           "resume": "Son projet éducatif s'organise autour de quatre axes : enseignants, transmission des savoirs, autonomie des établissements et autorité. Il propose notamment un examen d'entrée en sixième, des groupes de niveau, davantage de pouvoir aux équipes éducatives et la création de 1 000 établissements publics disposant d'une autonomie renforcée.",
           "financement": "Il souhaite rapprocher la rémunération des enseignants de la moyenne européenne. Le montant de la hausse et le financement global de ces mesures ne sont pas précisés dans la source retenue.",
           "population_concernee": "Élèves, familles, enseignants et établissements scolaires.",
@@ -63,24 +63,29 @@
         },
         "sante": {
           "statut": "Recherche en cours",
-          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
-          "financement": "Non renseigné à ce stade.",
-          "population_concernee": "À documenter.",
+          "resume": "Le volet santé reste à documenter à partir de propositions 2027 suffisamment précises et directement attribuables.",
+          "financement": "Non précisé à ce stade.",
+          "population_concernee": "Patients, professionnels de santé et assurés sociaux.",
           "sources": []
         },
         "energie": {
-          "statut": "Recherche en cours",
-          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
-          "financement": "Non renseigné à ce stade.",
-          "population_concernee": "À documenter.",
+          "statut": "Orientations publiées dans la préparation de 2027",
+          "resume": "Les propositions publiées par Les Républicains mettent l'accent sur le développement du nucléaire et l'arrêt de nouvelles subventions à l'éolien et au photovoltaïque. La fiche sera complétée en distinguant le socle collectif LR des propositions personnellement formulées par Bruno Retailleau.",
+          "financement": "Le chiffrage global et l'effet détaillé sur les factures des ménages ne sont pas précisés ici.",
+          "population_concernee": "Ménages, entreprises, producteurs d'énergie et finances publiques.",
           "sources": []
         },
         "fiscalite": {
-          "statut": "Recherche en cours",
-          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
-          "financement": "Non renseigné à ce stade.",
-          "population_concernee": "À documenter.",
-          "sources": []
+          "statut": "Propositions économiques présentées en 2026",
+          "resume": "Il propose une baisse de 25 milliards d'euros des cotisations patronales et de 15 milliards d'euros des impôts de production, notamment en ciblant la CVAE et la C3S.",
+          "financement": "Le financement détaillé et les compensations budgétaires de l'ensemble de ces baisses restent à préciser dans cette fiche.",
+          "population_concernee": "Entreprises, employeurs, salariés et finances publiques.",
+          "sources": [
+            {
+              "nom": "Le Monde — 19 mai 2026",
+              "url": "https://www.lemonde.fr/politique/article/2026/05/19/fiscalite-les-impots-de-production-au-c-ur-de-la-future-bataille-politique_6691520_823448.html"
+            }
+          ]
         }
       }
     },
@@ -101,23 +106,23 @@
         },
         "sante": {
           "statut": "Recherche en cours",
-          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
-          "financement": "Non renseigné à ce stade.",
-          "population_concernee": "À documenter.",
+          "resume": "Les propositions sanitaires destinées à 2027 seront intégrées après vérification des documents de campagne correspondants.",
+          "financement": "Non précisé à ce stade.",
+          "population_concernee": "Patients, professionnels de santé et assurés sociaux.",
           "sources": []
         },
         "energie": {
-          "statut": "Recherche en cours",
-          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
-          "financement": "Non renseigné à ce stade.",
-          "population_concernee": "À documenter.",
+          "statut": "Propositions 2027 à documenter plus complètement",
+          "resume": "Des propositions récentes portent sur une maîtrise publique accrue de l'énergie et une augmentation de la production d'électricité décarbonée. La fiche détaillée sera complétée à partir des documents de campagne primaires.",
+          "financement": "Le coût et le calendrier détaillés ne sont pas intégrés à ce stade.",
+          "population_concernee": "Ménages, entreprises, salariés du secteur énergétique et finances publiques.",
           "sources": []
         },
         "fiscalite": {
           "statut": "Recherche en cours",
-          "resume": "Les propositions 2027 seront ajoutées après vérification de sources suffisamment précises.",
-          "financement": "Non renseigné à ce stade.",
-          "population_concernee": "À documenter.",
+          "resume": "Les mesures fiscales seront intégrées après vérification dans les documents de campagne 2027, notamment concernant le patrimoine, le capital et les hauts revenus.",
+          "financement": "À documenter.",
+          "population_concernee": "Contribuables, ménages, entreprises et finances publiques.",
           "sources": []
         }
       }
@@ -126,10 +131,10 @@
       "nom": "Jean-Luc Mélenchon",
       "themes": {
         "ecole": {
-          "statut": "Programme 2027 en cours d'actualisation",
-          "resume": "La France insoumise a ouvert en mai 2026 une nouvelle phase de contributions pour actualiser L'Avenir en commun, présenté comme le programme qui sera porté à la présidentielle de 2027. Les mesures détaillées seront intégrées ici après vérification de la version actualisée.",
-          "financement": "À documenter à partir de la version actualisée du programme 2027.",
-          "population_concernee": "À préciser lors de l'intégration des mesures actualisées.",
+          "statut": "Programme en cours d'actualisation pour 2027",
+          "resume": "La France insoumise a ouvert en mai 2026 une nouvelle phase de contributions pour actualiser L'Avenir en commun en vue de 2027. Les mesures détaillées seront intégrées après vérification de la version actualisée.",
+          "financement": "À documenter à partir de la version actualisée.",
+          "population_concernee": "Élèves, familles et personnels de l'éducation.",
           "sources": [
             {
               "nom": "La France insoumise — 20 mai 2026",
@@ -138,24 +143,201 @@
           ]
         },
         "sante": {
-          "statut": "Programme 2027 en cours d'actualisation",
-          "resume": "Synthèse à établir à partir de la version actualisée de L'Avenir en commun.",
+          "statut": "Programme en cours d'actualisation pour 2027",
+          "resume": "L'Avenir en commun comporte des propositions concernant l'hôpital public et l'organisation du système de santé. La fiche sera détaillée après vérification de leur maintien dans la version actualisée pour 2027.",
+          "financement": "À documenter dans la version actualisée.",
+          "population_concernee": "Patients, professionnels de santé et assurés sociaux.",
+          "sources": []
+        },
+        "energie": {
+          "statut": "Programme en cours d'actualisation pour 2027",
+          "resume": "Les orientations énergétiques seront détaillées après vérification de la version actualisée du programme afin de ne pas présenter automatiquement les mesures d'une édition antérieure comme définitivement arrêtées pour 2027.",
           "financement": "À documenter.",
+          "population_concernee": "Ménages, entreprises et secteur énergétique.",
+          "sources": []
+        },
+        "fiscalite": {
+          "statut": "Programme en cours d'actualisation pour 2027",
+          "resume": "Les propositions fiscales seront détaillées à partir de la version actualisée du programme, notamment sur l'imposition du patrimoine, des revenus et des entreprises.",
+          "financement": "À documenter.",
+          "population_concernee": "Contribuables, ménages, entreprises et finances publiques.",
+          "sources": []
+        }
+      }
+    },
+    {
+      "nom": "Édouard Philippe",
+      "themes": {
+        "ecole": {
+          "statut": "Propositions présentées pour son projet présidentiel",
+          "resume": "Il propose une refonte importante de l'école : davantage d'autonomie pour les directions d'établissement, une refonte des rythmes scolaires, un soutien scolaire universel et une meilleure rémunération des enseignants.",
+          "financement": "Le coût global et le financement détaillé de cette refonte ne sont pas précisés dans la source retenue.",
+          "population_concernee": "Élèves, familles, enseignants et directions d'établissement.",
+          "sources": [
+            {
+              "nom": "Le Monde — 6 juillet 2026",
+              "url": "https://www.lemonde.fr/politique/article/2026/07/06/en-meeting-edouard-philippe-promet-de-faire-de-l-interet-de-nos-enfants-la-boussole-de-son-projet-presidentiel_6721057_823448.html"
+            }
+          ]
+        },
+        "sante": {
+          "statut": "Recherche en cours",
+          "resume": "Aucune synthèse n'est encore publiée ici faute d'un ensemble de propositions sanitaires 2027 suffisamment détaillé et vérifié.",
+          "financement": "Non précisé à ce stade.",
           "population_concernee": "À documenter.",
           "sources": []
         },
         "energie": {
-          "statut": "Programme 2027 en cours d'actualisation",
-          "resume": "Synthèse à établir à partir de la version actualisée de L'Avenir en commun.",
-          "financement": "À documenter.",
-          "population_concernee": "À documenter.",
+          "statut": "Recherche en cours",
+          "resume": "Les propositions concernant la production énergétique, les prix et leur financement doivent encore être consolidées à partir des documents de campagne.",
+          "financement": "Non précisé à ce stade.",
+          "population_concernee": "Ménages, entreprises et secteur énergétique.",
           "sources": []
         },
         "fiscalite": {
-          "statut": "Programme 2027 en cours d'actualisation",
-          "resume": "Synthèse à établir à partir de la version actualisée de L'Avenir en commun.",
-          "financement": "À documenter.",
-          "population_concernee": "À documenter.",
+          "statut": "Proposition destinée au projet présidentiel",
+          "resume": "Il propose de réduire de 50 milliards d'euros par an les impôts de production payés par les entreprises, avec une diminution équivalente des aides publiques aux entreprises.",
+          "financement": "La baisse de 50 milliards d'euros d'impôts de production serait compensée, selon sa proposition, par 50 milliards d'euros de baisse des aides aux entreprises, avec l'objectif annoncé d'un impact budgétaire neutre pour l'État.",
+          "population_concernee": "Entreprises, bénéficiaires des aides publiques concernées et finances de l'État.",
+          "sources": [
+            {
+              "nom": "TF1-LCI — débat du 27 août 2026",
+              "url": "https://www.tf1info.fr/politique/direct-video-streaming-presidentielle-2027-7-candidats-se-confrontent-aux-patrons-francais-le-premier-debat-de-la-campagne-a-suivre-en-exclusivite-sur-lci-2460751.html"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "nom": "Nicolas Dupont-Aignan",
+      "themes": {
+        "ecole": {
+          "statut": "Axe du projet présidentiel 2027 présenté le 19 septembre 2026",
+          "resume": "Il annonce vouloir reconstruire l'école publique. Les mesures opérationnelles, les effectifs, le calendrier et les modalités détaillées doivent encore être précisés avant de pouvoir fournir une synthèse plus complète.",
+          "financement": "Non chiffré dans la source retenue.",
+          "population_concernee": "Élèves, familles et personnels de l'éducation.",
+          "sources": [
+            {
+              "nom": "Nicolas Dupont-Aignan — discours du 19 septembre 2026",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        },
+        "sante": {
+          "statut": "Axe du projet présidentiel 2027 présenté le 19 septembre 2026",
+          "resume": "Il annonce une refondation de l'hôpital. Les mesures précises concernant les personnels, l'accès aux soins, les dépenses et la Sécurité sociale doivent encore être documentées.",
+          "financement": "Non chiffré dans la source retenue.",
+          "population_concernee": "Patients, personnels hospitaliers et assurés sociaux.",
+          "sources": [
+            {
+              "nom": "Nicolas Dupont-Aignan — discours du 19 septembre 2026",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        },
+        "energie": {
+          "statut": "Axe du projet présidentiel 2027 présenté le 19 septembre 2026",
+          "resume": "Il fait de la baisse du prix de l'énergie un axe de son projet, en s'appuyant notamment sur le nucléaire et sur une modification du cadre énergétique et européen qu'il défend.",
+          "financement": "Le coût global, les investissements nécessaires et le montant exact de la baisse des factures ne sont pas précisés dans la source retenue.",
+          "population_concernee": "Ménages, automobilistes, entreprises et secteur énergétique.",
+          "sources": [
+            {
+              "nom": "Nicolas Dupont-Aignan — discours du 19 septembre 2026",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        },
+        "fiscalite": {
+          "statut": "Axes du projet présidentiel 2027 présentés le 19 septembre 2026",
+          "resume": "Il annonce une baisse des impôts de production et une diminution des taxes sur les carburants. Les paramètres fiscaux complets et leurs conséquences budgétaires doivent encore être détaillés.",
+          "financement": "Le financement compensatoire et le coût total pour les finances publiques ne sont pas précisés dans la source retenue.",
+          "population_concernee": "Entreprises, automobilistes, ménages et finances publiques.",
+          "sources": [
+            {
+              "nom": "Nicolas Dupont-Aignan — discours du 19 septembre 2026",
+              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "nom": "Marine Le Pen",
+      "themes": {
+        "ecole": {
+          "statut": "Recherche en cours",
+          "resume": "Les mesures d'anciens programmes ne sont pas reprises automatiquement. Cette rubrique sera complétée lorsque des propositions éducatives seront clairement confirmées pour le projet présidentiel 2027.",
+          "financement": "Non précisé à ce stade.",
+          "population_concernee": "Élèves, familles et personnels de l'éducation.",
+          "sources": []
+        },
+        "sante": {
+          "statut": "Recherche en cours",
+          "resume": "Cette rubrique attend des propositions sanitaires suffisamment détaillées et explicitement rattachées au projet 2027.",
+          "financement": "Non précisé à ce stade.",
+          "population_concernee": "Patients, professionnels de santé et assurés sociaux.",
+          "sources": []
+        },
+        "energie": {
+          "statut": "Orientations récentes à consolider pour 2027",
+          "resume": "Les orientations récentes du Rassemblement national privilégient fortement le nucléaire et contestent le développement de certaines énergies renouvelables. Des propositions de baisse de TVA sur l'énergie et les carburants ont également été défendues. La fiche distinguera les mesures confirmées pour 2027 de celles provenant de programmes antérieurs.",
+          "financement": "Le coût budgétaire et le financement complet de ces mesures ne sont pas encore renseignés dans cette fiche.",
+          "population_concernee": "Ménages, automobilistes, entreprises, producteurs d'énergie et finances publiques.",
+          "sources": []
+        },
+        "fiscalite": {
+          "statut": "Cadre budgétaire annoncé pour le projet présidentiel 2027",
+          "resume": "Marine Le Pen a annoncé une règle budgétaire visant à limiter le déficit public à 3 % du PIB. Ce cadre concerne l'ensemble des recettes et dépenses publiques et ne constitue pas à lui seul le détail de sa politique fiscale.",
+          "financement": "Une trajectoire allant jusqu'à 125 milliards d'euros d'économies nettes a été évoquée à l'horizon de la troisième ou quatrième année. La répartition détaillée de ces économies doit être examinée mesure par mesure.",
+          "population_concernee": "Ensemble des contribuables, bénéficiaires des dépenses publiques, administrations et finances publiques.",
+          "sources": [
+            {
+              "nom": "Le Monde — 29 août 2026",
+              "url": "https://www.lemonde.fr/politique/article/2026/08/29/presidentielle-2027-la-regle-d-or-budgetaire-de-marine-le-pen-limiterait-le-deficit-a-3-du-pib_6760267_823448.html"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "nom": "Éric Zemmour",
+      "themes": {
+        "ecole": {
+          "statut": "Position antérieure disponible — confirmation 2027 nécessaire",
+          "resume": "Reconquête publie toujours un programme consacré à l'école, mais cette fiche ne le présente pas comme un programme 2027 actualisé tant que son maintien n'est pas explicitement confirmé dans la campagne actuelle.",
+          "financement": "Non renseigné pour 2027.",
+          "population_concernee": "Élèves, familles et personnels de l'éducation.",
+          "sources": [
+            {
+              "nom": "Programme publié par Éric Zemmour — école",
+              "url": "https://programme.ericzemmour.fr/ecole"
+            }
+          ]
+        },
+        "sante": {
+          "statut": "Position antérieure disponible — confirmation 2027 nécessaire",
+          "resume": "Un programme sanitaire antérieur reste publié, mais ses mesures ne sont pas présentées ici comme définitivement reprises pour 2027 sans confirmation récente.",
+          "financement": "Non renseigné pour 2027.",
+          "population_concernee": "Patients, professionnels de santé et assurés sociaux.",
+          "sources": [
+            {
+              "nom": "Programme publié par Éric Zemmour — santé",
+              "url": "https://programme.ericzemmour.fr/sante"
+            }
+          ]
+        },
+        "energie": {
+          "statut": "Recherche en cours pour 2027",
+          "resume": "Les positions antérieures de Reconquête sur le nucléaire et les énergies renouvelables ne sont pas automatiquement présentées comme le programme présidentiel 2027. Une confirmation récente sera nécessaire.",
+          "financement": "Non renseigné pour 2027.",
+          "population_concernee": "Ménages, entreprises et secteur énergétique.",
+          "sources": []
+        },
+        "fiscalite": {
+          "statut": "Recherche en cours pour 2027",
+          "resume": "Les propositions fiscales des campagnes et documents antérieurs ne sont pas automatiquement attribuées au programme 2027. La fiche sera complétée à partir des nouvelles propositions de campagne.",
+          "financement": "Non renseigné pour 2027.",
+          "population_concernee": "Contribuables, ménages, entreprises et finances publiques.",
           "sources": []
         }
       }
