@@ -1,19 +1,19 @@
 {
-  "last_checked_utc": "2026-09-21T05:29:36.038586+00:00",
+  "last_checked_utc": "2026-09-21T13:40:04.108402+00:00",
   "last_checked_fr": "21 septembre 2026",
+  "publication_automatique": false,
   "sources": {
     "commission_sondages": {
-      "ok": true,
+      "ok": false,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_trouvees": 66,
-      "latest_notice_id": "10268",
-      "publication_automatique": false,
-      "raison": "La rubrique présidentielle contient aussi des enquêtes thématiques. Une notice n'est donc pas automatiquement une intention de vote."
+      "erreur": "<urlopen error [Errno 104] Connection reset by peer>",
+      "publication_automatique": false
     },
     "verian": {
       "ok": true,
       "url": "https://www.veriangroup.com/fr/news-and-insights",
-      "bytes": 133071
+      "publication_automatique": false,
+      "raison": "Les nouvelles publications sont détectées pour examen. Le robot ne transforme pas automatiquement une publication Verian en sondage présidentiel ou en contenu politique."
     }
   }
 }

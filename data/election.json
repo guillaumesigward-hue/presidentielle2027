@@ -192,13 +192,13 @@
   "sources": [
     {
       "nom": "Commission des sondages",
-      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "type": "contrôle et notices de sondages"
+      "description": "Notices officielles relatives aux sondages. La rubrique 2027 peut aussi contenir des enquêtes thématiques : elles sont vérifiées avant publication.",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle"
     },
     {
       "nom": "Verian",
-      "url": "https://www.veriangroup.com/fr/news-and-insights",
-      "type": "études d'opinion"
+      "description": "Publications et études de Verian. Les nouvelles études détectées sont placées en attente de vérification.",
+      "url": "https://www.veriangroup.com/fr/news-and-insights"
     }
   ]
 }
