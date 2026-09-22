@@ -1,9 +1,99 @@
 [
   {
+    "type": "commission_sondages",
+    "titre": "10269 Pres Indices de popularite IFOP LOpinion 21 septembre",
+    "url": "/notices/medias/fichiers/add/2284",
+    "date_detection": "22 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10246A Pres Indices de popularite IFOP LOpinion 31 septembre",
+    "url": "/notices/medias/fichiers/add/2283",
+    "date_detection": "22 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10268 Pres Question CSA Cnews 18 septembre",
+    "url": "/notices/medias/fichiers/add/2282",
+    "date_detection": "22 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10265 Pres Taxe carburants CSA 17 septembre",
+    "url": "/notices/medias/fichiers/add/2281",
+    "date_detection": "22 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10267 Pres ODOXA Le Figaro 16 septembre",
+    "url": "/notices/medias/fichiers/add/2280",
+    "date_detection": "22 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10266 Pres Le pouvoir dachat ELABE 16 septembre",
+    "url": "/notices/medias/fichiers/add/2279",
+    "date_detection": "22 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10261 Pres Barometre politique IPSOS BVA La Tribune 12 septembre",
+    "url": "/notices/medias/fichiers/add/2278",
+    "date_detection": "22 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10264 Pres OPINIONWAY Facebook 15 septembre",
+    "url": "/notices/medias/fichiers/add/2277",
+    "date_detection": "22 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10263 Pres IV TOLUNA HARRIS INTERACTIVE RTL 14 septembre",
+    "url": "/notices/medias/fichiers/add/2276",
+    "date_detection": "22 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10262 Pres Enquete electorale IPSOS BVA Le Monde 13 septembre",
+    "url": "/notices/medias/fichiers/add/2275",
+    "date_detection": "22 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
     "type": "verian",
     "titre": "Publication Verian détectée — stature présidentielle",
     "url": "https://www.veriangroup.com/fr/news-and-insights",
-    "date_detection": "21 septembre 2026",
+    "date_detection": "22 septembre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Vérifier la publication originale, les dates de terrain, l'échantillon et la nature exacte de l'enquête avant toute publication sur le site."
@@ -12,7 +102,7 @@
     "type": "verian",
     "titre": "Publication Verian détectée — baromètre politique",
     "url": "https://www.veriangroup.com/fr/news-and-insights",
-    "date_detection": "21 septembre 2026",
+    "date_detection": "22 septembre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Vérifier la publication originale, les dates de terrain, l'échantillon et la nature exacte de l'enquête avant toute publication sur le site."
