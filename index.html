@@ -667,20 +667,20 @@ ecologie: "Écologie"
           ${escapeHtml(item.institut || item.titre || item.nom || "Non précisé")}
         </p>
         ${
-          article.commanditaire
-            ? `<p><strong>Commanditaire :</strong> ${escapeHtml(article.commanditaire)}</p>`
+          item.commanditaire
+            ? `<p><strong>Commanditaire :</strong> ${escapeHtml(item.commanditaire)}</p>`
             : ""
         }
 
         ${
-          article.terrain
-            ? `<p><strong>Terrain :</strong> ${escapeHtml(article.terrain)}</p>`
+          item.terrain
+            ? `<p><strong>Terrain :</strong> ${escapeHtml(item.terrain)}</p>`
             : ""
         }
 
         ${
-          article.echantillon
-            ? `<p><strong>Échantillon :</strong> ${escapeHtml(article.echantillon)}</p>`
+          item.echantillon
+            ? `<p><strong>Échantillon :</strong> ${escapeHtml(item.echantillon)}</p>`
             : ""
         }
         ${
