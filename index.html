@@ -255,7 +255,30 @@
     .poll-card {
       border-left: 4px solid #075bc8;
     }
+#sondages-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 
+.poll-card table {
+  table-layout: fixed;
+}
+
+.poll-card th:first-child,
+.poll-card td:first-child {
+  width: 70%;
+}
+
+.poll-card th:last-child,
+.poll-card td:last-child {
+  width: 30%;
+  text-align: right;
+}
+
+@media (max-width: 800px) {
+  #sondages-grid {
+    grid-template-columns: 1fr;
+  }
+}
     .news-card {
       border-top: 4px solid #075bc8;
     }
