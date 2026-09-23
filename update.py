@@ -163,6 +163,8 @@ try:
         flags=re.IGNORECASE | re.DOTALL
     ):
         url = match.group(1)
+        if url.startswith("/"):
+        url = "https://www.commission-des-sondages.fr" + url
         titre = clean_text(match.group(2))
 
         if not titre:
