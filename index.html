@@ -614,7 +614,7 @@ ecologie: "Écologie"
       .filter(Boolean)
       .map(element => {
         const match = element.match(
-          /^(.*?)\s+(\d+(?:[,.]\d+)?)\s*%$/
+        /^(.*?)\s+(\d+(?:[,.]\d+)?)\s*%[.\s]*$/
         );
 
         if (!match) {
@@ -666,7 +666,23 @@ ecologie: "Écologie"
           <strong>Institut / scénario :</strong>
           ${escapeHtml(item.institut || item.titre || item.nom || "Non précisé")}
         </p>
+        ${
+          article.commanditaire
+            ? `<p><strong>Commanditaire :</strong> ${escapeHtml(article.commanditaire)}</p>`
+            : ""
+        }
 
+        ${
+          article.terrain
+            ? `<p><strong>Terrain :</strong> ${escapeHtml(article.terrain)}</p>`
+            : ""
+        }
+
+        ${
+          article.echantillon
+            ? `<p><strong>Échantillon :</strong> ${escapeHtml(article.echantillon)}</p>`
+            : ""
+        }
         ${
           item.url
             ? `<p>${lienSource(item.url, item.source || "Source")}</p>`
