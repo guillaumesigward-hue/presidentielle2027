@@ -711,46 +711,77 @@
   ]
 }, 
         "sante": {
-          "statut": "Programme publié antérieurement — confirmation 2027 nécessaire",
-          "solidite_documentaire": 90,
-          "solidite_explication": "L'existence de la page Santé est directement vérifiée ; son adoption intégrale comme programme 2027 actualisé reste à confirmer.",
-          "resume": "Un programme sanitaire demeure publié sur le site programmatique d'Éric Zemmour, mais ses mesures ne sont pas présentées ici comme définitivement reprises pour 2027 sans confirmation récente.",
-          "financement": "Non renseigné ici pour 2027.",
-          "population_concernee": "Patients, professionnels de santé et assurés sociaux.",
-          "sources": [
-            {
-              "nom": "Programme publié par Éric Zemmour — Santé",
-              "url": "https://programme.ericzemmour.fr/sante"
-            }
-          ]
-        },
-        "energie": {
-          "statut": "Recherche en cours pour 2027",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : les positions publiées antérieurement ne sont pas automatiquement assimilées au programme 2027.",
-          "resume": "Les positions antérieures sur le nucléaire et les énergies renouvelables ne sont pas automatiquement présentées comme le programme présidentiel 2027. Une confirmation récente sera nécessaire.",
-          "financement": "Non renseigné pour 2027.",
-          "population_concernee": "Ménages, entreprises et secteur énergétique.",
-          "sources": []
-        },
-        "fiscalite": {
-          "statut": "Recherche en cours pour 2027",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : les propositions fiscales antérieures doivent être confirmées pour 2027.",
-          "resume": "Les propositions fiscales des campagnes et documents antérieurs ne sont pas automatiquement attribuées au programme 2027. La fiche sera complétée à partir des nouvelles propositions de campagne.",
-          "financement": "Non renseigné pour 2027.",
-          "population_concernee": "Contribuables, ménages, entreprises et finances publiques.",
-          "sources": []
-        },
-        "ecologie": {
-          "statut": "Recherche en cours pour 2027",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : aucune synthèse écologique 2027 suffisamment documentée n'est encore intégrée.",
-          "resume": "Les positions environnementales provenant de campagnes antérieures ne sont pas automatiquement présentées comme son programme écologique pour 2027. Cette rubrique sera complétée lorsque des propositions récentes et suffisamment précises auront été vérifiées.",
-          "financement": "Non renseigné pour 2027.",
-          "population_concernee": "À documenter.",
-          "sources": []
-        }
+  "statut": "Programme Santé 2027 non encore suffisamment documenté",
+  "solidite_documentaire": null,
+  "solidite_explication": "Non évaluée : Éric Zemmour a annoncé sa candidature à l'élection présidentielle de 2027 en septembre 2026, mais les sources récentes vérifiées ne permettent pas encore d'établir un ensemble suffisamment précis de propositions sanitaires spécifiquement confirmées pour cette campagne. Un programme Santé détaillé demeure accessible sur son ancien site programmatique, mais il provient de la campagne présidentielle précédente et n'est pas automatiquement considéré comme reconduit pour 2027.",
+  "resume": "À la date de vérification de cette fiche, aucune proposition Santé 2027 suffisamment précise n'a été identifiée dans les annonces récentes retenues pour établir un programme détaillé concernant l'hôpital public, les effectifs et rémunérations des soignants, les déserts médicaux, l'installation des médecins, les soins de proximité, la psychiatrie, les médicaments, les remboursements, les restes à charge, le grand âge ou le financement de l'Assurance maladie. Éric Zemmour dispose d'un programme sanitaire publié lors de sa précédente campagne présidentielle, mais ses mesures ne sont pas reproduites ici comme engagements 2027 tant que leur maintien n'est pas explicitement confirmé. La fiche sera complétée à mesure de la publication de son programme présidentiel 2027.",
+  "financement": "Aucun budget global, montant de dépenses ou d'économies ni mécanisme de financement spécifiquement rattaché à un programme Santé 2027 n'a été suffisamment documenté dans les sources récentes retenues. Les chiffrages de la campagne présidentielle précédente ne sont pas automatiquement réattribués à 2027.",
+  "population_concernee": "À préciser lors de la publication des mesures Santé 2027. Les patients, assurés sociaux et professionnels de santé seraient concernés par un futur programme sanitaire, mais aucune mesure précise ne leur est attribuée ici sans confirmation récente.",
+  "sources": [
+    {
+      "nom": "RTL — annonce de candidature et premières orientations du programme 2027, 18 septembre 2026",
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-eric-zemmour-confirme-sa-candidature-et-donne-les-premieres-pistes-de-son-programme-7900673673"
+    },
+    {
+      "nom": "Éric Zemmour — ancien programme Santé, conservé uniquement comme référence historique",
+      "url": "https://programme.ericzemmour.fr/sante"
+    }
+  ]
+},
+"energie": {
+  "statut": "Premières propositions énergétiques annoncées pour 2027 — programme complet encore à publier",
+  "solidite_documentaire": 96,
+  "solidite_explication": "Des propositions nucléaires précises ont été annoncées dans une prise de parole récente rattachée à la préparation de 2027 : calendrier de construction de nouveaux EPR et utilisation prioritaire d'un surplus nucléaire pour des infrastructures françaises d'intelligence artificielle. Le programme énergétique complet n'est toutefois pas encore publié, et les autres mesures de la campagne précédente ne sont pas automatiquement reconduites.",
+  "resume": "Éric Zemmour place de nouveau le nucléaire au centre des premières orientations énergétiques annoncées pour 2027. Il propose de relancer la construction nucléaire avec un objectif de 6 EPR d'ici 2035 et de 14 EPR d'ici 2045. Il propose également de réserver en priorité 9 GW de surplus nucléaire à des infrastructures françaises d'intelligence artificielle, avec des tarifs préférentiels garantis par des contrats de long terme. Ces annonces relient sa politique énergétique à son objectif de développement d'une industrie française de l'intelligence artificielle. Son programme présidentiel antérieur comportait d'autres propositions concernant notamment la prolongation du parc nucléaire, les énergies renouvelables et l'éolien. Elles ne sont pas toutes reproduites ici comme engagements 2027 tant que leur maintien n'est pas confirmé par les nouvelles annonces ou le programme actualisé.",
+  "financement": "Les annonces récentes retenues précisent les objectifs de construction nucléaire et l'utilisation proposée du surplus électrique, mais ne fournissent pas encore le coût global actualisé des 6 puis 14 EPR, le mécanisme complet de financement des nouveaux réacteurs, ni l'incidence budgétaire et économique détaillée des tarifs préférentiels proposés pour les infrastructures françaises d'intelligence artificielle. Aucun chiffrage provenant de la campagne précédente n'est automatiquement repris comme chiffrage 2027.",
+  "population_concernee": "Consommateurs d'électricité, ménages et entreprises, filière nucléaire et ses salariés, entreprises industrielles ainsi que centres de données et entreprises françaises développant des infrastructures d'intelligence artificielle.",
+  "sources": [
+    {
+      "nom": "Objectif 2027 — propositions d'Éric Zemmour relevées dans une prise de parole de campagne",
+      "url": "https://www.objectif2027.fr/candidats/eric-zemmour/"
+    },
+    {
+      "nom": "RTL — annonce de candidature et premières orientations du programme 2027, 18 septembre 2026",
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-eric-zemmour-confirme-sa-candidature-et-donne-les-premieres-pistes-de-son-programme-7900673673"
+    }
+  ]
+},
+"fiscalite": {
+  "statut": "Premières orientations économiques et fiscales pour 2027 — programme fiscal complet encore à publier",
+  "solidite_documentaire": 88,
+  "solidite_explication": "Des orientations fiscales récentes sont identifiées dans les prises de parole liées à la préparation du programme 2027, notamment concernant l'investissement dans l'intelligence artificielle et la commande publique. Elles ne constituent cependant pas encore un programme fiscal complet. Les nombreuses mesures fiscales du programme présidentiel précédent ne sont donc pas automatiquement présentées comme reconduites pour 2027.",
+  "resume": "Dans ses premières orientations économiques pour 2027, Éric Zemmour défend une réduction des taxes, impôts et réglementations afin d'orienter davantage l'épargne privée vers l'investissement, notamment dans les entreprises françaises d'intelligence artificielle. Il propose également de passer, pour soutenir certaines filières stratégiques, d'une logique de subvention à une logique de commande publique reposant sur un cahier des charges et un paiement à la livraison. Ces premières annonces ne permettent pas encore d'établir un programme fiscal 2027 complet concernant l'impôt sur le revenu, la TVA, la CSG, les cotisations sociales, l'impôt sur les sociétés, les impôts de production, le patrimoine, les successions et donations ou l'ensemble de la trajectoire des dépenses publiques. Éric Zemmour avait présenté des mesures précises sur plusieurs de ces sujets lors de sa précédente campagne présidentielle ; elles ne sont pas automatiquement considérées ici comme reconduites pour 2027 sans confirmation récente.",
+  "financement": "Les orientations récentes reposent notamment sur une diminution annoncée des taxes, impôts et réglementations pour favoriser l'investissement privé et sur un recours accru à la commande publique plutôt qu'aux subventions dans certains secteurs. Les sources retenues ne fournissent toutefois pas encore le montant global des baisses de prélèvements envisagées pour 2027, leur répartition par impôt, le coût budgétaire correspondant, les économies compensatrices ni une trajectoire complète des recettes et dépenses publiques. Aucun chiffrage ancien n'est donc réattribué automatiquement au programme 2027.",
+  "population_concernee": "Épargnants et investisseurs, entreprises françaises et notamment entreprises technologiques, contribuables et finances publiques. Les effets sur les différentes catégories de ménages et d'entreprises devront être précisés lorsque les mesures fiscales détaillées seront publiées.",
+  "sources": [
+    {
+      "nom": "Objectif 2027 — premières propositions économiques et fiscales d'Éric Zemmour",
+      "url": "https://www.objectif2027.fr/candidats/eric-zemmour/"
+    },
+    {
+      "nom": "RTL — annonce de candidature et premières orientations du programme 2027, 18 septembre 2026",
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-eric-zemmour-confirme-sa-candidature-et-donne-les-premieres-pistes-de-son-programme-7900673673"
+    }
+  ]
+},
+"ecologie": {
+  "statut": "Premières orientations liées à l'énergie identifiées — programme Écologie 2027 détaillé non encore publié",
+  "solidite_documentaire": null,
+  "solidite_explication": "Non évaluée : des propositions énergétiques précises sont désormais annoncées pour 2027, mais elles sont traitées dans la rubrique Énergie. Les sources récentes vérifiées ne permettent pas encore d'établir un programme écologique 2027 suffisamment détaillé et distinct concernant le climat, l'adaptation, la biodiversité, l'eau, l'agriculture, les transports, les bâtiments et la pollution.",
+  "resume": "Les premières annonces 2027 identifiées mettent principalement l'accent sur la production nucléaire et la souveraineté industrielle, traitées dans la rubrique Énergie. À ce stade, les sources récentes retenues ne permettent pas d'attribuer à Éric Zemmour un ensemble suffisamment détaillé de nouvelles mesures 2027 concernant la réduction des émissions de gaz à effet de serre, l'adaptation au changement climatique, la biodiversité, la gestion de l'eau, la rénovation énergétique des bâtiments, les transports, la qualité de l'air, la protection des sols ou l'agriculture. Son programme présidentiel précédent comportait des positions environnementales et énergétiques précises, mais elles ne sont pas automatiquement présentées ici comme son programme écologique pour 2027. Cette rubrique sera complétée lorsque des propositions récentes suffisamment précises seront publiées ou confirmées.",
+  "financement": "Aucun budget global ni plan de financement spécifiquement consacré à une politique écologique 2027 distincte de la stratégie énergétique n'est suffisamment documenté dans les sources récentes retenues. Les montants de programmes antérieurs ne sont pas automatiquement repris.",
+  "population_concernee": "À préciser lors de la publication du programme écologique 2027. Les ménages, entreprises, agriculteurs, collectivités et populations exposées aux conséquences environnementales pourraient être concernés par de futures mesures, sans qu'une mesure précise leur soit attribuée ici avant publication.",
+  "sources": [
+    {
+      "nom": "Objectif 2027 — premières propositions relevées pour Éric Zemmour",
+      "url": "https://www.objectif2027.fr/candidats/eric-zemmour/"
+    },
+    {
+      "nom": "RTL — annonce de candidature et premières orientations du programme 2027, 18 septembre 2026",
+      "url": "https://www.rtl.fr/actu/politique/presidentielle-2027-eric-zemmour-confirme-sa-candidature-et-donne-les-premieres-pistes-de-son-programme-7900673673"
+    }
+  ]
+}
       }
     }
   ]
