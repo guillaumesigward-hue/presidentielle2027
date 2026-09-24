@@ -386,7 +386,6 @@ ecrire_json(
     detections_file,
     detections
 )
-)
 
 ecrire_json(
     detections_file,
