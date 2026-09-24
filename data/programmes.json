@@ -12,36 +12,40 @@
     {
       "nom": "Gabriel Attal",
       "themes": {
-        "ecole": {
-          "statut": "Propositions présentées pour 2027",
-          "solidite_documentaire": 98,
-          "solidite_explication": "Propositions 2027 directement documentées ; mesures et montants principaux identifiés.",
-          "resume": "Souhaite une loi de programmation pour l'école dès 2027. Il vise moins de 20 élèves par classe en primaire, veut recréer des postes de remplaçants grâce à la baisse démographique, réorganiser le collège, développer les groupes de niveau et renforcer l'autonomie des établissements.",
-          "financement": "Il propose d'augmenter le traitement des enseignants de 200 euros nets par mois, jusqu'à 500 euros nets pour certains enseignants en milieu de carrière. Le coût de la revalorisation a été évalué par son équipe à environ 2,5 milliards d'euros. Des économies, notamment sur certaines dépenses sociales, sont avancées pour contribuer au financement.",
-          "population_concernee": "Élèves, familles, enseignants et personnels des établissements.",
-          "handicap_aesh": {
-  "statut": "Proposition présentée pour 2027",
-  "propositions": "Gabriel Attal propose de créer un véritable corps professionnel pour les AESH, avec des perspectives de carrière, de promotion et d'évolution professionnelle, notamment vers d'autres fonctions de l'Éducation nationale.",
-  "impact_familles": "La professionnalisation des AESH pourrait modifier les conditions d'exercice et la continuité de l'accompagnement. En revanche, la source retenue ne précise pas à ce stade le nombre d'AESH supplémentaires, le nombre d'heures d'accompagnement garanti par enfant ni les modalités particulières concernant les élèves avec TDAH ou trouble du spectre de l'autisme.",
-  "financement": "Aucun budget spécifique à cette mesure AESH n'est identifié dans la source retenue.",
+       "ecole": {
+  "statut": "Propositions présentées pour 2027",
+  "solidite_documentaire": 98,
+  "solidite_explication": "Propositions 2027 directement documentées par une source officielle de campagne et complétées par des sources de presse. Les principales mesures sont identifiées ; certains financements et modalités restent à préciser.",
+  "resume": "Gabriel Attal souhaite faire voter dès 2027 une loi de programmation pour l'école sur le quinquennat et maintenir le ministre de l'Éducation nationale en poste pendant cinq ans. En primaire, il fixe l'objectif de moins de 20 élèves par classe en utilisant la baisse démographique et veut agir plus tôt sur les apprentissages, notamment avec l'apprentissage de la lecture dès la maternelle. Dans le second degré, il veut utiliser la baisse des effectifs pour recréer des postes de remplaçants. Pour le collège, il propose de fermer 100 collèges qu'il considère comme concentrant les plus grandes difficultés et de répartir leurs élèves dans d'autres établissements afin d'accroître la mixité scolaire. Il souhaite généraliser les groupes de niveau en français et en mathématiques, tout en évoquant une certaine souplesse laissée aux établissements. Il propose de rétablir un certificat d'études à l'entrée en 6e ; les élèves ne disposant pas du niveau attendu pourraient suivre une année passerelle. En 4e et en 3e, il prévoit qu'un quart du temps scolaire puisse être différencié, avec des enseignements professionnels et technologiques pour certains élèves et des approfondissements disciplinaires pour d'autres. Il souhaite également rendre l'obtention du brevet obligatoire pour accéder directement à la classe de seconde. Il propose enfin de renforcer l'autonomie des établissements, y compris dans le primaire, et demande que chaque établissement du second degré organise un système garantissant les remplacements de courte durée, auquel les enseignants participeraient.",
+  "financement": "Gabriel Attal propose une revalorisation de 200 euros nets par mois pour tous les enseignants, pouvant atteindre 500 euros nets par mois pour les enseignants en milieu de carrière. Public Sénat rapporte que son équipe évalue le coût de cette revalorisation à environ 2,5 milliards d'euros. Gabriel Attal indique vouloir la financer par des économies, notamment sur les dépenses sociales, sans ventilation détaillée de ces économies dans les sources retenues. Il souhaite par ailleurs utiliser la baisse démographique scolaire, qu'il estime à plus de 1,5 million d'élèves en moins sur dix ans, non pour réaliser des économies sur l'école mais notamment pour réduire les effectifs par classe et recréer des postes de remplaçants. Le coût détaillé de l'ensemble des autres mesures scolaires n'est pas précisé dans les sources retenues.",
+  "population_concernee": "Élèves du primaire, collégiens, lycéens, familles, enseignants, AESH, chefs d'établissement et personnels de l'Éducation nationale. Certaines mesures concernent particulièrement les enseignants en milieu de carrière, les élèves rencontrant des difficultés à l'entrée au collège, les élèves de 4e et 3e et ceux scolarisés dans les 100 collèges que Gabriel Attal propose de fermer.",
+  "handicap_aesh": {
+    "statut": "Proposition présentée pour 2027",
+    "propositions": "Gabriel Attal propose de créer un véritable corps professionnel pour les AESH, avec des perspectives de carrière, de promotion et d'évolution vers d'autres fonctions au sein de l'Éducation nationale. Il présente cette mesure comme un moyen de mieux reconnaître leur travail et de renforcer l'accompagnement des élèves en situation de handicap.",
+    "impact_familles": "La proposition porte directement sur la professionnalisation et les perspectives de carrière des AESH. Les sources retenues ne précisent toutefois ni le nombre d'AESH supplémentaires qui seraient recrutés, ni un nombre d'heures d'accompagnement garanti par élève, ni une modification précise des règles de mutualisation, ni des modalités particulières pour les élèves avec TDAH ou trouble du spectre de l'autisme. Les effets précis pour chaque famille dépendraient donc de modalités qui ne sont pas encore documentées dans ces sources.",
+    "financement": "Aucun budget spécifique consacré à la création de ce corps professionnel des AESH n'est chiffré dans les sources retenues.",
+    "sources": [
+      {
+        "nom": "Gabriel Attal — propositions pour l'école, 1er septembre 2026",
+        "url": "https://attalpresident.fr/actualites/france-2-gabriel-attal-fait-de-l-ecole-une-priorite-pour-preparer-l-avenir-du-pays"
+      }
+    ]
+  },
   "sources": [
     {
-      "nom": "Gabriel Attal — propositions pour l'école, 2026",
+      "nom": "Gabriel Attal — propositions pour l'école, 1er septembre 2026",
       "url": "https://attalpresident.fr/actualites/france-2-gabriel-attal-fait-de-l-ecole-une-priorite-pour-preparer-l-avenir-du-pays"
+    },
+    {
+      "nom": "Le Monde — entretien sur l'école, 25 août 2026",
+      "url": "https://www.lemonde.fr/societe/article/2026/08/25/gabriel-attal-je-souhaite-une-loi-de-programmation-pour-l-ecole-et-un-ministre-de-l-education-qui-restera-en-poste-cinq-ans_6756157_3224.html"
+    },
+    {
+      "nom": "Public Sénat — propositions des candidats pour l'école",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
     }
   ]
 },
-          "sources": [
-            {
-              "nom": "Le Monde — 25 août 2026",
-              "url": "https://www.lemonde.fr/societe/article/2026/08/25/gabriel-attal-je-souhaite-une-loi-de-programmation-pour-l-ecole-et-un-ministre-de-l-education-qui-restera-en-poste-cinq-ans_6756157_3224.html"
-            },
-            {
-              "nom": "Public Sénat — propositions des candidats pour l'école",
-              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
-            }
-          ]
-        },
         "sante": {
           "statut": "Recherche en cours",
           "solidite_documentaire": null,
