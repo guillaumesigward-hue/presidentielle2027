@@ -115,5 +115,15 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Mediapart",
+    "titre": "Les seniors, terre de mission obligatoire pour LFI en vue de 2027",
+    "url": "https://www.mediapart.fr//blogs.mediapart.fr/hugo-melchior/blog/060426/les-seniors-terre-de-mission-obligatoire-pour-lfi-en-vue-de-2027",
+    "date_detection": "24 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Détection provenant d'une source journalistique indépendante ou d'investigation. Vérifier le contenu, la nature de l'article (information, enquête, analyse, entretien ou opinion) et recouper les affirmations sensibles avant toute publication."
   }
 ]
