@@ -464,7 +464,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                 continue
             # Pré-classement indicatif pour faciliter la vérification humaine.
             # Cette qualification n'est jamais publiée automatiquement.
-                        themes = []
+            themes = []
 
             mots_cles_themes = {
                 "École": [
