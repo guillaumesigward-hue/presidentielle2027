@@ -602,32 +602,36 @@
     {
       "nom": "Éric Zemmour",
       "themes": {
-        "ecole": {
-          "statut": "Programme publié antérieurement — confirmation 2027 nécessaire",
-          "solidite_documentaire": 90,
-          "solidite_explication": "L'existence de la page programmatique est directement vérifiée ; sa reprise comme programme présidentiel 2027 actualisé n'est pas encore suffisamment confirmée.",
-          "resume": "Un programme consacré à l'école demeure publié sur le site programmatique d'Éric Zemmour. Cette fiche ne présente pas ses mesures comme définitivement reprises pour 2027 tant qu'une confirmation récente n'est pas identifiée.",
-          "financement": "Non renseigné ici pour 2027.",
-          "population_concernee": "Élèves, familles et personnels de l'éducation.",
-          "handicap_aesh": {
-  "statut": "Programme antérieur identifié — confirmation 2027 nécessaire",
-  "propositions": "Éric Zemmour dispose d'un programme publié antérieurement comportant des propositions sur le handicap et l'école. Dans les sources récentes vérifiées, aucune mesure suffisamment précise n'est toutefois confirmée comme proposition AESH spécifiquement arrêtée pour la présidentielle 2027.",
-  "impact_familles": "À ce stade, il n'est donc pas possible d'établir précisément ce que son projet 2027 changerait pour une famille ayant besoin d'un AESH, notamment concernant le nombre d'accompagnants, les heures attribuées, la mutualisation ou l'accompagnement spécifique des élèves avec TDAH ou trouble du spectre de l'autisme.",
-  "financement": "Aucun financement spécifique AESH confirmé pour 2027 n'est identifié à ce stade.",
+      "ecole": {
+  "statut": "Premières propositions identifiées pour 2027 — programme scolaire complet non encore publié",
+  "solidite_documentaire": 92,
+  "solidite_explication": "Des propositions éducatives ont désormais été formulées dans le contexte de la campagne présidentielle 2027 et peuvent être distinguées du programme publié pour la présidentielle de 2022. Le programme scolaire complet pour 2027 n'étant toutefois pas encore suffisamment publié, les nombreuses mesures de 2022 ne sont pas automatiquement présentées comme reconduites.",
+  "resume": "Dans ses prises de parole récentes liées à son projet présidentiel, Éric Zemmour propose de rétablir ou de renforcer à l'école plusieurs méthodes et contenus qu'il associe à la transmission des savoirs : la grammaire, la dictée quotidienne, le calcul mental, l'apprentissage par cœur, les langues anciennes et l'enseignement chronologique de l'histoire. Il annonce également vouloir faire de la formation à l'intelligence artificielle une priorité de l'école française. Éric Zemmour dispose par ailleurs d'un programme scolaire beaucoup plus détaillé publié lors de sa précédente campagne présidentielle, portant notamment sur les savoirs fondamentaux, l'autorité, l'organisation du collège et l'enseignement professionnel. Ces mesures antérieures ne sont volontairement pas reproduites ici comme engagements 2027 tant que leur maintien n'est pas suffisamment confirmé dans le projet présidentiel actuel. Cette fiche devra donc être complétée à mesure de la publication du programme scolaire 2027.",
+  "financement": "Aucun coût global ni plan de financement détaillé n'est identifié dans les sources retenues pour les premières propositions scolaires 2027 mentionnées dans cette fiche. Les chiffrages éventuellement associés au programme de la présidentielle de 2022 ne sont pas réattribués automatiquement au projet 2027.",
+  "population_concernee": "Élèves, familles, enseignants et autres personnels de l'éducation. Les propositions actuellement identifiées concernent notamment les apprentissages scolaires et la formation à l'intelligence artificielle. Les populations concernées par les autres mesures devront être précisées à mesure de la publication du programme 2027.",
+  "handicap_aesh": {
+    "statut": "Programme antérieur identifié — confirmation 2027 nécessaire",
+    "propositions": "Le programme publié lors de la précédente campagne présidentielle d'Éric Zemmour comportait un volet consacré au handicap. Les sources récentes retenues pour la campagne 2027 ne permettent cependant pas d'établir avec suffisamment de précision quelles propositions concernant les AESH, l'accompagnement humain ou l'école inclusive seront reprises dans son programme présidentiel 2027.",
+    "impact_familles": "Il n'est donc pas possible, à ce stade, d'attribuer à son projet 2027 un nombre précis d'AESH supplémentaires, un nombre garanti d'heures d'accompagnement par élève, une réforme déterminée du statut ou de la rémunération des AESH, une modification des règles de mutualisation ou un dispositif particulier pour les élèves avec TDAH ou trouble du spectre de l'autisme. Cette absence de confirmation 2027 ne permet pas non plus de conclure que les propositions antérieures ont été abandonnées.",
+    "financement": "Aucun montant ni financement spécifique concernant les AESH n'est suffisamment documenté pour le projet présidentiel 2027 dans les sources retenues.",
+    "sources": [
+      {
+        "nom": "Éric Zemmour — programme antérieur consacré au handicap",
+        "url": "https://programme.ericzemmour.fr/handicap"
+      }
+    ]
+  },
   "sources": [
     {
-      "nom": "Programme publié par Éric Zemmour — Handicap",
-      "url": "https://programme.ericzemmour.fr/handicap"
+      "nom": "Objectif 2027 — propositions d'Éric Zemmour vérifiées à partir de ses prises de parole",
+      "url": "https://www.objectif2027.fr/candidats/eric-zemmour/"
+    },
+    {
+      "nom": "Éric Zemmour — programme scolaire de la précédente campagne",
+      "url": "https://programme.ericzemmour.fr/ecole"
     }
   ]
-},
-          "sources": [
-            {
-              "nom": "Programme publié par Éric Zemmour — École",
-              "url": "https://programme.ericzemmour.fr/ecole"
-            }
-          ]
-        },
+}, 
         "sante": {
           "statut": "Programme publié antérieurement — confirmation 2027 nécessaire",
           "solidite_documentaire": 90,
