@@ -453,20 +453,55 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                         domaine.group(1) + url_article
                     )
 
+                        # --------------------------------------------------
+            # Filtrage des URL : on privilégie les vrais articles
+            # et on écarte les pages techniques ou de navigation.
+            # --------------------------------------------------
+
             if not url_article.startswith("http"):
                 continue
-            # Exclut les espaces de contribution qui ne sont pas
-            # des articles de la rédaction.
-            if (
-                nom_source == "Mediapart"
-                and "/blogs.mediapart.fr/" in url_article
+
+            url_minuscule = url_article.lower()
+
+            # Pages génériques qui ne correspondent normalement
+            # pas à un article journalistique individuel.
+            chemins_exclus = [
+                "/tag/",
+                "/tags/",
+                "/categorie/",
+                "/category/",
+                "/auteur/",
+                "/author/",
+                "/recherche/",
+                "/search/",
+                "/newsletter",
+                "/podcasts",
+                "/mentions-legales",
+                "/contact",
+            ]
+
+            if any(
+                chemin in url_minuscule
+                for chemin in chemins_exclus
             ):
                 continue
-            # Disclose : les pages /tag/ sont des index thématiques,
-            # pas des enquêtes ou articles individuels.
+
+            # Mediapart : le Club et les blogs sont des espaces
+            # de contribution distincts des articles du Journal.
+            if (
+                nom_source == "Mediapart"
+                and (
+                    "/blogs.mediapart.fr/" in url_minuscule
+                    or "/club/" in url_minuscule
+                )
+            ):
+                continue
+
+            # Disclose : exclusion supplémentaire de ses pages
+            # d'index thématiques.
             if (
                 nom_source == "Disclose"
-                and "/news/tag/" in url_article
+                and "/news/tag/" in url_minuscule
             ):
                 continue
             # Pré-classement indicatif pour faciliter la vérification humaine.
