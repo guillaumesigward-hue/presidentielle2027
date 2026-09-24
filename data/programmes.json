@@ -595,57 +595,86 @@
     }
   ]
 },
-        "sante": {
-          "statut": "Recherche en cours",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : aucune proposition sanitaire 2027 suffisamment documentée n'est encore intégrée.",
-          "resume": "Cette rubrique attend des propositions sanitaires suffisamment détaillées et explicitement rattachées au projet 2027.",
-          "financement": "Non précisé à ce stade.",
-          "population_concernee": "Patients, professionnels de santé et assurés sociaux.",
-          "sources": []
-        },
-        "energie": {
-          "statut": "Orientations récentes à consolider pour 2027",
-          "solidite_documentaire": 92,
-          "solidite_explication": "Orientations récentes bien documentées, mais certaines mesures proviennent de programmes successifs du RN et doivent être distinguées des annonces spécifiquement arrêtées pour 2027.",
-          "resume": "Les orientations récentes du Rassemblement national privilégient fortement le nucléaire, contestent le développement de la plupart des énergies renouvelables et défendent notamment une TVA réduite à 5,5 % sur les énergies, dont les carburants, le fioul, le gaz et l'électricité. La fiche distingue ces orientations des mesures qui seront spécifiquement confirmées pour 2027.",
-          "financement": "Le coût budgétaire de la TVA réduite, le coût des investissements nucléaires et le financement complet de la stratégie doivent encore être précisés dans le projet 2027.",
-          "population_concernee": "Ménages, automobilistes, entreprises, producteurs d'énergie et finances publiques.",
-          "sources": [
-            {
-              "nom": "Le Monde — 1er septembre 2026",
-              "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/01/presidentielle-2027-souverainisme-et-air-conditionne-les-deux-piliers-de-marine-le-pen-et-du-rn-pour-lutter-contre-le-dereglement-climatique_6763489_4355770.html"
-            }
-          ]
-        },
-        "fiscalite": {
-          "statut": "Cadre budgétaire annoncé pour le projet présidentiel 2027",
-          "solidite_documentaire": 96,
-          "solidite_explication": "Règle budgétaire et trajectoire d'économies documentées ; détail mesure par mesure encore incomplet.",
-          "resume": "Marine Le Pen prévoit dans son projet présidentiel une règle budgétaire visant un déficit public maximal de 3 % du PIB. Ce cadre porte sur l'ensemble des recettes et dépenses et ne constitue pas à lui seul le détail de sa politique fiscale.",
-          "financement": "Une trajectoire allant jusqu'à 125 milliards d'euros d'économies nettes à l'horizon de la troisième ou quatrième année du quinquennat a été annoncée. La répartition détaillée de ces économies doit encore être examinée mesure par mesure.",
-          "population_concernee": "Ensemble des contribuables, bénéficiaires des dépenses publiques, administrations et finances publiques.",
-          "sources": [
-            {
-              "nom": "Le Monde — 29 août 2026",
-              "url": "https://www.lemonde.fr/politique/article/2026/08/29/presidentielle-2027-la-regle-d-or-budgetaire-de-marine-le-pen-limiterait-le-deficit-a-3-du-pib_6760267_823448.html"
-            }
-          ]
-        },
-        "ecologie": {
-          "statut": "Orientations récentes à consolider pour 2027",
-          "solidite_documentaire": 90,
-          "solidite_explication": "Des orientations environnementales récentes sont documentées, mais le programme écologique 2027 complet reste susceptible d'être précisé.",
-          "resume": "Les orientations récentes mettent notamment l'accent sur l'adaptation au changement climatique et une approche fondée sur la souveraineté nationale. Le RN défend parallèlement une politique énergétique fortement nucléaire et conteste plusieurs politiques de développement des énergies renouvelables. La distinction entre écologie, climat et politique énergétique est conservée dans cette fiche.",
-          "financement": "Le coût global des politiques d'adaptation et de protection environnementale n'est pas encore détaillé dans cette fiche.",
-          "population_concernee": "Ménages, agriculteurs, entreprises, collectivités et populations exposées aux risques climatiques.",
-          "sources": [
-            {
-              "nom": "Le Monde — 1er septembre 2026",
-              "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/01/presidentielle-2027-souverainisme-et-air-conditionne-les-deux-piliers-de-marine-le-pen-et-du-rn-pour-lutter-contre-le-dereglement-climatique_6763489_4355770.html"
-            }
-          ]
-        }
+      "sante": {
+  "statut": "Orientations 2027 identifiées — programme Santé détaillé encore incomplet",
+  "solidite_documentaire": null,
+  "solidite_explication": "Non évaluée : des orientations concernant notamment le grand âge et les établissements de santé apparaissent dans la campagne 2027, mais les sources récentes retenues ne permettent pas encore d'établir un programme Santé complet et suffisamment détaillé. Les propositions des campagnes antérieures du RN ne sont pas automatiquement considérées comme des engagements pour 2027.",
+  "resume": "La campagne 2027 de Marine Le Pen comporte des orientations touchant à la santé et au grand âge, mais le volet sanitaire complet n'est pas encore suffisamment publié pour établir précisément son projet concernant l'hôpital, les effectifs et rémunérations des soignants, les déserts médicaux, l'installation des médecins, les soins de proximité, les médicaments, les remboursements, les franchises et restes à charge ou le financement général de l'Assurance maladie. Dans le cadre de son plan d'adaptation aux fortes chaleurs, le RN prévoit toutefois d'équiper notamment les hôpitaux et les EHPAD en climatisation, aux côtés des écoles et des crèches. Marine Le Pen a également envoyé une représentante présenter ses propositions au secteur du grand âge en septembre 2026. Des propositions sanitaires plus détaillées figurent dans des programmes antérieurs du RN, mais elles ne sont pas reproduites ici comme engagements présidentiels 2027 tant que leur maintien n'est pas suffisamment confirmé.",
+  "financement": "Le plan d'adaptation aux fortes chaleurs prévoit une première phase d'investissement public de 10 milliards d'euros entre 2027 et 2032 pour équiper notamment les hôpitaux, les EHPAD, les écoles et les crèches. Ce montant concerne plusieurs catégories d'établissements et ne constitue donc pas un budget hospitalier ou sanitaire à lui seul. Aucun budget global actualisé du programme Santé 2027, ni plan complet de financement de l'Assurance maladie, n'est suffisamment documenté dans les sources retenues.",
+  "population_concernee": "Patients, personnes âgées et résidents d'EHPAD, professionnels de santé et personnels des établissements concernés par les mesures d'adaptation aux fortes chaleurs. Les populations concernées par les autres composantes du futur programme Santé devront être précisées lors de leur publication.",
+  "sources": [
+    {
+      "nom": "Le Monde — plan climatisation du RN, 30 juin 2026",
+      "url": "https://www.lemonde.fr/politique/article/2026/06/30/le-rn-devoile-un-grand-plan-climatisation-toujours-aussi-flou-et-moins-ambitieux-que-promis_6717316_823448.html"
+    },
+    {
+      "nom": "Le Monde — présidentielle 2027 et grand âge, 17 septembre 2026",
+      "url": "https://www.lemonde.fr/societe/article/2026/09/17/presidentielle-2027-en-grand-oral-devant-le-secteur-du-grand-age-les-candidats-promettent-de-s-attaquer-a-l-enjeu-du-vieillissement-de-la-population_6776445_3224.html"
+    }
+  ]
+},
+"energie": {
+  "statut": "Orientations 2027 identifiées — stratégie centrée sur le nucléaire et la baisse de la fiscalité énergétique",
+  "solidite_documentaire": 94,
+  "solidite_explication": "Plusieurs orientations énergétiques sont confirmées dans la campagne 2027, notamment la baisse de TVA sur l'énergie et la priorité donnée au nucléaire. Certains objectifs précis concernant le nombre et le calendrier des futurs réacteurs proviennent cependant de programmes RN antérieurs et ne sont donc pas tous présentés comme définitivement arrêtés pour 2027.",
+  "resume": "Marine Le Pen et le Rassemblement national placent la souveraineté énergétique et le nucléaire au centre de leur orientation énergétique. Le RN défend un investissement important dans la filière nucléaire et continue de s'opposer au développement de l'éolien et du solaire, tout en maintenant une place à l'hydroélectricité et à la géothermie. Les programmes antérieurs du RN prévoyaient notamment vingt nouveaux réacteurs entre 2033 et 2043, mais ce nombre et ce calendrier ne sont pas présentés ici comme un engagement 2027 définitivement confirmé tant que le programme actualisé ne les reprend pas explicitement. Pour les consommateurs, Marine Le Pen a confirmé pendant la campagne 2027 son projet de ramener la TVA sur les carburants de 20 % à 5,5 %. Le RN défend plus largement un taux de TVA de 5,5 % sur les énergies, notamment carburants, fioul, gaz et électricité. Le parti s'oppose également à l'interdiction européenne de la vente de véhicules thermiques neufs à partir de 2035.",
+  "financement": "Le RN estime en septembre 2026 que la baisse de TVA sur les carburants coûterait entre 12 et 15 milliards d'euros par an. Jordan Bardella a indiqué vouloir la compenser notamment par des économies concernant ce que le RN appelle le coût de l'immigration, par une réduction de la contribution française au budget de l'Union européenne et par la suppression de subventions aux panneaux solaires chinois. Le coût actualisé de l'ensemble de la stratégie nucléaire 2027 n'est pas suffisamment détaillé dans les sources retenues. Par ailleurs, la possibilité juridique d'appliquer un taux réduit de TVA aux carburants se heurte actuellement au droit européen.",
+  "population_concernee": "Ménages utilisant l'électricité, le gaz ou le fioul, automobilistes, entreprises consommatrices d'énergie, producteurs et salariés des filières énergétiques, ainsi que les finances publiques.",
+  "sources": [
+    {
+      "nom": "Le Monde — programme climatique et énergétique de Marine Le Pen et du RN, 1er septembre 2026",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/01/presidentielle-2027-souverainisme-et-air-conditionne-les-deux-piliers-de-marine-le-pen-et-du-rn-pour-lutter-contre-le-dereglement-climatique_6763489_4355770.html"
+    },
+    {
+      "nom": "Le Monde — propositions sur le prix des carburants, 19 septembre 2026",
+      "url": "https://www.lemonde.fr/economie/article/2026/09/19/la-grande-valse-des-propositions-pour-freiner-l-envolee-des-prix-du-carburant-entre-blocage-des-prix-et-baisse-des-taxes_6777214_3234.html"
+    }
+  ]
+},
+"fiscalite": {
+  "statut": "Mesures fiscales et cadre budgétaire annoncés pour le projet présidentiel 2027",
+  "solidite_documentaire": 97,
+  "solidite_explication": "Plusieurs engagements fiscaux et budgétaires ont été explicitement présentés pendant la campagne 2027 : règle budgétaire, trajectoire d'économies, baisse de TVA sur le carburant, suppression d'impôts et taxes et modification des conditions du pacte Dutreil. La ventilation complète des 125 milliards d'euros d'économies annoncées reste toutefois à documenter mesure par mesure.",
+  "resume": "Marine Le Pen prévoit une règle budgétaire limitant le déficit public à 3 % du PIB. Le projet de réforme constitutionnelle du RN prévoit également que les dépenses de fonctionnement de l'État soient présentées à l'équilibre ; le déficit resterait possible pour les intérêts de la dette et les dépenses d'investissement. Le RN envisage de soumettre cette règle à référendum après avoir atteint l'équilibre du déficit primaire. Marine Le Pen a annoncé une trajectoire allant jusqu'à 125 milliards d'euros d'économies nettes à la troisième ou quatrième année du quinquennat. En matière fiscale, elle propose notamment de ramener la TVA sur le carburant de 20 % à 5,5 %. Pour les entreprises, elle défend une forte diminution des impôts de production et des normes. Elle propose également de supprimer immédiatement 130 impôts et taxes qu'elle juge improductifs ou d'un rendement insuffisant : 58 seraient supprimés et environ 70 autres feraient l'objet d'un report selon la présentation faite en août 2026. Elle souhaite maintenir le pacte Dutreil, qui permet sous conditions de réduire les droits dus lors de la transmission d'entreprises, mais conditionner son bénéfice au maintien de l'activité en France pendant dix ans ; l'avantage serait perdu en cas de revente ou de délocalisation avant cette durée. Le détail complet des modifications envisagées pour l'impôt sur le revenu, la TVA hors énergie, la fiscalité du patrimoine et l'ensemble des prélèvements obligatoires n'est pas encore suffisamment publié pour dresser une liste exhaustive.",
+  "financement": "Marine Le Pen annonce une trajectoire pouvant atteindre 125 milliards d'euros d'économies nettes à la troisième ou quatrième année du quinquennat, mais sa ventilation complète n'est pas encore suffisamment documentée dans les sources retenues. Le RN chiffre la baisse de TVA sur les carburants entre 12 et 15 milliards d'euros par an et indique vouloir la compenser notamment par des économies sur les dépenses liées à l'immigration selon sa propre classification, une réduction de la contribution française au budget de l'Union européenne et la suppression de certaines subventions aux panneaux solaires chinois. Les montants correspondant à la suppression des différents impôts et taxes et à la baisse des impôts de production devront être complétés lorsque le chiffrage détaillé sera publié.",
+  "population_concernee": "Contribuables, automobilistes et ménages consommateurs d'énergie ; entreprises concernées par les impôts de production et les taxes visées ; propriétaires et héritiers d'entreprises concernés par le pacte Dutreil ; administrations publiques et bénéficiaires des dépenses publiques concernés par la trajectoire d'économies.",
+  "sources": [
+    {
+      "nom": "Le Monde — règle budgétaire et trajectoire d'économies du RN, 29 août 2026",
+      "url": "https://www.lemonde.fr/politique/article/2026/08/29/presidentielle-2027-la-regle-d-or-budgetaire-de-marine-le-pen-limiterait-le-deficit-a-3-du-pib_6760267_823448.html"
+    },
+    {
+      "nom": "Le Monde — débat présidentiel sur la fiscalité et l'économie, 27 août 2026",
+      "url": "https://www.lemonde.fr/economie/live/2026/08/27/en-direct-debat-de-la-presidentielle-2027-fiscalite-reforme-des-retraites-pouvoir-d-achat-sept-candidats-se-sont-affrontes-devant-les-chefs-d-entreprise_6758467_3234.html"
+    },
+    {
+      "nom": "Le Monde — baisse de la TVA sur les carburants, 19 septembre 2026",
+      "url": "https://www.lemonde.fr/economie/article/2026/09/19/la-grande-valse-des-propositions-pour-freiner-l-envolee-des-prix-du-carburant-entre-blocage-des-prix-et-baisse-des-taxes_6777214_3234.html"
+    }
+  ]
+},
+"ecologie": {
+  "statut": "Orientations et premières mesures 2027 identifiées — programme écologique complet encore à préciser",
+  "solidite_documentaire": 94,
+  "solidite_explication": "La campagne 2027 documente plusieurs orientations et mesures concernant l'adaptation aux fortes chaleurs, la climatisation des bâtiments, le logement, la réindustrialisation et certaines normes environnementales. D'autres domaines importants, notamment la gestion de l'eau et le chiffrage global de la politique climatique, restent insuffisamment détaillés.",
+  "resume": "Marine Le Pen et le Rassemblement national mettent l'accent sur l'adaptation aux conséquences du changement climatique et sur la souveraineté économique. Leur stratégie comprend un plan de climatisation destiné notamment aux hôpitaux, EHPAD, écoles et crèches, puis à d'autres bâtiments publics. Pour les logements privés, le RN défend des prêts à taux zéro destinés à faciliter l'équipement des ménages. Le parti associe également sa politique climatique à la réindustrialisation et à une production plus locale, qu'il présente comme un moyen de réduire les émissions liées aux importations. Parallèlement, le RN souhaite lever certaines contraintes du diagnostic de performance énergétique sur les logements mis en location, s'oppose à l'interdiction de la vente de véhicules thermiques neufs à partir de 2035 et conteste plusieurs dispositions du Pacte vert européen. Lors de son lancement de campagne sur le logement en septembre 2026, Marine Le Pen a également annoncé vouloir supprimer ou modifier des normes environnementales, notamment la réglementation relative au zéro artificialisation nette. Sur l'énergie, qui fait l'objet d'une rubrique distincte, le RN privilégie fortement le nucléaire et s'oppose au développement de l'éolien et du solaire. À ce stade, les sources retenues ne permettent pas encore de présenter un ensemble aussi détaillé de mesures 2027 sur la gestion de l'eau, la biodiversité, l'agriculture, la pollution de l'air, la protection des sols ou l'adaptation de l'ensemble des infrastructures.",
+  "financement": "Le plan présenté par le RN prévoit 10 milliards d'euros d'investissements publics entre 2027 et 2032 pour climatiser notamment les hôpitaux, EHPAD, écoles et crèches, puis 10 milliards supplémentaires entre 2032 et 2037 pour d'autres administrations et services publics. Pour les ménages, le dispositif annoncé repose notamment sur des prêts à taux zéro. Des présentations plus larges du projet évoquent des investissements pouvant atteindre 40 milliards d'euros pour l'adaptation et l'équipement, mais la ventilation et le financement global restent insuffisamment détaillés ; la fiche retient donc séparément les montants dont le calendrier est explicitement documenté. Aucun coût global consolidé de la politique écologique 2027 n'est encore établi dans les sources retenues.",
+  "population_concernee": "Patients et résidents d'EHPAD, enfants et personnels des écoles et crèches, ménages souhaitant adapter leur logement aux fortes chaleurs, collectivités et services publics, propriétaires et locataires concernés par les règles énergétiques du logement, automobilistes, entreprises, agriculteurs et populations exposées aux risques climatiques.",
+  "sources": [
+    {
+      "nom": "Le Monde — programme climatique de Marine Le Pen et du RN, 1er septembre 2026",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/01/presidentielle-2027-souverainisme-et-air-conditionne-les-deux-piliers-de-marine-le-pen-et-du-rn-pour-lutter-contre-le-dereglement-climatique_6763489_4355770.html"
+    },
+    {
+      "nom": "Le Monde — plan climatisation du RN, 30 juin 2026",
+      "url": "https://www.lemonde.fr/politique/article/2026/06/30/le-rn-devoile-un-grand-plan-climatisation-toujours-aussi-flou-et-moins-ambitieux-que-promis_6717316_823448.html"
+    },
+    {
+      "nom": "Le Monde — lancement de campagne de Marine Le Pen sur le logement, 13 septembre 2026",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/13/presidentielle-2027-a-henin-beaumont-marine-le-pen-lance-sa-campagne-sur-le-logement-avec-comme-cle-de-voute-la-priorite-nationale_6772949_823448.html"
+    }
+  ]
+}  
       }
     },
     {
