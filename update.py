@@ -464,6 +464,43 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                 continue
             # Pré-classement indicatif pour faciliter la vérification humaine.
             # Cette qualification n'est jamais publiée automatiquement.
+                        themes = []
+
+            mots_cles_themes = {
+                "École": [
+                    "école", "éducation", "enseignant",
+                    "enseignante", "élève", "collège", "lycée",
+                ],
+                "Santé": [
+                    "santé", "hôpital", "médecin",
+                    "soins", "sécurité sociale",
+                ],
+                "Énergie": [
+                    "énergie", "électricité", "nucléaire",
+                    "gaz", "énergétique",
+                ],
+                "Fiscalité": [
+                    "impôt", "impôts", "fiscalité",
+                    "taxe", "taxes",
+                ],
+                "Écologie": [
+                    "écologie", "climat", "environnement",
+                    "pollution", "biodiversité",
+                ],
+                "Handicap / AESH": [
+                    "handicap", "aesh", "inclusion scolaire",
+                    "école inclusive",
+                ],
+            }
+
+            titre_pour_themes = titre_article.lower()
+
+            for theme, mots_cles in mots_cles_themes.items():
+                if any(
+                    mot in titre_pour_themes
+                    for mot in mots_cles
+                ):
+                    themes.append(theme)
             titre_minuscule = titre_article.lower()
 
             if any(
@@ -507,6 +544,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     "type": source_journalistique["type"],
                     "source": nom_source,
                     "nature": nature,
+                    "themes": themes,
                     "titre": titre_article,
                     "url": url_article,
                     "date_detection": date_fr,
