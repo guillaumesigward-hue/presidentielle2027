@@ -509,14 +509,19 @@
   ]
 },
         "sante": {
-          "statut": "Vérification complémentaire nécessaire",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : la formulation précédente doit être mieux étayée avant publication comme proposition précise.",
-          "resume": "Le volet santé du projet 2027 doit être documenté plus précisément avant d'en publier une synthèse détaillée.",
-          "financement": "Non documenté à ce stade.",
-          "population_concernee": "Patients, professionnels de santé et assurés sociaux.",
-          "sources": []
-        },
+  "statut": "Axe du projet présidentiel 2027 — mesures Santé détaillées encore à publier",
+  "solidite_documentaire": 88,
+  "solidite_explication": "Une source primaire récente rattache explicitement la refondation de l'hôpital et de la santé au projet présidentiel 2027 de Nicolas Dupont-Aignan. Elle établit son orientation générale, mais ne fournit pas encore un ensemble suffisamment détaillé de mesures, de chiffrages et de modalités de financement pour constituer un programme Santé complet.",
+  "resume": "Dans son discours de rentrée du 19 septembre 2026 présentant les grands axes de son projet présidentiel pour 2027, Nicolas Dupont-Aignan inscrit la santé dans un projet plus large de refondation des services publics. Il propose notamment un hôpital qu'il veut libérer de la bureaucratie et du poids des laboratoires pharmaceutiques, avec l'objectif déclaré de remettre la santé au service des patients. Cette orientation établit que l'hôpital et son organisation feront partie de son projet 2027. À ce stade, la source primaire récente retenue ne détaille toutefois pas suffisamment les mesures opérationnelles permettant d'établir précisément ses propositions concernant le nombre de lits et de personnels hospitaliers, leur rémunération et leurs conditions de travail, l'organisation des urgences, les déserts médicaux, l'installation des médecins, les soins de proximité, les médicaments, les remboursements, les complémentaires santé, les restes à charge ou l'évolution de la Sécurité sociale. Nicolas Dupont-Aignan a présenté des propositions plus détaillées sur plusieurs de ces sujets lors de campagnes antérieures, mais elles ne sont pas automatiquement considérées ici comme des engagements présidentiels 2027 tant que leur maintien n'est pas suffisamment confirmé.",
+  "financement": "Le discours du 19 septembre 2026 annonce parallèlement un projet d'assainissement des comptes publics et une refondation des services publics, dont l'hôpital. Il ne fournit cependant pas, dans les éléments consacrés à la santé, de budget global, de montant d'investissement hospitalier, d'objectif chiffré d'économies, ni de plan détaillé de financement de la santé ou de la Sécurité sociale. Aucun chiffrage provenant de ses programmes présidentiels antérieurs n'est donc réattribué automatiquement au projet 2027.",
+  "population_concernee": "Patients, professionnels hospitaliers, personnels de santé et usagers des services publics de santé sont directement concernés par l'orientation publiée. Les populations concernées par d'éventuelles futures mesures sur la médecine de ville, les déserts médicaux, les remboursements, les médicaments ou la Sécurité sociale devront être précisées lorsque ces propositions seront suffisamment documentées.",
+  "sources": [
+    {
+      "nom": "Nicolas Dupont-Aignan — discours de rentrée et projet présidentiel, 19 septembre 2026",
+      "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+    }
+  ]
+},
         "energie": {
           "statut": "Axe du projet présidentiel 2027",
           "solidite_documentaire": 97,
