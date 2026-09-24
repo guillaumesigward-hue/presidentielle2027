@@ -298,38 +298,80 @@
     }
   ]
 },
-        "energie": {
-          "statut": "Recherche à compléter",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée tant que les propositions 2027 précises et leurs sources primaires ne sont pas intégrées.",
-          "resume": "Les orientations énergétiques récentes doivent encore être consolidées à partir des documents de campagne 2027 avant publication d'une synthèse détaillée.",
-          "financement": "À documenter.",
-          "population_concernee": "Ménages, entreprises, salariés du secteur énergétique et finances publiques.",
-          "sources": []
-        },
-        "fiscalite": {
-          "statut": "Recherche en cours",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : les mesures fiscales 2027 doivent encore être vérifiées.",
-          "resume": "Les mesures fiscales seront intégrées après vérification dans les documents de campagne 2027.",
-          "financement": "À documenter.",
-          "population_concernee": "Contribuables, ménages, entreprises et finances publiques.",
-          "sources": []
-        },
-        "ecologie": {
-          "statut": "Orientations présentées en 2026 dans la préparation de 2027",
-          "solidite_documentaire": 97,
-          "solidite_explication": "Orientations climatiques directement exposées par Fabien Roussel en 2026 ; le détail complet du financement reste à intégrer.",
-          "resume": "Fabien Roussel défend un plan visant la sortie des énergies fossiles et la neutralité carbone en 2050. Il associe cette stratégie à la relocalisation industrielle, à la réduction des émissions liées aux importations et à une augmentation de la production d'électricité décarbonée, provenant du nucléaire comme des énergies renouvelables.",
-          "financement": "Il affirme que son plan prévoit un financement des investissements nécessaires, qu'il présente comme très importants. Le montant détaillé et les mécanismes complets de financement doivent encore être intégrés à cette fiche.",
-          "population_concernee": "Ménages, salariés, entreprises industrielles, secteur énergétique, territoires et finances publiques.",
-          "sources": [
-            {
-              "nom": "PCF — discours de Fabien Roussel, université d'été 2026",
-              "url": "https://www.pcf.fr/ue_26_discours_fr"
-            }
-          ]
-        }
+      "energie": {
+  "statut": "Orientations et propositions 2027 confirmées — programme énergétique détaillé en cours de consolidation",
+  "solidite_documentaire": 98,
+  "solidite_explication": "Plusieurs orientations énergétiques sont directement confirmées dans les prises de parole de Fabien Roussel en 2026 et dans le lancement de sa campagne présidentielle : maîtrise publique de l'énergie, sortie des énergies fossiles, développement conjoint du nucléaire et des renouvelables et mesures sur le prix des carburants. Le dimensionnement complet des investissements et leur calendrier détaillé pour 2027 restent toutefois à consolider.",
+  "resume": "Fabien Roussel veut placer l'énergie sous une maîtrise publique renforcée et l'utiliser à la fois comme instrument de décarbonation, de réindustrialisation et de baisse des prix. Il défend la nationalisation de TotalEnergies et la maîtrise publique d'EDF et d'Engie afin de constituer un pôle public de l'énergie. Pour la production électrique, il refuse une opposition entre nucléaire et énergies renouvelables et défend une forte augmentation de la production d'électricité stable et décarbonée provenant des deux filières. Dans son discours d'université d'été 2026, il rattache cette stratégie au plan climat Empreinte 2050 et évoque un doublement de la production d'électricité décarbonée. Il veut également relocaliser la production industrielle afin de diminuer la dépendance aux importations et les émissions qui leur sont associées. Face à la hausse du prix des carburants en septembre 2026, il a demandé la suppression des certificats d'économies d'énergie appliqués aux carburants, auxquels il attribue environ 15 centimes par litre, ainsi que la baisse de la TVA sur les carburants de 20 % à 5,5 %. Ces mesures de court terme s'ajoutent à sa stratégie de sortie progressive des énergies fossiles.",
+  "financement": "Fabien Roussel rattache les investissements énergétiques au financement plus large de son plan climat Empreinte 2050 et affirme que les investissements nécessaires seront très importants. La campagne défend une mobilisation des financements publics et une maîtrise publique accrue des grandes entreprises énergétiques. Le coût actualisé pour 2027 de la nationalisation de TotalEnergies, des investissements nucléaires et renouvelables et du doublement annoncé de la production électrique décarbonée n'est toutefois pas encore consolidé dans les sources récentes retenues. La baisse de TVA sur les carburants et la suppression des certificats d'économies d'énergie auraient également un effet sur les recettes ou financements existants, mais leur coût budgétaire actualisé n'est pas chiffré dans les sources utilisées ici.",
+  "population_concernee": "Ménages consommateurs d'électricité, de gaz et de carburants ; automobilistes ; entreprises et industries consommatrices d'énergie ; salariés des filières nucléaire, renouvelables et fossiles ; EDF, Engie et TotalEnergies ; territoires industriels et finances publiques.",
+  "sources": [
+    {
+      "nom": "PCF — université d'été 2026, discours de Fabien Roussel",
+      "url": "https://www.pcf.fr/ue_26_discours_fr"
+    },
+    {
+      "nom": "PCF — Fête de l'Humanité 2026, discours de Fabien Roussel",
+      "url": "https://www.pcf.fr/fete_de_lhumanite_2026_discours_de_fabien_roussel"
+    },
+    {
+      "nom": "PCF — nationalisation de TotalEnergies et pôle public de l'énergie, mai 2026",
+      "url": "https://www.pcf.fr/nationalisation_de_total"
+    },
+    {
+      "nom": "Le Monde — pouvoir d'achat et prix du carburant, 11 septembre 2026",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/11/presidentielle-2027-la-colere-monte-face-a-l-impuissance-du-gouvernement-sur-le-pouvoir-d-achat-et-le-prix-du-carburant_6770591_823448.html"
+    }
+  ]
+},
+"fiscalite": {
+  "statut": "Premières propositions fiscales 2027 explicitement annoncées",
+  "solidite_documentaire": 98,
+  "solidite_explication": "Plusieurs mesures fiscales ont été explicitement annoncées par Fabien Roussel pendant le lancement de sa campagne présidentielle 2027, notamment sur l'ISF, les revenus financiers, les dividendes, les successions et la progressivité de l'impôt. Le programme fiscal complet et son chiffrage consolidé ne sont cependant pas encore publiés.",
+  "resume": "Fabien Roussel défend une augmentation de la contribution fiscale des patrimoines et revenus les plus élevés et une diminution de la charge pesant sur certaines catégories aux revenus ou patrimoines plus modestes. Lors de la Fête de l'Humanité en septembre 2026, il a annoncé le rétablissement de l'impôt de solidarité sur la fortune. Il veut également instaurer des cotisations sur les revenus financiers et les dividendes afin de contribuer au financement de la Sécurité sociale et du système de retraite par répartition. Sur les successions, il propose de taxer davantage les héritages les plus élevés et annonce l'exonération des héritages inférieurs à 200 000 euros. Il défend par ailleurs un impôt sur le revenu comportant davantage de tranches, avec l'objectif annoncé de faire moins contribuer les classes moyennes et davantage les contribuables aux revenus élevés. Il distingue les impôts des cotisations sociales, qu'il considère comme le financement de droits sociaux tels que la santé et la retraite. Il critique également les baisses de fiscalité sur le capital et les grandes entreprises et veut renforcer la lutte contre la fraude et l'optimisation fiscales. Pour le financement de la transition climatique, les propositions communistes de septembre 2026 comprennent également la taxation des superprofits des entreprises d'énergies fossiles et de l'armement et un impôt climatique sur les patrimoines les plus élevés.",
+  "financement": "Les cotisations proposées sur les revenus financiers et les dividendes sont destinées au financement de la Sécurité sociale et des retraites. Pour la politique climatique, le PCF propose un impôt climatique sur les patrimoines les plus élevés dont il estime le rendement entre 15 et 25 milliards d'euros par an, ainsi qu'une taxation des superprofits des entreprises d'énergies fossiles dès la loi de finances pour 2027 et des superprofits du secteur de l'armement. Les sources récentes retenues ne fournissent cependant pas encore un chiffrage consolidé de l'ensemble du programme fiscal, du rendement du rétablissement de l'ISF, des nouvelles cotisations sur les revenus financiers et dividendes, ni de l'effet budgétaire de la réforme annoncée des successions.",
+  "population_concernee": "Contribuables assujettis au futur ISF selon les modalités qui seront précisées ; détenteurs de revenus financiers et bénéficiaires de dividendes ; héritiers, avec une exonération annoncée pour les héritages inférieurs à 200 000 euros et une contribution accrue annoncée pour les héritages les plus élevés ; classes moyennes concernées par la réforme de la progressivité de l'impôt ; entreprises des secteurs fossiles et de l'armement concernées par la taxation des superprofits ; assurés sociaux et retraités concernés par l'affectation annoncée de certaines nouvelles cotisations.",
+  "sources": [
+    {
+      "nom": "PCF — Fête de l'Humanité 2026, discours de Fabien Roussel",
+      "url": "https://www.pcf.fr/fete_de_lhumanite_2026_discours_de_fabien_roussel"
+    },
+    {
+      "nom": "PCF — entretien sur le projet présidentiel 2027 et la fiscalité",
+      "url": "https://po.pcf.fr/40e-congres/presidentielle-2027-si-nous-sommes-candidats-nous-devons-aller-jusquau-bout-estime-fabien-roussel-lhumanite/"
+    },
+    {
+      "nom": "PCF — propositions Climat, septembre 2026",
+      "url": "https://oise.pcf.fr/132857"
+    },
+    {
+      "nom": "Le Monde — débat Fabien Roussel et Patrick Martin, 11 septembre 2026",
+      "url": "https://www.lemonde.fr/politique/live/2026/09/12/en-direct-presidentielle-2027-jean-luc-melenchon-et-fabien-roussel-a-la-fete-de-l-huma-bruno-retailleau-avec-les-jeunes-lr-suivez-le-deplacement-des-candidats_6770586_823448.html"
+    }
+  ]
+},
+"ecologie": {
+  "statut": "Plan climatique repris dans la campagne 2027 — propositions complémentaires publiées en septembre 2026",
+  "solidite_documentaire": 99,
+  "solidite_explication": "Fabien Roussel rattache explicitement à sa campagne actuelle le plan climat Empreinte 2050 du PCF et en présente les grands axes dans ses interventions de 2026. Des propositions climatiques complémentaires ont également été publiées par les communistes en septembre 2026. Certains investissements et modalités restent néanmoins à détailler dans le programme présidentiel final.",
+  "resume": "Fabien Roussel défend le plan climat Empreinte 2050, qui vise la sortie des énergies fossiles et la neutralité carbone en 2050. Il présente ce plan comme combinant réduction des émissions et adaptation aux conséquences du changement climatique. La stratégie repose sur une transformation des modes de production, de consommation et de déplacement, une réindustrialisation et une relocalisation de la production afin de réduire les émissions associées aux importations, ainsi qu'une forte augmentation de la production électrique décarbonée reposant à la fois sur le nucléaire et les énergies renouvelables. Pour les bâtiments, il défend la rénovation des logements et des bâtiments publics ainsi que des mesures d'adaptation aux fortes chaleurs, notamment l'installation d'équipements de rafraîchissement et de volets. Les transports, l'agriculture et l'industrie font également partie des secteurs que le plan entend transformer. Les propositions climatiques communistes publiées en septembre 2026 appellent à un plan d'urgence combinant adaptation et atténuation du changement climatique. Leur financement doit notamment faire contribuer les superprofits des entreprises d'énergies fossiles et de l'armement ainsi que les patrimoines les plus élevés. Le projet relie également politique climatique et réindustrialisation, avec l'objectif de produire davantage en France plutôt que d'importer des produits dont les émissions sont générées à l'étranger.",
+  "financement": "Fabien Roussel affirme que le plan Empreinte 2050 nécessite des investissements très importants et qu'il doit disposer de financements spécifiques. Les propositions communistes de septembre 2026 prévoient notamment de taxer dès la loi de finances 2027 les superprofits des entreprises d'énergies fossiles, de taxer les superprofits du secteur de l'armement et de créer un impôt climatique sur les patrimoines les plus élevés, dont le rendement est estimé par le PCF entre 15 et 25 milliards d'euros par an. Le plan climatique défend également une mobilisation accrue des financements publics. Le coût total actualisé du plan pour l'ensemble du quinquennat et la ventilation de ces investissements entre logement, transports, agriculture, industrie, énergie et adaptation ne sont toutefois pas encore consolidés dans les sources retenues.",
+  "population_concernee": "Ensemble de la population concernée par les politiques climatiques ; ménages et habitants de logements nécessitant une rénovation ou une adaptation aux fortes chaleurs ; automobilistes et usagers des transports ; agriculteurs ; salariés et entreprises industrielles ; secteurs énergétiques ; collectivités et services publics ; entreprises d'énergies fossiles et d'armement concernées par les taxes proposées ; détenteurs des patrimoines les plus élevés concernés par l'impôt climatique annoncé.",
+  "sources": [
+    {
+      "nom": "PCF — université d'été 2026, discours de Fabien Roussel",
+      "url": "https://www.pcf.fr/ue_26_discours_fr"
+    },
+    {
+      "nom": "PCF — propositions Climat, septembre 2026",
+      "url": "https://oise.pcf.fr/132857"
+    },
+    {
+      "nom": "PCF — Fabien Roussel sur le projet présidentiel et le plan climat",
+      "url": "https://po.pcf.fr/40e-congres/presidentielle-2027-si-nous-sommes-candidats-nous-devons-aller-jusquau-bout-estime-fabien-roussel-lhumanite/"
+    }
+  ]
+}  
       }
     },
     {
