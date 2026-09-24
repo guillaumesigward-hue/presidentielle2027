@@ -520,22 +520,32 @@
     {
       "nom": "Marine Le Pen",
       "themes": {
-        "ecole": {
-          "statut": "Recherche en cours",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : aucune proposition éducative 2027 suffisamment documentée n'est encore intégrée.",
-          "resume": "Les mesures d'anciens programmes ne sont pas reprises automatiquement. Cette rubrique sera complétée lorsque des propositions éducatives seront clairement confirmées pour le projet présidentiel 2027.",
-          "financement": "Non précisé à ce stade.",
-          "population_concernee": "Élèves, familles et personnels de l'éducation.",
-          "handicap_aesh": {
-  "statut": "Positions antérieures identifiées — confirmation 2027 nécessaire",
-  "propositions": "Marine Le Pen a exprimé lors de campagnes antérieures des positions concernant l'accompagnement du handicap, notamment la formation et la reconnaissance des AESH ainsi que l'accompagnement de l'autisme. Ces positions antérieures ne sont pas présentées ici comme des engagements pour 2027 tant qu'elles ne sont pas confirmées dans son projet actuel.",
-  "impact_familles": "À ce stade, les sources récentes vérifiées ne permettent pas de déterminer précisément ce que son projet 2027 changerait pour une famille ayant besoin d'un AESH, notamment concernant le nombre d'accompagnants, les heures attribuées, la mutualisation ou les besoins particuliers des élèves avec TDAH ou trouble du spectre de l'autisme.",
-  "financement": "Aucun financement spécifique AESH suffisamment documenté pour 2027 n'est identifié à ce stade.",
-  "sources": []
+       "ecole": {
+  "statut": "Programme présidentiel 2027 non encore publié intégralement — orientations antérieures identifiées",
+  "solidite_documentaire": null,
+  "solidite_explication": "Non évaluée : les sources récentes confirment que le programme présidentiel 2027 de Marine Le Pen n'est pas encore publié dans son intégralité. Des propositions éducatives du Rassemblement national, notamment celles présentées pour les élections législatives de 2024, permettent d'identifier des orientations, mais elles ne sont pas automatiquement considérées ici comme des engagements présidentiels 2027 confirmés.",
+  "resume": "À ce stade, aucune version suffisamment complète du volet éducatif du programme présidentiel 2027 de Marine Le Pen n'est disponible dans les sources retenues pour présenter l'ensemble de ses mesures comme des engagements définitivement confirmés. Public Sénat relève néanmoins plusieurs orientations issues des propositions portées récemment par le Rassemblement national, notamment lors des élections législatives de 2024. Elles comprennent le rétablissement de l'autorité comme axe de la politique scolaire, avec l'orientation vers des structures spécialisées d'élèves perturbateurs ayant fait l'objet de deux exclusions ; une place renforcée accordée à l'histoire, avec notamment l'affichage dans les classes d'une carte de France et d'une frise chronologique consacrée au « récit national » ; une réforme du baccalauréat comprenant le retour des séries et une modification des règles de notation ; une rénovation de l'enseignement des mathématiques ; l'abrogation du Pacte enseignant créé en 2023 ; et l'obligation de remplacer les enseignants absents. Ces mesures sont présentées ici comme des orientations antérieures ou récentes du Rassemblement national et non comme l'intégralité d'un programme scolaire 2027 définitivement publié. La fiche devra être actualisée lorsque Marine Le Pen ou sa campagne publiera le volet éducatif complet de son projet présidentiel.",
+  "financement": "Aucun chiffrage global ni plan de financement suffisamment documenté du volet scolaire présidentiel 2027 n'est disponible dans les sources retenues. Les éventuels chiffrages provenant de programmes présidentiels antérieurs ne sont pas réattribués automatiquement au projet 2027.",
+  "population_concernee": "Élèves, familles, enseignants, chefs d'établissement et autres personnels de l'éducation seraient concernés par les orientations scolaires identifiées. Certaines mesures antérieures concernent plus particulièrement les élèves faisant l'objet d'exclusions répétées et les enseignants concernés par le Pacte enseignant et les remplacements. Les populations précisément concernées par le programme 2027 devront être actualisées lors de sa publication détaillée.",
+  "handicap_aesh": {
+    "statut": "Positions antérieures identifiées — confirmation 2027 nécessaire",
+    "propositions": "Des positions et propositions concernant le handicap, l'école inclusive et les AESH ont été attribuées à Marine Le Pen ou au Rassemblement national lors de campagnes antérieures. Les sources récentes retenues pour cette fiche ne permettent toutefois pas d'établir avec suffisamment de précision quelles mesures concernant le statut, la rémunération, le recrutement ou l'organisation du travail des AESH seront reprises dans son programme présidentiel 2027.",
+    "impact_familles": "À ce stade, il n'est donc pas possible d'attribuer au programme 2027 un nombre précis d'AESH supplémentaires, un nombre garanti d'heures d'accompagnement par élève, une modification déterminée de leur statut ou de leur rémunération, une règle concernant la mutualisation de l'aide humaine ou un dispositif particulier pour les élèves avec TDAH ou trouble du spectre de l'autisme. Cette absence de confirmation ne signifie pas que les positions antérieures ont été abandonnées ; leur maintien dans le projet 2027 doit encore être documenté.",
+    "financement": "Aucun montant ni financement spécifique concernant les AESH n'est suffisamment documenté pour le programme présidentiel 2027 dans les sources retenues.",
+    "sources": [
+      {
+        "nom": "Public Sénat — propositions des candidats pour l'école, 31 août 2026",
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "nom": "Public Sénat — propositions des candidats pour l'école, 31 août 2026",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+    }
+  ]
 },
-          "sources": []
-        },
         "sante": {
           "statut": "Recherche en cours",
           "solidite_documentaire": null,
