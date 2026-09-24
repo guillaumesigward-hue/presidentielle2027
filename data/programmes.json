@@ -556,47 +556,68 @@
     }
   ]
 },
-        "energie": {
-          "statut": "Recherche en cours",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : propositions énergétiques 2027 encore à consolider.",
-          "resume": "Les propositions concernant la production énergétique, les prix et leur financement doivent encore être consolidées à partir des documents de campagne.",
-          "financement": "Non précisé à ce stade.",
-          "population_concernee": "Ménages, entreprises et secteur énergétique.",
-          "sources": []
-        },
-        "fiscalite": {
-          "statut": "Proposition destinée au projet présidentiel",
-          "solidite_documentaire": 99,
-          "solidite_explication": "Montants, mécanisme de compensation et attribution directement documentés et recoupés.",
-          "resume": "Il propose de réduire de 50 milliards d'euros par an les impôts de production payés par les entreprises.",
-          "financement": "Cette baisse de 50 milliards d'euros serait compensée, selon sa proposition, par 50 milliards d'euros de suppression d'aides aux entreprises, avec l'objectif annoncé d'un impact budgétaire neutre pour l'État.",
-          "population_concernee": "Entreprises, bénéficiaires des aides publiques concernées et finances de l'État.",
-          "sources": [
-            {
-              "nom": "TF1-LCI — débat du 27 août 2026",
-              "url": "https://www.tf1info.fr/politique/direct-video-streaming-presidentielle-2027-7-candidats-se-confrontent-aux-patrons-francais-le-premier-debat-de-la-campagne-a-suivre-en-exclusivite-sur-lci-2460751.html"
-            },
-            {
-              "nom": "Le Monde — 19 mai 2026",
-              "url": "https://www.lemonde.fr/politique/article/2026/05/19/fiscalite-les-impots-de-production-au-c-ur-de-la-future-bataille-politique_6691520_823448.html"
-            }
-          ]
-        },
-        "ecologie": {
-          "statut": "Propositions écologiques en cours de construction pour 2027",
-          "solidite_documentaire": 88,
-          "solidite_explication": "Plusieurs propositions récentes sont identifiées, mais le volet environnemental n'est pas encore présenté comme un programme écologique complet et définitif.",
-          "resume": "Édouard Philippe a récemment mis davantage l'accent sur l'adaptation au changement climatique. Il a notamment évoqué la rénovation thermique, les moyens de lutte contre les incendies, la captation de carbone et l'adaptation des infrastructures aux transformations climatiques.",
-          "financement": "Le coût global et le mode de financement de cet ensemble de propositions ne sont pas encore précisés dans la source retenue.",
-          "population_concernee": "Ménages, collectivités, propriétaires et locataires, services de secours, entreprises et populations exposées aux risques climatiques.",
-          "sources": [
-            {
-              "nom": "Le Monde — 5 septembre 2026",
-              "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/05/presidentielle-2027-pour-gabriel-attal-et-edouard-philippe-le-poids-d-un-bilan-ecologique-contraste_6766350_4355770.html"
-            }
-          ]
-        }
+      "energie": {
+  "statut": "Premières orientations énergétiques 2027 officiellement publiées",
+  "solidite_documentaire": 98,
+  "solidite_explication": "Le site officiel de campagne d'Édouard Philippe rattache désormais explicitement au projet 2027 la relance du nucléaire, le développement des énergies renouvelables, l'électrification des usages et l'accès préférentiel à l'énergie décarbonée pour certains acteurs économiques. Les capacités de production, calendriers, coûts et mécanismes de financement ne sont toutefois pas encore détaillés suffisamment pour constituer un programme énergétique entièrement chiffré.",
+  "resume": "Édouard Philippe veut assurer la souveraineté énergétique française en relançant le nucléaire, en développant parallèlement les énergies renouvelables et en électrifiant massivement les usages aujourd'hui dépendants des énergies fossiles. Il rattache cette stratégie à la réduction des émissions de carbone, à la compétitivité industrielle et à la souveraineté économique. Pour les entreprises technologiques françaises et européennes, il propose notamment un accès préférentiel à l'énergie décarbonée, avec des règles de raccordement adaptées pour favoriser le développement d'infrastructures d'intelligence artificielle. Il veut également concentrer les efforts de décarbonation sur les secteurs qu'il identifie comme ayant un impact important, notamment la grande industrie, le fret de marchandises et les bâtiments. La captation du carbone fait également partie de sa stratégie, avec l'annonce d'investissements massifs dans cette technologie. À ce stade, les orientations officielles retenues ne précisent pas le nombre de nouveaux réacteurs nucléaires envisagés, le calendrier complet de construction, les objectifs quantitatifs par filière renouvelable, le futur mécanisme de fixation des prix de l'électricité ni les effets chiffrés attendus sur les factures des ménages.",
+  "financement": "Édouard Philippe annonce des investissements importants dans la production d'énergie décarbonée, l'électrification et la captation du carbone, mais les premières orientations officielles ne publient pas encore de coût consolidé du programme énergétique ni de ventilation entre financements publics, EDF, entreprises privées et autres investisseurs. Le coût de la relance nucléaire, des renouvelables, des réseaux et de l'électrification n'est donc pas estimé par le site en l'absence de chiffrage publié.",
+  "population_concernee": "Ménages consommateurs d'énergie, entreprises et industries consommatrices d'électricité, salariés et entreprises des filières nucléaire et renouvelables, grande industrie, secteur du fret, entreprises technologiques et infrastructures d'intelligence artificielle ainsi que les finances publiques et investisseurs concernés par les futurs investissements.",
+  "sources": [
+    {
+      "nom": "Édouard Philippe 2027 — Pour une France plus conquérante",
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+    },
+    {
+      "nom": "Le Monde — propositions énergétiques et écologiques d'Édouard Philippe, 5 septembre 2026",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/05/presidentielle-2027-pour-gabriel-attal-et-edouard-philippe-le-poids-d-un-bilan-ecologique-contraste_6766350_4355770.html"
+    }
+  ]
+},
+"fiscalite": {
+  "statut": "Propositions fiscales et budgétaires 2027 officiellement publiées",
+  "solidite_documentaire": 99,
+  "solidite_explication": "Le site officiel de campagne publie désormais plusieurs engagements fiscaux et budgétaires précis : baisse de 50 milliards d'euros des impôts de production, suppression d'un montant équivalent d'aides publiques aux entreprises, moratoire fiscal pendant le quinquennat et objectif de déficit public à 2 % du PIB en fin de mandat. Le détail impôt par impôt et la trajectoire annuelle complète restent néanmoins à publier.",
+  "resume": "Édouard Philippe propose un pacte fiscal avec les entreprises consistant à réduire de 50 milliards d'euros les impôts de production en contrepartie de la suppression de 50 milliards d'euros d'aides publiques aux entreprises qu'il considère comme improductives. Il veut parallèlement instaurer un moratoire normatif et fiscal pendant le quinquennat, avec l'engagement de ne créer ni nouvelle norme ni nouvel impôt. Son projet économique comprend également une réorganisation de l'État passant par le regroupement ou la privatisation d'agences et d'opérateurs et une simplification des procédures. Sur les finances publiques, il propose d'inscrire dans la Constitution une règle d'or de maîtrise des déficits et fixe comme objectif de ramener le déficit public de plus de 5 % du PIB à 2 % en fin de quinquennat. Pour le financement du modèle social, il veut qu'il repose moins exclusivement sur le travail afin d'augmenter le salaire net des actifs. Son projet de retraites prévoit également la création progressive d'un pilier de capitalisation représentant 10 à 15 % des pensions à l'horizon de quinze ans. À ce stade, les orientations officielles retenues ne fournissent pas encore un tableau exhaustif des modifications prévues concernant l'impôt sur le revenu, la TVA, la fiscalité du patrimoine, les successions, les cotisations et les autres prélèvements.",
+  "financement": "La baisse annoncée de 50 milliards d'euros des impôts de production doit être compensée, selon la proposition officielle, par la suppression de 50 milliards d'euros d'aides publiques aux entreprises considérées comme improductives. Édouard Philippe prévoit également des économies et réorganisations de l'État afin de contribuer au redressement des finances publiques. Il fixe une trajectoire visant un déficit public de 2 % du PIB à la fin du quinquennat. Les sources officielles retenues ne fournissent cependant pas encore la liste exhaustive des 50 milliards d'euros d'aides qui seraient supprimées, la trajectoire budgétaire annuelle complète ni le rendement détaillé des autres réformes fiscales et sociales.",
+  "population_concernee": "Entreprises payant des impôts de production et entreprises bénéficiant actuellement d'aides publiques ; contribuables concernés par le moratoire fiscal ; actifs concernés par la modification annoncée du financement du modèle social ; futurs retraités concernés par le développement de la capitalisation ; administrations, agences et opérateurs de l'État concernés par les réorganisations ; ensemble de la population concernée par la trajectoire des finances publiques.",
+  "sources": [
+    {
+      "nom": "Édouard Philippe 2027 — Pour une France plus prospère",
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+    },
+    {
+      "nom": "Le Monde — impôts de production et propositions d'Édouard Philippe, 19 mai 2026",
+      "url": "https://www.lemonde.fr/politique/article/2026/05/19/fiscalite-les-impots-de-production-au-c-ur-de-la-future-bataille-politique_6691520_823448.html"
+    }
+  ]
+},
+"ecologie": {
+  "statut": "Orientations et mesures écologiques 2027 officiellement publiées et complétées en septembre 2026",
+  "solidite_documentaire": 99,
+  "solidite_explication": "Le site officiel de campagne publie désormais un ensemble substantiel de mesures concernant l'atténuation des émissions et l'adaptation au changement climatique. Édouard Philippe a également consacré le 17 septembre 2026 un discours spécifique à l'adaptation climatique. Plusieurs mesures sont donc précisément documentées, même si le coût consolidé de l'ensemble de la politique écologique reste à publier.",
+  "resume": "Édouard Philippe présente son approche comme une « écologie à impact » combinant réduction des émissions, adaptation au changement climatique, investissement, innovation et économie de marché. Pour réduire les émissions, il veut relancer le nucléaire, développer les énergies renouvelables et électrifier massivement les usages. Il propose de concentrer l'action sur le fret de marchandises, la rénovation des bâtiments et la grande industrie, de mettre en place un prix du carbone aux frontières européennes et d'investir massivement dans la captation du carbone. Il a également annoncé un grand plan de fret ferroviaire destiné à retirer des millions de camions des routes. Sur l'adaptation, il veut faire de la protection face aux risques climatiques une politique structurante de l'État. Il propose de climatiser massivement les lieux accueillant des personnes fragiles et de doubler le Fonds vert en le recentrant sur l'adaptation et la climatisation des bâtiments publics. Pour les villes, il veut multiplier les plantations d'arbres et modifier les règles d'urbanisme qui freinent selon lui l'adaptation des espaces publics. Sur l'eau, il propose un plan national destiné à améliorer l'accès à l'eau et à rendre baignables les rivières, accompagné de la rénovation des piscines. Il veut créer une DATAR 2.0, opérateur unique de l'adaptation mobilisant ingénieurs, agronomes et urbanistes au service des territoires. Dans son discours du 17 septembre 2026, il a également proposé de renforcer et moderniser les moyens de la sécurité civile, de développer une culture du risque et de mieux préparer les collectivités et la population aux événements climatiques extrêmes. Son projet prévoit enfin de mieux adapter l'agriculture au changement climatique et de défendre au niveau européen des exigences environnementales applicables aux produits importés.",
+  "financement": "Édouard Philippe annonce le doublement du Fonds vert et son recentrage sur l'adaptation et la climatisation des bâtiments publics. Il indique également vouloir investir massivement dans la captation du carbone, la rénovation, les infrastructures et l'adaptation des territoires. Il souligne que ces nouvelles priorités nécessiteront des moyens importants et qu'elles devront s'accompagner de réductions de dépenses dans d'autres domaines. Les sources officielles et journalistiques retenues ne fournissent toutefois pas encore le montant du Fonds vert après doublement, le coût total du plan d'adaptation, le coût du fret ferroviaire ou de la captation du carbone, ni la liste précise des dépenses qui seraient réduites pour les financer. Aucun montant supplémentaire n'est donc estimé.",
+  "population_concernee": "Ensemble de la population exposée au changement climatique ; enfants, personnes âgées, patients et autres personnes fragiles fréquentant les bâtiments concernés par la climatisation ; habitants des villes exposées aux îlots de chaleur ; collectivités et services de sécurité civile ; propriétaires et occupants de bâtiments à rénover ; agriculteurs ; entreprises industrielles ; transporteurs et usagers du fret ; populations exposées aux sécheresses, inondations, incendies et autres événements climatiques extrêmes.",
+  "sources": [
+    {
+      "nom": "Édouard Philippe 2027 — Pour une France plus conquérante",
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante"
+    },
+    {
+      "nom": "Édouard Philippe — grand meeting de l'Adidas Arena, juillet 2026",
+      "url": "https://www.edouardphilippe.fr/actualites/grand-meeting-edouard-philippe-adidas-arena"
+    },
+    {
+      "nom": "Le Monde — Édouard Philippe et sa politique de sécurité climatique, 18 septembre 2026",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/18/presidentielle-2027-edouard-philippe-defend-sa-vision-liberale-de-l-ecologie-et-prone-une-politique-de-securite-climatique_6776657_823448.html"
+    },
+    {
+      "nom": "Le Monde — propositions écologiques d'Édouard Philippe, 5 septembre 2026",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/05/presidentielle-2027-pour-gabriel-attal-et-edouard-philippe-le-poids-d-un-bilan-ecologique-contraste_6766350_4355770.html"
+    }
+  ]
+}  
       }
     },
     {
