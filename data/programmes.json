@@ -441,48 +441,68 @@
     }
   ]
 },
-        "energie": {
-          "statut": "Programme en cours d'actualisation pour 2027",
-          "solidite_documentaire": 98,
-          "solidite_explication": "L'actualisation 2027 est confirmée ; les mesures énergétiques précises restent à vérifier dans la version actualisée.",
-          "resume": "Les orientations énergétiques seront détaillées après vérification de la version actualisée du programme afin de ne pas présenter automatiquement les mesures d'une édition antérieure comme définitivement arrêtées pour 2027.",
-          "financement": "À documenter.",
-          "population_concernee": "Ménages, entreprises et secteur énergétique.",
-          "sources": [
-            {
-              "nom": "La France insoumise — actualisation du programme pour 2027",
-              "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
-            }
-          ]
-        },
-        "fiscalite": {
-          "statut": "Programme en cours d'actualisation pour 2027",
-          "solidite_documentaire": 98,
-          "solidite_explication": "L'actualisation 2027 est confirmée ; les mesures fiscales précises restent à vérifier dans la version actualisée.",
-          "resume": "Les propositions fiscales seront détaillées à partir de la version actualisée du programme plutôt que de reprendre automatiquement les mesures d'une édition antérieure.",
-          "financement": "À documenter.",
-          "population_concernee": "Contribuables, ménages, entreprises et finances publiques.",
-          "sources": [
-            {
-              "nom": "La France insoumise — actualisation du programme pour 2027",
-              "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
-            }
-          ]
-        },
-        "ecologie": {
-          "statut": "Programme en cours d'actualisation pour 2027",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée pour les mesures écologiques : l'actualisation du programme pour 2027 est confirmée, mais les mesures détaillées de la version définitive doivent encore être vérifiées.",
-          "resume": "L'Avenir en commun est explicitement en cours d'actualisation pour l'élection présidentielle 2027. Les propositions écologiques détaillées seront intégrées lorsque leur maintien ou leur modification dans cette version aura été vérifié.",
-          "financement": "À documenter à partir de la version actualisée du programme.",
-          "population_concernee": "Ménages, entreprises, agriculteurs, collectivités et populations exposées aux conséquences environnementales et climatiques.",
-          "sources": [
-            {
-              "nom": "La France insoumise — 20 mai 2026",
-              "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
-            }
-          ]
-        }
+      "energie": {
+  "statut": "Programme en cours d'actualisation pour 2027 — principales orientations énergétiques déjà confirmées",
+  "solidite_documentaire": 99,
+  "solidite_explication": "La synthèse officielle de la consultation Mélenchon 2027 distingue désormais les mesures déjà présentes dans L'Avenir en commun des propositions nouvelles reçues pendant l'actualisation. Les principales orientations énergétiques peuvent donc être documentées sans assimiler les nouvelles contributions à des engagements définitivement adoptés.",
+  "resume": "Jean-Luc Mélenchon maintient dans le programme en cours d'actualisation un objectif de 100 % d'énergies renouvelables en 2050. Cette trajectoire implique la sortie du nucléaire à l'horizon 2050 et une politique de sobriété énergétique. Le programme prévoit d'annuler la libéralisation du marché de l'électricité et de renationaliser EDF et Engie afin de renforcer la maîtrise publique du secteur énergétique. Il prévoit également des tarifs réglementés de l'énergie poursuivant des objectifs sociaux. La planification énergétique doit organiser le développement des énergies renouvelables et des technologies permettant de gérer les variations de la production et de la consommation. Le programme prévoit d'investir dans la recherche et le développement des technologies nécessaires aux renouvelables, notamment la géothermie, et soutient le développement des réseaux de chaleur et de fraîcheur. La rénovation énergétique fait partie de cette stratégie, avec le remplacement des chauffages polluants par des alternatives telles que les pompes à chaleur et l'utilisation de matériaux biosourcés. La question de la souveraineté énergétique est également traitée par le recyclage des matériaux nécessaires aux technologies de production et de stockage, le développement de certaines productions nationales et la sécurisation des approvisionnements. Des contributions nouvelles proposent notamment de mieux orienter l'implantation du solaire et de l'éolien selon des critères d'intérêt général, sociaux, agricoles et de biodiversité ; elles sont encore présentées comme contributions et non comme mesures définitivement intégrées.",
+  "financement": "Le programme prévoit une reprise en main publique du secteur énergétique, la renationalisation d'EDF et Engie ainsi que des investissements publics importants dans les énergies renouvelables, les réseaux, la rénovation énergétique et les technologies nécessaires à la transition. La synthèse 2027 confirme également un financement renforcé des rénovations énergétiques, notamment pour les ménages les plus modestes. Les documents retenus ne fournissent toutefois pas encore un chiffrage consolidé et actualisé pour 2027 du coût de la renationalisation, des investissements nécessaires au 100 % renouvelable, des réseaux, du stockage et de la rénovation énergétique. Aucun montant non publié n'est donc ajouté.",
+  "population_concernee": "Ménages consommateurs d'électricité, de gaz et de chaleur ; ménages en situation de précarité énergétique ; propriétaires et locataires concernés par la rénovation ; entreprises et industriels consommateurs d'énergie ; salariés des filières nucléaire et renouvelables ; EDF, Engie et les autres acteurs du marché énergétique ; collectivités et territoires accueillant des installations énergétiques.",
+  "sources": [
+    {
+      "nom": "Mélenchon 2027 — chapitre 13, grands chantiers de la bifurcation écologique",
+      "url": "https://melenchon2027.fr/chapitre-13-les-grands-chantiers-de-la-bifurcation-ecologique/"
+    },
+    {
+      "nom": "Mélenchon 2027 — synthèse des contributions à l'actualisation du programme",
+      "url": "https://melenchon2027.fr/synthese-des-contributions/"
+    },
+    {
+      "nom": "Mélenchon 2027 — comparaison programmatique sur la politique énergétique",
+      "url": "https://melenchon2027.fr/comparateur-place-publique-2025-mener-la-revolution-energetique-ecologique-et-industrielle/"
+    }
+  ]
+},
+"fiscalite": {
+  "statut": "Programme fiscal en cours d'actualisation pour 2027 — principales mesures déjà présentes dans L'Avenir en commun",
+  "solidite_documentaire": 99,
+  "solidite_explication": "La synthèse officielle Mélenchon 2027 identifie désormais explicitement de nombreuses mesures fiscales comme déjà présentes dans le programme actuel. Elles peuvent donc être distinguées des propositions nouvelles issues de la consultation. Le chiffrage macroéconomique complet de la version présidentielle actualisée reste cependant à publier.",
+  "resume": "Jean-Luc Mélenchon défend une augmentation de la progressivité de la fiscalité et une contribution accrue des revenus et patrimoines les plus élevés. Parmi les mesures déjà présentes dans le programme figurent le rétablissement et le renforcement de l'impôt sur la fortune avec un volet climatique, la suppression de la flat tax et des niches fiscales considérées comme injustes, le rétablissement de l'exit tax et l'imposition des expatriés selon les modalités prévues par le programme. Il propose de rendre l'impôt sur les sociétés progressif et de taxer le chiffre d'affaires réalisé en France. Le programme prévoit également de refondre progressivement les droits de succession et d'instaurer un héritage maximal ; la documentation programmatique actuellement publiée indique un plafond de 12 millions d'euros dans L'Avenir en commun. Il prévoit également de supprimer le quotient conjugal et d'instaurer un revenu maximum. Concernant les entreprises, le programme veut encadrer les dividendes et conditionner les aides publiques à des contreparties sociales et écologiques. Il prévoit également de lutter contre la fraude et l'évasion fiscales. La documentation programmatique reprend par ailleurs la progressivité de l'impôt sur le revenu à 14 tranches et une CSG progressive. Les propositions nouvelles reçues pendant la consultation, comme certaines modifications supplémentaires du pacte Dutreil, ne sont pas présentées ici comme définitivement adoptées tant que leur intégration n'est pas confirmée.",
+  "financement": "La stratégie de financement repose notamment sur une contribution accrue des patrimoines et revenus les plus élevés, le rétablissement et le renforcement de l'ISF avec volet climatique, la suppression de la flat tax et de niches fiscales, une fiscalité plus progressive sur les revenus et les entreprises, la réforme de la fiscalité des successions ainsi que le renforcement de la lutte contre la fraude et l'évasion fiscales. La documentation programmatique évoque également la taxation des superprofits et la suppression des niches fiscales polluantes. À ce stade, les documents de la campagne 2027 retenus ne fournissent pas encore un tableau consolidé actualisé donnant le rendement de chaque mesure et le financement complet de toutes les dépenses du programme présidentiel. Aucun rendement non documenté n'est donc estimé.",
+  "population_concernee": "Contribuables soumis à l'impôt sur le revenu et à la CSG ; détenteurs des patrimoines les plus élevés concernés par l'ISF renforcé ; détenteurs de revenus du capital concernés par la suppression de la flat tax ; héritiers et détenteurs de patrimoines élevés concernés par la réforme des successions et l'héritage maximal ; entreprises et actionnaires concernés par la fiscalité des sociétés, les dividendes et les contreparties aux aides publiques ; contribuables et entreprises concernés par la lutte contre la fraude et l'évasion fiscales.",
+  "sources": [
+    {
+      "nom": "Mélenchon 2027 — synthèse des contributions à l'actualisation du programme",
+      "url": "https://melenchon2027.fr/synthese-des-contributions/"
+    },
+    {
+      "nom": "Mélenchon 2027 — financement des ambitions et mesures fiscales",
+      "url": "https://melenchon2027.fr/chantier-cadre-retrouver-les-moyens-dagir-financer-nos-ambitions/"
+    }
+  ]
+},
+"ecologie": {
+  "statut": "Programme écologique en cours d'actualisation pour 2027 — nombreuses mesures déjà confirmées dans le programme actuel",
+  "solidite_documentaire": 99,
+  "solidite_explication": "La campagne Mélenchon 2027 publie désormais une synthèse détaillée distinguant les mesures écologiques déjà présentes dans L'Avenir en commun des nouvelles contributions. Les domaines couverts comprennent la planification écologique, l'énergie, la rénovation, l'agriculture, l'eau, la biodiversité, les transports, les déchets et les pollutions. Les nouvelles propositions issues de la consultation ne sont pas automatiquement considérées comme adoptées.",
+  "resume": "Jean-Luc Mélenchon place la planification écologique au centre de son programme. Parmi les mesures déjà présentes figurent la planification de la désartificialisation et de la végétalisation des villes et des constructions, la réintroduction de biodiversité, l'utilisation de critères écologiques concernant les déchets, l'énergie et la pollution dans la commande publique, ainsi que le développement du réemploi, de la réparation et du recyclage. La stratégie énergétique vise 100 % d'énergies renouvelables en 2050 et s'accompagne d'un programme de rénovation énergétique des bâtiments. En agriculture, le programme veut favoriser des exploitations à taille humaine, réorienter les aides de la politique agricole commune vers l'agroécologie, réduire les engrais et pesticides et soutenir financièrement les exploitations se convertissant au bio. Sur l'eau, il prévoit de différencier les usages et leur tarification avec la gratuité des usages vitaux, d'interdire les méga-bassines, de dépolluer et réhabiliter les cours d'eau et plans d'eau et de développer les points d'accès à l'eau potable et aux sanitaires. Il défend également une gestion publique de l'eau. Concernant les pollutions, le programme prévoit d'interdire les produits chimiques les plus nocifs et les polluants éternels et de renforcer la gestion des risques industriels. Pour les transports, il défend le développement du ferroviaire et son accessibilité. Dans les Outre-mer, le programme prévoit notamment de tendre vers l'autosuffisance alimentaire, d'éradiquer l'utilisation du chlordécone et d'autres pesticides dangereux et d'investir davantage dans la biodiversité. Plusieurs propositions nouvelles issues de la consultation concernent notamment l'adaptation aux canicules, la plantation de haies, les réseaux de froid, l'autopartage public ou de nouvelles règles sur la captation de l'eau ; elles restent distinguées des mesures déjà adoptées tant que l'actualisation finale n'est pas publiée.",
+  "financement": "Le programme prévoit des investissements publics dans la planification écologique, la rénovation énergétique, les transports, les énergies renouvelables, l'agriculture et la protection des biens communs. Il prévoit également de supprimer les avantages fiscaux sans contrepartie écologique et les niches fiscales polluantes et de renforcer la fiscalité sur les patrimoines les plus élevés avec notamment un volet climatique de l'ISF. Les documents de campagne retenus ne publient pas encore le coût consolidé actualisé pour 2027 de l'ensemble de la bifurcation écologique ni la ventilation complète de son financement entre fiscalité, investissements publics et autres recettes. La fiche ne lui attribue donc aucun montant global qui ne soit pas explicitement documenté.",
+  "population_concernee": "Ensemble de la population concernée par le changement climatique et les politiques environnementales ; ménages et personnes en situation de précarité énergétique ; propriétaires et locataires ; agriculteurs ; usagers des transports ; collectivités ; entreprises industrielles et énergétiques ; habitants des territoires exposés aux pollutions, sécheresses, canicules et autres risques climatiques ; habitants des Outre-mer ; usagers des services d'eau et populations concernées par la protection de la biodiversité.",
+  "sources": [
+    {
+      "nom": "Mélenchon 2027 — synthèse des contributions",
+      "url": "https://melenchon2027.fr/synthese-des-contributions/"
+    },
+    {
+      "nom": "Mélenchon 2027 — chapitre 13, grands chantiers de la bifurcation écologique",
+      "url": "https://melenchon2027.fr/chapitre-13-les-grands-chantiers-de-la-bifurcation-ecologique/"
+    },
+    {
+      "nom": "Mélenchon 2027 — auditions programmatiques sur la planification écologique",
+      "url": "https://melenchon2027.fr/auditions-programmatiques/"
+    }
+  ]
+}  
       }
     },
     {
