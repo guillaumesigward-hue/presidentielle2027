@@ -414,7 +414,13 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
 
             if not url_article.startswith("http"):
                 continue
-
+            # Exclut les espaces de contribution qui ne sont pas
+            # des articles de la rédaction.
+            if (
+                nom_source == "Mediapart"
+                and "/blogs.mediapart.fr/" in url_article
+            ):
+                continue
             ajouter_detection(
                 detections,
                 {
