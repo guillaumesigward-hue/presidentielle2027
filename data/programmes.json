@@ -349,32 +349,40 @@
     {
       "nom": "Édouard Philippe",
       "themes": {
-        "ecole": {
-          "statut": "Propositions présentées pour son projet présidentiel",
-          "solidite_documentaire": 95,
-          "solidite_explication": "Principales orientations directement rattachées à son projet présidentiel ; chiffrage global encore absent.",
-          "resume": "Il propose une refonte importante de l'école : davantage d'autonomie pour les directions d'établissement, une refonte des rythmes scolaires, un soutien scolaire universel et une meilleure rémunération des enseignants.",
-          "financement": "Le coût global et le financement détaillé de cette refonte ne sont pas précisés dans la source retenue.",
-          "population_concernee": "Élèves, familles, enseignants et directions d'établissement.",
-          "handicap_aesh": {
-  "statut": "Aucune proposition 2027 suffisamment précise identifiée à ce stade",
-  "propositions": "Le projet scolaire présenté par Édouard Philippe comporte plusieurs mesures sur l'organisation de l'école, mais aucune proposition suffisamment précise n'a été identifiée dans les sources vérifiées pour cette fiche concernant le statut ou le nombre d'AESH, les heures d'accompagnement ou les dispositifs spécifiques pour les élèves avec TDAH ou trouble du spectre de l'autisme.",
-  "impact_familles": "Non précisé à ce stade. L'absence de proposition identifiée dans les sources consultées ne signifie pas qu'aucune mesure ne sera présentée ultérieurement.",
-  "financement": "Aucun financement spécifique AESH identifié à ce stade.",
+       "ecole": {
+  "statut": "Propositions présentées pour son projet présidentiel de 2027",
+  "solidite_documentaire": 96,
+  "solidite_explication": "Plusieurs propositions scolaires pour 2027 sont directement documentées par des sources récentes et concordantes. Les principales orientations sont identifiées, mais le coût global et plusieurs modalités de mise en œuvre ne sont pas encore détaillés dans les sources retenues.",
+  "resume": "Édouard Philippe propose une refonte du système scolaire donnant une place centrale à la maîtrise du français et des mathématiques, à l'attractivité du métier d'enseignant et à une autonomie accrue des établissements. Il propose d'augmenter de 20 % en moyenne la rémunération des enseignants sur l'ensemble du quinquennat. Il souhaite également renforcer leur formation. Il veut profiter de la baisse démographique scolaire pour réduire les effectifs dans les classes tout en améliorant les rémunérations. Les programmes resteraient nationaux, mais les établissements disposeraient de davantage de liberté pour organiser leurs méthodes d'enseignement, leurs horaires, les classes et certaines règles de fonctionnement. Selon les propositions rapportées, certains établissements pourraient notamment décider du port de l'uniforme, adapter leurs règles disciplinaires et participer davantage au choix et à l'évaluation des enseignants. Cette autonomie serait accompagnée d'une publication des résultats des établissements. Édouard Philippe souhaite également mieux encadrer l'utilisation de l'intelligence artificielle à l'école. En matière d'autorité et de responsabilité des familles, il propose une « amende de responsabilisation scolaire » visant certains parents d'enfants harceleurs, absentéistes ou particulièrement perturbateurs. Son projet présenté lors du lancement de sa campagne comporte également une réflexion sur les rythmes scolaires et la durée des grandes vacances.",
+  "financement": "Édouard Philippe propose une augmentation moyenne de 20 % de la rémunération des enseignants sur le quinquennat et indique vouloir utiliser la baisse démographique scolaire pour réduire les effectifs des classes tout en améliorant les rémunérations. Les sources retenues ne fournissent cependant pas de montant global pour cette revalorisation, ni de chiffrage complet de la réforme scolaire, ni de plan de financement détaillé propre à l'ensemble de ces mesures. Il ne faut donc pas attribuer à ce volet scolaire un coût ou des économies qui ne sont pas précisément documentés.",
+  "population_concernee": "Élèves du primaire et du secondaire, familles, enseignants, chefs d'établissement et autres personnels de l'Éducation nationale. Certaines propositions concernent plus particulièrement les établissements bénéficiant d'une autonomie accrue ainsi que les parents d'enfants concernés par des situations de harcèlement, d'absentéisme ou de perturbations scolaires visées par l'amende proposée.",
+  "handicap_aesh": {
+    "statut": "Aucune proposition 2027 suffisamment précise identifiée dans les sources retenues",
+    "propositions": "Les sources récentes retenues détaillent plusieurs propositions d'Édouard Philippe sur les rémunérations et la formation des enseignants, les effectifs des classes, l'autonomie des établissements, l'autorité et l'organisation scolaire. Elles ne permettent cependant pas d'identifier une mesure 2027 suffisamment précise concernant le statut ou la rémunération des AESH, leur nombre, les heures d'accompagnement, la mutualisation de l'aide humaine ou des dispositifs spécifiques pour les élèves avec TDAH ou trouble du spectre de l'autisme.",
+    "impact_familles": "Aucun effet spécifique sur l'accompagnement par les AESH ne peut donc être établi à partir des sources retenues. Cette absence de proposition identifiée dans ces documents ne signifie pas qu'aucune mesure concernant l'école inclusive ou les AESH ne pourra être présentée ultérieurement.",
+    "financement": "Aucun montant ni financement spécifique concernant les AESH n'est identifié dans les sources retenues.",
+    "sources": [
+      {
+        "nom": "Public Sénat — propositions des candidats pour l'école, 31 août 2026",
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+      }
+    ]
+  },
   "sources": [
     {
       "nom": "Le Monde — projet scolaire d'Édouard Philippe, 6 juillet 2026",
       "url": "https://www.lemonde.fr/politique/article/2026/07/06/en-meeting-edouard-philippe-promet-de-faire-de-l-interet-de-nos-enfants-la-boussole-de-son-projet-presidentiel_6721057_823448.html"
+    },
+    {
+      "nom": "Public Sénat — propositions des candidats pour l'école, 31 août 2026",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+    },
+    {
+      "nom": "Public Sénat — comparaison des projets scolaires, 25 août 2026",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-philippe-et-attal-font-de-lecole-un-nouveau-terrain-de-bataille-au-risque-dereinter-le-bilan-macron"
     }
   ]
 },
-          "sources": [
-            {
-              "nom": "Le Monde — 6 juillet 2026",
-              "url": "https://www.lemonde.fr/politique/article/2026/07/06/en-meeting-edouard-philippe-promet-de-faire-de-l-interet-de-nos-enfants-la-boussole-de-son-projet-presidentiel_6721057_823448.html"
-            }
-          ]
-        },
         "sante": {
           "statut": "Recherche en cours",
           "solidite_documentaire": null,
