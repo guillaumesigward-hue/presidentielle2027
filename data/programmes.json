@@ -178,18 +178,25 @@
     {
       "nom": "Fabien Roussel",
       "themes": {
-        "ecole": {
-          "statut": "Orientations publiées en 2026 dans la préparation de la présidentielle",
-          "solidite_documentaire": 95,
-          "solidite_explication": "Source primaire récente confirmant directement les orientations citées ; absence de chiffrage précis.",
-          "resume": "Fabien Roussel met en avant l'attractivité des métiers de l'éducation. Il cite les salaires, les conditions d'enseignement, le statut notamment des AESH et la formation initiale parmi les sujets nécessitant des changements profonds.",
-          "financement": "Aucun montant précis n'est indiqué dans la source retenue.",
-          "population_concernee": "Enseignants, AESH, personnels de l'éducation et, indirectement, élèves et familles.",
-          "handicap_aesh": {
-  "statut": "Orientation 2027 identifiée — modalités à préciser",
-  "propositions": "Fabien Roussel cite explicitement le statut des AESH parmi les sujets pour lesquels il estime nécessaires des changements profonds. Sa proposition détaillée pour 2027 concernant le statut, la rémunération, les effectifs et l'organisation de l'accompagnement reste toutefois à préciser.",
-  "impact_familles": "Le statut des AESH est donc explicitement identifié comme un sujet à traiter. En revanche, la source récente retenue ne permet pas encore de déterminer le nombre d'AESH supplémentaires, les heures d'accompagnement qui seraient garanties à chaque enfant ni les mesures particulières concernant les élèves avec TDAH ou trouble du spectre de l'autisme.",
-  "financement": "Aucun montant spécifique aux AESH n'est annoncé dans la source récente retenue.",
+       "ecole": {
+  "statut": "Orientations publiées en 2026 dans la préparation de la présidentielle de 2027",
+  "solidite_documentaire": 95,
+  "solidite_explication": "Source primaire récente établissant directement plusieurs orientations pour l'école dans le contexte de la présidentielle de 2027. Elle ne constitue toutefois pas encore un programme scolaire détaillé et ne fournit ni chiffrage précis ni modalités complètes de mise en œuvre.",
+  "resume": "Fabien Roussel place l'attractivité des métiers de l'éducation parmi les enjeux de son projet pour l'école. Dans sa lettre de rentrée du 28 août 2026, il identifie explicitement plusieurs domaines dans lesquels il estime nécessaires des changements profonds : les salaires, les conditions d'enseignement, le statut des personnels, notamment celui des AESH, et la formation initiale. Il affirme également que la baisse démographique scolaire ne doit pas être utilisée pour réaliser des économies et défend au contraire l'augmentation du nombre d'enseignants. Il rattache cette orientation à plusieurs objectifs qu'il énonce : faire reculer les inégalités, développer la pensée critique et démocratiser l'accès aux savoirs, à la culture et au sport. Il indique vouloir une école publique garantissant la réussite scolaire des enfants sur l'ensemble du territoire, y compris en outre-mer, en ville comme à la campagne et pour les élèves en situation de handicap. La source récente retenue ne précise toutefois pas encore le nombre d'enseignants supplémentaires envisagé, le niveau de revalorisation salariale, les nouvelles conditions d'enseignement, le contenu de la réforme de la formation initiale ni le calendrier détaillé de ces mesures.",
+  "financement": "Aucun montant précis ni plan de financement détaillé n'est annoncé dans la source récente retenue. Fabien Roussel indique en revanche que la baisse du nombre d'élèves ne doit pas être utilisée pour réduire les dépenses d'éducation et qu'il souhaite mobiliser davantage de moyens humains, notamment davantage d'enseignants. Le coût de cette orientation et son mode de financement ne sont pas chiffrés dans cette publication.",
+  "population_concernee": "Élèves, y compris les élèves en situation de handicap, familles, enseignants, AESH et autres personnels de l'éducation. Les orientations évoquent également l'ensemble des territoires, notamment les zones urbaines, rurales et les territoires ultramarins.",
+  "handicap_aesh": {
+    "statut": "Orientation 2027 identifiée — mesures détaillées à préciser",
+    "propositions": "Fabien Roussel cite explicitement le statut des AESH parmi les sujets pour lesquels il estime nécessaires des changements profonds. Il inclut également les enfants en situation de handicap dans son objectif déclaré d'une école publique garantissant la réussite de tous les élèves. La publication du 28 août 2026 ne détaille cependant pas encore la réforme envisagée du statut des AESH.",
+    "impact_familles": "Le statut des AESH et la scolarisation des élèves en situation de handicap sont donc explicitement identifiés dans l'orientation récente. En revanche, cette source ne précise pas le nombre d'AESH qui seraient recrutés, leur rémunération future, le nombre d'heures d'accompagnement garanti par élève, les règles de mutualisation de l'aide humaine ni des dispositifs particuliers pour les élèves avec TDAH ou trouble du spectre de l'autisme. Les conséquences concrètes pour les familles ne peuvent donc pas encore être déterminées à partir de cette publication.",
+    "financement": "Aucun montant ni financement spécifique concernant les AESH n'est annoncé dans la source récente retenue.",
+    "sources": [
+      {
+        "nom": "Parti communiste français — lettre de Fabien Roussel, 28 août 2026",
+        "url": "https://www.pcf.fr/lettre_de_fabien_roussel_celles_et_ceux_qui_font_vivre_lecole"
+      }
+    ]
+  },
   "sources": [
     {
       "nom": "Parti communiste français — lettre de Fabien Roussel, 28 août 2026",
@@ -197,13 +204,6 @@
     }
   ]
 },
-          "sources": [
-            {
-              "nom": "Parti communiste français — 28 août 2026",
-              "url": "https://www.pcf.fr/lettre_de_fabien_roussel_celles_et_ceux_qui_font_vivre_lecole"
-            }
-          ]
-        },
         "sante": {
           "statut": "Recherche en cours",
           "solidite_documentaire": null,
