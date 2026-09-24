@@ -462,6 +462,13 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                 and "/blogs.mediapart.fr/" in url_article
             ):
                 continue
+            # Disclose : les pages /tag/ sont des index thématiques,
+            # pas des enquêtes ou articles individuels.
+            if (
+                nom_source == "Disclose"
+                and "/news/tag/" in url_article
+            ):
+                continue
             # Pré-classement indicatif pour faciliter la vérification humaine.
             # Cette qualification n'est jamais publiée automatiquement.
             themes = []
