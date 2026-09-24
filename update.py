@@ -14,7 +14,29 @@ COMMISSION_URL = (
 )
 
 VERIAN_URL = "https://www.veriangroup.com/fr/news-and-insights"
+# Sources journalistiques indépendantes / investigation.
+# Leur présence dans la veille ne vaut ni validation ni publication automatique.
+SOURCES_JOURNALISTIQUES = [
+    {
+        "nom": "Mediapart",
+        "url": "https://www.mediapart.fr/journal/politique",
+        "type": "media_independant_investigation",
+    },
+    {
+        "nom": "Blast",
+        "url": "https://www.blast-info.fr/",
+        "type": "media_independant_investigation",
+    },
+]
 
+MOTS_CLES_POLITIQUES = [
+    "présidentielle",
+    "2027",
+    "candidat",
+    "candidate",
+    "campagne",
+    "élection",
+]
 USER_AGENT = "Presidentielle2027SourceMonitor/5.0"
 
 
@@ -347,6 +369,104 @@ except Exception as exc:
         "publication_automatique": False
     }
 
+# ------------------------------------------------------------
+# Veille journalistique indépendante / investigation
+# ------------------------------------------------------------
+
+for source_journalistique in SOURCES_JOURNALISTIQUES:
+    nom_source = source_journalistique["nom"]
+    url_source = source_journalistique["url"]
+
+    try:
+        body_source = fetch(url_source)
+
+        liens = re.findall(
+            r'<a[^>]+href=["\']([^"\']+)["\'][^>]*>(.*?)</a>',
+            body_source,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+
+        nombre_detecte = 0
+
+        for url_article, titre_html in liens:
+            titre_article = clean_text(titre_html).strip()
+
+            if not titre_article:
+                continue
+
+            texte_test = titre_article.lower()
+
+            if not any(
+                mot.lower() in texte_test
+                for mot in MOTS_CLES_POLITIQUES
+            ):
+                continue
+
+            if url_article.startswith("/"):
+                domaine = re.match(
+                    r"(https?://[^/]+)",
+                    url_source
+                )
+                if domaine:
+                    url_article = (
+                        domaine.group(1) + url_article
+                    )
+
+            if not url_article.startswith("http"):
+                continue
+
+            ajouter_detection(
+                detections,
+                {
+                    "type": source_journalistique["type"],
+                    "source": nom_source,
+                    "titre": titre_article,
+                    "url": url_article,
+                    "date_detection": date_fr,
+                    "statut": "À vérifier manuellement",
+                    "publication_automatique": False,
+                    "note": (
+                        "Détection provenant d'une source "
+                        "journalistique indépendante ou "
+                        "d'investigation. Vérifier le contenu, "
+                        "la nature de l'article (information, "
+                        "enquête, analyse, entretien ou opinion) "
+                        "et recouper les affirmations sensibles "
+                        "avant toute publication."
+                    ),
+                },
+            )
+
+            nombre_detecte += 1
+
+            # Évite qu'une page très chargée produise
+            # trop de détections lors d'une seule exécution.
+            if nombre_detecte >= 20:
+                break
+
+        status["sources"][
+            nom_source.lower().replace(" ", "_")
+        ] = {
+            "ok": True,
+            "url": url_source,
+            "detections": nombre_detecte,
+            "publication_automatique": False,
+            "raison": (
+                "Veille journalistique uniquement. "
+                "Validation humaine obligatoire."
+            ),
+        }
+
+    except Exception as exc:
+        status["sources"][
+            nom_source.lower().replace(" ", "_")
+        ] = {
+            "ok": False,
+            "url": url_source,
+            "publication_automatique": False,
+            "erreur": str(exc),
+        }
+
 
 # ------------------------------------------------------------
 # SOURCES AFFICHÉES SUR LE SITE
@@ -380,7 +500,7 @@ election["sources"] = [
 # On conserve l'historique, tout en évitant que le fichier
 # ne grossisse indéfiniment. Les détections les plus récentes
 # restent en tête du fichier.
-detections = detections[:500]
+detections = detections[-500:]
 
 ecrire_json(
     detections_file,
