@@ -47,14 +47,27 @@
   ]
 },
         "sante": {
-          "statut": "Recherche en cours",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : aucune proposition 2027 suffisamment documentée n'est encore intégrée.",
-          "resume": "Aucune proposition 2027 suffisamment précise n'est encore intégrée dans cette fiche.",
-          "financement": "Non précisé à ce stade.",
-          "population_concernee": "À documenter.",
-          "sources": []
-        },
+  "statut": "Premières orientations pour 2027 — programme Santé détaillé en cours de construction",
+  "solidite_documentaire": 90,
+  "solidite_explication": "Des orientations directement liées à la campagne 2027 sont documentées, notamment concernant la santé mentale des jeunes et le grand âge. En revanche, le programme présidentiel Santé complet n'est pas encore suffisamment publié pour établir l'ensemble des mesures concernant l'hôpital, la médecine de ville, les déserts médicaux, les remboursements et le financement de la Sécurité sociale. Les politiques conduites par Gabriel Attal lorsqu'il était Premier ministre ne sont pas automatiquement considérées comme des engagements pour 2027.",
+  "resume": "Gabriel Attal place la santé mentale des jeunes parmi les sujets qu'il rattache à la protection de la jeunesse. Sa campagne met notamment en avant les effets qu'il attribue à la surexposition aux réseaux sociaux sur le sommeil, la concentration, la santé mentale et le harcèlement, et il a défendu l'interdiction des réseaux sociaux pour les moins de 15 ans. Sur le grand âge et la perte d'autonomie, Gabriel Attal s'est déclaré en septembre 2026 favorable à une loi permettant de planifier et programmer l'action publique sur le long terme, qu'il souhaite engager dès 2027. À ce stade, les sources récentes retenues ne permettent toutefois pas encore de présenter un programme Santé 2027 complet et détaillé concernant notamment l'organisation de l'hôpital public, les effectifs hospitaliers, l'installation des médecins, les déserts médicaux, les soins de premier recours, les franchises et restes à charge ou l'évolution générale du financement de l'Assurance maladie. Ces éléments devront être complétés à mesure de la publication du projet présidentiel.",
+  "financement": "Aucun budget global du programme Santé 2027 n'est encore suffisamment documenté dans les sources retenues. Lors des échanges consacrés au grand âge en septembre 2026, Gabriel Attal s'est déclaré favorable à une loi de programmation dès 2027, mais aucun montant précis ni nouvelle source de financement propre à cette proposition n'a été annoncé à cette occasion. Aucun chiffrage provenant de ses politiques gouvernementales antérieures n'est réattribué automatiquement à son programme présidentiel 2027.",
+  "population_concernee": "Jeunes et familles pour les orientations concernant la santé mentale et la protection des mineurs ; personnes âgées, personnes en perte d'autonomie, proches et professionnels du grand âge pour la proposition de programmation concernant le vieillissement. Les populations concernées par les autres composantes du futur programme Santé devront être précisées lors de sa publication.",
+  "sources": [
+    {
+      "nom": "Gabriel Attal — protection de l'enfance et santé mentale, août 2026",
+      "url": "https://attalpresident.fr/actualites/protection-de-l-enfance-gabriel-attal-en-visite-a-aulnay-sous-bois-pour-rencontrer-les-jeunes-et-leurs-encadrants"
+    },
+    {
+      "nom": "Le Monde — grand âge et présidentielle 2027, 17 septembre 2026",
+      "url": "https://www.lemonde.fr/societe/article/2026/09/17/presidentielle-2027-en-grand-oral-devant-le-secteur-du-grand-age-les-candidats-promettent-de-s-attaquer-a-l-enjeu-du-vieillissement-de-la-population_6776445_3224.html"
+    },
+    {
+      "nom": "Gabriel Attal — construction du projet présidentiel, 21 septembre 2026",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-presente-celles-et-ceux-qui-construiront-son-projet-pour-2027"
+    }
+  ]
+},
         "energie": {
           "statut": "Recherche en cours",
           "solidite_documentaire": null,
