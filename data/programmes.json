@@ -68,38 +68,64 @@
     }
   ]
 },
-        "energie": {
-          "statut": "Recherche en cours",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : aucune proposition 2027 suffisamment documentée n'est encore intégrée.",
-          "resume": "Aucune proposition 2027 suffisamment précise n'est encore intégrée dans cette fiche.",
-          "financement": "Non précisé à ce stade.",
-          "population_concernee": "À documenter.",
-          "sources": []
-        },
-        "fiscalite": {
-          "statut": "Recherche en cours",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : aucune proposition 2027 suffisamment documentée n'est encore intégrée.",
-          "resume": "Aucune proposition 2027 suffisamment précise n'est encore intégrée dans cette fiche.",
-          "financement": "Non précisé à ce stade.",
-          "population_concernee": "À documenter.",
-          "sources": []
-        },
-        "ecologie": {
-          "statut": "Propositions présentées pour 2027",
-          "solidite_documentaire": 96,
-          "solidite_explication": "Objectifs climatiques et plusieurs mesures concrètes sont rattachés à son programme 2027 ; certains coûts et mécanismes de financement restent à préciser.",
-          "resume": "Gabriel Attal veut accélérer la réduction des émissions de gaz à effet de serre, avec un objectif annoncé de passer d'environ 1,8 % à 5 % de baisse annuelle jusqu'en 2030. Il propose notamment une rénovation thermique massive des logements, le développement de la mobilité électrique et la décarbonation de l'industrie. Il a également fait de l'eau et de l'adaptation aux sécheresses un axe de ses propositions.",
-          "financement": "L'écologie est présentée comme l'une de ses priorités budgétaires. Le coût global de cette stratégie et son financement détaillé ne sont pas encore précisés dans les sources retenues.",
-          "population_concernee": "Ménages, automobilistes, propriétaires et locataires, entreprises industrielles, collectivités et populations exposées aux effets du changement climatique.",
-          "sources": [
-            {
-              "nom": "Le Monde — 5 septembre 2026",
-              "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/05/presidentielle-2027-pour-gabriel-attal-et-edouard-philippe-le-poids-d-un-bilan-ecologique-contraste_6766350_4355770.html"
-            }
-          ]
-        }
+      "energie": {
+  "statut": "Propositions 2027 détaillées — plan Messmer II présenté le 23 septembre 2026",
+  "solidite_documentaire": 99,
+  "solidite_explication": "Les principales mesures de cette fiche proviennent directement d'une présentation officielle de la campagne présidentielle du 23 septembre 2026. Elles comportent des objectifs chiffrés concernant les énergies fossiles, le nucléaire, les prix de l'électricité, l'électrification et les matières premières. Le coût global et le financement détaillé de l'ensemble du plan énergétique ne sont toutefois pas encore publiés.",
+  "resume": "Gabriel Attal propose un « plan Messmer II » visant à réduire fortement la dépendance française aux énergies fossiles. Il veut ramener leur part dans la consommation finale d'énergie, actuellement proche de 60 %, à 40 % à court terme puis sous 30 % en 2035, avec la neutralité carbone en 2050 comme horizon. Il propose d'accélérer l'électrification des usages grâce au leasing social de véhicules électriques d'occasion, au leasing pour les pompes à chaleur et la géothermie, au développement des réseaux de chaleur, du biogaz et de la biomasse, à l'électrification des poids lourds et au déploiement massif de bornes de recharge. Sur le nucléaire, il veut sécuriser la construction des 14 EPR et retrouver une capacité de construction en série avec l'objectif d'atteindre un réacteur par an. Il défend parallèlement l'accélération des énergies renouvelables selon un principe de neutralité technologique. Il fixe comme objectif un prix de l'électricité autour de 75 euros par MWh et des contrats inférieurs à 50 euros par MWh pour les industriels les plus exposés à la concurrence internationale, avec l'objectif que l'électricité française reste durablement moins chère que les énergies fossiles sans dépendre de subventions permanentes de l'État. Il veut également développer la géothermie, avec un doublement dès 2027 des fonds spécifiques consacrés à la géoénergie pour atteindre 160 millions d'euros. Concernant les matières premières nécessaires à l'électrification, il propose de rouvrir la question de l'exploitation minière en France et en Europe, d'intégrer l'accès aux matières stratégiques à la politique diplomatique et de couvrir 30 % des besoins par la réutilisation et le recyclage. À plus long terme, il propose un programme européen de recherche sur la fusion nucléaire et un programme de recherche sur la fermeture du cycle nucléaire.",
+  "financement": "Gabriel Attal annonce le doublement dès 2027 des fonds spécifiques au développement et au soutien de la géoénergie, pour atteindre 160 millions d'euros. Pour l'électricité, son objectif est d'obtenir durablement des prix compétitifs sans dépendre de subventions permanentes de l'État. La campagne ne fournit toutefois pas encore, dans les sources retenues, le coût consolidé de la construction des 14 EPR, de l'électrification des transports, des réseaux de chaleur, des pompes à chaleur, des bornes de recharge et des autres composantes du plan Messmer II, ni leur plan de financement complet. Ces montants ne sont donc pas estimés par le site.",
+  "population_concernee": "Ménages consommateurs d'énergie, automobilistes et gros rouleurs, utilisateurs de véhicules électriques, ménages utilisant des systèmes de chauffage concernés par l'électrification, entreprises et industriels consommateurs d'électricité, transporteurs routiers, filières nucléaire, renouvelables, géothermique, biogaz et biomasse, ainsi que les secteurs industriels liés aux matières premières stratégiques.",
+  "sources": [
+    {
+      "nom": "Gabriel Attal — plan de désendettement et plan Messmer II, 23 septembre 2026",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises"
+    },
+    {
+      "nom": "Le Monde — propositions énergétiques et écologiques de Gabriel Attal, 5 septembre 2026",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/05/presidentielle-2027-pour-gabriel-attal-et-edouard-philippe-le-poids-d-un-bilan-ecologique-contraste_6766350_4355770.html"
+    }
+  ]
+},
+"fiscalite": {
+  "statut": "Propositions fiscales et trajectoire de finances publiques annoncées pour 2027",
+  "solidite_documentaire": 99,
+  "solidite_explication": "Plusieurs engagements fiscaux et budgétaires sont désormais directement documentés par la campagne 2027 : stabilité fiscale sur dix ans, maintien de dispositifs fiscaux existants, suppression de la CVAE et trajectoire de 150 milliards d'euros d'économies. La répartition détaillée de toutes les économies et les modifications éventuelles d'autres prélèvements restent cependant à préciser.",
+  "resume": "Gabriel Attal propose une loi de programmation économique, fiscale et énergétique sur dix ans afin de donner davantage de visibilité aux ménages et aux entreprises. Il défend une stabilité fiscale sur cette période et refuse de revenir sur plusieurs réformes fiscales engagées depuis 2017, notamment la flat tax et la suppression de l'ISF. Il veut garantir la pérennité du crédit d'impôt recherche et du pacte Dutreil et mener à son terme la suppression de la CVAE, impôt de production payé par les entreprises. Sur les finances publiques, il annonce un plan de 150 milliards d'euros d'économies, dont les deux tiers doivent porter sur les dépenses sociales. Il fixe comme objectifs de ramener le déficit public sous 3 % du PIB avant la fin du mandat, d'atteindre l'équilibre des comptes sociaux en 2032 puis l'équilibre de l'ensemble des finances publiques en 2037. Il propose également d'inscrire dans la Constitution une règle d'or encadrant les finances publiques. La campagne évoque une transformation profonde du système social, notamment des retraites, de la santé et de l'organisation de l'État, plutôt qu'une succession de seules économies ponctuelles. À ce stade, les sources retenues ne fournissent pas encore la ventilation exhaustive des 150 milliards d'euros d'économies ni un tableau complet des modifications prévues pour chaque impôt et cotisation.",
+  "financement": "Le plan repose sur un objectif de 150 milliards d'euros d'économies, dont les deux tiers sur les dépenses sociales. Gabriel Attal fixe parallèlement une trajectoire de déficit inférieur à 3 % du PIB avant la fin du mandat, d'équilibre des comptes sociaux en 2032 et d'équilibre général des finances publiques en 2037. La campagne ne fournit pas encore, dans les sources retenues, la ventilation mesure par mesure de ces 150 milliards d'euros ni les montants attribués précisément aux retraites, à la santé, à l'assurance chômage, à l'organisation de l'État et aux autres postes. La suppression définitive de la CVAE entraîne également une perte de recettes publiques dont la compensation détaillée dans le projet 2027 reste à préciser.",
+  "population_concernee": "Contribuables et assurés sociaux ; entreprises bénéficiant de la stabilité fiscale annoncée et concernées par la CVAE, le crédit d'impôt recherche ou le pacte Dutreil ; détenteurs de capitaux concernés par la flat tax et l'absence de rétablissement de l'ISF ; administrations et bénéficiaires des dépenses sociales concernés par la trajectoire d'économies. Les effets précis par catégorie devront être complétés avec la ventilation détaillée des mesures.",
+  "sources": [
+    {
+      "nom": "Gabriel Attal — plan de désendettement et plan Messmer II, 23 septembre 2026",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises"
+    },
+    {
+      "nom": "Gabriel Attal — débat économique de la présidentielle, 27 août 2026",
+      "url": "https://attalpresident.fr/actualites/a-la-ref-gabriel-attal-grand-gagnant-du-premier-debat-de-la-presidentielle-2027"
+    },
+    {
+      "nom": "Le Monde — débat présidentiel sur la fiscalité et l'économie, 27 août 2026",
+      "url": "https://www.lemonde.fr/economie/live/2026/08/27/en-direct-debat-de-la-presidentielle-2027-fiscalite-reforme-des-retraites-pouvoir-d-achat-sept-candidats-se-sont-affrontes-devant-les-chefs-d-entreprise_6758467_3234.html"
+    }
+  ]
+},
+"ecologie": {
+  "statut": "Propositions 2027 détaillées sur la décarbonation, l'adaptation, l'eau et l'économie circulaire",
+  "solidite_documentaire": 98,
+  "solidite_explication": "Plusieurs objectifs et mesures écologiques sont désormais explicitement rattachés au projet 2027 et documentés par des sources de campagne et de presse récentes. Les objectifs portent sur la réduction des émissions, la sortie progressive des énergies fossiles, l'eau, l'adaptation urbaine, la géothermie et l'économie circulaire. Le coût global et le financement de l'ensemble de cette politique ne sont toutefois pas encore consolidés.",
+  "resume": "Gabriel Attal veut porter le rythme annuel de réduction des émissions françaises de gaz à effet de serre à 5 % jusqu'en 2030 et fixe la neutralité carbone en 2050 comme horizon. Son plan énergétique présenté en septembre 2026 vise à ramener la part des énergies fossiles sous 30 % de la consommation finale en 2035 grâce à l'électrification, au nucléaire, aux énergies renouvelables, à la géothermie, au biogaz et à la biomasse. Sur l'adaptation au changement climatique, il propose notamment la climatisation des lieux accueillant des personnes fragiles, comme les crèches, écoles, hôpitaux et EHPAD, ainsi que la végétalisation des toits et des parkings. Concernant l'eau, il propose la création d'un ministère de l'eau associant notamment ingénieurs et élus locaux et annonce vouloir mener une lutte de grande ampleur contre le gaspillage de l'eau. Il est favorable aux réserves de stockage d'eau pour l'agriculture. Sur la géothermie, qu'il veut faire devenir un grand projet énergétique français, il propose de faciliter les permis de forage et de doubler dès 2027 les fonds spécifiques pour atteindre 160 millions d'euros. Son projet énergétique comporte également un volet sur les matières premières nécessaires à la transition : réouverture de la question minière en France et en Europe et objectif de couvrir 30 % des besoins en matières stratégiques par la réutilisation et le recyclage, avec l'ambition annoncée de faire de la France une économie de référence en matière d'économie circulaire.",
+  "financement": "Le doublement des fonds spécifiques consacrés à la géoénergie doit les porter à 160 millions d'euros dès 2027. Les autres mesures — adaptation et climatisation de certains bâtiments, végétalisation, gestion de l'eau, électrification, économie circulaire et infrastructures associées — ne disposent pas encore d'un coût global consolidé et d'un plan de financement détaillé dans les sources retenues. Le site ne leur attribue donc aucun montant qui ne soit explicitement documenté.",
+  "population_concernee": "Ensemble de la population concernée par les politiques climatiques ; ménages et entreprises consommateurs d'énergie ; enfants, patients, personnes âgées et personnels des crèches, écoles, hôpitaux et EHPAD concernés par l'adaptation aux fortes chaleurs ; agriculteurs et territoires concernés par la gestion de l'eau ; collectivités chargées de l'aménagement ; industries et filières utilisant des matières premières stratégiques.",
+  "sources": [
+    {
+      "nom": "Gabriel Attal — plan Messmer II et sortie des énergies fossiles, 23 septembre 2026",
+      "url": "https://attalpresident.fr/actualites/gabriel-attal-presente-un-plan-de-desendettement-et-un-messmer-ii-pour-sortir-des-dependances-francaises"
+    },
+    {
+      "nom": "Le Monde — propositions écologiques de Gabriel Attal, 5 septembre 2026",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/09/05/presidentielle-2027-pour-gabriel-attal-et-edouard-philippe-le-poids-d-un-bilan-ecologique-contraste_6766350_4355770.html"
+    }
+  ]
+}  
       }
     },
     {
