@@ -27,15 +27,56 @@ SOURCES_JOURNALISTIQUES = [
         "url": "https://www.blast-info.fr/",
         "type": "media_independant_investigation",
     },
+    {
+        "nom": "Disclose",
+        "url": "https://disclose.ngo/fr",
+        "type": "media_investigation",
+    },
 ]
 
 MOTS_CLES_POLITIQUES = [
+    # Élection présidentielle
     "présidentielle",
     "2027",
     "candidat",
     "candidate",
     "campagne",
     "élection",
+
+    # École
+    "école",
+    "éducation",
+    "enseignant",
+    "enseignante",
+    "aesh",
+    "handicap",
+    "inclusion scolaire",
+
+    # Santé
+    "santé",
+    "hôpital",
+    "médecin",
+    "soins",
+    "sécurité sociale",
+
+    # Énergie
+    "énergie",
+    "électricité",
+    "nucléaire",
+    "gaz",
+
+    # Fiscalité
+    "impôt",
+    "impôts",
+    "fiscalité",
+    "taxe",
+    "taxes",
+
+    # Écologie
+    "écologie",
+    "climat",
+    "environnement",
+    "pollution",
 ]
 USER_AGENT = "Presidentielle2027SourceMonitor/5.0"
 
