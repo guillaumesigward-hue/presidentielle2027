@@ -223,14 +223,23 @@
   ]
 },
         "sante": {
-          "statut": "Recherche en cours",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : propositions sanitaires 2027 encore à documenter.",
-          "resume": "Les propositions sanitaires destinées à 2027 seront intégrées après vérification des documents de campagne correspondants.",
-          "financement": "Non précisé à ce stade.",
-          "population_concernee": "Patients, professionnels de santé et assurés sociaux.",
-          "sources": []
-        },
+  "statut": "Orientations 2027 identifiées — programme Santé détaillé encore à consolider",
+  "solidite_documentaire": 88,
+  "solidite_explication": "La candidature présidentielle de Fabien Roussel est officiellement engagée et des orientations récentes permettent d'établir sa défense d'un financement solidaire de la santé par les cotisations sociales. Des propositions beaucoup plus détaillées existent dans les programmes antérieurs de Fabien Roussel et du PCF, mais leur reprise intégrale dans le programme présidentiel 2027 n'est pas encore suffisamment établie par les sources primaires récentes retenues. Elles ne sont donc pas automatiquement présentées comme des engagements 2027 confirmés.",
+  "resume": "Fabien Roussel inscrit son projet présidentiel dans la défense et le renforcement des services publics et d'un système de protection sociale financé collectivement. Dans une prise de parole de septembre 2026, il distingue explicitement les cotisations sociales des impôts et des taxes et souligne qu'elles servent à financer notamment la santé et les retraites. Son orientation récente est donc compatible avec le maintien d'un financement largement socialisé de l'accès aux soins. Le PCF et Fabien Roussel ont par ailleurs défendu dans leurs programmes et campagnes antérieurs des propositions beaucoup plus détaillées concernant l'hôpital public, les recrutements de personnels, l'arrêt des fermetures de lits, les déserts médicaux et une prise en charge accrue des dépenses de santé par la Sécurité sociale. À ce stade, ces mesures antérieures ne sont toutefois pas toutes reproduites ici comme engagements présidentiels 2027 : leur maintien et leurs modalités doivent être confirmés dans les documents de campagne correspondants. La fiche sera complétée lorsque le volet Santé 2027 détaillé permettra d'établir précisément les objectifs concernant l'hôpital, la médecine de ville, les déserts médicaux, les remboursements, les personnels et la Sécurité sociale.",
+  "financement": "Fabien Roussel a réaffirmé en septembre 2026 le rôle des cotisations sociales dans le financement de la santé et des retraites et conteste leur assimilation à des impôts ou taxes. Cette prise de position documente une orientation de financement de la protection sociale, mais les sources primaires récentes retenues ne fournissent pas encore le coût global du programme Santé 2027, le montant des dépenses nouvelles, les recettes supplémentaires nécessaires ni leur ventilation. Les chiffrages de programmes antérieurs ne sont donc pas automatiquement réattribués au projet présidentiel 2027.",
+  "population_concernee": "Patients, assurés sociaux, professionnels de santé, personnels hospitaliers et, plus largement, personnes utilisant le système de soins et de protection sociale. Les catégories précisément concernées par les futures mesures sur l'hôpital, les déserts médicaux, les remboursements et les personnels devront être complétées lorsque le programme Santé 2027 détaillé sera publié ou confirmé.",
+  "sources": [
+    {
+      "nom": "PCF — candidature présidentielle de Fabien Roussel, 6 septembre 2026",
+      "url": "https://www.pcf.fr/presidentielle2027_fabien_roussel_designe_candidat"
+    },
+    {
+      "nom": "Le Monde — débat de Fabien Roussel avec le Medef à la Fête de l'Humanité, 11 septembre 2026",
+      "url": "https://www.lemonde.fr/politique/live/2026/09/12/en-direct-presidentielle-2027-jean-luc-melenchon-et-fabien-roussel-a-la-fete-de-l-huma-bruno-retailleau-avec-les-jeunes-lr-suivez-le-deplacement-des-candidats_6770586_823448.html"
+    }
+  ]
+},
         "energie": {
           "statut": "Recherche à compléter",
           "solidite_documentaire": null,
