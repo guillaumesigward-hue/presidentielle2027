@@ -93,35 +93,35 @@
       "nom": "Bruno Retailleau",
       "themes": {
         "ecole": {
-          "statut": "Projet présenté dans la préparation de 2027",
-          "solidite_documentaire": 98,
-          "solidite_explication": "Projet 2027 directement documenté avec plusieurs mesures et éléments de chiffrage.",
-          "resume": "Son projet éducatif s'organise autour de quatre axes : enseignants, transmission des savoirs, autonomie des établissements et autorité. Il propose notamment un examen d'entrée en sixième, des groupes de niveau, davantage de pouvoir aux équipes éducatives et 1 000 établissements publics disposant d'une autonomie renforcée.",
-          "financement": "Il propose une hausse de rémunération d'environ 135 euros nets mensuels en début de carrière, pouvant atteindre environ 300 euros. Le coût annoncé est d'environ 2 milliards d'euros. La baisse démographique scolaire est notamment présentée comme une source de marges budgétaires.",
-          "population_concernee": "Élèves, familles, enseignants et établissements scolaires.",
-          "handicap_aesh": {
-  "statut": "Aucune proposition 2027 suffisamment précise identifiée à ce stade",
-  "propositions": "Le projet scolaire 2027 documenté de Bruno Retailleau développe notamment les enseignants, la transmission des savoirs, l'autonomie des établissements et l'autorité. Dans les sources vérifiées pour cette fiche, aucune mesure suffisamment précise n'est identifiée concernant le statut ou le nombre d'AESH, les heures d'accompagnement ou les dispositifs spécifiques pour les élèves avec TDAH ou trouble du spectre de l'autisme.",
-  "impact_familles": "Non précisé à ce stade. L'absence de proposition identifiée dans les sources consultées ne signifie pas nécessairement qu'aucune proposition ne sera présentée ultérieurement.",
-  "financement": "Aucun financement spécifique AESH identifié à ce stade.",
+  "statut": "Projet présenté dans la préparation de 2027",
+  "solidite_documentaire": 98,
+  "solidite_explication": "Projet éducatif présenté publiquement pour 2027 et documenté par plusieurs sources récentes. Les principales mesures et certains éléments de chiffrage sont identifiés ; plusieurs modalités de mise en œuvre restent toutefois à préciser.",
+  "resume": "Le projet éducatif de Bruno Retailleau s'organise autour de quatre axes : les enseignants, la transmission des savoirs, l'autonomie des établissements et l'autorité. En primaire, il veut recentrer l'enseignement sur les savoirs fondamentaux avec l'objectif que les élèves entrant en 6e sachent lire, écrire et compter. Il propose le retour des notes chiffrées et du redoublement et souhaite remettre en cause le passage automatique d'une classe à l'autre, en renforçant le rôle des enseignants et des conseils de classe. Pour l'entrée au collège, il propose un examen d'entrée en 6e puis des groupes de niveau évolutifs en fonction des résultats. Il veut ainsi remplacer le collège unique par des parcours davantage différenciés. Il propose également d'ouvrir l'apprentissage dès la 4e, à 14 ans, sous la responsabilité des régions en association avec les entreprises. Pour les enseignants, il prévoit une revalorisation salariale, mais aussi une réforme de l'affectation et de la progression de carrière, une présence accrue dans les établissements, la création d'écoles normales du professorat dans chaque académie et la régionalisation des concours. Sur l'organisation scolaire, il souhaite accroître l'autonomie des établissements et créer 1 000 établissements publics dits « libres » d'ici à 2032. Sur la base du volontariat des équipes, des parents et des élèves, ceux-ci pourraient notamment adapter les programmes, les cycles scolaires, les rythmes de travail et le calendrier des vacances. En matière d'autorité, il veut renforcer les pouvoirs de sanction des chefs d'établissement et des conseils de discipline, créer des établissements de réinsertion scolaire destinés notamment aux élèves de moins de 16 ans faisant l'objet d'exclusions répétées et instaurer un contrat d'engagement des parents précisant les droits et devoirs des familles.",
+  "financement": "Bruno Retailleau propose une hausse de rémunération d'environ 135 euros nets par mois en début de carrière, pouvant atteindre environ 300 euros nets mensuels par la suite. Cette revalorisation est associée à une présence accrue des enseignants dans les établissements. Son coût est annoncé à environ 2 milliards d'euros. Pour son financement, Bruno Retailleau met notamment en avant la baisse démographique scolaire et estime que la France comptera 1,7 million d'élèves de moins dans dix ans. Les sources retenues ne fournissent toutefois pas un chiffrage détaillé de l'ensemble des autres mesures du projet éducatif.",
+  "population_concernee": "Élèves du primaire, collégiens, lycéens, apprentis, familles, enseignants, chefs d'établissement et autres personnels scolaires. Certaines mesures concernent particulièrement les élèves entrant en 6e, ceux orientés vers des parcours différenciés, les jeunes pouvant entrer en apprentissage dès 14 ans, les élèves faisant l'objet d'exclusions répétées et les enseignants concernés par les nouvelles règles de rémunération, de formation, d'affectation et de carrière.",
+  "handicap_aesh": {
+    "statut": "Aucune proposition 2027 suffisamment précise identifiée dans les sources retenues",
+    "propositions": "Les sources détaillant le projet scolaire 2027 de Bruno Retailleau présentent ses propositions sur les enseignants, la transmission des savoirs, l'autonomie des établissements et l'autorité. Elles ne décrivent pas de mesure suffisamment précise concernant le statut ou la rémunération des AESH, leur nombre, les heures d'accompagnement, la mutualisation de l'aide humaine ou des dispositifs spécifiques pour les élèves avec TDAH ou trouble du spectre de l'autisme.",
+    "impact_familles": "Aucun effet spécifique sur l'accompagnement par les AESH ne peut donc être établi à partir des sources retenues. Cette absence de mesure identifiée dans ces documents ne permet pas de conclure qu'aucune proposition sur ce sujet ne pourra être présentée ultérieurement.",
+    "financement": "Aucun financement spécifique concernant les AESH n'est identifié dans les sources retenues.",
+    "sources": [
+      {
+        "nom": "Public Sénat — projet pour l'école, 31 août 2026",
+        "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
+      }
+    ]
+  },
   "sources": [
     {
-      "nom": "Public Sénat — propositions pour l'école",
-      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"
+      "nom": "Public Sénat — projet pour l'école, 31 août 2026",
+      "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
+    },
+    {
+      "nom": "Le Monde — projet pour l'école, 1er septembre 2026",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/01/presidentielle-2027-bruno-retailleau-veut-une-revolution-culturelle-pour-l-ecole-et-plaide-pour-la-fin-du-college-unique_6763177_823448.html"
     }
   ]
 },
-          "sources": [
-            {
-              "nom": "Public Sénat — projet pour l'école",
-              "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-bruno-retailleau-veut-refonder-lecole-autour-de-quatre-axes-principaux"
-            },
-            {
-              "nom": "Le Monde — 1er septembre 2026",
-              "url": "https://www.lemonde.fr/politique/article/2026/09/01/presidentielle-2027-bruno-retailleau-veut-une-revolution-culturelle-pour-l-ecole-et-plaide-pour-la-fin-du-college-unique_6763177_823448.html"
-            }
-          ]
-        },
         "sante": {
           "statut": "Recherche en cours",
           "solidite_documentaire": null,
