@@ -663,48 +663,56 @@
     }
   ]
 },
-        "energie": {
-          "statut": "Axe du projet présidentiel 2027",
-          "solidite_documentaire": 97,
-          "solidite_explication": "Orientation énergétique directement rattachée au projet 2027 ; chiffrage complet encore absent.",
-          "resume": "Il fait de la baisse du prix de l'énergie un axe de son projet, en s'appuyant notamment sur le nucléaire et sur une modification du cadre énergétique et européen qu'il défend.",
-          "financement": "Le coût global, les investissements nécessaires et le montant exact de la baisse des factures ne sont pas précisés dans la source retenue.",
-          "population_concernee": "Ménages, automobilistes, entreprises et secteur énergétique.",
-          "sources": [
-            {
-              "nom": "Nicolas Dupont-Aignan — discours du 19 septembre 2026",
-              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
-            }
-          ]
-        },
-        "fiscalite": {
-          "statut": "Axes du projet présidentiel 2027",
-          "solidite_documentaire": 95,
-          "solidite_explication": "Orientations fiscales directement rattachées au projet 2027 ; paramètres et coût budgétaire encore incomplets.",
-          "resume": "Il annonce une baisse des impôts de production et une diminution des taxes sur les carburants. Les paramètres fiscaux complets et leurs conséquences budgétaires doivent encore être détaillés.",
-          "financement": "Le financement compensatoire et le coût total pour les finances publiques ne sont pas précisés dans la source retenue.",
-          "population_concernee": "Entreprises, automobilistes, ménages et finances publiques.",
-          "sources": [
-            {
-              "nom": "Nicolas Dupont-Aignan — discours du 19 septembre 2026",
-              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
-            }
-          ]
-        },
-        "ecologie": {
-          "statut": "Projet 2027 à documenter plus précisément",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : le discours de rentrée 2027 documente des orientations économiques et énergétiques, mais ne suffit pas à établir un volet écologique détaillé.",
-          "resume": "La fiche Écologie reste volontairement distincte du volet Énergie. Les propositions précises concernant le climat, l'eau, la biodiversité, la pollution, l'agriculture, les transports et l'adaptation doivent encore être documentées pour 2027.",
-          "financement": "Non documenté à ce stade.",
-          "population_concernee": "À documenter.",
-          "sources": [
-            {
-              "nom": "Nicolas Dupont-Aignan — grands axes du projet 2027, 19 septembre 2026",
-              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
-            }
-          ]
-        }
+       "energie": {
+  "statut": "Axes énergétiques explicitement intégrés au projet présidentiel 2027",
+  "solidite_documentaire": 98,
+  "solidite_explication": "Le discours de rentrée du 19 septembre 2026 rattache directement au projet présidentiel 2027 plusieurs orientations énergétiques : sortie du marché européen de l'électricité, recours au parc nucléaire français et baisse du prix de l'énergie. Les objectifs sont clairement exprimés, mais le programme technique et financier complet, notamment concernant les capacités de production et les investissements, n'est pas encore publié.",
+  "resume": "Nicolas Dupont-Aignan fait de la baisse du prix de l'énergie un élément de son projet de relocalisation industrielle. Il propose de sortir la France de l'Union européenne et du marché européen de l'électricité afin de modifier les règles de formation des prix et de s'appuyer davantage sur les coûts de production du parc nucléaire français. Dans son discours du 19 septembre 2026, il affirme que cette sortie permettrait de diviser par deux le prix de l'électricité ; cette baisse constitue un objectif revendiqué par le candidat et non un effet établi indépendamment. Il lie également la baisse du coût de l'énergie à son objectif de relocaliser deux millions d'emplois en France. Son projet 2027 rattache par ailleurs la politique énergétique à une modification plus générale des relations de la France avec l'Union européenne. Les documents 2026 retenus ne précisent pas encore le nombre de nouveaux réacteurs qu'il souhaiterait construire, le calendrier des investissements nucléaires, les capacités renouvelables envisagées, les modalités exactes de fixation des futurs tarifs ni le coût global de cette politique.",
+  "financement": "Le discours du 19 septembre 2026 ne fournit pas encore de chiffrage consolidé des investissements énergétiques nécessaires ni de mécanisme financier détaillé pour la sortie du marché européen de l'électricité. Il affirme que le changement de cadre européen et le recours à la production nucléaire française permettraient une forte baisse des prix, mais le coût de la transition vers le nouveau système, les investissements de production et de réseau et leurs modalités de financement ne sont pas précisés dans la source retenue.",
+  "population_concernee": "Ménages consommateurs d'électricité, entreprises et industries consommatrices d'énergie, salariés et entreprises du secteur énergétique et nucléaire, entreprises concernées par la stratégie de relocalisation et finances publiques.",
+  "sources": [
+    {
+      "nom": "Nicolas Dupont-Aignan — discours de rentrée présentant les grands axes du projet 2027, 19 septembre 2026",
+      "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+    }
+  ]
+},
+"fiscalite": {
+  "statut": "Axes fiscaux et économiques explicitement intégrés au projet présidentiel 2027",
+  "solidite_documentaire": 97,
+  "solidite_explication": "Le discours du 19 septembre 2026 confirme plusieurs orientations fiscales rattachées au projet 2027, notamment la baisse des impôts de production, une fiscalité incitant au réinvestissement des bénéfices en France et des mesures sur les carburants. Les taux, assiettes, rendements et conséquences budgétaires de l'ensemble de ces mesures ne sont cependant pas encore publiés dans un programme fiscal consolidé.",
+  "resume": "Nicolas Dupont-Aignan veut diminuer les impôts de production dans le cadre d'une politique destinée à relocaliser deux millions d'emplois. Il propose également de réduire la fiscalité des entreprises qui réinvestissent leurs bénéfices sur le territoire français, notamment dans certaines régions, et d'accompagner cette stratégie d'un fonds d'aide à la relocalisation et d'une réduction des normes. Il propose par ailleurs de défiscaliser les heures supplémentaires. Sur les carburants, il défend en septembre 2026 une diminution de la fiscalité afin de réduire le prix payé à la pompe. Ces orientations s'inscrivent dans un projet économique plus large reposant sur la sortie de l'Union européenne, le protectionnisme et la relocalisation de la production. À ce stade, les documents de campagne retenus ne donnent pas encore un barème fiscal complet pour 2027 ni le montant précis de la baisse des impôts de production, le taux de fiscalité applicable aux bénéfices réinvestis, le détail de la baisse des taxes sur les carburants ou le coût budgétaire consolidé de ces mesures.",
+  "financement": "Le discours de campagne affirme que les propositions économiques ont fait l'objet de chiffrages, mais la page publique du 19 septembre ne fournit pas le tableau détaillé permettant de vérifier le coût et le financement de chaque mesure fiscale. La baisse des impôts de production, la fiscalité réduite sur les bénéfices réinvestis, la défiscalisation des heures supplémentaires et la baisse de la fiscalité sur les carburants auraient des conséquences sur les recettes publiques qui ne sont pas encore chiffrées de manière consolidée dans les sources retenues. Le projet prévoit par ailleurs de modifier les relations financières entre la France et l'Union européenne, mais les effets budgétaires complets de cette stratégie ne sont pas établis ici.",
+  "population_concernee": "Entreprises soumises aux impôts de production, entreprises réinvestissant leurs bénéfices en France, salariés effectuant des heures supplémentaires, automobilistes et ménages consommateurs de carburants, entreprises concernées par les politiques de relocalisation et finances publiques.",
+  "sources": [
+    {
+      "nom": "Nicolas Dupont-Aignan — discours de rentrée présentant les grands axes du projet 2027, 19 septembre 2026",
+      "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+    },
+    {
+      "nom": "Nicolas Dupont-Aignan — carburants, entretien BFMTV de septembre 2026",
+      "url": "https://www.dupontaignan.fr/carburants-mettons-fin-au-racket-fiscal-%C2%B7-bfmtv-08-09-2026/"
+    }
+  ]
+},
+"ecologie": {
+  "statut": "Volet écologique 2027 à documenter plus précisément",
+  "solidite_documentaire": null,
+  "solidite_explication": "Non évaluée : les sources de campagne 2026 vérifiées établissent certaines orientations ayant des conséquences environnementales, mais ne permettent pas encore d'identifier un programme écologique 2027 suffisamment complet et détaillé. Les positions provenant de programmes antérieurs ne sont pas automatiquement présentées comme des engagements pour 2027.",
+  "resume": "Le projet présidentiel présenté le 19 septembre 2026 comporte des orientations énergétiques, industrielles, agricoles et commerciales susceptibles d'avoir des effets environnementaux, notamment le recours au nucléaire, la relocalisation de la production, la modification du cadre européen et la protection du monde rural. Nicolas Dupont-Aignan a également défendu auparavant la suppression des zones à faibles émissions et de certaines contraintes liées au diagnostic de performance énergétique ainsi que la remise en cause de l'interdiction européenne de vente des voitures thermiques neuves à partir de 2035. Toutefois, ces positions antérieures ne sont pas automatiquement assimilées ici à un programme écologique 2027 définitif. À la date de vérification, les documents de campagne 2027 retenus ne présentent pas encore de manière suffisamment détaillée une trajectoire climatique complète concernant la réduction des émissions, l'adaptation au changement climatique, l'eau, la biodiversité, les pollutions, la rénovation des bâtiments, les transports et le financement environnemental. La fiche reste donc volontairement non évaluée dans l'attente de propositions 2027 plus précises.",
+  "financement": "Non documenté à ce stade pour un programme écologique 2027 complet. Aucun coût provenant d'un programme antérieur n'est repris comme s'il constituait automatiquement le financement du projet présidentiel actuel.",
+  "population_concernee": "Ménages, automobilistes, propriétaires et locataires, agriculteurs, entreprises industrielles et énergétiques, collectivités et populations concernées par les politiques climatiques et environnementales ; les effets précis dépendront des mesures 2027 qui seront publiées.",
+  "sources": [
+    {
+      "nom": "Nicolas Dupont-Aignan — discours de rentrée présentant les grands axes du projet 2027, 19 septembre 2026",
+      "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+    },
+    {
+      "nom": "Nicolas Dupont-Aignan — discours du 8 mars 2025, utilisé uniquement comme position antérieure et non comme programme 2027",
+      "url": "https://www.dupontaignan.fr/wp-content/uploads/2025/03/Discours-8-mars-2025.pdf"
+    }
+  ]
+} 
       }
     },
     {
