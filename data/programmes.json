@@ -136,14 +136,19 @@
   ]
 },
         "sante": {
-          "statut": "Recherche en cours",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : le volet santé 2027 reste à documenter.",
-          "resume": "Le volet santé reste à documenter à partir de propositions 2027 suffisamment précises et directement attribuables.",
-          "financement": "Non précisé à ce stade.",
-          "population_concernee": "Patients, professionnels de santé et assurés sociaux.",
-          "sources": []
-        },
+  "statut": "Volet Santé annoncé pour 2027 — mesures détaillées à venir",
+  "solidite_documentaire": null,
+  "solidite_explication": "Non évaluée : le site officiel de campagne de Bruno Retailleau comporte désormais un thème Santé, mais celui-ci est encore indiqué « À venir ». L'orientation générale est publiée, tandis que les mesures détaillées, leur calendrier et leur chiffrage ne le sont pas encore suffisamment pour constituer une fiche programmatique complète.",
+  "resume": "Le projet présidentiel de Bruno Retailleau affiche comme orientation pour la santé de permettre de se soigner partout et dans des délais plus courts. Il identifie explicitement les délais d'attente et les déserts médicaux parmi les problèmes auxquels son futur volet Santé doit répondre et indique vouloir rendre aux soignants davantage de temps consacré au soin. À la date de vérification de cette fiche, le site officiel classe cependant encore le chapitre Santé parmi les thèmes « À venir ». Il ne publie donc pas encore suffisamment de mesures détaillées pour établir précisément son projet concernant l'hôpital public, les effectifs et rémunérations des soignants, la médecine de ville, les règles d'installation des médecins, les urgences, les médicaments, la prévention, les remboursements, les complémentaires santé ou l'évolution du financement de la Sécurité sociale. Des propositions et travaux antérieurs de Bruno Retailleau, des Républicains ou de parlementaires LR existent sur certains de ces sujets, mais ils ne sont pas automatiquement présentés ici comme des engagements présidentiels personnels pour 2027 tant que leur reprise n'est pas confirmée dans son projet.",
+  "financement": "Aucun budget global, montant de dépenses ou d'économies ni plan de financement du volet Santé 2027 n'est encore publié sur le site officiel de campagne dans le chapitre Santé actuellement indiqué « À venir ». Aucun chiffrage provenant de propositions antérieures de Bruno Retailleau ou des Républicains n'est réattribué automatiquement à son programme présidentiel.",
+  "population_concernee": "Patients, assurés sociaux, habitants des territoires confrontés à une offre médicale insuffisante, médecins, personnels hospitaliers et autres professionnels de santé sont concernés par l'orientation générale publiée. Les catégories précisément concernées par chaque future mesure devront être complétées lors de la publication du volet Santé détaillé.",
+  "sources": [
+    {
+      "nom": "Bruno Retailleau 2027 — projet officiel, thème Santé",
+      "url": "https://www.avecretailleau.fr/projet"
+    }
+  ]
+},
         "energie": {
           "statut": "Orientations publiées dans la préparation de 2027",
           "solidite_documentaire": 97,
