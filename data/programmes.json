@@ -438,32 +438,32 @@
     {
       "nom": "Nicolas Dupont-Aignan",
       "themes": {
-        "ecole": {
-          "statut": "Axe du projet présidentiel 2027",
-          "solidite_documentaire": 95,
-          "solidite_explication": "Axe rattaché au projet 2027 dans une source primaire ; détails opérationnels et chiffrage encore insuffisants.",
-          "resume": "Il annonce vouloir reconstruire l'école publique. Les mesures opérationnelles, les effectifs, le calendrier et les modalités détaillées doivent encore être précisés.",
-          "financement": "Non chiffré dans la source retenue.",
-          "population_concernee": "Élèves, familles et personnels de l'éducation.",
-          "handicap_aesh": {
-  "statut": "Aucune proposition AESH 2027 suffisamment précise identifiée à ce stade",
-  "propositions": "Nicolas Dupont-Aignan fait de la reconstruction de l'école publique un axe de son projet présidentiel 2027. Dans les sources récentes vérifiées pour cette fiche, aucune mesure suffisamment précise n'est toutefois identifiée concernant le statut ou le nombre d'AESH, les heures d'accompagnement ou les dispositifs spécifiques pour les élèves avec TDAH ou trouble du spectre de l'autisme.",
-  "impact_familles": "Des propositions concernant la scolarisation des enfants en situation de handicap existaient dans une campagne présidentielle antérieure, mais elles ne sont pas présentées ici comme des engagements 2027 sans confirmation récente. L'effet concret du projet 2027 sur les familles ayant besoin d'un AESH reste donc à préciser.",
-  "financement": "Aucun financement spécifique AESH identifié pour 2027 à ce stade.",
+       "ecole": {
+  "statut": "Axe annoncé du projet présidentiel 2027 — programme détaillé en cours de publication",
+  "solidite_documentaire": 85,
+  "solidite_explication": "Une source primaire récente confirme que Nicolas Dupont-Aignan inscrit la reconstruction de l'école publique dans son projet présidentiel pour 2027. Des propositions scolaires beaucoup plus détaillées existent dans ses programmes et positions antérieurs et sont encore recensées en 2026, mais leur reprise intégrale dans le programme présidentiel 2027 n'est pas suffisamment établie par les sources primaires retenues. Elles ne sont donc pas présentées ici comme des engagements 2027 confirmés.",
+  "resume": "Nicolas Dupont-Aignan inscrit la reconstruction de l'école publique parmi les axes de son projet présidentiel pour 2027. À ce stade de la publication du projet, la source primaire récente retenue ne fournit cependant pas un volet scolaire suffisamment détaillé pour établir avec certitude l'ensemble des mesures qui constitueront son programme éducatif 2027. Des propositions plus anciennes de Nicolas Dupont-Aignan portent notamment sur la maîtrise des savoirs fondamentaux, l'organisation du passage entre le primaire et le collège, la formation des enseignants, les internats, le mérite scolaire, le sport, l'autorité et l'accompagnement des élèves en difficulté. Ces propositions antérieures ne sont volontairement pas reproduites ici comme engagements pour 2027 tant qu'une source primaire récente ne confirme pas explicitement leur maintien. La fiche sera donc complétée à mesure de la publication du programme détaillé.",
+  "financement": "Aucun budget global consacré à l'école ni plan de financement détaillé du volet scolaire 2027 n'est identifié dans la source primaire récente retenue. Aucun montant provenant d'un programme présidentiel antérieur n'est réattribué automatiquement à la campagne 2027.",
+  "population_concernee": "Élèves, familles, enseignants, AESH et autres personnels de l'éducation sont potentiellement concernés par l'axe annoncé de reconstruction de l'école publique. Les catégories précisément concernées par chaque mesure devront être complétées lorsque le programme scolaire 2027 détaillé sera suffisamment documenté.",
+  "handicap_aesh": {
+    "statut": "Positions antérieures identifiées — confirmation spécifique pour 2027 nécessaire",
+    "propositions": "Nicolas Dupont-Aignan a défendu antérieurement des mesures concernant la scolarisation des enfants en situation de handicap et le recrutement d'AESH. Des sources de suivi de la campagne recensent encore ces positions en 2026. Toutefois, les sources primaires récentes retenues pour son projet présidentiel 2027 ne permettent pas encore d'établir avec suffisamment de précision quelles mesures concernant les AESH seront effectivement reprises dans son programme 2027.",
+    "impact_familles": "Il n'est donc pas possible, à ce stade, d'attribuer à son projet 2027 un nombre précis d'AESH supplémentaires, un volume garanti d'heures d'accompagnement par élève, une réforme déterminée de leur statut ou de leur rémunération, une règle concernant la mutualisation de l'aide humaine, ou un dispositif spécifique pour les élèves avec TDAH ou trouble du spectre de l'autisme. L'absence de confirmation 2027 ne signifie pas que les positions antérieures ont été abandonnées ; elle signifie seulement que leur maintien doit encore être documenté.",
+    "financement": "Aucun montant ni financement spécifique concernant les AESH n'est identifié dans les sources primaires 2027 retenues.",
+    "sources": [
+      {
+        "nom": "Nicolas Dupont-Aignan — discours de rentrée et projet présidentiel, 19 septembre 2026",
+        "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+      }
+    ]
+  },
   "sources": [
     {
-      "nom": "Nicolas Dupont-Aignan — discours de rentrée, 19 septembre 2026",
+      "nom": "Nicolas Dupont-Aignan — discours de rentrée et projet présidentiel, 19 septembre 2026",
       "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
     }
   ]
 },
-          "sources": [
-            {
-              "nom": "Nicolas Dupont-Aignan — discours du 19 septembre 2026",
-              "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
-            }
-          ]
-        },
         "sante": {
           "statut": "Vérification complémentaire nécessaire",
           "solidite_documentaire": null,
