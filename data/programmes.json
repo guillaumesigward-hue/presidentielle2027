@@ -251,21 +251,36 @@
       "nom": "Jean-Luc Mélenchon",
       "themes": {
         "ecole": {
-          "statut": "Programme en cours d'actualisation pour 2027",
-          "solidite_documentaire": 98,
-          "solidite_explication": "L'existence et l'actualisation du programme pour 2027 sont directement confirmées ; cet indice ne valide pas encore des mesures détaillées.",
-          "resume": "La France insoumise a ouvert en mai 2026 une phase de contributions pour actualiser L'Avenir en commun, programme annoncé pour la présidentielle 2027. Les mesures détaillées seront intégrées après vérification de la version actualisée.",
-          "financement": "À documenter à partir de la version actualisée.",
-          "population_concernee": "Élèves, familles et personnels de l'éducation.",
-          "handicap_aesh": {
-  "statut": "Propositions documentées dans la préparation du programme 2027",
-  "propositions": "Les documents programmatiques liés à Jean-Luc Mélenchon et à La France insoumise prévoient notamment la titularisation des AESH, la création d'un corps de fonctionnaires de catégorie B et la fin de la mutualisation de l'accompagnement via les PIAL. Une publication de septembre 2026 précise également un temps plein correspondant à 24 heures pour les AESH.",
-  "impact_familles": "La fin de la mutualisation vise à renforcer l'accompagnement individualisé des élèves en situation de handicap. Pour une famille ayant besoin d'un AESH, ces propositions concernent donc directement la stabilité et l'organisation de l'accompagnement. La source retenue ne permet toutefois pas de garantir à ce stade un nombre déterminé d'heures d'AESH pour chaque enfant avec TDAH ou trouble du spectre de l'autisme.",
-  "financement": "Le coût total de ces mesures et leur financement détaillé ne sont pas chiffrés dans les sources retenues pour cette fiche.",
+  "statut": "Programme en cours d'actualisation pour 2027 — mesures déjà présentes dans le programme identifiées par la campagne",
+  "solidite_documentaire": 98,
+  "solidite_explication": "La campagne 2027 confirme l'actualisation de L'Avenir en commun et sa synthèse des contributions identifie explicitement plusieurs mesures scolaires comme étant déjà présentes dans le programme actuel. Cette fiche distingue ces mesures des propositions nouvelles issues des contributions, qui ne sont pas automatiquement considérées comme intégrées au programme définitif.",
+  "resume": "Dans la synthèse publiée par la campagne Mélenchon 2027 après la consultation organisée du 20 mai au 20 juin 2026, plusieurs mesures scolaires sont explicitement présentées comme déjà présentes dans le programme actuel. Elles comprennent l'abrogation du « Choc des savoirs », la fin des groupes de niveau et le retour au groupe-classe ; le financement de programmes associatifs d'accompagnement ; la revalorisation des salaires des enseignants et la fin du Pacte enseignant ; la titularisation des AESH et la fin de leur mutualisation via les PIAL ; la gratuité réelle de l'école, comprenant cantines, transports, sorties, manuels et fournitures ; la labellisation des intervenants extérieurs et la suppression des partenariats avec le Medef et les entreprises du CAC 40 ; la garantie des trois séances annuelles d'éducation à la vie affective, relationnelle et sexuelle (EVARS) ; la généralisation de cantines 100 % bio et locales avec une option végétarienne et l'intégration de la bifurcation écologique dans les programmes ; ainsi que la réduction du financement de l'enseignement privé sous contrat. Pour la voie professionnelle, la synthèse identifie également parmi les mesures déjà présentes le rétablissement du baccalauréat professionnel en quatre ans, l'abrogation des réformes antérieures du lycée professionnel, la création de centres polytechniques professionnels, le rétablissement d'un service public national de l'orientation, la réservation de la taxe d'apprentissage aux établissements publics et la structuration des filières professionnelles en fonction de la bifurcation écologique. La synthèse mentionne séparément des propositions nouvelles issues de la consultation, notamment la suppression des stages obligatoires de 3e et de 2nde et la reconnaissance des missions dites invisibles des enseignants : ces propositions nouvelles ne sont pas présentées ici comme déjà intégrées au programme définitif.",
+  "financement": "Les sources 2026 retenues confirment plusieurs orientations impliquant des dépenses ou des modifications de financements — revalorisation des enseignants, titularisation des AESH, gratuité de l'école, programmes d'accompagnement et modification du financement de l'enseignement privé sous contrat — mais elles ne fournissent pas, dans les passages utilisés pour cette fiche, un chiffrage global ni un plan de financement détaillé de l'ensemble du volet scolaire. Aucun montant global n'est donc attribué ici à ces mesures.",
+  "population_concernee": "Élèves du primaire et du secondaire, élèves de la voie professionnelle, élèves en situation de handicap, familles, enseignants, AESH et autres personnels de l'Éducation nationale. Certaines mesures concernent également les établissements privés sous contrat, les intervenants extérieurs et les apprentis mineurs.",
+  "handicap_aesh": {
+    "statut": "Mesures documentées dans le programme en cours d'actualisation et précisées par une publication LFI de septembre 2026",
+    "propositions": "La synthèse de la campagne Mélenchon 2027 classe parmi les mesures déjà présentes dans le programme la titularisation des AESH et la fin de la mutualisation de l'accompagnement via les PIAL. Le 4 septembre 2026, le groupe parlementaire LFI a précisé une proposition de création d'un corps de fonctionnaires de catégorie B pour les AESH, avec titularisation des personnels en poste, renforcement de la formation initiale et continue et définition d'un temps plein correspondant à 24 heures. Cette publication indique également que les AESH percevraient 100 % d'un salaire de fonctionnaire de catégorie B.",
+    "impact_familles": "La fin de la mutualisation via les PIAL vise à modifier l'organisation de l'aide humaine apportée aux élèves en situation de handicap. La titularisation, le corps de catégorie B et le temps plein à 24 heures concernent directement le statut et les conditions d'emploi des AESH. Les sources retenues ne fixent toutefois pas un nombre garanti d'heures d'accompagnement individuel pour chaque élève et ne décrivent pas de dispositif distinct spécifiquement réservé aux élèves avec TDAH ou trouble du spectre de l'autisme. Il ne faut donc pas déduire de ces propositions un volume individuel d'accompagnement qui n'est pas précisé.",
+    "financement": "Les sources retenues ne fournissent pas de coût global ni de plan de financement détaillé pour la titularisation des AESH, la création du corps de catégorie B et les autres mesures d'école inclusive.",
+    "sources": [
+      {
+        "nom": "Mélenchon 2027 — synthèse des contributions au programme",
+        "url": "https://melenchon2027.fr/synthese-des-contributions/"
+      },
+      {
+        "nom": "La France insoumise — école inclusive, 4 septembre 2026",
+        "url": "https://lafranceinsoumise.fr/2026/09/04/conference-nationale-du-handicap-lecole-inclusive-merite-mieux-quun-bilan-en-trompe-loeil/"
+      }
+    ]
+  },
   "sources": [
     {
-      "nom": "Mélenchon 2027 — synthèse des contributions",
+      "nom": "Mélenchon 2027 — synthèse des contributions au programme",
       "url": "https://melenchon2027.fr/synthese-des-contributions/"
+    },
+    {
+      "nom": "La France insoumise — ouverture des contributions, 20 mai 2026",
+      "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
     },
     {
       "nom": "La France insoumise — école inclusive, 4 septembre 2026",
@@ -273,13 +288,6 @@
     }
   ]
 },
-          "sources": [
-            {
-              "nom": "La France insoumise — 20 mai 2026",
-              "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
-            }
-          ]
-        },
         "sante": {
           "statut": "Programme en cours d'actualisation pour 2027",
           "solidite_documentaire": 98,
