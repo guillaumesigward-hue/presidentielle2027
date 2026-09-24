@@ -423,14 +423,19 @@
   ]
 },
         "sante": {
-          "statut": "Recherche en cours",
-          "solidite_documentaire": null,
-          "solidite_explication": "Non évaluée : aucune synthèse sanitaire 2027 suffisamment documentée n'est encore intégrée.",
-          "resume": "Aucune synthèse n'est encore publiée ici faute d'un ensemble de propositions sanitaires 2027 suffisamment détaillé et vérifié.",
-          "financement": "Non précisé à ce stade.",
-          "population_concernee": "À documenter.",
-          "sources": []
-        },
+  "statut": "Orientation publiée dans le projet présidentiel 2027 — mesures Santé détaillées encore limitées",
+  "solidite_documentaire": 95,
+  "solidite_explication": "Le site officiel d'Édouard Philippe publie désormais une orientation directement rattachée à son projet présidentiel concernant les dépenses de santé, la prévention et les transformations technologiques. Il publie également une orientation sur le financement du modèle social. Les sources officielles retenues ne détaillent toutefois pas encore suffisamment les mesures concernant l'hôpital, les effectifs soignants, les déserts médicaux, la médecine de ville, les remboursements et les restes à charge.",
+  "resume": "Édouard Philippe propose de stabiliser les dépenses de santé en cherchant à « dépenser mieux », plutôt qu'en faisant reposer l'amélioration du système uniquement sur une augmentation générale des moyens. Il cite explicitement la prévention et les transformations technologiques parmi les leviers permettant cette évolution. Cette orientation s'inscrit dans une priorité plus large consacrée au redressement économique et aux finances publiques. Son projet prévoit également de rééquilibrer le financement du modèle social afin qu'il ne repose plus uniquement sur le travail, avec l'objectif annoncé d'augmenter le salaire net des actifs. À ce stade, le programme officiel retenu ne fournit cependant pas suffisamment de mesures détaillées pour établir précisément ce qu'Édouard Philippe propose concernant le nombre de lits ou de personnels hospitaliers, la rémunération des soignants, l'organisation des urgences, l'installation des médecins dans les territoires sous-dotés, les soins de premier recours, les franchises médicales, les dépassements d'honoraires, les complémentaires santé ou le niveau précis des remboursements par l'Assurance maladie. Ces éléments ne sont donc pas déduits de son orientation générale et devront être ajoutés lorsque des propositions suffisamment précises seront publiées.",
+  "financement": "L'orientation officielle consiste à stabiliser les dépenses de santé en améliorant leur utilisation, notamment grâce à la prévention et aux transformations technologiques. Édouard Philippe propose parallèlement de rééquilibrer le financement du modèle social afin qu'il ne repose plus uniquement sur le travail. La source officielle retenue ne précise cependant pas encore le montant des économies attendues dans la santé, les dépenses nouvelles éventuelles, la trajectoire détaillée des dépenses de l'Assurance maladie ni les nouvelles sources de financement qui remplaceraient une partie du financement reposant sur le travail. Aucun montant non publié n'est donc ajouté à cette fiche.",
+  "population_concernee": "Patients, assurés sociaux, professionnels de santé et actifs participant au financement du modèle social sont concernés par les orientations publiées. Les populations concernées par d'éventuelles futures mesures spécifiques sur l'hôpital, les déserts médicaux, les remboursements ou les professionnels de santé devront être précisées lorsque ces propositions seront publiées.",
+  "sources": [
+    {
+      "nom": "Édouard Philippe 2027 — Pour une France plus prospère",
+      "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere"
+    }
+  ]
+},
         "energie": {
           "statut": "Recherche en cours",
           "solidite_documentaire": null,
