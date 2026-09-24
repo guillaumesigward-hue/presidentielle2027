@@ -176,47 +176,79 @@
   ]
 },
         "energie": {
-          "statut": "Orientations publiées dans la préparation de 2027",
-          "solidite_documentaire": 97,
-          "solidite_explication": "Orientations récentes et mesures précises documentées, tout en distinguant les propositions personnelles du socle LR.",
-          "resume": "Le projet met l'accent sur le développement du nucléaire. Il prévoit également de ne plus soutenir par de nouvelles aides publiques les projets éoliens et photovoltaïques qui ne disposent pas de leur propre équilibre économique.",
-          "financement": "Bruno Retailleau met notamment en avant les soutiens à l'éolien et au photovoltaïque, estimés à 6,6 milliards d'euros pour 2026, comme source d'économies. Le coût complet de sa stratégie nucléaire et son effet final sur les factures doivent être appréciés séparément.",
-          "population_concernee": "Ménages, entreprises, producteurs d'énergie et finances publiques.",
-          "sources": [
-            {
-              "nom": "Le Monde — 7 mai 2026",
-              "url": "https://www.lemonde.fr/politique/article/2026/05/07/bruno-retailleau-promet-de-mettre-le-paquet-sur-le-nucleaire-pour-reduire-la-facture-d-electricite_6686607_823448.html"
-            }
-          ]
-        },
-        "fiscalite": {
-          "statut": "Propositions économiques présentées en 2026",
-          "solidite_documentaire": 95,
-          "solidite_explication": "Montants et impôts visés clairement documentés ; financement global encore incomplet.",
-          "resume": "Il propose une baisse de 25 milliards d'euros des cotisations patronales et de 15 milliards d'euros des impôts de production, notamment en ciblant la CVAE et la C3S.",
-          "financement": "Le financement détaillé et les compensations budgétaires de l'ensemble de ces baisses restent à préciser.",
-          "population_concernee": "Entreprises, employeurs, salariés et finances publiques.",
-          "sources": [
-            {
-              "nom": "Le Monde — 19 mai 2026",
-              "url": "https://www.lemonde.fr/politique/article/2026/05/19/fiscalite-les-impots-de-production-au-c-ur-de-la-future-bataille-politique_6691520_823448.html"
-            }
-          ]
-        },
-        "ecologie": {
-          "statut": "Orientation publiée dans la préparation de 2027",
-          "solidite_documentaire": 96,
-          "solidite_explication": "Orientation écologique récente directement publiée par Bruno Retailleau ; le chiffrage d'ensemble reste à préciser.",
-          "resume": "Il défend une politique climatique centrée sur l'adaptation au réchauffement, l'investissement et l'innovation plutôt que sur la décroissance. Il met notamment en avant l'adaptation des bâtiments et infrastructures aux fortes chaleurs ainsi qu'une production d'énergie décarbonée.",
-          "financement": "L'investissement est présenté comme l'un des instruments principaux de cette politique, mais aucun budget écologique global n'est chiffré dans la source retenue.",
-          "population_concernee": "Ménages, collectivités, écoles, établissements de santé, entreprises et populations exposées aux fortes chaleurs et autres conséquences du changement climatique.",
-          "sources": [
-            {
-              "nom": "Les Républicains — Bruno Retailleau, 9 août 2026",
-              "url": "https://republicains.fr/actualites/2026/08/09/face-au-rechauffement-climatique-adapter-la-france-plutot-que-punir/"
-            }
-          ]
-        }
+  "statut": "Programme Électricité 2027 détaillé et publié",
+  "solidite_documentaire": 99,
+  "solidite_explication": "Le site officiel de campagne publie désormais un chapitre Électricité comprenant dix mesures détaillées. Les principales propositions concernant le nucléaire, le mécanisme de formation du prix de l'électricité et les soutiens à l'éolien et au photovoltaïque sont donc directement documentées dans le projet 2027.",
+  "resume": "Bruno Retailleau place le nucléaire au centre de sa politique électrique et veut augmenter la production d'électricité décarbonée. Son projet prévoit de protéger et prolonger le parc nucléaire existant et de développer de nouvelles capacités nucléaires. Il veut parallèlement mettre fin aux nouveaux soutiens publics à l'éolien et au photovoltaïque en France métropolitaine : les projets disposant de leur propre équilibre économique pourraient continuer à être autorisés, mais sans aide publique, tarif garanti ni prise en charge publique des coûts de raccordement. Pour les particuliers et les entreprises, il propose de remplacer l'exposition actuelle aux prix de marché par un contrat pour différence bidirectionnel entre EDF et les fournisseurs. Un prix de référence serait fixé à partir des coûts complets du parc nucléaire rénové, avec une marge destinée au financement de nouveaux réacteurs. Lorsque les prix de marché dépasseraient cette référence, les excédents seraient reversés aux consommateurs ; lorsqu'ils seraient inférieurs, EDF recevrait une compensation. Le mécanisme couvrirait entre 100 et 130 TWh, en fonction de la production nucléaire réelle. Pour les grands industriels, le projet prévoit des contrats de long terme spécifiques. La campagne affiche avec l'ensemble de ces mesures un objectif de baisse de la facture d'électricité de 5 à 10 % à partir de 2030 et lui ajoute une baisse immédiate annoncée de 5 % liée à la sortie de l'électricité des certificats d'économies d'énergie.",
+  "financement": "Le projet prévoit que le contrat pour différence soit organisé entre EDF et les fournisseurs, sans faire transiter selon la campagne des flux financiers massifs par le budget de l'État. Le prix de référence doit intégrer les coûts complets du parc nucléaire rénové ainsi qu'une marge permettant de financer les nouveaux réacteurs. Bruno Retailleau veut parallèlement supprimer les soutiens publics à l'éolien et au photovoltaïque ; en mai 2026, il évaluait ces soutiens à environ 6,6 milliards d'euros pour 2026. Le coût complet de la construction des nouvelles capacités nucléaires et leur plan de financement détaillé ne sont toutefois pas consolidés dans cette fiche.",
+  "population_concernee": "Ménages et particuliers consommateurs d'électricité, entreprises et grands industriels, EDF et fournisseurs d'électricité, salariés et entreprises de la filière nucléaire ainsi que producteurs et entreprises des filières éolienne et photovoltaïque concernés par la suppression annoncée des nouveaux soutiens publics.",
+  "sources": [
+    {
+      "nom": "Bruno Retailleau 2027 — stabiliser le prix de l'électricité",
+      "url": "https://www.avecretailleau.fr/projet/mesure/stabiliser-le-prix-de-l-electricite"
+    },
+    {
+      "nom": "Bruno Retailleau 2027 — projet officiel, thème Électricité",
+      "url": "https://www.avecretailleau.fr/projet"
+    },
+    {
+      "nom": "Le Monde — programme électrique de Bruno Retailleau, 7 mai 2026",
+      "url": "https://www.lemonde.fr/politique/article/2026/05/07/bruno-retailleau-promet-de-mettre-le-paquet-sur-le-nucleaire-pour-reduire-la-facture-d-electricite_6686607_823448.html"
+    }
+  ]
+},
+"fiscalite": {
+  "statut": "Mesures fiscales et sociales 2027 détaillées en cours de publication",
+  "solidite_documentaire": 99,
+  "solidite_explication": "Le projet officiel 2027 publie désormais plusieurs mesures chiffrées concernant les cotisations sociales, les entreprises, les heures supplémentaires, le patrimoine et le logement. Le chapitre Comptes publics complet reste cependant indiqué « À venir », ce qui ne permet pas encore d'établir une synthèse exhaustive de tous les impôts, recettes et économies du projet.",
+  "resume": "Bruno Retailleau veut diminuer les prélèvements pesant sur le travail et les entreprises. Son projet actuel prévoit une baisse de 30 milliards d'euros par an de cotisations : la moitié, soit 15 milliards, doit revenir directement aux salariés et procurer selon la campagne environ 500 euros nets supplémentaires par an à un salarié au salaire médian ; l'autre moitié doit réduire durablement le coût du travail pour les entreprises. Il propose également qu'au-delà d'un seuil annuel de 1 623 heures, la rémunération supplémentaire soit exonérée de cotisations sociales, à l'exception de la CSG et de la CRDS, tout en maintenant l'exonération d'impôt sur le revenu des heures supplémentaires. Pour les entreprises, Bruno Retailleau défend également une diminution des impôts de production. Il avait annoncé en mai 2026 vouloir réduire de 15 milliards d'euros ces impôts en ciblant notamment la CVAE et la C3S. Son projet officiel comporte désormais des mesures sur la transmission des entreprises et du patrimoine. Dans le logement, il prévoit notamment de rendre les intérêts d'emprunt déductibles selon le nombre d'enfants, jusqu'à 100 % à partir de trois enfants, et propose pendant trois ans des dons familiaux exonérés jusqu'à 150 000 euros pour les bénéficiaires de moins de 30 ans. Le projet prévoit aussi différentes modifications fiscales destinées à l'investissement et à la transmission des entreprises. Le chapitre général consacré aux comptes publics n'étant pas encore publié dans sa version complète, cette fiche ne présente pas comme exhaustive la totalité de sa politique fiscale et budgétaire.",
+  "financement": "Pour la baisse de 30 milliards d'euros de cotisations, la campagne chiffre les ressources attendues à 12,5 à 15,7 milliards d'euros provenant de la réforme de l'assurance chômage, 10 milliards du compte social unique et de la lutte contre la fraude, 4 milliards de hausse présentée comme mécanique des recettes d'impôt sur les sociétés et 2 milliards liés au revenu d'incitation à l'activité, soit au total entre 28,5 et 31,7 milliards d'euros par an. Pour l'exonération de cotisations au-delà de 1 623 heures, la campagne la présente comme neutre pour les finances publiques en considérant que les heures nouvellement travaillées financeraient l'exonération. La baisse de 15 milliards d'euros des impôts de production annoncée en mai 2026 doit encore être rapprochée du chiffrage complet du projet actuel lorsque le chapitre Comptes publics sera publié.",
+  "population_concernee": "Salariés, notamment ceux rémunérés autour du salaire médian et ceux effectuant des heures supplémentaires ; employeurs et entreprises concernés par les cotisations et impôts de production ; demandeurs d'emploi concernés par la réforme de l'assurance chômage ; bénéficiaires de prestations sociales concernés par le compte social unique ; familles, propriétaires, acquéreurs et personnes transmettant un patrimoine ou une entreprise. Les effets complets sur les contribuables devront être complétés avec la publication du chapitre Comptes publics.",
+  "sources": [
+    {
+      "nom": "Bruno Retailleau 2027 — rendre 500 euros par an à tous les salariés",
+      "url": "https://www.avecretailleau.fr/projet/mesure/rendre-30-milliards-d-euros-aux-salaries-et-aux-entreprises"
+    },
+    {
+      "nom": "Bruno Retailleau 2027 — exonérer totalement les heures supplémentaires de cotisations sociales",
+      "url": "https://www.avecretailleau.fr/projet/mesure/rapprocher-le-brut-du-net-avec-le-seuil-zero-cotisation"
+    },
+    {
+      "nom": "Bruno Retailleau 2027 — projet officiel, thème Logement",
+      "url": "https://www.avecretailleau.fr/projet/theme/logement"
+    },
+    {
+      "nom": "Le Monde — impôts de production et propositions de Bruno Retailleau, 19 mai 2026",
+      "url": "https://www.lemonde.fr/politique/article/2026/05/19/fiscalite-les-impots-de-production-au-c-ur-de-la-future-bataille-politique_6691520_823448.html"
+    }
+  ]
+},
+"ecologie": {
+  "statut": "Orientations et mesures 2027 déjà publiées — chapitre Écologie complet encore à venir",
+  "solidite_documentaire": 97,
+  "solidite_explication": "Le chapitre Écologie du site officiel est encore indiqué « À venir », mais plusieurs positions et mesures environnementales directement rattachées au projet 2027 sont déjà publiées dans les chapitres Électricité, Logement et dans une tribune de Bruno Retailleau sur l'adaptation climatique. La fiche distingue donc les mesures confirmées du futur chapitre écologique encore incomplet.",
+  "resume": "Bruno Retailleau défend une politique climatique centrée sur l'adaptation au réchauffement, l'investissement, l'innovation et la production d'énergie décarbonée plutôt que sur ce qu'il présente comme une politique de restriction des usages. Sur l'adaptation aux fortes chaleurs, il met notamment en avant l'adaptation des écoles, crèches, hôpitaux, EHPAD, logements et lieux de travail ainsi que les besoins d'équipements et d'infrastructures correspondants. Sur l'énergie, sa politique climatique repose principalement sur le nucléaire ; il veut supprimer les nouveaux soutiens publics à l'éolien et au photovoltaïque tout en permettant aux projets économiquement autonomes de se développer sans subvention. Dans le logement et l'aménagement, son projet 2027 prévoit d'abroger le dispositif national de zéro artificialisation nette et de le remplacer par des objectifs de sobriété foncière négociés dans des contrats territoriaux entre le préfet et chaque intercommunalité. Le projet conserve comme principe de mobiliser prioritairement les espaces déjà urbanisés, transformer le bâti existant et densifier lorsque cela est jugé adapté localement. Il prévoit également un moratoire de dix ans sur le durcissement des normes de construction : la RE2020 serait maintenue à son niveau actuel mais les paliers supplémentaires prévus pour 2028 et 2031 seraient supprimés, avec une révision destinée à mieux intégrer le confort d'été. Concernant les logements existants, Bruno Retailleau veut maintenir le DPE comme outil obligatoire d'information mais supprimer son utilisation comme fondement d'une interdiction administrative de louer. Le chapitre Écologie complet n'étant pas encore publié, les mesures concernant notamment l'eau, la biodiversité, les pollutions, l'adaptation des infrastructures et la trajectoire globale des émissions devront être complétées lorsqu'elles seront disponibles.",
+  "financement": "Bruno Retailleau présente l'investissement et l'innovation comme les principaux instruments de sa politique d'adaptation, mais aucun budget écologique global n'est encore publié dans le chapitre Écologie, qui reste indiqué « À venir ». Certaines mesures connexes ont toutefois leur propre financement : le projet prévoit par exemple 9 000 euros de fraction de TVA reversés automatiquement aux communes pour chaque logement neuf construit, dispositif que la campagne présente comme financé par les recettes de TVA générées par la construction. Les économies attendues de la suppression des soutiens publics à l'éolien et au photovoltaïque sont traitées dans la rubrique Énergie. Aucun coût global consolidé de la politique climatique et d'adaptation n'est donc attribué ici.",
+  "population_concernee": "Ménages, propriétaires et locataires ; communes et intercommunalités concernées par l'aménagement et le ZAN ; agriculteurs et entreprises utilisant du foncier ; enfants, personnes âgées, patients et personnels des écoles, crèches, EHPAD et hôpitaux concernés par l'adaptation aux fortes chaleurs ; entreprises du bâtiment ; producteurs d'énergie et populations exposées aux conséquences du changement climatique.",
+  "sources": [
+    {
+      "nom": "Bruno Retailleau 2027 — abroger le ZAN",
+      "url": "https://www.avecretailleau.fr/projet/mesure/abroger-le-zan"
+    },
+    {
+      "nom": "Bruno Retailleau 2027 — geler les normes de construction pendant dix ans",
+      "url": "https://www.avecretailleau.fr/projet/mesure/geler-les-normes-de-construction-pendant-dix-ans"
+    },
+    {
+      "nom": "Bruno Retailleau 2027 — projet officiel, thème Logement",
+      "url": "https://www.avecretailleau.fr/projet/theme/logement"
+    },
+    {
+      "nom": "Les Républicains — Bruno Retailleau, Face au réchauffement climatique, adapter la France plutôt que punir, 9 août 2026",
+      "url": "https://republicains.fr/actualites/2026/08/09/face-au-rechauffement-climatique-adapter-la-france-plutot-que-punir/"
+    }
+  ]
+}
       }
     },
     {
