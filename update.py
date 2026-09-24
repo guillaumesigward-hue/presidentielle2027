@@ -146,7 +146,13 @@ status = {
     "sources": {}
 }
 
-detections = []
+# On conserve l'historique des détections déjà enregistrées.
+detections = charger_json(detections_file, [])
+
+# Sécurité : si le fichier est endommagé ou ne contient plus une liste,
+# on repart d'une liste vide sans interrompre le robot.
+if not isinstance(detections, list):
+    detections = []
 
 # ------------------------------------------------------------
 # COMMISSION DES SONDAGES
@@ -371,10 +377,15 @@ election["sources"] = [
 # ------------------------------------------------------------
 # ÉCRITURE DES FICHIERS
 # ------------------------------------------------------------
+# On conserve l'historique, tout en évitant que le fichier
+# ne grossisse indéfiniment. Les détections les plus récentes
+# restent en tête du fichier.
+detections = detections[:500]
 
 ecrire_json(
-    election_file,
-    election
+    detections_file,
+    detections
+)
 )
 
 ecrire_json(
