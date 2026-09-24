@@ -462,11 +462,51 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                 and "/blogs.mediapart.fr/" in url_article
             ):
                 continue
+            # Pré-classement indicatif pour faciliter la vérification humaine.
+            # Cette qualification n'est jamais publiée automatiquement.
+            titre_minuscule = titre_article.lower()
+
+            if any(
+                mot in titre_minuscule
+                for mot in [
+                    "enquête",
+                    "investigation",
+                    "révélations",
+                    "révélation",
+                ]
+            ):
+                nature = "enquête potentielle"
+
+            elif any(
+                mot in titre_minuscule
+                for mot in [
+                    "entretien",
+                    "interview",
+                    "déclare",
+                    "affirme",
+                    "estime",
+                ]
+            ):
+                nature = "déclaration ou entretien potentiel"
+
+            elif any(
+                mot in titre_minuscule
+                for mot in [
+                    "analyse",
+                    "décryptage",
+                    "décryptons",
+                ]
+            ):
+                nature = "analyse potentielle"
+
+            else:
+                nature = "actualité à qualifier"
             ajouter_detection(
                 detections,
-                {
+                   {
                     "type": source_journalistique["type"],
                     "source": nom_source,
+                    "nature": nature,
                     "titre": titre_article,
                     "url": url_article,
                     "date_detection": date_fr,
