@@ -106,5 +106,14 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Vérifier la publication originale, les dates de terrain, l'échantillon et la nature exacte de l'enquête avant toute publication sur le site."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10273 Pres IV CLUSTER17 Politico 24 septembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2286",
+    "date_detection": "24 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
   }
 ]
