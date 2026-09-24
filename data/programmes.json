@@ -316,19 +316,31 @@
   ]
 },
         "sante": {
-          "statut": "Programme en cours d'actualisation pour 2027",
-          "solidite_documentaire": 98,
-          "solidite_explication": "L'actualisation du programme pour 2027 est directement confirmée ; aucune mesure sanitaire détaillée n'est encore présentée ici comme définitivement arrêtée.",
-          "resume": "La fiche détaillée sera établie après vérification de la version actualisée de L'Avenir en commun pour éviter d'attribuer automatiquement à 2027 des mesures d'une édition antérieure.",
-          "financement": "À documenter dans la version actualisée.",
-          "population_concernee": "Patients, professionnels de santé et assurés sociaux.",
-          "sources": [
-            {
-              "nom": "La France insoumise — actualisation du programme pour 2027",
-              "url": "https://lafranceinsoumise.fr/2026/05/20/la-france-insoumise-ouvre-son-programme-a-contributions-citoyennes/"
-            }
-          ]
-        },
+  "statut": "Programme en cours d'actualisation pour 2027 — mesures déjà présentes et engagements 2027 identifiés",
+  "solidite_documentaire": 98,
+  "solidite_explication": "La campagne Mélenchon 2027 documente directement plusieurs mesures de santé déjà présentes dans L'Avenir en commun et distingue celles-ci des propositions nouvelles issues de la consultation citoyenne. Des prises de parole et publications de campagne de 2026 apportent également des engagements précis, notamment concernant la Sécurité sociale et la psychiatrie. Le programme actualisé définitif reste toutefois en cours de finalisation.",
+  "resume": "Jean-Luc Mélenchon défend pour 2027 la création d'une Sécurité sociale intégrale, gérée par ses cotisants. La synthèse des contributions de la campagne classe le « 100 % Sécu » parmi les mesures déjà présentes dans le programme : l'orientation consiste à accroître la prise en charge des dépenses de santé par la Sécurité sociale. Le programme comporte également la création d'un pôle public du médicament et prévoit, en cas d'urgence sanitaire telle qu'une épidémie, d'empêcher le dépôt de brevets sur les médicaments et équipements nécessaires. La prévention fait partie de l'approche revendiquée, notamment en matière de santé mentale à l'école, de médecine de prévention et de lutte contre les facteurs environnementaux et alimentaires affectant la santé. Concernant la psychiatrie, La France insoumise a annoncé pour 2027 un investissement dans la psychiatrie publique afin de recruter des psychiatres et des soignants, l'ouverture d'au moins 360 lits de pédopsychiatrie, la création de 2 500 postes de psychologues dans les centres médico-psychologiques et l'interdiction de la contention mécanique. Pour le grand âge, la synthèse classe parmi les mesures déjà présentes dans le programme l'augmentation des moyens des EHPAD et la formation de leurs personnels, le renforcement des dispositifs d'information, de coordination et de ressources, la généralisation des CDI à temps plein dans le secteur médico-social à domicile et la revalorisation des métiers et revenus des professionnels du grand âge à domicile comme en établissement. La campagne poursuit parallèlement l'actualisation du programme ; les propositions nouvelles issues de la consultation ne sont donc pas automatiquement présentées ici comme déjà adoptées.",
+  "financement": "Lors de son lancement de campagne du 7 juin 2026, Jean-Luc Mélenchon a annoncé vouloir créer une Sécurité sociale intégrale gérée par ses cotisants et réorganiser les ressources de la Sécurité sociale. Les sources retenues établissent donc une orientation concernant le mode de financement et l'organisation de la protection sociale. Elles ne fournissent toutefois pas, dans les documents utilisés pour cette fiche, un chiffrage global actualisé pour 2027 de l'ensemble du programme Santé, ni une ventilation complète des recettes supplémentaires et des dépenses correspondant au 100 % Sécu, aux recrutements, aux lits de pédopsychiatrie, aux psychologues en CMP et aux mesures relatives au grand âge. Aucun montant non documenté n'est donc ajouté.",
+  "population_concernee": "Patients, assurés sociaux, professionnels de santé, personnels hospitaliers et médico-sociaux, personnes ayant besoin de soins psychiatriques ou psychologiques, enfants et adolescents relevant de la pédopsychiatrie, personnes âgées et résidents d'EHPAD, personnes accompagnées à domicile et leurs proches. Les mesures concernant la Sécurité sociale et la prise en charge des dépenses de santé ont une portée générale pour les assurés sociaux.",
+  "sources": [
+    {
+      "nom": "Mélenchon 2027 — chapitre 15, une approche de santé globale",
+      "url": "https://melenchon2027.fr/chapitre-15-une-approche-de-sante-globale/"
+    },
+    {
+      "nom": "Mélenchon 2027 — synthèse des contributions",
+      "url": "https://melenchon2027.fr/synthese-des-contributions/"
+    },
+    {
+      "nom": "Jean-Luc Mélenchon — discours de lancement de campagne à Saint-Denis, 7 juin 2026",
+      "url": "https://melenchon.fr/2026/06/07/meeting-de-jean-luc-melenchon-a-saint-denis/"
+    },
+    {
+      "nom": "La France insoumise — propositions pour la psychiatrie, 2 juin 2026",
+      "url": "https://lafranceinsoumise.fr/2026/06/02/rapport-de-la-cglpl-la-psychiatrie-grande-casse-nationale/"
+    }
+  ]
+},
         "energie": {
           "statut": "Programme en cours d'actualisation pour 2027",
           "solidite_documentaire": 98,
