@@ -746,6 +746,42 @@ for validation in validations_existantes:
 a_valider = []
 
 for detection in detections:
+        url_detection = detection.get("url", "").lower()
+
+    # Nettoyage de la file éditoriale :
+    # les anciennes détections parasites restent dans l'historique,
+    # mais ne doivent plus apparaître dans a_valider.json.
+    chemins_exclus_validation = [
+        "/tag/",
+        "/tags/",
+        "/categorie/",
+        "/category/",
+        "/auteur/",
+        "/author/",
+        "/recherche/",
+        "/search/",
+        "/newsletter",
+        "/mentions-legales",
+        "/contact",
+        "/blogs.mediapart.fr/",
+        "/club/",
+    ]
+
+    if any(
+        chemin in url_detection
+        for chemin in chemins_exclus_validation
+    ):
+        continue
+
+    # Pages de rubrique Mediapart : ce ne sont pas des articles.
+    if (
+        detection.get("source") == "Mediapart"
+        and re.fullmatch(
+            r"https?://(www\.)?mediapart\.fr/journal/[^/]+/?",
+            url_detection
+        )
+    ):
+        continue
     if detection.get("publication_automatique") is not False:
         continue
 
