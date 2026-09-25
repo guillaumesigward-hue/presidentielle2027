@@ -746,11 +746,9 @@ for validation in validations_existantes:
 a_valider = []
 
 for detection in detections:
-        url_detection = detection.get("url", "").lower()
+    url_detection = detection.get("url", "").lower()
 
-    # Nettoyage de la file éditoriale :
-    # les anciennes détections parasites restent dans l'historique,
-    # mais ne doivent plus apparaître dans a_valider.json.
+    # Nettoyage de la file éditoriale.
     chemins_exclus_validation = [
         "/tag/",
         "/tags/",
@@ -773,7 +771,7 @@ for detection in detections:
     ):
         continue
 
-    # Pages de rubrique Mediapart : ce ne sont pas des articles.
+    # Les rubriques Mediapart ne sont pas des articles individuels.
     if (
         detection.get("source") == "Mediapart"
         and re.fullmatch(
@@ -782,10 +780,10 @@ for detection in detections:
         )
     ):
         continue
+
     if detection.get("publication_automatique") is not False:
         continue
 
-    # On retient ici les détections journalistiques structurées.
     if not detection.get("source"):
         continue
 
