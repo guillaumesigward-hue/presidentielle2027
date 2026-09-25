@@ -1,0 +1,101 @@
+[
+  {
+    "source": "Disclose",
+    "titre": "Santé publique",
+    "url": "https://disclose.ngo/fr/news/tag/sante-publique",
+    "date_detection": "24 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Disclose",
+    "titre": "Crise climatique",
+    "url": "https://disclose.ngo/fr/news/tag/crise-climatique",
+    "date_detection": "24 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Disclose",
+    "titre": "Crimes environnementaux",
+    "url": "https://disclose.ngo/fr/news/tag/crimes-environnementaux",
+    "date_detection": "24 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Génocide à Gaza : à La Haye, l'Allemagne plaide la procédure pour ne pas avoir à rendre de comptes",
+    "url": "https://www.blast-info.fr/articles/2026/genocide-a-gaza-a-la-haye-l-allemagne-plaide-la-procedure-pour-ne-pas-avoir-a-rendre-de-comptes-1-PGeyKJRGuiHQtY26X0fA",
+    "date_detection": "24 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "« Requiem pour Gaza » : dire l’indicible",
+    "url": "https://www.blast-info.fr/articles/2026/requiem-pour-gaza-dire-lindicible-lsfZu1XERlmA5FP7VqeaHQ",
+    "date_detection": "24 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Gaza : les milices palestiniennes soutenues par Israël étendent leur emprise",
+    "url": "https://www.blast-info.fr/articles/2026/gaza-les-milices-palestiniennes-soutenues-par-israel-etendent-leur-emprise-8zQsr42ORamI9mJDsN1HVQ",
+    "date_detection": "24 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Reconquête emploie en alternance un étudiant de l’ESJ Paris, l’école de journalisme des milliardaires Bolloré, Arnault et Saadé",
+    "url": "https://www.mediapart.fr/journal/politique/160926/reconquete-emploie-en-alternance-un-etudiant-de-l-esj-paris-l-ecole-de-journalisme-des-milliardaires-bo",
+    "date_detection": "24 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Écologie",
+    "url": "https://www.mediapart.fr/journal/ecologie",
+    "date_detection": "24 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Les seniors, terre de mission obligatoire pour LFI en vue de 2027",
+    "url": "https://www.mediapart.fr//blogs.mediapart.fr/hugo-melchior/blog/060426/les-seniors-terre-de-mission-obligatoire-pour-lfi-en-vue-de-2027",
+    "date_detection": "24 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  }
+]
