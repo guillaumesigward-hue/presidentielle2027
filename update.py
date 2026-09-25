@@ -725,6 +725,24 @@ detections = detections[-500:]
 # Cette file est uniquement une aide au contrôle humain.
 # Elle ne modifie jamais les programmes ni les actualités publiées.
 
+# On recharge la file existante afin de préserver
+# les décisions éditoriales prises manuellement.
+validations_existantes = charger_json(
+    validation_file,
+    []
+)
+
+if not isinstance(validations_existantes, list):
+    validations_existantes = []
+
+validations_par_url = {}
+
+for validation in validations_existantes:
+    url_validation = validation.get("url")
+
+    if url_validation:
+        validations_par_url[url_validation] = validation
+
 a_valider = []
 
 for detection in detections:
@@ -741,6 +759,26 @@ for detection in detections:
     if not detection.get("url"):
         continue
 
+    validation_precedente = validations_par_url.get(
+        detection.get("url"),
+        {}
+    )
+
+    statut_precedent = validation_precedente.get(
+        "statut",
+        "À vérifier manuellement"
+    )
+
+    # Seuls ces statuts éditoriaux sont conservés.
+    statuts_autorises = [
+        "À vérifier manuellement",
+        "Retenu",
+        "Écarté",
+    ]
+
+    if statut_precedent not in statuts_autorises:
+        statut_precedent = "À vérifier manuellement"
+
     entree_validation = {
         "source": detection.get("source"),
         "titre": detection.get("titre"),
@@ -755,7 +793,7 @@ for detection in detections:
             "candidats_mentions",
             []
         ),
-        "statut": "À vérifier manuellement",
+        "statut": statut_precedent,
         "publication_automatique": False,
     }
 
