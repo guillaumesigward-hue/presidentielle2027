@@ -172,6 +172,7 @@ date_fr = (
 election_file = DATA_DIR / "election.json"
 status_file = DATA_DIR / "status.json"
 detections_file = DATA_DIR / "actualites_detectees.json"
+validation_file = DATA_DIR / "a_valider.json"
 
 # IMPORTANT :
 # data/programmes.json est volontairement absent de ce script.
@@ -715,9 +716,62 @@ election["sources"] = [
 # ÉCRITURE DES FICHIERS
 # ------------------------------------------------------------
 # On conserve l'historique, tout en évitant que le fichier
-# ne grossisse indéfiniment. Les détections les plus récentes
-# restent en tête du fichier.
+# ne grossisse indéfiniment. On garde les 500 détections
+# les plus récentes.
 detections = detections[-500:]
+# ------------------------------------------------------------
+# File de validation éditoriale
+# ------------------------------------------------------------
+# Cette file est uniquement une aide au contrôle humain.
+# Elle ne modifie jamais les programmes ni les actualités publiées.
+
+a_valider = []
+
+for detection in detections:
+    if detection.get("publication_automatique") is not False:
+        continue
+
+    # On retient ici les détections journalistiques structurées.
+    if not detection.get("source"):
+        continue
+
+    if not detection.get("titre"):
+        continue
+
+    if not detection.get("url"):
+        continue
+
+    entree_validation = {
+        "source": detection.get("source"),
+        "titre": detection.get("titre"),
+        "url": detection.get("url"),
+        "date_detection": detection.get("date_detection"),
+        "nature": detection.get(
+            "nature",
+            "actualité à qualifier"
+        ),
+        "themes": detection.get("themes", []),
+        "candidats_mentions": detection.get(
+            "candidats_mentions",
+            []
+        ),
+        "statut": "À vérifier manuellement",
+        "publication_automatique": False,
+    }
+
+    a_valider.append(entree_validation)
+
+# Les détections les plus récentes sont placées en premier
+# pour faciliter la vérification éditoriale.
+a_valider.reverse()
+
+# Limite raisonnable pour garder le fichier lisible.
+a_valider = a_valider[:100]
+
+ecrire_json(
+    validation_file,
+    a_valider
+)
 
 ecrire_json(
     detections_file,
