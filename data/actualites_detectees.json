@@ -214,5 +214,14 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10275 Pres Barometre confiance politique TOLUNA HARRIS INTERACTIVE 25 septembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2288",
+    "date_detection": "26 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
   }
 ]
