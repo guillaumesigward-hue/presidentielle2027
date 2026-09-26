@@ -1,6 +1,6 @@
 {
-  "last_checked_utc": "2026-09-25T12:14:02.559117+00:00",
-  "last_checked_fr": "25 septembre 2026",
+  "last_checked_utc": "2026-09-26T05:28:32.970485+00:00",
+  "last_checked_fr": "26 septembre 2026",
   "publication_automatique": false,
   "sources": {
     "commission_sondages": {
@@ -20,7 +20,7 @@
     "mediapart": {
       "ok": true,
       "url": "https://www.mediapart.fr/journal/politique",
-      "detections": 4,
+      "detections": 3,
       "publication_automatique": false,
       "raison": "Veille journalistique uniquement. Validation humaine obligatoire."
     },
