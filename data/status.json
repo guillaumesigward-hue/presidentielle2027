@@ -1,6 +1,6 @@
 {
-  "last_checked_utc": "2026-09-26T11:42:00.391753+00:00",
-  "last_checked_fr": "26 septembre 2026",
+  "last_checked_utc": "2026-09-27T05:28:47.094227+00:00",
+  "last_checked_fr": "27 septembre 2026",
   "publication_automatique": false,
   "sources": {
     "commission_sondages": {
@@ -27,7 +27,7 @@
     "blast": {
       "ok": true,
       "url": "https://www.blast-info.fr/",
-      "detections": 3,
+      "detections": 2,
       "publication_automatique": false,
       "raison": "Veille journalistique uniquement. Validation humaine obligatoire."
     },
