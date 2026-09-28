@@ -1,5 +1,31 @@
 [
   {
+    "source": "Mediapart",
+    "titre": "Gabriel Attal : la campagne en toc du « candidat TikTok »",
+    "url": "https://www.mediapart.fr/journal/politique/270926/gabriel-attal-la-campagne-en-toc-du-candidat-tiktok",
+    "date_detection": "28 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Gabriel Attal"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Fin de parti ? L’écologie politique face à son impasse stratégique",
+    "url": "https://www.mediapart.fr/journal/politique/280926/fin-de-parti-l-ecologie-politique-face-son-impasse-strategique",
+    "date_detection": "28 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Écologie"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
     "source": "Blast",
     "titre": "Génocide à Gaza : à La Haye, l'Allemagne plaide la procédure pour ne pas avoir à rendre de comptes",
     "url": "https://www.blast-info.fr/articles/2026/genocide-a-gaza-a-la-haye-l-allemagne-plaide-la-procedure-pour-ne-pas-avoir-a-rendre-de-comptes-1-PGeyKJRGuiHQtY26X0fA",
