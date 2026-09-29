@@ -262,5 +262,36 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Détection provenant d'une source journalistique indépendante ou d'investigation. Vérifier le contenu, la nature de l'article (information, enquête, analyse, entretien ou opinion) et recouper les affirmations sensibles avant toute publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10279 Pres CSA Cnews 24 septembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2291",
+    "date_detection": "29 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10277 Pres TOLUNA HARRIS INTERACTIVE RTL 28 septembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2290",
+    "date_detection": "29 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Mediapart",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "titre": "Présidentielle 2027",
+    "url": "https://www.mediapart.fr/journal/mot-cle/election-presidentielle-2027",
+    "date_detection": "29 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Détection provenant d'une source journalistique indépendante ou d'investigation. Vérifier le contenu, la nature de l'article (information, enquête, analyse, entretien ou opinion) et recouper les affirmations sensibles avant toute publication."
   }
 ]

@@ -1,6 +1,17 @@
 [
   {
     "source": "Mediapart",
+    "titre": "Présidentielle 2027",
+    "url": "https://www.mediapart.fr/journal/mot-cle/election-presidentielle-2027",
+    "date_detection": "29 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
     "titre": "Gabriel Attal : la campagne en toc du « candidat TikTok »",
     "url": "https://www.mediapart.fr/journal/politique/270926/gabriel-attal-la-campagne-en-toc-du-candidat-tiktok",
     "date_detection": "28 septembre 2026",
