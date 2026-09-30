@@ -958,17 +958,21 @@ ecologie: "Écologie"
     try {
       const cacheBuster = Date.now();
 
-      const [electionResponse, programmesResponse] =
-        await Promise.all([
-          fetch(
-            `data/election.json?v=${cacheBuster}`,
-            { cache: "no-store" }
-          ),
-          fetch(
-            `data/programmes.json?v=${cacheBuster}`,
-            { cache: "no-store" }
-          )
-        ]);
+      const [electionResponse, programmesResponse, validationResponse] =
+  await Promise.all([
+    fetch(
+      `data/election.json?v=${cacheBuster}`,
+      { cache: "no-store" }
+    ),
+    fetch(
+      `data/programmes.json?v=${cacheBuster}`,
+      { cache: "no-store" }
+    ),
+    fetch(
+      `data/a_valider.json?v=${cacheBuster}`,
+      { cache: "no-store" }
+    )
+  ]);
 
       if (!electionResponse.ok) {
         throw new Error(
@@ -981,12 +985,29 @@ ecologie: "Écologie"
           `programmes.json : HTTP ${programmesResponse.status}`
         );
       }
+      if (!validationResponse.ok) {
+  throw new Error(
+    `a_valider.json : HTTP ${validationResponse.status}`
+  );
+}
 
       electionData =
-        await electionResponse.json();
+  await electionResponse.json();
 
-      programmesData =
-        await programmesResponse.json();
+programmesData =
+  await programmesResponse.json();
+
+const validationData =
+  await validationResponse.json();
+
+const actualitesValidees = validationData.filter(
+  item => item.publication_automatique === true
+);
+
+electionData.actualites = [
+  ...(electionData.actualites || []),
+  ...actualitesValidees
+];
 
       afficherDates();
       afficherCandidatures();
