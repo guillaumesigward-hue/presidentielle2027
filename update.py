@@ -94,6 +94,29 @@ def clean_text(value):
     value = re.sub(r"<[^>]+>", " ", value)
     value = html.unescape(value)
     return re.sub(r"\s+", " ", value).strip()
+    def extraire_texte_article(url):
+    """
+    Récupère le contenu textuel d'un article.
+    En cas d'échec, retourne une chaîne vide afin de ne pas
+    interrompre toute la veille.
+    """
+    try:
+        body = fetch(url)
+
+        # On retire les éléments qui contiennent généralement
+        # beaucoup de bruit non éditorial.
+        body = re.sub(
+            r"<(script|style|noscript|svg|form|nav|footer|header)[^>]*>"
+            r".*?</\1>",
+            " ",
+            body,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+
+        return clean_text(body)
+
+    except Exception:
+        return ""
 
 
 def charger_json(path, valeur_defaut):
@@ -505,6 +528,90 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                 and "/news/tag/" in url_minuscule
             ):
                 continue
+                        # --------------------------------------------------
+        # ANALYSE DU CONTENU DE L'ARTICLE
+        # --------------------------------------------------
+
+        texte_article = extraire_texte_article(url_article)
+
+        # Le titre reste pris en compte, mais l'analyse porte
+        # également sur le contenu de l'article.
+        texte_analyse = (
+            titre_article + " " + texte_article
+        ).lower()
+
+        # Indices explicites de contexte électoral.
+        mots_contexte_electoral = [
+            "présidentielle",
+            "présidentiel",
+            "présidentielle 2027",
+            "élection présidentielle",
+            "candidat",
+            "candidate",
+            "candidature",
+            "campagne présidentielle",
+        ]
+
+        contexte_electoral = any(
+            mot in texte_analyse
+            for mot in mots_contexte_electoral
+        )
+
+        # Personnes explicitement mentionnées.
+        candidats_recherches = {
+            "Nicolas Dupont-Aignan": [
+                "nicolas dupont-aignan",
+                "dupont-aignan",
+            ],
+            "Édouard Philippe": [
+                "édouard philippe",
+                "edouard philippe",
+            ],
+            "Gabriel Attal": [
+                "gabriel attal",
+                "attal",
+            ],
+            "Bruno Retailleau": [
+                "bruno retailleau",
+                "retailleau",
+            ],
+            "Jean-Luc Mélenchon": [
+                "jean-luc mélenchon",
+                "jean-luc melenchon",
+                "mélenchon",
+                "melenchon",
+            ],
+            "Marine Le Pen": [
+                "marine le pen",
+                "le pen",
+            ],
+            "Fabien Roussel": [
+                "fabien roussel",
+            ],
+            "Éric Zemmour": [
+                "éric zemmour",
+                "eric zemmour",
+                "zemmour",
+            ],
+        }
+
+        candidats_mentions = []
+
+        for candidat, variantes in candidats_recherches.items():
+            if any(
+                variante in texte_analyse
+                for variante in variantes
+            ):
+                candidats_mentions.append(candidat)
+
+        # On conserve uniquement les articles présentant
+        # un contexte électoral explicite ou mentionnant
+        # explicitement une personne surveillée.
+        #
+        # Il s'agit uniquement d'une détection destinée
+        # à la validation humaine.
+        if not contexte_electoral and not candidats_mentions:
+            continue
             # Pré-classement indicatif pour faciliter la vérification humaine.
             # Cette qualification n'est jamais publiée automatiquement.
             themes = []
