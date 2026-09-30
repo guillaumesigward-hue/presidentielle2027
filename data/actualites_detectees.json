@@ -293,5 +293,47 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Détection provenant d'une source journalistique indépendante ou d'investigation. Vérifier le contenu, la nature de l'article (information, enquête, analyse, entretien ou opinion) et recouper les affirmations sensibles avant toute publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10278 Pres CSA Cnews 29 septembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2294",
+    "date_detection": "30 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10270 Pres IV YOUGOV Huffpost 23 septembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2293",
+    "date_detection": "30 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10280 Pres Barometre politique ODOXA 29 septembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2292",
+    "date_detection": "30 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École"
+    ],
+    "candidats_mentions": [],
+    "titre": "PISA 2026 : l'éducation, grand échec de la macronie",
+    "url": "https://www.blast-info.fr/emissions/2026/pisa-2026-l-education-grand-echec-de-la-macronie-KiOOKjl4SkyM_71ck7z_ww",
+    "date_detection": "30 septembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Détection provenant d'une source journalistique indépendante ou d'investigation. Vérifier le contenu, la nature de l'article (information, enquête, analyse, entretien ou opinion) et recouper les affirmations sensibles avant toute publication."
   }
 ]

@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-09-29T05:31:15.896457+00:00",
-  "last_checked_fr": "29 septembre 2026",
+  "last_checked_utc": "2026-09-30T05:32:07.096441+00:00",
+  "last_checked_fr": "30 septembre 2026",
   "publication_automatique": false,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 144,
-      "dernier_id_detecte": 2291,
+      "notices_detectees": 147,
+      "dernier_id_detecte": 2294,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Une vérification humaine est requise avant publication."
     },

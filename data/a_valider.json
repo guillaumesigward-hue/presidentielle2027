@@ -1,5 +1,18 @@
 [
   {
+    "source": "Blast",
+    "titre": "PISA 2026 : l'éducation, grand échec de la macronie",
+    "url": "https://www.blast-info.fr/emissions/2026/pisa-2026-l-education-grand-echec-de-la-macronie-KiOOKjl4SkyM_71ck7z_ww",
+    "date_detection": "30 septembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
     "source": "Mediapart",
     "titre": "Présidentielle 2027",
     "url": "https://www.mediapart.fr/journal/mot-cle/election-presidentielle-2027",
