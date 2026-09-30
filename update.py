@@ -935,7 +935,7 @@ for detection in detections:
             []
         ),
         "statut": statut_precedent,
-        "publication_automatique": False,
+        "publication_automatique": statut_precedent == "Retenu",
     }
 
     a_valider.append(entree_validation)
