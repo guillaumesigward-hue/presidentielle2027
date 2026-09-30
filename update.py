@@ -94,7 +94,7 @@ def clean_text(value):
     value = re.sub(r"<[^>]+>", " ", value)
     value = html.unescape(value)
     return re.sub(r"\s+", " ", value).strip()
-  def extraire_texte_article(url):
+def extraire_texte_article(url):
     """
     Récupère le contenu textuel d'un article.
     En cas d'échec, retourne une chaîne vide afin de ne pas
