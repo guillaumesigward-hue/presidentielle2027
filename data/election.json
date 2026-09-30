@@ -1,6 +1,6 @@
 {
   "titre": "Présidentielle française 2027",
-  "derniere_mise_a_jour": "24 septembre 2026",
+  "derniere_mise_a_jour": "30 septembre 2026",
   "candidatures": [
     {
       "nom": "Nicolas Dupont-Aignan",
@@ -158,55 +158,55 @@
     }
   ],
   "actualites": [
-  {
-    "titre": "Gabriel Attal — proposition de régulation internationale de l'intelligence artificielle",
-    "description": "Le 24 septembre 2026, Gabriel Attal a défendu la création d'une organisation internationale consacrée à la régulation de l'intelligence artificielle. Cette proposition est présentée dans le cadre de son programme présidentiel.",
-    "source": "CNEWS",
-    "url": "https://www.cnews.fr/france/2026-09-24/intelligence-artificielle-gabriel-attal-defend-la-creation-dune-organisation"
-  },
-  {
-    "titre": "Bruno Retailleau — nouvelles propositions sur les retraites",
-    "description": "Le 22 septembre 2026, Bruno Retailleau a présenté son projet de réforme des retraites pour la présidentielle de 2027. Il propose notamment un âge minimal de départ à 63 ans et un taux plein à 65 ans.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/article/2026/09/23/presidentielle-2027-bruno-retailleau-veut-instaurer-un-age-minimal-de-depart-a-la-retraite-a-63-ans-et-un-taux-plein-a-65-ans_6780796_823448.html"
-  },
-  {
-    "titre": "Jean-Luc Mélenchon — propositions sur la réforme de l'État et les services publics",
-    "description": "Jean-Luc Mélenchon a présenté le 16 septembre 2026 sa conception d'une réforme de l'État. Les propositions défendues par LFI comprennent notamment un renforcement des moyens des services publics, des recrutements dans la santé et l'éducation, une hausse de 10 % du point d'indice à court terme et une réduction du recours aux contractuels.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/09/21/presidentielle-2027-fonction-publique-services-publics-impartialite-l-etat-que-veulent-lfi-et-jean-luc-melenchon_6778651_6205049.html"
-  },
-  {
-    "titre": "Marine Le Pen — prise de position sur la Russie et l'Ukraine",
-    "description": "Après une réunion à l'Élysée consacrée notamment aux menaces russes, Marine Le Pen et Jordan Bardella ont publié le 19 septembre 2026 un texte affirmant qu'ils ne toléreraient pas qu'une puissance étrangère, en l'occurrence la Russie, cherche à influencer la politique française par l'intimidation, les menaces ou la déstabilisation. Marine Le Pen avait également indiqué le 16 septembre que la France ne pouvait selon elle plus financer directement l'Ukraine, tout en pouvant continuer la formation et la fourniture d'équipements.",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/en/politics/article/2026/09/22/le-pen-distances-herself-from-russia-but-stays-vague-on-ukraine_6757814_5.html"
-  },
-  {
-    "titre": "Fabien Roussel — propositions face à la hausse des prix des carburants",
-    "description": "Le 19 septembre 2026, Fabien Roussel a participé à une opération de tractage au péage de Chamant-Senlis, dans l'Oise. Il y a notamment défendu une baisse de la TVA sur les carburants de 20 % à 5,5 % et demandé une action sur les marges de TotalEnergies.",
-    "source": "AFP via Boursorama",
-    "url": "https://www.boursorama.com/actualite-economique/actualites/carburants-sur-un-peage-d-autoroute-fabien-roussel-pcf-appelle-a-la-mobilisation-c64b6eb36a77fcfaa142133ceaccbd8d"
-  },
-  {
-    "titre": "Édouard Philippe — propositions sur l'adaptation au changement climatique",
-    "description": "Le 17 septembre 2026, Édouard Philippe a présenté dans le Maine-et-Loire plusieurs propositions d'adaptation au changement climatique, réunies autour de ce qu'il appelle une politique de « sécurité climatique ».",
-    "source": "Le Monde",
-    "url": "https://www.lemonde.fr/politique/article/2026/09/18/presidentielle-2027-edouard-philippe-defend-sa-vision-liberale-de-l-ecologie-et-prone-une-politique-de-securite-climatique_6776657_823448.html"
-  },
-  {
-    "titre": "Nicolas Dupont-Aignan — présentation des grands axes de son projet présidentiel",
-    "description": "Le 19 septembre 2026, Nicolas Dupont-Aignan a présenté lors de son discours de rentrée plusieurs axes de son projet pour l'élection présidentielle de 2027, notamment sur l'économie, la fiscalité, l'énergie, la souveraineté et la relocalisation industrielle.",
-    "source": "Site de Nicolas Dupont-Aignan",
-    "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
-  },
-  {
-    "titre": "Éric Zemmour — confirmation de sa candidature à l'élection présidentielle",
-    "description": "Le 17 septembre 2026, Éric Zemmour a déclaré sur BFMTV qu'il serait candidat à l'élection présidentielle de 2027. Son entourage a alors précisé qu'une déclaration formelle de candidature devait intervenir ultérieurement.",
-    "source": "Le Monde avec AFP",
-    "url": "https://www.lemonde.fr/election-presidentielle-2027/"
-  }
-],
+    {
+      "titre": "Gabriel Attal — proposition de régulation internationale de l'intelligence artificielle",
+      "description": "Le 24 septembre 2026, Gabriel Attal a défendu la création d'une organisation internationale consacrée à la régulation de l'intelligence artificielle. Cette proposition est présentée dans le cadre de son programme présidentiel.",
+      "source": "CNEWS",
+      "url": "https://www.cnews.fr/france/2026-09-24/intelligence-artificielle-gabriel-attal-defend-la-creation-dune-organisation"
+    },
+    {
+      "titre": "Bruno Retailleau — nouvelles propositions sur les retraites",
+      "description": "Le 22 septembre 2026, Bruno Retailleau a présenté son projet de réforme des retraites pour la présidentielle de 2027. Il propose notamment un âge minimal de départ à 63 ans et un taux plein à 65 ans.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/23/presidentielle-2027-bruno-retailleau-veut-instaurer-un-age-minimal-de-depart-a-la-retraite-a-63-ans-et-un-taux-plein-a-65-ans_6780796_823448.html"
+    },
+    {
+      "titre": "Jean-Luc Mélenchon — propositions sur la réforme de l'État et les services publics",
+      "description": "Jean-Luc Mélenchon a présenté le 16 septembre 2026 sa conception d'une réforme de l'État. Les propositions défendues par LFI comprennent notamment un renforcement des moyens des services publics, des recrutements dans la santé et l'éducation, une hausse de 10 % du point d'indice à court terme et une réduction du recours aux contractuels.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/election-presidentielle-2027/article/2026/09/21/presidentielle-2027-fonction-publique-services-publics-impartialite-l-etat-que-veulent-lfi-et-jean-luc-melenchon_6778651_6205049.html"
+    },
+    {
+      "titre": "Marine Le Pen — prise de position sur la Russie et l'Ukraine",
+      "description": "Après une réunion à l'Élysée consacrée notamment aux menaces russes, Marine Le Pen et Jordan Bardella ont publié le 19 septembre 2026 un texte affirmant qu'ils ne toléreraient pas qu'une puissance étrangère, en l'occurrence la Russie, cherche à influencer la politique française par l'intimidation, les menaces ou la déstabilisation. Marine Le Pen avait également indiqué le 16 septembre que la France ne pouvait selon elle plus financer directement l'Ukraine, tout en pouvant continuer la formation et la fourniture d'équipements.",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/politics/article/2026/09/22/le-pen-distances-herself-from-russia-but-stays-vague-on-ukraine_6757814_5.html"
+    },
+    {
+      "titre": "Fabien Roussel — propositions face à la hausse des prix des carburants",
+      "description": "Le 19 septembre 2026, Fabien Roussel a participé à une opération de tractage au péage de Chamant-Senlis, dans l'Oise. Il y a notamment défendu une baisse de la TVA sur les carburants de 20 % à 5,5 % et demandé une action sur les marges de TotalEnergies.",
+      "source": "AFP via Boursorama",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/carburants-sur-un-peage-d-autoroute-fabien-roussel-pcf-appelle-a-la-mobilisation-c64b6eb36a77fcfaa142133ceaccbd8d"
+    },
+    {
+      "titre": "Édouard Philippe — propositions sur l'adaptation au changement climatique",
+      "description": "Le 17 septembre 2026, Édouard Philippe a présenté dans le Maine-et-Loire plusieurs propositions d'adaptation au changement climatique, réunies autour de ce qu'il appelle une politique de « sécurité climatique ».",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/politique/article/2026/09/18/presidentielle-2027-edouard-philippe-defend-sa-vision-liberale-de-l-ecologie-et-prone-une-politique-de-securite-climatique_6776657_823448.html"
+    },
+    {
+      "titre": "Nicolas Dupont-Aignan — présentation des grands axes de son projet présidentiel",
+      "description": "Le 19 septembre 2026, Nicolas Dupont-Aignan a présenté lors de son discours de rentrée plusieurs axes de son projet pour l'élection présidentielle de 2027, notamment sur l'économie, la fiscalité, l'énergie, la souveraineté et la relocalisation industrielle.",
+      "source": "Site de Nicolas Dupont-Aignan",
+      "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
+    },
+    {
+      "titre": "Éric Zemmour — confirmation de sa candidature à l'élection présidentielle",
+      "description": "Le 17 septembre 2026, Éric Zemmour a déclaré sur BFMTV qu'il serait candidat à l'élection présidentielle de 2027. Son entourage a alors précisé qu'une déclaration formelle de candidature devait intervenir ultérieurement.",
+      "source": "Le Monde avec AFP",
+      "url": "https://www.lemonde.fr/election-presidentielle-2027/"
+    }
+  ],
   "sources": [
     {
       "nom": "Commission des sondages",
