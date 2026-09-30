@@ -117,7 +117,38 @@ def extraire_texte_article(url):
 
     except Exception:
         return ""
+def creer_resume_article(texte, longueur_max=650):
+    """
+    Produit un résumé extractif court à partir du texte de l'article.
+    """
+    if not texte:
+        return ""
 
+    texte = re.sub(r"\s+", " ", texte).strip()
+    phrases = re.split(r"(?<=[.!?])\s+", texte)
+
+    phrases_utiles = []
+
+    for phrase in phrases:
+        phrase = phrase.strip()
+
+        if len(phrase) < 40:
+            continue
+
+        phrases_utiles.append(phrase)
+
+        if len(phrases_utiles) >= 3:
+            break
+
+        if len(" ".join(phrases_utiles)) >= longueur_max:
+            break
+
+    resume = " ".join(phrases_utiles)
+
+    if len(resume) > longueur_max:
+        resume = resume[:longueur_max].rsplit(" ", 1)[0] + "…"
+
+    return resume
 
 def charger_json(path, valeur_defaut):
     if not path.exists():
@@ -163,8 +194,13 @@ def ajouter_detection(collection, detection):
             element.get("url")
         )
 
-        if cle_existante == cle:
-            return
+     if cle_existante == cle:
+    # Met à jour les nouvelles informations de l'article existant,
+    # notamment le résumé, sans créer de doublon.
+    for champ, valeur in detection.items():
+        if valeur not in (None, "", [], {}):
+            element[champ] = valeur
+    return   
 
     collection.append(detection)
 
@@ -737,6 +773,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     for variante in variantes
                 ):
                     candidats_mentions.append(candidat)
+                    resume_article = creer_resume_article(texte_article) 
             ajouter_detection(
                 detections,
                    {
@@ -747,6 +784,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     "candidats_mentions": candidats_mentions,
                     "titre": titre_article,
                     "url": url_article,
+                    "resume": resume_article,  
                     "date_detection": date_fr,
                     "statut": "À vérifier manuellement",
                     "publication_automatique": False,
