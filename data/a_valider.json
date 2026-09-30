@@ -10,7 +10,7 @@
     ],
     "candidats_mentions": [],
     "statut": "Retenu",
-    "publication_automatique": false
+    "publication_automatique": true
   },
   {
     "source": "Mediapart",
