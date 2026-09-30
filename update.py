@@ -194,7 +194,7 @@ def ajouter_detection(collection, detection):
             element.get("url")
         )
 
-     if cle_existante == cle:
+         if cle_existante == cle:
     # Met à jour les nouvelles informations de l'article existant,
     # notamment le résumé, sans créer de doublon.
     for champ, valeur in detection.items():
