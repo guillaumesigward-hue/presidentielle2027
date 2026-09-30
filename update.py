@@ -946,7 +946,10 @@ a_valider.reverse()
 
 # Limite raisonnable pour garder le fichier lisible.
 a_valider = a_valider[:100]
-
+ecrire_json(
+    election_file,
+    election
+)
 ecrire_json(
     validation_file,
     a_valider
