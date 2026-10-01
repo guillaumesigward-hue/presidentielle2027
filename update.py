@@ -179,34 +179,28 @@ def ecrire_json(path, contenu):
 def ajouter_detection(collection, detection):
     """
     Évite les doublons dans la file de détection.
-    Une détection n'est jamais publiée automatiquement.
+    Si une détection existe déjà, ses nouvelles informations
+    sont ajoutées ou mises à jour.
     """
     cle = (
         detection.get("type"),
         detection.get("titre"),
-        detection.get("url")
+        detection.get("url"),
     )
 
     for element in collection:
         cle_existante = (
             element.get("type"),
             element.get("titre"),
-            element.get("url")
+            element.get("url"),
         )
 
-         if cle_existante == cle:
-    # Met à jour les nouvelles informations de l'article existant,
-    # notamment le résumé, sans créer de doublon.
-    for champ, valeur in detection.items():
-        if valeur not in (None, "", [], {}):
-            element[champ] = valeur
-    return   
-
+        if cle_existante == cle:
+            for champ, valeur in detection.items():
+                if valeur not in (None, "", [], {}):
+                    element[champ] = valeur
+            return
     collection.append(detection)
-
-
-DATA_DIR.mkdir(exist_ok=True)
-
 now = datetime.now(timezone.utc)
 
 months = [
