@@ -1,5 +1,6 @@
 from pathlib import Path
 from datetime import datetime, timezone
+from urllib.parse import urljoin
 import html
 import json
 import re
@@ -564,10 +565,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     r"(https?://[^/]+)",
                     url_source
                 )
-                if domaine:
-                    url_article = (
-                        domaine.group(1) + url_article
-                    )
+            url_article = urljoin(url_source, url_article)
 
                         # --------------------------------------------------
             # Filtrage des URL : on privilégie les vrais articles
