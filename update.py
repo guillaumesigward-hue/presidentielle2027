@@ -956,6 +956,7 @@ for detection in detections:
         "source": detection.get("source"),
         "titre": detection.get("titre"),
         "url": detection.get("url"),
+        "resume": detection.get("resume", ""),
         "date_detection": detection.get("date_detection"),
         "nature": detection.get(
             "nature",
