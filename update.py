@@ -96,16 +96,18 @@ def clean_text(value):
     return re.sub(r"\s+", " ", value).strip()
 def extraire_texte_article(url):
     """
-    Récupère le contenu textuel d'un article.
-    En cas d'échec, retourne une chaîne vide afin de ne pas
-    interrompre toute la veille.
+    Récupère le contenu textuel utile d'un article.
+    Essaie d'abord le contenu de l'article, puis les métadonnées
+    de description si le corps de page n'est pas exploitable.
     """
     try:
         body = fetch(url)
 
-        # On retire les éléments qui contiennent généralement
-        # beaucoup de bruit non éditorial.
-        body = re.sub(
+        if not body:
+            return ""
+
+        # 1. Supprimer les blocs non éditoriaux.
+        contenu = re.sub(
             r"<(script|style|noscript|svg|form|nav|footer|header)[^>]*>"
             r".*?</\1>",
             " ",
@@ -113,9 +115,69 @@ def extraire_texte_article(url):
             flags=re.IGNORECASE | re.DOTALL,
         )
 
-        return clean_text(body)
+        # 2. Essayer de récupérer spécifiquement le contenu <article>.
+        article_match = re.search(
+            r"<article[^>]*>(.*?)</article>",
+            contenu,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
 
-    except Exception:
+        if article_match:
+            texte = clean_text(article_match.group(1))
+
+            if len(texte) >= 200:
+                return texte
+
+        # 3. Sinon récupérer les paragraphes de la page.
+        paragraphes = re.findall(
+            r"<p[^>]*>(.*?)</p>",
+            contenu,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+
+        textes = []
+
+        for paragraphe in paragraphes:
+            texte = clean_text(paragraphe)
+
+            # Élimine les petits éléments de navigation ou légendes.
+            if len(texte) >= 40:
+                textes.append(texte)
+
+        texte_paragraphes = " ".join(textes).strip()
+
+        if len(texte_paragraphes) >= 200:
+            return texte_paragraphes
+
+        # 4. Solution de repli :
+        # description OpenGraph utilisée par de nombreux médias.
+        meta_patterns = [
+            r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:description["\']',
+            r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)["\']',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']description["\']',
+        ]
+
+        for pattern in meta_patterns:
+            match = re.search(
+                pattern,
+                body,
+                flags=re.IGNORECASE | re.DOTALL,
+            )
+
+            if match:
+                description = clean_text(match.group(1))
+
+                if len(description) >= 40:
+                    return description
+
+        return ""
+
+    except Exception as erreur:
+        print(
+            f"Impossible d'extraire l'article {url}: "
+            f"{type(erreur).__name__}: {erreur}"
+        )
         return ""
 def creer_resume_article(texte, longueur_max=650):
     """
