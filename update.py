@@ -874,16 +874,16 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                 },
             )
 
-            nombre_detecte += 1
+        nombre_detecte += 1
 
-            # Évite qu'une page très chargée produise
-            # trop de détections lors d'une seule exécution.
-            if nombre_detecte >= 20:
-                break
+        # Évite qu'une page très chargée produise
+        # trop de détections lors d'une seule exécution.
+        if nombre_detecte >= 20:
+            break
 
-        status["sources"][
-            nom_source.lower().replace(" ", "_")
-        ] = {
+    status["sources"][
+        nom_source.lower().replace(" ", "_")
+    ] = {
             "ok": True,
             "url": url_source,
             "detections": nombre_detecte,
