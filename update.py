@@ -880,12 +880,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         # trop de détections lors d'une seule exécution.
         if nombre_detecte >= 20:
             break
-    except Exception as exc:
-        print(
-            f"Impossible de traiter la source journalistique "
-            f"{nom_source}: {type(exc).__name__}: {exc}"
-        )
-        nombre_detecte = 0
+    
     status["sources"][
         nom_source.lower().replace(" ", "_")
     ] = {
