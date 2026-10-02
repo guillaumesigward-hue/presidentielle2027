@@ -720,7 +720,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             "CANDIDATS:",
             candidats_mentions,
         )
-    continue
+        continue
             # Pré-classement indicatif pour faciliter la vérification humaine.
             # Cette qualification n'est jamais publiée automatiquement.
             themes = []
