@@ -623,7 +623,15 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         # --------------------------------------------------
 
         texte_article = extraire_texte_article(url_article)
-
+        if "blast-info.fr" in url_article:
+        print(
+        "DEBUG BLAST:",
+        url_article,
+        "LONGUEUR TEXTE:",
+        len(texte_article),
+        "DEBUT:",
+        repr(texte_article[:500])
+    )
         # Le titre reste pris en compte, mais l'analyse porte
         # également sur le contenu de l'article.
         texte_analyse = (
