@@ -642,8 +642,8 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             ).lower()
             if "blast-info.fr" in url_article:
                 print("DEBUG ETAPE BLAST: texte_analyse OK")
-        # Indices explicites de contexte électoral.
-        mots_contexte_electoral = [
+            # Indices explicites de contexte électoral.
+            mots_contexte_electoral = [
             "présidentielle",
             "présidentiel",
             "présidentielle 2027",
@@ -654,11 +654,12 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             "campagne présidentielle",
         ]
 
-        contexte_electoral = any(
+            contexte_electoral = any(
             mot in texte_analyse
             for mot in mots_contexte_electoral
         )
-        if "blast-info.fr" in url_article:
+
+            if "blast-info.fr" in url_article:
             print(
                 "DEBUG ETAPE BLAST: contexte OK",
                 contexte_electoral
