@@ -711,7 +711,16 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         # Il s'agit uniquement d'une détection destinée
         # à la validation humaine.
         if not contexte_electoral and not candidats_mentions:
-            continue
+            if "blast-info.fr" in url_article:
+                print(
+            "DEBUG BLAST REJETE:",
+            titre_article,
+            "CONTEXTE ELECTORAL:",
+            contexte_electoral,
+            "CANDIDATS:",
+            candidats_mentions,
+        )
+    continue
             # Pré-classement indicatif pour faciliter la vérification humaine.
             # Cette qualification n'est jamais publiée automatiquement.
             themes = []
