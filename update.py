@@ -881,18 +881,18 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         if nombre_detecte >= 20:
             break
     
-    status["sources"][
-        nom_source.lower().replace(" ", "_")
-    ] = {
-            "ok": True,
-            "url": url_source,
-            "detections": nombre_detecte,
-            "publication_automatique": False,
-            "raison": (
-                "Veille journalistique uniquement. "
-                "Validation humaine obligatoire."
-            ),
-        }
+        status["sources"][
+            nom_source.lower().replace(" ", "_")
+        ] = {
+                "ok": True,
+                "url": url_source,
+                "detections": nombre_detecte,
+                "publication_automatique": False,
+                "raison": (
+                    "Veille journalistique uniquement. "
+                    "Validation humaine obligatoire."
+                ),
+            }
 
     except Exception as exc:
         status["sources"][
