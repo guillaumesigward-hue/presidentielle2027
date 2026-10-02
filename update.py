@@ -837,8 +837,18 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     for variante in variantes
                 ):
                     candidats_mentions.append(candidat)
-                    resume_article = creer_resume_article(texte_article) 
-            ajouter_detection(
+        resume_article = creer_resume_article(texte_article)
+
+        if "blast-info.fr" in url_article:
+            print(
+                "DEBUG RESUME BLAST:",
+                "LONGUEUR:",
+                len(resume_article or ""),
+                "RESUME:",
+                repr(resume_article)
+            )
+
+        ajouter_detection(
                 detections,
                    {
                     "type": source_journalistique["type"],
