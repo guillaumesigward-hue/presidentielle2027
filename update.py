@@ -772,31 +772,31 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             ]
         ):
             nature = "enquête potentielle"
-
-            elif any(
-                mot in titre_minuscule
-                for mot in [
-                    "entretien",
-                    "interview",
-                    "déclare",
-                    "affirme",
-                    "estime",
-                ]
-            ):
-                nature = "déclaration ou entretien potentiel"
-
-            elif any(
-                mot in titre_minuscule
-                for mot in [
-                    "analyse",
-                    "décryptage",
-                    "décryptons",
-                ]
-            ):
-                nature = "analyse potentielle"
-
-            else:
-                nature = "actualité à qualifier"
+        
+        elif any(
+            mot in titre_minuscule
+            for mot in [
+                "entretien",
+                "interview",
+                "déclare",
+                "affirme",
+                "estime",
+            ]
+        ):
+            nature = "déclaration ou entretien potentiel"
+        
+        elif any(
+            mot in titre_minuscule
+            for mot in [
+                "analyse",
+                "décryptage",
+                "décryptons",
+            ]
+        ):
+            nature = "analyse potentielle"
+        
+        else:
+            nature = "actualité à qualifier"
                             # Identification indicative des candidats mentionnés
             # dans le titre. Aucun nom n'est ajouté par déduction.
             candidats_mentions = []
