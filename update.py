@@ -623,7 +623,8 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         # --------------------------------------------------
 
             texte_article = extraire_texte_article(url_article)
-
+if "blast-info.fr" in url_article:
+    print("DEBUG ETAPE BLAST: extraction OK")
             if "blast-info.fr" in url_article:
                 print(
                     "DEBUG BLAST:",
@@ -639,7 +640,8 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             texte_analyse = (
                 titre_article + " " + texte_article
             ).lower()
-
+if "blast-info.fr" in url_article:
+    print("DEBUG ETAPE BLAST: texte_analyse OK")
         # Indices explicites de contexte électoral.
         mots_contexte_electoral = [
             "présidentielle",
@@ -656,6 +658,12 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             mot in texte_analyse
             for mot in mots_contexte_electoral
         )
+
+        if "blast-info.fr" in url_article:
+            print(
+                "DEBUG ETAPE BLAST: contexte OK",
+                contexte_electoral
+            )
 
         # Personnes explicitement mentionnées.
         candidats_recherches = {
@@ -696,6 +704,9 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         }
 
         candidats_mentions = []
+
+        if "blast-info.fr" in url_article:
+            print("DEBUG ETAPE BLAST: candidats initialisés")
 
         for candidat, variantes in candidats_recherches.items():
             if any(
