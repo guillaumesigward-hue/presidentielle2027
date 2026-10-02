@@ -752,26 +752,26 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                 ],
             }
 
-            titre_pour_themes = titre_article.lower()
+        titre_pour_themes = titre_article.lower()
 
-            for theme, mots_cles in mots_cles_themes.items():
-                if any(
-                    mot in titre_pour_themes
-                    for mot in mots_cles
-                ):
-                    themes.append(theme)
-            titre_minuscule = titre_article.lower()
-
+        for theme, mots_cles in mots_cles_themes.items():
             if any(
-                mot in titre_minuscule
-                for mot in [
-                    "enquête",
-                    "investigation",
-                    "révélations",
-                    "révélation",
-                ]
+                mot in titre_pour_themes
+                for mot in mots_cles
             ):
-                nature = "enquête potentielle"
+                themes.append(theme)
+        titre_minuscule = titre_article.lower()
+
+        if any(
+            mot in titre_minuscule
+            for mot in [
+                "enquête",
+                "investigation",
+                "révélations",
+                "révélation",
+            ]
+        ):
+            nature = "enquête potentielle"
 
             elif any(
                 mot in titre_minuscule
