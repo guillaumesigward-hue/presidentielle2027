@@ -93,7 +93,7 @@
     "type": "verian",
     "titre": "Publication Verian détectée — stature présidentielle",
     "url": "https://www.veriangroup.com/fr/news-and-insights",
-    "date_detection": "1 octobre 2026",
+    "date_detection": "2 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Vérifier la publication originale, les dates de terrain, l'échantillon et la nature exacte de l'enquête avant toute publication sur le site."
@@ -102,7 +102,7 @@
     "type": "verian",
     "titre": "Publication Verian détectée — baromètre politique",
     "url": "https://www.veriangroup.com/fr/news-and-insights",
-    "date_detection": "1 octobre 2026",
+    "date_detection": "2 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Vérifier la publication originale, les dates de terrain, l'échantillon et la nature exacte de l'enquête avant toute publication sur le site."
@@ -267,7 +267,7 @@
     "type": "commission_sondages",
     "titre": "10279 Pres CSA Cnews 24 septembre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2291",
-    "date_detection": "1 octobre 2026",
+    "date_detection": "2 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -298,7 +298,7 @@
     "type": "commission_sondages",
     "titre": "10278 Pres CSA Cnews 29 septembre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2294",
-    "date_detection": "1 octobre 2026",
+    "date_detection": "2 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -307,7 +307,7 @@
     "type": "commission_sondages",
     "titre": "10270 Pres IV YOUGOV Huffpost 23 septembre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2293",
-    "date_detection": "1 octobre 2026",
+    "date_detection": "2 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -316,7 +316,7 @@
     "type": "commission_sondages",
     "titre": "10280 Pres Barometre politique ODOXA 29 septembre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2292",
-    "date_detection": "1 octobre 2026",
+    "date_detection": "2 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -340,7 +340,7 @@
     "type": "commission_sondages",
     "titre": "10287 Pres blocages lyceens ODOXA 1er octobre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2301",
-    "date_detection": "1 octobre 2026",
+    "date_detection": "2 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -349,7 +349,7 @@
     "type": "commission_sondages",
     "titre": "10285 Pres Observatoire politique ELABE 1er octobre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2299",
-    "date_detection": "1 octobre 2026",
+    "date_detection": "2 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -358,7 +358,7 @@
     "type": "commission_sondages",
     "titre": "10282 Pres Barometre politique VERIAN Le Figaro Magazine 1 octobre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2298",
-    "date_detection": "1 octobre 2026",
+    "date_detection": "2 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -367,7 +367,7 @@
     "type": "commission_sondages",
     "titre": "10283 Pres Barometre economie ODOXA 1er octobre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2297",
-    "date_detection": "1 octobre 2026",
+    "date_detection": "2 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -376,7 +376,7 @@
     "type": "commission_sondages",
     "titre": "10284 Pres Barometre election presidentielle V6 IFOP Le Figaro 30 septembre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2296",
-    "date_detection": "1 octobre 2026",
+    "date_detection": "2 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -385,7 +385,7 @@
     "type": "commission_sondages",
     "titre": "10281 Pres questions actu CSA Cnews 30 septembre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2295",
-    "date_detection": "1 octobre 2026",
+    "date_detection": "2 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
