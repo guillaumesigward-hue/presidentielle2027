@@ -622,9 +622,10 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         # ANALYSE DU CONTENU DE L'ARTICLE
         # --------------------------------------------------
 
-        texte_article = extraire_texte_article(url_article)
-        if "blast-info.fr" in url_article:
-        print(
+texte_article = extraire_texte_article(url_article)
+
+if "blast-info.fr" in url_article:
+    print(
         "DEBUG BLAST:",
         url_article,
         "LONGUEUR TEXTE:",
@@ -632,11 +633,12 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         "DEBUT:",
         repr(texte_article[:500])
     )
-        # Le titre reste pris en compte, mais l'analyse porte
-        # également sur le contenu de l'article.
-        texte_analyse = (
-            titre_article + " " + texte_article
-        ).lower()
+
+# Le titre reste pris en compte, mais l'analyse porte
+# également sur le contenu de l'article.
+texte_analyse = (
+    titre_article + " " + texte_article
+).lower()
 
         # Indices explicites de contexte électoral.
         mots_contexte_electoral = [
