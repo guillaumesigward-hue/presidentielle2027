@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-02T18:52:49.857523+00:00",
+  "last_checked_utc": "2026-10-02T19:02:59.459618+00:00",
   "last_checked_fr": "2 octobre 2026",
   "publication_automatique": false,
   "sources": {
@@ -16,6 +16,13 @@
       "url": "https://www.veriangroup.com/fr/news-and-insights",
       "publication_automatique": false,
       "raison": "Les nouvelles publications sont détectées pour examen. Le robot ne transforme pas automatiquement une publication Verian en sondage présidentiel ou en contenu politique."
+    },
+    "mediapart": {
+      "ok": true,
+      "url": "https://www.mediapart.fr/journal/politique",
+      "detections": 1,
+      "publication_automatique": false,
+      "raison": "Veille journalistique uniquement. Validation humaine obligatoire."
     }
   }
 }
