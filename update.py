@@ -660,10 +660,10 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         )
 
             if "blast-info.fr" in url_article:
-            print(
-                "DEBUG ETAPE BLAST: contexte OK",
-                contexte_electoral
-            )
+                print(
+                    "DEBUG ETAPE BLAST: contexte OK",
+                    contexte_electoral
+                )
         
         # Personnes explicitement mentionnées.
         candidats_recherches = {
