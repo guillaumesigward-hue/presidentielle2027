@@ -721,11 +721,11 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             candidats_mentions,
         )
         continue
-            # Pré-classement indicatif pour faciliter la vérification humaine.
-            # Cette qualification n'est jamais publiée automatiquement.
-            themes = []
+        # Pré-classement indicatif pour faciliter la vérification humaine.
+        # Cette qualification n'est jamais publiée automatiquement.
+        themes = []
 
-            mots_cles_themes = {
+        mots_cles_themes = {
                 "École": [
                     "école", "éducation", "enseignant",
                     "enseignante", "élève", "collège", "lycée",
