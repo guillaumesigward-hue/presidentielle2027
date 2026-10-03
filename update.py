@@ -665,8 +665,11 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     contexte_electoral
                 )
         
-        # Personnes explicitement mentionnées.
-        candidats_recherches = {
+            # Personnes explicitement mentionnées.
+            if "blast-info.fr" in url_article:
+                print("DEBUG ETAPE BLAST: AVANT dictionnaire")
+
+            candidats_recherches = {
             "Nicolas Dupont-Aignan": [
                 "nicolas dupont-aignan",
                 "dupont-aignan",
