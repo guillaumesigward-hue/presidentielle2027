@@ -889,55 +889,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         
         else:
             nature = "actualité à qualifier"
-                            # Identification indicative des candidats mentionnés
-            # dans le titre. Aucun nom n'est ajouté par déduction.
-            candidats_mentions = []
-
-            candidats_recherches = {
-                "Nicolas Dupont-Aignan": [
-                    "nicolas dupont-aignan",
-                    "dupont-aignan",
-                ],
-                "Édouard Philippe": [
-                    "édouard philippe",
-                    "edouard philippe",
-                ],
-                "Gabriel Attal": [
-                    "gabriel attal",
-                    "attal",
-                ],
-                "Bruno Retailleau": [
-                    "bruno retailleau",
-                    "retailleau",
-                ],
-                "Jean-Luc Mélenchon": [
-                    "jean-luc mélenchon",
-                    "jean-luc melenchon",
-                    "mélenchon",
-                    "melenchon",
-                ],
-                "Marine Le Pen": [
-                    "marine le pen",
-                    "le pen",
-                ],
-                "Fabien Roussel": [
-                    "fabien roussel",
-                ],
-                "Éric Zemmour": [
-                    "éric zemmour",
-                    "eric zemmour",
-                    "zemmour",
-                ],
-            }
-
-            titre_pour_candidats = titre_article.lower()
-
-            for candidat, variantes in candidats_recherches.items():
-                if any(
-                    variante in titre_pour_candidats
-                    for variante in variantes
-                ):
-                    candidats_mentions.append(candidat)
+                            
         resume_article = creer_resume_article(texte_article)
 
         if "blast-info.fr" in url_article:
