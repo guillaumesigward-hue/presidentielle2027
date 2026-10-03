@@ -708,24 +708,24 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         if "blast-info.fr" in url_article:
             print("DEBUG ETAPE BLAST: candidats initialisés")
 
-    for candidat, variantes in candidats_recherches.items():
-        if any(
-            variante in texte_analyse
-            for variante in variantes
-        ):
-            candidats_mentions.append(candidat)
-        if "blast-info.fr" in url_article:
-            print(
-        "DEBUG FILTRE BLAST:",
-        "TITRE:", titre_article,
-        "CONTEXTE:", contexte_electoral,
-        "CANDIDATS:", candidats_mentions,
-        "MOTS_ELECTORAUX:",
-        [
-            mot for mot in mots_contexte_electoral
-            if mot in texte_analyse
-        ],
-    )
+        for candidat, variantes in candidats_recherches.items():
+            if any(
+                variante in texte_analyse
+                for variante in variantes
+            ):
+                candidats_mentions.append(candidat)
+            if "blast-info.fr" in url_article:
+                print(
+            "DEBUG FILTRE BLAST:",
+            "TITRE:", titre_article,
+            "CONTEXTE:", contexte_electoral,
+            "CANDIDATS:", candidats_mentions,
+            "MOTS_ELECTORAUX:",
+            [
+                mot for mot in mots_contexte_electoral
+                if mot in texte_analyse
+            ],
+        )
         # On conserve uniquement les articles présentant
         # un contexte électoral explicite ou mentionnant
         # explicitement une personne surveillée.
