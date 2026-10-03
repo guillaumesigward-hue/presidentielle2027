@@ -706,6 +706,8 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             ],
         }
         if "blast-info.fr" in url_article:
+            print("DEBUG ETAPE BLAST: APRES dictionnaire")
+        if "blast-info.fr" in url_article:
             print("DEBUG ETAPE BLAST: dictionnaire candidats OK")
         candidats_mentions = []
         if "blast-info.fr" in url_article:
