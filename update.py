@@ -545,7 +545,8 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         )
 
         nombre_detecte = 0
-
+        # Articles réellement retenus pendant CETTE mise à jour.
+        nouvelles_detections_source = []
         for url_article, titre_html in liens:
             titre_article = clean_text(titre_html).strip()
 
@@ -888,31 +889,37 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                 repr(resume_article)
             )
 
+        nouvelle_detection = {
+            "type": source_journalistique["type"],
+            "source": nom_source,
+            "nature": nature,
+            "themes": themes,
+            "candidats_mentions": candidats_mentions,
+            "titre": titre_article,
+            "url": url_article,
+            "resume": resume_article,
+            "date_detection": date_fr,
+            "statut": "À vérifier manuellement",
+            "publication_automatique": False,
+            "note": (
+                "Détection provenant d'une source "
+                "journalistique indépendante ou "
+                "d'investigation. Vérifier le contenu, "
+                "la nature de l'article (information, "
+                "enquête, analyse, entretien ou opinion) "
+                "et recouper les affirmations sensibles "
+                "avant toute publication."
+            ),
+        }
+
         ajouter_detection(
-                detections,
-                   {
-                    "type": source_journalistique["type"],
-                    "source": nom_source,
-                    "nature": nature,
-                    "themes": themes,
-                    "candidats_mentions": candidats_mentions,
-                    "titre": titre_article,
-                    "url": url_article,
-                    "resume": resume_article,  
-                    "date_detection": date_fr,
-                    "statut": "À vérifier manuellement",
-                    "publication_automatique": False,
-                    "note": (
-                        "Détection provenant d'une source "
-                        "journalistique indépendante ou "
-                        "d'investigation. Vérifier le contenu, "
-                        "la nature de l'article (information, "
-                        "enquête, analyse, entretien ou opinion) "
-                        "et recouper les affirmations sensibles "
-                        "avant toute publication."
-                    ),
-                },
-            )
+            detections,
+            nouvelle_detection,
+        )
+
+        nouvelles_detections_source.append(
+            nouvelle_detection
+        )
 
         nombre_detecte += 1
 
@@ -933,17 +940,12 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     "Validation humaine obligatoire."
                 ),
             }
-        # Résumé compact de la mise à jour de cette source.
-        nouvelles_source = [
-            detection
-            for detection in detections
-            if detection.get("source") == nom_source
-        ]
+        
 
         status["sources"][
             nom_source.lower().replace(" ", "_")
         ]["mise_a_jour"] = {
-            "nombre": len(nouvelles_source),
+            "nombre": len(nouvelles_detections_source),
             "articles": [
                 {
                     "titre": detection.get("titre", ""),
@@ -959,7 +961,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     ),
                     "url": detection.get("url", ""),
                 }
-                for detection in nouvelles_source[-5:]
+                for detection in nouvelles_detections_source[-5:]
             ],
         }
     except Exception as exc:
