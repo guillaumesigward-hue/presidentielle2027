@@ -530,7 +530,46 @@ except Exception as exc:
 # ------------------------------------------------------------
 # Veille journalistique indépendante / investigation
 # ------------------------------------------------------------
+# --------------------------------------------------
+# PERSONNES POLITIQUES RECHERCHEES DANS LES ARTICLES
+# --------------------------------------------------
 
+candidats_recherches = {
+    "Nicolas Dupont-Aignan": [
+        "nicolas dupont-aignan",
+        "dupont-aignan",
+    ],
+    "Édouard Philippe": [
+        "édouard philippe",
+        "edouard philippe",
+    ],
+    "Gabriel Attal": [
+        "gabriel attal",
+        "attal",
+    ],
+    "Bruno Retailleau": [
+        "bruno retailleau",
+        "retailleau",
+    ],
+    "Jean-Luc Mélenchon": [
+        "jean-luc mélenchon",
+        "jean-luc melenchon",
+        "mélenchon",
+        "melenchon",
+    ],
+    "Marine Le Pen": [
+        "marine le pen",
+        "le pen",
+    ],
+    "Fabien Roussel": [
+        "fabien roussel",
+    ],
+    "Éric Zemmour": [
+        "éric zemmour",
+        "eric zemmour",
+        "zemmour",
+    ],
+}
 for source_journalistique in SOURCES_JOURNALISTIQUES:
     nom_source = source_journalistique["nom"]
     url_source = source_journalistique["url"]
