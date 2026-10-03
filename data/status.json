@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-03T14:31:26.017919+00:00",
+  "last_checked_utc": "2026-10-03T14:41:00.354229+00:00",
   "last_checked_fr": "3 octobre 2026",
   "publication_automatique": false,
   "sources": {
@@ -21,7 +21,7 @@
       "ok": false,
       "url": "https://disclose.ngo/fr",
       "publication_automatique": false,
-      "erreur": "name 'candidats_recherches' is not defined"
+      "erreur": "name 'texte_analyse' is not defined"
     }
   }
 }
