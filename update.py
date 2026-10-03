@@ -705,6 +705,8 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                 "zemmour",
             ],
         }
+        print("DEBUG ABSOLU: APRES DICTIONNAIRE", url_article)
+
         if "blast-info.fr" in url_article:
             print("DEBUG ETAPE BLAST: APRES dictionnaire")
         if "blast-info.fr" in url_article:
