@@ -708,12 +708,12 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         if "blast-info.fr" in url_article:
             print("DEBUG ETAPE BLAST: candidats initialisés")
 
-        for candidat, variantes in candidats_recherches.items():
-            if any(
-                variante in texte_analyse
-                for variante in variantes
-            ):
-                candidats_mentions.append(candidat)
+    for candidat, variantes in candidats_recherches.items():
+        if any(
+            variante in texte_analyse
+            for variante in variantes
+        ):
+            candidats_mentions.append(candidat)
         if "blast-info.fr" in url_article:
             print(
         "DEBUG FILTRE BLAST:",
