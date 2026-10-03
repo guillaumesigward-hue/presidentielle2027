@@ -771,52 +771,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     contexte_electoral
                 )
         
-            # Personnes explicitement mentionnées.
-            if "blast-info.fr" in url_article:
-                print("DEBUG ETAPE BLAST: AVANT dictionnaire")
-            print("DEBUG ABSOLU: JUSTE AVANT AFFECTATION", url_article)                
-            candidats_recherches = {
-            "Nicolas Dupont-Aignan": [
-                "nicolas dupont-aignan",
-                "dupont-aignan",
-            ],
-            "Édouard Philippe": [
-                "édouard philippe",
-                "edouard philippe",
-            ],
-            "Gabriel Attal": [
-                "gabriel attal",
-                "attal",
-            ],
-            "Bruno Retailleau": [
-                "bruno retailleau",
-                "retailleau",
-            ],
-            "Jean-Luc Mélenchon": [
-                "jean-luc mélenchon",
-                "jean-luc melenchon",
-                "mélenchon",
-                "melenchon",
-            ],
-            "Marine Le Pen": [
-                "marine le pen",
-                "le pen",
-            ],
-            "Fabien Roussel": [
-                "fabien roussel",
-            ],
-            "Éric Zemmour": [
-                "éric zemmour",
-                "eric zemmour",
-                "zemmour",
-            ],
-        }
-        print("DEBUG ABSOLU: APRES DICTIONNAIRE", url_article)
-
-        if "blast-info.fr" in url_article:
-            print("DEBUG ETAPE BLAST: APRES dictionnaire")
-        if "blast-info.fr" in url_article:
-            print("DEBUG ETAPE BLAST: dictionnaire candidats OK")
+            
         candidats_mentions = []
         if "blast-info.fr" in url_article:
             print("DEBUG ETAPE BLAST: candidats_mentions OK")
