@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-03T15:12:05.176373+00:00",
+  "last_checked_utc": "2026-10-03T15:17:46.360372+00:00",
   "last_checked_fr": "3 octobre 2026",
   "publication_automatique": false,
   "sources": {
@@ -16,12 +16,6 @@
       "url": "https://www.veriangroup.com/fr/news-and-insights",
       "publication_automatique": false,
       "raison": "Les nouvelles publications sont détectées pour examen. Le robot ne transforme pas automatiquement une publication Verian en sondage présidentiel ou en contenu politique."
-    },
-    "disclose": {
-      "ok": false,
-      "url": "https://disclose.ngo/fr",
-      "publication_automatique": false,
-      "erreur": "name 'texte_article' is not defined"
     }
   }
 }
