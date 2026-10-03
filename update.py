@@ -741,35 +741,35 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     repr(texte_article[:500])
                 )
             
-            # Le titre reste pris en compte, mais l'analyse porte
-            # également sur le contenu de l'article.
-            texte_analyse = (
-                titre_article + " " + texte_article
-            ).lower()
-            if "blast-info.fr" in url_article:
-                print("DEBUG ETAPE BLAST: texte_analyse OK")
-            # Indices explicites de contexte électoral.
-            mots_contexte_electoral = [
-            "présidentielle",
-            "présidentiel",
-            "présidentielle 2027",
-            "élection présidentielle",
-            "candidat",
-            "candidate",
-            "candidature",
-            "campagne présidentielle",
-        ]
+        # Le titre reste pris en compte, mais l'analyse porte
+        # également sur le contenu de l'article.
+        texte_analyse = (
+            titre_article + " " + texte_article
+        ).lower()
+        if "blast-info.fr" in url_article:
+            print("DEBUG ETAPE BLAST: texte_analyse OK")
+        # Indices explicites de contexte électoral.
+        mots_contexte_electoral = [
+        "présidentielle",
+        "présidentiel",
+        "présidentielle 2027",
+        "élection présidentielle",
+        "candidat",
+        "candidate",
+        "candidature",
+        "campagne présidentielle",
+    ]
 
-            contexte_electoral = any(
-            mot in texte_analyse
-            for mot in mots_contexte_electoral
-        )
+        contexte_electoral = any(
+        mot in texte_analyse
+        for mot in mots_contexte_electoral
+    )
 
-            if "blast-info.fr" in url_article:
-                print(
-                    "DEBUG ETAPE BLAST: contexte OK",
-                    contexte_electoral
-                )
+        if "blast-info.fr" in url_article:
+            print(
+                "DEBUG ETAPE BLAST: contexte OK",
+                contexte_electoral
+            )
         
             
         candidats_mentions = []
