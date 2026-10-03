@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-03T13:56:37.934865+00:00",
+  "last_checked_utc": "2026-10-03T14:14:30.775912+00:00",
   "last_checked_fr": "3 octobre 2026",
   "publication_automatique": false,
   "sources": {
@@ -24,44 +24,8 @@
       "publication_automatique": false,
       "raison": "Veille journalistique uniquement. Validation humaine obligatoire.",
       "mise_a_jour": {
-        "nombre": 7,
+        "nombre": 1,
         "articles": [
-          {
-            "titre": "Reconquête emploie en alternance un étudiant de l’ESJ Paris, l’école de journalisme des milliardaires Bolloré, Arnault et Saadé",
-            "resume": "",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [],
-            "url": "https://www.mediapart.fr/journal/politique/160926/reconquete-emploie-en-alternance-un-etudiant-de-l-esj-paris-l-ecole-de-journalisme-des-milliardaires-bo"
-          },
-          {
-            "titre": "Fin de parti ? L’écologie politique face à son impasse stratégique",
-            "resume": "",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Écologie"
-            ],
-            "candidats_mentions": [],
-            "url": "https://www.mediapart.fr/journal/politique/280926/fin-de-parti-l-ecologie-politique-face-son-impasse-strategique"
-          },
-          {
-            "titre": "Gabriel Attal : la campagne en toc du « candidat TikTok »",
-            "resume": "",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [
-              "Gabriel Attal"
-            ],
-            "url": "https://www.mediapart.fr/journal/politique/270926/gabriel-attal-la-campagne-en-toc-du-candidat-tiktok"
-          },
-          {
-            "titre": "Présidentielle 2027",
-            "resume": "",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [],
-            "url": "https://www.mediapart.fr/journal/mot-cle/election-presidentielle-2027"
-          },
           {
             "titre": "Confidentialité",
             "resume": "La Commission européenne a créé une « alliance » chargée d’identifier les molécules jugées indispensables à l’industrie européenne et les sites à préserver pour les produire. Son but : soutenir leur production en Europe. Ni l’administration française ni la Commission européenne ne respectent leurs obligations d’information du public sur les impacts environnementaux et les consommations énergétiques des data centers.",
