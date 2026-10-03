@@ -933,7 +933,35 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     "Validation humaine obligatoire."
                 ),
             }
+        # Résumé compact de la mise à jour de cette source.
+        nouvelles_source = [
+            detection
+            for detection in detections
+            if detection.get("source") == nom_source
+        ]
 
+        status["sources"][
+            nom_source.lower().replace(" ", "_")
+        ]["mise_a_jour"] = {
+            "nombre": len(nouvelles_source),
+            "articles": [
+                {
+                    "titre": detection.get("titre", ""),
+                    "resume": detection.get("resume", ""),
+                    "nature": detection.get(
+                        "nature",
+                        "actualité à qualifier"
+                    ),
+                    "themes": detection.get("themes", []),
+                    "candidats_mentions": detection.get(
+                        "candidats_mentions",
+                        []
+                    ),
+                    "url": detection.get("url", ""),
+                }
+                for detection in nouvelles_source[-5:]
+            ],
+        }
     except Exception as exc:
         print("DEBUG ERREUR SOURCE:", nom_source, repr(exc))
         status["sources"][
