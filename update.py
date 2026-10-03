@@ -702,9 +702,11 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                 "zemmour",
             ],
         }
-
+        if "blast-info.fr" in url_article:
+            print("DEBUG ETAPE BLAST: dictionnaire candidats OK")
         candidats_mentions = []
-
+        if "blast-info.fr" in url_article:
+            print("DEBUG ETAPE BLAST: candidats_mentions OK")
         if "blast-info.fr" in url_article:
             print("DEBUG ETAPE BLAST: candidats initialisés")
 
