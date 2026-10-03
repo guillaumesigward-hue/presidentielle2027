@@ -935,6 +935,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             }
 
     except Exception as exc:
+        print("DEBUG ERREUR SOURCE:", nom_source, repr(exc))
         status["sources"][
             nom_source.lower().replace(" ", "_")
         ] = {
