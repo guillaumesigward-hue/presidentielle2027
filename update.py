@@ -567,7 +567,51 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     url_source
                 )
             url_article = urljoin(url_source, url_article)
-
+        # --------------------------------------------------
+        # FILTRE GLOBAL DES URL NON EDITORIALES
+        # --------------------------------------------------
+        
+        url_minuscule = url_article.lower()
+        
+        chemins_non_editoriaux = [
+            "/tag/",
+            "/tags/",
+            "/categorie/",
+            "/category/",
+            "/auteur/",
+            "/author/",
+            "/recherche/",
+            "/search/",
+            "/newsletter",
+            "/podcasts",
+            "/mentions-legales",
+            "/mentions_legales",
+            "/contact",
+            "/confidentialite",
+            "/confidentiality",
+            "/politique-de-confidentialite",
+            "/privacy",
+            "/cookies",
+            "/cookie",
+            "/abonnement",
+            "/abonnements",
+            "/abonner",
+            "/subscribe",
+            "/subscription",
+            "/connexion",
+            "/login",
+            "/compte",
+            "/account",
+            "/faq",
+            "/qui-sommes-nous",
+            "/a-propos",
+        ]
+        
+        if any(
+            chemin in url_minuscule
+            for chemin in chemins_non_editoriaux
+        ):
+            continue
                         # --------------------------------------------------
             # Filtrage des URL : on privilégie les vrais articles
             # et on écarte les pages techniques ou de navigation.
