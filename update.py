@@ -573,7 +573,11 @@ candidats_recherches = {
 for source_journalistique in SOURCES_JOURNALISTIQUES:
     nom_source = source_journalistique["nom"]
     url_source = source_journalistique["url"]
-
+    print(
+        "DEBUG SOURCE DEMARRAGE:",
+        nom_source,
+        url_source
+    )
     try:
         body_source = fetch(url_source)
 
