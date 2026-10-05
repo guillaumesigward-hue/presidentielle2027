@@ -586,6 +586,11 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             body_source,
             flags=re.IGNORECASE | re.DOTALL,
         )
+        print(
+            "DEBUG LIENS TROUVES:",
+            nom_source,
+            len(liens)
+        )
 
         nombre_detecte = 0
         # Articles réellement retenus pendant CETTE mise à jour.
