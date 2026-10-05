@@ -625,6 +625,15 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     url_source
                 )
             url_article = urljoin(url_source, url_article)
+        if nom_source in ["Mediapart", "Blast", "Disclose"]:
+            print(
+                "DEBUG CANDIDAT:",
+                nom_source,
+                "URL:",
+                repr(url_article),
+                "TITRE:",
+                repr(titre_article),
+            )
         # --------------------------------------------------
         # FILTRE GLOBAL DES URL NON EDITORIALES
         # --------------------------------------------------
