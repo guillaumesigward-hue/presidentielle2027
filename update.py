@@ -631,6 +631,14 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             domaine_source = urlparse(url_source).netloc.lower().removeprefix("www.")
             domaine_article = urlparse(url_article).netloc.lower().removeprefix("www.")
 
+            if nom_source in ("Mediapart", "Blast", "Disclose"):
+                print(
+                    "DEBUG DOMAINES:",
+                    nom_source,
+                    "SOURCE=", repr(domaine_source),
+                    "ARTICLE=", repr(domaine_article),
+                    "URL=", repr(url_article),
+                )
             if domaine_article != domaine_source:
                 continue
             if nom_source in ["Mediapart", "Blast", "Disclose"]:
