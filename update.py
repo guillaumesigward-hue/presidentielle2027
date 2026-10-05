@@ -597,6 +597,14 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         nouvelles_detections_source = []
         for url_article, titre_html in liens:
             titre_article = clean_text(titre_html).strip()
+            if nom_source in ("Mediapart", "Blast", "Disclose"):
+                print(
+                    "DEBUG LIEN BRUT:",
+                    nom_source,
+                    repr(url_article),
+                    "TITRE:",
+                    repr(titre_article[:120])
+                )
 
             if not titre_article:
                 continue
