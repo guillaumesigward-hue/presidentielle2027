@@ -757,6 +757,15 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         # --------------------------------------------------
 
         texte_article = extraire_texte_article(url_article)
+        if nom_source in ("Mediapart", "Blast", "Disclose"):
+            print(
+                "DEBUG EXTRACTION:",
+                nom_source,
+                "URL:", repr(url_article),
+                "TITRE:", repr(titre_article[:100]),
+                "LONGUEUR:", len(texte_article),
+                "DEBUT:", repr(texte_article[:200]),
+            )
         if "blast-info.fr" in url_article:
             print("DEBUG ETAPE BLAST: extraction OK")
         if "blast-info.fr" in url_article:
