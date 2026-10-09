@@ -93,7 +93,7 @@
     "type": "verian",
     "titre": "Publication Verian détectée — stature présidentielle",
     "url": "https://www.veriangroup.com/fr/news-and-insights",
-    "date_detection": "8 octobre 2026",
+    "date_detection": "9 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Vérifier la publication originale, les dates de terrain, l'échantillon et la nature exacte de l'enquête avant toute publication sur le site."
@@ -102,7 +102,7 @@
     "type": "verian",
     "titre": "Publication Verian détectée — baromètre politique",
     "url": "https://www.veriangroup.com/fr/news-and-insights",
-    "date_detection": "8 octobre 2026",
+    "date_detection": "9 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Vérifier la publication originale, les dates de terrain, l'échantillon et la nature exacte de l'enquête avant toute publication sur le site."
@@ -435,7 +435,7 @@
     "type": "commission_sondages",
     "titre": "10290 Pres blocages des lycées CSA Cnews 4 octobre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2307",
-    "date_detection": "8 octobre 2026",
+    "date_detection": "9 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -444,7 +444,7 @@
     "type": "commission_sondages",
     "titre": "10292 Pres vote blanc IFOP 6 octobre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2310",
-    "date_detection": "8 octobre 2026",
+    "date_detection": "9 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -453,7 +453,7 @@
     "type": "commission_sondages",
     "titre": "10291 Pres Avenir jeunesse IPSOS BVA 6 octobre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2309",
-    "date_detection": "8 octobre 2026",
+    "date_detection": "9 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -462,7 +462,7 @@
     "type": "commission_sondages",
     "titre": "10284 Pres Barometre election V6 IFOP 30 septembre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308",
-    "date_detection": "8 octobre 2026",
+    "date_detection": "9 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -471,7 +471,7 @@
     "type": "commission_sondages",
     "titre": "10293 Pres Questions actu CSA Cnews 7 octobre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2312",
-    "date_detection": "8 octobre 2026",
+    "date_detection": "9 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
@@ -480,7 +480,43 @@
     "type": "commission_sondages",
     "titre": "10294 Pres colère des lyceens ELABE 7 octobre",
     "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2311",
-    "date_detection": "8 octobre 2026",
+    "date_detection": "9 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10298 Pres mouvement lycées ODOXA 8 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2316",
+    "date_detection": "9 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10297 Pres Stature présidentielle V6 VERIAN Le Figaro magazine 8 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2315",
+    "date_detection": "9 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10296 Pres barometre personnalites politiques CLUSTER 17 Le Point 7 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2314",
+    "date_detection": "9 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10295 Pres Mouvement lyceen IFOP TF1 7 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2313",
+    "date_detection": "9 octobre 2026",
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
