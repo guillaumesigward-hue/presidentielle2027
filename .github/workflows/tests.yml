@@ -1,0 +1,42 @@
+name: Verification du site
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      verifier_sources:
+        description: 'Tester la veille réelle dans une copie isolée, sans publier'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: python -m unittest discover -s tests -v
+      - run: node tests/interface.cjs
+      - run: python construire_site.py --output _site
+
+  sources_reelles:
+    if: github.event_name == 'workflow_dispatch' && inputs.verifier_sources == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tests/smoke_sources.py --max-articles 20
+      - run: python construire_site.py --data-dir .preview/data --output _site
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bilan-veille-sans-publication
+          path: _site/data/suivi.json

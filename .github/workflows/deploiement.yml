@@ -1,0 +1,19 @@
+name: Publication manuelle validee
+on:
+  workflow_dispatch:
+    inputs:
+      validation_utilisateur:
+        description: 'Je valide la publication de cette version sur GitHub Pages'
+        required: true
+        type: boolean
+        default: false
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  publication:
+    if: github.ref == 'refs/heads/main' && inputs.validation_utilisateur == true
+    uses: ./.github/workflows/publication.yml
+    with:
+      revision: ${{ github.sha }}

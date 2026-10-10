@@ -7,10 +7,20 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: veille-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   update:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 40
+    outputs:
+      revision: ${{ steps.commit.outputs.revision }}
 
     steps:
       - name: Recuperer le site
@@ -21,17 +31,36 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Verifier Python et les garanties editoriales
+        run: python -m unittest discover -s tests -v
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Verifier l interface
+        run: node tests/interface.cjs
+
       - name: Executer la mise a jour
         run: python update.py
 
       - name: Enregistrer la mise a jour
+        id: commit
         run: |
           git config user.name "presidentielle2027-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A
+          git add data/election.json data/status.json data/actualites_detectees.json data/a_valider.json
           if git diff --cached --quiet; then
             echo "Aucune modification a enregistrer."
           else
             git commit -m "Mise a jour quotidienne automatique"
             git push
           fi
+          echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  actualiser_site:
+    needs: update
+    if: github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/publication.yml
+    with:
+      revision: ${{ needs.update.outputs.revision }}
