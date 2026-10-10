@@ -593,11 +593,15 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         )
 
         nombre_detecte = 0
-        # Articles réellement retenus pendant CETTE mise à jour.
         nouvelles_detections_source = []
+        nombre_liens_examines = 0
+
         for url_article, titre_html in liens:
+            nombre_liens_examines += 1
+            if nombre_liens_examines > 30:
+                break
+
             titre_article = clean_text(titre_html).strip()
-            if nom_source in ("Mediapart", "Blast", "Disclose"):
                 print(
                     "DEBUG LIEN BRUT:",
                     nom_source,
