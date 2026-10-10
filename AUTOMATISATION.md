@@ -48,8 +48,10 @@ attribué et sourcé ; la fiche antérieure reste consultable. Aucune notation
 politique, estimation budgétaire ou population bénéficiaire n'est extrapolée.
 Les statuts ne changent que pour une déclaration personnelle explicite de
 candidature ou de retrait pour 2027. Les pages de programmes 2022 sont écartées.
-La découverte de nouvelles personnes n'est pas automatique : la liste et les
-domaines autorisés doivent être entretenus lorsque de nouvelles campagnes apparaissent.
+Les nouvelles personnes figurant dans les tableaux de sondages sont ajoutées
+automatiquement comme « personnes testées », sans leur attribuer une candidature
+déclarée ni un programme. Les domaines de nouvelles campagnes doivent être
+ajoutés à la liste autorisée avant de pouvoir extraire leurs propositions.
 
 Les fichiers de détections et d'archives ne sont pas exposés dans le site public.
 Le champ global `publication_automatique` du suivi indique le mode actif ; les

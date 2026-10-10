@@ -103,3 +103,34 @@ def actualiser_sondages(notices, existants, fetch_bytes):
     nouveaux.update({x['id']:x for x in scenarios})
     bilan['scenarios_extraits']=len(scenarios)
     return sorted(nouveaux.values(),key=lambda x:x['date_fin'],reverse=True)[:36]+[x for x in existants if x.get('controle')!='automatique'], bilan
+
+
+def enrichir_personnes(election, programmes):
+    """Une personne testée dans une enquête n'est jamais déclarée candidate."""
+    cle = lambda nom: re.sub(r'\W+', '', normaliser(nom))
+    correspondances = {cle(x['nom']): x['nom'] for x in election['candidatures']}
+    connus = set(correspondances.values())
+    fiches = {x['nom'] for x in programmes['pretendants']}
+    nouveaux = 0
+    for sondage in election['sondages']:
+        if sondage.get('controle') != 'automatique':
+            continue
+        for resultat in sondage.get('resultats', []):
+            nom = correspondances.get(cle(resultat['nom']), resultat['nom'])
+            if nom not in connus:
+                election['candidatures'].append({'nom': nom,
+                    'description': 'Personne testée dans un scénario de sondage. Cette présence n’établit pas une déclaration de candidature à la présidentielle de 2027.',
+                    'source': sondage['source'], 'url': sondage['url'],
+                    'nature': 'personne_testee', 'controle': 'automatique'})
+                connus.add(nom)
+                correspondances[cle(nom)] = nom
+                nouveaux += 1
+            if nom not in fiches:
+                programmes['pretendants'].append({'nom': nom, 'themes': {
+                    key: {'statut': 'Personne testée dans un sondage — programme non identifié par le dispositif',
+                          'resume': 'Aucune proposition 2027 attribuable à cette personne n’a été extraite d’une source de campagne autorisée. Cela ne signifie pas qu’aucun programme n’existe.',
+                          'solidite_documentaire': None, 'sources': []}
+                    for key in ('ecole', 'sante', 'energie', 'fiscalite', 'ecologie')
+                }})
+                fiches.add(nom)
+    return nouveaux

@@ -557,12 +557,13 @@ def main():
     ecrire_json(DATA_DIR / 'publications_auto.json', {'last_checked_utc': status['last_checked_utc'], 'articles': articles})
     status['publications_par_media'] = {source['nom']: sum(x['source'] == source['nom'] for x in articles) for source in SOURCES_JOURNALISTIQUES}
 
-    from sondages_auto import actualiser_sondages
+    from sondages_auto import actualiser_sondages, enrichir_personnes
     from officiel_auto import actualiser_officiel
     # Une panne ne remplace jamais les derniers résultats lisibles par des zéros.
     election['sondages'], status['sondages_automatiques'] = actualiser_sondages(
         notices if status['sources'].get('commission_sondages',{}).get('ok') else [],
         election['sondages'], fetch_pdf)
+    status['sondages_automatiques']['nouvelles_personnes_testees'] = enrichir_personnes(election, programmes)
     status['campagnes_automatiques'] = actualiser_officiel(election,programmes,fetch,date_fr)
     ecrire_json(DATA_DIR / 'programmes.json', programmes)
 

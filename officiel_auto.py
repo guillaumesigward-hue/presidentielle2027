@@ -123,9 +123,12 @@ def actualiser_officiel(election,programmes,fetch,date_fr):
             candidat.update(description=preuve['statut']['description'],preuve_automatique=preuve['statut']['preuve'],
                 url=preuve['url'],source='Source de campagne — contrôle automatique',verification_automatique=date_fr)
             bilan['statuts_actualises']+=1
-        candidat['dernier_controle_sources']=date_fr
+        if candidat['nom'] in CAMPAGNES:
+            candidat['dernier_controle_sources']=date_fr
     for personne in programmes['pretendants']:
         for key,theme in personne.get('themes',{}).items():
+            if personne['nom'] not in CAMPAGNES:
+                continue
             claims=[dict(claim,url=record['url'],date_publication=record['date_publication']) for record in records
                     if record['nom']==personne['nom'] for claim in record['propositions'] if key in claim['themes']][:3]
             if claims:

@@ -1,12 +1,22 @@
 import copy
 import unittest
 from officiel_auto import analyser_publication, lien_officiel, actualiser_officiel
-from sondages_auto import tableau_resultats, methodologie, actualiser_sondages
+from sondages_auto import tableau_resultats, methodologie, actualiser_sondages, enrichir_personnes
 from resumes_auto import resumer_publications, VERSION
 from veille import extraire_html
 
 
 class DonneesAutomatiques(unittest.TestCase):
+    def test_personne_testee_ne_devient_pas_candidature_declaree(self):
+        election = {'candidatures': [], 'sondages': [{'controle':'automatique',
+            'resultats':[{'nom':'Anne Martin'}], 'source':'Notice Test', 'url':'https://exemple.fr/notice'}]}
+        programmes = {'pretendants': []}
+        self.assertEqual(enrichir_personnes(election, programmes), 1)
+        self.assertEqual(enrichir_personnes(election, programmes), 0)
+        self.assertEqual(election['candidatures'][0]['nature'], 'personne_testee')
+        self.assertIn('n’établit pas', election['candidatures'][0]['description'])
+        self.assertEqual(len(programmes['pretendants']), 1)
+
     def test_resultats_publies_uniquement(self):
         table = [['', 'Résultats publiés'], ['', '(%)'],
                  ['Anne Martin', '42'], ['Paul Durand', '33,5'], ['Marie Dupont', '24,5'], ['TOTAL', '100']]
