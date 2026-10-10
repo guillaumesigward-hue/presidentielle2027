@@ -15,6 +15,7 @@ import veille
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--max-articles', type=int, default=20)
+parser.add_argument('--require-summary', action='store_true')
 args = parser.parse_args()
 
 data = update.ROOT / '.preview' / 'data'
@@ -45,3 +46,5 @@ snapshot = json.loads((data / 'publications_auto.json').read_text(encoding='utf-
 for article in snapshot['articles']:
     if article.get('resume_statut') == 'disponible':
         print('RESUME', article['source'], article['url'], article['resume'])
+if args.require_summary:
+    assert any(x.get('resume_statut') == 'disponible' for x in snapshot['articles']), 'Le test réel ne valide aucun résumé : vérifier le moteur avant publication.'

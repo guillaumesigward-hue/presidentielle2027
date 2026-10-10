@@ -41,7 +41,7 @@ jobs:
           path: .cache-modeles
           key: qwen7b-gguf-bb5d59e0-b11541-v1
       - run: python preparer_resumes.py
-      - run: python tests/smoke_sources.py --max-articles 20
+      - run: python tests/smoke_sources.py --max-articles 20 --require-summary
         env:
           RESUMES_LOCAUX: '1'
       - run: python construire_site.py --data-dir .preview/data --output _site

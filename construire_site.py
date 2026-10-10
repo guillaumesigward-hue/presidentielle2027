@@ -59,6 +59,12 @@ def preparer_site(output, data_dir=None):
         if source['url'] not in urls:
             election['sources'].append({'nom': source['nom'], 'url': source['url'],
                 'description': 'Média indépendant / investigation suivi automatiquement. Titres et analyses attribués au média ; enquêtes antérieures datées séparément.'})
+    if status['publication_automatique']:
+        for source in election['sources']:
+            if source.get('nom') == 'Commission des sondages':
+                source['description'] = 'Notices officielles suivies automatiquement. Les résultats des tableaux compatibles sont extraits avec leur méthodologie ; les autres formats sont signalés.'
+            elif source.get('nom') == 'Verian':
+                source['description'] = 'Publications et études suivies. Les résultats ne sont intégrés que lorsque leur tableau et leur méthodologie peuvent être contrôlés automatiquement.'
     suivi['sources'] = {nom: {key: source[key] for key in CHAMPS_SUIVI if key in source}
                         for nom, source in status['sources'].items()}
     output = Path(output)
