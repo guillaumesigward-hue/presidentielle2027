@@ -29,16 +29,23 @@ jobs:
   sources_reelles:
     if: github.event_name == 'workflow_dispatch' && inputs.verifier_sources == true
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: python -m pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: .cache-modeles
+          key: qwen7b-gguf-bb5d59e0-b11541-v1
+      - run: python preparer_resumes.py
       - run: python tests/smoke_sources.py --max-articles 20
+        env:
+          RESUMES_LOCAUX: '1'
       - run: python construire_site.py --data-dir .preview/data --output _site
       - uses: actions/upload-artifact@v4
         with:
           name: bilan-veille-sans-publication
-          path: _site/data/suivi.json
+          path: _site/
