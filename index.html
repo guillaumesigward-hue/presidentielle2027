@@ -418,8 +418,8 @@
   <section id="actualites">
     <h2>Actualités</h2>
     <p class="section-intro">
-      Sélection d'informations publiées dans les données éditoriales du site.
-      Les détections automatiques ne sont pas publiées ici sans vérification.
+      Actualités éditoriales et liens de presse sélectionnés automatiquement.
+      Les liens automatiques sont attribués à leur média ; leurs contrôles de provenance et de date ne constituent pas une vérification indépendante des faits.
     </p>
     <div class="grid" id="actualites-grid"></div>
   </section>
@@ -487,9 +487,10 @@
       <h3>Actualités et automatisation</h3>
       <p>
         Le dispositif automatique surveille certaines sources et peut détecter
-        de nouvelles publications. Une détection automatique n'est pas publiée
-        comme information politique ou comme sondage électoral sans vérification
-        de sa nature et de sa source.
+        de nouvelles publications. Les liens de presse récents passent des contrôles
+        automatiques de source, de date, de pertinence et de doublons.
+        Ces contrôles ne prouvent pas l'exactitude des articles. Ils ne modifient
+        pas automatiquement les candidatures, programmes ou chiffres de sondages.
       </p>
     </article>
 
@@ -586,7 +587,7 @@ ecologie: "Écologie"
     const controle = Date.parse(suiviData.last_checked_utc);
     const ancien = !Number.isFinite(controle) || Date.now() - controle > 48 * 60 * 60 * 1000;
     container.innerHTML = `<strong>Veille quotidienne des sources</strong>
-      <p>Les nouvelles informations politiques nécessitent une validation humaine avant publication.</p>
+      <p>Les liens de presse passent des contrôles automatiques de source, de date et de pertinence avant publication. Les faits rapportés restent attribués au média cité.</p>
       ${ancien ? "<p><strong>Le dernier contrôle est ancien ou sa date est indisponible.</strong></p>" : ""}
       <ul>${Object.entries(suiviData.sources).map(([nom, source]) => {
         let etat = source.ok === true ? "Source accessible" : "Source indisponible au dernier contrôle";
@@ -930,6 +931,7 @@ ecologie: "Écologie"
     container.innerHTML = actualites.map(item => `
       <article class="card news-card">
         <h3>${escapeHtml(item.titre || item.nom || "Actualité")}</h3>
+        ${item.controle === "automatique" ? `<p><strong>Lien sélectionné automatiquement</strong> — ${escapeHtml(item.date_publication?.slice(0, 10) || "")}</p>` : ""}
         <p>${escapeHtml(item.description || "")}</p>
         ${
           item.url
