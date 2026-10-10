@@ -360,7 +360,7 @@
 
 <main>
 
-  <div class="date-box" id="dates">
+  <div class="date-box" id="dates" role="status" aria-live="polite">
     Chargement des dates de vérification…
   </div>
 
@@ -401,11 +401,11 @@
     </div>
 
     <div class="theme-buttons">
-      <button class="theme-button active" data-theme="ecole">École</button>
-      <button class="theme-button" data-theme="sante">Santé</button>
-      <button class="theme-button" data-theme="energie">Énergie</button>
-      <button class="theme-button" data-theme="fiscalite">Fiscalité</button>
-      <button class="theme-button" data-theme="ecologie">Écologie</button>
+      <button class="theme-button active" aria-pressed="true" data-theme="ecole">École</button>
+      <button class="theme-button" aria-pressed="false" data-theme="sante">Santé</button>
+      <button class="theme-button" aria-pressed="false" data-theme="energie">Énergie</button>
+      <button class="theme-button" aria-pressed="false" data-theme="fiscalite">Fiscalité</button>
+      <button class="theme-button" aria-pressed="false" data-theme="ecologie">Écologie</button>
     </div>
 
     <div class="programme-grid" id="programmes-grid"></div>
@@ -541,7 +541,7 @@ ecologie: "Écologie"
   }
 
   function lienSource(url, nom) {
-    if (!url) {
+    if (!url || !/^https?:\/\//i.test(String(url))) {
       return "";
     }
 
@@ -710,7 +710,8 @@ ecologie: "Écologie"
     if (
       valeur === null ||
       valeur === undefined ||
-      valeur === ""
+      valeur === "" ||
+      !Number.isFinite(Number(valeur))
     ) {
       return `
         <div class="solidite">
@@ -946,10 +947,12 @@ ecologie: "Écologie"
             .querySelectorAll(".theme-button")
             .forEach(element => {
               element.classList.remove("active");
+              element.setAttribute("aria-pressed", "false");
             });
 
           button.classList.add("active");
-          afficherProgrammes();
+          button.setAttribute("aria-pressed", "true");
+          if (programmesData) afficherProgrammes();
         });
       });
   }
@@ -958,56 +961,26 @@ ecologie: "Écologie"
     try {
       const cacheBuster = Date.now();
 
-      const [electionResponse, programmesResponse, validationResponse] =
-  await Promise.all([
-    fetch(
-      `data/election.json?v=${cacheBuster}`,
-      { cache: "no-store" }
-    ),
-    fetch(
-      `data/programmes.json?v=${cacheBuster}`,
-      { cache: "no-store" }
-    ),
-    fetch(
-      `data/a_valider.json?v=${cacheBuster}`,
-      { cache: "no-store" }
-    )
-  ]);
-
-      if (!electionResponse.ok) {
-        throw new Error(
-          `election.json : HTTP ${electionResponse.status}`
-        );
+      const [electionResponse, programmesResponse] = await Promise.all([
+        fetch(`data/election.json?v=${cacheBuster}`, { cache: "no-store" }),
+        fetch(`data/programmes.json?v=${cacheBuster}`, { cache: "no-store" })
+      ]);
+      if (!electionResponse.ok || !programmesResponse.ok) {
+        throw new Error("Les données éditoriales ne sont pas disponibles.");
       }
-
-      if (!programmesResponse.ok) {
-        throw new Error(
-          `programmes.json : HTTP ${programmesResponse.status}`
-        );
+      const election = await electionResponse.json();
+      const programmes = await programmesResponse.json();
+      for (const champ of ["candidatures", "sondages", "actualites", "sources"]) {
+        if (!Array.isArray(election[champ])) {
+          throw new Error(`Structure incorrecte : ${champ}`);
+        }
       }
-      if (!validationResponse.ok) {
-  throw new Error(
-    `a_valider.json : HTTP ${validationResponse.status}`
-  );
-}
-
-      electionData =
-  await electionResponse.json();
-
-programmesData =
-  await programmesResponse.json();
-
-const validationData =
-  await validationResponse.json();
-
-const actualitesValidees = validationData.filter(
-  item => item.publication_automatique === true
-);
-
-electionData.actualites = [
-  ...(electionData.actualites || []),
-  ...actualitesValidees
-];
+      if (!Array.isArray(programmes.pretendants)) {
+        throw new Error("Structure incorrecte : programmes");
+      }
+      electionData = election;
+      programmesData = programmes;
+      // La file a_valider.json ne constitue jamais une source de publication.
 
       afficherDates();
       afficherCandidatures();
