@@ -23,7 +23,7 @@ def controler_article(item, source, body, now=None):
     meta = parser.meta
     titre = re.sub(r'\s+', ' ', meta.get('og:title', '')).strip()
     try:
-        date = datetime.fromisoformat(meta.get('article:published_time', '').replace('Z', '+00:00'))
+        date = datetime.fromisoformat((meta.get('article:published_time') or meta.get('og:article:published_time', '')).replace('Z', '+00:00'))
         if date.tzinfo is None:
             date = date.replace(tzinfo=timezone.utc)
     except ValueError:

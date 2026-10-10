@@ -13,6 +13,7 @@ class AutomatisationTests(unittest.TestCase):
         self.assertEqual(article['controle'],'automatique')
         self.assertEqual(article['source'],'Mediapart')
         self.assertNotIn('resume',article)
+        self.assertIsNotNone(controler_article(self.item,self.source,self.body.replace('article:published_time','og:article:published_time'),self.now))
         for body in [self.body.replace('2026-10-10','2025-10-10'),self.body.replace('2026-10-10','2026-11-10'),self.body.replace('article:published_time','missing'),self.body.replace('La présidentielle et les propositions pour 2027','Le jardinage pour tout le monde')]:
             self.assertIsNone(controler_article(self.item,self.source,body,self.now))
         self.assertIsNone(controler_article(dict(self.item,url='https://evil.test/article'),self.source,self.body,self.now))
