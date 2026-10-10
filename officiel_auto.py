@@ -64,7 +64,7 @@ def analyser_publication(nom,url,body):
     claims=[]
     for sentence in sentences:
         if not 5<=len(sentence.split())<=25 or not 35<=len(sentence)<=230: continue
-        if not re.search(r'\b(propos\w*|souhait\w*|voul\w*|veut|cr[ée]er|garantir|r[ée]duire|augmenter|r[ée]tablir|supprimer|financer|renforcer|instaurer)\b',sentence,re.I): continue
+        if not re.search(r'\b(propose|proposons|proposer|proposera|proposent|souhaite|souhaitons|voulons|veut|cr[ée]er|garantir|r[ée]duire|augmenter|r[ée]tablir|supprimer|financer|renforcer|instaurer)\b',sentence,re.I): continue
         themes=[key for theme,key in THEME_KEYS.items() if any(contient_expression(sentence,mot) for mot in THEMES[theme])]
         if themes:
             claims=[{'texte':sentence,'themes':themes}]
