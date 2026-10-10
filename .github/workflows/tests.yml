@@ -21,6 +21,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - run: python -m pip install -r requirements.txt
       - run: python -m unittest discover -s tests -v
       - run: node tests/interface.cjs
       - run: python construire_site.py --output _site
@@ -28,15 +29,46 @@ jobs:
   sources_reelles:
     if: github.event_name == 'workflow_dispatch' && inputs.verifier_sources == true
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python tests/smoke_sources.py --max-articles 20
+      - run: python -m pip install -r requirements.txt
+      - name: Reserver l espace du moteur CPU
+        run: |
+          available=$(df --output=avail -k . | tail -1)
+          if [ "$available" -lt 24000000 ]; then
+            sudo rm -rf /usr/share/dotnet /usr/local/lib/android
+          fi
+          df -h .
+
+      - uses: actions/cache/restore@v4
+        id: cache
+        continue-on-error: true
+        with:
+          path: .cache-modeles/gguf14
+          key: qwen14b-gguf-b466e1f8-b11541-v1
+      - run: python preparer_resumes.py
+        id: moteur
+      - run: python tests/smoke_sources.py --max-articles 20 --require-summary
+        env:
+          RESUMES_LOCAUX: '1'
       - run: python construire_site.py --data-dir .preview/data --output _site
       - uses: actions/upload-artifact@v4
         with:
           name: bilan-veille-sans-publication
-          path: _site/data/suivi.json
+          path: _site/
+      - name: Conserver le modele verifie
+        if: always() && steps.moteur.outcome == 'success' && steps.cache.outputs.cache-hit != 'true'
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: .cache-modeles/gguf14
+          key: qwen14b-gguf-b466e1f8-b11541-v1
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: diagnostic-moteur
+          path: .cache-modeles/gguf14/moteur.log

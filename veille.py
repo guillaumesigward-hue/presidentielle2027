@@ -62,6 +62,7 @@ class PageArticle(HTMLParser):
         self.paragraphes = []
         self.description = ''
         self.a_article = False
+        self.nombre_articles = 0
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
@@ -74,6 +75,7 @@ class PageArticle(HTMLParser):
         self.stack.append(tag)
         if tag == 'article':
             self.a_article = True
+            self.nombre_articles += 1
 
     def handle_endtag(self, tag):
         self.handle_data(' ')
@@ -84,7 +86,7 @@ class PageArticle(HTMLParser):
     def handle_data(self, data):
         if any(tag in self.IGNORES for tag in self.stack):
             return
-        if 'article' in self.stack:
+        if 'article' in self.stack and self.nombre_articles == 1:
             self.article.append(data)
         if 'p' in self.stack:
             self.paragraphes.append(data)

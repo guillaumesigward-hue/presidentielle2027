@@ -25,6 +25,9 @@ def preparer_site(output, data_dir=None):
         raise ValueError('status.json : garanties de veille absentes')
     suivi = {key: status.get(key) for key in ('last_checked_utc', 'last_checked_fr')}
     suivi['publication_automatique'] = status['publication_automatique']
+    suivi['sondages_automatiques'] = status.get('sondages_automatiques', {})
+    suivi['campagnes_automatiques'] = status.get('campagnes_automatiques', {})
+    suivi['resumes_automatiques'] = status.get('resumes_automatiques', {})
     if status['publication_automatique']:
         detections = json.loads((data_dir / 'actualites_detectees.json').read_text(encoding='utf-8'))
         queue = json.loads((data_dir / 'a_valider.json').read_text(encoding='utf-8'))
@@ -56,6 +59,12 @@ def preparer_site(output, data_dir=None):
         if source['url'] not in urls:
             election['sources'].append({'nom': source['nom'], 'url': source['url'],
                 'description': 'Média indépendant / investigation suivi automatiquement. Titres et analyses attribués au média ; enquêtes antérieures datées séparément.'})
+    if status['publication_automatique']:
+        for source in election['sources']:
+            if source.get('nom') == 'Commission des sondages':
+                source['description'] = 'Notices officielles suivies automatiquement. Les résultats des tableaux compatibles sont extraits avec leur méthodologie ; les autres formats sont signalés.'
+            elif source.get('nom') == 'Verian':
+                source['description'] = 'Publications et études suivies. Les résultats ne sont intégrés que lorsque leur tableau et leur méthodologie peuvent être contrôlés automatiquement.'
     suivi['sources'] = {nom: {key: source[key] for key in CHAMPS_SUIVI if key in source}
                         for nom, source in status['sources'].items()}
     output = Path(output)

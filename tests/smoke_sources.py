@@ -15,6 +15,7 @@ import veille
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--max-articles', type=int, default=20)
+parser.add_argument('--require-summary', action='store_true')
 args = parser.parse_args()
 
 data = update.ROOT / '.preview' / 'data'
@@ -39,3 +40,12 @@ status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
 for nom, source in status['sources'].items():
     print(nom, json.dumps({key: value for key, value in source.items()
                            if key in ('ok', 'erreur', 'liens_trouves', 'liens_examines', 'extractions_vides', 'detections', 'notices_detectees')}, ensure_ascii=False))
+for cle in ('resumes_automatiques', 'sondages_automatiques', 'campagnes_automatiques'):
+    print(cle, json.dumps(status.get(cle, {}), ensure_ascii=False))
+snapshot = json.loads((data / 'publications_auto.json').read_text(encoding='utf-8'))
+print('erreurs_resumes', [{ 'source': x['source'], 'erreur': x.get('resume_erreur') } for x in snapshot['articles'] if x.get('resume_erreur')])
+for article in snapshot['articles']:
+    if article.get('resume_statut') == 'disponible':
+        print('RESUME', article['source'], article['url'], article['resume'])
+if args.require_summary:
+    assert any(x.get('resume_statut') == 'disponible' for x in snapshot['articles']), 'Le test réel ne valide aucun résumé : vérifier le moteur avant publication.'

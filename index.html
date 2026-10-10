@@ -420,6 +420,7 @@
     <h2>Actualités</h2>
     <p class="section-intro">
       Actualités éditoriales et liens de presse sélectionnés automatiquement.
+      Les résumés disponibles apparaissent en premier. Un article fermé ou une vidéo sans texte accessible reste signalé sans résumé.
       Les liens automatiques sont attribués à leur média ; leurs contrôles de provenance et de date ne constituent pas une vérification indépendante des faits.
     </p>
     <div class="grid" id="actualites-grid"></div>
@@ -490,8 +491,11 @@
         Le dispositif automatique surveille certaines sources et peut détecter
         de nouvelles publications. Les liens de presse récents passent des contrôles
         automatiques de source, de date, de pertinence et de doublons.
-        Ces contrôles ne prouvent pas l'exactitude des articles. Ils ne modifient
-        pas automatiquement les candidatures, programmes ou chiffres de sondages.
+        Les textes accessibles peuvent être résumés automatiquement, sans clé API.
+        Les affirmations restent attribuées au média ; un résumé insuffisant est signalé.
+        Les tableaux compatibles des notices officielles enrichissent les sondages.
+        Les publications explicites des sources de campagne enrichissent les programmes.
+        Ces contrôles ne constituent pas une vérification indépendante des faits.
       </p>
     </article>
 
@@ -602,6 +606,12 @@ ecologie: "Écologie"
         if (publications !== undefined) etat += ` — ${Number(publications) || 0} publication(s) retenue(s)`;
         return `<li><strong>${escapeHtml(noms[nom] || nom)}</strong> : ${escapeHtml(etat)}</li>`;
       }).join("")}</ul>`;
+    const resumes = suiviData.resumes_automatiques;
+    if (resumes) container.innerHTML += `<p><strong>Résumés des articles :</strong> ${(Number(resumes.resumes)||0)+(Number(resumes.reutilises)||0)} disponibles ; ${Number(resumes.indisponibles)||0} indisponibles ou écartés.</p>`;
+    const polls = suiviData.sondages_automatiques;
+    if (polls) container.innerHTML += `<p><strong>Sondages :</strong> ${Number(polls.notices_examinees)||0} notices examinées ; ${Number(polls.scenarios_extraits)||0} scénarios extraits lors du dernier passage ; ${(polls.non_exploitables || []).length} notice(s) sans tableau compatible. Les résultats précédents sont conservés en cas de panne.</p>`;
+    const campagnes = suiviData.campagnes_automatiques;
+    if (campagnes) container.innerHTML += `<p><strong>Sources de campagne :</strong> ${Number(campagnes.pages_accessibles)||0} pages accessibles sur ${Number(campagnes.pages_examinees)||0} examinées ; ${Number(campagnes.propositions_extraites)||0} extraits de propositions retenus. Une absence d’extraction ne signifie pas une absence de programme.</p>`;
   }
 
   function afficherCandidatures() {
@@ -621,6 +631,7 @@ ecologie: "Écologie"
       <article class="card">
         <h3>${escapeHtml(item.nom)}</h3>
         <p>${escapeHtml(item.description || "")}</p>
+        ${item.preuve_automatique ? `<p><strong>Déclaration sur la source de campagne :</strong> ${escapeHtml(item.preuve_automatique)}</p>` : ""}
         ${eclairagesAutomatiques(null, item.nom)}
         ${
           item.url
@@ -680,6 +691,8 @@ ecologie: "Écologie"
     return `
       <article class="card poll-card">
         <h3>${escapeHtml(item.titre || item.nom || item.institut || "Sondage")}</h3>
+        ${item.controle === "automatique" ? '<p><strong>Résultats publiés — extraction automatique de la notice officielle</strong></p>' : ""}
+        ${item.resume ? `<h4>Ce qu’il faut retenir</h4><p>${escapeHtml(item.resume)}</p>` : ""}
 
         ${
           resultats
@@ -809,7 +822,15 @@ ecologie: "Écologie"
       (!personne || (x.candidats_mentions || []).includes(personne))).slice(0, 4);
     return articles.length ? `<div class="card"><h4>Publications suivies automatiquement</h4>
       <p>Éclairage de presse, sans attribution automatique de nouvelles propositions ou d'un statut de candidature.</p>
-      <ul>${articles.map(x => `<li>${lienSource(x.url, x.source + " — " + x.titre)} (${escapeHtml(x.date_publication.slice(0,10))})</li>`).join("")}</ul></div>` : "";
+      <ul>${articles.map(x => `<li>${lienSource(x.url, x.source + " — " + x.titre)} (${escapeHtml(x.date_publication.slice(0,10))})${afficherResume(x)}</li>`).join("")}</ul></div>` : "";
+  }
+
+  function afficherResume(item) {
+    if (item.controle !== "automatique") return "";
+    const paragraphes = item.resume_statut === "disponible" && item.resume
+      ? `<h4>L’essentiel selon ${escapeHtml(item.source || "la source")}</h4>` + String(item.resume).split(/\n\n+/).map(p => `<p>${escapeHtml(p)}</p>`).join("")
+      : '<p><strong>Résumé détaillé indisponible.</strong></p>';
+    return paragraphes + `<p class="source-meta">${escapeHtml(item.resume_limite || "Le texte accessible ne permet pas de produire un résumé détaillé.")}</p>`;
   }
 
   function afficherProgrammes() {
@@ -874,6 +895,8 @@ ecologie: "Écologie"
 
           <h4>${escapeHtml(themeLabels[themeActif])}</h4>
           <p>${escapeHtml(theme.resume || "")}</p>
+          ${(theme.propositions_automatiques || []).length ? `<div class="aesh-box"><h4>Extraits des sources de campagne suivies automatiquement</h4><p>Ces déclarations sont attribuées à la campagne. Elles complètent la fiche sans établir leur faisabilité ni leur financement.</p>${theme.propositions_automatiques.map(x => `<p>${escapeHtml(x.texte)}</p><p>${lienSource(x.url, "Source de campagne")} — ${escapeHtml(x.date_publication?.slice(0,10) || "Date de publication non précisée")}</p>`).join("")}</div>` : ""}
+          ${theme.resume_archive ? `<details><summary>Fiche antérieure conservée</summary><p>${escapeHtml(theme.resume_archive)}</p><p><strong>Financement indiqué dans la fiche antérieure :</strong> ${escapeHtml(theme.financement_archive || "Non précisé")}</p><p><strong>Population concernée dans la fiche antérieure :</strong> ${escapeHtml(theme.population_archive || "Non précisée")}</p></details>` : ""}
 
           <h4>Financement / chiffrage</h4>
           <p>${escapeHtml(theme.financement || "Non précisé.")}</p>
@@ -938,8 +961,8 @@ ecologie: "Écologie"
     const container =
       document.getElementById("actualites-grid");
 
-    const actualites =
-      electionData?.actualites || [];
+    const actualites = [...(electionData?.actualites || [])].sort((a, b) =>
+      Number(b.resume_statut === "disponible") - Number(a.resume_statut === "disponible"));
 
     if (!actualites.length) {
       container.innerHTML =
@@ -950,8 +973,9 @@ ecologie: "Écologie"
     container.innerHTML = actualites.map(item => `
       <article class="card news-card">
         <h3>${escapeHtml(item.titre || item.nom || "Actualité")}</h3>
-        ${item.controle === "automatique" ? `<p><strong>${item.enquete_anterieure ? "Enquête antérieure — sélection automatique" : "Lien sélectionné automatiquement"}</strong> — ${escapeHtml(item.date_publication?.slice(0, 10) || "")}</p>` : ""}
+        ${item.controle === "automatique" ? `<p><strong>${item.enquete_anterieure ? "Publication antérieure — sélection automatique" : "Lien sélectionné automatiquement"}</strong> — ${escapeHtml(item.date_publication?.slice(0, 10) || "")}</p>` : ""}
         <p>${escapeHtml(item.description || "")}</p>
+        ${afficherResume(item)}
         ${
           item.url
             ? `<p>${lienSource(item.url, item.source || "Source")}</p>`
