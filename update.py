@@ -591,7 +591,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             nom_source,
             len(liens)
         )
-
+        
         nombre_detecte = 0
         nouvelles_detections_source = []
         nombre_liens_examines = 0
