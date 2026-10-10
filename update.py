@@ -6,6 +6,7 @@ import html
 import json
 import re
 import urllib.request
+from functools import lru_cache
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
@@ -83,6 +84,7 @@ MOTS_CLES_POLITIQUES = [
 USER_AGENT = "Presidentielle2027SourceMonitor/5.0"
 
 
+@lru_cache(maxsize=128)
 def fetch(url):
     request = urllib.request.Request(
         url,
@@ -207,7 +209,6 @@ candidats_recherches = {
     ],
     "Marine Le Pen": [
         "marine le pen",
-        "le pen",
     ],
     "Fabien Roussel": [
         "fabien roussel",
@@ -219,8 +220,17 @@ candidats_recherches = {
     ],
 }
 
+candidats_recherches.update({
+    'Jordan Bardella': ['jordan bardella', 'bardella'],
+    'Raphaël Glucksmann': ['raphaël glucksmann', 'glucksmann'],
+    'Marine Tondelier': ['marine tondelier', 'tondelier'],
+    'Olivier Faure': ['olivier faure'],
+})
+
 
 def main():
+    if hasattr(fetch, 'cache_clear'):
+        fetch.cache_clear()
     now = datetime.now(timezone.utc)
 
     months = [
@@ -523,6 +533,14 @@ def main():
     a_valider = construire_validation(
         detections, validations_existantes, SOURCES_JOURNALISTIQUES
     )
+
+    # Les pages déjà collectées sont réutilisées grâce au cache du passage courant.
+    # La publication devient une construction locale reproductible, sans réseau.
+    from automatisation import selectionner_articles
+    exclusions = {item['url'] for item in a_valider if item.get('url') and item.get('statut') in ('Rejeté', 'Rejetée', 'Refusé')}
+    articles = selectionner_articles(detections, SOURCES_JOURNALISTIQUES, fetch, now, exclusions)
+    ecrire_json(DATA_DIR / 'publications_auto.json', {'last_checked_utc': status['last_checked_utc'], 'articles': articles})
+    status['publications_par_media'] = {source['nom']: sum(x['source'] == source['nom'] for x in articles) for source in SOURCES_JOURNALISTIQUES}
 
     ecrire_json(
         election_file,

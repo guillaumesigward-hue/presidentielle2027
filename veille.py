@@ -15,11 +15,11 @@ CHEMINS_EXCLUS = (
     '/a-propos', '/about', '/mot-cle/', '/mot-cles/', '/club/',
 )
 THEMES = {
-    'École': ['école', 'éducation', 'enseignant', 'élève', 'collège', 'lycée'],
+    'École': ['école', 'éducation', 'enseignant', 'élève', 'collège', 'lycée', 'lycéen', 'lycéenne', 'scolaire'],
     'Santé': ['santé', 'hôpital', 'médecin', 'soins', 'sécurité sociale'],
     'Énergie': ['énergie', 'électricité', 'nucléaire', 'gaz', 'énergétique'],
     'Fiscalité': ['impôt', 'fiscalité', 'taxe'],
-    'Écologie': ['écologie', 'climat', 'environnement', 'pollution', 'biodiversité'],
+    'Écologie': ['écologie', 'écologique', 'climat', 'environnement', 'pollution', 'pollueur', 'pollueurs', 'biodiversité'],
     'Handicap / AESH': ['handicap', 'aesh', 'inclusion scolaire', 'école inclusive'],
 }
 
@@ -112,7 +112,7 @@ def extraire_html(body):
 def surveiller_source(source, fetch, extraire, resume, candidats, date_fr, ajouter, detections):
     nom, source_url = source['nom'], source['url']
     resultat = {'ok': True, 'url': source_url, 'publication_automatique': False,
-                'raison': 'Veille uniquement. Validation humaine obligatoire.'}
+                'raison': 'Détections soumises aux contrôles automatiques de publication.'}
     articles = []
     examines = 0
     erreurs = 0
@@ -138,14 +138,17 @@ def surveiller_source(source, fetch, extraire, resume, candidats, date_fr, ajout
                         if any(contient_expression(analyse, variante) for variante in variantes)]
             contexte = any(contient_expression(analyse, mot) for mot in
                            ['présidentielle', 'présidentiel', 'candidat', 'candidate', 'candidature'])
-            if not contexte and not mentions:
+            themes = [theme for theme, mots in THEMES.items()
+                      if any(contient_expression(analyse, mot) for mot in mots)]
+            institutions = any(contient_expression(analyse, mot) for mot in
+                               ['gouvernement', 'ministre', 'matignon', 'bercy', 'argent public', 'politique publique'])
+            if not contexte and not mentions and not (themes and institutions):
                 continue
             detection = {
                 'type': source['type'], 'source': nom, 'titre': titre, 'url': url,
                 'resume': resume(texte), 'date_detection': date_fr,
                 'nature': 'actualité à qualifier',
-                'themes': [theme for theme, mots in THEMES.items()
-                           if any(contient_expression(analyse, mot) for mot in mots)],
+                'themes': themes,
                 'candidats_mentions': mentions, 'statut': 'À vérifier manuellement',
                 'publication_automatique': False,
                 'note': 'Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication.',

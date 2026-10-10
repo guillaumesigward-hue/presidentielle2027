@@ -40,6 +40,7 @@ class PublicationTests(unittest.TestCase):
             status['publication_automatique'] = True
             (data / 'status.json').write_text(json.dumps(status), encoding='utf-8')
             item = {'source':'Mediapart','url':'https://www.mediapart.fr/journal/politique/101026/test-auto'}
+            (data / 'publications_auto.json').unlink(missing_ok=True)
             (data / 'actualites_detectees.json').write_text(json.dumps([item,item]), encoding='utf-8')
             date = datetime.now(timezone.utc).isoformat()
             body = f'<meta property="og:title" content="Les propositions pour la présidentielle"><meta property="article:published_time" content="{date}">'
@@ -52,6 +53,24 @@ class PublicationTests(unittest.TestCase):
             self.assertEqual(len([x for x in actualites if x.get('url')==item['url']]),1)
             self.assertEqual(actualites[0]['controle'],'automatique')
             self.assertFalse((output / 'data/a_valider.json').exists())
+
+    def test_snapshot_build_is_offline_and_rejects_stale_selection(self):
+        with tempfile.TemporaryDirectory() as directory:
+            data = Path(directory) / 'data'
+            data.mkdir()
+            for file in update.DATA_DIR.glob('*.json'):
+                (data / file.name).write_bytes(file.read_bytes())
+            status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
+            status['publication_automatique'] = True
+            (data / 'status.json').write_text(json.dumps(status), encoding='utf-8')
+            selection = {'last_checked_utc':status['last_checked_utc'],'articles':[]}
+            (data / 'publications_auto.json').write_text(json.dumps(selection),encoding='utf-8')
+            with patch('construire_site.fetch', side_effect=AssertionError('Construction hors réseau')):
+                preparer_site(Path(directory)/'site',data)
+            selection['last_checked_utc']='ancien'
+            (data / 'publications_auto.json').write_text(json.dumps(selection),encoding='utf-8')
+            with self.assertRaises(ValueError):
+                preparer_site(Path(directory)/'autre',data)
 
     def test_publication_rejects_disabled_safeguard(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -383,6 +383,7 @@
       Un sondage mesure une situation à une date donnée et ne constitue pas une prédiction.
     </p>
     <div class="grid" id="sondages-grid"></div>
+    <div id="notices-automatiques"></div>
   </section>
 
   <section id="programmes">
@@ -597,6 +598,8 @@ ecologie: "Écologie"
         if (source.ok === true && source.etat_extraction === "aucun_article") {
           etat += " — aucun lien d’article exploitable détecté";
         }
+        const publications = suiviData.publications_par_media?.[noms[nom] || nom];
+        if (publications !== undefined) etat += ` — ${Number(publications) || 0} publication(s) retenue(s)`;
         return `<li><strong>${escapeHtml(noms[nom] || nom)}</strong> : ${escapeHtml(etat)}</li>`;
       }).join("")}</ul>`;
   }
@@ -618,6 +621,7 @@ ecologie: "Écologie"
       <article class="card">
         <h3>${escapeHtml(item.nom)}</h3>
         <p>${escapeHtml(item.description || "")}</p>
+        ${eclairagesAutomatiques(null, item.nom)}
         ${
           item.url
             ? `<p>${lienSource(item.url, item.source || "Source")}</p>`
@@ -628,6 +632,10 @@ ecologie: "Écologie"
   }
 
   function afficherSondages() {
+  document.getElementById("notices-automatiques").innerHTML = (electionData?.notices_automatiques || []).length ? `
+    <article class="card"><h3>Dernières notices officielles détectées</h3>
+    <p>Documents de la Commission des sondages suivis automatiquement. Leur présence ne signifie pas qu'ils contiennent des intentions de vote ; aucun résultat chiffré n'est déduit du titre.</p>
+    <ul>${electionData.notices_automatiques.map(x => `<li>${lienSource(x.url, x.titre)} — repérée le ${escapeHtml(x.date_detection)}</li>`).join("")}</ul></article>` : "";
   const container =
     document.getElementById("sondages-grid");
 
@@ -794,6 +802,16 @@ ecologie: "Écologie"
     `;
   }
 
+  function eclairagesAutomatiques(theme, personne) {
+    const noms = {ecole:"École",sante:"Santé",energie:"Énergie",fiscalite:"Fiscalité",ecologie:"Écologie"};
+    const articles = (electionData?.eclairages_automatiques || []).filter(x =>
+      (!theme || (x.themes || []).includes(noms[theme])) &&
+      (!personne || (x.candidats_mentions || []).includes(personne))).slice(0, 4);
+    return articles.length ? `<div class="card"><h4>Publications suivies automatiquement</h4>
+      <p>Éclairage de presse, sans attribution automatique de nouvelles propositions ou d'un statut de candidature.</p>
+      <ul>${articles.map(x => `<li>${lienSource(x.url, x.source + " — " + x.titre)} (${escapeHtml(x.date_publication.slice(0,10))})</li>`).join("")}</ul></div>` : "";
+  }
+
   function afficherProgrammes() {
     const container =
       document.getElementById("programmes-grid");
@@ -910,9 +928,10 @@ ecologie: "Écologie"
 
           <h4>Sources</h4>
           ${sourcesHtml}
+          ${eclairagesAutomatiques(themeActif, personne.nom)}
         </article>
       `;
-    }).join("");
+    }).join("") + eclairagesAutomatiques(themeActif, null);
   }
 
   function afficherActualites() {
@@ -931,7 +950,7 @@ ecologie: "Écologie"
     container.innerHTML = actualites.map(item => `
       <article class="card news-card">
         <h3>${escapeHtml(item.titre || item.nom || "Actualité")}</h3>
-        ${item.controle === "automatique" ? `<p><strong>Lien sélectionné automatiquement</strong> — ${escapeHtml(item.date_publication?.slice(0, 10) || "")}</p>` : ""}
+        ${item.controle === "automatique" ? `<p><strong>${item.enquete_anterieure ? "Enquête antérieure — sélection automatique" : "Lien sélectionné automatiquement"}</strong> — ${escapeHtml(item.date_publication?.slice(0, 10) || "")}</p>` : ""}
         <p>${escapeHtml(item.description || "")}</p>
         ${
           item.url
