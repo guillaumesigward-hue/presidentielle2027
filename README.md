@@ -1,14 +1,40 @@
-# Présidentielle 2027 — site prêt à publier
+# Présidentielle 2027 — veille et publication contrôlée
 
 Site statique neutre avec sources et contrôle quotidien automatisé des pages de la Commission des sondages et de Verian (héritier de Sofres).
 
-## Mise en ligne avec GitHub Pages
-1. Créez un dépôt GitHub public et importez tout le contenu de ce dossier à la racine.
-2. Dans **Settings → Pages → Build and deployment → Source**, choisissez **GitHub Actions**.
-3. Ouvrez l'onglet **Actions** et lancez le workflow « Mise à jour quotidienne et publication » si nécessaire.
-4. Le site sera disponible à l'adresse `https://VOTRE-COMPTE.github.io/NOM-DU-DEPOT/`.
+## Vérifications et publication
 
-Le workflow s'exécute aussi chaque jour à 05:17 UTC. Il vérifie l'accessibilité des sources officielles, enregistre la date de contrôle dans `data/status.json`, puis republie le site.
+Les tests s'exécutent avec `python -m unittest discover -s tests -v` et
+`node tests/interface.cjs`. Ils sont également lancés par GitHub Actions.
+La veille quotidienne à 05:17 UTC ne publie aucun nouvel article validé : elle
+met à jour les fichiers de suivi et la file de contrôle humain sur `main`.
+Elle n'altère pas les fiches programmes ni les actualités éditoriales.
+
+Avant toute fusion, vérifier **Settings → Pages → Build and deployment → Source**.
+Le réglage doit être **GitHub Actions**, car une publication depuis la branche
+`main` publierait automatiquement toute mise à jour de cette branche.
+Ce réglage n'est pas modifié par les fichiers de workflow.
+
+Après validation explicite de l'utilisateur, lancer « Publication manuelle validee »
+sur `main` en cochant `validation_utilisateur`. Aucun calendrier ni push ne lance
+ce workflow. Il ne livre que `index.html`, `data/election.json` et
+`data/programmes.json`. La file `a_valider.json` n'est jamais chargée par l'interface.
+
+## Validation éditoriale
+
+`Retenu` est une décision de contrôle, pas une commande de publication.
+Vérifier la source et corriger le résumé complet, puis intégrer manuellement
+l'actualité dans `data/election.json` (`titre`, `description`, `source`, `url`).
+Conserver `publication_automatique: false` dans les fichiers de suivi.
+Un extrait automatique peut être tronqué, limité aux métadonnées ou vide : il
+ne remplace jamais la lecture humaine de la source.
+
+La veille examine au plus vingt URL distinctes par média et par passage.
+`ok` indique l'accès à la page source ; `etat_extraction`, `liens_examines` et
+`extractions_vides` décrivent séparément la qualité de l'extraction.
+Les fichiers JSON manquants, invalides ou de type inattendu interrompent la
+mise à jour avant écriture au lieu de remplacer l'historique par des listes vides.
+Les décisions et résumés humains de la file sont conservés sans limite de cent entrées.
 
 ## Limite importante
 Le robot ne réécrit pas automatiquement les programmes ou l'actualité politique : une modification éditoriale automatique sans validation risquerait d'introduire une interprétation, une erreur de source ou de mélanger des hypothèses de sondage. Le site affiche donc le contenu éditorial sourcé déjà vérifié et automatise la surveillance/horodatage des sources. Les nouvelles données doivent être validées avant remplacement des chiffres ou des fiches.
