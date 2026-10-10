@@ -16,6 +16,7 @@ class PublicationTests(unittest.TestCase):
             for file in update.DATA_DIR.glob('*.json'):
                 (data / file.name).write_bytes(file.read_bytes())
             status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
+            status['publication_automatique'] = False
             status['sources']['blast'] = {'ok': True, 'etat_extraction': 'partielle',
                 'extractions_vides': 6, 'mise_a_jour': {'articles': [{'titre': 'NON VALIDE'}]}}
             (data / 'status.json').write_text(json.dumps(status), encoding='utf-8')
@@ -27,6 +28,30 @@ class PublicationTests(unittest.TestCase):
             self.assertNotIn('mise_a_jour', suivi['sources']['blast'])
             self.assertFalse(suivi['publication_automatique'])
             self.assertEqual((output / 'data/programmes.json').read_bytes(), (data / 'programmes.json').read_bytes())
+
+    def test_active_mode_publishes_only_controlled_links(self):
+        from datetime import datetime, timezone
+        with tempfile.TemporaryDirectory() as directory:
+            data = Path(directory) / 'data'
+            data.mkdir()
+            for file in update.DATA_DIR.glob('*.json'):
+                (data / file.name).write_bytes(file.read_bytes())
+            status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
+            status['publication_automatique'] = True
+            (data / 'status.json').write_text(json.dumps(status), encoding='utf-8')
+            item = {'source':'Mediapart','url':'https://www.mediapart.fr/journal/politique/101026/test-auto'}
+            (data / 'actualites_detectees.json').write_text(json.dumps([item,item]), encoding='utf-8')
+            date = datetime.now(timezone.utc).isoformat()
+            body = f'<meta property="og:title" content="Les propositions pour la présidentielle"><meta property="article:published_time" content="{date}">'
+            output = Path(directory) / 'site'
+            with patch('construire_site.fetch', return_value=body):
+                suivi = preparer_site(output, data)
+            actualites = json.loads((output / 'data/election.json').read_text(encoding='utf-8'))['actualites']
+            self.assertTrue(suivi['publication_automatique'])
+            self.assertEqual(suivi['articles_automatiques'],1)
+            self.assertEqual(len([x for x in actualites if x.get('url')==item['url']]),1)
+            self.assertEqual(actualites[0]['controle'],'automatique')
+            self.assertFalse((output / 'data/a_valider.json').exists())
 
     def test_publication_rejects_disabled_safeguard(self):
         with tempfile.TemporaryDirectory() as directory:
