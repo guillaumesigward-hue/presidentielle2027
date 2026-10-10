@@ -81,7 +81,7 @@ class VeilleTests(unittest.TestCase):
             self.assertEqual((data / 'programmes.json').read_bytes(), programmes)
             status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
             self.assertEqual(len(status['sources']), 5)
-            self.assertFalse(status['publication_automatique'])
+            self.assertTrue(status['publication_automatique'])
             self.assertTrue(all(not item['publication_automatique'] for item in status['sources'].values()))
 
     def test_repository_json(self):

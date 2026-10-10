@@ -35,7 +35,7 @@ class PublicationTests(unittest.TestCase):
             for file in update.DATA_DIR.glob('*.json'):
                 (data / file.name).write_bytes(file.read_bytes())
             status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
-            status['publication_automatique'] = True
+            status['publication_automatique'] = 'true'
             (data / 'status.json').write_text(json.dumps(status), encoding='utf-8')
             with self.assertRaises(ValueError):
                 preparer_site(Path(directory) / 'site', data)

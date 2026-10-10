@@ -279,7 +279,7 @@ def main():
     status = {
         "last_checked_utc": now.isoformat(),
         "last_checked_fr": date_fr,
-        "publication_automatique": False,
+        "publication_automatique": True,
         "sources": {}
     }
 
