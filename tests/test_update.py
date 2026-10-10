@@ -71,14 +71,23 @@ class VeilleTests(unittest.TestCase):
             original = copy.deepcopy(election)
             for filename in ['election.json', 'a_valider.json', 'actualites_detectees.json', 'programmes.json']:
                 (data / filename).write_bytes((update.DATA_DIR / filename).read_bytes())
-            programmes = (data / 'programmes.json').read_bytes()
+            programmes = json.loads((data / 'programmes.json').read_text(encoding='utf-8'))
             with patch.object(update, 'DATA_DIR', data), patch.object(update, 'fetch', return_value=''), contextlib.redirect_stdout(io.StringIO()):
                 update.main()
             result = json.loads((data / 'election.json').read_text(encoding='utf-8'))
             result.pop('derniere_mise_a_jour', None)
             original.pop('derniere_mise_a_jour', None)
+            for document in (result, original):
+                for candidat in document['candidatures']:
+                    candidat.pop('dernier_controle_sources', None)
             self.assertEqual(result, original)
-            self.assertEqual((data / 'programmes.json').read_bytes(), programmes)
+            programmes_actualises = json.loads((data / 'programmes.json').read_text(encoding='utf-8'))
+            for document in (programmes_actualises, programmes):
+                document.pop('dernier_controle_automatique', None)
+                for personne in document['pretendants']:
+                    for theme in personne.get('themes', {}).values():
+                        theme.pop('dernier_controle_sources', None)
+            self.assertEqual(programmes_actualises, programmes)
             status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
             self.assertEqual(len(status['sources']), 5)
             self.assertTrue(status['publication_automatique'])

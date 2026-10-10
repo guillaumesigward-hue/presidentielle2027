@@ -2,6 +2,7 @@
 const fs = require('node:fs');
 const vm = require('node:vm');
 const assert = require('node:assert/strict');
+const path = require('node:path');
 const html = fs.readFileSync('index.html', 'utf8');
 const script = html.match(/<script>([\s\S]*?)<\/script>/)[1];
 const elements = {};
@@ -16,15 +17,15 @@ const context = vm.createContext({
     querySelectorAll() { return buttons; }
   }, fetch: async url => {
     requests.push(url);
-    const path = url.split('?')[0];
-    if (path === 'data/suivi.json') {
+    const chemin = url.split('?')[0];
+    if (chemin === 'data/suivi.json') {
       return { ok: true, json: async () => ({
         last_checked_utc: new Date().toISOString(), last_checked_fr: '10 octobre 2026',
         sources: { blast: { ok: true, etat_extraction: 'partielle', extractions_vides: 6 },
           disclose: { ok: false } }
       }) };
     }
-    return { ok: true, json: async () => JSON.parse(fs.readFileSync(path, 'utf8')) };
+    return { ok: true, json: async () => JSON.parse(fs.readFileSync(path.join(process.env.SITE_DATA_DIR || '.', chemin), 'utf8')) };
   }
 });
 vm.runInContext(script, context);
@@ -40,6 +41,10 @@ setImmediate(() => {
     assert(elements['programmes-grid'].innerHTML.includes('<article'));
   }
   assert.equal(vm.runInContext('lienSource("javascript:alert(1)", "x")', context), '');
+  const resume = vm.runInContext('afficherResume({controle:"automatique",resume_statut:"disponible",resume:"<script>alert(1)</script>",source:"Test",resume_limite:"Texte accessible"})', context);
+  assert(resume.includes('&lt;script&gt;'));
+  assert(!resume.includes('<script>'));
+  assert(vm.runInContext('afficherResume({controle:"automatique",resume_statut:"indisponible"})', context).includes('indisponible'));
   assert(vm.runInContext('escapeHtml("<script>")', context).includes('&lt;'));
   assert(vm.runInContext('afficherSolidite({solidite_documentaire:"bad"})', context).includes('Non évaluée'));
   assert(elements.suivi.innerHTML.includes('extraction partielle'));

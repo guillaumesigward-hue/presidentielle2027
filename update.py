@@ -18,7 +18,7 @@ COMMISSION_URL = (
 
 VERIAN_URL = "https://www.veriangroup.com/fr/news-and-insights"
 # Sources journalistiques indépendantes / investigation.
-# Leur présence dans la veille ne vaut ni validation ni publication automatique.
+# Leur présence ne suffit pas : la sélection publique passe les contrôles de provenance.
 SOURCES_JOURNALISTIQUES = [
     {
         "nom": "Mediapart",
@@ -92,6 +92,16 @@ def fetch(url):
     )
     with urllib.request.urlopen(request, timeout=30) as response:
         return response.read().decode("utf-8", "replace")
+
+def fetch_pdf(url):
+    if not re.fullmatch(r'https://www\.commission-des-sondages\.fr/notices/medias/fichiers/add/\d+',url):
+        raise ValueError('Notice officielle non autorisée')
+    request=urllib.request.Request(url,headers={'User-Agent':USER_AGENT})
+    with urllib.request.urlopen(request,timeout=30) as response:
+        raw=response.read(20_000_001)
+    if len(raw)>20_000_000:
+        raise ValueError('Notice trop volumineuse')
+    return raw
 
 
 def clean_text(value):
@@ -296,6 +306,7 @@ def main():
     # On conserve l'historique des détections déjà enregistrées.
     detections = charger_json(detections_file, [])
     validations_existantes = charger_json(validation_file, [])
+    programmes = charger_json(DATA_DIR / 'programmes.json', {})
     for champ in ("candidatures", "sondages", "programmes", "actualites", "sources"):
         if not isinstance(election.get(champ), list):
             raise ValueError(f"election.json : {champ} doit être une liste")
@@ -381,11 +392,11 @@ def main():
             "raison": (
                 "La rubrique présidentielle de la Commission peut contenir "
                 "des enquêtes thématiques qui ne sont pas des intentions "
-                "de vote. Une vérification humaine est requise avant publication."
+                "de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
             )
         }
 
-        # On ne publie AUCUN résultat automatiquement.
+        # Les détections restent une archive ; le lecteur PDF contrôle les chiffres séparément.
         # On signale seulement les notices les plus récentes.
         notices_avec_id = [
             n for n in notices
@@ -539,8 +550,21 @@ def main():
     from automatisation import selectionner_articles
     exclusions = {item['url'] for item in a_valider if item.get('url') and item.get('statut') in ('Rejeté', 'Rejetée', 'Refusé')}
     articles = selectionner_articles(detections, SOURCES_JOURNALISTIQUES, fetch, now, exclusions)
+    from resumes_auto import resumer_publications
+    ancienne_publication = DATA_DIR / 'publications_auto.json'
+    precedentes = charger_json(ancienne_publication, {}).get('articles', []) if ancienne_publication.exists() else []
+    status['resumes_automatiques'] = resumer_publications(articles, fetch, precedentes)
     ecrire_json(DATA_DIR / 'publications_auto.json', {'last_checked_utc': status['last_checked_utc'], 'articles': articles})
     status['publications_par_media'] = {source['nom']: sum(x['source'] == source['nom'] for x in articles) for source in SOURCES_JOURNALISTIQUES}
+
+    from sondages_auto import actualiser_sondages
+    from officiel_auto import actualiser_officiel
+    # Une panne ne remplace jamais les derniers résultats lisibles par des zéros.
+    election['sondages'], status['sondages_automatiques'] = actualiser_sondages(
+        notices if status['sources'].get('commission_sondages',{}).get('ok') else [],
+        election['sondages'], fetch_pdf)
+    status['campagnes_automatiques'] = actualiser_officiel(election,programmes,fetch,date_fr)
+    ecrire_json(DATA_DIR / 'programmes.json', programmes)
 
     ecrire_json(
         election_file,

@@ -25,6 +25,9 @@ def preparer_site(output, data_dir=None):
         raise ValueError('status.json : garanties de veille absentes')
     suivi = {key: status.get(key) for key in ('last_checked_utc', 'last_checked_fr')}
     suivi['publication_automatique'] = status['publication_automatique']
+    suivi['sondages_automatiques'] = status.get('sondages_automatiques', {})
+    suivi['campagnes_automatiques'] = status.get('campagnes_automatiques', {})
+    suivi['resumes_automatiques'] = status.get('resumes_automatiques', {})
     if status['publication_automatique']:
         detections = json.loads((data_dir / 'actualites_detectees.json').read_text(encoding='utf-8'))
         queue = json.loads((data_dir / 'a_valider.json').read_text(encoding='utf-8'))

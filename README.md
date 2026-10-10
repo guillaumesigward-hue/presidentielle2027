@@ -6,12 +6,11 @@ Site statique neutre avec sources et contrôle quotidien automatisé des pages d
 
 Les tests s'exécutent avec `python -m unittest discover -s tests -v` et
 `node tests/interface.cjs`. Ils sont également lancés par GitHub Actions.
-La veille quotidienne à 05:17 UTC met à jour les fichiers de suivi et la file
-de contrôle humain sur `main`, puis actualise le site avec les données
-éditoriales existantes et un bilan public expurgé de la veille. Elle n'altère
-pas les fiches programmes ni les actualités éditoriales et ne publie aucun
-nouveau contenu politique détecté. Ce dispositif est activé seulement après
-validation de la version, fusion et réglage de Pages sur GitHub Actions.
+La veille à 05:17 et 17:17 UTC actualise les données et publie la révision exacte
+sur `main`. À la demande de l'utilisateur, le mode autonome est activé : liens
+de presse contrôlés, résumés locaux sans clé API, résultats de sondages extraits
+des notices compatibles et propositions explicites des sources de campagne.
+Les limites et la couverture sont visibles sur le site. Voir [AUTOMATISATION.md](AUTOMATISATION.md).
 
 Avant toute fusion, vérifier **Settings → Pages → Build and deployment → Source**.
 Le réglage doit être **GitHub Actions**, car une publication depuis la branche
@@ -23,17 +22,18 @@ sur `main` en cochant `validation_utilisateur`. Aucun calendrier ni push ne lanc
 ce workflow manuel. La veille quotidienne appelle le même mécanisme de
 construction sur la révision exacte qui vient d'être enregistrée.
 Le site ne contient que `index.html`, `data/election.json`, `data/programmes.json`
-et `data/suivi.json`, qui exclut tous les titres et résumés non validés.
+et `data/suivi.json`. Les détections brutes et la file d'archive sont exclues.
 La file `a_valider.json` n'est jamais chargée par l'interface.
 
 ## Validation éditoriale
 
 `Retenu` est une décision de contrôle, pas une commande de publication.
-Vérifier la source et corriger le résumé complet, puis intégrer manuellement
-l'actualité dans `data/election.json` (`titre`, `description`, `source`, `url`).
-Conserver `publication_automatique: false` dans les fichiers de suivi.
-Un extrait automatique peut être tronqué, limité aux métadonnées ou vide : il
-ne remplace jamais la lecture humaine de la source.
+Les corrections éditoriales peuvent être intégrées dans `data/election.json`
+(`titre`, `description`, `source`, `url`). Les anciennes décisions sont conservées
+et les rejets explicites restent exclus de la sélection. Le champ global
+`publication_automatique` indique le mode actif ; les anciens champs par détection
+restent des archives. Un article fermé ou un texte insuffisant n'est pas résumé
+à partir de son seul titre : cette limite est affichée.
 
 La veille examine au plus vingt URL distinctes par média et par passage.
 `ok` indique l'accès à la page source ; `etat_extraction`, `liens_examines` et
@@ -50,12 +50,18 @@ GitHub peut retarder les tâches planifiées ; il ne garantit pas une exécution
 à la minute près.
 
 ## Limite importante
-Le robot ne réécrit pas automatiquement les programmes ou l'actualité politique : une modification éditoriale automatique sans validation risquerait d'introduire une interprétation, une erreur de source ou de mélanger des hypothèses de sondage. Le site affiche donc le contenu éditorial sourcé déjà vérifié et automatise la surveillance/horodatage des sources. Les nouvelles données doivent être validées avant remplacement des chiffres ou des fiches.
+L'automatisation reste limitée aux domaines configurés et aux formats reconnus.
+Les résumés sont attribués et étiquetés automatiques ; les contrôles ne constituent
+pas une preuve de véracité. Les tableaux ambigus sont écartés et les données
+précédentes conservées en cas de panne. Les nouvelles campagnes doivent être
+ajoutées à la liste de domaines autorisés ; aucun nom n'est inventé par le robot.
 
 ## Sources surveillées
 - Commission des sondages — notices Présidentielle 2027
 - Verian — publications politiques
 - Verian — page institutionnelle confirmant l'héritage Sofres/TNS/Kantar Public
+- Mediapart, Blast et Disclose — sources indépendantes et d'investigation
+- Sources officielles des personnes déjà suivies — programmes et déclarations explicites
 ## Règles éditoriales pour les programmes et les actualités
 
 L'objectif du site est de présenter une synthèse factuelle, fidèle, complète et compréhensible des informations disponibles, sans recommander, classer ou noter les personnes suivies.
@@ -145,6 +151,8 @@ La « solidité documentaire » concerne uniquement le niveau de documentation d
 
 Le robot peut détecter de nouvelles publications, enregistrer leur existence et signaler qu'une vérification est nécessaire.
 
-Il ne doit pas publier automatiquement comme information politique vérifiée un résumé nouvellement généré sans contrôle préalable de la source et du contenu.
+Un résumé nouvellement généré passe les contrôles automatiques de source et de
+cohérence avant publication, avec une attribution claire et ses limites. Il ne
+doit jamais être présenté comme une information vérifiée indépendamment.
 
 La priorité éditoriale est la fidélité et la complétude. Si une source contient de nombreux éléments importants, le résumé peut être plus long afin de ne pas les tronquer ou les diluer.
