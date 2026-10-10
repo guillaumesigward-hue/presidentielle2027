@@ -169,5 +169,248 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Derrière la défense trumpiste de Jordan Bardella, le poison lent de la « réinformation »",
+    "url": "https://www.mediapart.fr/journal/politique/081026/derriere-la-defense-trumpiste-de-jordan-bardella-le-poison-lent-de-la-reinformation",
+    "resume": "Depuis les révélations de « Mediapart », le président du RN persiste dans le mensonge, multipliant les attaques contre les journalistes. Cette stratégie récolte les fruits de la « réinformation » pou…",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "« Vous nous faites honte ! » : Nuñez et Lecornu sous les tirs de barrage d’une Assemblée à cran",
+    "url": "https://www.mediapart.fr/journal/politique/061026/vous-nous-faites-honte-nunez-et-lecornu-sous-les-tirs-de-barrage-d-une-assemblee-cran",
+    "resume": "Lors d’un après-midi agité dans l’hémicycle, la gauche s’est insurgée contre la répression policière orchestrée par le gouvernement contre le mouvement lycéen. Le premier ministre et le ministre de l…",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Jordan Bardella convoque une fausse « source » révisionniste pour prouver qu’il n’est pas antisémite",
+    "url": "https://www.mediapart.fr/journal/politique/061026/jordan-bardella-convoque-une-fausse-source-revisionniste-pour-prouver-qu-il-n-est-pas-antisemite",
+    "resume": "Le président du RN a mis en cause « Mediapart » en s’appuyant sur le témoignage d’un militant d’extrême droite présenté comme une « source » manipulée. Problème : cet ancien camarade de Jordan Bardel…",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Jordan Bardella et l’antisémitisme : l’autre tache sur le parcours du président du RN",
+    "url": "https://www.mediapart.fr/journal/politique/061026/jordan-bardella-et-l-antisemitisme-l-autre-tache-sur-le-parcours-du-president-du-rn",
+    "resume": "Il a salué le « sérieux » du négationniste Robert Faurisson, écrit dans un journal antisémite et célébré Pétain : portrait de Jean-François Jalkh, pilier du RN et employeur au Parlement européen de J…",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Pas besoin d’avocats ni de communicants : CNews assure gratuitement la défense de Jordan Bardella",
+    "url": "https://www.mediapart.fr/journal/politique/041026/pas-besoin-d-avocats-ni-de-communicants-cnews-assure-gratuitement-la-defense-de-jordan-bardella",
+    "resume": "Il est bien pratique d’avoir une chaîne de télévision à sa disposition quand on est mis en cause. Depuis nos révélations sur ses écrits antisémites, CNews recrache les éléments de langage du patron d…",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Affaire Bardella : la semaine où le vernis a craqué",
+    "url": "https://www.mediapart.fr/journal/politique/041026/affaire-bardella-la-semaine-ou-le-vernis-craque",
+    "resume": "Les révélations de « Mediapart » sur les écrits antisémites de Jordan Bardella ont démoli quinze ans de « dédiabolisation » du RN et plongé le parti d’extrême droite dans une crise interne.",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "« Montages », « faux » : 24 heures de mensonges du Rassemblement national",
+    "url": "https://www.mediapart.fr/journal/politique/021026/montages-faux-24-heures-de-mensonges-du-rassemblement-national",
+    "resume": "Les lieutenants du parti d’extrême droite tentent de venir au secours de Jordan Bardella en attaquant les révélations de « Mediapart ». Dans les médias ou sur les réseaux sociaux, ils enchaînent les …",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Jordan Bardella embrasse l’arme trumpienne du mensonge",
+    "url": "https://www.mediapart.fr/journal/politique/021026/jordan-bardella-embrasse-l-arme-trumpienne-du-mensonge",
+    "resume": "Donald Trump a placé l’usage des bobards au centre de son action et en a fait le moteur de sa reconquête du pouvoir. Le président du Rassemblement national s’en inspire pour contrer les révélations d…",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Affaire Bardella : le trop long silence de BHL",
+    "url": "https://www.blast-info.fr/articles/2026/affaire-bardella-le-trop-long-silence-de-bhl-xSgT0peQTWSEh9Pzip9h8g",
+    "resume": "Sur France Inter, Bernard-Henri Lévy a laissé entendre qu’il détenait des éléments accablants sur l’antisémitisme de Jordan Bardella. Des éléments qu’il n’a jamais rendus publics, alors qu’il accuse depuis des années La France insoumise d’antisémitisme, sans rien produire à l’appui. Crédits photo/illustration en haut de page : Blast, le souffle de l’info",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Mensonges et désaveux : Laurent Nuñez face à sa démission",
+    "url": "https://www.blast-info.fr/articles/2026/mensonges-et-desaveux-laurent-nunez-face-a-sa-demission-s7qykXeyRa6kpaBZx5zD8w",
+    "resume": "En réponse à une mobilisation lycéenne d’ampleur qui n’a pas été anticipée, le gouvernement fait définitivement tomber le masque. Et en particulier Laurent Nuñez, premier flic de France et responsable de la répression féroce du mouvement, qui apparaît désormais désavoué de toute part : par la population, par ses supérieurs et maintenant même par ses propres troupes. Crédits photo/illustration en haut de page : Morgane Sabouret",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "6 octobre : récit d'une mobilisation historique",
+    "url": "https://www.blast-info.fr/emissions/2026/6-octobre-recit-d-une-mobilisation-historique-I-qB6B8lQ0qfY87OtG2vhg",
+    "resume": "La mobilisation du 6 octobre est déjà historique, tant par son ampleur que son intensité. Étudiants, salariés, parents d’élèves, personnels d’enseignement ont massivement rejoint les cortèges lycéens pour les protéger et porter avec eux leurs revendications. Selon l’Union syndicale lycéenne, plus de 1800 établissements ont été bloqués aujourd’hui.",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Mouvement lycéen : une répression brutale et inquiétante",
+    "url": "https://www.blast-info.fr/emissions/2026/mouvement-lyceen-une-repression-brutale-et-inquietante-t1ZSowBARf2Ek0lQRSNJ_A",
+    "resume": "Depuis près de deux semaines, la contestation lycéenne monte partout dans le pays. Au cœur des revendications, le manque de moyens éducatifs et le délabrement des établissements, mais aussi les discriminations entre les lycées de banlieue et de centre ville. La réponse du gouvernement s'est illustré dans la violence : interventions policières brutales, interpellations massives, consignes de fermeté passées aux procureurs, réprimandes aux parents...",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Disclose",
+    "titre": "notre actu",
+    "url": "https://disclose.ngo/fr/notes",
+    "resume": "2026 « L’enquête n’est qu’un point de départ » : les 559 impacts de Disclose en 2025 Des livraisons d’armes stoppées net, des multinationales poursuivies en justice et des mobilisations citoyennes inédites : les enquêtes de Disclose provoquent des réactions à tous les étages. Malgré les pressions subies par notre rédaction, nous avons recensé un nombre record d’impacts l’an dernier, affirmant durablement le journalisme d’investigation comme un contre-pouvoir. 21 mai 2026 « Le Sénat réclame l’identité de donateurs de Disclose : nous nous y opposons fermement » Le Sénat demande à Disclose de révéler l’identité de ses donateur·ices ayant fait…",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Santé",
+      "Écologie"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Disclose",
+    "titre": "impact",
+    "url": "https://disclose.ngo/fr/page/impact",
+    "resume": "Si la première mission de la presse est d’informer, Disclose estime que ses enquêtes sont utiles seulement si elles ont un impact concret sur la société. Manifestation contre les livraisons d’armements français en Israël révélées par Disclose, à Marseille (Bouches-du-Rhône) en septembre 2025. Photo : Frédéric Munsch / SIPA De par l’ampleur des scandales que nous révélons, nous fournissons aux citoyen·nes les moyens de faire pression sur les pouvoirs économiques et politiques, afin de provoquer des changements.",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Énergie",
+      "Écologie"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Disclose",
+    "titre": "Reconnaissance faciale illégale : la police prise en flagrant délit",
+    "url": "https://disclose.ngo/fr/article/reconnaissance-faciale-illegale-la-police-prise-en-flagrant-delit",
+    "resume": "Les forces de l’ordre continuent d’utiliser quotidiennement la reconnaissance faciale lors de contrôles d’identité, révèlent une vidéo et des témoignages exclusifs obtenus par Disclose et France 2. Exploitée massivement et hors de tout cadre légal, cette technologie cible d’abord des personnes racisées et des militant·es politiques. Elle conduit aussi à des erreurs d’identification grossières, au risque de faire accuser des innocent·es.",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Écologie"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Disclose",
+    "titre": "En savoir plus",
+    "url": "https://disclose.ngo/fr/article/pfas-six-communes-des-ardennes-portent-plainte-pour-mise-en-danger-de-la-vie-dautrui",
+    "resume": "Six communes des Ardennes ont porté plainte pour « mise en danger de la vie d’autrui » et « pollution de l’eau », mardi 7 avril, après avoir découvert l’ampleur de la contamination aux « polluants éternels » sur leur territoire. La procédure, qui s’appuie largement sur les enquêtes successives de Disclose, s’ajoute à trois autres plaintes enregistrées depuis l’été 2025. Dans les Ardennes et la Meuse, la riposte judiciaire s’organise face à la contamination aux PFAS révélée par Disclose et France 3.",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Santé",
+      "Écologie"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Disclose",
+    "titre": "En savoir plus",
+    "url": "https://disclose.ngo/fr/article/pollution-aux-pfas-deux-agriculteurs-des-ardennes-portent-plainte-et-demandent-des-comptes-a-letat",
+    "resume": "Un couple de maraîchers des Ardennes a déposé plainte, vendredi 27 mars, pour « mise en danger de la vie d’autrui », après les révélations de Disclose et France 3 sur la contamination aux PFAS de leurs légumes et de leur sang. Deux autres plaintes ont été déposées ces derniers jours par des habitant·es de ce territoire, touché par l’une des plus graves pollutions industrielles connues en France. Dans leurs terres, leurs légumes, et jusque dans leur sang : les PFAS se sont immiscés partout chez les Abraham.",
+    "date_detection": "10 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Santé",
+      "Énergie",
+      "Écologie"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
