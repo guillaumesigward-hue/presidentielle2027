@@ -894,6 +894,7 @@ ecologie: "Écologie"
 
           <h4>${escapeHtml(themeLabels[themeActif])}</h4>
           <p>${escapeHtml(theme.resume || "")}</p>
+          ${(theme.propositions_automatiques || []).length ? `<div class="aesh-box"><h4>Extraits des sources de campagne suivies automatiquement</h4><p>Ces déclarations sont attribuées à la campagne. Elles complètent la fiche sans établir leur faisabilité ni leur financement.</p>${theme.propositions_automatiques.map(x => `<p>${escapeHtml(x.texte)}</p><p>${lienSource(x.url, "Source de campagne")} — ${escapeHtml(x.date_publication?.slice(0,10) || "Date de publication non précisée")}</p>`).join("")}</div>` : ""}
           ${theme.resume_archive ? `<details><summary>Fiche antérieure conservée</summary><p>${escapeHtml(theme.resume_archive)}</p><p><strong>Financement indiqué dans la fiche antérieure :</strong> ${escapeHtml(theme.financement_archive || "Non précisé")}</p><p><strong>Population concernée dans la fiche antérieure :</strong> ${escapeHtml(theme.population_archive || "Non précisée")}</p></details>` : ""}
 
           <h4>Financement / chiffrage</h4>

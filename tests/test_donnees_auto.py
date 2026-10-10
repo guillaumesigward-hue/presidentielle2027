@@ -2,7 +2,7 @@ import copy
 import unittest
 from officiel_auto import analyser_publication, lien_officiel, actualiser_officiel
 from sondages_auto import tableau_resultats, methodologie, actualiser_sondages, enrichir_personnes
-from resumes_auto import resumer_publications, VERSION
+from resumes_auto import resumer_publications, VERSION, sortie_coherente
 from veille import extraire_html
 
 
@@ -54,8 +54,26 @@ class DonneesAutomatiques(unittest.TestCase):
                     '<article>Élection 2027. Certains disent que je pourrais être candidat.</article>')
         self.assertIsNone(result['statut'])
 
+    def test_extrait_enrichit_sans_remplacer_la_fiche_detaillee(self):
+        theme = {'resume': 'Explication détaillée existante', 'financement': 'Budget documenté',
+                 'population_concernee': 'Élèves et familles', 'sources': []}
+        programmes = {'pretendants':[{'nom':'Édouard Philippe','themes':{'ecole':copy.deepcopy(theme)}}]}
+        election = {'candidatures':[{'nom':'Édouard Philippe'}]}
+        body = '<article>Présidentielle 2027. Je propose de renforcer les moyens de l’école publique.</article>'
+        actualiser_officiel(election, programmes, lambda url: body if 'edouardphilippe.fr' in url else '', '10 octobre 2026')
+        actualise = programmes['pretendants'][0]['themes']['ecole']
+        self.assertTrue(actualise['propositions_automatiques'])
+        for key,value in theme.items():
+            self.assertEqual(actualise[key], value)
+
 
 class Resumes(unittest.TestCase):
+    def test_copies_longues_et_repetitions_rejetees(self):
+        original = ' '.join('mot'+str(i) for i in range(40))
+        self.assertFalse(sortie_coherente(original + '.', original))
+        boucle = 'La transition concerne les collectivités. ' * 5
+        self.assertFalse(sortie_coherente(boucle, boucle))
+
     def test_recommandations_ne_sont_pas_resumees(self):
         contenu = 'Les écoles sont rénovées après une décision municipale. ' * 5
         self.assertEqual(extraire_html('<article>'+contenu+'</article><article>Une autre enquête sans rapport.</article>'), contenu.strip())

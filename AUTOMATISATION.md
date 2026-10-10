@@ -30,21 +30,24 @@ pas un article de presse en engagement de programme ou en candidature confirmée
 
 Le titre et le lien sont attribués au média et étiquetés comme sélection automatique.
 Les articles accessibles sont résumés par le modèle libre multilingue
-Qwen2.5-1.5B-Instruct, exécuté en français sur le processeur du workflow, sans clé API ni appel à un
+Qwen2.5-7B-Instruct, exécuté en français sur le processeur du workflow, sans clé API ni appel à un
 service d'IA payant. La révision du modèle est épinglée et seules des pondérations
-safetensors sont chargées, sans exécuter le code du dépôt du modèle. Les textes
+GGUF sont chargées par llama.cpp. Le modèle et le moteur proviennent de leurs dépôts officiels ; leurs fichiers sont vérifiés par SHA-256. Les textes
 inchangés réutilisent leur résumé. Les articles trop courts ou fermés restent
 explicitement sans résumé. Le modèle traite jusqu'à 2 400 mots accessibles ;
 pour les articles longs, il conserve le début et la fin (où figurent souvent
 les réponses des personnes mises en cause), et signale la partie intermédiaire omise.
-Un chiffre ou nom propre ajouté provoque le rejet ; ces contrôles ne prouvent
+Un chiffre ou nom propre ajouté, une copie longue ou une répétition anormale
+provoque le rejet ; ces contrôles ne prouvent
 pas la véracité du résumé. Le lecteur voit toujours l'attribution au média et
 le caractère automatique. Le contrôle technique ne constitue pas une
 vérification indépendante de la véracité des articles.
 
 Les sources primaires de campagne sont surveillées sur les domaines autorisés.
 Une proposition explicite liée à 2027 peut enrichir la fiche par un extrait court
-attribué et sourcé ; la fiche antérieure reste consultable. Aucune notation
+attribué et sourcé ; la fiche détaillée existante reste affichée et conserve
+sa date de vérification. Un extrait bref ne remplace pas les explications
+déjà documentées. Aucune notation
 politique, estimation budgétaire ou population bénéficiaire n'est extrapolée.
 Les statuts ne changent que pour une déclaration personnelle explicite de
 candidature ou de retrait pour 2027. Les pages de programmes 2022 sont écartées.

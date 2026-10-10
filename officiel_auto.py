@@ -132,20 +132,9 @@ def actualiser_officiel(election,programmes,fetch,date_fr):
             claims=[dict(claim,url=record['url'],date_publication=record['date_publication']) for record in records
                     if record['nom']==personne['nom'] for claim in record['propositions'] if key in claim['themes']][:3]
             if claims:
-                # L'ancien texte reste consultable, mais la fiche présente désormais
-                # une extraction explicite et attribuée des publications primaires.
-                theme.setdefault('resume_archive',theme.get('resume',''))
-                theme.setdefault('financement_archive',theme.get('financement',''))
-                theme.setdefault('population_archive',theme.get('population_concernee',''))
-                theme['resume']='Propositions extraites automatiquement des sources de campagne : '+' '.join('« '+x['texte']+' »' for x in claims)
+                # Un extrait bref ne remplace pas une fiche détaillée déjà sourcée.
+                # La section automatique enrichit la fiche, sans masquer ses détails.
                 theme['propositions_automatiques']=claims
-                theme['statut']='Propositions publiées par la campagne — extraction automatique'
-                theme['solidite_documentaire']=None
-                theme['solidite_explication']='Extraction de texte primaire ; aucune note automatique de fiabilité politique.'
-                theme['sources']=[{'nom':'Source de campagne — extrait automatique','url':x['url']} for x in claims]
-                couts=[x['texte'] for x in claims if re.search(r'financ|budget|co[ûu]t|milliard|million|euros',x['texte'],re.I)]
-                theme['financement']=' '.join(couts) if couts else 'Le coût et le financement ne sont pas établis par les extraits automatiquement retenus. Consulter les sources et la fiche antérieure.'
-                theme['population_concernee']='Les personnes concernées doivent être appréciées à partir du texte de la proposition citée ; aucune extrapolation automatique.'
                 bilan['propositions_extraites']+=len(claims)
             theme['dernier_controle_sources']=date_fr
     programmes['dernier_controle_automatique']=date_fr
