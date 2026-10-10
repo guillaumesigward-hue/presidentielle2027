@@ -46,7 +46,16 @@ jobs:
       - name: Verifier l interface
         run: node tests/interface.cjs
 
+      - name: Reserver l espace du moteur CPU
+        run: |
+          available=$(df --output=avail -k . | tail -1)
+          if [ "$available" -lt 24000000 ]; then
+            sudo rm -rf /usr/share/dotnet /usr/local/lib/android
+          fi
+          df -h .
+
       - name: Mettre en cache le modele de resume
+        continue-on-error: true
         uses: actions/cache@v4
         with:
           path: .cache-modeles/gguf14

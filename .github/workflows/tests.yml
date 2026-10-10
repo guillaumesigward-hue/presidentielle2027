@@ -36,7 +36,16 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -r requirements.txt
+      - name: Reserver l espace du moteur CPU
+        run: |
+          available=$(df --output=avail -k . | tail -1)
+          if [ "$available" -lt 24000000 ]; then
+            sudo rm -rf /usr/share/dotnet /usr/local/lib/android
+          fi
+          df -h .
+
       - uses: actions/cache@v4
+        continue-on-error: true
         with:
           path: .cache-modeles/gguf14
           key: qwen14b-gguf-b466e1f8-b11541-v1

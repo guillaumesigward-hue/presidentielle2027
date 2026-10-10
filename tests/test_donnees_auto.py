@@ -1,9 +1,15 @@
 import copy
 import unittest
+import hashlib
+import io
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
 from officiel_auto import analyser_publication, lien_officiel, actualiser_officiel
 from sondages_auto import tableau_resultats, methodologie, actualiser_sondages, enrichir_personnes
 from resumes_auto import resumer_publications, VERSION, sortie_coherente
 from veille import extraire_html
+from preparer_resumes import telecharger
 
 
 class DonneesAutomatiques(unittest.TestCase):
@@ -68,6 +74,15 @@ class DonneesAutomatiques(unittest.TestCase):
 
 
 class Resumes(unittest.TestCase):
+    def test_cache_corrompu_est_retelecharge_avant_utilisation(self):
+        contenu = b'contenu officiel verifie'
+        with tempfile.TemporaryDirectory() as dossier:
+            fichier = Path(dossier) / 'runtime.bin'
+            fichier.write_bytes(b'cache corrompu')
+            with patch('preparer_resumes.urllib.request.urlopen', return_value=io.BytesIO(contenu)):
+                telecharger('https://exemple.fr/runtime.bin', fichier, hashlib.sha256(contenu).hexdigest())
+            self.assertEqual(fichier.read_bytes(), contenu)
+
     def test_attribution_ne_devient_pas_un_nom_propre_invente(self):
         source = 'Disclose examine un financement public. Les autorités répondent que le dossier reste en discussion.'
         texte = 'Selon Disclose, le financement étudié soulève des interrogations. La décision définitive demeure attendue et les autorités apportent une réponse.'

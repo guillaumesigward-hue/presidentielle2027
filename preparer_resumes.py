@@ -37,6 +37,8 @@ def segments(url, destination, total):
                     sortie.seek(debut)
                     lus = 0
                     while bloc := source.read(1024 * 1024):
+                        if lus + len(bloc) > fin-debut+1:
+                            raise ValueError('Segment trop volumineux')
                         sortie.write(bloc)
                         lus += len(bloc)
                 if lus != fin-debut+1:
@@ -52,6 +54,12 @@ def segments(url, destination, total):
 
 def telecharger(url, destination, empreinte):
     destination.parent.mkdir(parents=True, exist_ok=True)
+    if destination.exists():
+        with destination.open('rb') as source:
+            valide = hashlib.file_digest(source, 'sha256').hexdigest() == empreinte
+        if not valide:
+            # Ce fichier de cache ne doit jamais être exécuté ni chargé.
+            destination.unlink()
     if not destination.exists():
         if destination.name in SIZES:
             segments(url, destination, SIZES[destination.name])
