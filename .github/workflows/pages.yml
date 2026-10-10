@@ -55,8 +55,9 @@ jobs:
           df -h .
 
       - name: Mettre en cache le modele de resume
+        id: cache
         continue-on-error: true
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: .cache-modeles/gguf14
           key: qwen14b-gguf-b466e1f8-b11541-v1
@@ -71,6 +72,14 @@ jobs:
           RESUMES_LOCAUX: ${{ steps.moteur.outcome == 'success' && '1' || '0' }}
         run: python update.py
 
+
+      - name: Conserver le modele verifie
+        if: always() && steps.moteur.outcome == 'success' && steps.cache.outputs.cache-hit != 'true'
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: .cache-modeles/gguf14
+          key: qwen14b-gguf-b466e1f8-b11541-v1
 
       - name: Enregistrer la mise a jour
         id: commit

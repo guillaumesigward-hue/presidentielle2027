@@ -44,12 +44,14 @@ jobs:
           fi
           df -h .
 
-      - uses: actions/cache@v4
+      - uses: actions/cache/restore@v4
+        id: cache
         continue-on-error: true
         with:
           path: .cache-modeles/gguf14
           key: qwen14b-gguf-b466e1f8-b11541-v1
       - run: python preparer_resumes.py
+        id: moteur
       - run: python tests/smoke_sources.py --max-articles 20 --require-summary
         env:
           RESUMES_LOCAUX: '1'
@@ -58,3 +60,15 @@ jobs:
         with:
           name: bilan-veille-sans-publication
           path: _site/
+      - name: Conserver le modele verifie
+        if: always() && steps.moteur.outcome == 'success' && steps.cache.outputs.cache-hit != 'true'
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: .cache-modeles/gguf14
+          key: qwen14b-gguf-b466e1f8-b11541-v1
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: diagnostic-moteur
+          path: .cache-modeles/gguf14/moteur.log

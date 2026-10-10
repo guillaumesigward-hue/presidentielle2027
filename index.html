@@ -973,7 +973,7 @@ ecologie: "Écologie"
     container.innerHTML = actualites.map(item => `
       <article class="card news-card">
         <h3>${escapeHtml(item.titre || item.nom || "Actualité")}</h3>
-        ${item.controle === "automatique" ? `<p><strong>${item.enquete_anterieure ? "Enquête antérieure — sélection automatique" : "Lien sélectionné automatiquement"}</strong> — ${escapeHtml(item.date_publication?.slice(0, 10) || "")}</p>` : ""}
+        ${item.controle === "automatique" ? `<p><strong>${item.enquete_anterieure ? "Publication antérieure — sélection automatique" : "Lien sélectionné automatiquement"}</strong> — ${escapeHtml(item.date_publication?.slice(0, 10) || "")}</p>` : ""}
         <p>${escapeHtml(item.description || "")}</p>
         ${afficherResume(item)}
         ${

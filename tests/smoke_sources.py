@@ -43,6 +43,7 @@ for nom, source in status['sources'].items():
 for cle in ('resumes_automatiques', 'sondages_automatiques', 'campagnes_automatiques'):
     print(cle, json.dumps(status.get(cle, {}), ensure_ascii=False))
 snapshot = json.loads((data / 'publications_auto.json').read_text(encoding='utf-8'))
+print('erreurs_resumes', [{ 'source': x['source'], 'erreur': x.get('resume_erreur') } for x in snapshot['articles'] if x.get('resume_erreur')])
 for article in snapshot['articles']:
     if article.get('resume_statut') == 'disponible':
         print('RESUME', article['source'], article['url'], article['resume'])

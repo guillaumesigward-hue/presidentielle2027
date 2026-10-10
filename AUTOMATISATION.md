@@ -34,11 +34,11 @@ Qwen2.5-14B-Instruct, exécuté en français sur le processeur du workflow, sans
 service d'IA payant. La révision du modèle est épinglée et seules des pondérations
 GGUF sont chargées par llama.cpp. Le modèle et le moteur proviennent de leurs dépôts officiels ; leurs fichiers sont vérifiés par SHA-256. Les textes
 inchangés réutilisent leur résumé. Les articles trop courts ou fermés restent
-explicitement sans résumé. Le modèle traite jusqu'à 2 400 mots accessibles ;
+explicitement sans résumé. Le modèle traite jusqu'à 1 600 mots accessibles ;
 pour les articles longs, il conserve le début et la fin (où figurent souvent
 les réponses des personnes mises en cause), et signale la partie intermédiaire omise.
 Un premier passage produit la synthèse ; une reformulation intervient si nécessaire.
-Le calcul des nouveaux résumés dispose d’un budget de 30 minutes par passage
+Le calcul des nouveaux résumés dispose d’un budget de 20 minutes par passage
 pour préserver le temps nécessaire aux autres rubriques. Les articles inchangés
 réutilisent les résumés validés lors d’un passage antérieur. Les contrôles
 recherchent des chiffres ou noms propres absents du texte, des copies longues,

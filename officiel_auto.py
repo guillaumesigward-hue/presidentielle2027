@@ -93,16 +93,22 @@ def actualiser_officiel(election,programmes,fetch,date_fr):
                 if url: urls[nom].add(url)
     bilan={'pages_examinees':0,'pages_accessibles':0,'propositions_extraites':0,'statuts_actualises':0,'sources':{}}
     # La découverte commence sur les racines officielles, pas sur des sites tiers.
-    for nom,root in CAMPAGNES.items():
+    def decouvrir(item):
+        nom,root = item
+        decouvertes = set(urls[nom])
         try:
             body=fetch(root)
             links=re.findall(r'href=["\']([^"\']+)["\']',body,re.I)
             for href in links:
                 url=lien_officiel(href,root)
                 if url and re.search(r'projet|priorit|proposition|programme|actualit|2027|mesure',url,re.I):
-                    urls[nom].add(url)
-                    if len(urls[nom])>=10: break
+                    decouvertes.add(url)
+                    if len(decouvertes)>=10: break
         except Exception: pass
+        return nom,decouvertes
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for nom,decouvertes in pool.map(decouvrir,CAMPAGNES.items()):
+            urls[nom] = decouvertes
     jobs=[(nom,url) for nom,links in urls.items() for url in sorted(links)[:10]]
     def lire(job):
         nom,url=job

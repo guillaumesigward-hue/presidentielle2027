@@ -12,7 +12,7 @@ from functools import lru_cache
 from veille import PageArticle
 
 from preparer_resumes import MODEL, REVISION, RUNTIME, CACHE, preparer
-VERSION = 'qwen14b-gguf-v1-' + REVISION[:8] + '-' + RUNTIME
+VERSION = 'qwen14b-gguf-v2-' + REVISION[:8] + '-' + RUNTIME
 
 
 @lru_cache(maxsize=1)
@@ -69,11 +69,11 @@ def moteur():
             'enquete': {'type': 'string', 'maxLength': 800},
             'reponses': {'type': 'string', 'maxLength': 600}},
             'required': ['enquete', 'reponses'], 'additionalProperties': False}
-        payload = json.dumps({'messages': messages, 'temperature': 0, 'max_tokens': 500, 'seed': 42,
+        payload = json.dumps({'messages': messages, 'temperature': 0, 'max_tokens': 700, 'seed': 42,
                               'response_format': {'type': 'json_object', 'schema': schema}}).encode()
         request = urllib.request.Request(base + '/v1/chat/completions', data=payload,
                                          headers={'Content-Type': 'application/json', 'Authorization': 'Bearer ' + jeton_local})
-        with urllib.request.urlopen(request, timeout=600) as response:
+        with urllib.request.urlopen(request, timeout=900) as response:
             contenu = json.loads(json.load(response)['choices'][0]['message']['content'])
         if os.environ.get('RESUMES_DIAGNOSTIC') == '1':
             (CACHE / 'draft-initial.json').write_text(json.dumps(contenu, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -86,11 +86,11 @@ def moteur():
             'Preserve every core fact, source attribution, uncertainty, official reply and payment status. '
             'Do not add information. No quotation or copied sentence. Use simple natural French. '
             'Return the same JSON keys enquete and reponses, two complete paragraphs, about 100 words total. DRAFT:\n' + json.dumps(contenu, ensure_ascii=False))
-        payload = json.dumps({'messages': messages, 'temperature': 0, 'max_tokens': 500, 'seed': 42,
+        payload = json.dumps({'messages': messages, 'temperature': 0, 'max_tokens': 700, 'seed': 42,
                               'response_format': {'type': 'json_object', 'schema': schema}}).encode()
         request = urllib.request.Request(base + '/v1/chat/completions', data=payload,
                                          headers={'Content-Type': 'application/json', 'Authorization': 'Bearer ' + jeton_local})
-        with urllib.request.urlopen(request, timeout=600) as response:
+        with urllib.request.urlopen(request, timeout=900) as response:
             contenu = json.loads(json.load(response)['choices'][0]['message']['content'])
         if os.environ.get('RESUMES_DIAGNOSTIC') == '1':
             (CACHE / 'draft-reformule.json').write_text(json.dumps(contenu, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -137,7 +137,7 @@ def resumer_publications(publications, fetch, precedentes=(), generate=None):
     cache = {x.get('url'): x for x in precedentes}
     redaction = generate
     moteur_indisponible = False
-    limite = time.monotonic() + 30 * 60
+    limite = time.monotonic() + 20 * 60
     bilan = {'resumes': 0, 'reutilises': 0, 'indisponibles': 0,
              'modele': MODEL, 'revision': REVISION, 'rejets': {}}
     for item in publications:
@@ -180,7 +180,7 @@ def resumer_publications(publications, fetch, precedentes=(), generate=None):
             # La fin contient souvent la réponse des personnes mises en cause.
             # Elle est conservée lorsque l'article dépasse la fenêtre de lecture.
             mots = texte.split()
-            accessible = texte if len(mots)<=2400 else ' '.join(mots[:1600])+'\n[Passage intermédiaire non fourni]\n'+' '.join(mots[-800:])
+            accessible = texte if len(mots)<=1600 else ' '.join(mots[:900])+'\n[Passage intermédiaire non fourni]\n'+' '.join(mots[-700:])
             source_resumee = 'Publication : ' + item.get('source', 'Source citée') + '\n' + accessible
             resume = rediger(source_resumee)
             motif = raison_rejet(resume, source_resumee)
@@ -193,10 +193,12 @@ def resumer_publications(publications, fetch, precedentes=(), generate=None):
             item.update(resume=resume, resume_statut='disponible',
                         resume_empreinte=empreinte, resume_version=VERSION,
                         resume_limite='Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.' +
-                        (' Article long : le début et la fin accessibles ont été résumés ; une partie intermédiaire n’a pas été traitée.' if len(mots)>2400 else ''))
+                        (' Article long : le début et la fin accessibles ont été résumés ; une partie intermédiaire n’a pas été traitée.' if len(mots)>1600 else ''))
             bilan['resumes'] += 1
         except Exception as exc:
             item['resume_limite'] = 'Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.'
             item['resume_erreur'] = type(exc).__name__
+            erreurs = bilan.setdefault('erreurs', {})
+            erreurs[type(exc).__name__] = erreurs.get(type(exc).__name__, 0) + 1
             bilan['indisponibles'] += 1
     return bilan
