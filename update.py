@@ -597,9 +597,6 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         nombre_liens_examines = 0
 
         for url_article, titre_html in liens:
-            nombre_liens_examines += 1
-            if nombre_liens_examines > 3:
-                break
 
             titre_article = clean_text(titre_html).strip()
                 print(
@@ -758,6 +755,10 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                 and "/news/tag/" in url_minuscule
             ):
                 continue
+        nombre_liens_examines += 1
+
+        if nombre_liens_examines > 3:
+            break
         # --------------------------------------------------
         # ANALYSE DU CONTENU DE L'ARTICLE
         # --------------------------------------------------
