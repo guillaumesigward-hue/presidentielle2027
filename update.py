@@ -598,7 +598,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
 
         for url_article, titre_html in liens:
             nombre_liens_examines += 1
-            if nombre_liens_examines > 30:
+            if nombre_liens_examines > 3:
                 break
 
             titre_article = clean_text(titre_html).strip()
@@ -685,7 +685,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
             for chemin in chemins_non_editoriaux
         ):
             continue
-                        # --------------------------------------------------
+            # --------------------------------------------------
             # Filtrage des URL : on privilégie les vrais articles
             # et on écarte les pages techniques ou de navigation.
             # --------------------------------------------------
@@ -758,7 +758,7 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                 and "/news/tag/" in url_minuscule
             ):
                 continue
-                        # --------------------------------------------------
+        # --------------------------------------------------
         # ANALYSE DU CONTENU DE L'ARTICLE
         # --------------------------------------------------
 
@@ -1174,7 +1174,7 @@ for detection in detections:
             []
         ),
         "statut": statut_precedent,
-        "publication_automatique": statut_precedent == "Retenu",
+        "publication_automatique": False,
     }
 
     a_valider.append(entree_validation)
@@ -1192,11 +1192,6 @@ ecrire_json(
 ecrire_json(
     validation_file,
     a_valider
-)
-
-ecrire_json(
-    detections_file,
-    detections
 )
 
 ecrire_json(
