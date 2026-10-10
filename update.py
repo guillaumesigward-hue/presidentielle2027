@@ -625,31 +625,17 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
                     url_source
                 )
                 url_article = urljoin(url_source, url_article)
-            # Ne conserver que les liens appartenant au site surveillé.
+            # Ne garder que les liens du site surveillé.
             from urllib.parse import urlparse
 
             domaine_source = urlparse(url_source).netloc.lower().removeprefix("www.")
             domaine_article = urlparse(url_article).netloc.lower().removeprefix("www.")
 
-            if nom_source in ("Mediapart", "Blast", "Disclose"):
-                print(
-                    "DEBUG DOMAINES:",
-                    nom_source,
-                    "SOURCE=", repr(domaine_source),
-                    "ARTICLE=", repr(domaine_article),
-                    "URL=", repr(url_article),
-                )
             if domaine_article != domaine_source:
                 continue
-            if nom_source in ["Mediapart", "Blast", "Disclose"]:
-                print(
-                    "DEBUG CANDIDAT:",
-                    nom_source,
-                    "URL:",
-                    repr(url_article),
-                    "TITRE:",
-                    repr(titre_article),
-                )
+            # Éviter une analyse trop longue des pages.
+            if nombre_detecte >= 20:
+                break
         # --------------------------------------------------
         # FILTRE GLOBAL DES URL NON EDITORIALES
         # --------------------------------------------------
