@@ -11,7 +11,7 @@ import zipfile
 MODEL = 'Qwen/Qwen2.5-7B-Instruct-GGUF'
 REVISION = 'bb5d59e06d9551d752d08b292a50eb208b07ab1f'
 RUNTIME = 'b11541'
-CACHE = Path(os.environ.get('RESUMES_CACHE', '.cache-modeles/gguf'))
+CACHE = Path(os.environ.get('RESUMES_CACHE', str(Path(__file__).resolve().parent / '.cache-modeles/gguf')))
 FILES = [
     ('qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf', 'dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db'),
     ('qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf', '539cf93f78e887edea1c04e2d7d8cdaca9d01dae9c9025bcb8accbe29df3d72a')]

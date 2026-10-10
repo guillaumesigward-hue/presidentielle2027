@@ -73,6 +73,9 @@ class Resumes(unittest.TestCase):
         self.assertFalse(sortie_coherente(original + '.', original))
         boucle = 'La transition concerne les collectivités. ' * 5
         self.assertFalse(sortie_coherente(boucle, boucle))
+        original = 'Aucune aide n’a encore été versée. Les contrats sont en discussion.'
+        resume = 'L’entreprise a reçu une subvention publique pour lancer son projet industriel, alors que les modalités du contrat restent en discussion.'
+        self.assertFalse(sortie_coherente(resume, original))
 
     def test_recommandations_ne_sont_pas_resumees(self):
         contenu = 'Les écoles sont rénovées après une décision municipale. ' * 5
