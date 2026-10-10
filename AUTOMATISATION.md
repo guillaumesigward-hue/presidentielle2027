@@ -37,8 +37,10 @@ inchangés réutilisent leur résumé. Les articles trop courts ou fermés reste
 explicitement sans résumé. Le modèle traite jusqu'à 2 400 mots accessibles ;
 pour les articles longs, il conserve le début et la fin (où figurent souvent
 les réponses des personnes mises en cause), et signale la partie intermédiaire omise.
-Un chiffre ou nom propre ajouté, une copie longue ou une répétition anormale
-provoque le rejet ; ces contrôles ne prouvent
+Deux passages produisent une synthèse puis une reformulation. Les contrôles
+recherchent des chiffres ou noms propres absents du texte, des copies longues,
+des citations excessives et des répétitions anormales. Une sortie signalée
+est rejetée ; ces contrôles ne prouvent
 pas la véracité du résumé. Le lecteur voit toujours l'attribution au média et
 le caractère automatique. Le contrôle technique ne constitue pas une
 vérification indépendante de la véracité des articles.

@@ -68,6 +68,12 @@ class DonneesAutomatiques(unittest.TestCase):
 
 
 class Resumes(unittest.TestCase):
+    def test_attribution_ne_devient_pas_un_nom_propre_invente(self):
+        source = 'Disclose examine un financement public. Les autorités répondent que le dossier reste en discussion.'
+        texte = 'Selon Disclose, le financement étudié soulève des interrogations. La décision définitive demeure attendue et les autorités apportent une réponse.'
+        self.assertTrue(sortie_coherente(texte, source))
+        self.assertFalse(sortie_coherente(texte.replace('Disclose', 'Paul Martin'), source))
+
     def test_copies_longues_et_repetitions_rejetees(self):
         original = ' '.join('mot'+str(i) for i in range(40))
         self.assertFalse(sortie_coherente(original + '.', original))

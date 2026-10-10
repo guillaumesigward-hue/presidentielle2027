@@ -420,6 +420,7 @@
     <h2>Actualités</h2>
     <p class="section-intro">
       Actualités éditoriales et liens de presse sélectionnés automatiquement.
+      Les résumés disponibles apparaissent en premier. Un article fermé ou une vidéo sans texte accessible reste signalé sans résumé.
       Les liens automatiques sont attribués à leur média ; leurs contrôles de provenance et de date ne constituent pas une vérification indépendante des faits.
     </p>
     <div class="grid" id="actualites-grid"></div>
@@ -960,8 +961,8 @@ ecologie: "Écologie"
     const container =
       document.getElementById("actualites-grid");
 
-    const actualites =
-      electionData?.actualites || [];
+    const actualites = [...(electionData?.actualites || [])].sort((a, b) =>
+      Number(b.resume_statut === "disponible") - Number(a.resume_statut === "disponible"));
 
     if (!actualites.length) {
       container.innerHTML =
