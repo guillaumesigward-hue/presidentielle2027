@@ -44,6 +44,11 @@ setImmediate(() => {
   assert(vm.runInContext('afficherSolidite({solidite_documentaire:"bad"})', context).includes('Non évaluée'));
   assert(elements.suivi.innerHTML.includes('extraction partielle'));
   assert(elements.suivi.innerHTML.includes('Source indisponible'));
+  vm.runInContext(`electionData.eclairages_automatiques = [{source:"Disclose",titre:"Gouvernement et pollution",url:"https://disclose.ngo/fr/article/test",date_publication:"2026-06-18",themes:["Écologie"],candidats_mentions:[]}];
+    electionData.notices_automatiques = [{titre:"Notice officielle",url:"https://www.commission-des-sondages.fr/notices/medias/fichiers/add/1",date_detection:"10 octobre 2026"}];
+    themeActif = "ecologie"; afficherProgrammes(); afficherSondages();`, context);
+  assert(elements['programmes-grid'].innerHTML.includes('Disclose'));
+  assert(elements['notices-automatiques'].innerHTML.includes('Notice officielle'));
   vm.runInContext('suiviData = null; afficherSuivi()', context);
   assert(elements.suivi.innerHTML.includes('restent consultables'));
   vm.runInContext('suiviData = {last_checked_utc:"2000-01-01",sources:{}}; afficherSuivi()', context);

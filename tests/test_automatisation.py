@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 import unittest
+import json
 from automatisation import controler_article, selectionner_articles
 
 class AutomatisationTests(unittest.TestCase):
@@ -23,3 +24,29 @@ class AutomatisationTests(unittest.TestCase):
         self.assertEqual(selectionner_articles([self.item],[self.source],lambda url:self.body,self.now,[self.item['url']]),[])
         def fail(url): raise OSError('source inaccessible')
         self.assertEqual(selectionner_articles([self.item],[self.source],fail,self.now),[])
+
+    def test_blast_date_matches_article_not_recommendation(self):
+        source = {'nom':'Blast','url':'https://www.blast-info.fr/'}
+        url = 'https://www.blast-info.fr/articles/2026/test-bardella'
+        data = [{'canonical_url':1,'published_at':2,'title':3},url,'2026-10-06T10:00:00Z','Jordan Bardella présente ses propositions']
+        body = '<script id="__NUXT_DATA__" type="application/json">'+json.dumps(data)+'</script>'
+        self.assertIsNotNone(controler_article({'url':url},source,body,self.now))
+        self.assertIsNone(controler_article({'url':url+'/autre'},source,body,self.now))
+
+    def test_disclose_investigation_is_dated_and_theme_classified(self):
+        source = {'nom':'Disclose','url':'https://disclose.ngo/fr'}
+        url = 'https://disclose.ngo/fr/article/financement-pollution'
+        data = {'@type':'NewsArticle','mainEntityOfPage':{'@id':url},'headline':'Le gouvernement finance la pollution et le climat', 'datePublished':'2026-06-18T10:00:00Z'}
+        body = '<script type="application/ld+json">'+json.dumps(data)+'</script>'
+        result = controler_article({'url':url},source,body,self.now)
+        self.assertTrue(result['enquete_anterieure'])
+        self.assertIn('Écologie',result['themes'])
+        self.assertIsNone(controler_article({'url':url},source,body.replace('2026-06-18','2025-06-18'),self.now))
+
+    def test_one_source_cannot_exclude_other_sources(self):
+        blast = {'nom':'Blast','url':'https://www.blast-info.fr/'}
+        items = [dict(self.item,url=self.item['url']+str(i)) for i in range(30)]
+        items.append({'source':'Blast','url':'https://www.blast-info.fr/articles/2026/test'})
+        results = selectionner_articles(items,[self.source,blast],lambda url:self.body,self.now)
+        self.assertEqual(sum(x['source']=='Mediapart' for x in results),7)
+        self.assertEqual(sum(x['source']=='Blast' for x in results),1)

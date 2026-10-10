@@ -2,7 +2,7 @@ name: Mise a jour quotidienne
 
 on:
   schedule:
-    - cron: "17 5 * * *"
+    - cron: "17 5,17 * * *"
   workflow_dispatch:
 
 permissions:
@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "presidentielle2027-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/election.json data/status.json data/actualites_detectees.json data/a_valider.json
+          git add data/election.json data/status.json data/actualites_detectees.json data/a_valider.json data/publications_auto.json
           if git diff --cached --quiet; then
             echo "Aucune modification a enregistrer."
           else

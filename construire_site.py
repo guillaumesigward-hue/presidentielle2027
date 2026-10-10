@@ -30,9 +30,32 @@ def preparer_site(output, data_dir=None):
         queue = json.loads((data_dir / 'a_valider.json').read_text(encoding='utf-8'))
         exclusions = {item['url'] for item in queue if item.get('url') and item.get('statut') in ('Rejeté', 'Rejetée', 'Refusé')}
         existantes = {item.get('url') for item in election['actualites']}
-        articles = selectionner_articles(detections, SOURCES_JOURNALISTIQUES, fetch, exclusions=exclusions)
+        snapshot = data_dir / 'publications_auto.json'
+        if snapshot.exists():
+            selection = json.loads(snapshot.read_text(encoding='utf-8'))
+            if selection.get('last_checked_utc') != status['last_checked_utc'] or not isinstance(selection.get('articles'), list):
+                raise ValueError('Sélection automatique désynchronisée avec le dernier contrôle')
+            articles = selection['articles']
+        else:
+            # Compatibilité avec les archives antérieures au paquet reproductible.
+            articles = selectionner_articles(detections, SOURCES_JOURNALISTIQUES, fetch, exclusions=exclusions)
+        articles = [item for item in articles if item['url'] not in exclusions]
         election['actualites'] = [item for item in articles if item['url'] not in existantes] + election['actualites']
         suivi['articles_automatiques'] = len(articles)
+        suivi['publications_par_media'] = {source['nom']: sum(x['source'] == source['nom'] for x in articles) for source in SOURCES_JOURNALISTIQUES}
+        election['eclairages_automatiques'] = articles
+        import re
+        election['notices_automatiques'] = [
+            {'titre': item['titre'], 'url': item['url'], 'date_detection': item.get('date_detection', '')}
+            for item in reversed(detections)
+            if item.get('type') == 'commission_sondages' and item.get('titre') and
+            re.fullmatch(r'https://www\.commission-des-sondages\.fr/notices/medias/fichiers/add/\d+', item.get('url', ''))
+        ][:12]
+    urls = {item.get('url') for item in election['sources']}
+    for source in SOURCES_JOURNALISTIQUES:
+        if source['url'] not in urls:
+            election['sources'].append({'nom': source['nom'], 'url': source['url'],
+                'description': 'Média indépendant / investigation suivi automatiquement. Titres et analyses attribués au média ; enquêtes antérieures datées séparément.'})
     suivi['sources'] = {nom: {key: source[key] for key in CHAMPS_SUIVI if key in source}
                         for nom, source in status['sources'].items()}
     output = Path(output)
