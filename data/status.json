@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-10T15:21:38.558948+00:00",
+  "last_checked_utc": "2026-10-10T15:56:36.580718+00:00",
   "last_checked_fr": "10 octobre 2026",
   "publication_automatique": false,
   "sources": {
@@ -16,6 +16,119 @@
       "url": "https://www.veriangroup.com/fr/news-and-insights",
       "publication_automatique": false,
       "raison": "Les nouvelles publications sont détectées pour examen. Le robot ne transforme pas automatiquement une publication Verian en sondage présidentiel ou en contenu politique."
+    },
+    "mediapart": {
+      "ok": true,
+      "url": "https://www.mediapart.fr/journal/politique",
+      "publication_automatique": false,
+      "raison": "Veille uniquement. Validation humaine obligatoire.",
+      "detections": 2,
+      "liens_examines": 16,
+      "extractions_vides": 0,
+      "liens_trouves": 161,
+      "etat_extraction": "ok",
+      "mise_a_jour": {
+        "nombre": 2,
+        "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Mediapart",
+            "titre": "Le RN poursuit sa campagne, entre silence, déni, attaques et mensonges",
+            "url": "https://www.mediapart.fr/journal/politique/061026/le-rn-poursuit-sa-campagne-entre-silence-deni-attaques-et-mensonges",
+            "resume": "Jordan Bardella et Marine Le Pen ont organisé comme si de rien n’était une conférence de presse sur leur programme économique, tentant d’éviter les quelques questions sur les propos antisémites tenus…",
+            "date_detection": "10 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [],
+            "candidats_mentions": [
+              "Marine Le Pen"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Mediapart",
+            "titre": "Le pouvoir tétanisé par la mobilisation lycéenne",
+            "url": "https://www.mediapart.fr/journal/politique/051026/le-pouvoir-tetanise-par-la-mobilisation-lyceenne",
+            "resume": "Alors que les blessures d’adolescents dues aux violences policières se comptent par dizaines, et à la veille d’une manifestation nationale que Jean-Luc Mélenchon conçoit comme un « point de départ » …",
+            "date_detection": "10 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [],
+            "candidats_mentions": [
+              "Jean-Luc Mélenchon"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          }
+        ]
+      }
+    },
+    "blast": {
+      "ok": true,
+      "url": "https://www.blast-info.fr/",
+      "publication_automatique": false,
+      "raison": "Veille uniquement. Validation humaine obligatoire.",
+      "detections": 1,
+      "liens_examines": 16,
+      "extractions_vides": 6,
+      "liens_trouves": 116,
+      "etat_extraction": "partielle",
+      "mise_a_jour": {
+        "nombre": 1,
+        "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Bardella : l'antisémitisme, un vivier du RN",
+            "url": "https://www.blast-info.fr/articles/2026/bardella-l-antisemitisme-un-vivier-du-rn-TlD2zoWESku_A2DZsBH4Eg",
+            "resume": "L'image du jeune homme lisse, exempt des outrances de la génération de Jean-Marie Le Pen, vole en éclats. Mais tout la contredisait depuis le début : à y regarder de près, celui qui incarne le visage de la dédiabolisation a frayé tout au long de sa courte carrière avec des antisémites avérés et des extrémistes en tout genre. Un passage obligé pour entrer dans le premier cercle du RN.",
+            "date_detection": "10 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [],
+            "candidats_mentions": [
+              "Marine Le Pen"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          }
+        ]
+      }
+    },
+    "disclose": {
+      "ok": true,
+      "url": "https://disclose.ngo/fr",
+      "publication_automatique": false,
+      "raison": "Veille uniquement. Validation humaine obligatoire.",
+      "detections": 1,
+      "liens_examines": 20,
+      "extractions_vides": 0,
+      "liens_trouves": 181,
+      "etat_extraction": "ok",
+      "mise_a_jour": {
+        "nombre": 1,
+        "articles": [
+          {
+            "type": "media_investigation",
+            "source": "Disclose",
+            "titre": "Le gouvernement détourne les aides de l’Ademe pour financer l’un des plus gros pollueurs de France",
+            "url": "https://disclose.ngo/fr/article/le-gouvernement-detourne-les-aides-de-lademe-pour-financer-lun-des-plus-gros-pollueurs-de-france",
+            "resume": "Matignon et Bercy ont truqué deux appels à projets de l’Agence de la transition écologique (Ademe) pour financer le géant de la pétrochimie Ineos, révèle Disclose. La multinationale va toucher plus de 300 millions d’euros d’argent public pour soutenir l’activité d’une usine parmi les plus émettrices de CO2 en France. C’est un Emmanuel Macron tout à son aise qui parade devant un parterre de chef·fes d’entreprises réuni·es à l’Élysée, en ce jour d’octobre 2021.",
+            "date_detection": "10 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Énergie",
+              "Écologie"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          }
+        ]
+      }
     }
   }
 }
