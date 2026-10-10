@@ -6,9 +6,12 @@ Site statique neutre avec sources et contrôle quotidien automatisé des pages d
 
 Les tests s'exécutent avec `python -m unittest discover -s tests -v` et
 `node tests/interface.cjs`. Ils sont également lancés par GitHub Actions.
-La veille quotidienne à 05:17 UTC ne publie aucun nouvel article validé : elle
-met à jour les fichiers de suivi et la file de contrôle humain sur `main`.
-Elle n'altère pas les fiches programmes ni les actualités éditoriales.
+La veille quotidienne à 05:17 UTC met à jour les fichiers de suivi et la file
+de contrôle humain sur `main`, puis actualise le site avec les données
+éditoriales existantes et un bilan public expurgé de la veille. Elle n'altère
+pas les fiches programmes ni les actualités éditoriales et ne publie aucun
+nouveau contenu politique détecté. Ce dispositif est activé seulement après
+validation de la version, fusion et réglage de Pages sur GitHub Actions.
 
 Avant toute fusion, vérifier **Settings → Pages → Build and deployment → Source**.
 Le réglage doit être **GitHub Actions**, car une publication depuis la branche
@@ -17,8 +20,11 @@ Ce réglage n'est pas modifié par les fichiers de workflow.
 
 Après validation explicite de l'utilisateur, lancer « Publication manuelle validee »
 sur `main` en cochant `validation_utilisateur`. Aucun calendrier ni push ne lance
-ce workflow. Il ne livre que `index.html`, `data/election.json` et
-`data/programmes.json`. La file `a_valider.json` n'est jamais chargée par l'interface.
+ce workflow manuel. La veille quotidienne appelle le même mécanisme de
+construction sur la révision exacte qui vient d'être enregistrée.
+Le site ne contient que `index.html`, `data/election.json`, `data/programmes.json`
+et `data/suivi.json`, qui exclut tous les titres et résumés non validés.
+La file `a_valider.json` n'est jamais chargée par l'interface.
 
 ## Validation éditoriale
 
@@ -35,6 +41,13 @@ La veille examine au plus vingt URL distinctes par média et par passage.
 Les fichiers JSON manquants, invalides ou de type inattendu interrompent la
 mise à jour avant écriture au lieu de remplacer l'historique par des listes vides.
 Les décisions et résumés humains de la file sont conservés sans limite de cent entrées.
+
+Le site affiche l'état des cinq sources, les extractions partielles et une
+alerte si le contrôle date de plus de 48 heures. Une panne du fichier de suivi
+n'empêche pas de consulter les données éditoriales.
+À Paris, 05:17 UTC correspond à 07:17 en été et à 06:17 en hiver.
+GitHub peut retarder les tâches planifiées ; il ne garantit pas une exécution
+à la minute près.
 
 ## Limite importante
 Le robot ne réécrit pas automatiquement les programmes ou l'actualité politique : une modification éditoriale automatique sans validation risquerait d'introduire une interprétation, une erreur de source ou de mélanger des hypothèses de sondage. Le site affiche donc le contenu éditorial sourcé déjà vérifié et automatise la surveillance/horodatage des sources. Les nouvelles données doivent être validées avant remplacement des chiffres ou des fiches.

@@ -26,7 +26,7 @@ Elle a réussi, mais ne comportait aucun test fonctionnel.
 
 ## Points restant soumis à validation ou configuration
 
-1. Vérifier le réglage Pages « GitHub Actions » avant toute fusion ; la configuration distante n'est pas confirmée par un accès administrateur.
+1. Le réglage distant a été confirmé par API : Pages utilise actuellement `legacy`, branche `main`, chemin `/`. Il doit passer à « GitHub Actions » avant toute fusion.
 2. Après accord explicite, tester le workflow manuel dans GitHub. Aucun déploiement n'a été exécuté ici ; la configuration distante, les droits et l'environnement restent à confirmer.
 3. Les textes politiques, statuts de candidature, chiffres des sondages et pourcentages de solidité documentaire ont été conservés. Leurs sources doivent être recontrôlées humainement ; la réussite technique ne les valide pas.
 4. Blast peut fournir des pages sans texte exploitable ; ce cas apparaît désormais dans le bilan d'extraction. Pas de contournement de paywall ni de résumé inventé.
@@ -34,3 +34,12 @@ Elle a réussi, mais ne comportait aucun test fonctionnel.
 6. La liste des personnes et médias surveillés demeure celle du dépôt. Elle nécessite une revue humaine de couverture pour établir la neutralité et l'exhaustivité ; elle n'a pas été élargie arbitrairement.
 
 Les fichiers éditoriaux de données restent identiques à la base. Les essais réseau écrivent uniquement dans `.preview/`, exclu de Git.
+
+## Finalisation de l'actualisation quotidienne
+
+- Dix tests Python passent, dont deux passages successifs de la veille, conservation d'un résumé humain et exclusion des contenus non validés du paquet public.
+- Passage réel complet isolé : Commission 167 notices ; Verian accessible ; Mediapart 16 articles examinés, deux détections ; Blast 16 articles examinés, une détection, six extractions vides ; Disclose 20 articles examinés, une détection. Aucun fichier éditorial de production modifié.
+- La veille est désormais raccordée à la reconstruction quotidienne du site sur la révision exacte qu'elle vient d'enregistrer. Les programmes et actualités demeurent les données éditoriales existantes.
+- Un fichier `suivi.json` public contient uniquement les dates et compteurs techniques. Les titres, résumés automatiques et décisions de validation sont exclus du paquet livré.
+- L'interface signale les sources indisponibles, les extractions partielles et une date de contrôle dépassant 48 heures.
+- Le contrôle GitHub permet un passage réseau isolé sur la branche de travail sans déployer. Le passage de production, la fusion et la première mise en ligne demeurent soumis à validation explicite de l'utilisateur.

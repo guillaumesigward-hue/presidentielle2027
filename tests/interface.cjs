@@ -17,12 +17,19 @@ const context = vm.createContext({
   }, fetch: async url => {
     requests.push(url);
     const path = url.split('?')[0];
+    if (path === 'data/suivi.json') {
+      return { ok: true, json: async () => ({
+        last_checked_utc: new Date().toISOString(), last_checked_fr: '10 octobre 2026',
+        sources: { blast: { ok: true, etat_extraction: 'partielle', extractions_vides: 6 },
+          disclose: { ok: false } }
+      }) };
+    }
     return { ok: true, json: async () => JSON.parse(fs.readFileSync(path, 'utf8')) };
   }
 });
 vm.runInContext(script, context);
 setImmediate(() => {
-  assert.equal(requests.length, 2);
+  assert.equal(requests.length, 3);
   assert(!requests.some(url => url.includes('a_valider')));
   for (const id of ['candidatures-grid', 'sondages-grid', 'programmes-grid', 'actualites-grid', 'sources-grid']) {
     assert(elements[id].innerHTML.includes('<article'), id);
@@ -35,5 +42,11 @@ setImmediate(() => {
   assert.equal(vm.runInContext('lienSource("javascript:alert(1)", "x")', context), '');
   assert(vm.runInContext('escapeHtml("<script>")', context).includes('&lt;'));
   assert(vm.runInContext('afficherSolidite({solidite_documentaire:"bad"})', context).includes('Non évaluée'));
+  assert(elements.suivi.innerHTML.includes('extraction partielle'));
+  assert(elements.suivi.innerHTML.includes('Source indisponible'));
+  vm.runInContext('suiviData = null; afficherSuivi()', context);
+  assert(elements.suivi.innerHTML.includes('restent consultables'));
+  vm.runInContext('suiviData = {last_checked_utc:"2000-01-01",sources:{}}; afficherSuivi()', context);
+  assert(elements.suivi.innerHTML.includes('dernier contrôle est ancien'));
   console.log('Interface : sections, cinq thèmes, publication et liens vérifiés.');
 });

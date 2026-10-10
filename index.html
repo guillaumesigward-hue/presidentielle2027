@@ -364,6 +364,10 @@
     Chargement des dates de vérification…
   </div>
 
+  <div class="methodology" id="suivi" role="status" aria-live="polite">
+    Chargement du suivi de la veille…
+  </div>
+
   <section id="candidatures">
     <h2>Candidatures et prétendants suivis</h2>
     <p class="section-intro">
@@ -521,6 +525,7 @@
 <script>
   let electionData = null;
   let programmesData = null;
+  let suiviData = null;
   let themeActif = "ecole";
 
   const themeLabels = {
@@ -556,7 +561,7 @@ ecologie: "Écologie"
 
   function afficherDates() {
     const electionDate =
-      electionData?.derniere_mise_a_jour || "non disponible";
+      suiviData?.last_checked_fr || electionData?.derniere_mise_a_jour || "non disponible";
 
     const programmesDate =
       programmesData?.derniere_verification || "non disponible";
@@ -568,6 +573,31 @@ ecologie: "Écologie"
       <strong>Programmes vérifiés :</strong>
       ${escapeHtml(programmesDate)}
     `;
+  }
+
+  function afficherSuivi() {
+    const container = document.getElementById("suivi");
+    if (!suiviData || !suiviData.sources || typeof suiviData.sources !== "object") {
+      container.innerHTML = "Suivi de la veille momentanément indisponible. Les données éditoriales restent consultables.";
+      return;
+    }
+    const noms = { commission_sondages: "Commission des sondages", verian: "Verian",
+      mediapart: "Mediapart", blast: "Blast", disclose: "Disclose" };
+    const controle = Date.parse(suiviData.last_checked_utc);
+    const ancien = !Number.isFinite(controle) || Date.now() - controle > 48 * 60 * 60 * 1000;
+    container.innerHTML = `<strong>Veille quotidienne des sources</strong>
+      <p>Les nouvelles informations politiques nécessitent une validation humaine avant publication.</p>
+      ${ancien ? "<p><strong>Le dernier contrôle est ancien ou sa date est indisponible.</strong></p>" : ""}
+      <ul>${Object.entries(suiviData.sources).map(([nom, source]) => {
+        let etat = source.ok === true ? "Source accessible" : "Source indisponible au dernier contrôle";
+        if (source.ok === true && source.etat_extraction === "partielle") {
+          etat += ` — extraction partielle (${Number(source.extractions_vides) || 0} article(s) sans texte exploitable)`;
+        }
+        if (source.ok === true && source.etat_extraction === "aucun_article") {
+          etat += " — aucun lien d’article exploitable détecté";
+        }
+        return `<li><strong>${escapeHtml(noms[nom] || nom)}</strong> : ${escapeHtml(etat)}</li>`;
+      }).join("")}</ul>`;
   }
 
   function afficherCandidatures() {
@@ -961,9 +991,11 @@ ecologie: "Écologie"
     try {
       const cacheBuster = Date.now();
 
-      const [electionResponse, programmesResponse] = await Promise.all([
+      const [electionResponse, programmesResponse, suivi] = await Promise.all([
         fetch(`data/election.json?v=${cacheBuster}`, { cache: "no-store" }),
-        fetch(`data/programmes.json?v=${cacheBuster}`, { cache: "no-store" })
+        fetch(`data/programmes.json?v=${cacheBuster}`, { cache: "no-store" }),
+        fetch(`data/suivi.json?v=${cacheBuster}`, { cache: "no-store" })
+          .then(response => response.ok ? response.json() : null).catch(() => null)
       ]);
       if (!electionResponse.ok || !programmesResponse.ok) {
         throw new Error("Les données éditoriales ne sont pas disponibles.");
@@ -980,9 +1012,11 @@ ecologie: "Écologie"
       }
       electionData = election;
       programmesData = programmes;
+      suiviData = suivi;
       // La file a_valider.json ne constitue jamais une source de publication.
 
       afficherDates();
+      afficherSuivi();
       afficherCandidatures();
       afficherSondages();
       afficherProgrammes();

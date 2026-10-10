@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: veille-${{ github.ref }}
@@ -17,6 +19,8 @@ jobs:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    outputs:
+      revision: ${{ steps.commit.outputs.revision }}
 
     steps:
       - name: Recuperer le site
@@ -41,6 +45,7 @@ jobs:
         run: python update.py
 
       - name: Enregistrer la mise a jour
+        id: commit
         run: |
           git config user.name "presidentielle2027-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -51,3 +56,11 @@ jobs:
             git commit -m "Mise a jour quotidienne automatique"
             git push
           fi
+          echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  actualiser_site:
+    needs: update
+    if: github.ref == 'refs/heads/main'
+    uses: ./.github/workflows/publication.yml
+    with:
+      revision: ${{ needs.update.outputs.revision }}
