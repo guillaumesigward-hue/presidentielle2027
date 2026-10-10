@@ -30,14 +30,17 @@ pas un article de presse en engagement de programme ou en candidature confirmée
 
 Le titre et le lien sont attribués au média et étiquetés comme sélection automatique.
 Les articles accessibles sont résumés par le modèle libre multilingue
-Qwen2.5-7B-Instruct, exécuté en français sur le processeur du workflow, sans clé API ni appel à un
+Qwen2.5-14B-Instruct, exécuté en français sur le processeur du workflow, sans clé API ni appel à un
 service d'IA payant. La révision du modèle est épinglée et seules des pondérations
 GGUF sont chargées par llama.cpp. Le modèle et le moteur proviennent de leurs dépôts officiels ; leurs fichiers sont vérifiés par SHA-256. Les textes
 inchangés réutilisent leur résumé. Les articles trop courts ou fermés restent
 explicitement sans résumé. Le modèle traite jusqu'à 2 400 mots accessibles ;
 pour les articles longs, il conserve le début et la fin (où figurent souvent
 les réponses des personnes mises en cause), et signale la partie intermédiaire omise.
-Deux passages produisent une synthèse puis une reformulation. Les contrôles
+Un premier passage produit la synthèse ; une reformulation intervient si nécessaire.
+Le calcul des nouveaux résumés dispose d’un budget de 30 minutes par passage
+pour préserver le temps nécessaire aux autres rubriques. Les articles inchangés
+réutilisent les résumés validés lors d’un passage antérieur. Les contrôles
 recherchent des chiffres ou noms propres absents du texte, des copies longues,
 des citations excessives et des répétitions anormales. Une sortie signalée
 est rejetée ; ces contrôles ne prouvent

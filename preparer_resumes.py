@@ -8,50 +8,47 @@ import tarfile
 import urllib.request
 import zipfile
 
-MODEL = 'Qwen/Qwen2.5-7B-Instruct-GGUF'
-REVISION = 'bb5d59e06d9551d752d08b292a50eb208b07ab1f'
+MODEL = 'Qwen/Qwen2.5-14B-Instruct-GGUF'
+REVISION = 'b466e1f8c07172155743e8e1307507d8a4f91fbd'
 RUNTIME = 'b11541'
-CACHE = Path(os.environ.get('RESUMES_CACHE', str(Path(__file__).resolve().parent / '.cache-modeles/gguf')))
+CACHE = Path(os.environ.get('RESUMES_CACHE', str(Path(__file__).resolve().parent / '.cache-modeles/gguf14')))
 FILES = [
-    ('qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf', 'dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db'),
-    ('qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf', '539cf93f78e887edea1c04e2d7d8cdaca9d01dae9c9025bcb8accbe29df3d72a')]
-SIZES = dict(zip((nom for nom, _ in FILES), (3993201344, 689872288)))
+    ('qwen2.5-14b-instruct-q4_k_m-00001-of-00003.gguf', 'a09ea5e7b1eafb1b30b241726c3cc3c905c96f14ad41e246ffa5f44e53904f68'),
+    ('qwen2.5-14b-instruct-q4_k_m-00002-of-00003.gguf', '21b9457d079680d284e90ef69607c4b2d8ef64a09d4729cb7b5e1357bdba41ae'),
+    ('qwen2.5-14b-instruct-q4_k_m-00003-of-00003.gguf', 'c8d37006760a387a35216e070e6664d7da927f10be8eb870fef2e3d4833d9976')]
+SIZES = dict(zip((nom for nom, _ in FILES), (3991999872, 3989373504, 1006737120)))
 
 def segments(url, destination, total):
+    # Écrire directement à l'offset voulu : pas de deuxième copie de 9 Go.
     taille = 32 * 1024 * 1024
+    temporaire = destination.with_suffix('.tmp')
+    if not temporaire.exists() or temporaire.stat().st_size != total:
+        with temporaire.open('wb') as sortie:
+            sortie.truncate(total)
     tranches = [(debut, min(total-1, debut+taille-1)) for debut in range(0, total, taille)]
     def lire(tranche):
         debut, fin = tranche
-        part = destination.with_name(destination.name + '.' + str(debut) + '.part')
-        if part.exists() and part.stat().st_size == fin-debut+1:
-            return part
         for tentative in range(3):
             try:
                 req = urllib.request.Request(url, headers={'Range': f'bytes={debut}-{fin}'})
-                with urllib.request.urlopen(req, timeout=120) as source, part.open('wb') as sortie:
+                with urllib.request.urlopen(req, timeout=120) as source, temporaire.open('r+b') as sortie:
                     if source.status != 206 or not source.headers.get('Content-Range', '').startswith(f'bytes {debut}-{fin}/'):
                         raise ValueError('Réponse partielle invalide')
+                    sortie.seek(debut)
+                    lus = 0
                     while bloc := source.read(1024 * 1024):
                         sortie.write(bloc)
-                if part.stat().st_size != fin-debut+1:
+                        lus += len(bloc)
+                if lus != fin-debut+1:
                     raise ValueError('Segment incomplet')
-                return part
+                return
             except Exception:
                 if tentative == 2:
                     raise
     with ThreadPoolExecutor(max_workers=8) as pool:
-        parts = list(pool.map(lire, tranches))
-    temporaire = destination.with_suffix('.assemble')
-    with temporaire.open('wb') as sortie:
-        for part in parts:
-            with part.open('rb') as source:
-                while bloc := source.read(8 * 1024 * 1024):
-                    sortie.write(bloc)
+        list(pool.map(lire, tranches))
     temporaire.replace(destination)
-    # Uniquement les segments créés pour ce téléchargement.
-    for part in parts:
-        if part.resolve().is_relative_to(CACHE.resolve()):
-            part.unlink()
+
 
 def telecharger(url, destination, empreinte):
     destination.parent.mkdir(parents=True, exist_ok=True)

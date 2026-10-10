@@ -49,8 +49,8 @@ jobs:
       - name: Mettre en cache le modele de resume
         uses: actions/cache@v4
         with:
-          path: .cache-modeles
-          key: qwen7b-gguf-bb5d59e0-b11541-v1
+          path: .cache-modeles/gguf14
+          key: qwen14b-gguf-b466e1f8-b11541-v1
 
       - name: Preparer le moteur de resume sans cle API
         id: moteur

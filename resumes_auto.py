@@ -6,12 +6,13 @@ Une sortie douteuse ou un texte trop court reste explicitement non résumé.
 import hashlib
 import os
 import re
+import time
 from difflib import SequenceMatcher
 from functools import lru_cache
 from veille import PageArticle
 
 from preparer_resumes import MODEL, REVISION, RUNTIME, CACHE, preparer
-VERSION = 'qwen7b-gguf-v4-' + REVISION[:8] + '-' + RUNTIME
+VERSION = 'qwen14b-gguf-v1-' + REVISION[:8] + '-' + RUNTIME
 
 
 @lru_cache(maxsize=1)
@@ -76,6 +77,9 @@ def moteur():
             contenu = json.loads(json.load(response)['choices'][0]['message']['content'])
         if os.environ.get('RESUMES_DIAGNOSTIC') == '1':
             (CACHE / 'draft-initial.json').write_text(json.dumps(contenu, ensure_ascii=False, indent=2), encoding='utf-8')
+        premier = contenu['enquete'].strip() + '\n\n' + contenu['reponses'].strip()
+        if sortie_coherente(premier, texte) and all(contenu[cle].strip().endswith(('.', '!', '?')) for cle in ('enquete', 'reponses')):
+            return premier
         # Deuxième passage bref : reformuler le brouillon, sans ajouter de faits.
         # Le contrôle final compare toujours la sortie au texte de l'article.
         messages[1]['content'] = ('Rewrite this French draft using completely different sentence structures and vocabulary. '
@@ -96,15 +100,15 @@ def moteur():
     return rediger
 
 
-def sortie_coherente(resume, original):
+def raison_rejet(resume, original):
     if not 15 <= len(resume.split()) <= 170:
-        return False
+        return 'longueur'
     # Une date, un montant ou un pourcentage nouveau impose un rejet.
     chiffres = lambda s: set(re.findall(r'\d+(?:[,.]\d+)?', s))
     if not chiffres(resume) <= chiffres(original):
-        return False
+        return 'chiffres'
     if re.search(r'aucune? aide.{0,80}vers[ée]', original, re.I) and re.search(r'(?:a|ont|aurait|auraient)\s+(?:reçu|touché)|a [ée]t[ée] vers[ée]e', resume, re.I):
-        return False
+        return 'versement'
     mots = re.findall(r'\w+', resume.casefold())
     source = re.findall(r'\w+', original.casefold())
     # Bloquer les copies longues et les boucles de génération.
@@ -114,22 +118,28 @@ def sortie_coherente(resume, original):
     citations = re.findall(r'«([^»]+)»|"([^"\n]+)"|(?<!\w)\x27([^\x27\n]{3,200})\x27(?!\w)', resume)
     cites = sum(len(re.findall(r'\w+', ''.join(groupe))) for groupe in citations)
     if copies > 25 or cites > 25:
-        return False
+        return 'copie'
     groupes = [tuple(mots[i:i+4]) for i in range(len(mots)-3)]
     if any(groupes.count(g) > 2 for g in set(groupes)):
-        return False
+        return 'repetition'
     # Ne pas publier de noms propres ajoutés par le modèle.
     noms = re.findall(r'(?<![.!?]\s)\b[A-ZÀ-Ý][a-zà-ÿ]+(?:[- ][A-ZÀ-Ý][a-zà-ÿ]+)+', resume)
     noms = [re.sub(r'^(?:Selon|Le|La|Les|Un|Une|En|Pour|Ce|Ces|Cette)\s+', '', nom) for nom in noms]
-    return all(nom.casefold() in original.casefold() for nom in noms)
+    return None if all(nom.casefold() in original.casefold() for nom in noms) else 'noms'
+
+
+def sortie_coherente(resume, original):
+    return raison_rejet(resume, original) is None
+
 
 
 def resumer_publications(publications, fetch, precedentes=(), generate=None):
     cache = {x.get('url'): x for x in precedentes}
     redaction = generate
     moteur_indisponible = False
+    limite = time.monotonic() + 30 * 60
     bilan = {'resumes': 0, 'reutilises': 0, 'indisponibles': 0,
-             'modele': MODEL, 'revision': REVISION}
+             'modele': MODEL, 'revision': REVISION, 'rejets': {}}
     for item in publications:
         for key in ('resume', 'resume_erreur', 'resume_version', 'resume_empreinte'):
             item.pop(key, None)
@@ -154,6 +164,10 @@ def resumer_publications(publications, fetch, precedentes=(), generate=None):
                 item['resume_limite'] = 'Le moteur de résumé local est désactivé pour cette exécution.'
                 bilan['indisponibles'] += 1
                 continue
+            if time.monotonic() > limite:
+                item['resume_limite'] = 'Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint.'
+                bilan['indisponibles'] += 1
+                continue
             if moteur_indisponible:
                 raise RuntimeError('Moteur indisponible pour ce passage')
             if redaction is None:
@@ -169,7 +183,9 @@ def resumer_publications(publications, fetch, precedentes=(), generate=None):
             accessible = texte if len(mots)<=2400 else ' '.join(mots[:1600])+'\n[Passage intermédiaire non fourni]\n'+' '.join(mots[-800:])
             source_resumee = 'Publication : ' + item.get('source', 'Source citée') + '\n' + accessible
             resume = rediger(source_resumee)
-            if not sortie_coherente(resume, source_resumee):
+            motif = raison_rejet(resume, source_resumee)
+            if motif:
+                bilan['rejets'][motif] = bilan['rejets'].get(motif, 0) + 1
                 raise ValueError('Résumé rejeté par les contrôles de cohérence')
             # Limiter la restitution, sans couper une phrase ni copier l'article.
             if not resume or len(resume.split()) > 200 or not resume.rstrip().endswith(('.', '!', '?')):
