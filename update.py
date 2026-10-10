@@ -599,26 +599,26 @@ for source_journalistique in SOURCES_JOURNALISTIQUES:
         for url_article, titre_html in liens:
 
             titre_article = clean_text(titre_html).strip()
-                print(
-                    "DEBUG LIEN BRUT:",
-                    nom_source,
-                    repr(url_article),
-                    "TITRE:",
-                    repr(titre_article[:120])
-                )
+            print(
+                "DEBUG LIEN BRUT:",
+                nom_source,
+                repr(url_article),
+                "TITRE:",
+                repr(titre_article[:120])
+            )
 
             if not titre_article:
                 continue
 
-# Préfiltre sur le titre désactivé :
-# l'analyse électorale est effectuée plus bas sur le titre + contenu.
-# texte_test = titre_article.lower()
-#
-# if not any(
-#     mot.lower() in texte_test
-#     for mot in MOTS_CLES_POLITIQUES
-# ):
-#     continue
+            # Préfiltre sur le titre désactivé :
+            # l'analyse électorale est effectuée plus bas sur le titre + contenu.
+            # texte_test = titre_article.lower()
+            #
+            # if not any(
+            #     mot.lower() in texte_test
+            #     for mot in MOTS_CLES_POLITIQUES
+            # ):
+            #     continue
 
             if url_article.startswith("/"):
                 domaine = re.match(
