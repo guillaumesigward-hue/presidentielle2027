@@ -7,7 +7,8 @@ Site statique neutre avec sources et contrôle quotidien automatisé des pages d
 Les tests s'exécutent avec `python -m unittest discover -s tests -v` et
 `node tests/interface.cjs`. Ils sont également lancés par GitHub Actions.
 La veille à 05:17 et 17:17 UTC actualise les données et publie la révision exacte
-sur `main`. À la demande de l'utilisateur, le mode autonome est activé : liens
+sur `main`. Une fusion ou un push sur `main` déclenche aussi cette veille.
+À la demande de l'utilisateur, le mode autonome est activé : liens
 de presse contrôlés, résumés locaux sans clé API, résultats de sondages extraits
 des notices compatibles et propositions explicites des sources de campagne.
 Les limites et la couverture sont visibles sur le site. Voir [AUTOMATISATION.md](AUTOMATISATION.md).
@@ -156,3 +157,4 @@ cohérence avant publication, avec une attribution claire et ses limites. Il ne
 doit jamais être présenté comme une information vérifiée indépendamment.
 
 La priorité éditoriale est la fidélité et la complétude. Si une source contient de nombreux éléments importants, le résumé peut être plus long afin de ne pas les tronquer ou les diluer.
+

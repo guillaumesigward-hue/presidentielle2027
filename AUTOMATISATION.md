@@ -38,8 +38,10 @@ explicitement sans résumé. Le modèle traite jusqu'à 1 600 mots accessibles ;
 pour les articles longs, il conserve le début et la fin (où figurent souvent
 les réponses des personnes mises en cause), et signale la partie intermédiaire omise.
 Un premier passage produit la synthèse ; une reformulation intervient si nécessaire.
-Le calcul des nouveaux résumés dispose d’un budget de 20 minutes par passage
-pour préserver le temps nécessaire aux autres rubriques. Les articles inchangés
+Le calcul des nouveaux résumés dispose d’un budget de 45 minutes par passage,
+avec interruption réelle sur le runner Linux après cinq minutes par article
+(démarrage et reformulation compris), ou plus tôt si le budget restant est épuisé.
+Les articles reportés sont prioritaires au passage suivant. Les articles inchangés
 réutilisent les résumés validés lors d’un passage antérieur. Les contrôles
 recherchent des chiffres ou noms propres absents du texte, des copies longues,
 des citations excessives et des répétitions anormales. Une sortie signalée
@@ -72,3 +74,24 @@ les chiffres et fiches précédemment disponibles sont conservés ; la date de
 contrôle automatique ne remplace pas leur date de vérification éditoriale.
 La construction et la publication réutilisent exactement les données du passage
 réussi. Le suivi public indique la couverture et les extractions manquantes.
+
+## Exécution et reprise
+
+La veille se lance à 05:17 et 17:17 UTC et après un push humain ou une fusion sur
+main. Le push du robot ne crée pas de boucle. La préparation du moteur est limitée
+à 15 minutes ; son échec laisse fonctionner les autres rubriques. La sauvegarde
+facultative du cache a lieu après l'enregistrement des données, avec une limite de
+cinq minutes. Les diagnostics sont conservés sept jours dans les artifacts Actions.
+
+Le site et son interface sont validés sur les nouvelles données avant tout commit.
+En cas d'avance de main, les modifications indépendantes sont reprises et validées
+avant de retenter le push (trois tentatives, jamais de push forcé). Une modification
+concurrente des données interrompt ce passage pour ne pas écraser le travail humain ;
+la prochaine veille repart des données récentes. Le site précédent reste consultable.
+
+Le test manuel des sources avec `--require-summary` ignore les résumés antérieurs et
+exige une génération nouvelle. Un contrôle vert hors réseau ne remplace pas cet essai.
+Chaque article sélectionné est traité, mais un texte fermé, trop court, un dépassement
+de temps ou une sortie rejetée reste explicitement sans résumé. Le dispositif ne peut
+garantir un résumé pour un contenu auquel il n'a pas accès.
+

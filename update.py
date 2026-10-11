@@ -267,10 +267,8 @@ def main():
     detections_file = DATA_DIR / "actualites_detectees.json"
     validation_file = DATA_DIR / "a_valider.json"
 
-    # IMPORTANT :
-    # data/programmes.json est volontairement absent de ce script.
-    # Les fiches politiques validées manuellement ne sont donc jamais
-    # modifiées, complétées ou écrasées par l'automatisation.
+    # Les fiches éditoriales sont conservées ; les extraits automatiques
+    # enrichissent des champs distincts dans data/programmes.json.
 
     election = charger_json(
         election_file,
@@ -596,3 +594,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

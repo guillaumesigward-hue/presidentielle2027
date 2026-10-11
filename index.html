@@ -828,7 +828,7 @@ ecologie: "Écologie"
   function afficherResume(item) {
     if (item.controle !== "automatique") return "";
     const paragraphes = item.resume_statut === "disponible" && item.resume
-      ? `<h4>L’essentiel selon ${escapeHtml(item.source || "la source")}</h4>` + String(item.resume).split(/\n\n+/).map(p => `<p>${escapeHtml(p)}</p>`).join("")
+      ? `<h4>L’essentiel selon ${escapeHtml(item.source || "la source")}</h4>` + String(item.resume).split(/\n\n+/).map((p, i) => `<p><strong>${i === 0 ? "Ce qu’il faut retenir" : "Réponses et points à suivre"}</strong><br>${escapeHtml(p)}</p>`).join("")
       : '<p><strong>Résumé détaillé indisponible.</strong></p>';
     return paragraphes + `<p class="source-meta">${escapeHtml(item.resume_limite || "Le texte accessible ne permet pas de produire un résumé détaillé.")}</p>`;
   }
@@ -1084,3 +1084,4 @@ ecologie: "Écologie"
 
 </body>
 </html>
+
