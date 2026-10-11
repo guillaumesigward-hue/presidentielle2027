@@ -412,5 +412,19 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Au meeting de Gabriel Attal, la peur des « extrêmes » tourmente les militants macronistes",
+    "url": "https://www.mediapart.fr/journal/politique/101026/au-meeting-de-gabriel-attal-la-peur-des-extremes-tourmente-les-militants-macronistes",
+    "resume": "La dynamique du RN et de LFI obsède les sympathisants de Gabriel Attal, qui renvoient ces partis dos à dos et inversent parfois même la hiérarchie des menaces, incluant plus volontiers le parti d’ext…",
+    "date_detection": "11 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Gabriel Attal"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

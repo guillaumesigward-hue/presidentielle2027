@@ -1,6 +1,20 @@
 {
-  "last_checked_utc": "2026-10-10T17:26:12.650482+00:00",
+  "last_checked_utc": "2026-10-11T05:28:25.185373+00:00",
   "articles": [
+    {
+      "titre": "Au meeting de Gabriel Attal, la peur des « extrêmes » tourmente les militants macronistes",
+      "source": "Mediapart",
+      "url": "https://www.mediapart.fr/journal/politique/101026/au-meeting-de-gabriel-attal-la-peur-des-extremes-tourmente-les-militants-macronistes",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-10T19:54:44+02:00",
+      "controle": "automatique",
+      "themes": [],
+      "candidats_mentions": [
+        "Gabriel Attal"
+      ],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique"
+    },
     {
       "titre": "Affaire Bardella : le trop long silence de BHL",
       "source": "Blast",
@@ -126,20 +140,6 @@
       ],
       "candidats_mentions": [
         "Jean-Luc Mélenchon"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique"
-    },
-    {
-      "titre": "Pas besoin d’avocats ni de communicants : CNews assure gratuitement la défense de Jordan Bardella",
-      "source": "Mediapart",
-      "url": "https://www.mediapart.fr/journal/politique/041026/pas-besoin-d-avocats-ni-de-communicants-cnews-assure-gratuitement-la-defense-de-jordan-bardella",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-04T18:09:02+02:00",
-      "controle": "automatique",
-      "themes": [],
-      "candidats_mentions": [
-        "Jordan Bardella"
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique"
