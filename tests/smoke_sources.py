@@ -22,6 +22,9 @@ data = update.ROOT / '.preview' / 'data'
 data.mkdir(parents=True, exist_ok=True)
 for file in update.DATA_DIR.glob('*.json'):
     shutil.copy2(file, data / file.name)
+if args.require_summary:
+    # Un résumé ancien ne prouve pas que le moteur démarre et génère aujourd'hui.
+    (data / 'publications_auto.json').unlink(missing_ok=True)
 pages = update.ROOT / '.preview' / 'pages'
 pages.mkdir(parents=True, exist_ok=True)
 original_fetch = update.fetch
@@ -48,4 +51,5 @@ for article in snapshot['articles']:
     if article.get('resume_statut') == 'disponible':
         print('RESUME', article['source'], article['url'], article['resume'])
 if args.require_summary:
-    assert any(x.get('resume_statut') == 'disponible' for x in snapshot['articles']), 'Le test réel ne valide aucun résumé : vérifier le moteur avant publication.'
+    assert status['resumes_automatiques']['resumes'] > 0, 'Aucun nouveau résumé généré : vérifier le moteur avant publication.'
+
