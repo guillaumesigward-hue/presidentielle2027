@@ -3,3 +3,5 @@ __pycache__/
 *.tmp
 .preview/
 test-results/
+.venv-resumes/
+.cache-modeles/

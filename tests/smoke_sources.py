@@ -15,12 +15,16 @@ import veille
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--max-articles', type=int, default=20)
+parser.add_argument('--require-summary', action='store_true')
 args = parser.parse_args()
 
 data = update.ROOT / '.preview' / 'data'
 data.mkdir(parents=True, exist_ok=True)
 for file in update.DATA_DIR.glob('*.json'):
     shutil.copy2(file, data / file.name)
+if args.require_summary:
+    # Un résumé ancien ne prouve pas que le moteur démarre et génère aujourd'hui.
+    (data / 'publications_auto.json').unlink(missing_ok=True)
 pages = update.ROOT / '.preview' / 'pages'
 pages.mkdir(parents=True, exist_ok=True)
 original_fetch = update.fetch
@@ -39,3 +43,13 @@ status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
 for nom, source in status['sources'].items():
     print(nom, json.dumps({key: value for key, value in source.items()
                            if key in ('ok', 'erreur', 'liens_trouves', 'liens_examines', 'extractions_vides', 'detections', 'notices_detectees')}, ensure_ascii=False))
+for cle in ('resumes_automatiques', 'sondages_automatiques', 'campagnes_automatiques'):
+    print(cle, json.dumps(status.get(cle, {}), ensure_ascii=False))
+snapshot = json.loads((data / 'publications_auto.json').read_text(encoding='utf-8'))
+print('erreurs_resumes', [{ 'source': x['source'], 'erreur': x.get('resume_erreur') } for x in snapshot['articles'] if x.get('resume_erreur')])
+for article in snapshot['articles']:
+    if article.get('resume_statut') == 'disponible':
+        print('RESUME', article['source'], article['url'], article['resume'])
+if args.require_summary:
+    assert status['resumes_automatiques']['resumes'] > 0, 'Aucun nouveau résumé généré : vérifier le moteur avant publication.'
+
