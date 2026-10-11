@@ -39,7 +39,7 @@ pour les articles longs, il conserve le début et la fin (où figurent souvent
 les réponses des personnes mises en cause), et signale la partie intermédiaire omise.
 Un premier passage produit la synthèse ; une reformulation intervient si nécessaire.
 Le calcul des nouveaux résumés dispose d’un budget de 45 minutes par passage,
-avec interruption réelle sur le runner Linux après cinq minutes par article
+avec interruption réelle sur le runner Linux après vingt minutes par article
 (démarrage et reformulation compris), ou plus tôt si le budget restant est épuisé.
 Les articles reportés sont prioritaires au passage suivant. Les articles inchangés
 réutilisent les résumés validés lors d’un passage antérieur. Les contrôles

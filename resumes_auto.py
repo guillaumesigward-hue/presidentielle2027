@@ -189,7 +189,7 @@ def resumer_publications(publications, fetch, precedentes=(), generate=None):
             accessible = texte if len(mots)<=1600 else ' '.join(mots[:900])+'\n[Passage intermédiaire non fourni]\n'+' '.join(mots[-700:])
             source_resumee = 'Publication : ' + item.get('source', 'Source citée') + '\n' + accessible
             item['resume_tente_utc'] = datetime.now(timezone.utc).isoformat()
-            with delai_reel(min(300, limite - time.monotonic())):
+            with delai_reel(min(1200, limite - time.monotonic())):
                 if redaction is None:
                     try:
                         redaction = moteur()
