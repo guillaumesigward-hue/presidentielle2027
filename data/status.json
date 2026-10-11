@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-11T13:19:50.612448+00:00",
+  "last_checked_utc": "2026-10-11T17:29:34.793099+00:00",
   "last_checked_fr": "11 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -293,21 +293,21 @@
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2263",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2262"
     ],
-    "nouvelles_personnes_testees": 11
+    "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 58,
-    "pages_accessibles": 40,
+    "pages_examinees": 60,
+    "pages_accessibles": 41,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
         "examinees": 10,
-        "accessibles": 10
+        "accessibles": 9
       },
       "Bruno Retailleau": {
-        "examinees": 8,
-        "accessibles": 5
+        "examinees": 10,
+        "accessibles": 7
       },
       "Fabien Roussel": {
         "examinees": 6,

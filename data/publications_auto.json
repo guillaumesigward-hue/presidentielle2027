@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-11T13:19:50.612448+00:00",
+  "last_checked_utc": "2026-10-11T17:29:34.793099+00:00",
   "articles": [
     {
       "titre": "La « démocratie lycéenne » ne convainc ni les élèves ni les chefs d’établissement",
@@ -175,9 +175,9 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
+      "resume_tente_utc": "2026-10-11T17:30:29.355631+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_tente_utc": "2026-10-11T13:21:00.717536+00:00",
       "resume_erreur": "DelaiDepasse"
     }
   ]
