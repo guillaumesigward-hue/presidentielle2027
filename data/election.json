@@ -6,52 +6,726 @@
       "nom": "Nicolas Dupont-Aignan",
       "description": "Candidature déclarée à l’élection présidentielle de 2027.",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/politique/article/2026/09/19/presidentielle-2027-nicolas-dupont-aignan-candidat-pour-la-quatrieme-fois_6777845_823448.html"
+      "url": "https://www.lemonde.fr/politique/article/2026/09/19/presidentielle-2027-nicolas-dupont-aignan-candidat-pour-la-quatrieme-fois_6777845_823448.html",
+      "dernier_controle_sources": "11 octobre 2026"
     },
     {
       "nom": "Édouard Philippe",
       "description": "Candidature déclarée à l’élection présidentielle de 2027.",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "dernier_controle_sources": "11 octobre 2026"
     },
     {
       "nom": "Gabriel Attal",
       "description": "Candidature déclarée à l’élection présidentielle de 2027.",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/politique/article/2026/06/01/presidentielle-2027-le-timing-de-la-declaration-de-candidature-un-choix-strategique-pour-les-candidats_6695918_823448.html"
+      "url": "https://www.lemonde.fr/politique/article/2026/06/01/presidentielle-2027-le-timing-de-la-declaration-de-candidature-un-choix-strategique-pour-les-candidats_6695918_823448.html",
+      "dernier_controle_sources": "11 octobre 2026"
     },
     {
       "nom": "Bruno Retailleau",
       "description": "Candidature déclarée à l’élection présidentielle de 2027.",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "dernier_controle_sources": "11 octobre 2026"
     },
     {
       "nom": "Jean-Luc Mélenchon",
       "description": "Candidature déclarée à l’élection présidentielle de 2027.",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "dernier_controle_sources": "11 octobre 2026"
     },
     {
       "nom": "Marine Le Pen",
       "description": "Candidature déclarée à l’élection présidentielle de 2027.",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "dernier_controle_sources": "11 octobre 2026"
     },
     {
       "nom": "Fabien Roussel",
       "description": "Candidature déclarée à l’élection présidentielle de 2027.",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "dernier_controle_sources": "11 octobre 2026"
     },
     {
       "nom": "Éric Zemmour",
       "description": "Candidature déclarée à l’élection présidentielle de 2027.",
       "source": "Le Monde",
-      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html"
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/07/02/presidentielle-2027-qui-sont-les-34-candidats-declares-et-probables_6680905_4355771.html",
+      "dernier_controle_sources": "11 octobre 2026"
+    },
+    {
+      "nom": "Nathalie Arthaud",
+      "description": "Personne testée dans un scénario de sondage. Cette présence n’établit pas une déclaration de candidature à la présidentielle de 2027.",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=9",
+      "nature": "personne_testee",
+      "controle": "automatique"
+    },
+    {
+      "nom": "Marine Tondelier",
+      "description": "Personne testée dans un scénario de sondage. Cette présence n’établit pas une déclaration de candidature à la présidentielle de 2027.",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=9",
+      "nature": "personne_testee",
+      "controle": "automatique"
+    },
+    {
+      "nom": "Raphaël Glucksmann",
+      "description": "Personne testée dans un scénario de sondage. Cette présence n’établit pas une déclaration de candidature à la présidentielle de 2027.",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=9",
+      "nature": "personne_testee",
+      "controle": "automatique"
+    },
+    {
+      "nom": "Olivier Faure",
+      "description": "Personne testée dans un scénario de sondage. Cette présence n’établit pas une déclaration de candidature à la présidentielle de 2027.",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=12",
+      "nature": "personne_testee",
+      "controle": "automatique"
+    },
+    {
+      "nom": "Ségolène Royal",
+      "description": "Personne testée dans un scénario de sondage. Cette présence n’établit pas une déclaration de candidature à la présidentielle de 2027.",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=14",
+      "nature": "personne_testee",
+      "controle": "automatique"
+    },
+    {
+      "nom": "Jérôme Guedj",
+      "description": "Personne testée dans un scénario de sondage. Cette présence n’établit pas une déclaration de candidature à la présidentielle de 2027.",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=15",
+      "nature": "personne_testee",
+      "controle": "automatique"
+    },
+    {
+      "nom": "Emmanuel Maurel",
+      "description": "Personne testée dans un scénario de sondage. Cette présence n’établit pas une déclaration de candidature à la présidentielle de 2027.",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=16",
+      "nature": "personne_testee",
+      "controle": "automatique"
+    },
+    {
+      "nom": "François Hollande",
+      "description": "Personne testée dans un scénario de sondage. Cette présence n’établit pas une déclaration de candidature à la présidentielle de 2027.",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=17",
+      "nature": "personne_testee",
+      "controle": "automatique"
+    },
+    {
+      "nom": "François Ruffin",
+      "description": "Personne testée dans un scénario de sondage. Cette présence n’établit pas une déclaration de candidature à la présidentielle de 2027.",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=18",
+      "nature": "personne_testee",
+      "controle": "automatique"
+    },
+    {
+      "nom": "Dominique de Villepin",
+      "description": "Personne testée dans un scénario de sondage. Cette présence n’établit pas une déclaration de candidature à la présidentielle de 2027.",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=18",
+      "nature": "personne_testee",
+      "controle": "automatique"
+    },
+    {
+      "nom": "David Lisnard",
+      "description": "Personne testée dans un scénario de sondage. Cette présence n’établit pas une déclaration de candidature à la présidentielle de 2027.",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=18",
+      "nature": "personne_testee",
+      "controle": "automatique"
     }
   ],
   "sondages": [
+    {
+      "institut": "Ifop-Fiducial",
+      "commanditaire": "LCI, le Figaro et Sud Radio",
+      "terrain": "25 au 29 septembre 2026",
+      "date_fin": "2026-09-29",
+      "echantillon": "1 393 personnes inscrites sur les listes électorales",
+      "methode": "Quotas",
+      "id": "2c2892b931403973",
+      "titre": "Ifop-Fiducial — L’intention de vote au premier tour de l’élection présidentielle - hypothèse E. Philippe et G. Attal candidats et R. Glucksmann candidat PS-PP",
+      "resume": "Dans ce scénario de premier tour, Marine Le Pen obtient 32 %, Edouard Philippe obtient 16 %, Jean-Luc Mélenchon obtient 15 %. Enquête de Ifop-Fiducial, menée du 25 au 29 septembre 2026 auprès de 1 393 personnes inscrites sur les listes électorales. Ces résultats dépendent des candidatures testées et de la période du terrain. Les petits écarts ne permettent pas de conclure à une différence certaine ; ce sondage ne prédit pas le résultat de 2027.",
+      "description": "Nathalie Arthaud 0,5 %; Jean-Luc Mélenchon 15 %; Fabien Roussel 2,5 %; Marine Tondelier 3 %; Raphaël Glucksmann 11 %; Gabriel Attal 8 %; Edouard Philippe 16 %; Bruno Retailleau 7 %; Nicolas Dupont-Aignan 1 %; Marine Le Pen 32 %; Éric Zemmour 4 %",
+      "resultats": [
+        {
+          "nom": "Nathalie Arthaud",
+          "pourcentage": 0.5
+        },
+        {
+          "nom": "Jean-Luc Mélenchon",
+          "pourcentage": 15.0
+        },
+        {
+          "nom": "Fabien Roussel",
+          "pourcentage": 2.5
+        },
+        {
+          "nom": "Marine Tondelier",
+          "pourcentage": 3.0
+        },
+        {
+          "nom": "Raphaël Glucksmann",
+          "pourcentage": 11.0
+        },
+        {
+          "nom": "Gabriel Attal",
+          "pourcentage": 8.0
+        },
+        {
+          "nom": "Edouard Philippe",
+          "pourcentage": 16.0
+        },
+        {
+          "nom": "Bruno Retailleau",
+          "pourcentage": 7.0
+        },
+        {
+          "nom": "Nicolas Dupont-Aignan",
+          "pourcentage": 1.0
+        },
+        {
+          "nom": "Marine Le Pen",
+          "pourcentage": 32.0
+        },
+        {
+          "nom": "Éric Zemmour",
+          "pourcentage": 4.0
+        }
+      ],
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=9",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "controle": "automatique",
+      "page": 9,
+      "document_sha256": "6a12dfe921c0582829f54cf5d71ed694099453d18bed13fbd011e83122b59e09"
+    },
+    {
+      "institut": "Ifop-Fiducial",
+      "commanditaire": "LCI, le Figaro et Sud Radio",
+      "terrain": "25 au 29 septembre 2026",
+      "date_fin": "2026-09-29",
+      "echantillon": "1 393 personnes inscrites sur les listes électorales",
+      "methode": "Quotas",
+      "id": "0c06ec7d3d41b591",
+      "titre": "Ifop-Fiducial — L’intention de vote au premier tour de l’élection présidentielle - E. Philippe candidat du bloc central et R. Glucksmann candidat PS-PP",
+      "resume": "Dans ce scénario de premier tour, Marine Le Pen obtient 33 %, Edouard Philippe obtient 21 %, Jean-Luc Mélenchon obtient 16 %. Enquête de Ifop-Fiducial, menée du 25 au 29 septembre 2026 auprès de 1 393 personnes inscrites sur les listes électorales. Ces résultats dépendent des candidatures testées et de la période du terrain. Les petits écarts ne permettent pas de conclure à une différence certaine ; ce sondage ne prédit pas le résultat de 2027.",
+      "description": "Nathalie Arthaud 0,5 %; Jean-Luc Mélenchon 16 %; Fabien Roussel 2,5 %; Marine Tondelier 3 %; Raphaël Glucksmann 11 %; Edouard Philippe 21 %; Bruno Retailleau 8 %; Nicolas Dupont-Aignan 1,5 %; Marine Le Pen 33 %; Éric Zemmour 3,5 %",
+      "resultats": [
+        {
+          "nom": "Nathalie Arthaud",
+          "pourcentage": 0.5
+        },
+        {
+          "nom": "Jean-Luc Mélenchon",
+          "pourcentage": 16.0
+        },
+        {
+          "nom": "Fabien Roussel",
+          "pourcentage": 2.5
+        },
+        {
+          "nom": "Marine Tondelier",
+          "pourcentage": 3.0
+        },
+        {
+          "nom": "Raphaël Glucksmann",
+          "pourcentage": 11.0
+        },
+        {
+          "nom": "Edouard Philippe",
+          "pourcentage": 21.0
+        },
+        {
+          "nom": "Bruno Retailleau",
+          "pourcentage": 8.0
+        },
+        {
+          "nom": "Nicolas Dupont-Aignan",
+          "pourcentage": 1.5
+        },
+        {
+          "nom": "Marine Le Pen",
+          "pourcentage": 33.0
+        },
+        {
+          "nom": "Éric Zemmour",
+          "pourcentage": 3.5
+        }
+      ],
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=10",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "controle": "automatique",
+      "page": 10,
+      "document_sha256": "6a12dfe921c0582829f54cf5d71ed694099453d18bed13fbd011e83122b59e09"
+    },
+    {
+      "institut": "Ifop-Fiducial",
+      "commanditaire": "LCI, le Figaro et Sud Radio",
+      "terrain": "25 au 29 septembre 2026",
+      "date_fin": "2026-09-29",
+      "echantillon": "1 393 personnes inscrites sur les listes électorales",
+      "methode": "Quotas",
+      "id": "dc45361926ff17dc",
+      "titre": "Ifop-Fiducial — L’intention de vote au premier tour de l’élection présidentielle – G. Attal candidat du bloc central et R. Glucksmann candidat PS-PP",
+      "resume": "Dans ce scénario de premier tour, Marine Le Pen obtient 34 %, Jean-Luc Mélenchon obtient 15 %, Gabriel Attal obtient 15 %. Enquête de Ifop-Fiducial, menée du 25 au 29 septembre 2026 auprès de 1 393 personnes inscrites sur les listes électorales. Ces résultats dépendent des candidatures testées et de la période du terrain. Les petits écarts ne permettent pas de conclure à une différence certaine ; ce sondage ne prédit pas le résultat de 2027.",
+      "description": "Jean-Luc Mélenchon 15 %; Fabien Roussel 2,5 %; Marine Tondelier 4 %; Raphaël Glucksmann 13 %; Gabriel Attal 15 %; Bruno Retailleau 10 %; Nicolas Dupont-Aignan 2 %; Marine Le Pen 34 %; Éric Zemmour 3,5 %",
+      "resultats": [
+        {
+          "nom": "Jean-Luc Mélenchon",
+          "pourcentage": 15.0
+        },
+        {
+          "nom": "Fabien Roussel",
+          "pourcentage": 2.5
+        },
+        {
+          "nom": "Marine Tondelier",
+          "pourcentage": 4.0
+        },
+        {
+          "nom": "Raphaël Glucksmann",
+          "pourcentage": 13.0
+        },
+        {
+          "nom": "Gabriel Attal",
+          "pourcentage": 15.0
+        },
+        {
+          "nom": "Bruno Retailleau",
+          "pourcentage": 10.0
+        },
+        {
+          "nom": "Nicolas Dupont-Aignan",
+          "pourcentage": 2.0
+        },
+        {
+          "nom": "Marine Le Pen",
+          "pourcentage": 34.0
+        },
+        {
+          "nom": "Éric Zemmour",
+          "pourcentage": 3.5
+        }
+      ],
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=11",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "controle": "automatique",
+      "page": 11,
+      "document_sha256": "6a12dfe921c0582829f54cf5d71ed694099453d18bed13fbd011e83122b59e09"
+    },
+    {
+      "institut": "Ifop-Fiducial",
+      "commanditaire": "LCI, le Figaro et Sud Radio",
+      "terrain": "25 au 29 septembre 2026",
+      "date_fin": "2026-09-29",
+      "echantillon": "1 393 personnes inscrites sur les listes électorales",
+      "methode": "Quotas",
+      "id": "fedc14d57be39f4e",
+      "titre": "Ifop-Fiducial — L’intention de vote au premier tour de l’élection présidentielle – E. Philippe candidat du bloc central et O. Faure candidat PS-PP",
+      "resume": "Dans ce scénario de premier tour, Marine Le Pen obtient 35 %, Edouard Philippe obtient 23 %, Jean-Luc Mélenchon obtient 16 %. Enquête de Ifop-Fiducial, menée du 25 au 29 septembre 2026 auprès de 1 393 personnes inscrites sur les listes électorales. Ces résultats dépendent des candidatures testées et de la période du terrain. Les petits écarts ne permettent pas de conclure à une différence certaine ; ce sondage ne prédit pas le résultat de 2027.",
+      "description": "Jean-Luc Mélenchon 16 %; Fabien Roussel 3,5 %; Marine Tondelier 5 %; Olivier Faure 3 %; Edouard Philippe 23 %; Bruno Retailleau 8 %; Nicolas Dupont-Aignan 1,5 %; Marine Le Pen 35 %; Éric Zemmour 4 %",
+      "resultats": [
+        {
+          "nom": "Jean-Luc Mélenchon",
+          "pourcentage": 16.0
+        },
+        {
+          "nom": "Fabien Roussel",
+          "pourcentage": 3.5
+        },
+        {
+          "nom": "Marine Tondelier",
+          "pourcentage": 5.0
+        },
+        {
+          "nom": "Olivier Faure",
+          "pourcentage": 3.0
+        },
+        {
+          "nom": "Edouard Philippe",
+          "pourcentage": 23.0
+        },
+        {
+          "nom": "Bruno Retailleau",
+          "pourcentage": 8.0
+        },
+        {
+          "nom": "Nicolas Dupont-Aignan",
+          "pourcentage": 1.5
+        },
+        {
+          "nom": "Marine Le Pen",
+          "pourcentage": 35.0
+        },
+        {
+          "nom": "Éric Zemmour",
+          "pourcentage": 4.0
+        }
+      ],
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=12",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "controle": "automatique",
+      "page": 12,
+      "document_sha256": "6a12dfe921c0582829f54cf5d71ed694099453d18bed13fbd011e83122b59e09"
+    },
+    {
+      "institut": "Ifop-Fiducial",
+      "commanditaire": "LCI, le Figaro et Sud Radio",
+      "terrain": "25 au 29 septembre 2026",
+      "date_fin": "2026-09-29",
+      "echantillon": "1 393 personnes inscrites sur les listes électorales",
+      "methode": "Quotas",
+      "id": "a4bd17c6259d283c",
+      "titre": "Ifop-Fiducial — L’intention de vote au premier tour de l’élection présidentielle – G. Attal candidat du bloc central et O. Faure candidat PS-PP",
+      "resume": "Dans ce scénario de premier tour, Marine Le Pen obtient 36 %, Jean-Luc Mélenchon obtient 17 %, Gabriel Attal obtient 17 %. Enquête de Ifop-Fiducial, menée du 25 au 29 septembre 2026 auprès de 1 393 personnes inscrites sur les listes électorales. Ces résultats dépendent des candidatures testées et de la période du terrain. Les petits écarts ne permettent pas de conclure à une différence certaine ; ce sondage ne prédit pas le résultat de 2027.",
+      "description": "Jean-Luc Mélenchon 17 %; Fabien Roussel 3 %; Marine Tondelier 5,5 %; Olivier Faure 4 %; Gabriel Attal 17 %; Bruno Retailleau 11 %; Nicolas Dupont-Aignan 1 %; Marine Le Pen 36 %; Éric Zemmour 4,5 %",
+      "resultats": [
+        {
+          "nom": "Jean-Luc Mélenchon",
+          "pourcentage": 17.0
+        },
+        {
+          "nom": "Fabien Roussel",
+          "pourcentage": 3.0
+        },
+        {
+          "nom": "Marine Tondelier",
+          "pourcentage": 5.5
+        },
+        {
+          "nom": "Olivier Faure",
+          "pourcentage": 4.0
+        },
+        {
+          "nom": "Gabriel Attal",
+          "pourcentage": 17.0
+        },
+        {
+          "nom": "Bruno Retailleau",
+          "pourcentage": 11.0
+        },
+        {
+          "nom": "Nicolas Dupont-Aignan",
+          "pourcentage": 1.0
+        },
+        {
+          "nom": "Marine Le Pen",
+          "pourcentage": 36.0
+        },
+        {
+          "nom": "Éric Zemmour",
+          "pourcentage": 4.5
+        }
+      ],
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=13",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "controle": "automatique",
+      "page": 13,
+      "document_sha256": "6a12dfe921c0582829f54cf5d71ed694099453d18bed13fbd011e83122b59e09"
+    },
+    {
+      "institut": "Ifop-Fiducial",
+      "commanditaire": "LCI, le Figaro et Sud Radio",
+      "terrain": "25 au 29 septembre 2026",
+      "date_fin": "2026-09-29",
+      "echantillon": "1 393 personnes inscrites sur les listes électorales",
+      "methode": "Quotas",
+      "id": "7db014bbdaae7804",
+      "titre": "Ifop-Fiducial — L’intention de vote au premier tour de l’élection présidentielle – E. Philippe candidat du bloc central et S. Royal candidate PS-PP",
+      "resume": "Dans ce scénario de premier tour, Marine Le Pen obtient 35 %, Edouard Philippe obtient 24 %, Jean-Luc Mélenchon obtient 15 %. Enquête de Ifop-Fiducial, menée du 25 au 29 septembre 2026 auprès de 1 393 personnes inscrites sur les listes électorales. Ces résultats dépendent des candidatures testées et de la période du terrain. Les petits écarts ne permettent pas de conclure à une différence certaine ; ce sondage ne prédit pas le résultat de 2027.",
+      "description": "Jean-Luc Mélenchon 15 %; Fabien Roussel 3 %; Marine Tondelier 6 %; Ségolène Royal 3 %; Edouard Philippe 24 %; Bruno Retailleau 8 %; Nicolas Dupont-Aignan 1,5 %; Marine Le Pen 35 %; Éric Zemmour 4 %",
+      "resultats": [
+        {
+          "nom": "Jean-Luc Mélenchon",
+          "pourcentage": 15.0
+        },
+        {
+          "nom": "Fabien Roussel",
+          "pourcentage": 3.0
+        },
+        {
+          "nom": "Marine Tondelier",
+          "pourcentage": 6.0
+        },
+        {
+          "nom": "Ségolène Royal",
+          "pourcentage": 3.0
+        },
+        {
+          "nom": "Edouard Philippe",
+          "pourcentage": 24.0
+        },
+        {
+          "nom": "Bruno Retailleau",
+          "pourcentage": 8.0
+        },
+        {
+          "nom": "Nicolas Dupont-Aignan",
+          "pourcentage": 1.5
+        },
+        {
+          "nom": "Marine Le Pen",
+          "pourcentage": 35.0
+        },
+        {
+          "nom": "Éric Zemmour",
+          "pourcentage": 4.0
+        }
+      ],
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=14",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "controle": "automatique",
+      "page": 14,
+      "document_sha256": "6a12dfe921c0582829f54cf5d71ed694099453d18bed13fbd011e83122b59e09"
+    },
+    {
+      "institut": "Ifop-Fiducial",
+      "commanditaire": "LCI, le Figaro et Sud Radio",
+      "terrain": "25 au 29 septembre 2026",
+      "date_fin": "2026-09-29",
+      "echantillon": "1 393 personnes inscrites sur les listes électorales",
+      "methode": "Quotas",
+      "id": "2bcdd2f931081cf4",
+      "titre": "Ifop-Fiducial — L’intention de vote au premier tour de l’élection présidentielle – E. Philippe candidat du bloc central et J. Guedj candidat PS-PP",
+      "resume": "Dans ce scénario de premier tour, Marine Le Pen obtient 35 %, Edouard Philippe obtient 23 %, Jean-Luc Mélenchon obtient 17 %. Enquête de Ifop-Fiducial, menée du 25 au 29 septembre 2026 auprès de 1 393 personnes inscrites sur les listes électorales. Ces résultats dépendent des candidatures testées et de la période du terrain. Les petits écarts ne permettent pas de conclure à une différence certaine ; ce sondage ne prédit pas le résultat de 2027.",
+      "description": "Jean-Luc Mélenchon 17 %; Fabien Roussel 3,5 %; Marine Tondelier 5,5 %; Jérôme Guedj 3 %; Edouard Philippe 23 %; Bruno Retailleau 8 %; Nicolas Dupont-Aignan 1 %; Marine Le Pen 35 %; Éric Zemmour 3 %",
+      "resultats": [
+        {
+          "nom": "Jean-Luc Mélenchon",
+          "pourcentage": 17.0
+        },
+        {
+          "nom": "Fabien Roussel",
+          "pourcentage": 3.5
+        },
+        {
+          "nom": "Marine Tondelier",
+          "pourcentage": 5.5
+        },
+        {
+          "nom": "Jérôme Guedj",
+          "pourcentage": 3.0
+        },
+        {
+          "nom": "Edouard Philippe",
+          "pourcentage": 23.0
+        },
+        {
+          "nom": "Bruno Retailleau",
+          "pourcentage": 8.0
+        },
+        {
+          "nom": "Nicolas Dupont-Aignan",
+          "pourcentage": 1.0
+        },
+        {
+          "nom": "Marine Le Pen",
+          "pourcentage": 35.0
+        },
+        {
+          "nom": "Éric Zemmour",
+          "pourcentage": 3.0
+        }
+      ],
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=15",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "controle": "automatique",
+      "page": 15,
+      "document_sha256": "6a12dfe921c0582829f54cf5d71ed694099453d18bed13fbd011e83122b59e09"
+    },
+    {
+      "institut": "Ifop-Fiducial",
+      "commanditaire": "LCI, le Figaro et Sud Radio",
+      "terrain": "25 au 29 septembre 2026",
+      "date_fin": "2026-09-29",
+      "echantillon": "1 393 personnes inscrites sur les listes électorales",
+      "methode": "Quotas",
+      "id": "9e1054da18508224",
+      "titre": "Ifop-Fiducial — L’intention de vote au premier tour de l’élection présidentielle – E. Philippe candidat du bloc central et E. Maurel candidat PS-PP",
+      "resume": "Dans ce scénario de premier tour, Marine Le Pen obtient 35 %, Edouard Philippe obtient 23 %, Jean-Luc Mélenchon obtient 17 %. Enquête de Ifop-Fiducial, menée du 25 au 29 septembre 2026 auprès de 1 393 personnes inscrites sur les listes électorales. Ces résultats dépendent des candidatures testées et de la période du terrain. Les petits écarts ne permettent pas de conclure à une différence certaine ; ce sondage ne prédit pas le résultat de 2027.",
+      "description": "Jean-Luc Mélenchon 17 %; Fabien Roussel 3,5 %; Marine Tondelier 6 %; Emmanuel Maurel 1 %; Edouard Philippe 23 %; Bruno Retailleau 9 %; Nicolas Dupont-Aignan 1,5 %; Marine Le Pen 35 %; Éric Zemmour 3 %",
+      "resultats": [
+        {
+          "nom": "Jean-Luc Mélenchon",
+          "pourcentage": 17.0
+        },
+        {
+          "nom": "Fabien Roussel",
+          "pourcentage": 3.5
+        },
+        {
+          "nom": "Marine Tondelier",
+          "pourcentage": 6.0
+        },
+        {
+          "nom": "Emmanuel Maurel",
+          "pourcentage": 1.0
+        },
+        {
+          "nom": "Edouard Philippe",
+          "pourcentage": 23.0
+        },
+        {
+          "nom": "Bruno Retailleau",
+          "pourcentage": 9.0
+        },
+        {
+          "nom": "Nicolas Dupont-Aignan",
+          "pourcentage": 1.5
+        },
+        {
+          "nom": "Marine Le Pen",
+          "pourcentage": 35.0
+        },
+        {
+          "nom": "Éric Zemmour",
+          "pourcentage": 3.0
+        }
+      ],
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=16",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "controle": "automatique",
+      "page": 16,
+      "document_sha256": "6a12dfe921c0582829f54cf5d71ed694099453d18bed13fbd011e83122b59e09"
+    },
+    {
+      "institut": "Ifop-Fiducial",
+      "commanditaire": "LCI, le Figaro et Sud Radio",
+      "terrain": "25 au 29 septembre 2026",
+      "date_fin": "2026-09-29",
+      "echantillon": "1 393 personnes inscrites sur les listes électorales",
+      "methode": "Quotas",
+      "id": "02a6bb5b44b2f297",
+      "titre": "Ifop-Fiducial — L’intention de vote au premier tour de l’élection présidentielle – E. Philippe candidat du bloc central et F. Hollande candidat PS-PP",
+      "resume": "Dans ce scénario de premier tour, Marine Le Pen obtient 34 %, Edouard Philippe obtient 22 %, Jean-Luc Mélenchon obtient 16 %. Enquête de Ifop-Fiducial, menée du 25 au 29 septembre 2026 auprès de 1 393 personnes inscrites sur les listes électorales. Ces résultats dépendent des candidatures testées et de la période du terrain. Les petits écarts ne permettent pas de conclure à une différence certaine ; ce sondage ne prédit pas le résultat de 2027.",
+      "description": "Jean-Luc Mélenchon 16 %; Fabien Roussel 2,5 %; Marine Tondelier 5 %; François Hollande 8 %; Edouard Philippe 22 %; Bruno Retailleau 7 %; Nicolas Dupont-Aignan 1 %; Marine Le Pen 34 %; Éric Zemmour 4 %",
+      "resultats": [
+        {
+          "nom": "Jean-Luc Mélenchon",
+          "pourcentage": 16.0
+        },
+        {
+          "nom": "Fabien Roussel",
+          "pourcentage": 2.5
+        },
+        {
+          "nom": "Marine Tondelier",
+          "pourcentage": 5.0
+        },
+        {
+          "nom": "François Hollande",
+          "pourcentage": 8.0
+        },
+        {
+          "nom": "Edouard Philippe",
+          "pourcentage": 22.0
+        },
+        {
+          "nom": "Bruno Retailleau",
+          "pourcentage": 7.0
+        },
+        {
+          "nom": "Nicolas Dupont-Aignan",
+          "pourcentage": 1.0
+        },
+        {
+          "nom": "Marine Le Pen",
+          "pourcentage": 34.0
+        },
+        {
+          "nom": "Éric Zemmour",
+          "pourcentage": 4.0
+        }
+      ],
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=17",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "controle": "automatique",
+      "page": 17,
+      "document_sha256": "6a12dfe921c0582829f54cf5d71ed694099453d18bed13fbd011e83122b59e09"
+    },
+    {
+      "institut": "Ifop-Fiducial",
+      "commanditaire": "LCI, le Figaro et Sud Radio",
+      "terrain": "25 au 29 septembre 2026",
+      "date_fin": "2026-09-29",
+      "echantillon": "1 393 personnes inscrites sur les listes électorales",
+      "methode": "Quotas",
+      "id": "21055ef1c3bbd7ca",
+      "titre": "Ifop-Fiducial — L’intention de vote au premier tour de l’élection présidentielle – F. Ruffin, D. de Villepin et D. Lisnard candidats",
+      "resume": "Dans ce scénario de premier tour, Marine Le Pen obtient 31 %, Edouard Philippe obtient 15 %, Jean-Luc Mélenchon obtient 14 %. Enquête de Ifop-Fiducial, menée du 25 au 29 septembre 2026 auprès de 1 393 personnes inscrites sur les listes électorales. Ces résultats dépendent des candidatures testées et de la période du terrain. Les petits écarts ne permettent pas de conclure à une différence certaine ; ce sondage ne prédit pas le résultat de 2027.",
+      "description": "Jean-Luc Mélenchon 14 %; Fabien Roussel 2 %; François Ruffin 3 %; Marine Tondelier 3 %; Raphaël Glucksmann 9 %; Gabriel Attal 7 %; Edouard Philippe 15 %; Dominique de Villepin 2 %; David Lisnard 3,5 %; Bruno Retailleau 5 %; Nicolas Dupont-Aignan 1 %; Marine Le Pen 31 %; Éric Zemmour 4 %",
+      "resultats": [
+        {
+          "nom": "Jean-Luc Mélenchon",
+          "pourcentage": 14.0
+        },
+        {
+          "nom": "Fabien Roussel",
+          "pourcentage": 2.0
+        },
+        {
+          "nom": "François Ruffin",
+          "pourcentage": 3.0
+        },
+        {
+          "nom": "Marine Tondelier",
+          "pourcentage": 3.0
+        },
+        {
+          "nom": "Raphaël Glucksmann",
+          "pourcentage": 9.0
+        },
+        {
+          "nom": "Gabriel Attal",
+          "pourcentage": 7.0
+        },
+        {
+          "nom": "Edouard Philippe",
+          "pourcentage": 15.0
+        },
+        {
+          "nom": "Dominique de Villepin",
+          "pourcentage": 2.0
+        },
+        {
+          "nom": "David Lisnard",
+          "pourcentage": 3.5
+        },
+        {
+          "nom": "Bruno Retailleau",
+          "pourcentage": 5.0
+        },
+        {
+          "nom": "Nicolas Dupont-Aignan",
+          "pourcentage": 1.0
+        },
+        {
+          "nom": "Marine Le Pen",
+          "pourcentage": 31.0
+        },
+        {
+          "nom": "Éric Zemmour",
+          "pourcentage": 4.0
+        }
+      ],
+      "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2308#page=18",
+      "source": "Commission des sondages — notice Ifop-Fiducial",
+      "controle": "automatique",
+      "page": 18,
+      "document_sha256": "6a12dfe921c0582829f54cf5d71ed694099453d18bed13fbd011e83122b59e09"
+    },
     {
       "institut": "Ipsos bva — scénario Glucksmann, Attal et Philippe",
       "description": "Nathalie Arthaud 0,5 % ; Jean-Luc Mélenchon 15 % ; Fabien Roussel 2,5 % ; Marine Tondelier 3,5 % ; Raphaël Glucksmann 11,5 % ; Gabriel Attal 7,5 % ; Édouard Philippe 14,5 % ; Bruno Retailleau 6 % ; Nicolas Dupont-Aignan 2 % ; Marine Le Pen 34 % ; Éric Zemmour 3 %.",

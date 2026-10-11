@@ -1,6 +1,22 @@
 {
-  "last_checked_utc": "2026-10-11T05:28:25.185373+00:00",
+  "last_checked_utc": "2026-10-11T13:19:50.612448+00:00",
   "articles": [
+    {
+      "titre": "La « démocratie lycéenne » ne convainc ni les élèves ni les chefs d’établissement",
+      "source": "Mediapart",
+      "url": "https://www.mediapart.fr/journal/france/111026/la-democratie-lyceenne-ne-convainc-ni-les-eleves-ni-les-chefs-d-etablissement",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-11T11:03:15+02:00",
+      "controle": "automatique",
+      "themes": [
+        "École"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
+    },
     {
       "titre": "Au meeting de Gabriel Attal, la peur des « extrêmes » tourmente les militants macronistes",
       "source": "Mediapart",
@@ -13,7 +29,9 @@
         "Gabriel Attal"
       ],
       "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique"
+      "nature": "Lien de presse — contrôle automatique",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
     {
       "titre": "Affaire Bardella : le trop long silence de BHL",
@@ -27,7 +45,9 @@
         "Jordan Bardella"
       ],
       "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique"
+      "nature": "Lien de presse — contrôle automatique",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
     {
       "titre": "Mensonges et désaveux : Laurent Nuñez face à sa démission",
@@ -41,7 +61,9 @@
       ],
       "candidats_mentions": [],
       "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique"
+      "nature": "Lien de presse — contrôle automatique",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
     {
       "titre": "Derrière la défense trumpiste de Jordan Bardella, le poison lent de la « réinformation »",
@@ -55,7 +77,9 @@
         "Jordan Bardella"
       ],
       "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique"
+      "nature": "Lien de presse — contrôle automatique",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
     {
       "titre": "« Vous nous faites honte ! » : Nuñez et Lecornu sous les tirs de barrage d’une Assemblée à cran",
@@ -69,7 +93,9 @@
       ],
       "candidats_mentions": [],
       "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique"
+      "nature": "Lien de presse — contrôle automatique",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
     {
       "titre": "Jordan Bardella convoque une fausse « source » révisionniste pour prouver qu’il n’est pas antisémite",
@@ -83,7 +109,9 @@
         "Jordan Bardella"
       ],
       "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique"
+      "nature": "Lien de presse — contrôle automatique",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
     {
       "titre": "Bardella : l'antisémitisme, un vivier du RN",
@@ -97,7 +125,9 @@
         "Jordan Bardella"
       ],
       "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique"
+      "nature": "Lien de presse — contrôle automatique",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
     {
       "titre": "Le RN poursuit sa campagne, entre silence, déni, attaques et mensonges",
@@ -112,7 +142,9 @@
         "Jordan Bardella"
       ],
       "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique"
+      "nature": "Lien de presse — contrôle automatique",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
     {
       "titre": "Jordan Bardella et l’antisémitisme : l’autre tache sur le parcours du président du RN",
@@ -126,23 +158,9 @@
         "Jordan Bardella"
       ],
       "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique"
-    },
-    {
-      "titre": "Le pouvoir tétanisé par la mobilisation lycéenne",
-      "source": "Mediapart",
-      "url": "https://www.mediapart.fr/journal/politique/051026/le-pouvoir-tetanise-par-la-mobilisation-lyceenne",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-05T20:34:36+02:00",
-      "controle": "automatique",
-      "themes": [
-        "École"
-      ],
-      "candidats_mentions": [
-        "Jean-Luc Mélenchon"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique"
+      "nature": "Lien de presse — contrôle automatique",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
     {
       "titre": "Disclose.ngo — Le gouvernement détourne les aides de l'Ademe pour financer l'un des plus gros pollueurs de France",
@@ -156,7 +174,11 @@
       ],
       "candidats_mentions": [],
       "enquete_anterieure": true,
-      "nature": "Lien de presse — contrôle automatique"
+      "nature": "Lien de presse — contrôle automatique",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_tente_utc": "2026-10-11T13:21:00.717536+00:00",
+      "resume_erreur": "DelaiDepasse"
     }
   ]
 }

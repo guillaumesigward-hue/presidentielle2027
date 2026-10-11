@@ -426,5 +426,19 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "La « démocratie lycéenne » ne convainc ni les élèves ni les chefs d’établissement",
+    "url": "https://www.mediapart.fr/journal/france/111026/la-democratie-lyceenne-ne-convainc-ni-les-eleves-ni-les-chefs-d-etablissement",
+    "resume": "Face à la mobilisation de la jeunesse, le gouvernement mise sur une consultation en ligne et un moment de débat dans les lycées. Une stratégie compromise par le peu de considération traditionnellemen…",
+    "date_detection": "11 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

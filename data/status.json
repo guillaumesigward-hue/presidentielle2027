@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-11T05:28:25.185373+00:00",
+  "last_checked_utc": "2026-10-11T13:19:50.612448+00:00",
   "last_checked_fr": "11 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -9,7 +9,7 @@
       "notices_detectees": 167,
       "dernier_id_detecte": 2319,
       "publication_automatique": false,
-      "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Une vérification humaine est requise avant publication."
+      "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
     "verian": {
       "ok": true,
@@ -30,6 +30,23 @@
       "mise_a_jour": {
         "nombre": 10,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Mediapart",
+            "titre": "Le RN poursuit sa campagne, entre silence, déni, attaques et mensonges",
+            "url": "https://www.mediapart.fr/journal/politique/061026/le-rn-poursuit-sa-campagne-entre-silence-deni-attaques-et-mensonges",
+            "resume": "Jordan Bardella et Marine Le Pen ont organisé comme si de rien n’était une conférence de presse sur leur programme économique, tentant d’éviter les quelques questions sur les propos antisémites tenus…",
+            "date_detection": "11 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [],
+            "candidats_mentions": [
+              "Marine Le Pen",
+              "Jordan Bardella"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Mediapart",
@@ -95,22 +112,6 @@
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
             "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Mediapart",
-            "titre": "« Montages », « faux » : 24 heures de mensonges du Rassemblement national",
-            "url": "https://www.mediapart.fr/journal/politique/021026/montages-faux-24-heures-de-mensonges-du-rassemblement-national",
-            "resume": "Les lieutenants du parti d’extrême droite tentent de venir au secours de Jordan Bardella en attaquant les révélations de « Mediapart ». Dans les médias ou sur les réseaux sociaux, ils enchaînent les …",
-            "date_detection": "11 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [
-              "Jordan Bardella"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
           }
         ]
       }
@@ -120,13 +121,13 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 3,
+      "detections": 2,
       "liens_examines": 16,
       "extractions_vides": 5,
       "liens_trouves": 115,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 3,
+        "nombre": 2,
         "articles": [
           {
             "type": "media_independant_investigation",
@@ -159,22 +160,6 @@
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
             "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Bardella : l'antisémitisme, un vivier du RN",
-            "url": "https://www.blast-info.fr/articles/2026/bardella-l-antisemitisme-un-vivier-du-rn-TlD2zoWESku_A2DZsBH4Eg",
-            "resume": "L'image du jeune homme lisse, exempt des outrances de la génération de Jean-Marie Le Pen, vole en éclats. Mais tout la contredisait depuis le début : à y regarder de près, celui qui incarne le visage de la dédiabolisation a frayé tout au long de sa courte carrière avec des antisémites avérés et des extrémistes en tout genre. Un passage obligé pour entrer dans le premier cercle du RN.",
-            "date_detection": "11 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [
-              "Jordan Bardella"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
           }
         ]
       }
@@ -184,13 +169,13 @@
       "url": "https://disclose.ngo/fr",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 6,
+      "detections": 5,
       "liens_examines": 20,
       "extractions_vides": 0,
       "liens_trouves": 181,
       "etat_extraction": "ok",
       "mise_a_jour": {
-        "nombre": 6,
+        "nombre": 5,
         "articles": [
           {
             "type": "media_investigation",
@@ -234,7 +219,6 @@
             "date_detection": "11 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
-              "Santé",
               "Écologie"
             ],
             "candidats_mentions": [],
@@ -281,9 +265,74 @@
       }
     }
   },
+  "resumes_automatiques": {
+    "resumes": 0,
+    "reutilises": 0,
+    "indisponibles": 11,
+    "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
+    "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
+    "rejets": {},
+    "erreurs": {
+      "DelaiDepasse": 1
+    }
+  },
   "publications_par_media": {
     "Mediapart": 7,
     "Blast": 3,
     "Disclose": 1
+  },
+  "sondages_automatiques": {
+    "notices_examinees": 8,
+    "scenarios_extraits": 10,
+    "non_exploitables": [
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2293",
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2286",
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2276",
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2273",
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2264",
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2263",
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2262"
+    ],
+    "nouvelles_personnes_testees": 11
+  },
+  "campagnes_automatiques": {
+    "pages_examinees": 58,
+    "pages_accessibles": 40,
+    "propositions_extraites": 3,
+    "statuts_actualises": 0,
+    "sources": {
+      "Gabriel Attal": {
+        "examinees": 10,
+        "accessibles": 10
+      },
+      "Bruno Retailleau": {
+        "examinees": 8,
+        "accessibles": 5
+      },
+      "Fabien Roussel": {
+        "examinees": 6,
+        "accessibles": 0
+      },
+      "Jean-Luc Mélenchon": {
+        "examinees": 10,
+        "accessibles": 5
+      },
+      "Édouard Philippe": {
+        "examinees": 7,
+        "accessibles": 7
+      },
+      "Nicolas Dupont-Aignan": {
+        "examinees": 10,
+        "accessibles": 9
+      },
+      "Marine Le Pen": {
+        "examinees": 4,
+        "accessibles": 4
+      },
+      "Éric Zemmour": {
+        "examinees": 3,
+        "accessibles": 0
+      }
+    }
   }
 }
