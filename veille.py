@@ -2,6 +2,7 @@
 from html.parser import HTMLParser
 from html import unescape
 import re
+import json
 from urllib.parse import urljoin, urlsplit, urlunsplit
 
 MAX_ARTICLES_PAR_SOURCE = 20
@@ -63,9 +64,13 @@ class PageArticle(HTMLParser):
         self.description = ''
         self.a_article = False
         self.nombre_articles = 0
+        self.nuxt = []
+        self.dans_nuxt = False
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == 'script' and attrs.get('id') == '__NUXT_DATA__' and attrs.get('type') == 'application/json':
+            self.dans_nuxt = True
         if tag == 'meta' and (attrs.get('property') == 'og:description' or attrs.get('name') == 'description'):
             self.description = attrs.get('content', '')
         if tag in {'meta', 'img', 'br', 'hr', 'input', 'link', 'source', 'wbr', 'embed', 'area', 'base', 'col', 'param', 'track'}:
@@ -78,12 +83,17 @@ class PageArticle(HTMLParser):
             self.nombre_articles += 1
 
     def handle_endtag(self, tag):
+        if tag == 'script':
+            self.dans_nuxt = False
         self.handle_data(' ')
         if tag in self.stack:
             index = len(self.stack) - 1 - self.stack[::-1].index(tag)
             self.stack = self.stack[:index]
 
     def handle_data(self, data):
+        if self.dans_nuxt:
+            self.nuxt.append(data)
+            return
         if any(tag in self.IGNORES for tag in self.stack):
             return
         if 'article' in self.stack and self.nombre_articles == 1:
@@ -92,6 +102,42 @@ class PageArticle(HTMLParser):
             self.paragraphes.append(data)
 
     def texte(self):
+        # Blast livre le corps public dans ses données de rendu Nuxt.
+        # Lire uniquement le récit principal PUBLIC, jamais les recommandations.
+        if self.nuxt:
+            try:
+                brut = ''.join(self.nuxt)
+                if len(brut) > 2000000:
+                    raise ValueError('Données de rendu trop volumineuses')
+                valeurs = json.loads(brut)
+                def ref(index):
+                    if type(index) is not int or not 0 <= index < len(valeurs):
+                        raise ValueError('Référence Nuxt invalide')
+                    return valeurs[index]
+                def unwrap(value):
+                    if isinstance(value, list) and len(value) == 2 and value[0] in ('ShallowReactive', 'Reactive'):
+                        return ref(value[1])
+                    return value
+                racine = unwrap(valeurs[0])
+                donnees = unwrap(ref(racine['data']))
+                histoires = [ref(v) for k, v in donnees.items() if k.startswith('story:')]
+                if len(histoires) == 1:
+                    histoire = histoires[0]
+                    canonique = urlsplit(ref(histoire['canonical_url']))
+                    if ref(histoire['scope']) == 'PUBLIC' and canonique.hostname == 'www.blast-info.fr' and canonique.path.startswith('/articles/'):
+                        blocs = ref(ref(histoire['content_blocks'])['blocks'])
+                        sources = []
+                        for index in blocs:
+                            bloc = ref(index)
+                            if ref(bloc['scheme']) == 'text':
+                                sources.append(ref(ref(bloc['attributes'])['source']))
+                        corps = PageArticle()
+                        corps.feed('<article>' + '\n'.join(sources) + '</article>')
+                        extrait = corps.texte()
+                        if len(extrait.split()) >= 120:
+                            return extrait
+            except (ValueError, KeyError, IndexError, TypeError, AttributeError):
+                pass
         normalize = lambda parts: re.sub(r'\s+', ' ', ' '.join(parts)).strip()
         article = normalize(self.article)
         if len(article) >= 200:
@@ -186,3 +232,4 @@ def construire_validation(detections, existantes, sources):
     for item in par_url.values():
         item['publication_automatique'] = False
     return list(par_url.values())
+
