@@ -1,6 +1,6 @@
 {
-  "last_checked_utc": "2026-10-11T18:09:02.304863+00:00",
-  "last_checked_fr": "11 octobre 2026",
+  "last_checked_utc": "2026-10-12T04:47:25.855183+00:00",
+  "last_checked_fr": "12 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
@@ -33,10 +33,42 @@
           {
             "type": "media_independant_investigation",
             "source": "Mediapart",
+            "titre": "« Vous nous faites honte ! » : Nuñez et Lecornu sous les tirs de barrage d’une Assemblée à cran",
+            "url": "https://www.mediapart.fr/journal/politique/061026/vous-nous-faites-honte-nunez-et-lecornu-sous-les-tirs-de-barrage-d-une-assemblee-cran",
+            "resume": "Lors d’un après-midi agité dans l’hémicycle, la gauche s’est insurgée contre la répression policière orchestrée par le gouvernement contre le mouvement lycéen. Le premier ministre et le ministre de l…",
+            "date_detection": "12 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Mediapart",
+            "titre": "Jordan Bardella convoque une fausse « source » révisionniste pour prouver qu’il n’est pas antisémite",
+            "url": "https://www.mediapart.fr/journal/politique/061026/jordan-bardella-convoque-une-fausse-source-revisionniste-pour-prouver-qu-il-n-est-pas-antisemite",
+            "resume": "Le président du RN a mis en cause « Mediapart » en s’appuyant sur le témoignage d’un militant d’extrême droite présenté comme une « source » manipulée. Problème : cet ancien camarade de Jordan Bardel…",
+            "date_detection": "12 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [],
+            "candidats_mentions": [
+              "Jordan Bardella"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Mediapart",
             "titre": "Le RN poursuit sa campagne, entre silence, déni, attaques et mensonges",
             "url": "https://www.mediapart.fr/journal/politique/061026/le-rn-poursuit-sa-campagne-entre-silence-deni-attaques-et-mensonges",
             "resume": "Jordan Bardella et Marine Le Pen ont organisé comme si de rien n’était une conférence de presse sur leur programme économique, tentant d’éviter les quelques questions sur les propos antisémites tenus…",
-            "date_detection": "11 octobre 2026",
+            "date_detection": "12 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [],
             "candidats_mentions": [
@@ -53,7 +85,7 @@
             "titre": "Jordan Bardella et l’antisémitisme : l’autre tache sur le parcours du président du RN",
             "url": "https://www.mediapart.fr/journal/politique/061026/jordan-bardella-et-l-antisemitisme-l-autre-tache-sur-le-parcours-du-president-du-rn",
             "resume": "Il a salué le « sérieux » du négationniste Robert Faurisson, écrit dans un journal antisémite et célébré Pétain : portrait de Jean-François Jalkh, pilier du RN et employeur au Parlement européen de J…",
-            "date_detection": "11 octobre 2026",
+            "date_detection": "12 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [],
             "candidats_mentions": [
@@ -69,45 +101,13 @@
             "titre": "Le pouvoir tétanisé par la mobilisation lycéenne",
             "url": "https://www.mediapart.fr/journal/politique/051026/le-pouvoir-tetanise-par-la-mobilisation-lyceenne",
             "resume": "Alors que les blessures d’adolescents dues aux violences policières se comptent par dizaines, et à la veille d’une manifestation nationale que Jean-Luc Mélenchon conçoit comme un « point de départ » …",
-            "date_detection": "11 octobre 2026",
+            "date_detection": "12 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École"
             ],
             "candidats_mentions": [
               "Jean-Luc Mélenchon"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Mediapart",
-            "titre": "Pas besoin d’avocats ni de communicants : CNews assure gratuitement la défense de Jordan Bardella",
-            "url": "https://www.mediapart.fr/journal/politique/041026/pas-besoin-d-avocats-ni-de-communicants-cnews-assure-gratuitement-la-defense-de-jordan-bardella",
-            "resume": "Il est bien pratique d’avoir une chaîne de télévision à sa disposition quand on est mis en cause. Depuis nos révélations sur ses écrits antisémites, CNews recrache les éléments de langage du patron d…",
-            "date_detection": "11 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [
-              "Jordan Bardella"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Mediapart",
-            "titre": "Affaire Bardella : la semaine où le vernis a craqué",
-            "url": "https://www.mediapart.fr/journal/politique/041026/affaire-bardella-la-semaine-ou-le-vernis-craque",
-            "resume": "Les révélations de « Mediapart » sur les écrits antisémites de Jordan Bardella ont démoli quinze ans de « dédiabolisation » du RN et plongé le parti d’extrême droite dans une crise interne.",
-            "date_detection": "11 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [
-              "Jordan Bardella"
             ],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
@@ -121,24 +121,81 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 2,
+      "detections": 5,
       "liens_examines": 16,
-      "extractions_vides": 5,
+      "extractions_vides": 4,
       "liens_trouves": 115,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 2,
+        "nombre": 5,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Rapport de l'ONU sur Gaza : les médias occidentaux, relais de la propagande israélienne",
+            "url": "https://www.blast-info.fr/articles/2026/rapport-de-l-onu-sur-gaza-les-medias-occidentaux-relais-de-la-propagande-israelienne-s--g0GuNSw2s9InGVhpqqw",
+            "resume": "C’est tout un système d’anéantissement de la vérité que dévoile le dernier rapport de Francesca Albanese , qui s’est intéressé au système informationnel de propagande israélienne et au rôle des médias dans le génocide en Palestine. « Depuis octobre 2023, Israël utilise tous les moyens à sa disposition pour museler le journalisme palestinien, créant ainsi un climat dans lequel il est devenu pratiquement impossible de mener un travail journalistique indépendant. Au regard du contexte plus large de la campagne menée contre le peuple palestinien, l’ampleur et l’intensité de cet assaut révèlent une volonté délibérée non seulement de dissimuler…",
+            "date_detection": "12 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Santé",
+              "Énergie",
+              "Écologie"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Cher Édouard Geffray – Boxing Day #97",
+            "url": "https://www.blast-info.fr/articles/2026/cher-edouard-geffray-boxing-day-97-ZbhvF7ksQdKjo7KI6xNjiQ",
+            "resume": "Jeudi 17 septembre, vous déclariez sur France 2 que « [concernant les] collèges et lycées, on est à peu près sur quelques dizaines de postes non pourvus actuellement donc globalement on a une rentrée que je qualifierais de correcte en termes de qualité de service public [d’éducation] pour les Français » , c’est bien noté, ce qui est pour le moins cocasse lorsque l’on sait que le mouvement lycéen massif qui secoue le pays est né d’une grève organisée ce même 17 septembre au lycée Saint-Exupéry de Créteil pour protester contre le manque d’effectifs et de moyens, ça ne s’invente pas. Un établissement où, ainsi que le rapportait un syndicaliste…",
+            "date_detection": "12 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Écologie"
+            ],
+            "candidats_mentions": [
+              "Gabriel Attal"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "« Sois jeune et ne te tais pas » : courrier des lecteurs de Blast",
+            "url": "https://www.blast-info.fr/articles/2026/sois-jeune-et-ne-te-tais-pas-courrier-des-lecteurs-de-blast-3oXNpCitRqO93ssVh8dvUw",
+            "resume": "De nombreux lycées n'ont pas prévu d'arrêter de sitôt : aidez-nous ! Envoyé par une lycéenne d’Ardèche (07) le mardi 29 septembre à 20h45 Je me permets de vous contacter concernant la mobilisation actuelle des lycéens en France. Partout dans le pays, de nombreux jeunes se rassemblent devant leurs établissements pour faire entendre leur voix, car nous constatons que nous ne sommes tout simplement pas écoutés.",
+            "date_detection": "12 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Santé",
+              "Énergie",
+              "Handicap / AESH"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
             "titre": "Affaire Bardella : le trop long silence de BHL",
             "url": "https://www.blast-info.fr/articles/2026/affaire-bardella-le-trop-long-silence-de-bhl-xSgT0peQTWSEh9Pzip9h8g",
-            "resume": "Sur France Inter, Bernard-Henri Lévy a laissé entendre qu’il détenait des éléments accablants sur l’antisémitisme de Jordan Bardella. Des éléments qu’il n’a jamais rendus publics, alors qu’il accuse depuis des années La France insoumise d’antisémitisme, sans rien produire à l’appui. Crédits photo/illustration en haut de page : Blast, le souffle de l’info",
-            "date_detection": "11 octobre 2026",
+            "resume": "L’échange, qui doit être intégralement retranscrit, est passé largement inaperçu : c’est dommage, car il pose d’intéressantes questions. Le 2 octobre 2026, quelques jours après l’exhumation par le site d’information Mediapart d’écrits antisémites de Jordan Bardella, président du Rassemblement national (RN), Benjamin Duhamel reçoit sur France Inter l’éditocrate Bernard-Henri Lévy (BHL), venu faire la promotion de son nouveau livre. Dans le cours de leur entretien, l’intervieweur évoque avec son hôte un épisode relativement peu connu : en février 2024, Bardella avait porté plainte pour diffamation contre BHL, qui l’avait qualifié trois mois…",
+            "date_detection": "12 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [],
             "candidats_mentions": [
+              "Jean-Luc Mélenchon",
               "Jordan Bardella"
             ],
             "statut": "À vérifier manuellement",
@@ -150,11 +207,12 @@
             "source": "Blast",
             "titre": "Mensonges et désaveux : Laurent Nuñez face à sa démission",
             "url": "https://www.blast-info.fr/articles/2026/mensonges-et-desaveux-laurent-nunez-face-a-sa-demission-s7qykXeyRa6kpaBZx5zD8w",
-            "resume": "En réponse à une mobilisation lycéenne d’ampleur qui n’a pas été anticipée, le gouvernement fait définitivement tomber le masque. Et en particulier Laurent Nuñez, premier flic de France et responsable de la répression féroce du mouvement, qui apparaît désormais désavoué de toute part : par la population, par ses supérieurs et maintenant même par ses propres troupes. Crédits photo/illustration en haut de page : Morgane Sabouret",
-            "date_detection": "11 octobre 2026",
+            "resume": "« La gestion ultra-sécuritaire du gouvernement, traumatisé depuis le mouvement \"gilets jaunes\" , a abîmé le droit de manifester » : l’habituel très mesuré éditorial du journal Le Monde , le mercredi 7 octobre , est forcé de se rendre à l’évidence. Depuis le début du mouvement lycéen, parti d’un premier blocage dans un établissement à Créteil le 17 septembre, les chiffres donnent le vertige : plus de 6 600 arrestations, en très grande majorité des mineurs, 200 élèves blessés et au moins 18 enquêtes ouvertes à l’IGPN. Bilan que le ministre de l’intérieur, Laurent Nuñez, a assumé sans détour à plusieurs reprises, avant d’être poussé à changer…",
+            "date_detection": "12 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
-              "École"
+              "École",
+              "Énergie"
             ],
             "candidats_mentions": [],
             "statut": "À vérifier manuellement",
@@ -183,7 +241,7 @@
             "titre": "impact",
             "url": "https://disclose.ngo/fr/page/impact",
             "resume": "Si la première mission de la presse est d’informer, Disclose estime que ses enquêtes sont utiles seulement si elles ont un impact concret sur la société. Manifestation contre les livraisons d’armements français en Israël révélées par Disclose, à Marseille (Bouches-du-Rhône) en septembre 2025. Photo : Frédéric Munsch / SIPA De par l’ampleur des scandales que nous révélons, nous fournissons aux citoyen·nes les moyens de faire pression sur les pouvoirs économiques et politiques, afin de provoquer des changements.",
-            "date_detection": "11 octobre 2026",
+            "date_detection": "12 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Énergie",
@@ -200,7 +258,7 @@
             "titre": "Reconnaissance faciale illégale : la police prise en flagrant délit",
             "url": "https://disclose.ngo/fr/article/reconnaissance-faciale-illegale-la-police-prise-en-flagrant-delit",
             "resume": "Les forces de l’ordre continuent d’utiliser quotidiennement la reconnaissance faciale lors de contrôles d’identité, révèlent une vidéo et des témoignages exclusifs obtenus par Disclose et France 2. Exploitée massivement et hors de tout cadre légal, cette technologie cible d’abord des personnes racisées et des militant·es politiques. Elle conduit aussi à des erreurs d’identification grossières, au risque de faire accuser des innocent·es.",
-            "date_detection": "11 octobre 2026",
+            "date_detection": "12 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie"
@@ -216,7 +274,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pfas-six-communes-des-ardennes-portent-plainte-pour-mise-en-danger-de-la-vie-dautrui",
             "resume": "Six communes des Ardennes ont porté plainte pour « mise en danger de la vie d’autrui » et « pollution de l’eau », mardi 7 avril, après avoir découvert l’ampleur de la contamination aux « polluants éternels » sur leur territoire. La procédure, qui s’appuie largement sur les enquêtes successives de Disclose, s’ajoute à trois autres plaintes enregistrées depuis l’été 2025. Dans les Ardennes et la Meuse, la riposte judiciaire s’organise face à la contamination aux PFAS révélée par Disclose et France 3.",
-            "date_detection": "11 octobre 2026",
+            "date_detection": "12 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie"
@@ -232,7 +290,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pollution-aux-pfas-deux-agriculteurs-des-ardennes-portent-plainte-et-demandent-des-comptes-a-letat",
             "resume": "Un couple de maraîchers des Ardennes a déposé plainte, vendredi 27 mars, pour « mise en danger de la vie d’autrui », après les révélations de Disclose et France 3 sur la contamination aux PFAS de leurs légumes et de leur sang. Deux autres plaintes ont été déposées ces derniers jours par des habitant·es de ce territoire, touché par l’une des plus graves pollutions industrielles connues en France. Dans leurs terres, leurs légumes, et jusque dans leur sang : les PFAS se sont immiscés partout chez les Abraham.",
-            "date_detection": "11 octobre 2026",
+            "date_detection": "12 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -250,7 +308,7 @@
             "titre": "Le gouvernement détourne les aides de l’Ademe pour financer l’un des plus gros pollueurs de France",
             "url": "https://disclose.ngo/fr/article/le-gouvernement-detourne-les-aides-de-lademe-pour-financer-lun-des-plus-gros-pollueurs-de-france",
             "resume": "Matignon et Bercy ont truqué deux appels à projets de l’Agence de la transition écologique (Ademe) pour financer le géant de la pétrochimie Ineos, révèle Disclose. La multinationale va toucher plus de 300 millions d’euros d’argent public pour soutenir l’activité d’une usine parmi les plus émettrices de CO2 en France. C’est un Emmanuel Macron tout à son aise qui parade devant un parterre de chef·fes d’entreprises réuni·es à l’Élysée, en ce jour d’octobre 2021.",
-            "date_detection": "11 octobre 2026",
+            "date_detection": "12 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Énergie",
@@ -266,13 +324,13 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 0,
+    "resumes": 3,
     "reutilises": 0,
-    "indisponibles": 11,
+    "indisponibles": 8,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
-      "versement": 1
+      "copie": 1
     },
     "erreurs": {
       "ValueError": 1
@@ -298,8 +356,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 58,
-    "pages_accessibles": 38,
+    "pages_examinees": 60,
+    "pages_accessibles": 42,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -308,8 +366,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 8,
-        "accessibles": 3
+        "examinees": 10,
+        "accessibles": 7
       },
       "Fabien Roussel": {
         "examinees": 6,
