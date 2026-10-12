@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-12T04:47:25.855183+00:00",
+  "last_checked_utc": "2026-10-12T05:33:11.854368+00:00",
   "last_checked_fr": "12 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -324,8 +324,8 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 3,
-    "reutilises": 0,
+    "resumes": 0,
+    "reutilises": 3,
     "indisponibles": 8,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
@@ -356,8 +356,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 60,
-    "pages_accessibles": 42,
+    "pages_examinees": 55,
+    "pages_accessibles": 38,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -366,8 +366,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 10,
-        "accessibles": 7
+        "examinees": 8,
+        "accessibles": 6
       },
       "Fabien Roussel": {
         "examinees": 6,
@@ -386,8 +386,8 @@
         "accessibles": 9
       },
       "Marine Le Pen": {
-        "examinees": 4,
-        "accessibles": 4
+        "examinees": 1,
+        "accessibles": 1
       },
       "Éric Zemmour": {
         "examinees": 3,

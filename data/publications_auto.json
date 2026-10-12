@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-12T04:47:25.855183+00:00",
+  "last_checked_utc": "2026-10-12T05:33:11.854368+00:00",
   "articles": [
     {
       "titre": "« Vous voyez d’autres candidats qui tiennent la mer ? » : à Clermont, Jean-Luc Mélenchon fait encore le plein",
@@ -78,9 +78,9 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
+      "resume_tente_utc": "2026-10-12T04:48:30.005216+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume_tente_utc": "2026-10-12T04:48:30.005216+00:00",
       "resume": "Selon Blast, Bernard-Henri Lévy a suggéré sur France Inter qu'il détient des preuves d'antisémitisme contre Jordan Bardella, président du Rassemblement National. Cette affirmation intervient après que Bardella ait porté plainte contre Lévy en 2024, puis retirée en 2025. Lévy a également accusé La France Insoumise d'antisémitisme sans fournir de preuves concrètes.\n\nLe Rassemblement National n'a pas commenté directement ces allégations. Bernard-Henri Lévy n'a pas précisé quand il rendrait publiques les preuves mentionnées, laissant planer une certaine incertitude.",
       "resume_empreinte": "fa539be01824ef410b2c12a8287ee6060fb29db3e72de4881a5d1761bde129be",
       "resume_version": "qwen14b-gguf-v4-b466e1f8-b11541"
@@ -98,9 +98,9 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
+      "resume_tente_utc": "2026-10-12T04:54:37.988800+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume_tente_utc": "2026-10-12T04:54:37.988800+00:00",
       "resume": "Selon Blast, le mouvement des lycéens en France a été marqué par une forte répression policière. Depuis le 17 septembre, plus de 6 600 arrestations, 200 blessés et 18 enquêtes ont été ouvertes. Les images de lycéens blessés et mutilés ont suscité une vive émotion et une mobilisation massive.\n\nLe ministre de l'intérieur, Laurent Nuñez, a d'abord défendu la répression policière. Il a finalement annoncé, le 7 octobre, l'interdiction temporaire de l'utilisation de la grenade assourdissante dans le cadre du mouvement lycéen. Cependant, cette mesure a été critiquée par les syndicats policiers.",
       "resume_empreinte": "760422f2fd4496259af524eeba4664c66f3667e2ad023b53348c252c352a5ad0",
       "resume_version": "qwen14b-gguf-v4-b466e1f8-b11541"
@@ -166,9 +166,9 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
+      "resume_tente_utc": "2026-10-12T05:02:38.616245+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : le début et la fin accessibles ont été résumés ; une partie intermédiaire n’a pas été traitée.",
-      "resume_tente_utc": "2026-10-12T05:02:38.616245+00:00",
       "resume": "Selon Blast, Marine Le Pen a choisi le village de Brachay, en Haute-Marne, pour annoncer une refondation du Front National en 2017. Avec 58 habitants, Brachay est l'une des plus petites communes de France. Le 9 septembre 2017, devant 500 personnes, Marine Le Pen a déclaré vouloir faire de ce village le symbole de « la France des oubliés ». Elle a également nommé Jordan Bardella, un jeune inconnu de 22 ans, comme porte-parole du parti.\n\nContacté par Blast, Rémi Lelong, un ancien militant du FN 93, a déclaré ne pas croire à l'authenticité des messages de Mediapart. Il n'a pas regretté l'agression des Femen en 2012. Aucune réponse officielle n'a été donnée par le parti concernant les allégations de Mediapart.",
       "resume_empreinte": "ec4aab4ff353063a97f3670494bb4ea7720fca91c94a992d9e1fc2fdba088b8d",
       "resume_version": "qwen14b-gguf-v4-b466e1f8-b11541"
@@ -186,7 +186,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "resume_tente_utc": "2026-10-12T05:10:56.684945+00:00",
+      "resume_tente_utc": "2026-10-12T05:34:19.766241+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
