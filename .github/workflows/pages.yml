@@ -29,6 +29,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # Une exécution en attente doit partir des données du passage précédent.
+          ref: main
 
       - name: Installer Python
         uses: actions/setup-python@v5
@@ -102,6 +104,7 @@ jobs:
           name: diagnostic-veille
           path: |
             data/status.json
+            data/publications_auto.json
             .cache-modeles/gguf14/moteur.log
           retention-days: 7
 
