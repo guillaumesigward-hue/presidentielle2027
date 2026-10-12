@@ -14,7 +14,7 @@ from functools import lru_cache
 from veille import PageArticle
 
 from preparer_resumes import MODEL, REVISION, RUNTIME, CACHE, preparer
-VERSION = 'qwen14b-gguf-v3-' + REVISION[:8] + '-' + RUNTIME
+VERSION = 'qwen14b-gguf-v4-' + REVISION[:8] + '-' + RUNTIME
 
 
 @lru_cache(maxsize=1)
@@ -88,10 +88,14 @@ def moteur():
             return premier
         # Deuxième passage bref : reformuler le brouillon, sans ajouter de faits.
         # Le contrôle final compare toujours la sortie au texte de l'article.
-        messages[1]['content'] = ('Rewrite this French draft using completely different sentence structures and vocabulary. '
-            'Preserve every core fact, source attribution, uncertainty, official reply and payment status. '
-            'Do not add information. No quotation or copied sentence. Use simple natural French. '
-            'Return the same JSON keys enquete and reponses, two complete paragraphs, about 100 words total. DRAFT:\n' + json.dumps(contenu, ensure_ascii=False))
+        motif = raison_rejet(premier, texte) or 'paragraphe incomplet'
+        messages[1]['content'] = ('Correct this draft against the original ARTICLE below. The draft failed this check: '
+            + motif + '. The draft is NOT evidence. Correct any factual mismatch using only the ARTICLE. '
+            'In particular, when the article says that no aid has been paid, explicitly say that no payment has occurred. '
+            'Never say that the company received or obtained the money: distinguish a promised allocation from a payment. '
+            'Preserve attribution, denials and uncertainty. Reformulate in your own words without quotations. '
+            'Return JSON with enquete and reponses, two complete French paragraphs, about 100 words total. '
+            'ARTICLE:\n' + texte + '\nDRAFT TO CORRECT:\n' + json.dumps(contenu, ensure_ascii=False))
         payload = json.dumps({'messages': messages, 'temperature': 0, 'max_tokens': 700, 'seed': 42,
                               'response_format': {'type': 'json_object', 'schema': schema}}).encode()
         request = urllib.request.Request(base + '/v1/chat/completions', data=payload,
@@ -114,8 +118,11 @@ def raison_rejet(resume, original):
     chiffres = lambda s: set(re.findall(r'\d+(?:[,.]\d+)?', s))
     if not chiffres(resume) <= chiffres(original):
         return 'chiffres'
-    if re.search(r'aucune? aide.{0,80}vers[ée]', original, re.I) and re.search(r'(?:a|ont|aurait|auraient)\s+(?:reçu|touché)|a [ée]t[ée] vers[ée]e', resume, re.I):
-        return 'versement'
+    if re.search(r'aucune? aide.{0,80}vers[ée]', original, re.I):
+        for versement in re.finditer(r'\b(?:a|ont|aurait|auraient)\s+(?:reçu|touché)|\ba [ée]t[ée] vers[ée]e', resume, re.I):
+            # « n’a reçu aucune aide » est une négation, pas un versement.
+            if not re.search(r"(?:\bn['’]|\bne\s+)$", resume[:versement.start()], re.I):
+                return 'versement'
     mots = re.findall(r'\w+', resume.casefold())
     source = re.findall(r'\w+', original.casefold())
     # Bloquer les copies longues et les boucles de génération.
