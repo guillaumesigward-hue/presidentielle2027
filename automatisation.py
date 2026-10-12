@@ -4,6 +4,7 @@ from html.parser import HTMLParser
 from concurrent.futures import ThreadPoolExecutor
 import json
 import re
+from urllib.error import HTTPError
 from veille import url_article_valide, contient_expression, THEMES
 
 class Metadonnees(HTMLParser):
@@ -90,10 +91,33 @@ def controler_article(item, source, body, now=None):
             'date_publication': date.isoformat(), 'controle': 'automatique',
             'themes': themes, 'candidats_mentions': mentions,
             'enquete_anterieure': date < now - timedelta(days=30),
-            'nature': 'Lien de presse — contrôle automatique'}
+            'nature': 'Lien de presse — contrôle automatique',
+            'derniere_verification_utc': now.isoformat()}
 
-def selectionner_articles(detections, sources, fetch, now=None, exclusions=()):
+def conserver_article(item, source, now):
+    """Repli de sept jours sur un article déjà contrôlé, jamais sur une détection."""
+    if item.get('controle') != 'automatique' or not url_article_valide(item.get('url', ''), source['url']):
+        return None
+    try:
+        date = datetime.fromisoformat(item['date_publication'])
+        verification = datetime.fromisoformat(item['derniere_verification_utc'])
+        if not now - timedelta(days=180) <= date <= now or not now - timedelta(days=7) <= verification <= now:
+            return None
+    except (KeyError, TypeError, ValueError):
+        return None
+    resultat = dict(item)
+    resultat['verification_differee'] = True
+    resultat['enquete_anterieure'] = date < now - timedelta(days=30)
+    resultat['description'] = ('Article conservé après une indisponibilité de la source. Dernière vérification réussie : '
+                               + verification.strftime('%d/%m/%Y à %H:%M UTC')
+                               + '. Les informations restent attribuées au média cité.')
+    return resultat
+
+
+def selectionner_articles(detections, sources, fetch, now=None, exclusions=(), precedentes=()):
+    now = now or datetime.now(timezone.utc)
     sources = {source['nom']: source for source in sources}
+    precedents = {x['url']: x for x in precedentes if x.get('url') and x.get('source') in sources}
     resultats, vus = [], set(exclusions)
     lots = {nom: [] for nom in sources}
     for item in reversed(detections):
@@ -104,9 +128,19 @@ def selectionner_articles(detections, sources, fetch, now=None, exclusions=()):
         vus.add(url)
         if len(lots[source['nom']]) < 20:
             lots[source['nom']].append(item)
+    # Une panne de la page d'accueil ne doit pas supprimer les liens connus.
+    selectionnes = {x['url'] for lot in lots.values() for x in lot}
+    for url, item in precedents.items():
+        if url not in selectionnes and url not in exclusions:
+            lots[item['source']].append(item)
     def verifier(item):
         try:
             return controler_article(item, sources[item['source']], fetch(item['url']), now)
+        except OSError as exc:
+            # Une suppression explicite ou une interdiction n'est pas une panne transitoire.
+            if isinstance(exc, HTTPError) and exc.code not in (408, 429, 500, 502, 503, 504):
+                return None
+            return conserver_article(precedents.get(item['url'], {}), sources[item['source']], now)
         except Exception:
             return None
     with ThreadPoolExecutor(max_workers=6) as pool:
@@ -114,3 +148,4 @@ def selectionner_articles(detections, sources, fetch, now=None, exclusions=()):
             articles = [x for x in pool.map(verifier, lot) if x]
             resultats.extend(sorted(articles, key=lambda x: datetime.fromisoformat(x['date_publication']), reverse=True)[:7])
     return sorted(resultats, key=lambda item: datetime.fromisoformat(item['date_publication']), reverse=True)
+

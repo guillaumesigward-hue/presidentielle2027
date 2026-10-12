@@ -158,6 +158,14 @@ def resumer_publications(publications, fetch, precedentes=(), generate=None):
     ordre = sorted(publications, key=lambda x: cache.get(x.get('url'), {}).get('resume_tente_utc', ''))
     for item in ordre:
         old = cache.get(item.get('url'), {})
+        if item.get('verification_differee') and old.get('resume_statut') == 'disponible' and old.get('resume_version') == VERSION:
+            # Le texte n'a pas pu être revérifié : conserver le résumé daté, sans le régénérer.
+            for key in ('resume', 'resume_statut', 'resume_limite', 'resume_empreinte', 'resume_version', 'resume_tente_utc'):
+                if key in old:
+                    item[key] = old[key]
+            bilan['reutilises'] += 1
+            bilan['conserves_source_indisponible'] = bilan.get('conserves_source_indisponible', 0) + 1
+            continue
         if old.get('resume_tente_utc'):
             item['resume_tente_utc'] = old['resume_tente_utc']
         for key in ('resume', 'resume_erreur', 'resume_version', 'resume_empreinte'):

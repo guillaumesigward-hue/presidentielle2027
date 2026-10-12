@@ -4,8 +4,11 @@ Activée à la demande de l'utilisateur. La veille à 05:17 et 17:17 UTC
 publie jusqu'à sept liens par média (21 au total), en plus des contenus éditoriaux existants.
 Les contrôles portent sur le domaine autorisé, le chemin de l'article, le titre
 fourni par le média, la date de publication, la pertinence
-électorale et les doublons. Sans date exploitable ou si la page est inaccessible,
-le lien est exclu. Les rejets manuels existants restent exclus. Jusqu'à 30 jours,
+électorale et les doublons. Sans date exploitable, le lien est exclu. Une panne
+réseau transitoire conserve pendant sept jours au maximum les articles déjà
+contrôlés et leurs résumés validés, avec la date de dernière vérification affichée.
+Une page supprimée, un accès interdit, des métadonnées devenues invalides ou
+un rejet humain ne déclenchent pas ce repli. Les rejets manuels existants restent exclus. Jusqu'à 30 jours,
 les liens sont récents ; de 31 à 180 jours, ils portent la mention « enquête antérieure ».
 Au-delà, ils sont exclus. Les formats JSON-LD de Disclose et Nuxt de Blast sont
 lus en associant la date à l'URL exacte de l'article, sans utiliser les dates
@@ -15,6 +18,10 @@ Les contrôles réseau sont exécutés pendant la veille, en parallèle et avec
 un cache limité au passage courant. La sélection est enregistrée dans
 publications_auto.json avec l'horodatage du contrôle ; la publication reconstruit
 ce paquet hors réseau. Un paquet désynchronisé bloque la publication.
+Les téléchargements HTML sont limités à 8 Mo et les PDF à 20 Mo. Chaque lecture
+réseau expire après 15 secondes sans données ; le téléchargement est interrompu
+après un budget de 45 secondes, au plus tard à la fin de la lecture en cours.
+Un serveur qui transmet très lentement ne peut donc pas immobiliser la veille.
 
 Les nouveaux liens sont également présentés dans les programmes par thème et
 dans le suivi des personnes mentionnées. Les dernières notices de la Commission

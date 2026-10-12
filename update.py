@@ -6,6 +6,7 @@ import html
 import json
 import re
 import urllib.request
+import time
 from functools import lru_cache
 
 ROOT = Path(__file__).resolve().parent
@@ -84,24 +85,32 @@ MOTS_CLES_POLITIQUES = [
 USER_AGENT = "Presidentielle2027SourceMonitor/5.0"
 
 
+def lire_url(url, maximum):
+    """Borner aussi une réponse lente qui continue d'envoyer quelques octets."""
+    echeance = time.monotonic() + 45
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    morceaux, taille = [], 0
+    with urllib.request.urlopen(request, timeout=15) as response:
+        while True:
+            if time.monotonic() >= echeance:
+                raise TimeoutError('Durée maximale de téléchargement atteinte')
+            morceau = response.read1(min(65536, maximum + 1 - taille))
+            if not morceau:
+                return b''.join(morceaux)
+            taille += len(morceau)
+            if taille > maximum:
+                raise ValueError('Document trop volumineux')
+            morceaux.append(morceau)
+
+
 @lru_cache(maxsize=128)
 def fetch(url):
-    request = urllib.request.Request(
-        url,
-        headers={"User-Agent": USER_AGENT}
-    )
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return response.read().decode("utf-8", "replace")
+    return lire_url(url, 8_000_000).decode("utf-8", "replace")
 
 def fetch_pdf(url):
     if not re.fullmatch(r'https://www\.commission-des-sondages\.fr/notices/medias/fichiers/add/\d+',url):
         raise ValueError('Notice officielle non autorisée')
-    request=urllib.request.Request(url,headers={'User-Agent':USER_AGENT})
-    with urllib.request.urlopen(request,timeout=30) as response:
-        raw=response.read(20_000_001)
-    if len(raw)>20_000_000:
-        raise ValueError('Notice trop volumineuse')
-    return raw
+    return lire_url(url, 20_000_000)
 
 
 def clean_text(value):
@@ -547,10 +556,13 @@ def main():
     # La publication devient une construction locale reproductible, sans réseau.
     from automatisation import selectionner_articles
     exclusions = {item['url'] for item in a_valider if item.get('url') and item.get('statut') in ('Rejeté', 'Rejetée', 'Refusé')}
-    articles = selectionner_articles(detections, SOURCES_JOURNALISTIQUES, fetch, now, exclusions)
     from resumes_auto import resumer_publications
     ancienne_publication = DATA_DIR / 'publications_auto.json'
-    precedentes = charger_json(ancienne_publication, {}).get('articles', []) if ancienne_publication.exists() else []
+    paquet_precedent = charger_json(ancienne_publication, {}) if ancienne_publication.exists() else {}
+    precedentes = paquet_precedent.get('articles', [])
+    for article in precedentes:
+        article.setdefault('derniere_verification_utc', paquet_precedent.get('last_checked_utc'))
+    articles = selectionner_articles(detections, SOURCES_JOURNALISTIQUES, fetch, now, exclusions, precedentes)
     status['resumes_automatiques'] = resumer_publications(articles, fetch, precedentes)
     ecrire_json(DATA_DIR / 'publications_auto.json', {'last_checked_utc': status['last_checked_utc'], 'articles': articles})
     status['publications_par_media'] = {source['nom']: sum(x['source'] == source['nom'] for x in articles) for source in SOURCES_JOURNALISTIQUES}
