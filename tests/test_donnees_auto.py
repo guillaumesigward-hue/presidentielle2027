@@ -98,6 +98,14 @@ class Resumes(unittest.TestCase):
         resume = 'L’entreprise a reçu une subvention publique pour lancer son projet industriel, alors que les modalités du contrat restent en discussion.'
         self.assertFalse(sortie_coherente(resume, original))
 
+    def test_negation_du_versement_acceptee(self):
+        original = 'Aucune aide n’a encore été versée. Les contrats sont en discussion.'
+        for apostrophe in ("'", '’'):
+            resume = 'L’entreprise n' + apostrophe + 'a reçu aucune subvention à ce stade. Les discussions se poursuivent et la décision définitive reste attendue.'
+            self.assertTrue(sortie_coherente(resume, original))
+            # Une négation ailleurs ne doit pas masquer une affirmation fausse.
+            self.assertFalse(sortie_coherente(resume + ' Une autre société a reçu une aide.', original))
+
     def test_recommandations_ne_sont_pas_resumees(self):
         contenu = 'Les écoles sont rénovées après une décision municipale. ' * 5
         self.assertEqual(extraire_html('<article>'+contenu+'</article><article>Une autre enquête sans rapport.</article>'), contenu.strip())
@@ -128,3 +136,4 @@ class Resumes(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
