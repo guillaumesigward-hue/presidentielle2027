@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-12T12:09:48.748570+00:00",
+  "last_checked_utc": "2026-10-12T12:42:41.081288+00:00",
   "last_checked_fr": "12 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -16,103 +16,6 @@
       "url": "https://www.veriangroup.com/fr/news-and-insights",
       "publication_automatique": false,
       "raison": "Les nouvelles publications sont détectées pour examen. Le robot ne transforme pas automatiquement une publication Verian en sondage présidentiel ou en contenu politique."
-    },
-    "mediapart": {
-      "ok": true,
-      "url": "https://www.mediapart.fr/journal/politique",
-      "publication_automatique": false,
-      "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 11,
-      "liens_examines": 16,
-      "extractions_vides": 0,
-      "liens_trouves": 161,
-      "etat_extraction": "ok",
-      "mise_a_jour": {
-        "nombre": 11,
-        "articles": [
-          {
-            "type": "media_independant_investigation",
-            "source": "Mediapart",
-            "titre": "Derrière la défense trumpiste de Jordan Bardella, le poison lent de la « réinformation »",
-            "url": "https://www.mediapart.fr/journal/politique/081026/derriere-la-defense-trumpiste-de-jordan-bardella-le-poison-lent-de-la-reinformation",
-            "resume": "Depuis les révélations de « Mediapart », le président du RN persiste dans le mensonge, multipliant les attaques contre les journalistes. Cette stratégie récolte les fruits de la « réinformation » pou…",
-            "date_detection": "12 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [
-              "Jordan Bardella"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Mediapart",
-            "titre": "« Vous nous faites honte ! » : Nuñez et Lecornu sous les tirs de barrage d’une Assemblée à cran",
-            "url": "https://www.mediapart.fr/journal/politique/061026/vous-nous-faites-honte-nunez-et-lecornu-sous-les-tirs-de-barrage-d-une-assemblee-cran",
-            "resume": "Lors d’un après-midi agité dans l’hémicycle, la gauche s’est insurgée contre la répression policière orchestrée par le gouvernement contre le mouvement lycéen. Le premier ministre et le ministre de l…",
-            "date_detection": "12 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Mediapart",
-            "titre": "Jordan Bardella convoque une fausse « source » révisionniste pour prouver qu’il n’est pas antisémite",
-            "url": "https://www.mediapart.fr/journal/politique/061026/jordan-bardella-convoque-une-fausse-source-revisionniste-pour-prouver-qu-il-n-est-pas-antisemite",
-            "resume": "Le président du RN a mis en cause « Mediapart » en s’appuyant sur le témoignage d’un militant d’extrême droite présenté comme une « source » manipulée. Problème : cet ancien camarade de Jordan Bardel…",
-            "date_detection": "12 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [
-              "Jordan Bardella"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Mediapart",
-            "titre": "Le RN poursuit sa campagne, entre silence, déni, attaques et mensonges",
-            "url": "https://www.mediapart.fr/journal/politique/061026/le-rn-poursuit-sa-campagne-entre-silence-deni-attaques-et-mensonges",
-            "resume": "Jordan Bardella et Marine Le Pen ont organisé comme si de rien n’était une conférence de presse sur leur programme économique, tentant d’éviter les quelques questions sur les propos antisémites tenus…",
-            "date_detection": "12 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [
-              "Marine Le Pen",
-              "Jordan Bardella"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Mediapart",
-            "titre": "Jordan Bardella et l’antisémitisme : l’autre tache sur le parcours du président du RN",
-            "url": "https://www.mediapart.fr/journal/politique/061026/jordan-bardella-et-l-antisemitisme-l-autre-tache-sur-le-parcours-du-president-du-rn",
-            "resume": "Il a salué le « sérieux » du négationniste Robert Faurisson, écrit dans un journal antisémite et célébré Pétain : portrait de Jean-François Jalkh, pilier du RN et employeur au Parlement européen de J…",
-            "date_detection": "12 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [
-              "Jordan Bardella"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          }
-        ]
-      }
     },
     "blast": {
       "ok": true,
@@ -324,7 +227,7 @@
   "resumes_automatiques": {
     "resumes": 0,
     "reutilises": 3,
-    "indisponibles": 8,
+    "indisponibles": 1,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
@@ -335,7 +238,6 @@
     }
   },
   "publications_par_media": {
-    "Mediapart": 7,
     "Blast": 3,
     "Disclose": 1
   },
@@ -355,7 +257,7 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 58,
-    "pages_accessibles": 40,
+    "pages_accessibles": 41,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -365,7 +267,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 5
+        "accessibles": 6
       },
       "Fabien Roussel": {
         "examinees": 6,
