@@ -1013,5 +1013,62 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10303 Pres Barometre IPSOS BVA La Tribune Dimanche 10 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2322",
+    "date_detection": "12 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10305 Pres IV TOLUNA HARRIS INTERACTIVE 12 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2321",
+    "date_detection": "12 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10304 Pres Primaire PS TOLUNA HARRIS INTERACTIVE 9 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2320",
+    "date_detection": "12 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Mediapart",
+    "titre": "Les soutiens d’Anasse Kazib sur les routes pour envoyer un ouvrier à la présidentielle",
+    "url": "https://www.mediapart.fr/journal/politique/121026/les-soutiens-d-anasse-kazib-sur-les-routes-pour-envoyer-un-ouvrier-la-presidentielle",
+    "resume": "Les militants de Révolution permanente sillonnent la France depuis plus de quatre mois pour collecter les 500 signatures nécessaires pour présenter Anasse Kazib, leur candidat, en 2027.",
+    "date_detection": "12 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Mediapart",
+    "titre": "Écrits antisémites sur Messenger : Jordan Bardella trahi par lui-même",
+    "url": "https://www.mediapart.fr/journal/politique/091026/ecrits-antisemites-sur-messenger-jordan-bardella-trahi-par-lui-meme",
+    "resume": "« Mediapart » a pu établir un lien direct, datant de septembre 2013, entre le compte Twitter officiel du président du RN et le fil de conversation Messenger sur lequel il déversait ses idées antisémi…",
+    "date_detection": "12 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]

@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-10-12T05:33:11.854368+00:00",
+  "last_checked_utc": "2026-10-12T12:09:48.748570+00:00",
   "last_checked_fr": "12 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 167,
-      "dernier_id_detecte": 2319,
+      "notices_detectees": 170,
+      "dernier_id_detecte": 2322,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -22,14 +22,30 @@
       "url": "https://www.mediapart.fr/journal/politique",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 10,
+      "detections": 11,
       "liens_examines": 16,
       "extractions_vides": 0,
       "liens_trouves": 161,
       "etat_extraction": "ok",
       "mise_a_jour": {
-        "nombre": 10,
+        "nombre": 11,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Mediapart",
+            "titre": "Derrière la défense trumpiste de Jordan Bardella, le poison lent de la « réinformation »",
+            "url": "https://www.mediapart.fr/journal/politique/081026/derriere-la-defense-trumpiste-de-jordan-bardella-le-poison-lent-de-la-reinformation",
+            "resume": "Depuis les révélations de « Mediapart », le président du RN persiste dans le mensonge, multipliant les attaques contre les journalistes. Cette stratégie récolte les fruits de la « réinformation » pou…",
+            "date_detection": "12 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [],
+            "candidats_mentions": [
+              "Jordan Bardella"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Mediapart",
@@ -90,24 +106,6 @@
             "themes": [],
             "candidats_mentions": [
               "Jordan Bardella"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Mediapart",
-            "titre": "Le pouvoir tétanisé par la mobilisation lycéenne",
-            "url": "https://www.mediapart.fr/journal/politique/051026/le-pouvoir-tetanise-par-la-mobilisation-lyceenne",
-            "resume": "Alors que les blessures d’adolescents dues aux violences policières se comptent par dizaines, et à la veille d’une manifestation nationale que Jean-Luc Mélenchon conçoit comme un « point de départ » …",
-            "date_detection": "12 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École"
-            ],
-            "candidats_mentions": [
-              "Jean-Luc Mélenchon"
             ],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
@@ -345,19 +343,19 @@
     "notices_examinees": 8,
     "scenarios_extraits": 10,
     "non_exploitables": [
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2321",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2293",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2286",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2276",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2273",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2264",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2263",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2262"
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2263"
     ],
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 55,
-    "pages_accessibles": 38,
+    "pages_examinees": 58,
+    "pages_accessibles": 40,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -367,7 +365,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 6
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,
@@ -386,8 +384,8 @@
         "accessibles": 9
       },
       "Marine Le Pen": {
-        "examinees": 1,
-        "accessibles": 1
+        "examinees": 4,
+        "accessibles": 4
       },
       "Éric Zemmour": {
         "examinees": 3,

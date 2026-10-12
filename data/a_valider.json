@@ -518,5 +518,31 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Les soutiens d’Anasse Kazib sur les routes pour envoyer un ouvrier à la présidentielle",
+    "url": "https://www.mediapart.fr/journal/politique/121026/les-soutiens-d-anasse-kazib-sur-les-routes-pour-envoyer-un-ouvrier-la-presidentielle",
+    "resume": "Les militants de Révolution permanente sillonnent la France depuis plus de quatre mois pour collecter les 500 signatures nécessaires pour présenter Anasse Kazib, leur candidat, en 2027.",
+    "date_detection": "12 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Mediapart",
+    "titre": "Écrits antisémites sur Messenger : Jordan Bardella trahi par lui-même",
+    "url": "https://www.mediapart.fr/journal/politique/091026/ecrits-antisemites-sur-messenger-jordan-bardella-trahi-par-lui-meme",
+    "resume": "« Mediapart » a pu établir un lien direct, datant de septembre 2013, entre le compte Twitter officiel du président du RN et le fil de conversation Messenger sur lequel il déversait ses idées antisémi…",
+    "date_detection": "12 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
