@@ -27,7 +27,7 @@ class VeilleTests(unittest.TestCase):
         self.assertEqual(extraire_html(html), "L'école et le financement font l'objet de précisions.")
 
     def test_each_article_processed_once_and_source_failure_reported(self):
-        source = update.SOURCES_JOURNALISTIQUES[0]
+        source = {'nom': 'Mediapart', 'url': 'https://www.mediapart.fr/journal/politique', 'type': 'media_independant_investigation'}
         body = ''.join(f'<a href="/journal/politique/101026/article-{i}">Titre {i}</a>' for i in range(25))
         body += '<a href="/journal/politique/101026/article-0">Doublon</a><a href="/confidentialite">Confidentialité</a>'
         calls, detections = [], []
@@ -89,7 +89,7 @@ class VeilleTests(unittest.TestCase):
                         theme.pop('dernier_controle_sources', None)
             self.assertEqual(programmes_actualises, programmes)
             status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
-            self.assertEqual(len(status['sources']), 5)
+            self.assertEqual(len(status['sources']), 4)
             self.assertTrue(status['publication_automatique'])
             self.assertTrue(all(not item['publication_automatique'] for item in status['sources'].values()))
 
@@ -100,3 +100,4 @@ class VeilleTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

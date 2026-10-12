@@ -39,7 +39,7 @@ class PublicationTests(unittest.TestCase):
             status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
             status['publication_automatique'] = True
             (data / 'status.json').write_text(json.dumps(status), encoding='utf-8')
-            item = {'source':'Mediapart','url':'https://www.mediapart.fr/journal/politique/101026/test-auto'}
+            item = {'source':'Blast','url':'https://www.blast-info.fr/articles/2026/test-auto'}
             (data / 'publications_auto.json').unlink(missing_ok=True)
             (data / 'actualites_detectees.json').write_text(json.dumps([item,item]), encoding='utf-8')
             date = datetime.now(timezone.utc).isoformat()
@@ -91,7 +91,7 @@ class PublicationTests(unittest.TestCase):
                 (data / file.name).write_bytes(file.read_bytes())
             def fetch(url):
                 if url == update.SOURCES_JOURNALISTIQUES[0]['url']:
-                    return '<a href="/journal/politique/101026/test-veille">Gabriel Attal et la présidentielle</a>'
+                    return '<a href="/articles/2026/test-veille">Gabriel Attal et la présidentielle</a>'
                 return '<article>' + 'Gabriel Attal présente des propositions pour l’école. ' * 8 + '</article>'
             with patch.object(update, 'DATA_DIR', data), patch.object(update, 'fetch', fetch), patch('builtins.print'):
                 update.main()
@@ -106,3 +106,4 @@ class PublicationTests(unittest.TestCase):
             self.assertEqual(matches[0]['resume'], 'Résumé validé humainement')
             self.assertEqual(matches[0]['statut'], 'Retenu')
             self.assertFalse(matches[0]['publication_automatique'])
+
