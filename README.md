@@ -61,7 +61,7 @@ ajoutées à la liste de domaines autorisés ; aucun nom n'est inventé par le r
 - Commission des sondages — notices Présidentielle 2027
 - Verian — publications politiques
 - Verian — page institutionnelle confirmant l'héritage Sofres/TNS/Kantar Public
-- Mediapart, Blast et Disclose — sources indépendantes et d'investigation
+- Blast et Disclose — sources indépendantes et d'investigation
 - Sources officielles des personnes déjà suivies — programmes et déclarations explicites
 ## Règles éditoriales pour les programmes et les actualités
 

@@ -22,11 +22,6 @@ VERIAN_URL = "https://www.veriangroup.com/fr/news-and-insights"
 # Leur présence ne suffit pas : la sélection publique passe les contrôles de provenance.
 SOURCES_JOURNALISTIQUES = [
     {
-        "nom": "Mediapart",
-        "url": "https://www.mediapart.fr/journal/politique",
-        "type": "media_independant_investigation",
-    },
-    {
         "nom": "Blast",
         "url": "https://www.blast-info.fr/",
         "type": "media_independant_investigation",

@@ -5,10 +5,17 @@ from pathlib import Path
 import shutil
 from automatisation import selectionner_articles
 from update import SOURCES_JOURNALISTIQUES, fetch
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent
 CHAMPS_SUIVI = ('ok', 'url', 'notices_detectees', 'detections', 'liens_examines',
                 'extractions_vides', 'etat_extraction')
+
+
+def source_retiree(item):
+    host = (urlsplit(item.get('url', '')).hostname or '').lower()
+    return (host == 'mediapart.fr' or host.endswith('.mediapart.fr') or
+            item.get('source', item.get('nom', '')).casefold() == 'mediapart')
 
 
 def preparer_site(output, data_dir=None):
@@ -23,6 +30,9 @@ def preparer_site(output, data_dir=None):
         raise ValueError('programmes.json : prétendants manquants')
     if not isinstance(status.get('publication_automatique'), bool) or not isinstance(status.get('sources'), dict):
         raise ValueError('status.json : garanties de veille absentes')
+    # Retrait demandé : les anciens paquets ne doivent pas réintroduire cette source.
+    for champ in ('actualites', 'sources'):
+        election[champ] = [item for item in election[champ] if not source_retiree(item)]
     suivi = {key: status.get(key) for key in ('last_checked_utc', 'last_checked_fr')}
     suivi['publication_automatique'] = status['publication_automatique']
     suivi['sondages_automatiques'] = status.get('sondages_automatiques', {})
@@ -42,7 +52,11 @@ def preparer_site(output, data_dir=None):
         else:
             # Compatibilité avec les archives antérieures au paquet reproductible.
             articles = selectionner_articles(detections, SOURCES_JOURNALISTIQUES, fetch, exclusions=exclusions)
-        articles = [item for item in articles if item['url'] not in exclusions]
+        articles = [item for item in articles if item['url'] not in exclusions and not source_retiree(item)]
+        suivi['resumes_automatiques'] = dict(suivi['resumes_automatiques'],
+            resumes=sum(item.get('resume_statut') == 'disponible' for item in articles),
+            reutilises=0,
+            indisponibles=sum(item.get('resume_statut') != 'disponible' for item in articles))
         election['actualites'] = [item for item in articles if item['url'] not in existantes] + election['actualites']
         suivi['articles_automatiques'] = len(articles)
         suivi['publications_par_media'] = {source['nom']: sum(x['source'] == source['nom'] for x in articles) for source in SOURCES_JOURNALISTIQUES}
@@ -66,7 +80,8 @@ def preparer_site(output, data_dir=None):
             elif source.get('nom') == 'Verian':
                 source['description'] = 'Publications et études suivies. Les résultats ne sont intégrés que lorsque leur tableau et leur méthodologie peuvent être contrôlés automatiquement.'
     suivi['sources'] = {nom: {key: source[key] for key in CHAMPS_SUIVI if key in source}
-                        for nom, source in status['sources'].items()}
+                        for nom, source in status['sources'].items()
+                        if nom.casefold() != 'mediapart' and not source_retiree(source)}
     output = Path(output)
     # Un dossier existant pourrait exposer des anciens fichiers non prévus.
     output.mkdir(parents=True, exist_ok=False)
@@ -85,3 +100,4 @@ if __name__ == '__main__':
     parser.add_argument('--data-dir', default=str(ROOT / 'data'))
     args = parser.parse_args()
     preparer_site(args.output, args.data_dir)
+
