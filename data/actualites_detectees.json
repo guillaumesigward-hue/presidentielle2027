@@ -1070,5 +1070,30 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10307 Pres pouvoir achat IFOP Le Figaro 12 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2323",
+    "date_detection": "12 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Médias : la bataille des salariés d'Infopro contre l'agent IA de la direction",
+    "url": "https://www.blast-info.fr/articles/2026/medias-la-bataille-des-salaries-d-infopro-contre-l-agent-ia-de-la-direction-Y-ax9zFxQ2C5iu7uULmQyQ",
+    "resume": "La marche triomphale de l’intelligence artificielle dans le monde du travail peut être ralentie, si, si. Pour contrer le rouleau compresseur des nouvelles technologies, il suffit — presque simplement — d’en appeler à un outil piétiné et maltraité depuis des décennies, mais qui parvient encore à se maintenir : le droit du travail et des salariés. Encore faut-il avoir l’énergie et l’envie de se battre pour le faire appliquer.",
+    "date_detection": "12 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Énergie"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]

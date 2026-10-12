@@ -544,5 +544,19 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Médias : la bataille des salariés d'Infopro contre l'agent IA de la direction",
+    "url": "https://www.blast-info.fr/articles/2026/medias-la-bataille-des-salaries-d-infopro-contre-l-agent-ia-de-la-direction-Y-ax9zFxQ2C5iu7uULmQyQ",
+    "resume": "La marche triomphale de l’intelligence artificielle dans le monde du travail peut être ralentie, si, si. Pour contrer le rouleau compresseur des nouvelles technologies, il suffit — presque simplement — d’en appeler à un outil piétiné et maltraité depuis des décennies, mais qui parvient encore à se maintenir : le droit du travail et des salariés. Encore faut-il avoir l’énergie et l’envie de se battre pour le faire appliquer.",
+    "date_detection": "12 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Énergie"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

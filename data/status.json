@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-10-12T12:42:41.081288+00:00",
+  "last_checked_utc": "2026-10-12T17:32:16.838327+00:00",
   "last_checked_fr": "12 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 170,
-      "dernier_id_detecte": 2322,
+      "notices_detectees": 171,
+      "dernier_id_detecte": 2323,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -25,11 +25,27 @@
       "detections": 5,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 115,
+      "liens_trouves": 116,
       "etat_extraction": "partielle",
       "mise_a_jour": {
         "nombre": 5,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Médias : la bataille des salariés d'Infopro contre l'agent IA de la direction",
+            "url": "https://www.blast-info.fr/articles/2026/medias-la-bataille-des-salaries-d-infopro-contre-l-agent-ia-de-la-direction-Y-ax9zFxQ2C5iu7uULmQyQ",
+            "resume": "La marche triomphale de l’intelligence artificielle dans le monde du travail peut être ralentie, si, si. Pour contrer le rouleau compresseur des nouvelles technologies, il suffit — presque simplement — d’en appeler à un outil piétiné et maltraité depuis des décennies, mais qui parvient encore à se maintenir : le droit du travail et des salariés. Encore faut-il avoir l’énergie et l’envie de se battre pour le faire appliquer.",
+            "date_detection": "12 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Énergie"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -102,23 +118,6 @@
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
             "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Mensonges et désaveux : Laurent Nuñez face à sa démission",
-            "url": "https://www.blast-info.fr/articles/2026/mensonges-et-desaveux-laurent-nunez-face-a-sa-demission-s7qykXeyRa6kpaBZx5zD8w",
-            "resume": "« La gestion ultra-sécuritaire du gouvernement, traumatisé depuis le mouvement \"gilets jaunes\" , a abîmé le droit de manifester » : l’habituel très mesuré éditorial du journal Le Monde , le mercredi 7 octobre , est forcé de se rendre à l’évidence. Depuis le début du mouvement lycéen, parti d’un premier blocage dans un établissement à Créteil le 17 septembre, les chiffres donnent le vertige : plus de 6 600 arrestations, en très grande majorité des mineurs, 200 élèves blessés et au moins 18 enquêtes ouvertes à l’IGPN. Bilan que le ministre de l’intérieur, Laurent Nuñez, a assumé sans détour à plusieurs reprises, avant d’être poussé à changer…",
-            "date_detection": "12 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École",
-              "Énergie"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
           }
         ]
       }
@@ -131,7 +130,7 @@
       "detections": 5,
       "liens_examines": 20,
       "extractions_vides": 0,
-      "liens_trouves": 181,
+      "liens_trouves": 166,
       "etat_extraction": "ok",
       "mise_a_jour": {
         "nombre": 5,
@@ -256,8 +255,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 58,
-    "pages_accessibles": 41,
+    "pages_examinees": 55,
+    "pages_accessibles": 37,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -267,7 +266,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 6
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,
@@ -286,8 +285,8 @@
         "accessibles": 9
       },
       "Marine Le Pen": {
-        "examinees": 4,
-        "accessibles": 4
+        "examinees": 1,
+        "accessibles": 1
       },
       "Éric Zemmour": {
         "examinees": 3,
