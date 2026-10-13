@@ -558,5 +558,22 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Disclose",
+    "titre": "ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
+    "url": "https://disclose.ngo/fr/article/arcelormittal-derriere-lacier-made-in-france-les-terres-volees-du-liberia",
+    "resume": "Pour fabriquer de l’acier à Dunkerque et Fos-sur-Mer, ArcelorMittal exploite des gisements de minerai de fer au Liberia. Entre accaparement de terres agricoles et contamination des ressources en eau, la firme met en danger plusieurs milliers d’habitant·es de ce pays d’Afrique de l’Ouest. Révélations sur les pratiques climaticides et néocoloniales du géant mondial de la sidérurgie.",
+    "date_detection": "13 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Santé",
+      "Énergie",
+      "Écologie"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
