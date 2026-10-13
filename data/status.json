@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-13T05:34:03.633822+00:00",
+  "last_checked_utc": "2026-10-13T17:33:36.190861+00:00",
   "last_checked_fr": "13 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -127,13 +127,13 @@
       "url": "https://disclose.ngo/fr",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 4,
+      "detections": 5,
       "liens_examines": 20,
       "extractions_vides": 0,
       "liens_trouves": 166,
       "etat_extraction": "ok",
       "mise_a_jour": {
-        "nombre": 4,
+        "nombre": 5,
         "articles": [
           {
             "type": "media_investigation",
@@ -155,15 +155,12 @@
           {
             "type": "media_investigation",
             "source": "Disclose",
-            "titre": "ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
-            "url": "https://disclose.ngo/fr/article/arcelormittal-derriere-lacier-made-in-france-les-terres-volees-du-liberia",
-            "resume": "Pour fabriquer de l’acier à Dunkerque et Fos-sur-Mer, ArcelorMittal exploite des gisements de minerai de fer au Liberia. Entre accaparement de terres agricoles et contamination des ressources en eau, la firme met en danger plusieurs milliers d’habitant·es de ce pays d’Afrique de l’Ouest. Révélations sur les pratiques climaticides et néocoloniales du géant mondial de la sidérurgie.",
+            "titre": "Reconnaissance faciale illégale : la police prise en flagrant délit",
+            "url": "https://disclose.ngo/fr/article/reconnaissance-faciale-illegale-la-police-prise-en-flagrant-delit",
+            "resume": "Les forces de l’ordre continuent d’utiliser quotidiennement la reconnaissance faciale lors de contrôles d’identité, révèlent une vidéo et des témoignages exclusifs obtenus par Disclose et France 2. Exploitée massivement et hors de tout cadre légal, cette technologie cible d’abord des personnes racisées et des militant·es politiques. Elle conduit aussi à des erreurs d’identification grossières, au risque de faire accuser des innocent·es.",
             "date_detection": "13 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
-              "École",
-              "Santé",
-              "Énergie",
               "Écologie"
             ],
             "candidats_mentions": [],
@@ -197,6 +194,23 @@
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
+              "Énergie",
+              "Écologie"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_investigation",
+            "source": "Disclose",
+            "titre": "Le gouvernement détourne les aides de l’Ademe pour financer l’un des plus gros pollueurs de France",
+            "url": "https://disclose.ngo/fr/article/le-gouvernement-detourne-les-aides-de-lademe-pour-financer-lun-des-plus-gros-pollueurs-de-france",
+            "resume": "Matignon et Bercy ont truqué deux appels à projets de l’Agence de la transition écologique (Ademe) pour financer le géant de la pétrochimie Ineos, révèle Disclose. La multinationale va toucher plus de 300 millions d’euros d’argent public pour soutenir l’activité d’une usine parmi les plus émettrices de CO2 en France. C’est un Emmanuel Macron tout à son aise qui parade devant un parterre de chef·fes d’entreprises réuni·es à l’Élysée, en ce jour d’octobre 2021.",
+            "date_detection": "13 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
               "Énergie",
               "Écologie"
             ],
@@ -241,8 +255,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 60,
-    "pages_accessibles": 42,
+    "pages_examinees": 55,
+    "pages_accessibles": 38,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -251,8 +265,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 10,
-        "accessibles": 7
+        "examinees": 8,
+        "accessibles": 6
       },
       "Fabien Roussel": {
         "examinees": 6,
@@ -271,8 +285,8 @@
         "accessibles": 9
       },
       "Marine Le Pen": {
-        "examinees": 4,
-        "accessibles": 4
+        "examinees": 1,
+        "accessibles": 1
       },
       "Éric Zemmour": {
         "examinees": 3,
