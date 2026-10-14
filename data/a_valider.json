@@ -589,5 +589,22 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Le journaliste et le greffier",
+    "url": "https://www.blast-info.fr/articles/2026/le-journaliste-et-le-greffier-YxljDnkzQ_WvyhWZ6nNP_g",
+    "resume": "Au service de la justice, le greffier a pour mission d’accompagner, d’enregistrer et de mettre en forme les affaires en cours. Organisé, il maîtrise parfaitement les agendas des différentes parties concernées par le déroulement des débats. C’est le médiateur indispensable entre les avocats, les magistrats et le public.",
+    "date_detection": "14 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Écologie"
+    ],
+    "candidats_mentions": [
+      "Marine Le Pen",
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

@@ -1130,5 +1130,60 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10314 Pres climat politique post primaire PS PP IFOP LCI 14 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2327",
+    "date_detection": "14 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10309 Pres IFOP 14 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2326",
+    "date_detection": "14 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10310 Pres IV ODOXA 14 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2325",
+    "date_detection": "14 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10308 Pres IA et élection VERIAN LHemcicycle 14 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2324",
+    "date_detection": "14 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Le journaliste et le greffier",
+    "url": "https://www.blast-info.fr/articles/2026/le-journaliste-et-le-greffier-YxljDnkzQ_WvyhWZ6nNP_g",
+    "resume": "Au service de la justice, le greffier a pour mission d’accompagner, d’enregistrer et de mettre en forme les affaires en cours. Organisé, il maîtrise parfaitement les agendas des différentes parties concernées par le déroulement des débats. C’est le médiateur indispensable entre les avocats, les magistrats et le public.",
+    "date_detection": "14 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Écologie"
+    ],
+    "candidats_mentions": [
+      "Marine Le Pen",
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]
