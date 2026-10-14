@@ -575,5 +575,19 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Complotistes, policiers, militaires : le procès d’un putsch pas si grotesque",
+    "url": "https://www.blast-info.fr/articles/2026/complotistes-policiers-militaires-le-proces-dun-putsch-pas-si-grotesque-z1SqNH1TQASi6fe3cNVb8Q",
+    "resume": "« Bonjour mon colonel, je suis proche de Bordeaux, ancien militaire du renseignement, très bon tireur, connaissance de la topographie. Force et honneur » ; « mon colonel, ancien sportif de haut niveau, j'ai encore une très bonne condition physique et fais pas mal de haute montagne » ; « Bonjour Colonel Quinze, Conformément à la procédure, je fais état de mon volontariat pour le recrutement \"Assaut couverture protection évacuation\" » ; « Pseudo : Grizzly, 29 ans, armée de terre, transmissions et moniteur mise en œuvre explosifs. » Ils sont plusieurs dizaines de candidats à égrener ainsi leurs CV.",
+    "date_detection": "14 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
