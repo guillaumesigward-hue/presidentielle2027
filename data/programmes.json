@@ -841,7 +841,17 @@
               "url": "https://www.lemonde.fr/economie/article/2026/09/19/la-grande-valse-des-propositions-pour-freiner-l-envolee-des-prix-du-carburant-entre-blocage-des-prix-et-baisse-des-taxes_6777214_3234.html"
             }
           ],
-          "dernier_controle_sources": "15 octobre 2026"
+          "dernier_controle_sources": "15 octobre 2026",
+          "propositions_automatiques": [
+            {
+              "texte": "En s’attaquant au nucléaire, elle veut abattre un avantage historique de notre pays, fruit du génie visionnaire du Général de Gaulle.",
+              "themes": [
+                "energie"
+              ],
+              "url": "https://www.rassemblementnational.fr/",
+              "date_publication": null
+            }
+          ]
         },
         "fiscalite": {
           "statut": "Mesures fiscales et cadre budgétaire annoncés pour le projet présidentiel 2027",

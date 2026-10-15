@@ -1185,5 +1185,79 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10315 Pres La fête de l'entreprise IFOP 15 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2331",
+    "date_detection": "15 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10313 Pres blocus lycées CSA JDD 15 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2330",
+    "date_detection": "15 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10312 Pres Peuple de droite IFOP Valeurs actuelles 14 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2329",
+    "date_detection": "15 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10311 Pres laïcite et fait religieux IFOP 14 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2328",
+    "date_detection": "15 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "La bataille d'Assas : les étudiants font reculer l'extrême-droite",
+    "url": "https://www.blast-info.fr/articles/2026/la-bataille-d-assas-les-etudiants-font-reculer-l-extreme-droite-EqNGkbrFQf6kFzKgQ_HNhA",
+    "resume": "» , s'époumonnent les étudiants devant l'entrée de l'université Panthéon-Assas, dans le 6e arrondissement de Paris. Pour les plus anciens, ceux qui étaient étudiants dans les années 1980 et 1990, le slogan apparaît lunaire, tant la fac était alors le fief de l'extrême droite estudiantine. « La jeunesse emmerde le Front national » , les protestataires reprennent en cœur ce cri de ralliement, lui aussi très années 80.",
+    "date_detection": "15 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Santé",
+      "Énergie"
+    ],
+    "candidats_mentions": [
+      "Marine Le Pen"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "« Ici on apprend à cultiver, pas à déraciner » : un lycée breton mobilisé contre l'OQTF d'un élève",
+    "url": "https://www.blast-info.fr/articles/2026/ici-on-apprend-a-cultiver-pas-a-deraciner-un-lycee-breton-mobilise-contre-l-oqtf-d-un-eleve-LDdP8rVES_aXc2NEwh_AVQ",
+    "resume": "La départementale D794 quitte la commune de Saint-Aubin-du-Cormier, où vivent près de 4 200 habitants, pour traverser champs et paysages boisés. Maxime Lechartier, professeur au lycée agricole, bifurque pour prendre la route baptisée la « Lande de la Rencontre ». C’est ici que, cinq siècles plus tôt, s’est jouée la bataille de 1488, qui opposa l’armée bretonne à l’armée française.",
+    "date_detection": "15 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Handicap / AESH"
+    ],
+    "candidats_mentions": [
+      "Bruno Retailleau"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]

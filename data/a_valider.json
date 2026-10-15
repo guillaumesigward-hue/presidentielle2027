@@ -606,5 +606,39 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "La bataille d'Assas : les étudiants font reculer l'extrême-droite",
+    "url": "https://www.blast-info.fr/articles/2026/la-bataille-d-assas-les-etudiants-font-reculer-l-extreme-droite-EqNGkbrFQf6kFzKgQ_HNhA",
+    "resume": "» , s'époumonnent les étudiants devant l'entrée de l'université Panthéon-Assas, dans le 6e arrondissement de Paris. Pour les plus anciens, ceux qui étaient étudiants dans les années 1980 et 1990, le slogan apparaît lunaire, tant la fac était alors le fief de l'extrême droite estudiantine. « La jeunesse emmerde le Front national » , les protestataires reprennent en cœur ce cri de ralliement, lui aussi très années 80.",
+    "date_detection": "15 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Santé",
+      "Énergie"
+    ],
+    "candidats_mentions": [
+      "Marine Le Pen"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "« Ici on apprend à cultiver, pas à déraciner » : un lycée breton mobilisé contre l'OQTF d'un élève",
+    "url": "https://www.blast-info.fr/articles/2026/ici-on-apprend-a-cultiver-pas-a-deraciner-un-lycee-breton-mobilise-contre-l-oqtf-d-un-eleve-LDdP8rVES_aXc2NEwh_AVQ",
+    "resume": "La départementale D794 quitte la commune de Saint-Aubin-du-Cormier, où vivent près de 4 200 habitants, pour traverser champs et paysages boisés. Maxime Lechartier, professeur au lycée agricole, bifurque pour prendre la route baptisée la « Lande de la Rencontre ». C’est ici que, cinq siècles plus tôt, s’est jouée la bataille de 1488, qui opposa l’armée bretonne à l’armée française.",
+    "date_detection": "15 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Handicap / AESH"
+    ],
+    "candidats_mentions": [
+      "Bruno Retailleau"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
