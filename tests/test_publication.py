@@ -63,10 +63,19 @@ class PublicationTests(unittest.TestCase):
             status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
             status['publication_automatique'] = True
             (data / 'status.json').write_text(json.dumps(status), encoding='utf-8')
-            selection = {'last_checked_utc':status['last_checked_utc'],'articles':[]}
+            selection = {'last_checked_utc':status['last_checked_utc'],'articles':[{
+                'titre':'Article Disclose sans résumé', 'source':'Disclose',
+                'url':'https://disclose.ngo/fr/article/sans-resume',
+                'controle':'automatique', 'resume_statut':'indisponible', 'resume':''
+            }]}
             (data / 'publications_auto.json').write_text(json.dumps(selection),encoding='utf-8')
             with patch('construire_site.fetch', side_effect=AssertionError('Construction hors réseau')):
                 preparer_site(Path(directory)/'site',data)
+            published = json.loads((Path(directory)/'site/data/election.json').read_text(encoding='utf-8'))
+            self.assertFalse(any(x.get('url') == 'https://disclose.ngo/fr/article/sans-resume'
+                                 for x in published['eclairages_automatiques']))
+            self.assertFalse(any(x.get('url') == 'https://disclose.ngo/fr/article/sans-resume'
+                                 for x in published['actualites']))
             selection['last_checked_utc']='ancien'
             (data / 'publications_auto.json').write_text(json.dumps(selection),encoding='utf-8')
             with self.assertRaises(ValueError):

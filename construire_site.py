@@ -42,7 +42,6 @@ def preparer_site(output, data_dir=None):
         detections = json.loads((data_dir / 'actualites_detectees.json').read_text(encoding='utf-8'))
         queue = json.loads((data_dir / 'a_valider.json').read_text(encoding='utf-8'))
         exclusions = {item['url'] for item in queue if item.get('url') and item.get('statut') in ('Rejeté', 'Rejetée', 'Refusé')}
-        existantes = {item.get('url') for item in election['actualites']}
         snapshot = data_dir / 'publications_auto.json'
         if snapshot.exists():
             selection = json.loads(snapshot.read_text(encoding='utf-8'))
@@ -52,7 +51,16 @@ def preparer_site(output, data_dir=None):
         else:
             # Compatibilité avec les archives antérieures au paquet reproductible.
             articles = selectionner_articles(detections, SOURCES_JOURNALISTIQUES, fetch, exclusions=exclusions)
-        articles = [item for item in articles if item['url'] not in exclusions and not source_retiree(item)]
+        # Le site ne publie que les fiches dont le résumé détaillé a passé les contrôles.
+        articles = [item for item in articles if item['url'] not in exclusions and not source_retiree(item)
+                    and item.get('resume_statut') == 'disponible'
+                    and isinstance(item.get('resume'), str) and item['resume'].strip()]
+        urls_resumees = {item['url'] for item in articles}
+        # Retirer aussi les anciennes fiches automatiques devenues sans résumé.
+        election['actualites'] = [item for item in election['actualites']
+            if not (item.get('controle') == 'automatique' and item.get('url')
+                    and item['url'] not in urls_resumees)]
+        existantes = {item.get('url') for item in election['actualites']}
         suivi['resumes_automatiques'] = dict(suivi['resumes_automatiques'],
             resumes=sum(item.get('resume_statut') == 'disponible' for item in articles),
             reutilises=0,
