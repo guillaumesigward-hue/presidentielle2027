@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-16T18:50:52.238822+00:00",
+  "last_checked_utc": "2026-10-16T19:40:23.658082+00:00",
   "last_checked_fr": "16 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -224,17 +224,17 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 2,
-    "reutilises": 0,
+    "resumes": 1,
+    "reutilises": 1,
     "indisponibles": 2,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
-      "titre": 1
+      "titre": 1,
+      "copie": 1
     },
     "erreurs": {
-      "ValueError": 1,
-      "DelaiDepasse": 1
+      "ValueError": 2
     }
   },
   "publications_par_media": {
@@ -256,8 +256,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 60,
-    "pages_accessibles": 44,
+    "pages_examinees": 58,
+    "pages_accessibles": 41,
     "propositions_extraites": 4,
     "statuts_actualises": 0,
     "sources": {
@@ -266,8 +266,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 10,
-        "accessibles": 9
+        "examinees": 8,
+        "accessibles": 6
       },
       "Fabien Roussel": {
         "examinees": 6,

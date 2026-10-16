@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-16T18:50:52.238822+00:00",
+  "last_checked_utc": "2026-10-16T19:40:23.658082+00:00",
   "articles": [
     {
       "titre": "Affaire Bardella : le trop long silence de BHL",
@@ -14,11 +14,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-16T18:50:52.238822+00:00",
-      "resume_tente_utc": "2026-10-16T18:51:30.184787+00:00",
+      "derniere_verification_utc": "2026-10-16T19:40:23.658082+00:00",
+      "resume_tente_utc": "2026-10-16T19:41:13.915057+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, Bernard-Henri Lévy (BHL) a suggéré sur France Inter qu'il détient des preuves accablantes de l'antisémitisme de Jordan Bardella, président du Rassemblement National (RN). Cette déclaration intervient après que Bardella ait retiré une plainte pour diffamation contre BHL en février 2025, suite à des accusations d'antisémitisme en 2024. L'affaire soulève des questions sur la retenue de BHL à partager ces informations depuis 2023.\n\nBHL n'a pas fourni de détails sur les preuves qu'il prétend posséder. Il a seulement mentionné qu'il pourrait les rendre publiques à l'avenir, sans préciser de date. Le Rassemblement National n'a pas commenté ces allégations.",
+      "resume": "Selon Blast, Bernard-Henri Lévy a suggéré sur France Inter qu'il détient des preuves accablantes de l'antisémitisme de Jordan Bardella, président du Rassemblement National. Cette affirmation intervient après que Bardella ait porté plainte contre Lévy en 2024, puis retiré sa plainte en 2025. Lévy laisse entendre qu'il pourrait rendre ces preuves publiques, mais sans préciser de date.\n\nLe Rassemblement National n'a pas commenté directement les allégations de Bernard-Henri Lévy. Lévy n'a pas précisé quand il rendrait publiques les preuves qu'il dit détenir, ce qui suscite des interrogations sur la véracité de ses affirmations.",
       "resume_empreinte": "fa539be01824ef410b2c12a8287ee6060fb29db3e72de4881a5d1761bde129be",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
@@ -35,8 +35,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-16T18:50:52.238822+00:00",
-      "resume_tente_utc": "2026-10-16T18:58:02.049545+00:00",
+      "derniere_verification_utc": "2026-10-16T19:40:23.658082+00:00",
+      "resume_tente_utc": "2026-10-16T19:45:53.165756+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -54,7 +54,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-16T18:50:52.238822+00:00",
+      "derniere_verification_utc": "2026-10-16T19:40:23.658082+00:00",
       "resume_tente_utc": "2026-10-16T19:06:28.926413+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -75,11 +75,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-16T18:50:52.238822+00:00",
-      "resume_tente_utc": "2026-10-16T19:16:32.835697+00:00",
+      "derniere_verification_utc": "2026-10-16T19:40:23.658082+00:00",
+      "resume_tente_utc": "2026-10-16T19:51:25.466915+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     }
   ]
 }
