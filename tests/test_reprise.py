@@ -17,7 +17,7 @@ class Reprise(unittest.TestCase):
         self.item = {'source': 'Blast', 'url': 'https://www.blast-info.fr/articles/2026/presidentielle'}
         self.body = '<meta property="og:title" content="Les propositions pour la présidentielle 2027"><meta property="article:published_time" content="2026-10-10T10:00:00Z">'
         self.old = controler_article(self.item, self.source, self.body, self.now - timedelta(days=1))
-        self.old.update(resume='Une synthèse déjà publiée.', resume_statut='disponible',
+        self.old.update(resume='Selon Blast, la présidentielle 2027 est présentée dans une synthèse déjà publiée.', resume_statut='disponible',
                         resume_version=VERSION, resume_empreinte='empreinte', resume_limite='Résumé automatique.')
 
     def panne(self, _):
