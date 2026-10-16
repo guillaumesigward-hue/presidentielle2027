@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-16T17:25:34.885203+00:00",
+  "last_checked_utc": "2026-10-16T17:57:24.934239+00:00",
   "last_checked_fr": "16 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -224,16 +224,16 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 0,
-    "reutilises": 3,
-    "indisponibles": 1,
+    "resumes": 2,
+    "reutilises": 0,
+    "indisponibles": 2,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
-      "copie": 1
+      "titre": 2
     },
     "erreurs": {
-      "ValueError": 1
+      "ValueError": 2
     }
   },
   "publications_par_media": {

@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-16T17:25:34.885203+00:00",
+  "last_checked_utc": "2026-10-16T17:57:24.934239+00:00",
   "articles": [
     {
       "titre": "Affaire Bardella : le trop long silence de BHL",
@@ -14,13 +14,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-16T17:25:34.885203+00:00",
-      "resume_tente_utc": "2026-10-12T04:48:30.005216+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, Bernard-Henri Lévy a suggéré sur France Inter qu'il détient des preuves d'antisémitisme contre Jordan Bardella, président du Rassemblement National. Cette affirmation intervient après que Bardella ait porté plainte contre Lévy en 2024, puis retirée en 2025. Lévy a également accusé La France Insoumise d'antisémitisme sans fournir de preuves concrètes.\n\nLe Rassemblement National n'a pas commenté directement ces allégations. Bernard-Henri Lévy n'a pas précisé quand il rendrait publiques les preuves mentionnées, laissant planer une certaine incertitude.",
-      "resume_empreinte": "fa539be01824ef410b2c12a8287ee6060fb29db3e72de4881a5d1761bde129be",
-      "resume_version": "qwen14b-gguf-v4-b466e1f8-b11541"
+      "derniere_verification_utc": "2026-10-16T17:57:24.934239+00:00",
+      "resume_tente_utc": "2026-10-16T17:58:13.038774+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Mensonges et désaveux : Laurent Nuñez face à sa démission",
@@ -35,13 +33,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-16T17:25:34.885203+00:00",
-      "resume_tente_utc": "2026-10-12T04:54:37.988800+00:00",
+      "derniere_verification_utc": "2026-10-16T17:57:24.934239+00:00",
+      "resume_tente_utc": "2026-10-16T18:02:39.375069+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, le mouvement des lycéens en France a été marqué par une forte répression policière. Depuis le 17 septembre, plus de 6 600 arrestations, 200 blessés et 18 enquêtes ont été ouvertes. Les images de lycéens blessés et mutilés ont suscité une vive émotion et une mobilisation massive.\n\nLe ministre de l'intérieur, Laurent Nuñez, a d'abord défendu la répression policière. Il a finalement annoncé, le 7 octobre, l'interdiction temporaire de l'utilisation de la grenade assourdissante dans le cadre du mouvement lycéen. Cependant, cette mesure a été critiquée par les syndicats policiers.",
+      "resume": "Selon Blast, le ministre de l'intérieur Laurent Nuñez a été forcé de changer de ton face à la démission imminente après des accusations de répression excessive lors des manifestations lycéennes. Plus de 6 600 arrestations, dont la majorité sont des mineurs, ont été effectuées, entraînant des blessures et des enquêtes. Des images choquantes de lycéens blessés et de policiers impliqués dans des incidents violents ont circulé, exacerbant la tension.\n\nLe ministère de l'intérieur n'a pas fourni de réponse officielle directe à ces accusations. Cependant, Laurent Nuñez a annoncé une interdiction temporaire de l'utilisation de certaines grenades assourdissantes lors des manifestations lycéennes, une décision attribuée à Emmanuel Macron. La réaction des syndicats policiers a été négative, certains appelant à un droit de retrait en raison des risques encourus.",
       "resume_empreinte": "760422f2fd4496259af524eeba4664c66f3667e2ad023b53348c252c352a5ad0",
-      "resume_version": "qwen14b-gguf-v4-b466e1f8-b11541"
+      "resume_version": "qwen14b-gguf-v5-b466e1f8-b11541"
     },
     {
       "titre": "Bardella : l'antisémitisme, un vivier du RN",
@@ -56,13 +54,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-16T17:25:34.885203+00:00",
-      "resume_tente_utc": "2026-10-12T05:02:38.616245+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : le début et la fin accessibles ont été résumés ; une partie intermédiaire n’a pas été traitée.",
-      "resume": "Selon Blast, Marine Le Pen a choisi le village de Brachay, en Haute-Marne, pour annoncer une refondation du Front National en 2017. Avec 58 habitants, Brachay est l'une des plus petites communes de France. Le 9 septembre 2017, devant 500 personnes, Marine Le Pen a déclaré vouloir faire de ce village le symbole de « la France des oubliés ». Elle a également nommé Jordan Bardella, un jeune inconnu de 22 ans, comme porte-parole du parti.\n\nContacté par Blast, Rémi Lelong, un ancien militant du FN 93, a déclaré ne pas croire à l'authenticité des messages de Mediapart. Il n'a pas regretté l'agression des Femen en 2012. Aucune réponse officielle n'a été donnée par le parti concernant les allégations de Mediapart.",
-      "resume_empreinte": "ec4aab4ff353063a97f3670494bb4ea7720fca91c94a992d9e1fc2fdba088b8d",
-      "resume_version": "qwen14b-gguf-v4-b466e1f8-b11541"
+      "derniere_verification_utc": "2026-10-16T17:57:24.934239+00:00",
+      "resume_tente_utc": "2026-10-16T18:08:21.394825+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — Le gouvernement détourne les aides de l'Ademe pour financer l'un des plus gros pollueurs de France",
@@ -77,11 +73,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-16T17:25:34.885203+00:00",
-      "resume_tente_utc": "2026-10-16T17:26:30.764828+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "derniere_verification_utc": "2026-10-16T17:57:24.934239+00:00",
+      "resume_tente_utc": "2026-10-16T18:13:53.201204+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : le début et la fin accessibles ont été résumés ; une partie intermédiaire n’a pas été traitée.",
+      "resume": "Selon Disclose, le gouvernement français a détourné des aides de l'Ademe pour financer Ineos, une entreprise de pétrochimie. Deux appels à projets ont été truqués, permettant à Ineos de recevoir plus de 300 millions d'euros. Cette entreprise, qui possède une usine à Martigues, est l'un des plus gros pollueurs de CO2 en France. L'intervention de Marc Ferracci, un proche d'Emmanuel Macron, est également mentionnée.\n\nLes services du Premier ministre et l'Ademe affirment que l'instruction et la sélection des dossiers ont été menées selon les règles du cahier des charges. Ils précisent que les deux dossiers d'Ineos sont en cours de contractualisation et que aucune aide n'a encore été versée.",
+      "resume_empreinte": "3fea64350c678bde7d0806240701399d9d88aaaafb7383d83da98653679628df",
+      "resume_version": "qwen14b-gguf-v5-b466e1f8-b11541"
     }
   ]
 }
