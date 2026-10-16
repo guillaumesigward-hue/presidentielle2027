@@ -7,7 +7,7 @@ from pathlib import Path
 from unittest.mock import patch
 from officiel_auto import analyser_publication, lien_officiel, actualiser_officiel
 from sondages_auto import tableau_resultats, methodologie, actualiser_sondages, enrichir_personnes
-from resumes_auto import resumer_publications, VERSION, sortie_coherente
+from resumes_auto import resumer_publications, VERSION, sortie_coherente, titre_coherent
 from veille import extraire_html
 from preparer_resumes import telecharger
 
@@ -88,6 +88,13 @@ class Resumes(unittest.TestCase):
         texte = 'Selon Disclose, le financement étudié soulève des interrogations. La décision définitive demeure attendue et les autorités apportent une réponse.'
         self.assertTrue(sortie_coherente(texte, source))
         self.assertFalse(sortie_coherente(texte.replace('Disclose', 'Paul Martin'), source))
+
+    def test_resume_doit_couvrir_le_sujet_du_titre(self):
+        titre = 'Mensonges et désaveux : Laurent Nuñez face à sa démission'
+        hors_sujet = 'Selon Blast, les lycéens ont été blessés pendant des manifestations. Laurent Nuñez a répondu aux syndicats.'
+        pertinent = 'Selon Blast, Laurent Nuñez est confronté à des demandes de démission après les révélations sur ses déclarations. Les réponses officielles restent attendues.'
+        self.assertFalse(titre_coherent(titre, hors_sujet))
+        self.assertTrue(titre_coherent(titre, pertinent))
 
     def test_copies_longues_et_repetitions_rejetees(self):
         original = ' '.join('mot'+str(i) for i in range(40))
