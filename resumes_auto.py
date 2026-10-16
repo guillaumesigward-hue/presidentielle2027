@@ -155,7 +155,10 @@ def resumer_publications(publications, fetch, precedentes=(), generate=None):
     bilan = {'resumes': 0, 'reutilises': 0, 'indisponibles': 0,
              'modele': MODEL, 'revision': REVISION, 'rejets': {}}
     # Les articles reportés passent avant ceux déjà tentés, sans changer l'ordre public.
-    ordre = sorted(publications, key=lambda x: cache.get(x.get('url'), {}).get('resume_tente_utc', ''))
+    ordre = sorted(publications, key=lambda x: (
+        not bool(cache.get(x.get('url'), {}).get('resume_tente_utc')),
+        cache.get(x.get('url'), {}).get('resume_tente_utc', ''),
+    ))
     for item in ordre:
         old = cache.get(item.get('url'), {})
         if item.get('verification_differee') and old.get('resume_statut') == 'disponible' and old.get('resume_version') == VERSION:

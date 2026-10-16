@@ -49,7 +49,7 @@ class Echeances(unittest.TestCase):
             ordre.append(url)
             return ''
         resumer_publications(articles, fetch, [{'url': 'a', 'resume_tente_utc': '2026-10-11'}])
-        self.assertEqual(ordre, ['b', 'a'])
+        self.assertEqual(ordre, ['a', 'b'])
         self.assertEqual([x['url'] for x in articles], ['a', 'b'])
 
 
