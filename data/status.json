@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-16T16:59:15.356276+00:00",
+  "last_checked_utc": "2026-10-16T17:25:34.885203+00:00",
   "last_checked_fr": "16 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -256,7 +256,7 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 58,
-    "pages_accessibles": 41,
+    "pages_accessibles": 40,
     "propositions_extraites": 4,
     "statuts_actualises": 0,
     "sources": {
@@ -266,7 +266,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 6
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,

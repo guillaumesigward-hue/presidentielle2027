@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-16T16:59:15.356276+00:00",
+  "last_checked_utc": "2026-10-16T17:25:34.885203+00:00",
   "articles": [
     {
       "titre": "Affaire Bardella : le trop long silence de BHL",
@@ -14,7 +14,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-16T16:59:15.356276+00:00",
+      "derniere_verification_utc": "2026-10-16T17:25:34.885203+00:00",
       "resume_tente_utc": "2026-10-12T04:48:30.005216+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -35,7 +35,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-16T16:59:15.356276+00:00",
+      "derniere_verification_utc": "2026-10-16T17:25:34.885203+00:00",
       "resume_tente_utc": "2026-10-12T04:54:37.988800+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -56,7 +56,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-16T16:59:15.356276+00:00",
+      "derniere_verification_utc": "2026-10-16T17:25:34.885203+00:00",
       "resume_tente_utc": "2026-10-12T05:02:38.616245+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : le début et la fin accessibles ont été résumés ; une partie intermédiaire n’a pas été traitée.",
@@ -77,8 +77,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-16T16:59:15.356276+00:00",
-      "resume_tente_utc": "2026-10-16T17:00:14.954451+00:00",
+      "derniere_verification_utc": "2026-10-16T17:25:34.885203+00:00",
+      "resume_tente_utc": "2026-10-16T17:26:30.764828+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
