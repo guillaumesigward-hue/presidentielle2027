@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-10-16T05:41:50.197162+00:00",
+  "last_checked_utc": "2026-10-16T16:59:15.356276+00:00",
   "last_checked_fr": "16 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 179,
-      "dernier_id_detecte": 2331,
+      "notices_detectees": 186,
+      "dernier_id_detecte": 2338,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -30,6 +30,25 @@
       "mise_a_jour": {
         "nombre": 6,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "La bataille d'Assas : les étudiants font reculer l'extrême-droite",
+            "url": "https://www.blast-info.fr/articles/2026/la-bataille-d-assas-les-etudiants-font-reculer-l-extreme-droite-EqNGkbrFQf6kFzKgQ_HNhA",
+            "resume": "» , s'époumonnent les étudiants devant l'entrée de l'université Panthéon-Assas, dans le 6e arrondissement de Paris. Pour les plus anciens, ceux qui étaient étudiants dans les années 1980 et 1990, le slogan apparaît lunaire, tant la fac était alors le fief de l'extrême droite estudiantine. « La jeunesse emmerde le Front national » , les protestataires reprennent en cœur ce cri de ralliement, lui aussi très années 80.",
+            "date_detection": "16 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Santé",
+              "Énergie"
+            ],
+            "candidats_mentions": [
+              "Marine Le Pen"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -94,24 +113,6 @@
             "nature": "actualité à qualifier",
             "themes": [
               "Énergie"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Rapport de l'ONU sur Gaza : les médias occidentaux, relais de la propagande israélienne",
-            "url": "https://www.blast-info.fr/articles/2026/rapport-de-l-onu-sur-gaza-les-medias-occidentaux-relais-de-la-propagande-israelienne-s--g0GuNSw2s9InGVhpqqw",
-            "resume": "C’est tout un système d’anéantissement de la vérité que dévoile le dernier rapport de Francesca Albanese , qui s’est intéressé au système informationnel de propagande israélienne et au rôle des médias dans le génocide en Palestine. « Depuis octobre 2023, Israël utilise tous les moyens à sa disposition pour museler le journalisme palestinien, créant ainsi un climat dans lequel il est devenu pratiquement impossible de mener un travail journalistique indépendant. Au regard du contexte plus large de la campagne menée contre le peuple palestinien, l’ampleur et l’intensité de cet assaut révèlent une volonté délibérée non seulement de dissimuler…",
-            "date_detection": "16 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Santé",
-              "Énergie",
-              "Écologie"
             ],
             "candidats_mentions": [],
             "statut": "À vérifier manuellement",
@@ -243,20 +244,20 @@
     "notices_examinees": 8,
     "scenarios_extraits": 10,
     "non_exploitables": [
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2334",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2325",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2321",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2293",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2286",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2276",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2273",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2264"
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2273"
     ],
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 55,
-    "pages_accessibles": 36,
-    "propositions_extraites": 2,
+    "pages_examinees": 58,
+    "pages_accessibles": 41,
+    "propositions_extraites": 4,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
@@ -265,7 +266,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 4
+        "accessibles": 6
       },
       "Fabien Roussel": {
         "examinees": 6,
@@ -284,8 +285,8 @@
         "accessibles": 9
       },
       "Marine Le Pen": {
-        "examinees": 1,
-        "accessibles": 1
+        "examinees": 4,
+        "accessibles": 4
       },
       "Éric Zemmour": {
         "examinees": 3,

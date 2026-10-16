@@ -640,5 +640,22 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Comment l'Argentine se vend à Peter Thiel et à la Silicon Valley",
+    "url": "https://www.blast-info.fr/articles/2026/comment-l-argentine-se-vend-a-peter-thiel-et-a-la-silicon-valley-bGKd9F5XRau1XiAgnV_yhw",
+    "resume": "Le 17 août 2026, jour de la commémoration du « père de la patrie argentine » José de San Martín, une trentaine de manifestants déguisés en Gandalf — robes grises, barbes blanches postiches, chapeaux pointus — convergent vers Palermo Chico, le quartier le plus tendance de Buenos Aires. Devant la résidence où Peter Thiel s'est installé quelques mois plus tôt, une propriété d'environ 12 millions de dollars au 2900 Dardo Rocha, ils déploient une banderole : « You Shall Not Pass » — la formule que le magicien du Seigneur des Anneaux lance au Balrog, un monstre terrifiant, pour lui barrer le passage afin de protéger les siens. Le choix n'est pas…",
+    "date_detection": "16 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Santé",
+      "Énergie",
+      "Écologie"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

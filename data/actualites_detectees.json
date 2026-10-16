@@ -1259,5 +1259,87 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10302 Pres YOUGOV LInternaute 15 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2338",
+    "date_detection": "16 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10322 Pres mobilisations sociales ELABE 16 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2337",
+    "date_detection": "16 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10321 Pres Rapport à la République V2 IFOP 15 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2336",
+    "date_detection": "16 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10320 Pres Budget 2027 ODOXA 15 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2335",
+    "date_detection": "16 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10319 Pres IV OPINIONWAY Cnews 15 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2334",
+    "date_detection": "16 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10318 Pres Presitrack V3 OPINIONWAY 15 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2333",
+    "date_detection": "16 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10316 Pres soirée Marine Le Pen CSA Cnews 15 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2332",
+    "date_detection": "16 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Comment l'Argentine se vend à Peter Thiel et à la Silicon Valley",
+    "url": "https://www.blast-info.fr/articles/2026/comment-l-argentine-se-vend-a-peter-thiel-et-a-la-silicon-valley-bGKd9F5XRau1XiAgnV_yhw",
+    "resume": "Le 17 août 2026, jour de la commémoration du « père de la patrie argentine » José de San Martín, une trentaine de manifestants déguisés en Gandalf — robes grises, barbes blanches postiches, chapeaux pointus — convergent vers Palermo Chico, le quartier le plus tendance de Buenos Aires. Devant la résidence où Peter Thiel s'est installé quelques mois plus tôt, une propriété d'environ 12 millions de dollars au 2900 Dardo Rocha, ils déploient une banderole : « You Shall Not Pass » — la formule que le magicien du Seigneur des Anneaux lance au Balrog, un monstre terrifiant, pour lui barrer le passage afin de protéger les siens. Le choix n'est pas…",
+    "date_detection": "16 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Santé",
+      "Énergie",
+      "Écologie"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]

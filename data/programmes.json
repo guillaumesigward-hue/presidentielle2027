@@ -47,6 +47,22 @@
           ],
           "propositions_automatiques": [
             {
+              "texte": "Relever le niveau scolaire pour garantir l’égalité des chances Pour Gabriel Attal, l’égalité des chances passe d’abord par l’exigence et la maîtrise des fondamentaux.",
+              "themes": [
+                "ecole"
+              ],
+              "url": "https://attalpresident.fr/actualites/gabriel-attal-france-info-ecouter-la-jeunesse",
+              "date_publication": "2026-10-15T12:00:00.000Z"
+            },
+            {
+              "texte": "Alors que les dépenses de retraite continuent d’augmenter, les investissements dans l’éducation et l’innovation stagnent.",
+              "themes": [
+                "ecole"
+              ],
+              "url": "https://attalpresident.fr/actualites/gabriel-attal-lettre-aux-francais-plan-finances-publiques",
+              "date_publication": "2026-10-15T12:00:00.000Z"
+            },
+            {
               "texte": "« C’est une formidable opportunité, au contraire, pour augmenter l’accompagnement de l’école.",
               "themes": [
                 "ecole"
