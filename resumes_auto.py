@@ -14,7 +14,7 @@ from functools import lru_cache
 from veille import PageArticle
 
 from preparer_resumes import MODEL, REVISION, RUNTIME, CACHE, preparer
-VERSION = 'qwen14b-gguf-v4-' + REVISION[:8] + '-' + RUNTIME
+VERSION = 'qwen14b-gguf-v5-' + REVISION[:8] + '-' + RUNTIME
 
 
 @lru_cache(maxsize=1)
@@ -142,8 +142,33 @@ def raison_rejet(resume, original):
     return None if all(nom.casefold() in original.casefold() for nom in noms) else 'noms'
 
 
-def sortie_coherente(resume, original):
-    return raison_rejet(resume, original) is None
+def titre_coherent(titre, resume):
+    """Écarte un résumé qui ne reprend pas le sujet central du titre."""
+    import unicodedata
+
+    stop = {
+        'alors', 'apres', 'avec', 'chez', 'dans', 'depuis', 'dune', 'entre',
+        'face', 'mais', 'moins', 'plus', 'pour', 'quand', 'selon', 'sans',
+        'sous', 'sur', 'vers', 'apres', 'contre', 'comme', 'tout', 'tous',
+        'trop', 'tres', 'une', 'des', 'les', 'aux', 'du', 'de', 'la', 'le',
+        'un', 'et', 'ou', 'en', 'au', 'ce', 'ces', 'son', 'sa', 'ses', 'qui',
+        'que', 'est', 'sont', 'etre', 'avoir', 'fait', 'font', 'leur', 'leurs',
+        'article', 'video', 'podcast', 'analyse', 'entretien', 'reportage',
+    }
+    def mots(texte):
+        texte = unicodedata.normalize('NFKD', texte.casefold())
+        texte = ''.join(c for c in texte if not unicodedata.combining(c))
+        return set(re.findall(r'[a-z0-9]+', texte))
+
+    sujets = {m for m in mots(titre) if len(m) >= 4 and m not in stop}
+    if not sujets:
+        return True
+    couverture = len(sujets & mots(resume)) / len(sujets)
+    return couverture >= 0.5
+
+
+def sortie_coherente(resume, original, titre=None):
+    return raison_rejet(resume, original) is None and (titre is None or titre_coherent(titre, resume))
 
 
 
@@ -161,7 +186,9 @@ def resumer_publications(publications, fetch, precedentes=(), generate=None):
     ))
     for item in ordre:
         old = cache.get(item.get('url'), {})
-        if item.get('verification_differee') and old.get('resume_statut') == 'disponible' and old.get('resume_version') == VERSION:
+        if (item.get('verification_differee') and old.get('resume_statut') == 'disponible'
+                and old.get('resume_version') == VERSION
+                and titre_coherent(item.get('titre', ''), old.get('resume', ''))):
             # Le texte n'a pas pu être revérifié : conserver le résumé daté, sans le régénérer.
             for key in ('resume', 'resume_statut', 'resume_limite', 'resume_empreinte', 'resume_version', 'resume_tente_utc'):
                 if key in old:
@@ -186,7 +213,9 @@ def resumer_publications(publications, fetch, precedentes=(), generate=None):
                 continue
             empreinte = hashlib.sha256(texte.encode()).hexdigest()
             old = cache.get(item['url'], {})
-            if old.get('resume_empreinte') == empreinte and old.get('resume_version') == VERSION and old.get('resume_statut') == 'disponible':
+            if (old.get('resume_empreinte') == empreinte and old.get('resume_version') == VERSION
+                    and old.get('resume_statut') == 'disponible'
+                    and sortie_coherente(old.get('resume', ''), texte, item.get('titre'))):
                 for key in ('resume', 'resume_statut', 'resume_limite', 'resume_empreinte', 'resume_version'):
                     item[key] = old[key]
                 bilan['reutilises'] += 1
@@ -215,7 +244,7 @@ def resumer_publications(publications, fetch, precedentes=(), generate=None):
                         moteur_indisponible = True
                         raise
                 resume = redaction(source_resumee)
-            motif = raison_rejet(resume, source_resumee)
+            motif = raison_rejet(resume, source_resumee) or (None if titre_coherent(item.get('titre', ''), resume) else 'titre')
             if motif:
                 bilan['rejets'][motif] = bilan['rejets'].get(motif, 0) + 1
                 raise ValueError('Résumé rejeté par les contrôles de cohérence')
