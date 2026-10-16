@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import shutil
 from automatisation import selectionner_articles
+from resumes_auto import titre_coherent
 from update import SOURCES_JOURNALISTIQUES, fetch
 from urllib.parse import urlsplit
 
@@ -42,6 +43,7 @@ def preparer_site(output, data_dir=None):
         detections = json.loads((data_dir / 'actualites_detectees.json').read_text(encoding='utf-8'))
         queue = json.loads((data_dir / 'a_valider.json').read_text(encoding='utf-8'))
         exclusions = {item['url'] for item in queue if item.get('url') and item.get('statut') in ('Rejeté', 'Rejetée', 'Refusé')}
+        existantes = {item.get('url') for item in election['actualites']}
         snapshot = data_dir / 'publications_auto.json'
         if snapshot.exists():
             selection = json.loads(snapshot.read_text(encoding='utf-8'))
@@ -51,20 +53,21 @@ def preparer_site(output, data_dir=None):
         else:
             # Compatibilité avec les archives antérieures au paquet reproductible.
             articles = selectionner_articles(detections, SOURCES_JOURNALISTIQUES, fetch, exclusions=exclusions)
-        # Le site ne publie que les fiches dont le résumé détaillé a passé les contrôles.
-        articles = [item for item in articles if item['url'] not in exclusions and not source_retiree(item)
-                    and item.get('resume_statut') == 'disponible'
-                    and isinstance(item.get('resume'), str) and item['resume'].strip()]
-        urls_resumees = {item['url'] for item in articles}
-        # Retirer aussi les anciennes fiches automatiques devenues sans résumé.
-        election['actualites'] = [item for item in election['actualites']
-            if not (item.get('controle') == 'automatique' and item.get('url')
-                    and item['url'] not in urls_resumees)]
-        existantes = {item.get('url') for item in election['actualites']}
+        uniques, vus = [], set()
+        for item in articles:
+            url = item.get('url')
+            if not url or url in vus or url in exclusions or source_retiree(item):
+                continue
+            vus.add(url)
+            uniques.append(item)
+        articles_valides = [item for item in uniques if item.get('resume_statut') == 'disponible'
+                            and item.get('resume') and titre_coherent(item.get('titre', ''), item.get('resume', ''))]
+        indisponibles = len(uniques) - len(articles_valides)
+        articles = articles_valides
         suivi['resumes_automatiques'] = dict(suivi['resumes_automatiques'],
             resumes=sum(item.get('resume_statut') == 'disponible' for item in articles),
             reutilises=0,
-            indisponibles=sum(item.get('resume_statut') != 'disponible' for item in articles))
+            indisponibles=indisponibles)
         election['actualites'] = [item for item in articles if item['url'] not in existantes] + election['actualites']
         suivi['articles_automatiques'] = len(articles)
         suivi['publications_par_media'] = {source['nom']: sum(x['source'] == source['nom'] for x in articles) for source in SOURCES_JOURNALISTIQUES}
@@ -80,7 +83,7 @@ def preparer_site(output, data_dir=None):
     for source in SOURCES_JOURNALISTIQUES:
         if source['url'] not in urls:
             election['sources'].append({'nom': source['nom'], 'url': source['url'],
-                'description': 'Média indépendant / investigation suivi automatiquement. Titres et analyses attribués au média ; enquêtes antérieures datées séparément.'})
+                'description': source.get('description', 'Média suivi automatiquement ; articles attribués à leur source.')})
     if status['publication_automatique']:
         for source in election['sources']:
             if source.get('nom') == 'Commission des sondages':
