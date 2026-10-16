@@ -234,7 +234,8 @@ def resumer_publications(publications, fetch, precedentes=(), generate=None):
             # Elle est conservée lorsque l'article dépasse la fenêtre de lecture.
             mots = texte.split()
             accessible = texte if len(mots)<=1600 else ' '.join(mots[:900])+'\n[Passage intermédiaire non fourni]\n'+' '.join(mots[-700:])
-            source_resumee = 'Publication : ' + item.get('source', 'Source citée') + '\n' + accessible
+            source_resumee = ('Publication : ' + item.get('source', 'Source citée') + '\n'
+                + 'Titre de l’article : ' + item.get('titre', '') + '\n' + accessible)
             item['resume_tente_utc'] = datetime.now(timezone.utc).isoformat()
             with delai_reel(min(1200, limite - time.monotonic())):
                 if redaction is None:
