@@ -39,26 +39,64 @@ class PublicationTests(unittest.TestCase):
             status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
             status['publication_automatique'] = True
             (data / 'status.json').write_text(json.dumps(status), encoding='utf-8')
-            item = {'source':'Blast','url':'https://www.blast-info.fr/articles/2026/test-auto'}
-            (data / 'publications_auto.json').unlink(missing_ok=True)
-            (data / 'actualites_detectees.json').write_text(json.dumps([item,item]), encoding='utf-8')
-            checked = status['last_checked_utc']
-            selected = {**item, 'titre':'Gabriel Attal présente des propositions',
-                'date_publication':datetime.now(timezone.utc).isoformat(), 'controle':'automatique',
-                'resume_statut':'disponible', 'resume':'Selon Blast, Gabriel Attal présente des propositions politiques. Le média détaille les principaux éléments et leurs conséquences.'}
-            (data / 'publications_auto.json').write_text(
-                json.dumps({'last_checked_utc':checked, 'articles':[selected]}), encoding='utf-8')
             date = datetime.now(timezone.utc).isoformat()
-            body = f'<meta property="og:title" content="Les propositions pour la présidentielle"><meta property="article:published_time" content="{date}">'
+            item = {'source':'Blast','titre':'École et travaux à la mairie',
+                    'url':'https://www.blast-info.fr/articles/2026/test-auto',
+                    'date_publication':date,'controle':'automatique',
+                    'resume_statut':'disponible','resume':'Résumé vérifié des travaux scolaires de la mairie.'}
+            (data / 'publications_auto.json').write_text(json.dumps({'last_checked_utc':status['last_checked_utc'],'articles':[item,item]}), encoding='utf-8')
             output = Path(directory) / 'site'
-            with patch('construire_site.fetch', return_value=body):
-                suivi = preparer_site(output, data)
+            suivi = preparer_site(output, data)
             actualites = json.loads((output / 'data/election.json').read_text(encoding='utf-8'))['actualites']
             self.assertTrue(suivi['publication_automatique'])
             self.assertEqual(suivi['articles_automatiques'],1)
             self.assertEqual(len([x for x in actualites if x.get('url')==item['url']]),1)
             self.assertEqual(actualites[0]['controle'],'automatique')
+            self.assertEqual(actualites[0]['resume'],'Résumé vérifié des travaux scolaires de la mairie.')
             self.assertFalse((output / 'data/a_valider.json').exists())
+
+    def test_active_site_hides_automatic_articles_without_a_valid_summary(self):
+        with tempfile.TemporaryDirectory() as directory:
+            data = Path(directory) / 'data'
+            data.mkdir()
+            for file in update.DATA_DIR.glob('*.json'):
+                (data / file.name).write_bytes(file.read_bytes())
+            status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
+            status['publication_automatique'] = True
+            (data / 'status.json').write_text(json.dumps(status), encoding='utf-8')
+            (data / 'publications_auto.json').write_text(json.dumps({
+                'last_checked_utc':status['last_checked_utc'],
+                'articles':[{'source':'Disclose','titre':'Texte indisponible',
+                    'url':'https://disclose.ngo/fr/article/texte-indisponible',
+                    'controle':'automatique','resume_statut':'indisponible','resume':''}]}), encoding='utf-8')
+            output = Path(directory) / 'site'
+            suivi = preparer_site(output, data)
+            actualites = json.loads((output / 'data/election.json').read_text(encoding='utf-8'))['actualites']
+            self.assertEqual(suivi['articles_automatiques'],0)
+            self.assertFalse(any(item.get('url','').endswith('/texte-indisponible') for item in actualites))
+            self.assertEqual(suivi['resumes_automatiques']['indisponibles'],1)
+
+    def test_active_site_hides_title_incoherent_summary(self):
+        with tempfile.TemporaryDirectory() as directory:
+            data = Path(directory) / 'data'
+            data.mkdir()
+            for file in update.DATA_DIR.glob('*.json'):
+                (data / file.name).write_bytes(file.read_bytes())
+            status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
+            status['publication_automatique'] = True
+            (data / 'status.json').write_text(json.dumps(status), encoding='utf-8')
+            item = {'source':'Blast','titre':'Mensonges et désaveux : Laurent Nuñez face à sa démission',
+                    'url':'https://www.blast-info.fr/articles/2026/test-titre',
+                    'controle':'automatique','resume_statut':'disponible',
+                    'resume':'Selon Blast, des lycéens ont été blessés pendant des manifestations. Laurent Nuñez a répondu aux syndicats.'}
+            (data / 'publications_auto.json').write_text(json.dumps({
+                'last_checked_utc':status['last_checked_utc'],'articles':[item]}), encoding='utf-8')
+            output = Path(directory) / 'site'
+            suivi = preparer_site(output, data)
+            actualites = json.loads((output / 'data/election.json').read_text(encoding='utf-8'))['actualites']
+            self.assertEqual(suivi['articles_automatiques'],0)
+            self.assertFalse(any(x.get('url') == item['url'] for x in actualites))
+            self.assertEqual(suivi['resumes_automatiques']['indisponibles'],1)
 
     def test_snapshot_build_is_offline_and_rejects_stale_selection(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -69,19 +107,10 @@ class PublicationTests(unittest.TestCase):
             status = json.loads((data / 'status.json').read_text(encoding='utf-8'))
             status['publication_automatique'] = True
             (data / 'status.json').write_text(json.dumps(status), encoding='utf-8')
-            selection = {'last_checked_utc':status['last_checked_utc'],'articles':[{
-                'titre':'Article Disclose sans résumé', 'source':'Disclose',
-                'url':'https://disclose.ngo/fr/article/sans-resume',
-                'controle':'automatique', 'resume_statut':'indisponible', 'resume':''
-            }]}
+            selection = {'last_checked_utc':status['last_checked_utc'],'articles':[]}
             (data / 'publications_auto.json').write_text(json.dumps(selection),encoding='utf-8')
             with patch('construire_site.fetch', side_effect=AssertionError('Construction hors réseau')):
                 preparer_site(Path(directory)/'site',data)
-            published = json.loads((Path(directory)/'site/data/election.json').read_text(encoding='utf-8'))
-            self.assertFalse(any(x.get('url') == 'https://disclose.ngo/fr/article/sans-resume'
-                                 for x in published['eclairages_automatiques']))
-            self.assertFalse(any(x.get('url') == 'https://disclose.ngo/fr/article/sans-resume'
-                                 for x in published['actualites']))
             selection['last_checked_utc']='ancien'
             (data / 'publications_auto.json').write_text(json.dumps(selection),encoding='utf-8')
             with self.assertRaises(ValueError):
