@@ -7,7 +7,7 @@ from pathlib import Path
 from unittest.mock import patch
 from officiel_auto import analyser_publication, lien_officiel, actualiser_officiel
 from sondages_auto import tableau_resultats, methodologie, actualiser_sondages, enrichir_personnes
-from resumes_auto import resumer_publications, VERSION, sortie_coherente, titre_coherent
+from resumes_auto import resumer_publications, VERSION, sortie_coherente, titre_coherent, extrait_pertinent
 from veille import extraire_html
 from preparer_resumes import telecharger
 
@@ -95,6 +95,25 @@ class Resumes(unittest.TestCase):
         pertinent = 'Selon Blast, Laurent Nuñez est confronté à des demandes de démission après les révélations sur ses déclarations. Les réponses officielles restent attendues.'
         self.assertFalse(titre_coherent(titre, hors_sujet))
         self.assertTrue(titre_coherent(titre, pertinent))
+
+    def test_nom_et_sigle_ne_remplacent_pas_le_sujet_du_titre(self):
+        titre = 'Bardella : l’antisémitisme, un vivier du RN'
+        hors_sujet = 'Selon Blast, Jordan Bardella a été porte-parole du Front national à Brachay.'
+        pertinent = ('Selon Blast, l’enquête examine des propos antisémites attribués à Jordan Bardella '
+                     'et leur place dans le Rassemblement national.')
+        self.assertFalse(titre_coherent(titre, hors_sujet))
+        self.assertTrue(titre_coherent(titre, pertinent))
+
+    def test_extrait_long_recherche_les_passages_centraux_lies_au_titre(self):
+        titre = 'Enquête sur les messages antisémites attribués à Bardella'
+        texte = ('Présentation générale de la politique française et contexte du débat public. ' * 8
+                 + 'Au cœur de l’enquête, les messages antisémites attribués à Jordan Bardella sont examinés. '
+                 + 'Contexte et éléments complémentaires sur les personnes concernées. ' * 8
+                 + 'La rédaction indique les réponses reçues et les suites attendues de cette enquête. ' * 8)
+        extrait, partiel = extrait_pertinent(titre, texte, limite_mots=55)
+        self.assertTrue(partiel)
+        self.assertIn('Au cœur de l’enquête', extrait)
+        self.assertIn('réponses reçues', extrait)
 
     def test_copies_longues_et_repetitions_rejetees(self):
         original = ' '.join('mot'+str(i) for i in range(40))
