@@ -42,6 +42,12 @@ class PublicationTests(unittest.TestCase):
             item = {'source':'Blast','url':'https://www.blast-info.fr/articles/2026/test-auto'}
             (data / 'publications_auto.json').unlink(missing_ok=True)
             (data / 'actualites_detectees.json').write_text(json.dumps([item,item]), encoding='utf-8')
+            checked = status['last_checked_utc']
+            selected = {**item, 'titre':'Gabriel Attal présente des propositions',
+                'date_publication':datetime.now(timezone.utc).isoformat(), 'controle':'automatique',
+                'resume_statut':'disponible', 'resume':'Selon Blast, Gabriel Attal présente des propositions politiques. Le média détaille les principaux éléments et leurs conséquences.'}
+            (data / 'publications_auto.json').write_text(
+                json.dumps({'last_checked_utc':checked, 'articles':[selected]}), encoding='utf-8')
             date = datetime.now(timezone.utc).isoformat()
             body = f'<meta property="og:title" content="Les propositions pour la présidentielle"><meta property="article:published_time" content="{date}">'
             output = Path(directory) / 'site'
