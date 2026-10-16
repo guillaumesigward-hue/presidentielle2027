@@ -5,6 +5,13 @@ on:
       revision:
         required: true
         type: string
+  workflow_dispatch:
+    inputs:
+      revision:
+        description: 'Révision du site à publier (main par défaut)'
+        required: false
+        default: main
+        type: string
 permissions:
   contents: read
   pages: write
