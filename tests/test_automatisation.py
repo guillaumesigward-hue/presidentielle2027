@@ -18,6 +18,29 @@ class AutomatisationTests(unittest.TestCase):
         for body in [self.body.replace('2026-10-10','2025-10-10'),self.body.replace('2026-10-10','2026-11-10'),self.body.replace('article:published_time','missing'),self.body.replace('La présidentielle et les propositions pour 2027','Le jardinage pour tout le monde')]:
             self.assertIsNone(controler_article(self.item,self.source,body,self.now))
         self.assertIsNone(controler_article(dict(self.item,url='https://evil.test/article'),self.source,self.body,self.now))
+    def test_relevance_uses_public_article_body_when_metadata_is_generic(self):
+        source = {'nom':'Disclose','url':'https://disclose.ngo/fr'}
+        item = {'source':'Disclose','url':'https://disclose.ngo/fr/article/reconnaissance-faciale',
+                'resume':'Une enquête documente des pratiques contestées.'}
+        body = ('<meta property="og:title" content="Une enquête exclusive">'
+                '<meta property="og:description" content="Une enquête de la rédaction.">'
+                '<meta property="article:published_time" content="2026-10-10T10:00:00Z">'
+                '<article><p>La police utilise la reconnaissance faciale lors de contrôles. '
+                'Cette pratique soulève des questions de libertés publiques et de respect '
+                'des droits fondamentaux.</p></article>')
+        result = controler_article(item, source, body, self.now)
+        self.assertIsNotNone(result)
+        self.assertIn('Institutions / libertés publiques', result['themes'])
+
+    def test_generic_article_without_policy_relevance_stays_excluded(self):
+        source = {'nom':'Blast','url':'https://www.blast-info.fr/'}
+        item = {'source':'Blast','url':'https://www.blast-info.fr/articles/2026/recette',
+                'resume':'Une recette facile à préparer chez soi.'}
+        body = ('<meta property="og:title" content="Une recette de saison">'
+                '<meta property="article:published_time" content="2026-10-10T10:00:00Z">'
+                '<article><p>Un plat simple et savoureux à partager en famille.</p></article>')
+        self.assertIsNone(controler_article(item, source, body, self.now))
+
     def test_duplicates_rejections_and_source_outage(self):
         result = selectionner_articles([self.item,self.item],[self.source],lambda url:self.body,self.now)
         self.assertEqual(len(result),1)

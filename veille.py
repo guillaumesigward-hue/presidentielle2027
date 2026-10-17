@@ -22,6 +22,19 @@ THEMES = {
     'Fiscalité': ['impôt', 'fiscalité', 'taxe'],
     'Écologie': ['écologie', 'écologique', 'climat', 'environnement', 'pollution', 'pollueur', 'pollueurs', 'biodiversité'],
     'Handicap / AESH': ['handicap', 'aesh', 'inclusion scolaire', 'école inclusive'],
+    'Institutions / libertés publiques': [
+        'police', 'justice', 'tribunal', 'parlement', 'assemblée nationale',
+        'sénat', 'libertés publiques', 'droits fondamentaux', 'surveillance',
+        'reconnaissance faciale', 'discrimination', 'extrême droite',
+    ],
+    'Immigration': [
+        'immigration', 'migrant', 'migrants', 'sans-papiers', 'réfugié',
+        'réfugiés', 'asile', 'oqtf', 'expulsion', 'frontières',
+    ],
+    'Travail': [
+        'travail', 'salarié', 'salariés', 'syndicat', 'syndicats', 'emploi',
+        'licenciement', 'conditions de travail',
+    ],
 }
 
 

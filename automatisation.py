@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor
 import json
 import re
 from urllib.error import HTTPError
-from veille import url_article_valide, contient_expression, THEMES
+from veille import url_article_valide, contient_expression, extraire_html, THEMES
 
 class Metadonnees(HTMLParser):
     def __init__(self):
@@ -73,7 +73,13 @@ def controler_article(item, source, body, now=None):
         return None
     if not 15 <= len(titre) <= 250 or not now - timedelta(days=180) <= date <= now + timedelta(minutes=5):
         return None
-    analyse = titre + ' ' + str(meta.get('og:description') or article.get('description') or '')
+    # Les titres et descriptions de partage sont souvent vagues. Vérifier la
+    # pertinence dans le corps public réel, en plus des métadonnées et du texte
+    # extrait à la détection, pour ne pas manquer les sujets absents du chapeau.
+    corps = extraire_html(body)
+    analyse = ' '.join((titre,
+                        str(meta.get('og:description') or article.get('description') or ''),
+                        str(item.get('resume') or ''), corps))
     themes = [theme for theme, mots in THEMES.items() if any(contient_expression(analyse, mot) for mot in mots)]
     contexte = any(contient_expression(analyse, mot) for mot in
                    ('présidentielle', 'présidentiel', 'candidature'))
@@ -82,7 +88,11 @@ def controler_article(item, source, body, now=None):
                'Gabriel Attal': ['gabriel attal', 'attal'], 'Bruno Retailleau': ['bruno retailleau', 'retailleau']}
     personnes = list(dict.fromkeys(item.get('candidats_mentions', []) + list(aliases)))
     mentions = [nom for nom in personnes if nom and any(contient_expression(analyse, variante) for variante in aliases.get(nom, [nom]))]
-    institutions = any(contient_expression(analyse, mot) for mot in ('gouvernement', 'ministre', 'matignon', 'bercy', 'argent public', 'politique publique'))
+    institutions = any(contient_expression(analyse, mot) for mot in (
+        'gouvernement', 'ministre', 'matignon', 'bercy', 'argent public',
+        'politique publique', 'police', 'justice', 'parlement',
+        'assemblée nationale', 'sénat', 'préfecture', 'service public',
+    ))
     if not contexte and not mentions and not (themes and institutions):
         return None
     # Aucun résumé factuel synthétisé : le titre reste attribué au média.
