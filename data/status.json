@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-17T12:36:27.491594+00:00",
+  "last_checked_utc": "2026-10-17T17:37:42.837985+00:00",
   "last_checked_fr": "17 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -22,13 +22,13 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 8,
+      "detections": 9,
       "liens_examines": 16,
       "extractions_vides": 4,
       "liens_trouves": 116,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 8,
+        "nombre": 9,
         "articles": [
           {
             "type": "media_independant_investigation",
@@ -263,8 +263,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 60,
-    "pages_accessibles": 42,
+    "pages_examinees": 55,
+    "pages_accessibles": 36,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -273,8 +273,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 10,
-        "accessibles": 7
+        "examinees": 8,
+        "accessibles": 4
       },
       "Fabien Roussel": {
         "examinees": 6,
@@ -293,8 +293,8 @@
         "accessibles": 9
       },
       "Marine Le Pen": {
-        "examinees": 4,
-        "accessibles": 4
+        "examinees": 1,
+        "accessibles": 1
       },
       "Éric Zemmour": {
         "examinees": 3,

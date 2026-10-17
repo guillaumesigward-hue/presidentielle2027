@@ -714,5 +714,24 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Cher Matthieu Valet – Boxing Day #98",
+    "url": "https://www.blast-info.fr/articles/2026/cher-matthieu-valet-boxing-day-98-j-rCLnF6RVe_DlmenHXnOQ",
+    "resume": "Samedi 10 octobre, vous dénonciez, sur votre compte X , une publication vidéo du journal l’Humanité , affirmant que « sans vérification ni confirmation, un journal d’extrême gauche colporte […] des fake news, comme le fait si bien LFI » , c’est bien noté, et ajoutant, en référence à la part d’aides publiques à la presse dont bénéficie chaque année le quotidien, que « ce journal touche des millions financés par vos impôts tout en diffusant sa propagande anti-flic » , si c’est vrai c’est très grave. Le problème — majeur — est que la vidéo que vous fustigiez était en fait une parodie humoristique donnant à voir un faux policier infiltré dans…",
+    "date_detection": "17 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Institutions / libertés publiques",
+      "Travail"
+    ],
+    "candidats_mentions": [
+      "Marine Le Pen",
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
