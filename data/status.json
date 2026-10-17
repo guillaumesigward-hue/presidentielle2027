@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-17T05:39:56.329284+00:00",
+  "last_checked_utc": "2026-10-17T12:36:27.491594+00:00",
   "last_checked_fr": "17 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -22,52 +22,14 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 6,
+      "detections": 8,
       "liens_examines": 16,
       "extractions_vides": 4,
       "liens_trouves": 116,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 6,
+        "nombre": 8,
         "articles": [
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "La bataille d'Assas : les étudiants font reculer l'extrême-droite",
-            "url": "https://www.blast-info.fr/articles/2026/la-bataille-d-assas-les-etudiants-font-reculer-l-extreme-droite-EqNGkbrFQf6kFzKgQ_HNhA",
-            "resume": "» , s'époumonnent les étudiants devant l'entrée de l'université Panthéon-Assas, dans le 6e arrondissement de Paris. Pour les plus anciens, ceux qui étaient étudiants dans les années 1980 et 1990, le slogan apparaît lunaire, tant la fac était alors le fief de l'extrême droite estudiantine. « La jeunesse emmerde le Front national » , les protestataires reprennent en cœur ce cri de ralliement, lui aussi très années 80.",
-            "date_detection": "17 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Santé",
-              "Énergie"
-            ],
-            "candidats_mentions": [
-              "Marine Le Pen"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "« Ici on apprend à cultiver, pas à déraciner » : un lycée breton mobilisé contre l'OQTF d'un élève",
-            "url": "https://www.blast-info.fr/articles/2026/ici-on-apprend-a-cultiver-pas-a-deraciner-un-lycee-breton-mobilise-contre-l-oqtf-d-un-eleve-LDdP8rVES_aXc2NEwh_AVQ",
-            "resume": "La départementale D794 quitte la commune de Saint-Aubin-du-Cormier, où vivent près de 4 200 habitants, pour traverser champs et paysages boisés. Maxime Lechartier, professeur au lycée agricole, bifurque pour prendre la route baptisée la « Lande de la Rencontre ». C’est ici que, cinq siècles plus tôt, s’est jouée la bataille de 1488, qui opposa l’armée bretonne à l’armée française.",
-            "date_detection": "17 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École",
-              "Handicap / AESH"
-            ],
-            "candidats_mentions": [
-              "Bruno Retailleau"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -77,7 +39,10 @@
             "date_detection": "17 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
-              "Écologie"
+              "Écologie",
+              "Institutions / libertés publiques",
+              "Immigration",
+              "Travail"
             ],
             "candidats_mentions": [
               "Marine Le Pen",
@@ -96,7 +61,10 @@
             "date_detection": "17 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
-              "École"
+              "École",
+              "Institutions / libertés publiques",
+              "Immigration",
+              "Travail"
             ],
             "candidats_mentions": [],
             "statut": "À vérifier manuellement",
@@ -112,7 +80,41 @@
             "date_detection": "17 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
-              "Énergie"
+              "Énergie",
+              "Institutions / libertés publiques",
+              "Travail"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "La jeunesse peut faire basculer la présidentielle (et les médias le savent)",
+            "url": "https://www.blast-info.fr/emissions/2026/la-jeunesse-peut-faire-basculer-la-presidentielle-et-les-medias-le-savent-vm5csIMJQW-Uh0eS3dmmjQ",
+            "resume": "La mobilisation des lycéens a donné lieu à beaucoup de séquences, à la fois glaçantes comme formidables et soulève l’inquiétude du conservatisme. Alors évidemment avec toutes ces controverses et tout ce débat, la télé s’est dit banco : le 8 octobre, LCI a sorti le dispositif classique, le grand plateau de « La Grande confrontation ». Terrible appareil de capture de ce mouvement social, le plateau n’a été qu’une machine à délégitimer : trop jeunes, trop violents, trop ignares, les jeunes doivent se taire et remercier les boomers.",
+            "date_detection": "17 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [],
+            "candidats_mentions": [
+              "Raphaël Glucksmann"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "“Vous condamnez les violences ?“",
+            "url": "https://www.blast-info.fr/emissions/2026/vous-condamnez-les-violences-7jLDKPiJRoC5OB3qG06ubA",
+            "resume": "\"Le pouvoir macroniste, contrairement à ce qu’il suggère aujourd’hui pour mieux justifier la répression exceptionnellement féroce du mouvement lycéen, sait parfaitement s’accommoder de véritables violences — et qu’il lui arrive même de les encourager en se prévalant très sérieusement de sa sensibilité aux revendications de ceux qui les commettent. Au mois de janvier 2024, par exemple, quand des agriculteurs en colère avaient détruit ou tenté d’incendier plusieurs bâtiments publics, le ministre de l’Intérieur de l’époque, Gérald Darmanin — le même qui avait lancé l’armée contre des militants écologistes un an plus tôt à Sainte-Soline – avait…",
+            "date_detection": "17 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École"
             ],
             "candidats_mentions": [],
             "statut": "À vérifier manuellement",
@@ -127,31 +129,14 @@
       "url": "https://disclose.ngo/fr",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 5,
+      "detections": 7,
       "liens_examines": 20,
       "extractions_vides": 0,
       "liens_trouves": 166,
       "etat_extraction": "ok",
       "mise_a_jour": {
-        "nombre": 5,
+        "nombre": 7,
         "articles": [
-          {
-            "type": "media_investigation",
-            "source": "Disclose",
-            "titre": "impact",
-            "url": "https://disclose.ngo/fr/page/impact",
-            "resume": "Si la première mission de la presse est d’informer, Disclose estime que ses enquêtes sont utiles seulement si elles ont un impact concret sur la société. Manifestation contre les livraisons d’armements français en Israël révélées par Disclose, à Marseille (Bouches-du-Rhône) en septembre 2025. Photo : Frédéric Munsch / SIPA De par l’ampleur des scandales que nous révélons, nous fournissons aux citoyen·nes les moyens de faire pression sur les pouvoirs économiques et politiques, afin de provoquer des changements.",
-            "date_detection": "17 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Énergie",
-              "Écologie"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
           {
             "type": "media_investigation",
             "source": "Disclose",
@@ -161,7 +146,10 @@
             "date_detection": "17 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
-              "Écologie"
+              "Écologie",
+              "Institutions / libertés publiques",
+              "Immigration",
+              "Travail"
             ],
             "candidats_mentions": [],
             "statut": "À vérifier manuellement",
@@ -177,7 +165,8 @@
             "date_detection": "17 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
-              "Écologie"
+              "Écologie",
+              "Institutions / libertés publiques"
             ],
             "candidats_mentions": [],
             "statut": "À vérifier manuellement",
@@ -205,6 +194,22 @@
           {
             "type": "media_investigation",
             "source": "Disclose",
+            "titre": "En savoir plus",
+            "url": "https://disclose.ngo/fr/article/ventes-darmes-francaises-dans-la-guerre-au-yemen-pourquoi-disclose-saisit-la-cour-europeenne-des-droits-de-lhomme",
+            "resume": "Disclose, Amnesty International et le Centre européen pour les droits humains et institutionnels s’attaquent au déni de démocratie de l’État français sur ses ventes d’armes aux régimes autoritaires responsables de crimes de guerre. Le 1er avril, elles ont déposé plainte pour violation des droits fondamentaux auprès de la Cour européenne des droits de l’Homme. La France refuse à Disclose, Amnesty International France et ECCHR d’accéder aux documents douaniers liés aux exportations d’armes françaises vers l’Arabie saoudite, les Émirats arabes unis et l’Égypte, soupçonnés de crimes de guerre au Yémen.",
+            "date_detection": "17 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Institutions / libertés publiques"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_investigation",
+            "source": "Disclose",
             "titre": "Le gouvernement détourne les aides de l’Ademe pour financer l’un des plus gros pollueurs de France",
             "url": "https://disclose.ngo/fr/article/le-gouvernement-detourne-les-aides-de-lademe-pour-financer-lun-des-plus-gros-pollueurs-de-france",
             "resume": "Matignon et Bercy ont truqué deux appels à projets de l’Agence de la transition écologique (Ademe) pour financer le géant de la pétrochimie Ineos, révèle Disclose. La multinationale va toucher plus de 300 millions d’euros d’argent public pour soutenir l’activité d’une usine parmi les plus émettrices de CO2 en France. C’est un Emmanuel Macron tout à son aise qui parade devant un parterre de chef·fes d’entreprises réuni·es à l’Élysée, en ce jour d’octobre 2021.",
@@ -212,7 +217,9 @@
             "nature": "actualité à qualifier",
             "themes": [
               "Énergie",
-              "Écologie"
+              "Écologie",
+              "Institutions / libertés publiques",
+              "Travail"
             ],
             "candidats_mentions": [],
             "statut": "À vérifier manuellement",
@@ -225,21 +232,21 @@
   },
   "resumes_automatiques": {
     "resumes": 1,
-    "reutilises": 1,
-    "indisponibles": 2,
+    "reutilises": 0,
+    "indisponibles": 10,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
       "titre": 1
     },
     "erreurs": {
-      "ValueError": 1,
-      "DelaiDepasse": 1
+      "DelaiDepasse": 2,
+      "ValueError": 1
     }
   },
   "publications_par_media": {
-    "Blast": 3,
-    "Disclose": 1
+    "Blast": 7,
+    "Disclose": 4
   },
   "sondages_automatiques": {
     "notices_examinees": 8,
@@ -256,9 +263,9 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 55,
-    "pages_accessibles": 38,
-    "propositions_extraites": 4,
+    "pages_examinees": 60,
+    "pages_accessibles": 42,
+    "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
@@ -266,8 +273,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 8,
-        "accessibles": 6
+        "examinees": 10,
+        "accessibles": 7
       },
       "Fabien Roussel": {
         "examinees": 6,
@@ -286,8 +293,8 @@
         "accessibles": 9
       },
       "Marine Le Pen": {
-        "examinees": 1,
-        "accessibles": 1
+        "examinees": 4,
+        "accessibles": 4
       },
       "Éric Zemmour": {
         "examinees": 3,

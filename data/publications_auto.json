@@ -1,33 +1,81 @@
 {
-  "last_checked_utc": "2026-10-17T05:39:56.329284+00:00",
+  "last_checked_utc": "2026-10-17T12:36:27.491594+00:00",
   "articles": [
     {
-      "titre": "Affaire Bardella : le trop long silence de BHL",
+      "titre": "La jeunesse peut faire basculer la présidentielle (et les médias le savent)",
       "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/affaire-bardella-le-trop-long-silence-de-bhl-xSgT0peQTWSEh9Pzip9h8g",
+      "url": "https://www.blast-info.fr/emissions/2026/la-jeunesse-peut-faire-basculer-la-presidentielle-et-les-medias-le-savent-vm5csIMJQW-Uh0eS3dmmjQ",
       "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-09T15:00:00+00:00",
+      "date_publication": "2026-10-16T16:54:34.839000+00:00",
       "controle": "automatique",
       "themes": [],
-      "candidats_mentions": [
-        "Jordan Bardella"
-      ],
+      "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T05:39:56.329284+00:00",
-      "resume_tente_utc": "2026-10-17T05:40:38.192030+00:00",
+      "derniere_verification_utc": "2026-10-17T12:36:27.491594+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_tente_utc": "2026-10-17T12:57:14.035067+00:00",
+      "resume_erreur": "ValueError"
+    },
+    {
+      "titre": "Comment l'Argentine se vend à Peter Thiel et à la Silicon Valley",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/comment-l-argentine-se-vend-a-peter-thiel-et-a-la-silicon-valley-bGKd9F5XRau1XiAgnV_yhw",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-16T16:15:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École",
+        "Santé",
+        "Énergie",
+        "Écologie",
+        "Institutions / libertés publiques",
+        "Immigration",
+        "Travail"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-17T12:36:27.491594+00:00",
       "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, Bernard-Henri Lévy (BHL) a suggéré sur France Inter qu'il détient des preuves accablantes de l'antisémitisme de Jordan Bardella, président du Rassemblement National (RN). Cette déclaration intervient après que Bardella ait retiré une plainte pour diffamation contre BHL en février 2025, suite à des accusations d'antisémitisme en 2024. L'affaire soulève des questions sur la retenue de BHL à partager ces informations depuis 2023.\n\nBHL n'a pas fourni de détails sur les preuves qu'il prétend posséder. Il a seulement mentionné qu'il pourrait les rendre publiques à l'avenir, sans préciser de date. Le Rassemblement National n'a pas commenté ces allégations.",
-      "resume_empreinte": "fa539be01824ef410b2c12a8287ee6060fb29db3e72de4881a5d1761bde129be",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume_tente_utc": "2026-10-17T12:59:31.305149+00:00",
+      "resume": "Selon Blast, une trentaine de manifestants déguisés en Gandalf ont protesté contre l'implantation de Peter Thiel en Argentine. Ces manifestants, organisés par le collectif 'Djihad contre les entreprises de la distraction', s'opposent à l'emprise de la Silicon Valley sur le pays. Ils ont déployé une banderole devant la résidence de Thiel à Buenos Aires, dénonçant son entreprise Palantir comme un outil de surveillance.\n\nLe gouvernement argentin n'a pas officiellement répondu aux allégations des manifestants. Cependant, des lois controversées visant à faciliter les investissements étrangers, notamment ceux de Peter Thiel, sont actuellement débattues au Parlement. Le ministère de la Sécurité a créé une unité d'intelligence artificielle appliquée à la sécurité, mais il n'est pas confirmé que Palantir soit impliquée.",
+      "resume_empreinte": "0158fd2ba5e0adf681ed290e8d74900fa8cade1ed5ce27bc4480f1b0e0a69590",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
-      "titre": "Mensonges et désaveux : Laurent Nuñez face à sa démission",
+      "titre": "La bataille d'Assas : les étudiants font reculer l'extrême-droite",
       "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/mensonges-et-desaveux-laurent-nunez-face-a-sa-demission-s7qykXeyRa6kpaBZx5zD8w",
+      "url": "https://www.blast-info.fr/articles/2026/la-bataille-d-assas-les-etudiants-font-reculer-l-extreme-droite-EqNGkbrFQf6kFzKgQ_HNhA",
       "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-08T10:30:00+00:00",
+      "date_publication": "2026-10-15T17:00:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École",
+        "Santé",
+        "Énergie",
+        "Institutions / libertés publiques",
+        "Travail"
+      ],
+      "candidats_mentions": [
+        "Marine Le Pen"
+      ],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-17T12:36:27.491594+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_tente_utc": "2026-10-17T13:10:09.323263+00:00",
+      "resume_erreur": "DelaiDepasse"
+    },
+    {
+      "titre": "“Vous condamnez les violences ?“",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/emissions/2026/vous-condamnez-les-violences-7jLDKPiJRoC5OB3qG06ubA",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-15T16:45:41.379000+00:00",
       "controle": "automatique",
       "themes": [
         "École"
@@ -35,32 +83,133 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T05:39:56.329284+00:00",
-      "resume_tente_utc": "2026-10-17T05:47:10.167198+00:00",
+      "derniere_verification_utc": "2026-10-17T12:36:27.491594+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
     {
-      "titre": "Bardella : l'antisémitisme, un vivier du RN",
+      "titre": "« Ici on apprend à cultiver, pas à déraciner » : un lycée breton mobilisé contre l'OQTF d'un élève",
       "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/bardella-l-antisemitisme-un-vivier-du-rn-TlD2zoWESku_A2DZsBH4Eg",
+      "url": "https://www.blast-info.fr/articles/2026/ici-on-apprend-a-cultiver-pas-a-deraciner-un-lycee-breton-mobilise-contre-l-oqtf-d-un-eleve-LDdP8rVES_aXc2NEwh_AVQ",
       "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-06T16:30:00+00:00",
+      "date_publication": "2026-10-15T13:45:00+00:00",
       "controle": "automatique",
-      "themes": [],
+      "themes": [
+        "École",
+        "Handicap / AESH",
+        "Institutions / libertés publiques",
+        "Immigration",
+        "Travail"
+      ],
       "candidats_mentions": [
+        "Bruno Retailleau"
+      ],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-17T12:36:27.491594+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
+    {
+      "titre": "Le journaliste et le greffier",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/le-journaliste-et-le-greffier-YxljDnkzQ_WvyhWZ6nNP_g",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-14T13:00:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "Écologie",
+        "Institutions / libertés publiques",
+        "Immigration",
+        "Travail"
+      ],
+      "candidats_mentions": [
+        "Marine Le Pen",
         "Jordan Bardella"
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T05:39:56.329284+00:00",
-      "resume_tente_utc": "2026-10-16T19:06:28.926413+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, Jordan Bardella, porte-parole du Rassemblement National (RN), est lié à des milieux antisémites. L'article révèle que Bardella a démarré sa carrière politique en côtoyant des extrémistes violents et antisémites, comme Alain Soral et Rémi Lelong. Il a également collaboré avec Camel Bechikh, un musulman ultraconservateur soutenu par Soral.\n\nLe Rassemblement National n'a pas encore répondu officiellement aux allégations concernant Jordan Bardella. La publication de ces informations soulève des questions sur la proximité de Bardella avec des milieux antisémites, bien que le parti cherche à se débarrasser de cette image.",
-      "resume_empreinte": "ec4aab4ff353063a97f3670494bb4ea7720fca91c94a992d9e1fc2fdba088b8d",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
+      "derniere_verification_utc": "2026-10-17T12:36:27.491594+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
+    {
+      "titre": "Complotistes, policiers, militaires : le procès d’un putsch pas si grotesque",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/complotistes-policiers-militaires-le-proces-dun-putsch-pas-si-grotesque-z1SqNH1TQASi6fe3cNVb8Q",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-13T17:00:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École",
+        "Institutions / libertés publiques",
+        "Immigration",
+        "Travail"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-17T12:36:27.491594+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
+    {
+      "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
+      "source": "Disclose",
+      "url": "https://disclose.ngo/fr/article/arcelormittal-derriere-lacier-made-in-france-les-terres-volees-du-liberia",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-12T17:11:28+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École",
+        "Santé",
+        "Énergie",
+        "Écologie"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-17T12:36:27.491594+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
+    {
+      "titre": "Disclose.ngo — La justice relance la traque de nos sources",
+      "source": "Disclose",
+      "url": "https://disclose.ngo/fr/article/la-justice-sobstine-a-enqueter-sur-disclose-et-relance-la-traque-de-nos-sources",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-07-10T09:50:28+00:00",
+      "controle": "automatique",
+      "themes": [
+        "Institutions / libertés publiques",
+        "Immigration"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": true,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-17T12:36:27.491594+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
+    {
+      "titre": "Disclose.ngo — Reconnaissance faciale illégale : la police prise en flagrant délit",
+      "source": "Disclose",
+      "url": "https://disclose.ngo/fr/article/reconnaissance-faciale-illegale-la-police-prise-en-flagrant-delit",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-07-06T17:16:20+00:00",
+      "controle": "automatique",
+      "themes": [
+        "Écologie",
+        "Institutions / libertés publiques",
+        "Immigration",
+        "Travail"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": true,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-17T12:36:27.491594+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
     {
       "titre": "Disclose.ngo — Le gouvernement détourne les aides de l'Ademe pour financer l'un des plus gros pollueurs de France",
@@ -70,13 +219,16 @@
       "date_publication": "2026-06-18T13:42:00+00:00",
       "controle": "automatique",
       "themes": [
-        "Écologie"
+        "Énergie",
+        "Écologie",
+        "Institutions / libertés publiques",
+        "Travail"
       ],
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T05:39:56.329284+00:00",
-      "resume_tente_utc": "2026-10-17T05:55:23.757995+00:00",
+      "derniere_verification_utc": "2026-10-17T12:36:27.491594+00:00",
+      "resume_tente_utc": "2026-10-17T12:37:03.456825+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "DelaiDepasse"

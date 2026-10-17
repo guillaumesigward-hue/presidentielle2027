@@ -657,5 +657,62 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "La jeunesse peut faire basculer la présidentielle (et les médias le savent)",
+    "url": "https://www.blast-info.fr/emissions/2026/la-jeunesse-peut-faire-basculer-la-presidentielle-et-les-medias-le-savent-vm5csIMJQW-Uh0eS3dmmjQ",
+    "resume": "La mobilisation des lycéens a donné lieu à beaucoup de séquences, à la fois glaçantes comme formidables et soulève l’inquiétude du conservatisme. Alors évidemment avec toutes ces controverses et tout ce débat, la télé s’est dit banco : le 8 octobre, LCI a sorti le dispositif classique, le grand plateau de « La Grande confrontation ». Terrible appareil de capture de ce mouvement social, le plateau n’a été qu’une machine à délégitimer : trop jeunes, trop violents, trop ignares, les jeunes doivent se taire et remercier les boomers.",
+    "date_detection": "17 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Raphaël Glucksmann"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "“Vous condamnez les violences ?“",
+    "url": "https://www.blast-info.fr/emissions/2026/vous-condamnez-les-violences-7jLDKPiJRoC5OB3qG06ubA",
+    "resume": "\"Le pouvoir macroniste, contrairement à ce qu’il suggère aujourd’hui pour mieux justifier la répression exceptionnellement féroce du mouvement lycéen, sait parfaitement s’accommoder de véritables violences — et qu’il lui arrive même de les encourager en se prévalant très sérieusement de sa sensibilité aux revendications de ceux qui les commettent. Au mois de janvier 2024, par exemple, quand des agriculteurs en colère avaient détruit ou tenté d’incendier plusieurs bâtiments publics, le ministre de l’Intérieur de l’époque, Gérald Darmanin — le même qui avait lancé l’armée contre des militants écologistes un an plus tôt à Sainte-Soline – avait…",
+    "date_detection": "17 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Disclose",
+    "titre": "La justice relance la traque de nos sources",
+    "url": "https://disclose.ngo/fr/article/la-justice-sobstine-a-enqueter-sur-disclose-et-relance-la-traque-de-nos-sources",
+    "resume": "La Cour d’appel de Paris a suivi les demandes du parquet général et ordonné, mercredi 8 juillet, la réouverture des investigations visant à identifier les sources ayant contribué à nos révélations sur la complicité de la France dans des exécutions extrajudiciaires perpétrées par la dictature égyptienne. Disclose appelle à la mobilisation pour défendre le droit à l’information des citoyen·nes. Le 8 juillet, la chambre de l’instruction de la Cour d’appel de Paris a ordonné la réouverture de l’enquête judiciaire initiée contre Disclose il y a un peu plus de trois ans.",
+    "date_detection": "17 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques",
+      "Immigration"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Disclose",
+    "titre": "En savoir plus",
+    "url": "https://disclose.ngo/fr/article/ventes-darmes-francaises-dans-la-guerre-au-yemen-pourquoi-disclose-saisit-la-cour-europeenne-des-droits-de-lhomme",
+    "resume": "Disclose, Amnesty International et le Centre européen pour les droits humains et institutionnels s’attaquent au déni de démocratie de l’État français sur ses ventes d’armes aux régimes autoritaires responsables de crimes de guerre. Le 1er avril, elles ont déposé plainte pour violation des droits fondamentaux auprès de la Cour européenne des droits de l’Homme. La France refuse à Disclose, Amnesty International France et ECCHR d’accéder aux documents douaniers liés aux exportations d’armes françaises vers l’Arabie saoudite, les Émirats arabes unis et l’Égypte, soupçonnés de crimes de guerre au Yémen.",
+    "date_detection": "17 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
