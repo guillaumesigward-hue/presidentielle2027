@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-17T17:37:42.837985+00:00",
+  "last_checked_utc": "2026-10-18T05:39:48.771538+00:00",
   "articles": [
     {
       "titre": "Cher Matthieu Valet – Boxing Day #98",
@@ -19,7 +19,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T17:37:42.837985+00:00",
+      "derniere_verification_utc": "2026-10-18T05:39:48.771538+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -34,8 +34,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T17:37:42.837985+00:00",
-      "resume_tente_utc": "2026-10-17T17:58:34.587050+00:00",
+      "derniere_verification_utc": "2026-10-18T05:39:48.771538+00:00",
+      "resume_tente_utc": "2026-10-18T06:00:36.809834+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -59,8 +59,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T17:37:42.837985+00:00",
-      "resume_tente_utc": "2026-10-17T18:01:05.861570+00:00",
+      "derniere_verification_utc": "2026-10-18T05:39:48.771538+00:00",
+      "resume_tente_utc": "2026-10-18T06:03:05.145996+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
       "resume": "Selon Blast, une trentaine de manifestants déguisés en Gandalf ont protesté contre l'implantation de Peter Thiel en Argentine. Ces manifestants, organisés par le collectif 'Djihad contre les entreprises de la distraction', s'opposent à l'emprise de la Silicon Valley sur le pays. Ils ont déployé une banderole devant la résidence de Thiel à Buenos Aires, dénonçant son entreprise Palantir comme un outil de surveillance.\n\nLe gouvernement argentin n'a pas officiellement répondu aux allégations des manifestants. Cependant, des lois controversées visant à faciliter les investissements étrangers, notamment ceux de Peter Thiel, sont actuellement débattues au Parlement. Le ministère de la Sécurité a créé une unité d'intelligence artificielle appliquée à la sécurité, mais il n'est pas confirmé que Palantir soit impliquée.",
@@ -86,8 +86,8 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T17:37:42.837985+00:00",
-      "resume_tente_utc": "2026-10-17T18:11:52.270475+00:00",
+      "derniere_verification_utc": "2026-10-18T05:39:48.771538+00:00",
+      "resume_tente_utc": "2026-10-18T06:14:02.838413+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "DelaiDepasse"
@@ -105,7 +105,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T17:37:42.837985+00:00",
+      "derniere_verification_utc": "2026-10-18T05:39:48.771538+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -128,7 +128,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T17:37:42.837985+00:00",
+      "derniere_verification_utc": "2026-10-18T05:39:48.771538+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -151,7 +151,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T17:37:42.837985+00:00",
+      "derniere_verification_utc": "2026-10-18T05:39:48.771538+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -171,7 +171,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T17:37:42.837985+00:00",
+      "derniere_verification_utc": "2026-10-18T05:39:48.771538+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -189,7 +189,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T17:37:42.837985+00:00",
+      "derniere_verification_utc": "2026-10-18T05:39:48.771538+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -209,7 +209,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T17:37:42.837985+00:00",
+      "derniere_verification_utc": "2026-10-18T05:39:48.771538+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -229,8 +229,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-17T17:37:42.837985+00:00",
-      "resume_tente_utc": "2026-10-17T17:38:24.013226+00:00",
+      "derniere_verification_utc": "2026-10-18T05:39:48.771538+00:00",
+      "resume_tente_utc": "2026-10-18T05:40:26.237182+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "DelaiDepasse"
