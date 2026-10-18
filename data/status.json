@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-10-18T05:39:48.771538+00:00",
+  "last_checked_utc": "2026-10-18T17:38:34.948195+00:00",
   "last_checked_fr": "18 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 186,
-      "dernier_id_detecte": 2338,
+      "notices_detectees": 188,
+      "dernier_id_detecte": 2340,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -22,14 +22,36 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 9,
+      "detections": 8,
       "liens_examines": 16,
       "extractions_vides": 4,
       "liens_trouves": 116,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 9,
+        "nombre": 8,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "« Ici on apprend à cultiver, pas à déraciner » : un lycée breton mobilisé contre l'OQTF d'un élève",
+            "url": "https://www.blast-info.fr/articles/2026/ici-on-apprend-a-cultiver-pas-a-deraciner-un-lycee-breton-mobilise-contre-l-oqtf-d-un-eleve-LDdP8rVES_aXc2NEwh_AVQ",
+            "resume": "La départementale D794 quitte la commune de Saint-Aubin-du-Cormier, où vivent près de 4 200 habitants, pour traverser champs et paysages boisés. Maxime Lechartier, professeur au lycée agricole, bifurque pour prendre la route baptisée la « Lande de la Rencontre ». C’est ici que, cinq siècles plus tôt, s’est jouée la bataille de 1488, qui opposa l’armée bretonne à l’armée française.",
+            "date_detection": "18 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Handicap / AESH",
+              "Institutions / libertés publiques",
+              "Immigration",
+              "Travail"
+            ],
+            "candidats_mentions": [
+              "Bruno Retailleau"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -64,24 +86,6 @@
               "École",
               "Institutions / libertés publiques",
               "Immigration",
-              "Travail"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Médias : la bataille des salariés d'Infopro contre l'agent IA de la direction",
-            "url": "https://www.blast-info.fr/articles/2026/medias-la-bataille-des-salaries-d-infopro-contre-l-agent-ia-de-la-direction-Y-ax9zFxQ2C5iu7uULmQyQ",
-            "resume": "La marche triomphale de l’intelligence artificielle dans le monde du travail peut être ralentie, si, si. Pour contrer le rouleau compresseur des nouvelles technologies, il suffit — presque simplement — d’en appeler à un outil piétiné et maltraité depuis des décennies, mais qui parvient encore à se maintenir : le droit du travail et des salariés. Encore faut-il avoir l’énergie et l’envie de se battre pour le faire appliquer.",
-            "date_detection": "18 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Énergie",
-              "Institutions / libertés publiques",
               "Travail"
             ],
             "candidats_mentions": [],
@@ -231,17 +235,19 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 1,
+    "resumes": 4,
     "reutilises": 0,
-    "indisponibles": 10,
+    "indisponibles": 7,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
-      "titre": 1
+      "copie": 1,
+      "titre": 1,
+      "noms": 2
     },
     "erreurs": {
-      "DelaiDepasse": 2,
-      "ValueError": 1
+      "ValueError": 5,
+      "DelaiDepasse": 1
     }
   },
   "publications_par_media": {
@@ -252,19 +258,19 @@
     "notices_examinees": 8,
     "scenarios_extraits": 10,
     "non_exploitables": [
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2340",
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2339",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2334",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2325",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2321",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2293",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2286",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2276",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2273"
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2286"
     ],
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
     "pages_examinees": 55,
-    "pages_accessibles": 37,
+    "pages_accessibles": 39,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -274,7 +280,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 5
+        "accessibles": 7
       },
       "Fabien Roussel": {
         "examinees": 6,
