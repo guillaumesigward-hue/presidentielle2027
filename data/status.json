@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-10-19T05:43:19.205032+00:00",
+  "last_checked_utc": "2026-10-19T17:43:07.136625+00:00",
   "last_checked_fr": "19 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 188,
-      "dernier_id_detecte": 2340,
+      "notices_detectees": 189,
+      "dernier_id_detecte": 2341,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -22,14 +22,57 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 8,
+      "detections": 6,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 116,
+      "liens_trouves": 120,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 8,
+        "nombre": 6,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Comment l'Argentine se vend à Peter Thiel et à la Silicon Valley",
+            "url": "https://www.blast-info.fr/articles/2026/comment-l-argentine-se-vend-a-peter-thiel-et-a-la-silicon-valley-bGKd9F5XRau1XiAgnV_yhw",
+            "resume": "Le 17 août 2026, jour de la commémoration du « père de la patrie argentine » José de San Martín, une trentaine de manifestants déguisés en Gandalf — robes grises, barbes blanches postiches, chapeaux pointus — convergent vers Palermo Chico, le quartier le plus tendance de Buenos Aires. Devant la résidence où Peter Thiel s'est installé quelques mois plus tôt, une propriété d'environ 12 millions de dollars au 2900 Dardo Rocha, ils déploient une banderole : « You Shall Not Pass » — la formule que le magicien du Seigneur des Anneaux lance au Balrog, un monstre terrifiant, pour lui barrer le passage afin de protéger les siens. Le choix n'est pas…",
+            "date_detection": "19 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Santé",
+              "Énergie",
+              "Écologie",
+              "Institutions / libertés publiques",
+              "Immigration",
+              "Travail"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "La bataille d'Assas : les étudiants font reculer l'extrême-droite",
+            "url": "https://www.blast-info.fr/articles/2026/la-bataille-d-assas-les-etudiants-font-reculer-l-extreme-droite-EqNGkbrFQf6kFzKgQ_HNhA",
+            "resume": "» , s'époumonnent les étudiants devant l'entrée de l'université Panthéon-Assas, dans le 6e arrondissement de Paris. Pour les plus anciens, ceux qui étaient étudiants dans les années 1980 et 1990, le slogan apparaît lunaire, tant la fac était alors le fief de l'extrême droite estudiantine. « La jeunesse emmerde le Front national » , les protestataires reprennent en cœur ce cri de ralliement, lui aussi très années 80.",
+            "date_detection": "19 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Santé",
+              "Énergie",
+              "Institutions / libertés publiques",
+              "Travail"
+            ],
+            "candidats_mentions": [
+              "Marine Le Pen"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -77,25 +120,6 @@
           {
             "type": "media_independant_investigation",
             "source": "Blast",
-            "titre": "Complotistes, policiers, militaires : le procès d’un putsch pas si grotesque",
-            "url": "https://www.blast-info.fr/articles/2026/complotistes-policiers-militaires-le-proces-dun-putsch-pas-si-grotesque-z1SqNH1TQASi6fe3cNVb8Q",
-            "resume": "« Bonjour mon colonel, je suis proche de Bordeaux, ancien militaire du renseignement, très bon tireur, connaissance de la topographie. Force et honneur » ; « mon colonel, ancien sportif de haut niveau, j'ai encore une très bonne condition physique et fais pas mal de haute montagne » ; « Bonjour Colonel Quinze, Conformément à la procédure, je fais état de mon volontariat pour le recrutement \"Assaut couverture protection évacuation\" » ; « Pseudo : Grizzly, 29 ans, armée de terre, transmissions et moniteur mise en œuvre explosifs. » Ils sont plusieurs dizaines de candidats à égrener ainsi leurs CV.",
-            "date_detection": "19 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École",
-              "Institutions / libertés publiques",
-              "Immigration",
-              "Travail"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
             "titre": "La jeunesse peut faire basculer la présidentielle (et les médias le savent)",
             "url": "https://www.blast-info.fr/emissions/2026/la-jeunesse-peut-faire-basculer-la-presidentielle-et-les-medias-le-savent-vm5csIMJQW-Uh0eS3dmmjQ",
             "resume": "La mobilisation des lycéens a donné lieu à beaucoup de séquences, à la fois glaçantes comme formidables et soulève l’inquiétude du conservatisme. Alors évidemment avec toutes ces controverses et tout ce débat, la télé s’est dit banco : le 8 octobre, LCI a sorti le dispositif classique, le grand plateau de « La Grande confrontation ». Terrible appareil de capture de ce mouvement social, le plateau n’a été qu’une machine à délégitimer : trop jeunes, trop violents, trop ignares, les jeunes doivent se taire et remercier les boomers.",
@@ -105,22 +129,6 @@
             "candidats_mentions": [
               "Raphaël Glucksmann"
             ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "“Vous condamnez les violences ?“",
-            "url": "https://www.blast-info.fr/emissions/2026/vous-condamnez-les-violences-7jLDKPiJRoC5OB3qG06ubA",
-            "resume": "\"Le pouvoir macroniste, contrairement à ce qu’il suggère aujourd’hui pour mieux justifier la répression exceptionnellement féroce du mouvement lycéen, sait parfaitement s’accommoder de véritables violences — et qu’il lui arrive même de les encourager en se prévalant très sérieusement de sa sensibilité aux revendications de ceux qui les commettent. Au mois de janvier 2024, par exemple, quand des agriculteurs en colère avaient détruit ou tenté d’incendier plusieurs bâtiments publics, le ministre de l’Intérieur de l’époque, Gérald Darmanin — le même qui avait lancé l’armée contre des militants écologistes un an plus tôt à Sainte-Soline – avait…",
-            "date_detection": "19 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École"
-            ],
-            "candidats_mentions": [],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
             "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
@@ -235,18 +243,18 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 2,
+    "resumes": 1,
     "reutilises": 2,
-    "indisponibles": 7,
+    "indisponibles": 8,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
-      "titre": 1,
-      "noms": 1
+      "copie": 3,
+      "titre": 2
     },
     "erreurs": {
-      "DelaiDepasse": 2,
-      "ValueError": 2
+      "ValueError": 5,
+      "DelaiDepasse": 1
     }
   },
   "publications_par_media": {
@@ -269,17 +277,17 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 58,
-    "pages_accessibles": 41,
+    "pages_accessibles": 39,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
         "examinees": 10,
-        "accessibles": 10
+        "accessibles": 9
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 6
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,
