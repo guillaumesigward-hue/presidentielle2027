@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-18T17:38:34.948195+00:00",
+  "last_checked_utc": "2026-10-19T05:43:19.205032+00:00",
   "articles": [
     {
       "titre": "Cher Matthieu Valet – Boxing Day #98",
@@ -19,10 +19,10 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-18T17:38:34.948195+00:00",
+      "derniere_verification_utc": "2026-10-19T05:43:19.205032+00:00",
+      "resume_tente_utc": "2026-10-18T17:55:57.052516+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume_tente_utc": "2026-10-18T17:55:57.052516+00:00",
       "resume": "Selon Blast, le député européen du Rassemblement national Matthieu Valet a été critiqué pour avoir confondu une vidéo parodique de l'Humanité avec une information réelle. Cette erreur a entraîné une réaction virulente sur X, où Valet a accusé le journal de diffuser des fausses informations.\n\nLe député européen Matthieu Valet n'a pas officiellement répondu à ces accusations. Il n'y a pas de déclaration officielle de son côté concernant cette erreur. La publication de Blast souligne la confusion et la réaction excessive de Valet sans mentionner de réponse formelle.",
       "resume_empreinte": "266f0acbc808110cce4f120ca045668b4a2415691fa1a94e7d3d5f4e17b15c5d",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
@@ -38,8 +38,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-18T17:38:34.948195+00:00",
-      "resume_tente_utc": "2026-10-18T17:47:53.003462+00:00",
+      "derniere_verification_utc": "2026-10-19T05:43:19.205032+00:00",
+      "resume_tente_utc": "2026-10-19T06:04:22.227644+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -63,11 +63,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-18T17:38:34.948195+00:00",
-      "resume_tente_utc": "2026-10-18T17:48:43.841866+00:00",
+      "derniere_verification_utc": "2026-10-19T05:43:19.205032+00:00",
+      "resume_tente_utc": "2026-10-19T06:06:47.478380+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Blast, l'Argentine se trouve face à une situation complexe avec l'arrivée de Peter Thiel et de la Silicon Valley. En août 2026, des manifestants déguisés en Gandalf ont protesté contre Thiel, qui s'est installé dans le quartier chic de Buenos Aires. Ces protestataires critiquent l'emprise de la technologie sur la vie politique et dénoncent l'implantation de Palantir, une entreprise de surveillance cofondée par Thiel.\n\nLe gouvernement argentin n'a pas officiellement répondu aux allégations de Blast. Cependant, des lois controversées visant à attirer les investissements technologiques et énergétiques sont en débat au Parlement, suscitant des inquiétudes quant à leur impact sur la souveraineté et l'environnement.",
+      "resume": "Selon Blast, une trentaine de manifestants déguisés en Gandalf ont protesté contre l'implantation de Peter Thiel en Argentine. Ces manifestants, organisés par le collectif 'Djihad contre les entreprises de la distraction', s'opposent à l'emprise de la Silicon Valley sur le pays. Ils ont déployé une banderole devant la résidence de Thiel à Buenos Aires, dénonçant son entreprise Palantir comme un outil de surveillance.\n\nLe gouvernement argentin n'a pas officiellement répondu aux allégations des manifestants. Cependant, des lois controversées visant à faciliter les investissements étrangers, notamment ceux de Peter Thiel, sont actuellement débattues au Parlement. Le ministère de la Sécurité a créé une unité d'intelligence artificielle appliquée à la sécurité, mais il n'est pas confirmé que Palantir soit impliquée.",
       "resume_empreinte": "0158fd2ba5e0adf681ed290e8d74900fa8cade1ed5ce27bc4480f1b0e0a69590",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
@@ -90,7 +90,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-18T17:38:34.948195+00:00",
+      "derniere_verification_utc": "2026-10-19T05:43:19.205032+00:00",
       "resume_tente_utc": "2026-10-18T17:52:43.197164+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -111,10 +111,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-18T17:38:34.948195+00:00",
+      "derniere_verification_utc": "2026-10-19T05:43:19.205032+00:00",
+      "resume_tente_utc": "2026-10-19T06:17:35.501531+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_tente_utc": "2026-10-18T17:59:51.350584+00:00",
       "resume_erreur": "ValueError"
     },
     {
@@ -136,11 +136,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-18T17:38:34.948195+00:00",
+      "derniere_verification_utc": "2026-10-19T05:43:19.205032+00:00",
+      "resume_tente_utc": "2026-10-19T06:21:31.472467+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume_tente_utc": "2026-10-18T18:01:43.507152+00:00",
-      "resume": "Selon Blast, un lycée agricole en Bretagne est mobilisé contre une OQTF (Obligation de Quitter le Territoire Français) prononcée à l'encontre d'un de leurs élèves, Vassiriki. Le lycée, soutenu par l'enseignement et les élèves, bloque ses activités pour demander un réexamen de la situation de Vassiriki, qui a reçu plusieurs OQTF malgré ses bonnes performances scolaires et professionnelles.\n\nAucune réponse officielle n'est rapportée dans l'article. La préfecture a maintenu l'OQTF de Vassiriki malgré les appels du lycée. L'avenir de la mobilisation reste incertain.",
+      "resume": "Selon Blast, un lycée agricole en Bretagne est en grève pour demander le réexamen du titre de séjour de Vassiriki, un élève sous OQTF. Le lycée, qui compte 240 élèves, a fermé ses portes depuis le 5 octobre 2026. Vassiriki, en terminale, a reçu plusieurs OQTF malgré des promesses d'embauche non honorées.\n\nAucune réponse officielle n'est rapportée dans l'article. Amnesty International a critiqué le système français de régularisation des étrangers, estimant qu'il brise des vies et viole les droits au travail.",
       "resume_empreinte": "3fd2b513ae449d90035eaf8da67c1e2b11aac91ca2765d5da3b48f96f0936ee2",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
@@ -163,11 +163,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-18T17:38:34.948195+00:00",
+      "derniere_verification_utc": "2026-10-19T05:43:19.205032+00:00",
+      "resume_tente_utc": "2026-10-19T06:28:09.138751+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_tente_utc": "2026-10-18T18:04:21.026127+00:00",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "DelaiDepasse"
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -185,11 +185,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-18T17:38:34.948195+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "derniere_verification_utc": "2026-10-19T05:43:19.205032+00:00",
       "resume_tente_utc": "2026-10-18T18:12:09.575912+00:00",
-      "resume_erreur": "ValueError"
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -205,11 +204,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-18T17:38:34.948195+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "derniere_verification_utc": "2026-10-19T05:43:19.205032+00:00",
       "resume_tente_utc": "2026-10-18T18:21:52.742763+00:00",
-      "resume_erreur": "DelaiDepasse"
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
     {
       "titre": "Disclose.ngo — Reconnaissance faciale illégale : la police prise en flagrant délit",
@@ -227,7 +225,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-18T17:38:34.948195+00:00",
+      "derniere_verification_utc": "2026-10-19T05:43:19.205032+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -247,11 +245,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-18T17:38:34.948195+00:00",
-      "resume_tente_utc": "2026-10-18T17:39:22.997758+00:00",
+      "derniere_verification_utc": "2026-10-19T05:43:19.205032+00:00",
+      "resume_tente_utc": "2026-10-19T05:44:11.601959+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "DelaiDepasse"
     }
   ]
 }
