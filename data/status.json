@@ -1,6 +1,6 @@
 {
-  "last_checked_utc": "2026-10-19T17:43:07.136625+00:00",
-  "last_checked_fr": "19 octobre 2026",
+  "last_checked_utc": "2026-10-20T10:05:07.240539+00:00",
+  "last_checked_fr": "20 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
@@ -22,21 +22,42 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 6,
+      "detections": 5,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 120,
+      "liens_trouves": 119,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 6,
+        "nombre": 5,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Cher Matthieu Valet – Boxing Day #98",
+            "url": "https://www.blast-info.fr/articles/2026/cher-matthieu-valet-boxing-day-98-j-rCLnF6RVe_DlmenHXnOQ",
+            "resume": "Samedi 10 octobre, vous dénonciez, sur votre compte X , une publication vidéo du journal l’Humanité , affirmant que « sans vérification ni confirmation, un journal d’extrême gauche colporte […] des fake news, comme le fait si bien LFI » , c’est bien noté, et ajoutant, en référence à la part d’aides publiques à la presse dont bénéficie chaque année le quotidien, que « ce journal touche des millions financés par vos impôts tout en diffusant sa propagande anti-flic » , si c’est vrai c’est très grave. Le problème — majeur — est que la vidéo que vous fustigiez était en fait une parodie humoristique donnant à voir un faux policier infiltré dans…",
+            "date_detection": "20 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Institutions / libertés publiques",
+              "Travail"
+            ],
+            "candidats_mentions": [
+              "Marine Le Pen",
+              "Jordan Bardella"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
             "titre": "Comment l'Argentine se vend à Peter Thiel et à la Silicon Valley",
             "url": "https://www.blast-info.fr/articles/2026/comment-l-argentine-se-vend-a-peter-thiel-et-a-la-silicon-valley-bGKd9F5XRau1XiAgnV_yhw",
             "resume": "Le 17 août 2026, jour de la commémoration du « père de la patrie argentine » José de San Martín, une trentaine de manifestants déguisés en Gandalf — robes grises, barbes blanches postiches, chapeaux pointus — convergent vers Palermo Chico, le quartier le plus tendance de Buenos Aires. Devant la résidence où Peter Thiel s'est installé quelques mois plus tôt, une propriété d'environ 12 millions de dollars au 2900 Dardo Rocha, ils déploient une banderole : « You Shall Not Pass » — la formule que le magicien du Seigneur des Anneaux lance au Balrog, un monstre terrifiant, pour lui barrer le passage afin de protéger les siens. Le choix n'est pas…",
-            "date_detection": "19 octobre 2026",
+            "date_detection": "20 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -58,7 +79,7 @@
             "titre": "La bataille d'Assas : les étudiants font reculer l'extrême-droite",
             "url": "https://www.blast-info.fr/articles/2026/la-bataille-d-assas-les-etudiants-font-reculer-l-extreme-droite-EqNGkbrFQf6kFzKgQ_HNhA",
             "resume": "» , s'époumonnent les étudiants devant l'entrée de l'université Panthéon-Assas, dans le 6e arrondissement de Paris. Pour les plus anciens, ceux qui étaient étudiants dans les années 1980 et 1990, le slogan apparaît lunaire, tant la fac était alors le fief de l'extrême droite estudiantine. « La jeunesse emmerde le Front national » , les protestataires reprennent en cœur ce cri de ralliement, lui aussi très années 80.",
-            "date_detection": "19 octobre 2026",
+            "date_detection": "20 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -79,7 +100,7 @@
             "titre": "« Ici on apprend à cultiver, pas à déraciner » : un lycée breton mobilisé contre l'OQTF d'un élève",
             "url": "https://www.blast-info.fr/articles/2026/ici-on-apprend-a-cultiver-pas-a-deraciner-un-lycee-breton-mobilise-contre-l-oqtf-d-un-eleve-LDdP8rVES_aXc2NEwh_AVQ",
             "resume": "La départementale D794 quitte la commune de Saint-Aubin-du-Cormier, où vivent près de 4 200 habitants, pour traverser champs et paysages boisés. Maxime Lechartier, professeur au lycée agricole, bifurque pour prendre la route baptisée la « Lande de la Rencontre ». C’est ici que, cinq siècles plus tôt, s’est jouée la bataille de 1488, qui opposa l’armée bretonne à l’armée française.",
-            "date_detection": "19 octobre 2026",
+            "date_detection": "20 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -101,7 +122,7 @@
             "titre": "Le journaliste et le greffier",
             "url": "https://www.blast-info.fr/articles/2026/le-journaliste-et-le-greffier-YxljDnkzQ_WvyhWZ6nNP_g",
             "resume": "Au service de la justice, le greffier a pour mission d’accompagner, d’enregistrer et de mettre en forme les affaires en cours. Organisé, il maîtrise parfaitement les agendas des différentes parties concernées par le déroulement des débats. C’est le médiateur indispensable entre les avocats, les magistrats et le public.",
-            "date_detection": "19 octobre 2026",
+            "date_detection": "20 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -112,22 +133,6 @@
             "candidats_mentions": [
               "Marine Le Pen",
               "Jordan Bardella"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "La jeunesse peut faire basculer la présidentielle (et les médias le savent)",
-            "url": "https://www.blast-info.fr/emissions/2026/la-jeunesse-peut-faire-basculer-la-presidentielle-et-les-medias-le-savent-vm5csIMJQW-Uh0eS3dmmjQ",
-            "resume": "La mobilisation des lycéens a donné lieu à beaucoup de séquences, à la fois glaçantes comme formidables et soulève l’inquiétude du conservatisme. Alors évidemment avec toutes ces controverses et tout ce débat, la télé s’est dit banco : le 8 octobre, LCI a sorti le dispositif classique, le grand plateau de « La Grande confrontation ». Terrible appareil de capture de ce mouvement social, le plateau n’a été qu’une machine à délégitimer : trop jeunes, trop violents, trop ignares, les jeunes doivent se taire et remercier les boomers.",
-            "date_detection": "19 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [
-              "Raphaël Glucksmann"
             ],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
@@ -155,7 +160,7 @@
             "titre": "Reconnaissance faciale illégale : la police prise en flagrant délit",
             "url": "https://disclose.ngo/fr/article/reconnaissance-faciale-illegale-la-police-prise-en-flagrant-delit",
             "resume": "Les forces de l’ordre continuent d’utiliser quotidiennement la reconnaissance faciale lors de contrôles d’identité, révèlent une vidéo et des témoignages exclusifs obtenus par Disclose et France 2. Exploitée massivement et hors de tout cadre légal, cette technologie cible d’abord des personnes racisées et des militant·es politiques. Elle conduit aussi à des erreurs d’identification grossières, au risque de faire accuser des innocent·es.",
-            "date_detection": "19 octobre 2026",
+            "date_detection": "20 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -174,7 +179,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pfas-six-communes-des-ardennes-portent-plainte-pour-mise-en-danger-de-la-vie-dautrui",
             "resume": "Six communes des Ardennes ont porté plainte pour « mise en danger de la vie d’autrui » et « pollution de l’eau », mardi 7 avril, après avoir découvert l’ampleur de la contamination aux « polluants éternels » sur leur territoire. La procédure, qui s’appuie largement sur les enquêtes successives de Disclose, s’ajoute à trois autres plaintes enregistrées depuis l’été 2025. Dans les Ardennes et la Meuse, la riposte judiciaire s’organise face à la contamination aux PFAS révélée par Disclose et France 3.",
-            "date_detection": "19 octobre 2026",
+            "date_detection": "20 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -191,7 +196,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pollution-aux-pfas-deux-agriculteurs-des-ardennes-portent-plainte-et-demandent-des-comptes-a-letat",
             "resume": "Un couple de maraîchers des Ardennes a déposé plainte, vendredi 27 mars, pour « mise en danger de la vie d’autrui », après les révélations de Disclose et France 3 sur la contamination aux PFAS de leurs légumes et de leur sang. Deux autres plaintes ont été déposées ces derniers jours par des habitant·es de ce territoire, touché par l’une des plus graves pollutions industrielles connues en France. Dans leurs terres, leurs légumes, et jusque dans leur sang : les PFAS se sont immiscés partout chez les Abraham.",
-            "date_detection": "19 octobre 2026",
+            "date_detection": "20 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -209,7 +214,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/ventes-darmes-francaises-dans-la-guerre-au-yemen-pourquoi-disclose-saisit-la-cour-europeenne-des-droits-de-lhomme",
             "resume": "Disclose, Amnesty International et le Centre européen pour les droits humains et institutionnels s’attaquent au déni de démocratie de l’État français sur ses ventes d’armes aux régimes autoritaires responsables de crimes de guerre. Le 1er avril, elles ont déposé plainte pour violation des droits fondamentaux auprès de la Cour européenne des droits de l’Homme. La France refuse à Disclose, Amnesty International France et ECCHR d’accéder aux documents douaniers liés aux exportations d’armes françaises vers l’Arabie saoudite, les Émirats arabes unis et l’Égypte, soupçonnés de crimes de guerre au Yémen.",
-            "date_detection": "19 octobre 2026",
+            "date_detection": "20 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
@@ -225,7 +230,7 @@
             "titre": "Le gouvernement détourne les aides de l’Ademe pour financer l’un des plus gros pollueurs de France",
             "url": "https://disclose.ngo/fr/article/le-gouvernement-detourne-les-aides-de-lademe-pour-financer-lun-des-plus-gros-pollueurs-de-france",
             "resume": "Matignon et Bercy ont truqué deux appels à projets de l’Agence de la transition écologique (Ademe) pour financer le géant de la pétrochimie Ineos, révèle Disclose. La multinationale va toucher plus de 300 millions d’euros d’argent public pour soutenir l’activité d’une usine parmi les plus émettrices de CO2 en France. C’est un Emmanuel Macron tout à son aise qui parade devant un parterre de chef·fes d’entreprises réuni·es à l’Élysée, en ce jour d’octobre 2021.",
-            "date_detection": "19 octobre 2026",
+            "date_detection": "20 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Énergie",
@@ -243,18 +248,18 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 1,
+    "resumes": 3,
     "reutilises": 2,
-    "indisponibles": 8,
+    "indisponibles": 6,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
-      "copie": 3,
-      "titre": 2
+      "noms": 2,
+      "copie": 2,
+      "titre": 1
     },
     "erreurs": {
-      "ValueError": 5,
-      "DelaiDepasse": 1
+      "ValueError": 6
     }
   },
   "publications_par_media": {
@@ -277,17 +282,17 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 58,
-    "pages_accessibles": 39,
+    "pages_accessibles": 41,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
         "examinees": 10,
-        "accessibles": 9
+        "accessibles": 10
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 5
+        "accessibles": 6
       },
       "Fabien Roussel": {
         "examinees": 6,

@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-19T17:43:07.136625+00:00",
+  "last_checked_utc": "2026-10-20T10:05:07.240539+00:00",
   "articles": [
     {
       "titre": "Cher Matthieu Valet – Boxing Day #98",
@@ -19,7 +19,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-19T17:43:07.136625+00:00",
+      "derniere_verification_utc": "2026-10-20T10:05:07.240539+00:00",
       "resume_tente_utc": "2026-10-18T17:55:57.052516+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -38,8 +38,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-19T17:43:07.136625+00:00",
-      "resume_tente_utc": "2026-10-19T18:18:02.644531+00:00",
+      "derniere_verification_utc": "2026-10-20T10:05:07.240539+00:00",
+      "resume_tente_utc": "2026-10-20T10:36:37.811225+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -63,11 +63,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-19T17:43:07.136625+00:00",
-      "resume_tente_utc": "2026-10-19T18:19:21.993731+00:00",
+      "derniere_verification_utc": "2026-10-20T10:05:07.240539+00:00",
+      "resume_tente_utc": "2026-10-20T10:37:30.525768+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Blast, une trentaine de manifestants déguisés en Gandalf ont protesté contre la présence de Peter Thiel en Argentine, le 17 août 2026. Ces manifestants s'opposent à l'emprise de la Silicon Valley et à l'implantation de technologies de surveillance comme Palantir, cofondée par Thiel. Leur rassemblement s'inscrit dans un contexte plus large de dérégulation et d'investissements énergétiques encouragés par le président Javier Milei.\n\nLe gouvernement argentin n'a pas officiellement répondu aux allégations de Blast. Cependant, il a annoncé des promesses d'investissement à hauteur de 63 milliards de dollars lors de la deuxième édition de la 'Argentina Week' en France, sans préciser si ces investissements sont déjà réalisés.",
+      "resume": "Selon Blast, l'Argentine se trouve face à une situation complexe avec l'arrivée de Peter Thiel et de la Silicon Valley. En août 2026, des manifestants déguisés en Gandalf ont protesté contre Thiel, qui s'est installé dans le quartier chic de Buenos Aires. Ces protestataires critiquent l'emprise de la technologie sur la vie politique et dénoncent l'implantation de Palantir, une entreprise de surveillance cofondée par Thiel.\n\nLe gouvernement argentin n'a pas officiellement répondu aux allégations de Blast. Cependant, des lois controversées visant à attirer les investissements technologiques et énergétiques sont en débat au Parlement, suscitant des inquiétudes quant à leur impact sur la souveraineté et l'environnement.",
       "resume_empreinte": "0158fd2ba5e0adf681ed290e8d74900fa8cade1ed5ce27bc4480f1b0e0a69590",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
@@ -90,7 +90,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-19T17:43:07.136625+00:00",
+      "derniere_verification_utc": "2026-10-20T10:05:07.240539+00:00",
       "resume_tente_utc": "2026-10-18T17:52:43.197164+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -111,8 +111,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-19T17:43:07.136625+00:00",
-      "resume_tente_utc": "2026-10-19T18:25:37.443020+00:00",
+      "derniere_verification_utc": "2026-10-20T10:05:07.240539+00:00",
+      "resume_tente_utc": "2026-10-20T10:41:37.019156+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -136,11 +136,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-19T17:43:07.136625+00:00",
-      "resume_tente_utc": "2026-10-19T18:27:08.675620+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "derniere_verification_utc": "2026-10-20T10:05:07.240539+00:00",
+      "resume_tente_utc": "2026-10-20T10:43:36.483410+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume": "Selon Blast, un lycée agricole en Bretagne est mobilisé contre une OQTF (Obligation de Quitter le Territoire Français) prononcée à l'encontre d'un de leurs élèves, Vassiriki. Le lycée, soutenu par l'enseignement et les élèves, bloque ses activités pour demander un réexamen de la situation de Vassiriki, qui a reçu plusieurs OQTF malgré ses bonnes performances scolaires et professionnelles.\n\nAucune réponse officielle n'est rapportée dans l'article. La préfecture a maintenu l'OQTF de Vassiriki malgré les appels du lycée. L'avenir de la mobilisation reste incertain.",
+      "resume_empreinte": "3fd2b513ae449d90035eaf8da67c1e2b11aac91ca2765d5da3b48f96f0936ee2",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Le journaliste et le greffier",
@@ -161,10 +163,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-19T17:43:07.136625+00:00",
-      "resume_tente_utc": "2026-10-19T06:28:09.138751+00:00",
+      "derniere_verification_utc": "2026-10-20T10:05:07.240539+00:00",
+      "resume_tente_utc": "2026-10-20T10:05:54.128050+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -182,8 +185,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-19T17:43:07.136625+00:00",
-      "resume_tente_utc": "2026-10-19T17:43:55.981432+00:00",
+      "derniere_verification_utc": "2026-10-20T10:05:07.240539+00:00",
+      "resume_tente_utc": "2026-10-20T10:14:32.508275+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -202,8 +205,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-19T17:43:07.136625+00:00",
-      "resume_tente_utc": "2026-10-19T17:59:10.250854+00:00",
+      "derniere_verification_utc": "2026-10-20T10:05:07.240539+00:00",
+      "resume_tente_utc": "2026-10-20T10:24:01.599320+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -224,9 +227,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-19T17:43:07.136625+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-10-20T10:05:07.240539+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume_tente_utc": "2026-10-20T10:46:15.750217+00:00",
+      "resume": "Selon Disclose, les forces de l’ordre en France utilisent illégalement la reconnaissance faciale lors des contrôles d’identité. Une vidéo et des témoignages révèlent que cette pratique vise principalement des personnes racisées et des activistes politiques. L’application est utilisée quotidiennement par certains policiers malgré l’interdiction officielle.\n\nLe ministère de l’intérieur n’a pas souhaité commenter les allégations de Disclose. La Commission nationale de l’informatique et des libertés (CNIL) enquête sur le déploiement de la reconnaissance faciale, mais sans résultats concrets à ce jour.",
+      "resume_empreinte": "046f162fd81cba0fa0b845e40c1060a509fb957f6120a3ffdd3be5507fdb8a44",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Disclose.ngo — Le gouvernement détourne les aides de l'Ademe pour financer l'un des plus gros pollueurs de France",
@@ -244,8 +251,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-19T17:43:07.136625+00:00",
-      "resume_tente_utc": "2026-10-19T18:05:41.117674+00:00",
+      "derniere_verification_utc": "2026-10-20T10:05:07.240539+00:00",
+      "resume_tente_utc": "2026-10-20T10:28:35.331176+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
