@@ -733,5 +733,21 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "17 octobre : le gouvernement ordonne, les juges répriment",
+    "url": "https://www.blast-info.fr/articles/2026/17-octobre-le-gouvernement-ordonne-les-juges-repriment--tYOE8TATAuu6kgRrN9l5A",
+    "resume": "Trois mots au tribunal aujourd’hui : dégoût, nausée, honte. Dix ans de chroniques judiciaires pour en arriver là, pour voir ça : une bête qui agonise et qui frappe aveuglément. Tout le monde ou presque est parti en prison aujourd’hui.",
+    "date_detection": "20 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Énergie",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

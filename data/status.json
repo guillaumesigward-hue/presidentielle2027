@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-10-20T10:05:07.240539+00:00",
+  "last_checked_utc": "2026-10-20T20:36:57.264934+00:00",
   "last_checked_fr": "20 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 189,
-      "dernier_id_detecte": 2341,
+      "notices_detectees": 190,
+      "dernier_id_detecte": 2342,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -25,11 +25,29 @@
       "detections": 5,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 119,
+      "liens_trouves": 120,
       "etat_extraction": "partielle",
       "mise_a_jour": {
         "nombre": 5,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "17 octobre : le gouvernement ordonne, les juges répriment",
+            "url": "https://www.blast-info.fr/articles/2026/17-octobre-le-gouvernement-ordonne-les-juges-repriment--tYOE8TATAuu6kgRrN9l5A",
+            "resume": "Trois mots au tribunal aujourd’hui : dégoût, nausée, honte. Dix ans de chroniques judiciaires pour en arriver là, pour voir ça : une bête qui agonise et qui frappe aveuglément. Tout le monde ou presque est parti en prison aujourd’hui.",
+            "date_detection": "20 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Énergie",
+              "Institutions / libertés publiques"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -111,28 +129,6 @@
             ],
             "candidats_mentions": [
               "Bruno Retailleau"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Le journaliste et le greffier",
-            "url": "https://www.blast-info.fr/articles/2026/le-journaliste-et-le-greffier-YxljDnkzQ_WvyhWZ6nNP_g",
-            "resume": "Au service de la justice, le greffier a pour mission d’accompagner, d’enregistrer et de mettre en forme les affaires en cours. Organisé, il maîtrise parfaitement les agendas des différentes parties concernées par le déroulement des débats. C’est le médiateur indispensable entre les avocats, les magistrats et le public.",
-            "date_detection": "20 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Écologie",
-              "Institutions / libertés publiques",
-              "Immigration",
-              "Travail"
-            ],
-            "candidats_mentions": [
-              "Marine Le Pen",
-              "Jordan Bardella"
             ],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
@@ -248,15 +244,16 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 3,
-    "reutilises": 2,
+    "resumes": 2,
+    "reutilises": 3,
     "indisponibles": 6,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
-      "noms": 2,
       "copie": 2,
-      "titre": 1
+      "titre": 1,
+      "noms": 1,
+      "longueur": 1
     },
     "erreurs": {
       "ValueError": 6
@@ -281,8 +278,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 58,
-    "pages_accessibles": 41,
+    "pages_examinees": 55,
+    "pages_accessibles": 37,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -292,7 +289,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 6
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,
@@ -311,8 +308,8 @@
         "accessibles": 9
       },
       "Marine Le Pen": {
-        "examinees": 4,
-        "accessibles": 4
+        "examinees": 1,
+        "accessibles": 1
       },
       "Éric Zemmour": {
         "examinees": 3,

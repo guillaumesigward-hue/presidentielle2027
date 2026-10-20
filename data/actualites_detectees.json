@@ -1478,5 +1478,32 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10326 Pres Tableau de bord des personnalites IFOP 20 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2342",
+    "date_detection": "20 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "17 octobre : le gouvernement ordonne, les juges répriment",
+    "url": "https://www.blast-info.fr/articles/2026/17-octobre-le-gouvernement-ordonne-les-juges-repriment--tYOE8TATAuu6kgRrN9l5A",
+    "resume": "Trois mots au tribunal aujourd’hui : dégoût, nausée, honte. Dix ans de chroniques judiciaires pour en arriver là, pour voir ça : une bête qui agonise et qui frappe aveuglément. Tout le monde ou presque est parti en prison aujourd’hui.",
+    "date_detection": "20 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Énergie",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]
