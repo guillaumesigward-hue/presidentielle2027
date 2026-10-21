@@ -1,6 +1,81 @@
 {
-  "last_checked_utc": "2026-10-21T10:09:15.416160+00:00",
+  "last_checked_utc": "2026-10-21T20:38:53.489688+00:00",
   "articles": [
+    {
+      "titre": "17 octobre à Lyon : une introuvable « nébuleuse d’ultragauche »",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/17-octobre-a-lyon-une-introuvable-nebuleuse-dultragauche-NuSQ5vKpQ2CIq3YBAmLYCw",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-21T17:00:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École",
+        "Énergie",
+        "Institutions / libertés publiques",
+        "Immigration"
+      ],
+      "candidats_mentions": [
+        "Jean-Luc Mélenchon"
+      ],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-21T20:38:53.489688+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
+    {
+      "titre": "17 octobre : des « milliers de casseurs » ? Au tribunal de Marseille, le mensonge s'effondre",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/17-octobre-des-milliers-de-casseurs-au-tribunal-de-marseille-le-mensonge-s-effondre-5QlmJBjtR66OfutlKThiFA",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-21T14:30:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "Santé",
+        "Institutions / libertés publiques"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-21T20:38:53.489688+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
+    {
+      "titre": "Affaire de blanchiment à Marseille : casting royal",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/affaire-de-blanchiment-a-marseille-casting-royal-O0yZhkDzStywpEtKk72QRQ",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-21T10:00:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "Santé",
+        "Institutions / libertés publiques"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-21T20:38:53.489688+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
+    {
+      "titre": "Brésil : la gauche en train de disparaître d'Amérique du sud ?",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/emissions/2026/bresil-la-gauche-en-train-de-disparaitre-d-amerique-du-sud-IXBOdMS5QNWXUgnPl3oJ-Q",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-20T16:00:44.448000+00:00",
+      "controle": "automatique",
+      "themes": [
+        "Institutions / libertés publiques"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-21T20:38:53.489688+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
+    },
     {
       "titre": "17 octobre : le gouvernement ordonne, les juges répriment",
       "source": "Blast",
@@ -16,11 +91,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-21T10:09:15.416160+00:00",
+      "derniere_verification_utc": "2026-10-21T20:38:53.489688+00:00",
       "resume_tente_utc": "2026-10-21T10:43:00.843352+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
     {
       "titre": "Cher Matthieu Valet – Boxing Day #98",
@@ -40,7 +114,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-21T10:09:15.416160+00:00",
+      "derniere_verification_utc": "2026-10-21T20:38:53.489688+00:00",
       "resume_tente_utc": "2026-10-18T17:55:57.052516+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -59,111 +133,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-21T10:09:15.416160+00:00",
+      "derniere_verification_utc": "2026-10-21T20:38:53.489688+00:00",
       "resume_tente_utc": "2026-10-21T10:33:40.389695+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
-    },
-    {
-      "titre": "Comment l'Argentine se vend à Peter Thiel et à la Silicon Valley",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/comment-l-argentine-se-vend-a-peter-thiel-et-a-la-silicon-valley-bGKd9F5XRau1XiAgnV_yhw",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-16T16:15:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Santé",
-        "Énergie",
-        "Écologie",
-        "Institutions / libertés publiques",
-        "Immigration",
-        "Travail"
-      ],
-      "candidats_mentions": [],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-21T10:09:15.416160+00:00",
-      "resume_tente_utc": "2026-10-21T10:34:30.897404+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Blast, l'Argentine se trouve face à une situation complexe avec l'arrivée de Peter Thiel et de la Silicon Valley. En août 2026, des manifestants déguisés en Gandalf ont protesté contre Thiel, qui s'est installé dans le quartier chic de Buenos Aires. Ces protestataires critiquent l'emprise de la technologie sur la vie politique et dénoncent l'implantation de Palantir, une entreprise de surveillance cofondée par Thiel.\n\nLe gouvernement argentin n'a pas officiellement répondu aux allégations de Blast. Cependant, des lois controversées visant à attirer les investissements technologiques et énergétiques sont en débat au Parlement, suscitant des inquiétudes quant à leur impact sur la souveraineté et l'environnement.",
-      "resume_empreinte": "0158fd2ba5e0adf681ed290e8d74900fa8cade1ed5ce27bc4480f1b0e0a69590",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
-    },
-    {
-      "titre": "La bataille d'Assas : les étudiants font reculer l'extrême-droite",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/la-bataille-d-assas-les-etudiants-font-reculer-l-extreme-droite-EqNGkbrFQf6kFzKgQ_HNhA",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-15T17:00:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Santé",
-        "Énergie",
-        "Institutions / libertés publiques",
-        "Travail"
-      ],
-      "candidats_mentions": [
-        "Marine Le Pen"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-21T10:09:15.416160+00:00",
-      "resume_tente_utc": "2026-10-18T17:52:43.197164+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, les étudiants de l'université Panthéon-Assas ont réussi à bloquer l'entrée de leur faculté malgré l'opposition violente d'une trentaine de militants néofascistes. Cette victoire suit une attaque précédente le 9 octobre, où des étudiants pacifiques avaient été agressés par une quinzaine de personnes masquées. L'incident du 13 octobre a été revendiqué par le groupe « Waffen Assas ».\n\nAucune réponse officielle n'est rapportée dans l'article. Cependant, le député LFI Thomas Portes compte demander des explications au ministre de l'Intérieur, Laurent Nuñez, concernant l'attitude de la police lors de ces incidents.",
-      "resume_empreinte": "8dfc8129bcee1f3f10ff95845c7bff7cea7d87193f8a0e2db0470e19475310b9",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
-    },
-    {
-      "titre": "“Vous condamnez les violences ?“",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/emissions/2026/vous-condamnez-les-violences-7jLDKPiJRoC5OB3qG06ubA",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-15T16:45:41.379000+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École"
-      ],
-      "candidats_mentions": [],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-21T10:09:15.416160+00:00",
-      "resume_tente_utc": "2026-10-21T10:38:31.583983+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
-    },
-    {
-      "titre": "« Ici on apprend à cultiver, pas à déraciner » : un lycée breton mobilisé contre l'OQTF d'un élève",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/ici-on-apprend-a-cultiver-pas-a-deraciner-un-lycee-breton-mobilise-contre-l-oqtf-d-un-eleve-LDdP8rVES_aXc2NEwh_AVQ",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-15T13:45:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Handicap / AESH",
-        "Institutions / libertés publiques",
-        "Immigration",
-        "Travail"
-      ],
-      "candidats_mentions": [
-        "Bruno Retailleau"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-21T10:09:15.416160+00:00",
-      "resume_tente_utc": "2026-10-21T10:40:25.200511+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Blast, un lycée agricole en Bretagne est mobilisé contre une OQTF (Obligation de Quitter le Territoire Français) prononcée à l'encontre d'un de leurs élèves, Vassiriki. Le lycée, soutenu par l'enseignement et les élèves, bloque ses activités pour demander un réexamen de la situation de Vassiriki, qui a reçu plusieurs OQTF malgré ses bonnes performances scolaires et professionnelles.\n\nAucune réponse officielle n'est rapportée dans l'article. La préfecture a maintenu l'OQTF de Vassiriki malgré les appels du lycée. L'avenir de la mobilisation reste incertain.",
-      "resume_empreinte": "3fd2b513ae449d90035eaf8da67c1e2b11aac91ca2765d5da3b48f96f0936ee2",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -181,11 +154,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-21T10:09:15.416160+00:00",
-      "resume_tente_utc": "2026-10-21T10:10:08.657440+00:00",
+      "derniere_verification_utc": "2026-10-21T20:38:53.489688+00:00",
+      "resume_tente_utc": "2026-10-21T20:39:27.689631+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "DelaiDepasse"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -201,11 +174,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-21T10:09:15.416160+00:00",
-      "resume_tente_utc": "2026-10-21T10:21:05.462559+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "derniere_verification_utc": "2026-10-21T20:38:53.489688+00:00",
+      "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume": "Selon Disclose.ngo, la Cour d'appel de Paris a ordonné mercredi 8 juillet la réouverture des investigations visant à identifier les sources de révélations sur la complicité de la France dans des exécutions extrajudiciaires en Égypte. La journaliste Ariane Lavrilleux et quatre coauteurs risquent d’être mis en examen pour divulgation de secrets de la défense nationale.\n\nLe parquet général a demandé la réouverture du dossier, contredisant les conclusions de deux juges d’instruction qui avaient clos l’enquête en 2025. L'État français n'a pas encore répondu officiellement à cette décision.",
+      "resume_empreinte": "76a5e7aec0c7357b27874838a3b66896a0a97484032bc90ea43a6b920b638444",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Disclose.ngo — Reconnaissance faciale illégale : la police prise en flagrant délit",
@@ -223,7 +198,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-21T10:09:15.416160+00:00",
+      "derniere_verification_utc": "2026-10-21T20:38:53.489688+00:00",
       "resume_tente_utc": "2026-10-20T10:46:15.750217+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -247,11 +222,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-21T10:09:15.416160+00:00",
-      "resume_tente_utc": "2026-10-21T10:25:37.246279+00:00",
+      "derniere_verification_utc": "2026-10-21T20:38:53.489688+00:00",
+      "resume_tente_utc": "2026-10-21T21:06:05.319423+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "DelaiDepasse"
     }
   ]
 }

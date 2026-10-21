@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-10-21T10:09:15.416160+00:00",
+  "last_checked_utc": "2026-10-21T20:38:53.489688+00:00",
   "last_checked_fr": "21 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 191,
-      "dernier_id_detecte": 2343,
+      "notices_detectees": 192,
+      "dernier_id_detecte": 2345,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -22,14 +22,31 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 5,
+      "detections": 7,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 120,
+      "liens_trouves": 117,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 5,
+        "nombre": 7,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Affaire de blanchiment à Marseille : casting royal",
+            "url": "https://www.blast-info.fr/articles/2026/affaire-de-blanchiment-a-marseille-casting-royal-O0yZhkDzStywpEtKk72QRQ",
+            "resume": "Quartier délaissé par les municipalités successives depuis au moins l’après-guerre, la Belle-de-Mai, coincée entre la gare Saint-Charles et la passerelle de Plombières offre au promeneur qui s’aventure en son cœur un dédale de rues où alternent îlot arty , immeubles décatis, trottoirs défoncés et points de deal mouvants. Un concentré à l’extrême de ce qu’offre Marseille, avec la lointaine perspective d’une bouffée d’oxygène qu’accompagneraient la rénovation urbaine et une ligne de tramway tant de fois promise – et repoussée – pour désengorger ses maigres artères. Depuis quelques années, faute d’immobilier disponible, le palais de justice de…",
+            "date_detection": "21 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Santé",
+              "Institutions / libertés publiques"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -94,42 +111,15 @@
           {
             "type": "media_independant_investigation",
             "source": "Blast",
-            "titre": "La bataille d'Assas : les étudiants font reculer l'extrême-droite",
-            "url": "https://www.blast-info.fr/articles/2026/la-bataille-d-assas-les-etudiants-font-reculer-l-extreme-droite-EqNGkbrFQf6kFzKgQ_HNhA",
-            "resume": "» , s'époumonnent les étudiants devant l'entrée de l'université Panthéon-Assas, dans le 6e arrondissement de Paris. Pour les plus anciens, ceux qui étaient étudiants dans les années 1980 et 1990, le slogan apparaît lunaire, tant la fac était alors le fief de l'extrême droite estudiantine. « La jeunesse emmerde le Front national » , les protestataires reprennent en cœur ce cri de ralliement, lui aussi très années 80.",
+            "titre": "Brésil : la gauche en train de disparaître d'Amérique du sud ?",
+            "url": "https://www.blast-info.fr/emissions/2026/bresil-la-gauche-en-train-de-disparaitre-d-amerique-du-sud-IXBOdMS5QNWXUgnPl3oJ-Q",
+            "resume": "Erratum : le Surinam et le Guyana ont été inversés, toutes nos excuses. Au Brésil, le fils de Jair Bolsonaro est en position de force face à Lula pour l'élection présidentielle. Pourquoi le Brésil pourrait rebasculer à l'extrême droite ?",
             "date_detection": "21 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
-              "Santé",
-              "Énergie",
-              "Institutions / libertés publiques",
-              "Travail"
+              "Institutions / libertés publiques"
             ],
-            "candidats_mentions": [
-              "Marine Le Pen"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "« Ici on apprend à cultiver, pas à déraciner » : un lycée breton mobilisé contre l'OQTF d'un élève",
-            "url": "https://www.blast-info.fr/articles/2026/ici-on-apprend-a-cultiver-pas-a-deraciner-un-lycee-breton-mobilise-contre-l-oqtf-d-un-eleve-LDdP8rVES_aXc2NEwh_AVQ",
-            "resume": "La départementale D794 quitte la commune de Saint-Aubin-du-Cormier, où vivent près de 4 200 habitants, pour traverser champs et paysages boisés. Maxime Lechartier, professeur au lycée agricole, bifurque pour prendre la route baptisée la « Lande de la Rencontre ». C’est ici que, cinq siècles plus tôt, s’est jouée la bataille de 1488, qui opposa l’armée bretonne à l’armée française.",
-            "date_detection": "21 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École",
-              "Handicap / AESH",
-              "Institutions / libertés publiques",
-              "Immigration",
-              "Travail"
-            ],
-            "candidats_mentions": [
-              "Bruno Retailleau"
-            ],
+            "candidats_mentions": [],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
             "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
@@ -244,19 +234,14 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 2,
-    "reutilises": 3,
-    "indisponibles": 6,
+    "resumes": 1,
+    "reutilises": 2,
+    "indisponibles": 8,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {
-      "copie": 2,
-      "titre": 1,
-      "noms": 1,
-      "longueur": 1
-    },
+    "rejets": {},
     "erreurs": {
-      "ValueError": 6
+      "DelaiDepasse": 2
     }
   },
   "publications_par_media": {
@@ -279,7 +264,7 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 55,
-    "pages_accessibles": 38,
+    "pages_accessibles": 35,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -289,7 +274,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 6
+        "accessibles": 3
       },
       "Fabien Roussel": {
         "examinees": 6,

@@ -749,5 +749,68 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "17 octobre à Lyon : une introuvable « nébuleuse d’ultragauche »",
+    "url": "https://www.blast-info.fr/articles/2026/17-octobre-a-lyon-une-introuvable-nebuleuse-dultragauche-NuSQ5vKpQ2CIq3YBAmLYCw",
+    "resume": "Dimanche soir, dans le sillage d’un week-end de révoltes qui a éventré de nombreux magasins dans le centre-ville de Lyon — et incendié son office de tourisme — Ben* a voulu « faire le beau » sur Snapchat. Entre les abribus détruits et les poubelles cramées, il a ramassé une des bouteilles qui traînaient par terre, a enfoncé un mouchoir dedans et a tenté d’allumer ce pseudo « cocktail Molotov ». « Je n’ai même pas réussi » , plaide-t-il, « c’était pour une vidéo, pour faire rire mes Snapchateurs.",
+    "date_detection": "21 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Énergie",
+      "Institutions / libertés publiques",
+      "Immigration"
+    ],
+    "candidats_mentions": [
+      "Jean-Luc Mélenchon"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "17 octobre : des « milliers de casseurs » ? Au tribunal de Marseille, le mensonge s'effondre",
+    "url": "https://www.blast-info.fr/articles/2026/17-octobre-des-milliers-de-casseurs-au-tribunal-de-marseille-le-mensonge-s-effondre-5QlmJBjtR66OfutlKThiFA",
+    "resume": "Après un week-end de révolte laissant Marseille « défigurée » ou « en sang » selon les expressions lancées dans la cohue des plateaux télé, des trombes d’eau se sont abattues sur la ville. Le dense rideau de pluie a plongé la ville dans la pénombre, et les rues et les couloirs du tribunal judiciaire dans une morne ambiance, au moment où les prévenus des évènements du 17 octobre défilent en comparution immédiate. Ce 20 octobre, deux chambres sont entièrement dédiées aux comparutions immédiates (CI).",
+    "date_detection": "21 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Santé",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Affaire de blanchiment à Marseille : casting royal",
+    "url": "https://www.blast-info.fr/articles/2026/affaire-de-blanchiment-a-marseille-casting-royal-O0yZhkDzStywpEtKk72QRQ",
+    "resume": "Quartier délaissé par les municipalités successives depuis au moins l’après-guerre, la Belle-de-Mai, coincée entre la gare Saint-Charles et la passerelle de Plombières offre au promeneur qui s’aventure en son cœur un dédale de rues où alternent îlot arty , immeubles décatis, trottoirs défoncés et points de deal mouvants. Un concentré à l’extrême de ce qu’offre Marseille, avec la lointaine perspective d’une bouffée d’oxygène qu’accompagneraient la rénovation urbaine et une ligne de tramway tant de fois promise – et repoussée – pour désengorger ses maigres artères. Depuis quelques années, faute d’immobilier disponible, le palais de justice de…",
+    "date_detection": "21 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Santé",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Brésil : la gauche en train de disparaître d'Amérique du sud ?",
+    "url": "https://www.blast-info.fr/emissions/2026/bresil-la-gauche-en-train-de-disparaitre-d-amerique-du-sud-IXBOdMS5QNWXUgnPl3oJ-Q",
+    "resume": "Erratum : le Surinam et le Guyana ont été inversés, toutes nos excuses. Au Brésil, le fils de Jair Bolsonaro est en position de force face à Lula pour l'élection présidentielle. Pourquoi le Brésil pourrait rebasculer à l'extrême droite ?",
+    "date_detection": "21 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
