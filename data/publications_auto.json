@@ -1,6 +1,27 @@
 {
-  "last_checked_utc": "2026-10-22T10:12:20.749322+00:00",
+  "last_checked_utc": "2026-10-22T20:35:59.600141+00:00",
   "articles": [
+    {
+      "titre": "Loi intégrale : pour Madelaine Rousset, « criminaliser le travail du sexe ne l’élimine pas, il le rend moins visible »",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/loi-integrale-pour-madelaine-rousset-criminaliser-le-travail-du-sexe-ne-lelimine-pas-il-le-rend-moins-visible-lGhRyH2jTnudLJEjgZMboA",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-22T14:00:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École",
+        "Santé",
+        "Institutions / libertés publiques",
+        "Immigration",
+        "Travail"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
     {
       "titre": "17 octobre à Lyon : une introuvable « nébuleuse d’ultragauche »",
       "source": "Blast",
@@ -19,7 +40,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T10:12:20.749322+00:00",
+      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -37,7 +58,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T10:12:20.749322+00:00",
+      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -55,7 +76,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T10:12:20.749322+00:00",
+      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -72,7 +93,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T10:12:20.749322+00:00",
+      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -91,11 +112,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T10:12:20.749322+00:00",
-      "resume_tente_utc": "2026-10-22T10:15:32.240676+00:00",
+      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
+      "resume_tente_utc": "2026-10-22T20:36:45.913787+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "DelaiDepasse"
     },
     {
       "titre": "Cher Matthieu Valet – Boxing Day #98",
@@ -115,30 +136,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T10:12:20.749322+00:00",
+      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
       "resume_tente_utc": "2026-10-18T17:55:57.052516+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
       "resume": "Selon Blast, le député européen du Rassemblement national Matthieu Valet a été critiqué pour avoir confondu une vidéo parodique de l'Humanité avec une information réelle. Cette erreur a entraîné une réaction virulente sur X, où Valet a accusé le journal de diffuser des fausses informations.\n\nLe député européen Matthieu Valet n'a pas officiellement répondu à ces accusations. Il n'y a pas de déclaration officielle de son côté concernant cette erreur. La publication de Blast souligne la confusion et la réaction excessive de Valet sans mentionner de réponse formelle.",
       "resume_empreinte": "266f0acbc808110cce4f120ca045668b4a2415691fa1a94e7d3d5f4e17b15c5d",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
-    },
-    {
-      "titre": "La jeunesse peut faire basculer la présidentielle (et les médias le savent)",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/emissions/2026/la-jeunesse-peut-faire-basculer-la-presidentielle-et-les-medias-le-savent-vm5csIMJQW-Uh0eS3dmmjQ",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-16T16:54:34.839000+00:00",
-      "controle": "automatique",
-      "themes": [],
-      "candidats_mentions": [],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T10:12:20.749322+00:00",
-      "resume_tente_utc": "2026-10-22T10:13:09.360709+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -156,8 +160,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T10:12:20.749322+00:00",
-      "resume_tente_utc": "2026-10-22T10:34:38.970907+00:00",
+      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
+      "resume_tente_utc": "2026-10-22T20:56:47.361162+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "DelaiDepasse"
@@ -176,7 +180,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T10:12:20.749322+00:00",
+      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -200,7 +204,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T10:12:20.749322+00:00",
+      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
       "resume_tente_utc": "2026-10-20T10:46:15.750217+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -224,8 +228,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T10:12:20.749322+00:00",
-      "resume_tente_utc": "2026-10-22T10:54:49.501521+00:00",
+      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
+      "resume_tente_utc": "2026-10-22T21:16:57.817791+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "DelaiDepasse"

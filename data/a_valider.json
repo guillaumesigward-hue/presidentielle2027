@@ -812,5 +812,23 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Loi intégrale : pour Madelaine Rousset, « criminaliser le travail du sexe ne l’élimine pas, il le rend moins visible »",
+    "url": "https://www.blast-info.fr/articles/2026/loi-integrale-pour-madelaine-rousset-criminaliser-le-travail-du-sexe-ne-lelimine-pas-il-le-rend-moins-visible-lGhRyH2jTnudLJEjgZMboA",
+    "resume": "Travail du sexe : leurs lois, vos libertés Ce mardi 13 octobre, l’Assemblée Nationale votait la Loi Intégrale. Parmi ceux-là, l’article 25, qui a alimenté de nombreuses controverses. Cet article prévoyait initialement d’étendre le modèle dit « nordique » (pénalisation du client et des proxénètes et reconnaissance des travailleurs et travailleuses du sexe en tant que victimes) aux activités sexuelles en ligne, comme c’est le cas actuellement pour la prostitution.",
+    "date_detection": "22 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Santé",
+      "Institutions / libertés publiques",
+      "Immigration",
+      "Travail"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
