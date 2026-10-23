@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-10-23T10:08:26.582187+00:00",
+  "last_checked_utc": "2026-10-23T20:30:53.802288+00:00",
   "last_checked_fr": "23 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 197,
-      "dernier_id_detecte": 2352,
+      "notices_detectees": 200,
+      "dernier_id_detecte": 2355,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -22,14 +22,51 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 6,
+      "detections": 5,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 116,
+      "liens_trouves": 115,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 6,
+        "nombre": 5,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Élections de mi-mandat aux États-Unis: « il faut rétablir les contre-pouvoirs », clament à New York des manifestants anti-Trump, avant une échéance cruciale",
+            "url": "https://www.blast-info.fr/articles/2026/elections-de-mi-mandat-aux-etats-unis-il-faut-retablir-les-contre-pouvoirs-clament-a-new-york-des-manifestants-anti-trump-avant-une-echeance-cruciale-Pv1nIlWiSTC2Dz78SznltA",
+            "resume": "À moins de deux semaines des élections de mi-mandat, un vent de changement semble souffler aux États-Unis. Alors que Donald Trump dispose, depuis deux ans, d’un Congrès à sa botte où la majorité républicaine lui permet de faire à peu près ce qu’il veut, voici que le parti démocrate, fort de très bons sondages, se prend à rêver. Pourrait-il y avoir, le 3 novembre prochain, une vague bleue (la couleur des démocrates), comme bon nombre d’experts le projettent ?",
+            "date_detection": "23 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Institutions / libertés publiques",
+              "Immigration"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Loi intégrale : pour Madelaine Rousset, « criminaliser le travail du sexe ne l’élimine pas, il le rend moins visible »",
+            "url": "https://www.blast-info.fr/articles/2026/loi-integrale-pour-madelaine-rousset-criminaliser-le-travail-du-sexe-ne-lelimine-pas-il-le-rend-moins-visible-lGhRyH2jTnudLJEjgZMboA",
+            "resume": "Travail du sexe : leurs lois, vos libertés Ce mardi 13 octobre, l’Assemblée Nationale votait la Loi Intégrale. Parmi ceux-là, l’article 25, qui a alimenté de nombreuses controverses. Cet article prévoyait initialement d’étendre le modèle dit « nordique » (pénalisation du client et des proxénètes et reconnaissance des travailleurs et travailleuses du sexe en tant que victimes) aux activités sexuelles en ligne, comme c’est le cas actuellement pour la prostitution.",
+            "date_detection": "23 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Santé",
+              "Institutions / libertés publiques",
+              "Immigration",
+              "Travail"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -78,40 +115,6 @@
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
-              "Institutions / libertés publiques"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "17 octobre : le gouvernement ordonne, les juges répriment",
-            "url": "https://www.blast-info.fr/articles/2026/17-octobre-le-gouvernement-ordonne-les-juges-repriment--tYOE8TATAuu6kgRrN9l5A",
-            "resume": "Trois mots au tribunal aujourd’hui : dégoût, nausée, honte. Dix ans de chroniques judiciaires pour en arriver là, pour voir ça : une bête qui agonise et qui frappe aveuglément. Tout le monde ou presque est parti en prison aujourd’hui.",
-            "date_detection": "23 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École",
-              "Énergie",
-              "Institutions / libertés publiques"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Brésil : la gauche en train de disparaître d'Amérique du sud ?",
-            "url": "https://www.blast-info.fr/emissions/2026/bresil-la-gauche-en-train-de-disparaitre-d-amerique-du-sud-IXBOdMS5QNWXUgnPl3oJ-Q",
-            "resume": "Erratum : le Surinam et le Guyana ont été inversés, toutes nos excuses. Au Brésil, le fils de Jair Bolsonaro est en position de force face à Lula pour l'élection présidentielle. Pourquoi le Brésil pourrait rebasculer à l'extrême droite ?",
-            "date_detection": "23 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
               "Institutions / libertés publiques"
             ],
             "candidats_mentions": [],
@@ -229,18 +232,14 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 3,
+    "resumes": 0,
     "reutilises": 3,
-    "indisponibles": 5,
+    "indisponibles": 8,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {
-      "longueur": 1,
-      "copie": 1,
-      "titre": 1
-    },
+    "rejets": {},
     "erreurs": {
-      "ValueError": 4
+      "DelaiDepasse": 3
     }
   },
   "publications_par_media": {
@@ -263,9 +262,9 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 62,
-    "pages_accessibles": 41,
-    "propositions_extraites": 3,
+    "pages_examinees": 54,
+    "pages_accessibles": 35,
+    "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
@@ -285,16 +284,16 @@
         "accessibles": 5
       },
       "Édouard Philippe": {
-        "examinees": 7,
-        "accessibles": 7
+        "examinees": 6,
+        "accessibles": 6
       },
       "Nicolas Dupont-Aignan": {
         "examinees": 10,
         "accessibles": 9
       },
       "Marine Le Pen": {
-        "examinees": 8,
-        "accessibles": 6
+        "examinees": 1,
+        "accessibles": 1
       },
       "Éric Zemmour": {
         "examinees": 3,

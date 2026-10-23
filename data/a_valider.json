@@ -830,5 +830,20 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Élections de mi-mandat aux États-Unis: « il faut rétablir les contre-pouvoirs », clament à New York des manifestants anti-Trump, avant une échéance cruciale",
+    "url": "https://www.blast-info.fr/articles/2026/elections-de-mi-mandat-aux-etats-unis-il-faut-retablir-les-contre-pouvoirs-clament-a-new-york-des-manifestants-anti-trump-avant-une-echeance-cruciale-Pv1nIlWiSTC2Dz78SznltA",
+    "resume": "À moins de deux semaines des élections de mi-mandat, un vent de changement semble souffler aux États-Unis. Alors que Donald Trump dispose, depuis deux ans, d’un Congrès à sa botte où la majorité républicaine lui permet de faire à peu près ce qu’il veut, voici que le parti démocrate, fort de très bons sondages, se prend à rêver. Pourrait-il y avoir, le 3 novembre prochain, une vague bleue (la couleur des démocrates), comme bon nombre d’experts le projettent ?",
+    "date_detection": "23 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques",
+      "Immigration"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
