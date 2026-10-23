@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-22T20:35:59.600141+00:00",
+  "last_checked_utc": "2026-10-23T10:08:26.582187+00:00",
   "articles": [
     {
       "titre": "Loi intégrale : pour Madelaine Rousset, « criminaliser le travail du sexe ne l’élimine pas, il le rend moins visible »",
@@ -18,9 +18,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-10-23T10:08:26.582187+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume_tente_utc": "2026-10-23T10:34:37.858279+00:00",
+      "resume": "Selon Blast, la Loi Intégrale votée le 13 octobre par l'Assemblée Nationale a modifié l'article 25, initialement prévu pour criminaliser les activités sexuelles en ligne. L'amendement adopté vise désormais uniquement les situations d'exploitation sexuelle en ligne avérées, basées sur le principe de la traite des êtres humains.\n\nLe gouvernement a proposé un amendement qui a été adopté, mais les associations de défense des travailleuses du sexe critiquent cette loi pour sa criminalisation indirecte et sa répression des droits des travailleuses du sexe. Aucune réponse officielle n'est donnée dans l'article concernant ces critiques.",
+      "resume_empreinte": "429bd11527103dac849cdc727e4b7f1d38357295680dabc1c1544017df6b25c2",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "17 octobre à Lyon : une introuvable « nébuleuse d’ultragauche »",
@@ -40,9 +44,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-10-23T10:08:26.582187+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume_tente_utc": "2026-10-23T10:37:30.844739+00:00",
+      "resume": "Selon Blast, 199 personnes ont été interpellées à Lyon après des manifestations violentes du 17 octobre. Le Premier ministre Sébastien Lecornu a accusé une « nébuleuse d’ultragauche » d’être à l’origine des troubles, mais les prévenus jugés comprennent principalement des jeunes sans antécédents judiciaires.\n\nLe procureur de Lyon a précisé que le député de La France insoumise Raphaël Arnault n’a pas été interpellé. Les procureurs ont requis des peines d’un an d’emprisonnement pour la plupart des prévenus, ce qui a été jugé disproportionné par les avocats.",
+      "resume_empreinte": "b58be8c6b16b8e666f6b120f7d2afe806b38f3a86fc3ce83dd697bbb7792217b",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "17 octobre : des « milliers de casseurs » ? Au tribunal de Marseille, le mensonge s'effondre",
@@ -58,9 +66,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
+      "derniere_verification_utc": "2026-10-23T10:08:26.582187+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_tente_utc": "2026-10-23T10:41:23.189074+00:00",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Affaire de blanchiment à Marseille : casting royal",
@@ -76,9 +86,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-10-23T10:08:26.582187+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume_tente_utc": "2026-10-23T10:44:08.946806+00:00",
+      "resume": "Selon Blast, un procès financier à Marseille implique des figures importantes de la finance internationale. Le milliardaire Vitaly Malkin accuse Jean-Noël Marcellesi et Pierre Grotz d'abus de confiance et de blanchiment. Le procès, qui se déroule du 21 au 30 octobre, concerne des transactions financières complexes impliquant des sociétés basées dans des paradis fiscaux.\n\nLes accusés n'ont pas encore répondu officiellement aux accusations. La banque Edmond de Rothschild SA a été renvoyée en correctionnelle pour blanchiment, décision prise le 2 avril 2026 par la chambre d’instruction d’Aix-en-Provence.",
+      "resume_empreinte": "fad112f00c5c8178462e7822b2a91d753cbdda726a40a5c9d4a4914560e7c9e3",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Brésil : la gauche en train de disparaître d'Amérique du sud ?",
@@ -93,7 +107,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
+      "derniere_verification_utc": "2026-10-23T10:08:26.582187+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -112,11 +126,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
-      "resume_tente_utc": "2026-10-22T20:36:45.913787+00:00",
+      "derniere_verification_utc": "2026-10-23T10:08:26.582187+00:00",
+      "resume_tente_utc": "2026-10-23T10:09:12.604633+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Cher Matthieu Valet – Boxing Day #98",
@@ -136,7 +150,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
+      "derniere_verification_utc": "2026-10-23T10:08:26.582187+00:00",
       "resume_tente_utc": "2026-10-18T17:55:57.052516+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -160,11 +174,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
-      "resume_tente_utc": "2026-10-22T20:56:47.361162+00:00",
+      "derniere_verification_utc": "2026-10-23T10:08:26.582187+00:00",
+      "resume_tente_utc": "2026-10-23T10:17:21.492177+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -180,7 +194,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
+      "derniere_verification_utc": "2026-10-23T10:08:26.582187+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -204,7 +218,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
+      "derniere_verification_utc": "2026-10-23T10:08:26.582187+00:00",
       "resume_tente_utc": "2026-10-20T10:46:15.750217+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -228,11 +242,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-22T20:35:59.600141+00:00",
-      "resume_tente_utc": "2026-10-22T21:16:57.817791+00:00",
+      "derniere_verification_utc": "2026-10-23T10:08:26.582187+00:00",
+      "resume_tente_utc": "2026-10-23T10:26:33.855782+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     }
   ]
 }

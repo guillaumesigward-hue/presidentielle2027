@@ -1659,5 +1659,23 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10333 Pres IV OPINIONWAY Cnews 22 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2352",
+    "date_detection": "23 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10332 Pres IV TOLUNA HARRIS INTERACTIVE 23 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2351",
+    "date_detection": "23 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
   }
 ]
