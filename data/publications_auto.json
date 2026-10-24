@@ -1,6 +1,32 @@
 {
-  "last_checked_utc": "2026-10-24T09:35:30.724286+00:00",
+  "last_checked_utc": "2026-10-24T19:31:28.578302+00:00",
   "articles": [
+    {
+      "titre": "Cher Emmanuel Macron – Boxing Day #99",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/cher-emmanuel-macron-boxing-day-99-IQxxkrfvRumVTI12mC2VhA",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-24T15:00:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École",
+        "Santé",
+        "Énergie",
+        "Fiscalité",
+        "Écologie",
+        "Institutions / libertés publiques",
+        "Immigration",
+        "Travail"
+      ],
+      "candidats_mentions": [
+        "Marine Le Pen"
+      ],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-24T19:31:28.578302+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
     {
       "titre": "Élections de mi-mandat aux États-Unis: « il faut rétablir les contre-pouvoirs », clament à New York des manifestants anti-Trump, avant une échéance cruciale",
       "source": "Blast",
@@ -15,7 +41,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-24T09:35:30.724286+00:00",
+      "derniere_verification_utc": "2026-10-24T19:31:28.578302+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -36,8 +62,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-24T09:35:30.724286+00:00",
-      "resume_tente_utc": "2026-10-24T09:36:23.062813+00:00",
+      "derniere_verification_utc": "2026-10-24T19:31:28.578302+00:00",
+      "resume_tente_utc": "2026-10-24T19:53:47.520065+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
       "resume": "Selon Blast, la Loi Intégrale votée le 13 octobre par l'Assemblée Nationale modifie l'article 25, qui initialement visait à criminaliser les activités sexuelles en ligne. L'amendement adopté la semaine précédente limite désormais la pénalisation aux situations d'exploitation sexuelle en ligne avérées, basées sur le principe de la traite des êtres humains.\n\nLe gouvernement a proposé un amendement qui a été adopté, mais les associations de défense des travailleuses du sexe critiquent toujours le modèle abolitionniste. Elles soulignent que la criminalisation indirecte du travail du sexe en ligne a des conséquences négatives sur la protection des travailleuses du sexe et sur leur capacité à exercer leur activité dans des conditions décentes.",
@@ -48,7 +74,7 @@
       "titre": "17 octobre à Lyon : une introuvable « nébuleuse d’ultragauche »",
       "source": "Blast",
       "url": "https://www.blast-info.fr/articles/2026/17-octobre-a-lyon-une-introuvable-nebuleuse-dultragauche-NuSQ5vKpQ2CIq3YBAmLYCw",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "description": "Article conservé après une indisponibilité de la source. Dernière vérification réussie : 24/10/2026 à 09:35 UTC. Les informations restent attribuées au média cité.",
       "date_publication": "2026-10-21T17:00:00+00:00",
       "controle": "automatique",
       "themes": [
@@ -68,13 +94,14 @@
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
       "resume": "Selon Blast, 199 personnes ont été interpellées à Lyon après des manifestations violentes du 17 octobre. Le Premier ministre Sébastien Lecornu a accusé une « nébuleuse d’ultragauche » d’être à l’origine des troubles, mais les prévenus jugés comprennent principalement des jeunes sans antécédents judiciaires.\n\nLe procureur Thierry Dran a précisé que le député LFI Raphaël Arnault n’a pas été interpellé. Les procureurs ont requis des peines allant de 4 à 15 mois de prison ferme, avec incarcération immédiate pour la plupart des prévenus, ce qui a été critiqué comme étant disproportionné.",
       "resume_empreinte": "b58be8c6b16b8e666f6b120f7d2afe806b38f3a86fc3ce83dd697bbb7792217b",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541",
+      "verification_differee": true
     },
     {
       "titre": "17 octobre : des « milliers de casseurs » ? Au tribunal de Marseille, le mensonge s'effondre",
       "source": "Blast",
       "url": "https://www.blast-info.fr/articles/2026/17-octobre-des-milliers-de-casseurs-au-tribunal-de-marseille-le-mensonge-s-effondre-5QlmJBjtR66OfutlKThiFA",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "description": "Article conservé après une indisponibilité de la source. Dernière vérification réussie : 24/10/2026 à 09:35 UTC. Les informations restent attribuées au média cité.",
       "date_publication": "2026-10-21T14:30:00+00:00",
       "controle": "automatique",
       "themes": [
@@ -85,9 +112,10 @@
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
       "derniere_verification_utc": "2026-10-24T09:35:30.724286+00:00",
-      "resume_tente_utc": "2026-10-24T09:54:38.130467+00:00",
+      "resume_tente_utc": "2026-10-24T20:02:09.198655+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "verification_differee": true,
       "resume_erreur": "ValueError"
     },
     {
@@ -104,7 +132,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-24T09:35:30.724286+00:00",
+      "derniere_verification_utc": "2026-10-24T19:31:28.578302+00:00",
       "resume_tente_utc": "2026-10-23T10:44:08.946806+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -125,32 +153,9 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-24T09:35:30.724286+00:00",
+      "derniere_verification_utc": "2026-10-24T19:31:28.578302+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
-    },
-    {
-      "titre": "17 octobre : le gouvernement ordonne, les juges répriment",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/17-octobre-le-gouvernement-ordonne-les-juges-repriment--tYOE8TATAuu6kgRrN9l5A",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-20T13:00:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Énergie",
-        "Institutions / libertés publiques"
-      ],
-      "candidats_mentions": [],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-24T09:35:30.724286+00:00",
-      "resume_tente_utc": "2026-10-24T10:01:01.360913+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, le 17 octobre, plusieurs individus ont été condamnés à des peines de prison pour des infractions commises lors d'une manifestation. Parmi eux, Maxime, âgé de gst, a été arrêté avec des matériaux pour fabriquer des cocktails Molotov. Trois autres individus ont été incarcérés pour des accusations allant de l'agression de policiers à la possession d'objets susceptibles de causer des dommages. Tous avaient des casiers judiciaires vierges et étaient présumés innocents.\n\nLe procureur a demandé des peines allant jusqu'à huit mois de prison ferme, aménagées pour certains. Les juges ont prononcé des peines plus sévères que celles demandées par le procureur, sans passer par un contre-pouvoir ou une intervention parlementaire. Aucune réaction officielle n'a été rapportée par Blast concernant ces décisions judiciaires.",
-      "resume_empreinte": "03e11f85208d46693ff009da936fcf11689a80e54c73e32a3b13b184330817e4",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -168,8 +173,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-24T09:35:30.724286+00:00",
-      "resume_tente_utc": "2026-10-24T10:19:08.989088+00:00",
+      "derniere_verification_utc": "2026-10-24T19:31:28.578302+00:00",
+      "resume_tente_utc": "2026-10-24T20:08:30.717167+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "DelaiDepasse"
@@ -188,7 +193,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-24T09:35:30.724286+00:00",
+      "derniere_verification_utc": "2026-10-24T19:31:28.578302+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -212,7 +217,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-24T09:35:30.724286+00:00",
+      "derniere_verification_utc": "2026-10-24T19:31:28.578302+00:00",
       "resume_tente_utc": "2026-10-20T10:46:15.750217+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -236,10 +241,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-24T09:35:30.724286+00:00",
-      "resume_tente_utc": "2026-10-23T21:11:49.153430+00:00",
+      "derniere_verification_utc": "2026-10-24T19:31:28.578302+00:00",
+      "resume_tente_utc": "2026-10-24T19:33:36.870752+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "DelaiDepasse"
     }
   ]
 }

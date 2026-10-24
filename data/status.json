@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-24T09:35:30.724286+00:00",
+  "last_checked_utc": "2026-10-24T19:31:28.578302+00:00",
   "last_checked_fr": "24 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -22,14 +22,39 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 4,
+      "detections": 3,
       "liens_examines": 16,
-      "extractions_vides": 4,
+      "extractions_vides": 6,
       "liens_trouves": 115,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 4,
+        "nombre": 3,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Cher Emmanuel Macron – Boxing Day #99",
+            "url": "https://www.blast-info.fr/articles/2026/cher-emmanuel-macron-boxing-day-99-IQxxkrfvRumVTI12mC2VhA",
+            "resume": "Dimanche 18 octobre , au lendemain d’une journée au cours de laquelle des centaines de milliers de personnes étaient descendues dans la rue pour exprimer, avec des modalités diverses, leur rejet de vos politiques et leur ras-le-bol de la vie chère, vous avez décidé de consacrer huit minutes de votre précieux temps, entre un concert de Céline Dion et une tournée chez les autocrates du golfe Persique, à nous expliquer, sur un ton grave et avec une mine affectée, ce que vous aviez compris des événements de la veille, c’est-à-dire : rien. Durant cette allocution aussi faussement solennelle que vraiment inutile, vous avez ainsi offert une…",
+            "date_detection": "24 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Santé",
+              "Énergie",
+              "Fiscalité",
+              "Écologie",
+              "Institutions / libertés publiques",
+              "Immigration",
+              "Travail"
+            ],
+            "candidats_mentions": [
+              "Marine Le Pen"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -61,44 +86,6 @@
               "Institutions / libertés publiques",
               "Immigration",
               "Travail"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "17 octobre à Lyon : une introuvable « nébuleuse d’ultragauche »",
-            "url": "https://www.blast-info.fr/articles/2026/17-octobre-a-lyon-une-introuvable-nebuleuse-dultragauche-NuSQ5vKpQ2CIq3YBAmLYCw",
-            "resume": "Dimanche soir, dans le sillage d’un week-end de révoltes qui a éventré de nombreux magasins dans le centre-ville de Lyon — et incendié son office de tourisme — Ben* a voulu « faire le beau » sur Snapchat. Entre les abribus détruits et les poubelles cramées, il a ramassé une des bouteilles qui traînaient par terre, a enfoncé un mouchoir dedans et a tenté d’allumer ce pseudo « cocktail Molotov ». « Je n’ai même pas réussi » , plaide-t-il, « c’était pour une vidéo, pour faire rire mes Snapchateurs.",
-            "date_detection": "24 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École",
-              "Énergie",
-              "Institutions / libertés publiques",
-              "Immigration"
-            ],
-            "candidats_mentions": [
-              "Jean-Luc Mélenchon"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "17 octobre : des « milliers de casseurs » ? Au tribunal de Marseille, le mensonge s'effondre",
-            "url": "https://www.blast-info.fr/articles/2026/17-octobre-des-milliers-de-casseurs-au-tribunal-de-marseille-le-mensonge-s-effondre-5QlmJBjtR66OfutlKThiFA",
-            "resume": "Après un week-end de révolte laissant Marseille « défigurée » ou « en sang » selon les expressions lancées dans la cohue des plateaux télé, des trombes d’eau se sont abattues sur la ville. Le dense rideau de pluie a plongé la ville dans la pénombre, et les rues et les couloirs du tribunal judiciaire dans une morne ambiance, au moment où les prévenus des évènements du 17 octobre défilent en comparution immédiate. Ce 20 octobre, deux chambres sont entièrement dédiées aux comparutions immédiates (CI).",
-            "date_detection": "24 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Santé",
-              "Institutions / libertés publiques"
             ],
             "candidats_mentions": [],
             "statut": "À vérifier manuellement",
@@ -215,18 +202,19 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 3,
-    "reutilises": 3,
-    "indisponibles": 5,
+    "resumes": 1,
+    "reutilises": 4,
+    "indisponibles": 6,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
       "titre": 1
     },
     "erreurs": {
-      "ValueError": 1,
-      "DelaiDepasse": 1
-    }
+      "DelaiDepasse": 2,
+      "ValueError": 1
+    },
+    "conserves_source_indisponible": 1
   },
   "publications_par_media": {
     "Blast": 7,
@@ -248,7 +236,7 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 54,
+    "pages_examinees": 56,
     "pages_accessibles": 36,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
@@ -258,7 +246,7 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 8,
+        "examinees": 10,
         "accessibles": 5
       },
       "Fabien Roussel": {

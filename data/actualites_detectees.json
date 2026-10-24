@@ -1721,5 +1721,30 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Cher Emmanuel Macron – Boxing Day #99",
+    "url": "https://www.blast-info.fr/articles/2026/cher-emmanuel-macron-boxing-day-99-IQxxkrfvRumVTI12mC2VhA",
+    "resume": "Dimanche 18 octobre , au lendemain d’une journée au cours de laquelle des centaines de milliers de personnes étaient descendues dans la rue pour exprimer, avec des modalités diverses, leur rejet de vos politiques et leur ras-le-bol de la vie chère, vous avez décidé de consacrer huit minutes de votre précieux temps, entre un concert de Céline Dion et une tournée chez les autocrates du golfe Persique, à nous expliquer, sur un ton grave et avec une mine affectée, ce que vous aviez compris des événements de la veille, c’est-à-dire : rien. Durant cette allocution aussi faussement solennelle que vraiment inutile, vous avez ainsi offert une…",
+    "date_detection": "24 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Santé",
+      "Énergie",
+      "Fiscalité",
+      "Écologie",
+      "Institutions / libertés publiques",
+      "Immigration",
+      "Travail"
+    ],
+    "candidats_mentions": [
+      "Marine Le Pen"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]
