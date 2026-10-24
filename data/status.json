@@ -1,6 +1,6 @@
 {
-  "last_checked_utc": "2026-10-23T20:30:53.802288+00:00",
-  "last_checked_fr": "23 octobre 2026",
+  "last_checked_utc": "2026-10-24T09:35:30.724286+00:00",
+  "last_checked_fr": "24 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
@@ -22,13 +22,13 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 5,
+      "detections": 4,
       "liens_examines": 16,
       "extractions_vides": 4,
       "liens_trouves": 115,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 5,
+        "nombre": 4,
         "articles": [
           {
             "type": "media_independant_investigation",
@@ -36,7 +36,7 @@
             "titre": "Élections de mi-mandat aux États-Unis: « il faut rétablir les contre-pouvoirs », clament à New York des manifestants anti-Trump, avant une échéance cruciale",
             "url": "https://www.blast-info.fr/articles/2026/elections-de-mi-mandat-aux-etats-unis-il-faut-retablir-les-contre-pouvoirs-clament-a-new-york-des-manifestants-anti-trump-avant-une-echeance-cruciale-Pv1nIlWiSTC2Dz78SznltA",
             "resume": "À moins de deux semaines des élections de mi-mandat, un vent de changement semble souffler aux États-Unis. Alors que Donald Trump dispose, depuis deux ans, d’un Congrès à sa botte où la majorité républicaine lui permet de faire à peu près ce qu’il veut, voici que le parti démocrate, fort de très bons sondages, se prend à rêver. Pourrait-il y avoir, le 3 novembre prochain, une vague bleue (la couleur des démocrates), comme bon nombre d’experts le projettent ?",
-            "date_detection": "23 octobre 2026",
+            "date_detection": "24 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -53,7 +53,7 @@
             "titre": "Loi intégrale : pour Madelaine Rousset, « criminaliser le travail du sexe ne l’élimine pas, il le rend moins visible »",
             "url": "https://www.blast-info.fr/articles/2026/loi-integrale-pour-madelaine-rousset-criminaliser-le-travail-du-sexe-ne-lelimine-pas-il-le-rend-moins-visible-lGhRyH2jTnudLJEjgZMboA",
             "resume": "Travail du sexe : leurs lois, vos libertés Ce mardi 13 octobre, l’Assemblée Nationale votait la Loi Intégrale. Parmi ceux-là, l’article 25, qui a alimenté de nombreuses controverses. Cet article prévoyait initialement d’étendre le modèle dit « nordique » (pénalisation du client et des proxénètes et reconnaissance des travailleurs et travailleuses du sexe en tant que victimes) aux activités sexuelles en ligne, comme c’est le cas actuellement pour la prostitution.",
-            "date_detection": "23 octobre 2026",
+            "date_detection": "24 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -73,7 +73,7 @@
             "titre": "17 octobre à Lyon : une introuvable « nébuleuse d’ultragauche »",
             "url": "https://www.blast-info.fr/articles/2026/17-octobre-a-lyon-une-introuvable-nebuleuse-dultragauche-NuSQ5vKpQ2CIq3YBAmLYCw",
             "resume": "Dimanche soir, dans le sillage d’un week-end de révoltes qui a éventré de nombreux magasins dans le centre-ville de Lyon — et incendié son office de tourisme — Ben* a voulu « faire le beau » sur Snapchat. Entre les abribus détruits et les poubelles cramées, il a ramassé une des bouteilles qui traînaient par terre, a enfoncé un mouchoir dedans et a tenté d’allumer ce pseudo « cocktail Molotov ». « Je n’ai même pas réussi » , plaide-t-il, « c’était pour une vidéo, pour faire rire mes Snapchateurs.",
-            "date_detection": "23 octobre 2026",
+            "date_detection": "24 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -94,24 +94,7 @@
             "titre": "17 octobre : des « milliers de casseurs » ? Au tribunal de Marseille, le mensonge s'effondre",
             "url": "https://www.blast-info.fr/articles/2026/17-octobre-des-milliers-de-casseurs-au-tribunal-de-marseille-le-mensonge-s-effondre-5QlmJBjtR66OfutlKThiFA",
             "resume": "Après un week-end de révolte laissant Marseille « défigurée » ou « en sang » selon les expressions lancées dans la cohue des plateaux télé, des trombes d’eau se sont abattues sur la ville. Le dense rideau de pluie a plongé la ville dans la pénombre, et les rues et les couloirs du tribunal judiciaire dans une morne ambiance, au moment où les prévenus des évènements du 17 octobre défilent en comparution immédiate. Ce 20 octobre, deux chambres sont entièrement dédiées aux comparutions immédiates (CI).",
-            "date_detection": "23 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Santé",
-              "Institutions / libertés publiques"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Affaire de blanchiment à Marseille : casting royal",
-            "url": "https://www.blast-info.fr/articles/2026/affaire-de-blanchiment-a-marseille-casting-royal-O0yZhkDzStywpEtKk72QRQ",
-            "resume": "Quartier délaissé par les municipalités successives depuis au moins l’après-guerre, la Belle-de-Mai, coincée entre la gare Saint-Charles et la passerelle de Plombières offre au promeneur qui s’aventure en son cœur un dédale de rues où alternent îlot arty , immeubles décatis, trottoirs défoncés et points de deal mouvants. Un concentré à l’extrême de ce qu’offre Marseille, avec la lointaine perspective d’une bouffée d’oxygène qu’accompagneraient la rénovation urbaine et une ligne de tramway tant de fois promise – et repoussée – pour désengorger ses maigres artères. Depuis quelques années, faute d’immobilier disponible, le palais de justice de…",
-            "date_detection": "23 octobre 2026",
+            "date_detection": "24 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -144,7 +127,7 @@
             "titre": "Reconnaissance faciale illégale : la police prise en flagrant délit",
             "url": "https://disclose.ngo/fr/article/reconnaissance-faciale-illegale-la-police-prise-en-flagrant-delit",
             "resume": "Les forces de l’ordre continuent d’utiliser quotidiennement la reconnaissance faciale lors de contrôles d’identité, révèlent une vidéo et des témoignages exclusifs obtenus par Disclose et France 2. Exploitée massivement et hors de tout cadre légal, cette technologie cible d’abord des personnes racisées et des militant·es politiques. Elle conduit aussi à des erreurs d’identification grossières, au risque de faire accuser des innocent·es.",
-            "date_detection": "23 octobre 2026",
+            "date_detection": "24 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -163,7 +146,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pfas-six-communes-des-ardennes-portent-plainte-pour-mise-en-danger-de-la-vie-dautrui",
             "resume": "Six communes des Ardennes ont porté plainte pour « mise en danger de la vie d’autrui » et « pollution de l’eau », mardi 7 avril, après avoir découvert l’ampleur de la contamination aux « polluants éternels » sur leur territoire. La procédure, qui s’appuie largement sur les enquêtes successives de Disclose, s’ajoute à trois autres plaintes enregistrées depuis l’été 2025. Dans les Ardennes et la Meuse, la riposte judiciaire s’organise face à la contamination aux PFAS révélée par Disclose et France 3.",
-            "date_detection": "23 octobre 2026",
+            "date_detection": "24 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -180,7 +163,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pollution-aux-pfas-deux-agriculteurs-des-ardennes-portent-plainte-et-demandent-des-comptes-a-letat",
             "resume": "Un couple de maraîchers des Ardennes a déposé plainte, vendredi 27 mars, pour « mise en danger de la vie d’autrui », après les révélations de Disclose et France 3 sur la contamination aux PFAS de leurs légumes et de leur sang. Deux autres plaintes ont été déposées ces derniers jours par des habitant·es de ce territoire, touché par l’une des plus graves pollutions industrielles connues en France. Dans leurs terres, leurs légumes, et jusque dans leur sang : les PFAS se sont immiscés partout chez les Abraham.",
-            "date_detection": "23 octobre 2026",
+            "date_detection": "24 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -198,7 +181,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/ventes-darmes-francaises-dans-la-guerre-au-yemen-pourquoi-disclose-saisit-la-cour-europeenne-des-droits-de-lhomme",
             "resume": "Disclose, Amnesty International et le Centre européen pour les droits humains et institutionnels s’attaquent au déni de démocratie de l’État français sur ses ventes d’armes aux régimes autoritaires responsables de crimes de guerre. Le 1er avril, elles ont déposé plainte pour violation des droits fondamentaux auprès de la Cour européenne des droits de l’Homme. La France refuse à Disclose, Amnesty International France et ECCHR d’accéder aux documents douaniers liés aux exportations d’armes françaises vers l’Arabie saoudite, les Émirats arabes unis et l’Égypte, soupçonnés de crimes de guerre au Yémen.",
-            "date_detection": "23 octobre 2026",
+            "date_detection": "24 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
@@ -214,7 +197,7 @@
             "titre": "Le gouvernement détourne les aides de l’Ademe pour financer l’un des plus gros pollueurs de France",
             "url": "https://disclose.ngo/fr/article/le-gouvernement-detourne-les-aides-de-lademe-pour-financer-lun-des-plus-gros-pollueurs-de-france",
             "resume": "Matignon et Bercy ont truqué deux appels à projets de l’Agence de la transition écologique (Ademe) pour financer le géant de la pétrochimie Ineos, révèle Disclose. La multinationale va toucher plus de 300 millions d’euros d’argent public pour soutenir l’activité d’une usine parmi les plus émettrices de CO2 en France. C’est un Emmanuel Macron tout à son aise qui parade devant un parterre de chef·fes d’entreprises réuni·es à l’Élysée, en ce jour d’octobre 2021.",
-            "date_detection": "23 octobre 2026",
+            "date_detection": "24 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Énergie",
@@ -232,14 +215,17 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 0,
+    "resumes": 3,
     "reutilises": 3,
-    "indisponibles": 8,
+    "indisponibles": 5,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {},
+    "rejets": {
+      "titre": 1
+    },
     "erreurs": {
-      "DelaiDepasse": 3
+      "ValueError": 1,
+      "DelaiDepasse": 1
     }
   },
   "publications_par_media": {
@@ -263,7 +249,7 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 54,
-    "pages_accessibles": 35,
+    "pages_accessibles": 36,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -273,7 +259,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 4
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,
