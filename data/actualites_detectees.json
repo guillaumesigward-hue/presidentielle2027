@@ -1746,5 +1746,45 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10338 Pres IV IPSOS BVA Le Parisien 24 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2357",
+    "date_detection": "25 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10337 Pres indices popularite executif CSA JDD 24 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2356",
+    "date_detection": "25 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Congrès du RN à Orléans : une mobilisation antifasciste massive",
+    "url": "https://www.blast-info.fr/articles/2026/congres-du-rn-a-orleans-une-mobilisation-antifasciste-massive-yvA0Df95RY-lSpaKBJCebg",
+    "resume": "Devant la gare d’Austerlitz, une pluie fine bat le pavé. Voie 5, le train à destination d’Orléans attend ses voyageurs. Au bout du quai, policiers et sûreté ferroviaire sont alertes.",
+    "date_detection": "25 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Écologie",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [
+      "Bruno Retailleau",
+      "Jordan Bardella",
+      "Olivier Faure"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]

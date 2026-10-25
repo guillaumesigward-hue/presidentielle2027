@@ -868,5 +868,25 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Congrès du RN à Orléans : une mobilisation antifasciste massive",
+    "url": "https://www.blast-info.fr/articles/2026/congres-du-rn-a-orleans-une-mobilisation-antifasciste-massive-yvA0Df95RY-lSpaKBJCebg",
+    "resume": "Devant la gare d’Austerlitz, une pluie fine bat le pavé. Voie 5, le train à destination d’Orléans attend ses voyageurs. Au bout du quai, policiers et sûreté ferroviaire sont alertes.",
+    "date_detection": "25 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Écologie",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [
+      "Bruno Retailleau",
+      "Jordan Bardella",
+      "Olivier Faure"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

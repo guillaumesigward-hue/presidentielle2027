@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-10-25T09:50:56.752294+00:00",
+  "last_checked_utc": "2026-10-25T19:39:00.689107+00:00",
   "last_checked_fr": "25 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 200,
-      "dernier_id_detecte": 2355,
+      "notices_detectees": 202,
+      "dernier_id_detecte": 2357,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -22,14 +22,36 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 3,
+      "detections": 4,
       "liens_examines": 16,
       "extractions_vides": 4,
       "liens_trouves": 115,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 3,
+        "nombre": 4,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Congrès du RN à Orléans : une mobilisation antifasciste massive",
+            "url": "https://www.blast-info.fr/articles/2026/congres-du-rn-a-orleans-une-mobilisation-antifasciste-massive-yvA0Df95RY-lSpaKBJCebg",
+            "resume": "Devant la gare d’Austerlitz, une pluie fine bat le pavé. Voie 5, le train à destination d’Orléans attend ses voyageurs. Au bout du quai, policiers et sûreté ferroviaire sont alertes.",
+            "date_detection": "25 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Écologie",
+              "Institutions / libertés publiques"
+            ],
+            "candidats_mentions": [
+              "Bruno Retailleau",
+              "Jordan Bardella",
+              "Olivier Faure"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -202,14 +224,18 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 2,
+    "resumes": 4,
     "reutilises": 3,
-    "indisponibles": 6,
+    "indisponibles": 4,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {},
+    "rejets": {
+      "copie": 1,
+      "titre": 1,
+      "noms": 1
+    },
     "erreurs": {
-      "DelaiDepasse": 2
+      "ValueError": 4
     }
   },
   "publications_par_media": {
@@ -220,14 +246,14 @@
     "notices_examinees": 8,
     "scenarios_extraits": 0,
     "non_exploitables": [
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2357",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2352",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2351",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2347",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2346",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2343",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2339",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2325",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2321"
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2325"
     ],
     "nouvelles_personnes_testees": 0
   },
