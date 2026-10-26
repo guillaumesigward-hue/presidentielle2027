@@ -1,6 +1,6 @@
 {
-  "last_checked_utc": "2026-10-25T19:39:00.689107+00:00",
-  "last_checked_fr": "25 octobre 2026",
+  "last_checked_utc": "2026-10-26T11:10:21.815757+00:00",
+  "last_checked_fr": "26 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
@@ -22,13 +22,13 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 4,
+      "detections": 6,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 115,
+      "liens_trouves": 116,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 4,
+        "nombre": 6,
         "articles": [
           {
             "type": "media_independant_investigation",
@@ -36,7 +36,7 @@
             "titre": "Congrès du RN à Orléans : une mobilisation antifasciste massive",
             "url": "https://www.blast-info.fr/articles/2026/congres-du-rn-a-orleans-une-mobilisation-antifasciste-massive-yvA0Df95RY-lSpaKBJCebg",
             "resume": "Devant la gare d’Austerlitz, une pluie fine bat le pavé. Voie 5, le train à destination d’Orléans attend ses voyageurs. Au bout du quai, policiers et sûreté ferroviaire sont alertes.",
-            "date_detection": "25 octobre 2026",
+            "date_detection": "26 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -58,7 +58,7 @@
             "titre": "Cher Emmanuel Macron – Boxing Day #99",
             "url": "https://www.blast-info.fr/articles/2026/cher-emmanuel-macron-boxing-day-99-IQxxkrfvRumVTI12mC2VhA",
             "resume": "Dimanche 18 octobre , au lendemain d’une journée au cours de laquelle des centaines de milliers de personnes étaient descendues dans la rue pour exprimer, avec des modalités diverses, leur rejet de vos politiques et leur ras-le-bol de la vie chère, vous avez décidé de consacrer huit minutes de votre précieux temps, entre un concert de Céline Dion et une tournée chez les autocrates du golfe Persique, à nous expliquer, sur un ton grave et avec une mine affectée, ce que vous aviez compris des événements de la veille, c’est-à-dire : rien. Durant cette allocution aussi faussement solennelle que vraiment inutile, vous avez ainsi offert une…",
-            "date_detection": "25 octobre 2026",
+            "date_detection": "26 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -83,7 +83,7 @@
             "titre": "Élections de mi-mandat aux États-Unis: « il faut rétablir les contre-pouvoirs », clament à New York des manifestants anti-Trump, avant une échéance cruciale",
             "url": "https://www.blast-info.fr/articles/2026/elections-de-mi-mandat-aux-etats-unis-il-faut-retablir-les-contre-pouvoirs-clament-a-new-york-des-manifestants-anti-trump-avant-une-echeance-cruciale-Pv1nIlWiSTC2Dz78SznltA",
             "resume": "À moins de deux semaines des élections de mi-mandat, un vent de changement semble souffler aux États-Unis. Alors que Donald Trump dispose, depuis deux ans, d’un Congrès à sa botte où la majorité républicaine lui permet de faire à peu près ce qu’il veut, voici que le parti démocrate, fort de très bons sondages, se prend à rêver. Pourrait-il y avoir, le 3 novembre prochain, une vague bleue (la couleur des démocrates), comme bon nombre d’experts le projettent ?",
-            "date_detection": "25 octobre 2026",
+            "date_detection": "26 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -100,7 +100,7 @@
             "titre": "Loi intégrale : pour Madelaine Rousset, « criminaliser le travail du sexe ne l’élimine pas, il le rend moins visible »",
             "url": "https://www.blast-info.fr/articles/2026/loi-integrale-pour-madelaine-rousset-criminaliser-le-travail-du-sexe-ne-lelimine-pas-il-le-rend-moins-visible-lGhRyH2jTnudLJEjgZMboA",
             "resume": "Travail du sexe : leurs lois, vos libertés Ce mardi 13 octobre, l’Assemblée Nationale votait la Loi Intégrale. Parmi ceux-là, l’article 25, qui a alimenté de nombreuses controverses. Cet article prévoyait initialement d’étendre le modèle dit « nordique » (pénalisation du client et des proxénètes et reconnaissance des travailleurs et travailleuses du sexe en tant que victimes) aux activités sexuelles en ligne, comme c’est le cas actuellement pour la prostitution.",
-            "date_detection": "25 octobre 2026",
+            "date_detection": "26 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -108,6 +108,22 @@
               "Institutions / libertés publiques",
               "Immigration",
               "Travail"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "24 octobre : une foule massive malgré les menaces du gouvernement",
+            "url": "https://www.blast-info.fr/emissions/2026/24-octobre-une-foule-massive-malgre-les-menaces-du-gouvernement-4zWNsog_QPO6Z6PDoTHf3Q",
+            "resume": "Malgré une semaine de matraquage médiatique sur le renforcement sécuritaire, les tentatives répétées du gouvernement pour instaurer un climat de peur, plusieurs interdictions de manifester et un changement de trajet en toute dernière minute, c'est un cortège immense qui s'est déployé à Paris ce samedi 24 octobre, pour l'acte II de la mobilisation nationale contre la vie chère. Étudiants, lycéens, travailleurs, gilets jaunes : ont pris la rue avec un mot d'ordre commun : dehors Macron ! Crédits photo/illustration en haut de page : Morgane Sabouret / Margaux Simon",
+            "date_detection": "26 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Écologie"
             ],
             "candidats_mentions": [],
             "statut": "À vérifier manuellement",
@@ -136,7 +152,7 @@
             "titre": "Reconnaissance faciale illégale : la police prise en flagrant délit",
             "url": "https://disclose.ngo/fr/article/reconnaissance-faciale-illegale-la-police-prise-en-flagrant-delit",
             "resume": "Les forces de l’ordre continuent d’utiliser quotidiennement la reconnaissance faciale lors de contrôles d’identité, révèlent une vidéo et des témoignages exclusifs obtenus par Disclose et France 2. Exploitée massivement et hors de tout cadre légal, cette technologie cible d’abord des personnes racisées et des militant·es politiques. Elle conduit aussi à des erreurs d’identification grossières, au risque de faire accuser des innocent·es.",
-            "date_detection": "25 octobre 2026",
+            "date_detection": "26 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -155,7 +171,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pfas-six-communes-des-ardennes-portent-plainte-pour-mise-en-danger-de-la-vie-dautrui",
             "resume": "Six communes des Ardennes ont porté plainte pour « mise en danger de la vie d’autrui » et « pollution de l’eau », mardi 7 avril, après avoir découvert l’ampleur de la contamination aux « polluants éternels » sur leur territoire. La procédure, qui s’appuie largement sur les enquêtes successives de Disclose, s’ajoute à trois autres plaintes enregistrées depuis l’été 2025. Dans les Ardennes et la Meuse, la riposte judiciaire s’organise face à la contamination aux PFAS révélée par Disclose et France 3.",
-            "date_detection": "25 octobre 2026",
+            "date_detection": "26 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -172,7 +188,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pollution-aux-pfas-deux-agriculteurs-des-ardennes-portent-plainte-et-demandent-des-comptes-a-letat",
             "resume": "Un couple de maraîchers des Ardennes a déposé plainte, vendredi 27 mars, pour « mise en danger de la vie d’autrui », après les révélations de Disclose et France 3 sur la contamination aux PFAS de leurs légumes et de leur sang. Deux autres plaintes ont été déposées ces derniers jours par des habitant·es de ce territoire, touché par l’une des plus graves pollutions industrielles connues en France. Dans leurs terres, leurs légumes, et jusque dans leur sang : les PFAS se sont immiscés partout chez les Abraham.",
-            "date_detection": "25 octobre 2026",
+            "date_detection": "26 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -190,7 +206,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/ventes-darmes-francaises-dans-la-guerre-au-yemen-pourquoi-disclose-saisit-la-cour-europeenne-des-droits-de-lhomme",
             "resume": "Disclose, Amnesty International et le Centre européen pour les droits humains et institutionnels s’attaquent au déni de démocratie de l’État français sur ses ventes d’armes aux régimes autoritaires responsables de crimes de guerre. Le 1er avril, elles ont déposé plainte pour violation des droits fondamentaux auprès de la Cour européenne des droits de l’Homme. La France refuse à Disclose, Amnesty International France et ECCHR d’accéder aux documents douaniers liés aux exportations d’armes françaises vers l’Arabie saoudite, les Émirats arabes unis et l’Égypte, soupçonnés de crimes de guerre au Yémen.",
-            "date_detection": "25 octobre 2026",
+            "date_detection": "26 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
@@ -206,7 +222,7 @@
             "titre": "Le gouvernement détourne les aides de l’Ademe pour financer l’un des plus gros pollueurs de France",
             "url": "https://disclose.ngo/fr/article/le-gouvernement-detourne-les-aides-de-lademe-pour-financer-lun-des-plus-gros-pollueurs-de-france",
             "resume": "Matignon et Bercy ont truqué deux appels à projets de l’Agence de la transition écologique (Ademe) pour financer le géant de la pétrochimie Ineos, révèle Disclose. La multinationale va toucher plus de 300 millions d’euros d’argent public pour soutenir l’activité d’une usine parmi les plus émettrices de CO2 en France. C’est un Emmanuel Macron tout à son aise qui parade devant un parterre de chef·fes d’entreprises réuni·es à l’Élysée, en ce jour d’octobre 2021.",
-            "date_detection": "25 octobre 2026",
+            "date_detection": "26 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Énergie",
@@ -224,18 +240,14 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 4,
-    "reutilises": 3,
-    "indisponibles": 4,
+    "resumes": 1,
+    "reutilises": 4,
+    "indisponibles": 6,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {
-      "copie": 1,
-      "titre": 1,
-      "noms": 1
-    },
+    "rejets": {},
     "erreurs": {
-      "ValueError": 4
+      "DelaiDepasse": 2
     }
   },
   "publications_par_media": {

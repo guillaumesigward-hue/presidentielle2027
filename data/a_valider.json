@@ -888,5 +888,31 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Rouen : un candidat de centre droit aux municipales parmi les « milices » de défense des commerçants",
+    "url": "https://www.blast-info.fr/articles/2026/rouen-un-candidat-de-centre-droit-aux-municipales-parmi-les-milices-de-defense-des-commercants--k_G7UzNSQCPycwwYzAD0w",
+    "resume": "",
+    "date_detection": "26 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "24 octobre : une foule massive malgré les menaces du gouvernement",
+    "url": "https://www.blast-info.fr/emissions/2026/24-octobre-une-foule-massive-malgre-les-menaces-du-gouvernement-4zWNsog_QPO6Z6PDoTHf3Q",
+    "resume": "Malgré une semaine de matraquage médiatique sur le renforcement sécuritaire, les tentatives répétées du gouvernement pour instaurer un climat de peur, plusieurs interdictions de manifester et un changement de trajet en toute dernière minute, c'est un cortège immense qui s'est déployé à Paris ce samedi 24 octobre, pour l'acte II de la mobilisation nationale contre la vie chère. Étudiants, lycéens, travailleurs, gilets jaunes : ont pris la rue avec un mot d'ordre commun : dehors Macron ! Crédits photo/illustration en haut de page : Morgane Sabouret / Margaux Simon",
+    "date_detection": "26 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Écologie"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
