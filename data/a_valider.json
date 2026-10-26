@@ -914,5 +914,35 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Élections en Israël : les Palestiniens perdants d’avance, avec ou sans Netanyahu",
+    "url": "https://www.blast-info.fr/articles/2026/elections-en-israel-les-palestiniens-perdants-davance-avec-ou-sans-netanyahu--TOiDYsDS_G7hgBx7TzfWg",
+    "resume": "D’un côté, la coalition de partis menée par le Premier ministre, Benjamin Netanyahu. De l’autre, son principal adversaire, Gadi Eisenkot (centre), ancien chef d’état-major de l’armée israélienne. Selon les sondages, aucun des deux blocs n’atteindrait les 61 sièges sur 120 nécessaires pour gouverner.",
+    "date_detection": "26 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Écologie",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "🦏 17 octobre : les médias et l'État sortent l’artillerie lourde",
+    "url": "https://www.blast-info.fr/emissions/2026/17-octobre-les-medias-et-l-etat-sortent-lartillerie-lourde-lUgWljk8TJS_mUtWAHPetg",
+    "resume": "Dans ce nouvel épisode de Rhinocéros, retour sur les événements du 17 octobre et sur le rôle qu’y ont joué les médias. Une journée évidemment chaotique, en particulier sur les chaînes d’info, qui recevaient et diffusaient des images incompréhensibles. Pour les commenter, les plateaux ont fait défiler les experts en sécurité, puis les représentants du RN, avant de laisser la place aux syndicats de police, dont les propos ont comme d’habitude saturé les antennes.",
+    "date_detection": "26 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques",
+      "Travail"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
