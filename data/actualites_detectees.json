@@ -1850,5 +1850,23 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10340 Pres Barometre politique ODOXA 27 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2359",
+    "date_detection": "27 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10339 Pres IV CLUSTER17 Politico 26 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2358",
+    "date_detection": "27 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
   }
 ]

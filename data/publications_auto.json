@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-26T21:42:26.024227+00:00",
+  "last_checked_utc": "2026-10-27T10:34:42.767271+00:00",
   "articles": [
     {
       "titre": "Élections en Israël : les Palestiniens perdants d’avance, avec ou sans Netanyahu",
@@ -15,7 +15,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-26T21:42:26.024227+00:00",
+      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -39,11 +39,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-26T21:42:26.024227+00:00",
-      "resume_tente_utc": "2026-10-26T21:48:49.949215+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
+      "resume_tente_utc": "2026-10-27T10:43:54.620945+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume": "Selon Blast, une manifestation massive contre le Rassemblement national (RN) s'est tenue à Orléans le 24 octobre. Près de 30 000 personnes, représentant divers mouvements sociaux et politiques, ont participé à cette mobilisation antifasciste. La ville était sous haute surveillance avec des contrôles stricts et des mesures de sécurité renforcées.\n\nLe Rassemblement national n'a pas fait de déclaration publique sur la manifestation. Le maire de Trappes, Ali Rabeh, a remercié les participants pour leur engagement contre le discours raciste. La présence policière a empêché les manifestants d'accéder au lieu du congrès du RN.",
+      "resume_empreinte": "e8cb1489f8a0284d9218aba1723d5ce36192b73c83932235b9b6d9020e823d37",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "🦏 17 octobre : les médias et l'État sortent l’artillerie lourde",
@@ -59,7 +61,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-26T21:42:26.024227+00:00",
+      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -76,7 +78,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-26T21:42:26.024227+00:00",
+      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -102,7 +104,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-26T21:42:26.024227+00:00",
+      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
       "resume_tente_utc": "2026-10-25T20:13:07.041037+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -124,7 +126,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-26T21:42:26.024227+00:00",
+      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
       "resume_tente_utc": "2026-10-25T20:15:42.904329+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -149,11 +151,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-26T21:42:26.024227+00:00",
-      "resume_tente_utc": "2026-10-26T21:43:17.467815+00:00",
+      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
+      "resume_tente_utc": "2026-10-27T10:35:33.381220+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Blast, la Loi Intégrale votée le 13 octobre par l'Assemblée Nationale a modifié l'article 25, initialement prévu pour criminaliser les activités sexuelles en ligne. L'amendement adopté vise désormais uniquement les situations d'exploitation sexuelle en ligne avérées, basées sur le principe de la traite des êtres humains.\n\nLe gouvernement a proposé un amendement qui a été adopté, mais les associations de défense des travailleuses du sexe critiquent cette loi pour sa criminalisation indirecte et sa répression des droits des travailleuses du sexe. Aucune réponse officielle n'est donnée dans l'article concernant ces critiques.",
+      "resume": "Selon Blast, la Loi Intégrale votée le 13 octobre par l'Assemblée Nationale modifie l'article 25, qui initialement visait à criminaliser les activités sexuelles en ligne. L'amendement adopté la semaine précédente limite désormais la pénalisation aux situations d'exploitation sexuelle en ligne avérées, basées sur le principe de la traite des êtres humains.\n\nLe gouvernement a proposé un amendement qui a été adopté, mais les associations de défense des travailleuses du sexe critiquent toujours le modèle abolitionniste. Elles soulignent que la criminalisation indirecte du travail du sexe en ligne a des conséquences négatives sur la protection des travailleuses du sexe et sur leur capacité à exercer leur activité dans des conditions décentes.",
       "resume_empreinte": "429bd11527103dac849cdc727e4b7f1d38357295680dabc1c1544017df6b25c2",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
@@ -173,11 +175,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-26T21:42:26.024227+00:00",
-      "resume_tente_utc": "2026-10-26T22:01:34.874264+00:00",
+      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
+      "resume_tente_utc": "2026-10-27T10:53:02.833188+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "DelaiDepasse"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -193,7 +195,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-26T21:42:26.024227+00:00",
+      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -217,7 +219,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-26T21:42:26.024227+00:00",
+      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
       "resume_tente_utc": "2026-10-20T10:46:15.750217+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -241,8 +243,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-26T21:42:26.024227+00:00",
-      "resume_tente_utc": "2026-10-26T22:18:10.754988+00:00",
+      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
+      "resume_tente_utc": "2026-10-27T11:13:13.345996+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "DelaiDepasse"
