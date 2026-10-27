@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-27T10:34:42.767271+00:00",
+  "last_checked_utc": "2026-10-27T21:22:08.761918+00:00",
   "articles": [
     {
       "titre": "Élections en Israël : les Palestiniens perdants d’avance, avec ou sans Netanyahu",
@@ -15,9 +15,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-10-27T21:22:08.761918+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume_tente_utc": "2026-10-27T21:59:39.235151+00:00",
+      "resume": "Selon Blast, les élections israéliennes de 2025 se déroulent dans un contexte de défiance envers les institutions et de radicalisation politique. Les sondages indiquent que ni le bloc de Benjamin Netanyahu ni celui de Gadi Eisenkot ne peuvent atteindre la majorité absolue sans l'aide des partis arabes, qui sont les seuls à vouloir réellement prendre en compte la souffrance des Palestiniens. Cependant, les deux blocs refusent de s'allier avec eux.\n\nMiriam Azem, coordinatrice du plaidoyer international d'Adalah, affirme que la situation actuelle ne changera pas, peu importe le résultat des élections. Elle souligne que les Palestiniens continueront d'être traités comme une menace et que l'offensive contre Gaza se poursuivra. La seule éclaircie possible serait que certains ministres perdent leur poste, sans changer la direction générale de la politique.",
+      "resume_empreinte": "6e8f44c95c1d8840f84ce1a15ee0a06d154e948ab65d9e84a691c3e076a90baa",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Congrès du RN à Orléans : une mobilisation antifasciste massive",
@@ -39,7 +43,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
+      "derniere_verification_utc": "2026-10-27T21:22:08.761918+00:00",
       "resume_tente_utc": "2026-10-27T10:43:54.620945+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -61,9 +65,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
+      "derniere_verification_utc": "2026-10-27T21:22:08.761918+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_tente_utc": "2026-10-27T22:04:44.900784+00:00",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "24 octobre : une foule massive malgré les menaces du gouvernement",
@@ -78,7 +84,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
+      "derniere_verification_utc": "2026-10-27T21:22:08.761918+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -104,7 +110,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
+      "derniere_verification_utc": "2026-10-27T21:22:08.761918+00:00",
       "resume_tente_utc": "2026-10-25T20:13:07.041037+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -126,7 +132,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
+      "derniere_verification_utc": "2026-10-27T21:22:08.761918+00:00",
       "resume_tente_utc": "2026-10-25T20:15:42.904329+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -151,11 +157,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
-      "resume_tente_utc": "2026-10-27T10:35:33.381220+00:00",
+      "derniere_verification_utc": "2026-10-27T21:22:08.761918+00:00",
+      "resume_tente_utc": "2026-10-27T21:22:59.320146+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Blast, la Loi Intégrale votée le 13 octobre par l'Assemblée Nationale modifie l'article 25, qui initialement visait à criminaliser les activités sexuelles en ligne. L'amendement adopté la semaine précédente limite désormais la pénalisation aux situations d'exploitation sexuelle en ligne avérées, basées sur le principe de la traite des êtres humains.\n\nLe gouvernement a proposé un amendement qui a été adopté, mais les associations de défense des travailleuses du sexe critiquent toujours le modèle abolitionniste. Elles soulignent que la criminalisation indirecte du travail du sexe en ligne a des conséquences négatives sur la protection des travailleuses du sexe et sur leur capacité à exercer leur activité dans des conditions décentes.",
+      "resume": "Selon Blast, la Loi Intégrale votée le 13 octobre par l'Assemblée Nationale a modifié l'article 25, initialement prévu pour criminaliser les activités sexuelles en ligne. L'amendement adopté vise désormais uniquement les situations d'exploitation sexuelle en ligne avérées, basées sur le principe de la traite des êtres humains.\n\nLe gouvernement a proposé un amendement qui a été adopté, mais les associations de défense des travailleuses du sexe critiquent cette loi pour sa criminalisation indirecte et sa répression des droits des travailleuses du sexe. Aucune réponse officielle n'est donnée dans l'article concernant ces critiques.",
       "resume_empreinte": "429bd11527103dac849cdc727e4b7f1d38357295680dabc1c1544017df6b25c2",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
@@ -175,11 +181,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
-      "resume_tente_utc": "2026-10-27T10:53:02.833188+00:00",
+      "derniere_verification_utc": "2026-10-27T21:22:08.761918+00:00",
+      "resume_tente_utc": "2026-10-27T21:29:35.701503+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -195,7 +201,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
+      "derniere_verification_utc": "2026-10-27T21:22:08.761918+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -219,7 +225,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
+      "derniere_verification_utc": "2026-10-27T21:22:08.761918+00:00",
       "resume_tente_utc": "2026-10-20T10:46:15.750217+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -243,11 +249,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-27T10:34:42.767271+00:00",
-      "resume_tente_utc": "2026-10-27T11:13:13.345996+00:00",
+      "derniere_verification_utc": "2026-10-27T21:22:08.761918+00:00",
+      "resume_tente_utc": "2026-10-27T21:45:31.178103+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     }
   ]
 }

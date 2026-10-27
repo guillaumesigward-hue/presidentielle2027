@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-10-27T10:34:42.767271+00:00",
+  "last_checked_utc": "2026-10-27T21:22:08.761918+00:00",
   "last_checked_fr": "27 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 204,
-      "dernier_id_detecte": 2359,
+      "notices_detectees": 205,
+      "dernier_id_detecte": 2360,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -238,13 +238,16 @@
   },
   "resumes_automatiques": {
     "resumes": 2,
-    "reutilises": 4,
-    "indisponibles": 5,
+    "reutilises": 5,
+    "indisponibles": 4,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {},
+    "rejets": {
+      "copie": 2,
+      "titre": 1
+    },
     "erreurs": {
-      "DelaiDepasse": 2
+      "ValueError": 3
     }
   },
   "publications_par_media": {
@@ -269,7 +272,7 @@
   "campagnes_automatiques": {
     "pages_examinees": 54,
     "pages_accessibles": 36,
-    "propositions_extraites": 2,
+    "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
