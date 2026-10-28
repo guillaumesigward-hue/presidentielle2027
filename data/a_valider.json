@@ -944,5 +944,35 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Alpha Rise : de l’« entraide citoyenne » à la création de milices d’extrême droite",
+    "url": "https://www.blast-info.fr/articles/2026/alpha-rise-de-l-entraide-citoyenne-a-la-creation-de-milices-dextreme-droite-0Nww4QlVTHK77WI6QOSl8Q",
+    "resume": "« Si, lors d’une prochaine manifestation, vous voulez défendre votre business et que vous êtes seul, je viendrai vous aider. Et je ne serai pas le seul, je serai accompagné. Vu que l’État ne fait pas son travail, il va falloir qu’on le fasse à sa place » .",
+    "date_detection": "28 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques",
+      "Immigration",
+      "Travail"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "24 octobre : police et fascistes main dans la main pour réprimer les manifestations ?",
+    "url": "https://www.blast-info.fr/articles/2026/24-octobre-police-et-fascistes-main-dans-la-main-pour-reprimer-les-manifestations-fzJfF92HSEuJoKy5lh0idA",
+    "resume": "Trois hommes s’en prennent violemment à un jeune, en marge d’une manifestation. Le jeune homme est mis au sol, et un des agresseurs lui assène trois coups de pied. Non pas pour faire cesser l’agression, mais pour interpeller la victime.",
+    "date_detection": "28 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
