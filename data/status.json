@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-10-29T11:32:51.704897+00:00",
+  "last_checked_utc": "2026-10-29T21:50:29.603198+00:00",
   "last_checked_fr": "29 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 207,
-      "dernier_id_detecte": 2363,
+      "notices_detectees": 208,
+      "dernier_id_detecte": 2364,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -22,14 +22,32 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 7,
+      "detections": 8,
       "liens_examines": 16,
       "extractions_vides": 4,
       "liens_trouves": 116,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 7,
+        "nombre": 8,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Alpha Rise : de l’« entraide citoyenne » à la création de milices d’extrême droite",
+            "url": "https://www.blast-info.fr/articles/2026/alpha-rise-de-l-entraide-citoyenne-a-la-creation-de-milices-dextreme-droite-0Nww4QlVTHK77WI6QOSl8Q",
+            "resume": "« Si, lors d’une prochaine manifestation, vous voulez défendre votre business et que vous êtes seul, je viendrai vous aider. Et je ne serai pas le seul, je serai accompagné. Vu que l’État ne fait pas son travail, il va falloir qu’on le fasse à sa place » .",
+            "date_detection": "29 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Institutions / libertés publiques",
+              "Immigration",
+              "Travail"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -80,31 +98,6 @@
               "Bruno Retailleau",
               "Jordan Bardella",
               "Olivier Faure"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Cher Emmanuel Macron – Boxing Day #99",
-            "url": "https://www.blast-info.fr/articles/2026/cher-emmanuel-macron-boxing-day-99-IQxxkrfvRumVTI12mC2VhA",
-            "resume": "Dimanche 18 octobre , au lendemain d’une journée au cours de laquelle des centaines de milliers de personnes étaient descendues dans la rue pour exprimer, avec des modalités diverses, leur rejet de vos politiques et leur ras-le-bol de la vie chère, vous avez décidé de consacrer huit minutes de votre précieux temps, entre un concert de Céline Dion et une tournée chez les autocrates du golfe Persique, à nous expliquer, sur un ton grave et avec une mine affectée, ce que vous aviez compris des événements de la veille, c’est-à-dire : rien. Durant cette allocution aussi faussement solennelle que vraiment inutile, vous avez ainsi offert une…",
-            "date_detection": "29 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École",
-              "Santé",
-              "Énergie",
-              "Fiscalité",
-              "Écologie",
-              "Institutions / libertés publiques",
-              "Immigration",
-              "Travail"
-            ],
-            "candidats_mentions": [
-              "Marine Le Pen"
             ],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
@@ -237,17 +230,18 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 0,
-    "reutilises": 5,
-    "indisponibles": 6,
+    "resumes": 2,
+    "reutilises": 4,
+    "indisponibles": 5,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
-      "noms": 1
+      "titre": 1,
+      "copie": 2
     },
     "erreurs": {
-      "ValueError": 1,
-      "DelaiDepasse": 2
+      "ValueError": 3,
+      "DelaiDepasse": 1
     }
   },
   "publications_par_media": {
@@ -270,8 +264,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 59,
-    "pages_accessibles": 41,
+    "pages_examinees": 57,
+    "pages_accessibles": 40,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -280,8 +274,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 10,
-        "accessibles": 7
+        "examinees": 8,
+        "accessibles": 6
       },
       "Fabien Roussel": {
         "examinees": 6,

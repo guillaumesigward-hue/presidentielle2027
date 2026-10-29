@@ -1938,5 +1938,55 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10344 Pres Mobilisation lycéens annonces du gouvernement ODOXA 29 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2364",
+    "date_detection": "29 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "L'antisémitisme au RN: un passé qui ne passe pas",
+    "url": "https://www.blast-info.fr/articles/2026/l-antisemitisme-au-rn-un-passe-qui-ne-passe-pas-QXmsUYH8SaCebkMdhDywaQ",
+    "resume": "Le 28 septembre dernier, le site d’information Mediapart a exhumé des messages antisémites de Jordan Bardella dans lesquels le président du Rassemblement national (RN) écrivait par exemple, au début des années 2010 (1) : « Les banques sont toutes détenus par des Juifs. Ou : « Le juif doit dominé les autres peuples, les ecraser et les voler, un sioniste est forcément juif, et en profondeur. En France, deux bels exemples sont BHL ou Attali.",
+    "date_detection": "29 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Énergie",
+      "Institutions / libertés publiques",
+      "Immigration"
+    ],
+    "candidats_mentions": [
+      "Jean-Luc Mélenchon",
+      "Marine Le Pen",
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "INFO BLAST – Ingérence étrangère : Vincent Bolloré finance la future agence de presse de Xenia Fedorova",
+    "url": "https://www.blast-info.fr/articles/2026/info-blast-ingerence-etrangere-vincent-bollore-finance-la-future-agence-de-presse-de-xenia-fedorova-jLOs0l1WQSKduEFXGuS2xg",
+    "resume": "C'est depuis son compte personnel que Vincent Bolloré aurait versé de l'argent à Xenia Fedorova . Selon nos informations, l'homme d'affaires breton a effectué deux virements, en juin et juillet, de plusieurs dizaines de milliers d'euros chacun à l'ancienne dirigeante de la chaîne d'État russe. Ses avoirs en France sont gelés pour six mois depuis le 31 juillet.",
+    "date_detection": "29 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques",
+      "Immigration"
+    ],
+    "candidats_mentions": [
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]
