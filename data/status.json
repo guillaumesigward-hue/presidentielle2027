@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-10-28T21:39:59.437557+00:00",
-  "last_checked_fr": "28 octobre 2026",
+  "last_checked_utc": "2026-10-29T11:32:51.704897+00:00",
+  "last_checked_fr": "29 octobre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 206,
-      "dernier_id_detecte": 2362,
+      "notices_detectees": 207,
+      "dernier_id_detecte": 2363,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -36,7 +36,7 @@
             "titre": "24 octobre : police et fascistes main dans la main pour réprimer les manifestations ?",
             "url": "https://www.blast-info.fr/articles/2026/24-octobre-police-et-fascistes-main-dans-la-main-pour-reprimer-les-manifestations-fzJfF92HSEuJoKy5lh0idA",
             "resume": "Trois hommes s’en prennent violemment à un jeune, en marge d’une manifestation. Le jeune homme est mis au sol, et un des agresseurs lui assène trois coups de pied. Non pas pour faire cesser l’agression, mais pour interpeller la victime.",
-            "date_detection": "28 octobre 2026",
+            "date_detection": "29 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
@@ -52,7 +52,7 @@
             "titre": "Élections en Israël : les Palestiniens perdants d’avance, avec ou sans Netanyahu",
             "url": "https://www.blast-info.fr/articles/2026/elections-en-israel-les-palestiniens-perdants-davance-avec-ou-sans-netanyahu--TOiDYsDS_G7hgBx7TzfWg",
             "resume": "D’un côté, la coalition de partis menée par le Premier ministre, Benjamin Netanyahu. De l’autre, son principal adversaire, Gadi Eisenkot (centre), ancien chef d’état-major de l’armée israélienne. Selon les sondages, aucun des deux blocs n’atteindrait les 61 sièges sur 120 nécessaires pour gouverner.",
-            "date_detection": "28 octobre 2026",
+            "date_detection": "29 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -69,7 +69,7 @@
             "titre": "Congrès du RN à Orléans : une mobilisation antifasciste massive",
             "url": "https://www.blast-info.fr/articles/2026/congres-du-rn-a-orleans-une-mobilisation-antifasciste-massive-yvA0Df95RY-lSpaKBJCebg",
             "resume": "Devant la gare d’Austerlitz, une pluie fine bat le pavé. Voie 5, le train à destination d’Orléans attend ses voyageurs. Au bout du quai, policiers et sûreté ferroviaire sont alertes.",
-            "date_detection": "28 octobre 2026",
+            "date_detection": "29 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -91,7 +91,7 @@
             "titre": "Cher Emmanuel Macron – Boxing Day #99",
             "url": "https://www.blast-info.fr/articles/2026/cher-emmanuel-macron-boxing-day-99-IQxxkrfvRumVTI12mC2VhA",
             "resume": "Dimanche 18 octobre , au lendemain d’une journée au cours de laquelle des centaines de milliers de personnes étaient descendues dans la rue pour exprimer, avec des modalités diverses, leur rejet de vos politiques et leur ras-le-bol de la vie chère, vous avez décidé de consacrer huit minutes de votre précieux temps, entre un concert de Céline Dion et une tournée chez les autocrates du golfe Persique, à nous expliquer, sur un ton grave et avec une mine affectée, ce que vous aviez compris des événements de la veille, c’est-à-dire : rien. Durant cette allocution aussi faussement solennelle que vraiment inutile, vous avez ainsi offert une…",
-            "date_detection": "28 octobre 2026",
+            "date_detection": "29 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -116,7 +116,7 @@
             "titre": "🦏 17 octobre : les médias et l'État sortent l’artillerie lourde",
             "url": "https://www.blast-info.fr/emissions/2026/17-octobre-les-medias-et-l-etat-sortent-lartillerie-lourde-lUgWljk8TJS_mUtWAHPetg",
             "resume": "Dans ce nouvel épisode de Rhinocéros, retour sur les événements du 17 octobre et sur le rôle qu’y ont joué les médias. Une journée évidemment chaotique, en particulier sur les chaînes d’info, qui recevaient et diffusaient des images incompréhensibles. Pour les commenter, les plateaux ont fait défiler les experts en sécurité, puis les représentants du RN, avant de laisser la place aux syndicats de police, dont les propos ont comme d’habitude saturé les antennes.",
-            "date_detection": "28 octobre 2026",
+            "date_detection": "29 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -149,7 +149,7 @@
             "titre": "Reconnaissance faciale illégale : la police prise en flagrant délit",
             "url": "https://disclose.ngo/fr/article/reconnaissance-faciale-illegale-la-police-prise-en-flagrant-delit",
             "resume": "Les forces de l’ordre continuent d’utiliser quotidiennement la reconnaissance faciale lors de contrôles d’identité, révèlent une vidéo et des témoignages exclusifs obtenus par Disclose et France 2. Exploitée massivement et hors de tout cadre légal, cette technologie cible d’abord des personnes racisées et des militant·es politiques. Elle conduit aussi à des erreurs d’identification grossières, au risque de faire accuser des innocent·es.",
-            "date_detection": "28 octobre 2026",
+            "date_detection": "29 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -168,7 +168,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pfas-six-communes-des-ardennes-portent-plainte-pour-mise-en-danger-de-la-vie-dautrui",
             "resume": "Six communes des Ardennes ont porté plainte pour « mise en danger de la vie d’autrui » et « pollution de l’eau », mardi 7 avril, après avoir découvert l’ampleur de la contamination aux « polluants éternels » sur leur territoire. La procédure, qui s’appuie largement sur les enquêtes successives de Disclose, s’ajoute à trois autres plaintes enregistrées depuis l’été 2025. Dans les Ardennes et la Meuse, la riposte judiciaire s’organise face à la contamination aux PFAS révélée par Disclose et France 3.",
-            "date_detection": "28 octobre 2026",
+            "date_detection": "29 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -185,7 +185,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pollution-aux-pfas-deux-agriculteurs-des-ardennes-portent-plainte-et-demandent-des-comptes-a-letat",
             "resume": "Un couple de maraîchers des Ardennes a déposé plainte, vendredi 27 mars, pour « mise en danger de la vie d’autrui », après les révélations de Disclose et France 3 sur la contamination aux PFAS de leurs légumes et de leur sang. Deux autres plaintes ont été déposées ces derniers jours par des habitant·es de ce territoire, touché par l’une des plus graves pollutions industrielles connues en France. Dans leurs terres, leurs légumes, et jusque dans leur sang : les PFAS se sont immiscés partout chez les Abraham.",
-            "date_detection": "28 octobre 2026",
+            "date_detection": "29 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -203,7 +203,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/ventes-darmes-francaises-dans-la-guerre-au-yemen-pourquoi-disclose-saisit-la-cour-europeenne-des-droits-de-lhomme",
             "resume": "Disclose, Amnesty International et le Centre européen pour les droits humains et institutionnels s’attaquent au déni de démocratie de l’État français sur ses ventes d’armes aux régimes autoritaires responsables de crimes de guerre. Le 1er avril, elles ont déposé plainte pour violation des droits fondamentaux auprès de la Cour européenne des droits de l’Homme. La France refuse à Disclose, Amnesty International France et ECCHR d’accéder aux documents douaniers liés aux exportations d’armes françaises vers l’Arabie saoudite, les Émirats arabes unis et l’Égypte, soupçonnés de crimes de guerre au Yémen.",
-            "date_detection": "28 octobre 2026",
+            "date_detection": "29 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
@@ -219,7 +219,7 @@
             "titre": "Le gouvernement détourne les aides de l’Ademe pour financer l’un des plus gros pollueurs de France",
             "url": "https://disclose.ngo/fr/article/le-gouvernement-detourne-les-aides-de-lademe-pour-financer-lun-des-plus-gros-pollueurs-de-france",
             "resume": "Matignon et Bercy ont truqué deux appels à projets de l’Agence de la transition écologique (Ademe) pour financer le géant de la pétrochimie Ineos, révèle Disclose. La multinationale va toucher plus de 300 millions d’euros d’argent public pour soutenir l’activité d’une usine parmi les plus émettrices de CO2 en France. C’est un Emmanuel Macron tout à son aise qui parade devant un parterre de chef·fes d’entreprises réuni·es à l’Élysée, en ce jour d’octobre 2021.",
-            "date_detection": "28 octobre 2026",
+            "date_detection": "29 octobre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Énergie",
@@ -270,8 +270,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 57,
-    "pages_accessibles": 37,
+    "pages_examinees": 59,
+    "pages_accessibles": 41,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -280,8 +280,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 8,
-        "accessibles": 3
+        "examinees": 10,
+        "accessibles": 7
       },
       "Fabien Roussel": {
         "examinees": 6,
