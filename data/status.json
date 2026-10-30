@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-30T11:25:09.015031+00:00",
+  "last_checked_utc": "2026-10-30T21:31:18.272478+00:00",
   "last_checked_fr": "30 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -22,14 +22,54 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 8,
+      "detections": 6,
       "liens_examines": 16,
       "extractions_vides": 4,
       "liens_trouves": 116,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 8,
+        "nombre": 6,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Terrorisme d’extrême droite : la menace qui monte",
+            "url": "https://www.blast-info.fr/articles/2026/terrorisme-dextreme-droite-la-menace-qui-monte-Koj3kLraTeK2R_r3TA8UeQ",
+            "resume": "« Il y a chez les ultra-politisés radicalisés une petite partie de l’ultragauche (...) qui s’en prend en France, pour l’heure, principalement aux biens. Mais l’essentiel de la menace [terroriste], c’est l’ultradroite. » Cette phrase n’émane pas d’un homme de gauche, mais de Gérald Darmanin, qui s’est confié à Ouest France en septembre 2023 , alors qu'il était encore ministre de l’Intérieur.",
+            "date_detection": "30 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Écologie",
+              "Institutions / libertés publiques",
+              "Travail"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "L'antisémitisme au RN: un passé qui ne passe pas",
+            "url": "https://www.blast-info.fr/articles/2026/l-antisemitisme-au-rn-un-passe-qui-ne-passe-pas-QXmsUYH8SaCebkMdhDywaQ",
+            "resume": "Le 28 septembre dernier, le site d’information Mediapart a exhumé des messages antisémites de Jordan Bardella dans lesquels le président du Rassemblement national (RN) écrivait par exemple, au début des années 2010 (1) : « Les banques sont toutes détenus par des Juifs. Ou : « Le juif doit dominé les autres peuples, les ecraser et les voler, un sioniste est forcément juif, et en profondeur. En France, deux bels exemples sont BHL ou Attali.",
+            "date_detection": "30 octobre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Énergie",
+              "Institutions / libertés publiques",
+              "Immigration"
+            ],
+            "candidats_mentions": [
+              "Jean-Luc Mélenchon",
+              "Marine Le Pen",
+              "Jordan Bardella"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -77,40 +117,6 @@
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Élections en Israël : les Palestiniens perdants d’avance, avec ou sans Netanyahu",
-            "url": "https://www.blast-info.fr/articles/2026/elections-en-israel-les-palestiniens-perdants-davance-avec-ou-sans-netanyahu--TOiDYsDS_G7hgBx7TzfWg",
-            "resume": "D’un côté, la coalition de partis menée par le Premier ministre, Benjamin Netanyahu. De l’autre, son principal adversaire, Gadi Eisenkot (centre), ancien chef d’état-major de l’armée israélienne. Selon les sondages, aucun des deux blocs n’atteindrait les 61 sièges sur 120 nécessaires pour gouverner.",
-            "date_detection": "30 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Écologie",
-              "Institutions / libertés publiques"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "🦏 17 octobre : les médias et l'État sortent l’artillerie lourde",
-            "url": "https://www.blast-info.fr/emissions/2026/17-octobre-les-medias-et-l-etat-sortent-lartillerie-lourde-lUgWljk8TJS_mUtWAHPetg",
-            "resume": "Dans ce nouvel épisode de Rhinocéros, retour sur les événements du 17 octobre et sur le rôle qu’y ont joué les médias. Une journée évidemment chaotique, en particulier sur les chaînes d’info, qui recevaient et diffusaient des images incompréhensibles. Pour les commenter, les plateaux ont fait défiler les experts en sécurité, puis les représentants du RN, avant de laisser la place aux syndicats de police, dont les propos ont comme d’habitude saturé les antennes.",
-            "date_detection": "30 octobre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Institutions / libertés publiques",
-              "Travail"
             ],
             "candidats_mentions": [],
             "statut": "À vérifier manuellement",
@@ -227,14 +233,18 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 0,
-    "reutilises": 4,
-    "indisponibles": 7,
+    "resumes": 2,
+    "reutilises": 3,
+    "indisponibles": 6,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {},
+    "rejets": {
+      "noms": 1,
+      "copie": 2
+    },
     "erreurs": {
-      "DelaiDepasse": 3
+      "ValueError": 3,
+      "DelaiDepasse": 1
     }
   },
   "publications_par_media": {
@@ -257,8 +267,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 57,
-    "pages_accessibles": 39,
+    "pages_examinees": 59,
+    "pages_accessibles": 40,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -267,8 +277,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 8,
-        "accessibles": 5
+        "examinees": 10,
+        "accessibles": 6
       },
       "Fabien Roussel": {
         "examinees": 6,

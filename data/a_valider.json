@@ -1027,5 +1027,24 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "« Remigration »: généalogie d'un projet raciste de déportation de masse des personnes immigrées",
+    "url": "https://www.blast-info.fr/articles/2026/remigration-genealogie-d-un-projet-raciste-de-deportation-de-masse-des-personnes-immigrees-dpJQ0JbVRQOAZSFVtlqxNw",
+    "resume": "Dans un contexte de montée des thèmes d’extrême-droite, la « remigration » a le vent en poupe. Ce terme désigne tout simplement un plan de déportation massive, sur critères ethno-raciaux. Le 18 octobre dernier, le concept a été invoqué à nouveau par Éric Zemmour , sur le plateau de LCI, invoquant sa nécessité face aux prétendues « hordes de barbares maghrébins et africains » .",
+    "date_detection": "30 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques",
+      "Immigration"
+    ],
+    "candidats_mentions": [
+      "Marine Le Pen",
+      "Éric Zemmour",
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

@@ -1,6 +1,30 @@
 {
-  "last_checked_utc": "2026-10-30T11:25:09.015031+00:00",
+  "last_checked_utc": "2026-10-30T21:31:18.272478+00:00",
   "articles": [
+    {
+      "titre": "« Remigration »: généalogie d'un projet raciste de déportation de masse des personnes immigrées",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/remigration-genealogie-d-un-projet-raciste-de-deportation-de-masse-des-personnes-immigrees-dpJQ0JbVRQOAZSFVtlqxNw",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-30T11:49:24.855153+00:00",
+      "controle": "automatique",
+      "themes": [
+        "Institutions / libertés publiques",
+        "Immigration"
+      ],
+      "candidats_mentions": [
+        "Marine Le Pen",
+        "Éric Zemmour",
+        "Jordan Bardella"
+      ],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-30T21:31:18.272478+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_tente_utc": "2026-10-30T22:13:52.265668+00:00",
+      "resume_erreur": "DelaiDepasse"
+    },
     {
       "titre": "Terrorisme d’extrême droite : la menace qui monte",
       "source": "Blast",
@@ -16,7 +40,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
+      "derniere_verification_utc": "2026-10-30T21:31:18.272478+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -39,11 +63,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
-      "resume_tente_utc": "2026-10-30T12:06:19.475649+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "derniere_verification_utc": "2026-10-30T21:31:18.272478+00:00",
+      "resume_tente_utc": "2026-10-30T22:08:09.977070+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume": "Selon Blast, des messages antisémites datant de 2010 ont été découverts sur Jordan Bardella, président du Rassemblement national (RN). Ces messages, parmi lesquels des propos antisémites et négationnistes, ont été minimisés par la presse dominante. Le RN, malgré ces révélations, a réélu Bardella à 98,98% lors de son congrès à Orléans en octobre 2026.\n\nLe RN n'a pas fourni de réponse officielle à ces accusations. La réélection de Jordan Bardella et les incidents lors du congrès n'ont pas été accompagnés de déclarations officielles de démenti ou de justification.",
+      "resume_empreinte": "01bbd3bba318bd940f9f0dc3ade21aa9a51dd39338dbc32c8ad197c4814ba367",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "INFO BLAST – Ingérence étrangère : Vincent Bolloré finance la future agence de presse de Xenia Fedorova",
@@ -61,10 +87,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
-      "resume_tente_utc": "2026-10-29T22:31:53.573784+00:00",
+      "derniere_verification_utc": "2026-10-30T21:31:18.272478+00:00",
+      "resume_tente_utc": "2026-10-30T21:31:56.150052+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Alpha Rise : de l’« entraide citoyenne » à la création de milices d’extrême droite",
@@ -81,10 +108,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
-      "resume_tente_utc": "2026-10-29T22:35:49.049450+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-10-30T21:31:18.272478+00:00",
+      "resume_tente_utc": "2026-10-30T21:39:33.367401+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume": "Selon Blast, Alpha Rise, un influenceur viriliste, a appelé à la création de milices pour protéger les commerces des « pilleurs » et des « casseurs » en dénonçant l’inaction de l’État. Sa vidéo a dépassé le million de vues et a suscité des commentaires racistes et incitant à la violence. Alpha Rise a lancé un site d'« entraide citoyenne » qui a attiré des membres d’extrême droite.\n\nAucune réponse officielle n'est rapportée dans l'article. L'initiative d'Alpha Rise a été critiquée pour son contenu potentiellement raciste et violent, mais aucune réaction gouvernementale n'est mentionnée.",
+      "resume_empreinte": "c25d6d45422f2e47e6e802dd7b6f237b524484ffc7c1f82d379c0330dbe319cf",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "24 octobre : police et fascistes main dans la main pour réprimer les manifestations ?",
@@ -99,7 +129,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
+      "derniere_verification_utc": "2026-10-30T21:31:18.272478+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -117,40 +147,12 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
+      "derniere_verification_utc": "2026-10-30T21:31:18.272478+00:00",
       "resume_tente_utc": "2026-10-27T21:59:39.235151+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
       "resume": "Selon Blast, les élections israéliennes de 2025 se déroulent dans un contexte de défiance envers les institutions et de radicalisation politique. Les sondages indiquent que ni le bloc de Benjamin Netanyahu ni celui de Gadi Eisenkot ne peuvent atteindre la majorité absolue sans l'aide des partis arabes, qui sont les seuls à vouloir réellement prendre en compte la souffrance des Palestiniens. Cependant, les deux blocs refusent de s'allier avec eux.\n\nMiriam Azem, coordinatrice du plaidoyer international d'Adalah, affirme que la situation actuelle ne changera pas, peu importe le résultat des élections. Elle souligne que les Palestiniens continueront d'être traités comme une menace et que l'offensive contre Gaza se poursuivra. La seule éclaircie possible serait que certains ministres perdent leur poste, sans changer la direction générale de la politique.",
       "resume_empreinte": "6e8f44c95c1d8840f84ce1a15ee0a06d154e948ab65d9e84a691c3e076a90baa",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
-    },
-    {
-      "titre": "Congrès du RN à Orléans : une mobilisation antifasciste massive",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/congres-du-rn-a-orleans-une-mobilisation-antifasciste-massive-yvA0Df95RY-lSpaKBJCebg",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-25T18:30:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Écologie",
-        "Institutions / libertés publiques"
-      ],
-      "candidats_mentions": [
-        "Bruno Retailleau",
-        "Jordan Bardella",
-        "Olivier Faure",
-        "Marine Le Pen"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
-      "resume_tente_utc": "2026-10-27T10:43:54.620945+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, une manifestation massive contre le Rassemblement national (RN) s'est tenue à Orléans le 24 octobre. Près de 30 000 personnes, représentant divers mouvements sociaux et politiques, ont participé à cette mobilisation antifasciste. La ville était sous haute surveillance avec des contrôles stricts et des mesures de sécurité renforcées.\n\nLe Rassemblement national n'a pas fait de déclaration publique sur la manifestation. Le maire de Trappes, Ali Rabeh, a remercié les participants pour leur engagement contre le discours raciste. La présence policière a empêché les manifestants d'accéder au lieu du congrès du RN.",
-      "resume_empreinte": "e8cb1489f8a0284d9218aba1723d5ce36192b73c83932235b9b6d9020e823d37",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
@@ -169,11 +171,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
-      "resume_tente_utc": "2026-10-30T11:25:57.316456+00:00",
+      "derniere_verification_utc": "2026-10-30T21:31:18.272478+00:00",
+      "resume_tente_utc": "2026-10-30T21:44:19.002339+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -189,7 +191,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
+      "derniere_verification_utc": "2026-10-30T21:31:18.272478+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -213,7 +215,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
+      "derniere_verification_utc": "2026-10-30T21:31:18.272478+00:00",
       "resume_tente_utc": "2026-10-20T10:46:15.750217+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -237,11 +239,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
-      "resume_tente_utc": "2026-10-30T11:46:08.417600+00:00",
+      "derniere_verification_utc": "2026-10-30T21:31:18.272478+00:00",
+      "resume_tente_utc": "2026-10-30T21:57:18.561635+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     }
   ]
 }
