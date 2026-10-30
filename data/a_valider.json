@@ -1011,5 +1011,21 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Terrorisme d’extrême droite : la menace qui monte",
+    "url": "https://www.blast-info.fr/articles/2026/terrorisme-dextreme-droite-la-menace-qui-monte-Koj3kLraTeK2R_r3TA8UeQ",
+    "resume": "« Il y a chez les ultra-politisés radicalisés une petite partie de l’ultragauche (...) qui s’en prend en France, pour l’heure, principalement aux biens. Mais l’essentiel de la menace [terroriste], c’est l’ultradroite. » Cette phrase n’émane pas d’un homme de gauche, mais de Gérald Darmanin, qui s’est confié à Ouest France en septembre 2023 , alors qu'il était encore ministre de l’Intérieur.",
+    "date_detection": "30 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Écologie",
+      "Institutions / libertés publiques",
+      "Travail"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

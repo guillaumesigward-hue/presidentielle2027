@@ -1,6 +1,25 @@
 {
-  "last_checked_utc": "2026-10-29T21:50:29.603198+00:00",
+  "last_checked_utc": "2026-10-30T11:25:09.015031+00:00",
   "articles": [
+    {
+      "titre": "Terrorisme d’extrême droite : la menace qui monte",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/terrorisme-dextreme-droite-la-menace-qui-monte-Koj3kLraTeK2R_r3TA8UeQ",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-10-30T07:00:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "Écologie",
+        "Institutions / libertés publiques",
+        "Travail"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
     {
       "titre": "L'antisémitisme au RN: un passé qui ne passe pas",
       "source": "Blast",
@@ -20,13 +39,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-29T21:50:29.603198+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume_tente_utc": "2026-10-29T22:24:02.626706+00:00",
-      "resume": "Selon Blast, des messages antisémites datant de 2010 ont été découverts sur Jordan Bardella, président du Rassemblement national (RN). Ces messages, publiés par Mediapart, ont suscité une réaction mitigée de la part des médias traditionnels, qui ont minimisé leur gravité en invoquant des circonstances atténuantes.\n\nLe RN n'a pas fourni de déclaration officielle directe concernant ces messages. Toutefois, le parti a été soutenu par certains médias qui ont suggéré que ces propos remontaient à une période lointaine et étaient influencés par des contacts avec des personnalités antisémites. La réaction des adhérents du RN lors de leur congrès a été majoritairement favorable à Bardella, malgré les révélations.",
-      "resume_empreinte": "01bbd3bba318bd940f9f0dc3ade21aa9a51dd39338dbc32c8ad197c4814ba367",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
+      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
+      "resume_tente_utc": "2026-10-30T12:06:19.475649+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "DelaiDepasse"
     },
     {
       "titre": "INFO BLAST – Ingérence étrangère : Vincent Bolloré finance la future agence de presse de Xenia Fedorova",
@@ -44,13 +61,10 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-29T21:50:29.603198+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
       "resume_tente_utc": "2026-10-29T22:31:53.573784+00:00",
-      "resume": "Selon Blast, Vincent Bolloré, homme d'affaires breton, aurait financé Xenia Fedorova, ancienne dirigeante de la chaîne d'État russe RT France, pour l'aider à monter une agence de presse. Deux virements de plusieurs dizaines de milliers d'euros ont été effectués en juin et juillet 2026. Ces versements visent à concurrencer l'Agence France-Presse (AFP) et à élargir l'audience des idées de Bolloré, en particulier dans le « Sud global ».\n\nVincent Bolloré et Xenia Fedorova n'ont pas répondu aux sollicitations de Blast. Le gouvernement accuse Fedorova d'être un relais de désinformation russe, ce qu'elle conteste. Les avoirs de Fedorova en France sont gelés pour six mois depuis le 31 juillet 2026.",
-      "resume_empreinte": "f1b5fa818e109ad5e43934e8a0ee75f50d7f9684a7146065c8664216ad42429d",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
     {
       "titre": "Alpha Rise : de l’« entraide citoyenne » à la création de milices d’extrême droite",
@@ -67,11 +81,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-29T21:50:29.603198+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
       "resume_tente_utc": "2026-10-29T22:35:49.049450+00:00",
-      "resume_erreur": "DelaiDepasse"
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
     {
       "titre": "24 octobre : police et fascistes main dans la main pour réprimer les manifestations ?",
@@ -86,7 +99,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-29T21:50:29.603198+00:00",
+      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -104,7 +117,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-29T21:50:29.603198+00:00",
+      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
       "resume_tente_utc": "2026-10-27T21:59:39.235151+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -132,33 +145,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-29T21:50:29.603198+00:00",
+      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
       "resume_tente_utc": "2026-10-27T10:43:54.620945+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
       "resume": "Selon Blast, une manifestation massive contre le Rassemblement national (RN) s'est tenue à Orléans le 24 octobre. Près de 30 000 personnes, représentant divers mouvements sociaux et politiques, ont participé à cette mobilisation antifasciste. La ville était sous haute surveillance avec des contrôles stricts et des mesures de sécurité renforcées.\n\nLe Rassemblement national n'a pas fait de déclaration publique sur la manifestation. Le maire de Trappes, Ali Rabeh, a remercié les participants pour leur engagement contre le discours raciste. La présence policière a empêché les manifestants d'accéder au lieu du congrès du RN.",
       "resume_empreinte": "e8cb1489f8a0284d9218aba1723d5ce36192b73c83932235b9b6d9020e823d37",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
-    },
-    {
-      "titre": "🦏 17 octobre : les médias et l'État sortent l’artillerie lourde",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/emissions/2026/17-octobre-les-medias-et-l-etat-sortent-lartillerie-lourde-lUgWljk8TJS_mUtWAHPetg",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-25T17:00:42.379000+00:00",
-      "controle": "automatique",
-      "themes": [
-        "Institutions / libertés publiques",
-        "Travail"
-      ],
-      "candidats_mentions": [],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-29T21:50:29.603198+00:00",
-      "resume_tente_utc": "2026-10-29T21:51:05.878950+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -176,11 +169,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-29T21:50:29.603198+00:00",
-      "resume_tente_utc": "2026-10-29T21:54:21.590000+00:00",
+      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
+      "resume_tente_utc": "2026-10-30T11:25:57.316456+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "DelaiDepasse"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -196,7 +189,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-29T21:50:29.603198+00:00",
+      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -220,7 +213,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-29T21:50:29.603198+00:00",
+      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
       "resume_tente_utc": "2026-10-20T10:46:15.750217+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -244,11 +237,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-10-29T21:50:29.603198+00:00",
-      "resume_tente_utc": "2026-10-29T22:10:06.982279+00:00",
+      "derniere_verification_utc": "2026-10-30T11:25:09.015031+00:00",
+      "resume_tente_utc": "2026-10-30T11:46:08.417600+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "DelaiDepasse"
     }
   ]
 }
