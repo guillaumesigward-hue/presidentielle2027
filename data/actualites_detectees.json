@@ -2027,5 +2027,14 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10345 Pres Barometre de confiance TOLUNA HARRIS INTERACTIVE LCI 30 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2365",
+    "date_detection": "31 octobre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
   }
 ]
