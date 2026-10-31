@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-10-31T10:56:55.062099+00:00",
+  "last_checked_utc": "2026-10-31T20:28:43.784642+00:00",
   "last_checked_fr": "31 octobre 2026",
   "publication_automatique": true,
   "sources": {
@@ -22,13 +22,13 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 6,
+      "detections": 7,
       "liens_examines": 16,
       "extractions_vides": 4,
       "liens_trouves": 116,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 6,
+        "nombre": 7,
         "articles": [
           {
             "type": "media_independant_investigation",
@@ -233,16 +233,17 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 2,
-    "reutilises": 4,
-    "indisponibles": 5,
+    "resumes": 1,
+    "reutilises": 3,
+    "indisponibles": 7,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
+      "noms": 1,
       "copie": 2
     },
     "erreurs": {
-      "ValueError": 2,
+      "ValueError": 3,
       "DelaiDepasse": 1
     }
   },
@@ -266,7 +267,7 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 59,
+    "pages_examinees": 57,
     "pages_accessibles": 40,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
@@ -276,7 +277,7 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 10,
+        "examinees": 8,
         "accessibles": 6
       },
       "Fabien Roussel": {

@@ -2036,5 +2036,32 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Boxing Day #100. Journalistes, chroniqueurs, « intellectuels », politiques : le meilleur du pire",
+    "url": "https://www.blast-info.fr/articles/2026/boxing-day-100-journalistes-chroniqueurs-intellectuels-politiques-le-meilleur-du-pire-h6GA5iGzTAe7uNjzvZxYqw",
+    "resume": "Cher·e·s lecteurs et lectrices du Boxing Day , Quelles années ! Le 19 septembre 2024, une nouvelle rubrique faisait son apparition sur le site de Blast : Boxing Day. En inaugurant, avec une missive adressée à la très remarquable Caroline Fourest, une série de lettres envoyées à ces insupportables qui squattent les plateaux, les studios, les journaux et, parfois même, les ministères, nous ne doutions pas que la liste des destinataires potentiels de ces missives serait pléthorique.",
+    "date_detection": "31 octobre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Écologie",
+      "Institutions / libertés publiques",
+      "Immigration",
+      "Travail"
+    ],
+    "candidats_mentions": [
+      "Gabriel Attal",
+      "Bruno Retailleau",
+      "Jean-Luc Mélenchon",
+      "Marine Le Pen",
+      "Raphaël Glucksmann",
+      "Marine Tondelier"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]
