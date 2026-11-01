@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-01T11:50:44.744360+00:00",
+  "last_checked_utc": "2026-11-01T21:12:59.260016+00:00",
   "articles": [
     {
       "titre": "Boxing Day #100. Journalistes, chroniqueurs, « intellectuels », politiques : le meilleur du pire",
@@ -25,9 +25,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-01T11:50:44.744360+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-01T21:12:59.260016+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume_tente_utc": "2026-11-01T21:45:25.009320+00:00",
+      "resume": "Selon Blast, le Boxing Day célèbre son 100e numéro en critiquant des personnalités médiatiques et politiques. L'article compile des déclarations controversées de figures comme Caroline Fourest, Jean Quatremer et Philippe Val, sur des sujets comme le génocide à Gaza et la responsabilité des médias. Le format humoristique vise à dénoncer ce que l'éditeur considère comme le pire de la pensée publique.\n\nLes personnes citées n'ont pas officiellement répondu à cette compilation. L'article de Blast reste une critique subjective sans réactions officielles des individus concernés.",
+      "resume_empreinte": "f47f8ac8daf76cd74b3b7e65c4e24caa200959450f2f078646be0ece7df396d4",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "« Remigration »: généalogie d'un projet raciste de déportation de masse des personnes immigrées",
@@ -47,10 +51,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-01T11:50:44.744360+00:00",
-      "resume_tente_utc": "2026-10-31T21:10:48.452853+00:00",
+      "derniere_verification_utc": "2026-11-01T21:12:59.260016+00:00",
+      "resume_tente_utc": "2026-11-01T21:18:52.689871+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Terrorisme d’extrême droite : la menace qui monte",
@@ -67,9 +72,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-01T11:50:44.744360+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-01T21:12:59.260016+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume_tente_utc": "2026-11-01T21:48:00.121701+00:00",
+      "resume": "Selon Blast, la menace terroriste d'extrême droite en France s'accroît. Dix-neuf projets terroristes ont été déjoués depuis 2017, dont plusieurs impliquent des anciens policiers ou militaires. Le Parquet national antiterroriste souligne la structuration et la diffusion rapide de ces mouvements sur les réseaux sociaux et le dark web.\n\nLe Parquet national antiterroriste a confirmé l'existence de cette menace mais n'a pas fourni de détails sur les prochaines mesures à prendre. La DGSI a noté la présence de cinquante personnes avec un passé militaire dans les volontaires pour le recrutement armé, sans préciser si des poursuites judiciaires sont en cours.",
+      "resume_empreinte": "c661e1f1d445ba710778b7d1fcf2c7cc723e530be62eaddb13fc9b22ae05a7c1",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "L'antisémitisme au RN: un passé qui ne passe pas",
@@ -90,10 +99,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-01T11:50:44.744360+00:00",
-      "resume_tente_utc": "2026-10-31T21:04:16.010747+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-01T21:12:59.260016+00:00",
+      "resume_tente_utc": "2026-11-01T21:13:38.092497+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume": "Selon Blast, des messages antisémites datant de 2010 ont été révélés par Mediapart, impliquant Jordan Bardella, président du Rassemblement national (RN). Ces messages incluent des déclarations antisémites et conspirationnistes. Malgré ces révélations, les adhérents du RN ont renouvelé leur soutien à Bardella lors d'un congrès à Orléans, où des incidents impliquant des étudiants juifs ont été signalés.\n\nLe RN n'a pas fourni de réponse officielle à ces allégations dans l'article. La publication ne mentionne pas de démenti formel ni de déclaration de la part du parti concernant ces révélations.",
+      "resume_empreinte": "01bbd3bba318bd940f9f0dc3ade21aa9a51dd39338dbc32c8ad197c4814ba367",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "INFO BLAST – Ingérence étrangère : Vincent Bolloré finance la future agence de presse de Xenia Fedorova",
@@ -111,11 +123,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-01T11:50:44.744360+00:00",
-      "resume_tente_utc": "2026-11-01T11:51:24.301914+00:00",
+      "derniere_verification_utc": "2026-11-01T21:12:59.260016+00:00",
+      "resume_tente_utc": "2026-11-01T21:26:35.513879+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, Vincent Bolloré, homme d'affaires breton, aurait financé Xenia Fedorova, ancienne dirigeante de la chaîne d'État russe RT France, pour l'aider à monter une agence de presse. Deux virements de plusieurs dizaines de milliers d'euros ont été effectués en juin et juillet 2026. Ses avoirs en France sont gelés pour six mois depuis le 31 juillet.\n\nVincent Bolloré justifie les versements par son souhait d'aider Xenia Fedorova à monter une agence de presse. Le gouvernement accuse Xenia Fedorova d'être un relais de désinformation russe. Ni Vincent Bolloré ni Xenia Fedorova n'ont répondu aux sollicitations de Blast.",
+      "resume": "Selon Blast, Vincent Bolloré, homme d'affaires breton, aurait financé Xenia Fedorova, ancienne dirigeante de la chaîne d'État russe RT France, pour l'aider à monter une agence de presse. Deux virements de plusieurs dizaines de milliers d'euros ont été effectués en juin et juillet 2026. Ces versements visent à concurrencer l'Agence France-Presse (AFP) et à élargir l'audience des idées de Bolloré, en particulier dans le « Sud global ».\n\nVincent Bolloré et Xenia Fedorova n'ont pas répondu aux sollicitations de Blast. Le gouvernement accuse Fedorova d'être un relais de désinformation russe, ce qu'elle conteste. Les avoirs de Fedorova en France sont gelés pour six mois depuis le 31 juillet 2026.",
       "resume_empreinte": "f1b5fa818e109ad5e43934e8a0ee75f50d7f9684a7146065c8664216ad42429d",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
@@ -134,7 +146,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-01T11:50:44.744360+00:00",
+      "derniere_verification_utc": "2026-11-01T21:12:59.260016+00:00",
       "resume_tente_utc": "2026-10-30T21:39:33.367401+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -155,9 +167,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-01T11:50:44.744360+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-01T21:12:59.260016+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume_tente_utc": "2026-11-01T21:50:29.174139+00:00",
+      "resume": "Selon Blast, des incidents ont eu lieu le 24 octobre à Montpellier et dans d'autres villes de France, où des manifestants ont été agressés par des groupes d'extrême droite, tandis que les forces de l'ordre interprétaient les manifestants et non les agresseurs. Ces événements ont été filmés et diffusés, montrant une possible coopération entre la police et les groupuscules fascistes.\n\nLa Préfecture de Seine-Maritime affirme que les forces de l'ordre ont dispersé les individus sans distinction d'appartenance et que les consignes étaient de protéger les personnes et les biens. Elle nie toute mansuétude envers les groupes violents et souligne que l'action des forces de sécurité est guidée par les impératifs de sécurité publique et de respect de la loi.",
+      "resume_empreinte": "20e0da71fb0a8111ced3f1c63e087e3551938ac5cebb06be7896ae3060c9a879",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -175,11 +191,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-01T11:50:44.744360+00:00",
-      "resume_tente_utc": "2026-11-01T11:58:35.616825+00:00",
+      "derniere_verification_utc": "2026-11-01T21:12:59.260016+00:00",
+      "resume_tente_utc": "2026-11-01T21:29:02.682997+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -195,7 +211,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-01T11:50:44.744360+00:00",
+      "derniere_verification_utc": "2026-11-01T21:12:59.260016+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -219,7 +235,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-01T11:50:44.744360+00:00",
+      "derniere_verification_utc": "2026-11-01T21:12:59.260016+00:00",
       "resume_tente_utc": "2026-10-20T10:46:15.750217+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -243,11 +259,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-01T11:50:44.744360+00:00",
-      "resume_tente_utc": "2026-11-01T12:18:46.705637+00:00",
+      "derniere_verification_utc": "2026-11-01T21:12:59.260016+00:00",
+      "resume_tente_utc": "2026-11-01T21:37:42.192829+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     }
   ]
 }
