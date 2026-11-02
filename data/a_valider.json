@@ -1071,5 +1071,52 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Interdiction de manifester: comme en 1793, le retour de la figure du « suspect »",
+    "url": "https://www.blast-info.fr/articles/2026/interdiction-de-manifester-comme-en-1793-le-retour-de-la-figure-du-suspect-xiz9GKSnRVGVFAISm-uMzQ",
+    "resume": "« Si vous ôtez au citoyen pauvre le droit de faire des pétitions, vous le détachez de la chose publique, vous l’en rendez même ennemi. Ne pouvant se plaindre par des voies légales, il se livrera à des mouvements tumultueux et mettra son désespoir à la place de la raison […] la liberté de penser et de manifester sa pensée d’une manière quelconque est le levier de la liberté politique. » Le 18 mai 1791, l’abbé Grégoire déploie à l’Assemblée nationale un plaidoyer prophétique pour le suffrage universel et la liberté d'expression.",
+    "date_detection": "2 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Histoire falsifiée, roman national : les historiens démontent l’extrême droite",
+    "url": "https://www.blast-info.fr/emissions/2026/histoire-falsifiee-roman-national-les-historiens-demontent-lextreme-droite-7vz9Et7jR8eKJxVOVOYIQA",
+    "resume": "La colonisation serait une « bénédiction » d’après Éric Zemmour, les chambres à gaz, « un détail de l’histoire » pour Jean-Marie Le Pen. On oublierait presque que le RN, anciennement Front national, a compté d’anciens Waffen-SS parmi ses fondateurs… Un parti qui ne compterait même aucun antisémite dans ses rangs… Depuis des décennies, ces contre-vérités sont au cœur des discours d’extrême droite. Un pseudo-roman national que sont venus contrer une cinquantaine d’historiens et d’intellectuels dans Les Faussaires de la nation : comment l’extrême droite défigure l’histoire (et comment lui résister).",
+    "date_detection": "2 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Énergie",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [
+      "Marine Le Pen",
+      "Éric Zemmour"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "2027 : Marine Le Pen gardera Macron au pouvoir",
+    "url": "https://www.blast-info.fr/emissions/2026/2027-marine-le-pen-gardera-macron-au-pouvoir-aCYM4cmmQauPw9dDwa2XJQ",
+    "resume": "",
+    "date_detection": "2 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Marine Le Pen"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
