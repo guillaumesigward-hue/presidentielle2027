@@ -1133,5 +1133,20 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Pierre Metzger, humoriste de Radio Nova, convoqué par la police judiciaire pour un sketch sur Bolloré et Arnault — INFO BLAST",
+    "url": "https://www.blast-info.fr/articles/2026/pierre-metzger-humoriste-de-radio-nova-convoque-par-la-police-judiciaire-pour-un-sketch-sur-bollore-et-arnault-info-blast-ltxBOxn0R4K2DUsfYjGfgA",
+    "resume": "Pierre Metzger, humoriste et chroniqueur de l’émission La Riposte sur Radio Nova, a été convoqué jeudi 29 octobre par la police judiciaire à la suite d’une chronique diffusée 15 jours plus tôt, suggérant des actions violentes contre Vincent Bolloré et Bernard Arnault, et citant leurs adresses respectives. Selon la convocation que Blast a pu consulter, l’enquête porte sur des soupçons de « provocation publique et directe non suivie d’effet à commettre un crime ou un délit » et de « divulgation d’informations personnelles permettant d’identifier ou de localiser une personne et exposant à un risque direct d’atteinte à la personne ou aux biens.…",
+    "date_detection": "3 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Écologie",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

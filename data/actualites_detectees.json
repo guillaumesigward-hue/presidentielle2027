@@ -1111,7 +1111,7 @@
     "source": "Disclose",
     "titre": "ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
     "url": "https://disclose.ngo/fr/article/arcelormittal-derriere-lacier-made-in-france-les-terres-volees-du-liberia",
-    "resume": "Pour fabriquer de l’acier à Dunkerque et Fos-sur-Mer, ArcelorMittal exploite des gisements de minerai de fer au Liberia. Entre accaparement de terres agricoles et contamination des ressources en eau, la firme met en danger plusieurs milliers d’habitant·es de ce pays d’Afrique de l’Ouest. Révélations sur les pratiques climaticides et néocoloniales du géant mondial de la sidérurgie.",
+    "resume": "Pour fabriquer de l’acier dans ses usines de Dunkerque et Fos-sur-Mer, ArcelorMittal exploite des gisements de minerai de fer au Liberia. Entre accaparement de terres agricoles et contamination des ressources en eau, la firme met en danger plusieurs milliers d’habitant·es de ce pays d’Afrique de l’Ouest. Révélations sur les pratiques climaticides et néocoloniales du géant mondial de la sidérurgie.",
     "date_detection": "13 octobre 2026",
     "nature": "actualité à qualifier",
     "themes": [
@@ -2146,6 +2146,23 @@
     "themes": [
       "École",
       "Immigration"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Pierre Metzger, humoriste de Radio Nova, convoqué par la police judiciaire pour un sketch sur Bolloré et Arnault — INFO BLAST",
+    "url": "https://www.blast-info.fr/articles/2026/pierre-metzger-humoriste-de-radio-nova-convoque-par-la-police-judiciaire-pour-un-sketch-sur-bollore-et-arnault-info-blast-ltxBOxn0R4K2DUsfYjGfgA",
+    "resume": "Pierre Metzger, humoriste et chroniqueur de l’émission La Riposte sur Radio Nova, a été convoqué jeudi 29 octobre par la police judiciaire à la suite d’une chronique diffusée 15 jours plus tôt, suggérant des actions violentes contre Vincent Bolloré et Bernard Arnault, et citant leurs adresses respectives. Selon la convocation que Blast a pu consulter, l’enquête porte sur des soupçons de « provocation publique et directe non suivie d’effet à commettre un crime ou un délit » et de « divulgation d’informations personnelles permettant d’identifier ou de localiser une personne et exposant à un risque direct d’atteinte à la personne ou aux biens.…",
+    "date_detection": "3 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Écologie",
+      "Institutions / libertés publiques"
     ],
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
