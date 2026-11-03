@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-02T13:32:01.978525+00:00",
+  "last_checked_utc": "2026-11-02T23:53:48.434651+00:00",
   "last_checked_fr": "2 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -30,6 +30,27 @@
       "mise_a_jour": {
         "nombre": 8,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "« Remigration »: généalogie d'un projet raciste de déportation de masse des personnes immigrées",
+            "url": "https://www.blast-info.fr/articles/2026/remigration-genealogie-d-un-projet-raciste-de-deportation-de-masse-des-personnes-immigrees-dpJQ0JbVRQOAZSFVtlqxNw",
+            "resume": "Dans un contexte de montée des thèmes d’extrême-droite, la « remigration » a le vent en poupe. Ce terme désigne tout simplement un plan de déportation massive, sur critères ethno-raciaux. Le 18 octobre dernier, le concept a été invoqué à nouveau par Éric Zemmour , sur le plateau de LCI, invoquant sa nécessité face aux prétendues « hordes de barbares maghrébins et africains » .",
+            "date_detection": "2 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Institutions / libertés publiques",
+              "Immigration"
+            ],
+            "candidats_mentions": [
+              "Marine Le Pen",
+              "Éric Zemmour",
+              "Jordan Bardella"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -64,25 +85,6 @@
             "candidats_mentions": [
               "Jean-Luc Mélenchon",
               "Marine Le Pen",
-              "Jordan Bardella"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "INFO BLAST – Ingérence étrangère : Vincent Bolloré finance la future agence de presse de Xenia Fedorova",
-            "url": "https://www.blast-info.fr/articles/2026/info-blast-ingerence-etrangere-vincent-bollore-finance-la-future-agence-de-presse-de-xenia-fedorova-jLOs0l1WQSKduEFXGuS2xg",
-            "resume": "C'est depuis son compte personnel que Vincent Bolloré aurait versé de l'argent à Xenia Fedorova . Selon nos informations, l'homme d'affaires breton a effectué deux virements, en juin et juillet, de plusieurs dizaines de milliers d'euros chacun à l'ancienne dirigeante de la chaîne d'État russe. Ses avoirs en France sont gelés pour six mois depuis le 31 juillet.",
-            "date_detection": "2 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Institutions / libertés publiques",
-              "Immigration"
-            ],
-            "candidats_mentions": [
               "Jordan Bardella"
             ],
             "statut": "À vérifier manuellement",
@@ -236,17 +238,14 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 1,
+    "resumes": 2,
     "reutilises": 3,
-    "indisponibles": 7,
+    "indisponibles": 6,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {
-      "noms": 1
-    },
+    "rejets": {},
     "erreurs": {
-      "ValueError": 2,
-      "DelaiDepasse": 1
+      "DelaiDepasse": 2
     }
   },
   "publications_par_media": {
@@ -270,7 +269,7 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 58,
-    "pages_accessibles": 40,
+    "pages_accessibles": 42,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -280,7 +279,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 5
+        "accessibles": 7
       },
       "Fabien Roussel": {
         "examinees": 6,

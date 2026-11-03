@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-02T13:32:01.978525+00:00",
+  "last_checked_utc": "2026-11-02T23:53:48.434651+00:00",
   "articles": [
     {
       "titre": "Interdiction de manifester: comme en 1793, le retour de la figure du « suspect »",
@@ -14,7 +14,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-02T13:32:01.978525+00:00",
+      "derniere_verification_utc": "2026-11-02T23:53:48.434651+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -36,7 +36,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-02T13:32:01.978525+00:00",
+      "derniere_verification_utc": "2026-11-02T23:53:48.434651+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -53,7 +53,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-02T13:32:01.978525+00:00",
+      "derniere_verification_utc": "2026-11-02T23:53:48.434651+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -81,7 +81,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-02T13:32:01.978525+00:00",
+      "derniere_verification_utc": "2026-11-02T23:53:48.434651+00:00",
       "resume_tente_utc": "2026-11-01T21:45:25.009320+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -107,11 +107,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-02T13:32:01.978525+00:00",
-      "resume_tente_utc": "2026-11-02T13:43:12.031510+00:00",
+      "derniere_verification_utc": "2026-11-02T23:53:48.434651+00:00",
+      "resume_tente_utc": "2026-11-03T00:14:33.360110+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "DelaiDepasse"
     },
     {
       "titre": "Terrorisme d’extrême droite : la menace qui monte",
@@ -128,10 +128,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-02T13:32:01.978525+00:00",
-      "resume_tente_utc": "2026-11-01T21:48:00.121701+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-02T23:53:48.434651+00:00",
+      "resume_tente_utc": "2026-11-02T23:54:28.314562+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume": "Selon Blast, la menace terroriste d’extrême droite en France s’est intensifiée ces dernières années. Dix-neuf projets terroristes d’extrême droite ont été déjoués depuis 2017, dont plusieurs impliquent des anciens policiers ou militaires. Le Parquet national antiterroriste (Pnat) souligne que cette menace est structurée et largement diffusée sur les réseaux sociaux et le dark web.\n\nLe ministère de l’Intérieur n’a pas fourni de réponse directe à cette enquête. Le Pnat a indiqué que la menace terroriste d’extrême droite est une préoccupation majeure, mais n’a pas précisé les mesures prises pour y faire face. La DGSI a noté la présence d’anciens militaires et policiers parmi les volontaires pour le recrutement armé, mais n’a pas précisé si des poursuites judiciaires ont été engagées.",
+      "resume_empreinte": "c661e1f1d445ba710778b7d1fcf2c7cc723e530be62eaddb13fc9b22ae05a7c1",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "L'antisémitisme au RN: un passé qui ne passe pas",
@@ -152,11 +155,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-02T13:32:01.978525+00:00",
-      "resume_tente_utc": "2026-11-02T13:32:51.320881+00:00",
+      "derniere_verification_utc": "2026-11-02T23:53:48.434651+00:00",
+      "resume_tente_utc": "2026-11-03T00:03:02.114630+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Blast, des messages antisémites datant de 2010 ont été découverts sur Jordan Bardella, président du Rassemblement national (RN). Ces messages, publiés par Mediapart, ont suscité une réaction mitigée de la part des médias dominants, qui ont minimisé leur gravité en invoquant des circonstances atténuantes. Cependant, l'article rappelle que l'antisémitisme a une longue histoire au sein du RN, remontant à sa fondation en 1972 par des anciens collaborateurs nazis.\n\nLe RN n'a pas fourni de réponse officielle directe aux allégations d'antisémitisme de Jordan Bardella. Bien que Bardella ait initialement nié l'antisémitisme de Jean-Marie Le Pen, il a finalement reconnu la gravité des propos de son prédécesseur après une forte réaction publique. Le parti continue néanmoins à soutenir Bardella, comme en témoigne le dernier congrès où il a été reconduit à 98,98%.",
+      "resume": "Selon Blast, des messages antisémites datant de 2010 ont été découverts sur Jordan Bardella, président du Rassemblement national (RN). Ces messages, qui remontent à l'époque où Bardella fréquentait l'agitateur antisémite Alain Soral, ont suscité une réaction mitigée de la part des médias dominants. Malgré cela, lors du dernier congrès du RN à Orléans, 98,98 % des adhérents ont reconduit Bardella dans ses fonctions.\n\nLe RN n'a pas fait de déclaration officielle concernant ces révélations. La réaction du parti a été de continuer à soutenir Bardella malgré les accusations d'antisémitisme. La question de l'antisémitisme au sein du parti reste donc ouverte.",
       "resume_empreinte": "b530ce9eea346b0e05ced7555184bbbd41e34b7ea0ae901ff80924e9dee9ac37",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
@@ -176,11 +179,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-02T13:32:01.978525+00:00",
-      "resume_tente_utc": "2026-11-02T13:56:40.937269+00:00",
+      "derniere_verification_utc": "2026-11-02T23:53:48.434651+00:00",
+      "resume_tente_utc": "2026-11-03T00:34:35.538328+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "DelaiDepasse"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -196,7 +199,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-02T13:32:01.978525+00:00",
+      "derniere_verification_utc": "2026-11-02T23:53:48.434651+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -220,7 +223,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-02T13:32:01.978525+00:00",
+      "derniere_verification_utc": "2026-11-02T23:53:48.434651+00:00",
       "resume_tente_utc": "2026-10-20T10:46:15.750217+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -244,11 +247,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-02T13:32:01.978525+00:00",
+      "derniere_verification_utc": "2026-11-02T23:53:48.434651+00:00",
       "resume_tente_utc": "2026-11-02T14:13:19.563993+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     }
   ]
 }

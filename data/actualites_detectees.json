@@ -2134,5 +2134,22 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "USA after Trump : virée dans l'ouest à la veille des élections de mi-mandat, une Amérique qui craint le pire",
+    "url": "https://www.blast-info.fr/articles/2026/usa-after-trump-viree-dans-l-ouest-a-la-veille-des-elections-de-mi-mandat-une-amerique-qui-craint-le-pire-7S-lKyE0QhS6Vb5PgqlGoQ",
+    "resume": "Depuis Missoula, l’Interstate 90 file plein ouest, croise un désert de broussailles et les gorges de la rivière Columbia, puis arrive dans le Deep Dark Northwest , ambiance Twin Peaks, « The best corner of the United States » (« le meilleur coin des états unis »), comme on dit chauvinement par ici. Celui qui attira tous les outsiders et les mamaillous dans les environs de Seattle, qui s'y agglutinèrent au début des années 80, à l'époque où Seattle était cool. Nous, on choisit comme point de chute Tacoma, « The ugly stepsister of Seattle » (« la belle-sœur moche de Seattle »), « the armpit of the United States » , (« l'aisselle des USA »).",
+    "date_detection": "2 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Immigration"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]
