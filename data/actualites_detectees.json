@@ -2157,7 +2157,7 @@
     "source": "Blast",
     "titre": "Pierre Metzger, humoriste de Radio Nova, convoqué par la police judiciaire pour un sketch sur Bolloré et Arnault — INFO BLAST",
     "url": "https://www.blast-info.fr/articles/2026/pierre-metzger-humoriste-de-radio-nova-convoque-par-la-police-judiciaire-pour-un-sketch-sur-bollore-et-arnault-info-blast-ltxBOxn0R4K2DUsfYjGfgA",
-    "resume": "Pierre Metzger, humoriste et chroniqueur de l’émission La Riposte sur Radio Nova, a été convoqué jeudi 29 octobre par la police judiciaire à la suite d’une chronique diffusée 15 jours plus tôt, suggérant des actions violentes contre Vincent Bolloré et Bernard Arnault, et citant leurs adresses respectives. Selon la convocation que Blast a pu consulter, l’enquête porte sur des soupçons de « provocation publique et directe non suivie d’effet à commettre un crime ou un délit » et de « divulgation d’informations personnelles permettant d’identifier ou de localiser une personne et exposant à un risque direct d’atteinte à la personne ou aux biens.…",
+    "resume": "Pierre Metzger, humoriste et chroniqueur de l’émission La Riposte sur Radio Nova, a été convoqué jeudi 29 octobre par la police judiciaire à la suite d’une chronique diffusée 15 jours plus tôt, suggérant des actions violentes contre Vincent Bolloré et Bernard Arnault, et citant leurs adresses respectives. Celles-ci ont toutefois été bipées à l’antenne. Selon la convocation que Blast a pu consulter, l’enquête porte sur des soupçons de « provocation publique et directe non suivie d’effet à commettre un crime ou un délit » et de « divulgation d’informations personnelles permettant d’identifier ou de localiser une personne et exposant à un…",
     "date_detection": "3 novembre 2026",
     "nature": "actualité à qualifier",
     "themes": [
@@ -2168,5 +2168,32 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10348 Pres doublage et IA IFOP Novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2370",
+    "date_detection": "3 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10349 Pres Barometre engagement des entreprises IPSOS BVA 3 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2369",
+    "date_detection": "3 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10347 Pres accompagnement fin de vie IFOP 2 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2368",
+    "date_detection": "3 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
   }
 ]
