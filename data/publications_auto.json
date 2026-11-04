@@ -1,6 +1,28 @@
 {
-  "last_checked_utc": "2026-11-03T22:19:39.696548+00:00",
+  "last_checked_utc": "2026-11-04T13:00:35.788446+00:00",
   "articles": [
+    {
+      "titre": "Italie : pourquoi une gauche radicale peine à émerger ?",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/italie-pourquoi-une-gauche-radicale-peine-a-emerger-o3rbflqyQJuVOXPPmnKIjw",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-11-04T11:00:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École",
+        "Institutions / libertés publiques",
+        "Travail"
+      ],
+      "candidats_mentions": [
+        "Jean-Luc Mélenchon"
+      ],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-11-04T13:00:35.788446+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "RuntimeError"
+    },
     {
       "titre": "Pierre Metzger, humoriste de Radio Nova, convoqué par la police judiciaire pour un sketch sur Bolloré et Arnault — INFO BLAST",
       "source": "Blast",
@@ -15,9 +37,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-03T22:19:39.696548+00:00",
+      "derniere_verification_utc": "2026-11-04T13:00:35.788446+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "Interdiction de manifester: comme en 1793, le retour de la figure du « suspect »",
@@ -32,9 +55,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-03T22:19:39.696548+00:00",
+      "derniere_verification_utc": "2026-11-04T13:00:35.788446+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "Histoire falsifiée, roman national : les historiens démontent l’extrême droite",
@@ -54,9 +78,10 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-03T22:19:39.696548+00:00",
+      "derniere_verification_utc": "2026-11-04T13:00:35.788446+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "Boxing Day #100. Journalistes, chroniqueurs, « intellectuels », politiques : le meilleur du pire",
@@ -82,7 +107,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-03T22:19:39.696548+00:00",
+      "derniere_verification_utc": "2026-11-04T13:00:35.788446+00:00",
       "resume_tente_utc": "2026-11-01T21:45:25.009320+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -108,10 +133,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-03T22:19:39.696548+00:00",
-      "resume_tente_utc": "2026-11-03T13:28:09.658838+00:00",
+      "derniere_verification_utc": "2026-11-04T13:00:35.788446+00:00",
+      "resume_tente_utc": "2026-11-04T13:01:18.035846+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "Terrorisme d’extrême droite : la menace qui monte",
@@ -128,35 +154,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-03T22:19:39.696548+00:00",
+      "derniere_verification_utc": "2026-11-04T13:00:35.788446+00:00",
       "resume_tente_utc": "2026-11-03T23:00:37.998037+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
-    },
-    {
-      "titre": "L'antisémitisme au RN: un passé qui ne passe pas",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/l-antisemitisme-au-rn-un-passe-qui-ne-passe-pas-QXmsUYH8SaCebkMdhDywaQ",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-29T17:12:34.272244+00:00",
-      "controle": "automatique",
-      "themes": [
-        "Énergie",
-        "Institutions / libertés publiques",
-        "Immigration"
-      ],
-      "candidats_mentions": [
-        "Jean-Luc Mélenchon",
-        "Marine Le Pen",
-        "Jordan Bardella"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-03T22:19:39.696548+00:00",
-      "resume_tente_utc": "2026-11-03T13:16:36.235899+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -174,11 +176,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-03T22:19:39.696548+00:00",
+      "derniere_verification_utc": "2026-11-04T13:00:35.788446+00:00",
       "resume_tente_utc": "2026-11-03T22:20:15.992545+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -194,7 +196,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-03T22:19:39.696548+00:00",
+      "derniere_verification_utc": "2026-11-04T13:00:35.788446+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -218,7 +220,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-03T22:19:39.696548+00:00",
+      "derniere_verification_utc": "2026-11-04T13:00:35.788446+00:00",
       "resume_tente_utc": "2026-10-20T10:46:15.750217+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -242,11 +244,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-03T22:19:39.696548+00:00",
+      "derniere_verification_utc": "2026-11-04T13:00:35.788446+00:00",
       "resume_tente_utc": "2026-11-03T22:40:27.101380+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "RuntimeError"
     }
   ]
 }

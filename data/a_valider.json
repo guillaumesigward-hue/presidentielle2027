@@ -1148,5 +1148,23 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Italie : pourquoi une gauche radicale peine à émerger ?",
+    "url": "https://www.blast-info.fr/articles/2026/italie-pourquoi-une-gauche-radicale-peine-a-emerger-o3rbflqyQJuVOXPPmnKIjw",
+    "resume": "Alors que la France traverse une énième crise sociale et qu’Emmanuel Macron ne cache même plus son néolibéralisme autoritaire, de l’autre côté des Alpes, la colère gronde également. Ces dernières semaines, en Italie, d’importants mouvements sociaux ont émergé : les dockers et les ouvriers sidérurgistes de l’usine ex-Ilva à Gênes, en passant par les étudiants et la jeunesse , ou encore les agriculteurs, routiers et petits patrons dans le sud de l’Italie . Malgré ce contexte favorable à la gauche radicale, elle peine à se faire entendre.",
+    "date_detection": "4 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Institutions / libertés publiques",
+      "Travail"
+    ],
+    "candidats_mentions": [
+      "Jean-Luc Mélenchon"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
