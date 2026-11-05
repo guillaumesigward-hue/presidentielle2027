@@ -2260,5 +2260,40 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10355 Pres filière textile IPSOS BVA 3 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2375",
+    "date_detection": "5 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10354 Pres CSA Cnews Europe 1 JDD 4 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2374",
+    "date_detection": "5 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "USA after Trump : dernière étape à Portland, l’insurrection, les punks et la nuit des résultats",
+    "url": "https://www.blast-info.fr/articles/2026/usa-after-trump-derniere-etape-a-portland-linsurrection-les-punks-et-la-nuit-des-resultats-nUNeJSgpSdK7ZEq0hifK7g",
+    "resume": "Depuis Olympia : prendre l’Interstate 5 en direction du Sud, et rallier Portland. Portland, ou l’anarchie Au Sandy Hut, North Eastside Portland, il n'y a pas de fenêtres et les tireuses à bière tournent au ralenti, au lendemain de la fiesta d'Halloween. On sent dans l'air un parfum de gueule de bois, une mélancolie de jour férié.",
+    "date_detection": "5 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Énergie",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]

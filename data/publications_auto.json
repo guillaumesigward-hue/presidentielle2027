@@ -1,6 +1,26 @@
 {
-  "last_checked_utc": "2026-11-04T22:38:10.995756+00:00",
+  "last_checked_utc": "2026-11-05T13:13:01.996096+00:00",
   "articles": [
+    {
+      "titre": "USA after Trump : dernière étape à Portland, l’insurrection, les punks et la nuit des résultats",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/usa-after-trump-derniere-etape-a-portland-linsurrection-les-punks-et-la-nuit-des-resultats-nUNeJSgpSdK7ZEq0hifK7g",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-11-05T11:45:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "Énergie",
+        "Institutions / libertés publiques"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-11-05T13:13:01.996096+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_tente_utc": "2026-11-05T13:46:24.221662+00:00",
+      "resume_erreur": "DelaiDepasse"
+    },
     {
       "titre": "Commission d’enquête sur le 17 octobre : Nunez s’embourbe dans les dénégations",
       "source": "Blast",
@@ -16,7 +36,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-04T22:38:10.995756+00:00",
+      "derniere_verification_utc": "2026-11-05T13:13:01.996096+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -37,7 +57,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-04T22:38:10.995756+00:00",
+      "derniere_verification_utc": "2026-11-05T13:13:01.996096+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -55,7 +75,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-04T22:38:10.995756+00:00",
+      "derniere_verification_utc": "2026-11-05T13:13:01.996096+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -72,7 +92,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-04T22:38:10.995756+00:00",
+      "derniere_verification_utc": "2026-11-05T13:13:01.996096+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -94,7 +114,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-04T22:38:10.995756+00:00",
+      "derniere_verification_utc": "2026-11-05T13:13:01.996096+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -122,36 +142,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-04T22:38:10.995756+00:00",
+      "derniere_verification_utc": "2026-11-05T13:13:01.996096+00:00",
       "resume_tente_utc": "2026-11-01T21:45:25.009320+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
       "resume": "Selon Blast, le Boxing Day célèbre son 100e numéro en critiquant des personnalités médiatiques et politiques. L'article compile des déclarations controversées de figures comme Caroline Fourest, Jean Quatremer et Philippe Val, sur des sujets comme le génocide à Gaza et la responsabilité des médias. Le format humoristique vise à dénoncer ce que l'éditeur considère comme le pire de la pensée publique.\n\nLes personnes citées n'ont pas officiellement répondu à cette compilation. L'article de Blast reste une critique subjective sans réactions officielles des individus concernés.",
       "resume_empreinte": "f47f8ac8daf76cd74b3b7e65c4e24caa200959450f2f078646be0ece7df396d4",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
-    },
-    {
-      "titre": "« Remigration »: généalogie d'un projet raciste de déportation de masse des personnes immigrées",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/remigration-genealogie-d-un-projet-raciste-de-deportation-de-masse-des-personnes-immigrees-dpJQ0JbVRQOAZSFVtlqxNw",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-30T11:49:24.855153+00:00",
-      "controle": "automatique",
-      "themes": [
-        "Institutions / libertés publiques",
-        "Immigration"
-      ],
-      "candidats_mentions": [
-        "Marine Le Pen",
-        "Éric Zemmour",
-        "Jordan Bardella"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-04T22:38:10.995756+00:00",
-      "resume_tente_utc": "2026-11-04T13:01:18.035846+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -169,11 +166,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-04T22:38:10.995756+00:00",
-      "resume_tente_utc": "2026-11-04T22:49:44.213420+00:00",
+      "derniere_verification_utc": "2026-11-05T13:13:01.996096+00:00",
+      "resume_tente_utc": "2026-11-05T13:13:34.483055+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -189,7 +186,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-04T22:38:10.995756+00:00",
+      "derniere_verification_utc": "2026-11-05T13:13:01.996096+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -213,7 +210,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-04T22:38:10.995756+00:00",
+      "derniere_verification_utc": "2026-11-05T13:13:01.996096+00:00",
       "resume_tente_utc": "2026-11-04T22:38:47.854381+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -237,11 +234,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-04T22:38:10.995756+00:00",
-      "resume_tente_utc": "2026-11-04T23:09:55.358893+00:00",
+      "derniere_verification_utc": "2026-11-05T13:13:01.996096+00:00",
+      "resume_tente_utc": "2026-11-05T13:31:55.767451+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     }
   ]
 }

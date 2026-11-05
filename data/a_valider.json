@@ -1182,5 +1182,20 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "USA after Trump : dernière étape à Portland, l’insurrection, les punks et la nuit des résultats",
+    "url": "https://www.blast-info.fr/articles/2026/usa-after-trump-derniere-etape-a-portland-linsurrection-les-punks-et-la-nuit-des-resultats-nUNeJSgpSdK7ZEq0hifK7g",
+    "resume": "Depuis Olympia : prendre l’Interstate 5 en direction du Sud, et rallier Portland. Portland, ou l’anarchie Au Sandy Hut, North Eastside Portland, il n'y a pas de fenêtres et les tireuses à bière tournent au ralenti, au lendemain de la fiesta d'Halloween. On sent dans l'air un parfum de gueule de bois, une mélancolie de jour férié.",
+    "date_detection": "5 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Énergie",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-11-04T22:38:10.995756+00:00",
-  "last_checked_fr": "4 novembre 2026",
+  "last_checked_utc": "2026-11-05T13:13:01.996096+00:00",
+  "last_checked_fr": "5 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 217,
-      "dernier_id_detecte": 2373,
+      "notices_detectees": 219,
+      "dernier_id_detecte": 2375,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -25,7 +25,7 @@
       "detections": 8,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 116,
+      "liens_trouves": 117,
       "etat_extraction": "partielle",
       "mise_a_jour": {
         "nombre": 8,
@@ -33,10 +33,27 @@
           {
             "type": "media_independant_investigation",
             "source": "Blast",
+            "titre": "Pierre Metzger, humoriste de Radio Nova, convoqué par la police judiciaire pour un sketch sur Bolloré et Arnault — INFO BLAST",
+            "url": "https://www.blast-info.fr/articles/2026/pierre-metzger-humoriste-de-radio-nova-convoque-par-la-police-judiciaire-pour-un-sketch-sur-bollore-et-arnault-info-blast-ltxBOxn0R4K2DUsfYjGfgA",
+            "resume": "Pierre Metzger, humoriste et chroniqueur de l’émission La Riposte sur Radio Nova, a été convoqué jeudi 29 octobre par la police judiciaire à la suite d’une chronique diffusée 15 jours plus tôt, suggérant des actions violentes contre Vincent Bolloré et Bernard Arnault, et citant leurs adresses respectives. Celles-ci ont toutefois été bipées à l’antenne. Selon la convocation que Blast a pu consulter, l’enquête porte sur des soupçons de « provocation publique et directe non suivie d’effet à commettre un crime ou un délit » et de « divulgation d’informations personnelles permettant d’identifier ou de localiser une personne et exposant à un…",
+            "date_detection": "5 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Écologie",
+              "Institutions / libertés publiques"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
             "titre": "USA after Trump : virée dans l'ouest à la veille des élections de mi-mandat, une Amérique qui craint le pire",
             "url": "https://www.blast-info.fr/articles/2026/usa-after-trump-viree-dans-l-ouest-a-la-veille-des-elections-de-mi-mandat-une-amerique-qui-craint-le-pire-7S-lKyE0QhS6Vb5PgqlGoQ",
             "resume": "Depuis Missoula, l’Interstate 90 file plein ouest, croise un désert de broussailles et les gorges de la rivière Columbia, puis arrive dans le Deep Dark Northwest , ambiance Twin Peaks, « The best corner of the United States » (« le meilleur coin des états unis »), comme on dit chauvinement par ici. Celui qui attira tous les outsiders et les mamaillous dans les environs de Seattle, qui s'y agglutinèrent au début des années 80, à l'époque où Seattle était cool. Nous, on choisit comme point de chute Tacoma, « The ugly stepsister of Seattle » (« la belle-sœur moche de Seattle »), « the armpit of the United States » , (« l'aisselle des USA »).",
-            "date_detection": "4 novembre 2026",
+            "date_detection": "5 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -53,7 +70,7 @@
             "titre": "Interdiction de manifester: comme en 1793, le retour de la figure du « suspect »",
             "url": "https://www.blast-info.fr/articles/2026/interdiction-de-manifester-comme-en-1793-le-retour-de-la-figure-du-suspect-xiz9GKSnRVGVFAISm-uMzQ",
             "resume": "« Si vous ôtez au citoyen pauvre le droit de faire des pétitions, vous le détachez de la chose publique, vous l’en rendez même ennemi. Ne pouvant se plaindre par des voies légales, il se livrera à des mouvements tumultueux et mettra son désespoir à la place de la raison […] la liberté de penser et de manifester sa pensée d’une manière quelconque est le levier de la liberté politique. » Le 18 mai 1791, l’abbé Grégoire déploie à l’Assemblée nationale un plaidoyer prophétique pour le suffrage universel et la liberté d'expression.",
-            "date_detection": "4 novembre 2026",
+            "date_detection": "5 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
@@ -69,7 +86,7 @@
             "titre": "Boxing Day #100. Journalistes, chroniqueurs, « intellectuels », politiques : le meilleur du pire",
             "url": "https://www.blast-info.fr/articles/2026/boxing-day-100-journalistes-chroniqueurs-intellectuels-politiques-le-meilleur-du-pire-h6GA5iGzTAe7uNjzvZxYqw",
             "resume": "Cher·e·s lecteurs et lectrices du Boxing Day , Quelles années ! Le 19 septembre 2024, une nouvelle rubrique faisait son apparition sur le site de Blast : Boxing Day. En inaugurant, avec une missive adressée à la très remarquable Caroline Fourest, une série de lettres envoyées à ces insupportables qui squattent les plateaux, les studios, les journaux et, parfois même, les ministères, nous ne doutions pas que la liste des destinataires potentiels de ces missives serait pléthorique.",
-            "date_detection": "4 novembre 2026",
+            "date_detection": "5 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -93,31 +110,10 @@
           {
             "type": "media_independant_investigation",
             "source": "Blast",
-            "titre": "« Remigration »: généalogie d'un projet raciste de déportation de masse des personnes immigrées",
-            "url": "https://www.blast-info.fr/articles/2026/remigration-genealogie-d-un-projet-raciste-de-deportation-de-masse-des-personnes-immigrees-dpJQ0JbVRQOAZSFVtlqxNw",
-            "resume": "Dans un contexte de montée des thèmes d’extrême-droite, la « remigration » a le vent en poupe. Ce terme désigne tout simplement un plan de déportation massive, sur critères ethno-raciaux. Le 18 octobre dernier, le concept a été invoqué à nouveau par Éric Zemmour , sur le plateau de LCI, invoquant sa nécessité face aux prétendues « hordes de barbares maghrébins et africains » .",
-            "date_detection": "4 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Institutions / libertés publiques",
-              "Immigration"
-            ],
-            "candidats_mentions": [
-              "Marine Le Pen",
-              "Éric Zemmour",
-              "Jordan Bardella"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
             "titre": "Histoire falsifiée, roman national : les historiens démontent l’extrême droite",
             "url": "https://www.blast-info.fr/emissions/2026/histoire-falsifiee-roman-national-les-historiens-demontent-lextreme-droite-7vz9Et7jR8eKJxVOVOYIQA",
             "resume": "La colonisation serait une « bénédiction » d’après Éric Zemmour, les chambres à gaz, « un détail de l’histoire » pour Jean-Marie Le Pen. On oublierait presque que le RN, anciennement Front national, a compté d’anciens Waffen-SS parmi ses fondateurs… Un parti qui ne compterait même aucun antisémite dans ses rangs… Depuis des décennies, ces contre-vérités sont au cœur des discours d’extrême droite. Un pseudo-roman national que sont venus contrer une cinquantaine d’historiens et d’intellectuels dans Les Faussaires de la nation : comment l’extrême droite défigure l’histoire (et comment lui résister).",
-            "date_detection": "4 novembre 2026",
+            "date_detection": "5 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -154,7 +150,7 @@
             "titre": "ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
             "url": "https://disclose.ngo/fr/article/arcelormittal-derriere-lacier-made-in-france-les-terres-volees-du-liberia",
             "resume": "Pour fabriquer de l’acier dans ses usines de Dunkerque et Fos-sur-Mer, ArcelorMittal exploite des gisements de minerai de fer au Liberia. Entre accaparement de terres agricoles et contamination des ressources en eau, la firme met en danger plusieurs milliers d’habitant·es de ce pays d’Afrique de l’Ouest. Révélations sur les pratiques climaticides et néocoloniales du géant mondial de la sidérurgie.",
-            "date_detection": "4 novembre 2026",
+            "date_detection": "5 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -173,7 +169,7 @@
             "titre": "La justice relance la traque de nos sources",
             "url": "https://disclose.ngo/fr/article/la-justice-sobstine-a-enqueter-sur-disclose-et-relance-la-traque-de-nos-sources",
             "resume": "La Cour d’appel de Paris a suivi les demandes du parquet général et ordonné, mercredi 8 juillet, la réouverture des investigations visant à identifier les sources ayant contribué à nos révélations sur la complicité de la France dans des exécutions extrajudiciaires perpétrées par la dictature égyptienne. Disclose appelle à la mobilisation pour défendre le droit à l’information des citoyen·nes. Le 8 juillet, la chambre de l’instruction de la Cour d’appel de Paris a ordonné la réouverture de l’enquête judiciaire initiée contre Disclose il y a un peu plus de trois ans.",
-            "date_detection": "4 novembre 2026",
+            "date_detection": "5 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -190,7 +186,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pfas-six-communes-des-ardennes-portent-plainte-pour-mise-en-danger-de-la-vie-dautrui",
             "resume": "Six communes des Ardennes ont porté plainte pour « mise en danger de la vie d’autrui » et « pollution de l’eau », mardi 7 avril, après avoir découvert l’ampleur de la contamination aux « polluants éternels » sur leur territoire. La procédure, qui s’appuie largement sur les enquêtes successives de Disclose, s’ajoute à trois autres plaintes enregistrées depuis l’été 2025. Dans les Ardennes et la Meuse, la riposte judiciaire s’organise face à la contamination aux PFAS révélée par Disclose et France 3.",
-            "date_detection": "4 novembre 2026",
+            "date_detection": "5 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -207,7 +203,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pollution-aux-pfas-deux-agriculteurs-des-ardennes-portent-plainte-et-demandent-des-comptes-a-letat",
             "resume": "Un couple de maraîchers des Ardennes a déposé plainte, vendredi 27 mars, pour « mise en danger de la vie d’autrui », après les révélations de Disclose et France 3 sur la contamination aux PFAS de leurs légumes et de leur sang. Deux autres plaintes ont été déposées ces derniers jours par des habitant·es de ce territoire, touché par l’une des plus graves pollutions industrielles connues en France. Dans leurs terres, leurs légumes, et jusque dans leur sang : les PFAS se sont immiscés partout chez les Abraham.",
-            "date_detection": "4 novembre 2026",
+            "date_detection": "5 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -225,7 +221,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/ventes-darmes-francaises-dans-la-guerre-au-yemen-pourquoi-disclose-saisit-la-cour-europeenne-des-droits-de-lhomme",
             "resume": "Disclose, Amnesty International et le Centre européen pour les droits humains et institutionnels s’attaquent au déni de démocratie de l’État français sur ses ventes d’armes aux régimes autoritaires responsables de crimes de guerre. Le 1er avril, elles ont déposé plainte pour violation des droits fondamentaux auprès de la Cour européenne des droits de l’Homme. La France refuse à Disclose, Amnesty International France et ECCHR d’accéder aux documents douaniers liés aux exportations d’armes françaises vers l’Arabie saoudite, les Émirats arabes unis et l’Égypte, soupçonnés de crimes de guerre au Yémen.",
-            "date_detection": "4 novembre 2026",
+            "date_detection": "5 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
@@ -240,14 +236,17 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 1,
-    "reutilises": 2,
+    "resumes": 0,
+    "reutilises": 3,
     "indisponibles": 8,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {},
+    "rejets": {
+      "copie": 1
+    },
     "erreurs": {
-      "DelaiDepasse": 2
+      "ValueError": 2,
+      "DelaiDepasse": 1
     }
   },
   "publications_par_media": {
@@ -270,8 +269,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 55,
-    "pages_accessibles": 35,
+    "pages_examinees": 58,
+    "pages_accessibles": 40,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -281,7 +280,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 4
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,
@@ -300,8 +299,8 @@
         "accessibles": 9
       },
       "Marine Le Pen": {
-        "examinees": 1,
-        "accessibles": 0
+        "examinees": 4,
+        "accessibles": 4
       },
       "Éric Zemmour": {
         "examinees": 3,
