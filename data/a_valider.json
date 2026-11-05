@@ -1197,5 +1197,21 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "L’historien qui ne voyait pas l’Histoire, par Sandra Lucbert",
+    "url": "https://www.blast-info.fr/articles/2026/lhistorien-qui-ne-voyait-pas-lhistoire-par-sandra-lucbert-eUxm89hVTnydUNrb_QliyA",
+    "resume": "L’entretien de Patrick Boucheron auquel répond cette tribune est à lire sur le site de Libération . Libération a tenté quelque chose : Patrick Boucheron. Voilà un « intellectuel » qui a célébré en Macron le nouveau Machiavel, a écumé devant les Gilets jaunes, a désactivé Louise Michel et la Révolution française pour l’ouverture des Jeux Olympiques.",
+    "date_detection": "5 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École"
+    ],
+    "candidats_mentions": [
+      "Raphaël Glucksmann"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

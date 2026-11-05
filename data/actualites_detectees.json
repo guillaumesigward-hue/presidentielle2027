@@ -2295,5 +2295,68 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10356 Pres enseignement supérieur ELABE 5 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2380",
+    "date_detection": "5 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10358 Pres primaire droite et centre ODOXA 5 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2379",
+    "date_detection": "5 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10318 Pres Presitrack V3 OPINIONWAY 15 octobre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2378",
+    "date_detection": "5 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10357 Pres Observatoire politique ELABE 5 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2377",
+    "date_detection": "5 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10351 Pres IV IFOP LCI 3 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2376",
+    "date_detection": "5 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "L’historien qui ne voyait pas l’Histoire, par Sandra Lucbert",
+    "url": "https://www.blast-info.fr/articles/2026/lhistorien-qui-ne-voyait-pas-lhistoire-par-sandra-lucbert-eUxm89hVTnydUNrb_QliyA",
+    "resume": "L’entretien de Patrick Boucheron auquel répond cette tribune est à lire sur le site de Libération . Libération a tenté quelque chose : Patrick Boucheron. Voilà un « intellectuel » qui a célébré en Macron le nouveau Machiavel, a écumé devant les Gilets jaunes, a désactivé Louise Michel et la Révolution française pour l’ouverture des Jeux Olympiques.",
+    "date_detection": "5 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École"
+    ],
+    "candidats_mentions": [
+      "Raphaël Glucksmann"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]

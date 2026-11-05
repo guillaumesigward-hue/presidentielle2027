@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-11-05T13:13:01.996096+00:00",
+  "last_checked_utc": "2026-11-05T22:42:58.339745+00:00",
   "last_checked_fr": "5 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 219,
-      "dernier_id_detecte": 2375,
+      "notices_detectees": 222,
+      "dernier_id_detecte": 2380,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -25,11 +25,31 @@
       "detections": 8,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 117,
+      "liens_trouves": 118,
       "etat_extraction": "partielle",
       "mise_a_jour": {
         "nombre": 8,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Italie : pourquoi une gauche radicale peine à émerger ?",
+            "url": "https://www.blast-info.fr/articles/2026/italie-pourquoi-une-gauche-radicale-peine-a-emerger-o3rbflqyQJuVOXPPmnKIjw",
+            "resume": "Alors que la France traverse une énième crise sociale et qu’Emmanuel Macron ne cache même plus son néolibéralisme autoritaire, de l’autre côté des Alpes, la colère gronde également. Ces dernières semaines, en Italie, d’importants mouvements sociaux ont émergé : les dockers et les ouvriers sidérurgistes de l’usine ex-Ilva à Gênes, en passant par les étudiants et la jeunesse , ou encore les agriculteurs, routiers et petits patrons dans le sud de l’Italie . Malgré ce contexte favorable à la gauche radicale, elle peine à se faire entendre.",
+            "date_detection": "5 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Institutions / libertés publiques",
+              "Travail"
+            ],
+            "candidats_mentions": [
+              "Jean-Luc Mélenchon"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -76,33 +96,6 @@
               "Institutions / libertés publiques"
             ],
             "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Boxing Day #100. Journalistes, chroniqueurs, « intellectuels », politiques : le meilleur du pire",
-            "url": "https://www.blast-info.fr/articles/2026/boxing-day-100-journalistes-chroniqueurs-intellectuels-politiques-le-meilleur-du-pire-h6GA5iGzTAe7uNjzvZxYqw",
-            "resume": "Cher·e·s lecteurs et lectrices du Boxing Day , Quelles années ! Le 19 septembre 2024, une nouvelle rubrique faisait son apparition sur le site de Blast : Boxing Day. En inaugurant, avec une missive adressée à la très remarquable Caroline Fourest, une série de lettres envoyées à ces insupportables qui squattent les plateaux, les studios, les journaux et, parfois même, les ministères, nous ne doutions pas que la liste des destinataires potentiels de ces missives serait pléthorique.",
-            "date_detection": "5 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École",
-              "Écologie",
-              "Institutions / libertés publiques",
-              "Immigration",
-              "Travail"
-            ],
-            "candidats_mentions": [
-              "Gabriel Attal",
-              "Bruno Retailleau",
-              "Jean-Luc Mélenchon",
-              "Marine Le Pen",
-              "Raphaël Glucksmann",
-              "Marine Tondelier"
-            ],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
             "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
@@ -242,10 +235,11 @@
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
-      "copie": 1
+      "copie": 1,
+      "noms": 1
     },
     "erreurs": {
-      "ValueError": 2,
+      "ValueError": 3,
       "DelaiDepasse": 1
     }
   },
@@ -257,7 +251,7 @@
     "notices_examinees": 8,
     "scenarios_extraits": 0,
     "non_exploitables": [
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2371",
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2376",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2361",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2357",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2352",
@@ -269,8 +263,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 58,
-    "pages_accessibles": 40,
+    "pages_examinees": 55,
+    "pages_accessibles": 36,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -299,8 +293,8 @@
         "accessibles": 9
       },
       "Marine Le Pen": {
-        "examinees": 4,
-        "accessibles": 4
+        "examinees": 1,
+        "accessibles": 0
       },
       "Éric Zemmour": {
         "examinees": 3,
