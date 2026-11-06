@@ -1,6 +1,24 @@
 {
-  "last_checked_utc": "2026-11-06T12:57:45.154234+00:00",
+  "last_checked_utc": "2026-11-06T22:07:48.672966+00:00",
   "articles": [
+    {
+      "titre": "Loi Ripost : Le premier condamné d’une free party écope de 150€ d’amende",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/loi-ripost-le-premier-condamne-dune-free-party-ecope-de-150eur-damende-510CZbZWR-25IxA-ZlIWwQ",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-11-06T13:30:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "Santé",
+        "Institutions / libertés publiques"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-11-06T22:07:48.672966+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
     {
       "titre": "Après l’attentat de Trappes, la logorrhée raciste continue dans les médias Bolloré",
       "source": "Blast",
@@ -17,7 +35,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-06T12:57:45.154234+00:00",
+      "derniere_verification_utc": "2026-11-06T22:07:48.672966+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -35,11 +53,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-06T12:57:45.154234+00:00",
+      "derniere_verification_utc": "2026-11-06T22:07:48.672966+00:00",
       "resume_tente_utc": "2026-11-06T13:37:56.021915+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
     {
       "titre": "Commission d’enquête sur le 17 octobre : Nunez s’embourbe dans les dénégations",
@@ -56,10 +73,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-06T12:57:45.154234+00:00",
-      "resume_tente_utc": "2026-11-05T23:27:07.719925+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-06T22:07:48.672966+00:00",
+      "resume_tente_utc": "2026-11-06T22:08:28.908131+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume": "Selon Blast, la commission d'enquête sur les événements des 17 et 18 octobre a auditionné Laurent Nuñez, ministre de l'Intérieur. Nuñez a reconnu des défaillances dans la gestion des manifestations, tout en justifiant l'ampleur de la mobilisation et l'usage de la force. Il a également défendu l'utilisation des grenades de désencerclement et des MICAS, malgré les critiques.\n\nLaurent Nuñez a déclaré qu'il ne retirait pas d'enseignement de l'incident à Lens et maintenait l'usage des grenades de désencerclement. Il a également affirmé que les actes de nature à mettre en péril les institutions justifiaient le recours aux MICAS. Le ministre n'a pas exclu un black-out des réseaux sociaux en cas de circonstances exceptionnelles.",
+      "resume_empreinte": "324a1aebff38f55ab1f2f6d054948f029482660e47d915ee50be638b3af72099",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Italie : pourquoi une gauche radicale peine à émerger ?",
@@ -78,7 +98,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-06T12:57:45.154234+00:00",
+      "derniere_verification_utc": "2026-11-06T22:07:48.672966+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -96,7 +116,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-06T12:57:45.154234+00:00",
+      "derniere_verification_utc": "2026-11-06T22:07:48.672966+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -113,29 +133,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-06T12:57:45.154234+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
-    },
-    {
-      "titre": "Histoire falsifiée, roman national : les historiens démontent l’extrême droite",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/emissions/2026/histoire-falsifiee-roman-national-les-historiens-demontent-lextreme-droite-7vz9Et7jR8eKJxVOVOYIQA",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-11-01T17:00:26.082000+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Énergie",
-        "Institutions / libertés publiques"
-      ],
-      "candidats_mentions": [
-        "Marine Le Pen",
-        "Éric Zemmour"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-06T12:57:45.154234+00:00",
+      "derniere_verification_utc": "2026-11-06T22:07:48.672966+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -155,8 +153,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-06T12:57:45.154234+00:00",
-      "resume_tente_utc": "2026-11-06T12:58:31.795137+00:00",
+      "derniere_verification_utc": "2026-11-06T22:07:48.672966+00:00",
+      "resume_tente_utc": "2026-11-06T22:17:28.000378+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "DelaiDepasse"
@@ -175,7 +173,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-06T12:57:45.154234+00:00",
+      "derniere_verification_utc": "2026-11-06T22:07:48.672966+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -199,7 +197,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-06T12:57:45.154234+00:00",
+      "derniere_verification_utc": "2026-11-06T22:07:48.672966+00:00",
       "resume_tente_utc": "2026-11-04T22:38:47.854381+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -223,11 +221,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-06T12:57:45.154234+00:00",
-      "resume_tente_utc": "2026-11-06T13:18:42.469848+00:00",
+      "derniere_verification_utc": "2026-11-06T22:07:48.672966+00:00",
+      "resume_tente_utc": "2026-11-06T22:37:39.134069+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "DelaiDepasse"
     }
   ]
 }

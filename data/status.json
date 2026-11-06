@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-06T12:57:45.154234+00:00",
+  "last_checked_utc": "2026-11-06T22:07:48.672966+00:00",
   "last_checked_fr": "6 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -30,6 +30,24 @@
       "mise_a_jour": {
         "nombre": 9,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Commission d’enquête sur le 17 octobre : Nunez s’embourbe dans les dénégations",
+            "url": "https://www.blast-info.fr/articles/2026/commission-denquete-sur-le-17-octobre-nunez-sembourbe-dans-les-denegations-Az9EPtOFS92N93G1CsT7ng",
+            "resume": "La commission d’enquête sur les évènements des 17 et 18 octobre s’est ouverte ce mardi 3 novembre, en milieu d’après-midi, avec l’audition de Laurent Nuñez. Sous le feu des critiques après les violences survenues en marge des manifestations, le ministre de l’Intérieur a tant bien que mal défendu l’action des services de police et assuré que l’État n’avait pas failli à sa mission, malgré d’indéniables défaillances. La séance était présidée par le député macroniste des Français de l’étranger Vincent Caure.",
+            "date_detection": "6 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Énergie",
+              "Institutions / libertés publiques"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -78,22 +96,6 @@
             "themes": [
               "École",
               "Immigration"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Interdiction de manifester: comme en 1793, le retour de la figure du « suspect »",
-            "url": "https://www.blast-info.fr/articles/2026/interdiction-de-manifester-comme-en-1793-le-retour-de-la-figure-du-suspect-xiz9GKSnRVGVFAISm-uMzQ",
-            "resume": "« Si vous ôtez au citoyen pauvre le droit de faire des pétitions, vous le détachez de la chose publique, vous l’en rendez même ennemi. Ne pouvant se plaindre par des voies légales, il se livrera à des mouvements tumultueux et mettra son désespoir à la place de la raison […] la liberté de penser et de manifester sa pensée d’une manière quelconque est le levier de la liberté politique. » Le 18 mai 1791, l’abbé Grégoire déploie à l’Assemblée nationale un plaidoyer prophétique pour le suffrage universel et la liberté d'expression.",
-            "date_detection": "6 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Institutions / libertés publiques"
             ],
             "candidats_mentions": [],
             "statut": "À vérifier manuellement",
@@ -229,17 +231,14 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 0,
+    "resumes": 1,
     "reutilises": 2,
-    "indisponibles": 9,
+    "indisponibles": 8,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {
-      "copie": 1
-    },
+    "rejets": {},
     "erreurs": {
-      "DelaiDepasse": 2,
-      "ValueError": 1
+      "DelaiDepasse": 2
     }
   },
   "publications_par_media": {
@@ -262,8 +261,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 57,
-    "pages_accessibles": 36,
+    "pages_examinees": 55,
+    "pages_accessibles": 37,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -272,8 +271,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 10,
-        "accessibles": 5
+        "examinees": 8,
+        "accessibles": 6
       },
       "Fabien Roussel": {
         "examinees": 6,

@@ -1230,5 +1230,20 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Loi Ripost : Le premier condamné d’une free party écope de 150€ d’amende",
+    "url": "https://www.blast-info.fr/articles/2026/loi-ripost-le-premier-condamne-dune-free-party-ecope-de-150eur-damende-510CZbZWR-25IxA-ZlIWwQ",
+    "resume": "La free party de la Hoguette (Calvados), le week-end du 12 septembre dernier est entrée dans l’histoire judiciaire. Organisé sans déclaration auprès de la préfecture du Calvados, l'événement baptisé par les fêtards Invasion Normandy a réuni près de 300 personnes, et presque autant de gendarmes ! La rave a en effet été l’occasion pour les autorités de mettre en branle pour la première fois le dispositif de la loi Ripost, dont tout un pan a été spécialement conçu contre le mouvement tekno.",
+    "date_detection": "6 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Santé",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
