@@ -1213,5 +1213,22 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Après l’attentat de Trappes, la logorrhée raciste continue dans les médias Bolloré",
+    "url": "https://www.blast-info.fr/articles/2026/apres-lattentat-de-trappes-la-logorrhee-raciste-continue-dans-les-medias-bollore-EOgTDfVsSCe4XON6xYlROw",
+    "resume": "L’éditocrate Mathieu Bock-Côté, immigré québécois venu vendre en France ses prêches identitaires et nationalistes, est comme chez lui chez Vincent Bolloré - ou, plus précisément, dans les médias du groupe du milliardaire d’extrême droite (1) : il dispose d’une tribune quotidienne sur la chaîne de propagande CNews, il intervient régulièrement dans Le Journal du dimanche (JDD), et il tient une chronique hebdomadaire dans Le JDNews , magazine paraissant le mercredi, mais qui est ensuite offert gratuitement, quatre jours plus tard, aux heureux acheteurs du JDD. C’est là qu’il écrivait, dans un article paru le 5 août dernier, que l’Europe était…",
+    "date_detection": "6 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques",
+      "Immigration"
+    ],
+    "candidats_mentions": [
+      "Éric Zemmour"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
