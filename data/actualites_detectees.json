@@ -2417,5 +2417,29 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Chère Prisca Thevenot – Boxing Day #101",
+    "url": "https://www.blast-info.fr/articles/2026/chere-prisca-thevenot-boxing-day-101-KnSM-G9fRuOyVywcoeYOSA",
+    "resume": "Samedi 31 octobre, vous expliquiez sur Franceinfo TV, au sujet de l’absence de votre candidat pour la prochaine élection présidentielle, un certain Gabriel Attal , à l’hommage organisé à Trappes la veille, soit une semaine après l’attentat raciste du 23 octobre, que « le racisme, on ne le combat pas avec des symboles marketing » , c’est bien noté, on en déduira donc que selon vous une présence au côté des familles et des proches des victimes d’un terroriste d’extrême droite est de l’ordre de la communication publicitaire, on va vomir et on revient. Et, comme si cette abjection ne suffisait pas, vous avez jugé bon de la republier sur votre…",
+    "date_detection": "7 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Santé",
+      "Écologie",
+      "Institutions / libertés publiques",
+      "Immigration",
+      "Travail"
+    ],
+    "candidats_mentions": [
+      "Gabriel Attal",
+      "Bruno Retailleau"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-07T11:44:21.212289+00:00",
+  "last_checked_utc": "2026-11-07T20:53:10.983081+00:00",
   "last_checked_fr": "7 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -25,11 +25,29 @@
       "detections": 9,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 118,
+      "liens_trouves": 117,
       "etat_extraction": "partielle",
       "mise_a_jour": {
         "nombre": 9,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "L’historien qui ne voyait pas l’Histoire, par Sandra Lucbert",
+            "url": "https://www.blast-info.fr/articles/2026/lhistorien-qui-ne-voyait-pas-lhistoire-par-sandra-lucbert-eUxm89hVTnydUNrb_QliyA",
+            "resume": "L’entretien de Patrick Boucheron auquel répond cette tribune est à lire sur le site de Libération . Libération a tenté quelque chose : Patrick Boucheron. Voilà un « intellectuel » qui a célébré en Macron le nouveau Machiavel, a écumé devant les Gilets jaunes, a désactivé Louise Michel et la Révolution française pour l’ouverture des Jeux Olympiques.",
+            "date_detection": "7 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École"
+            ],
+            "candidats_mentions": [
+              "Raphaël Glucksmann"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -81,23 +99,6 @@
             "candidats_mentions": [
               "Jean-Luc Mélenchon"
             ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Pierre Metzger, humoriste de Radio Nova, convoqué par la police judiciaire pour un sketch sur Bolloré et Arnault — INFO BLAST",
-            "url": "https://www.blast-info.fr/articles/2026/pierre-metzger-humoriste-de-radio-nova-convoque-par-la-police-judiciaire-pour-un-sketch-sur-bollore-et-arnault-info-blast-ltxBOxn0R4K2DUsfYjGfgA",
-            "resume": "Pierre Metzger, humoriste et chroniqueur de l’émission La Riposte sur Radio Nova, a été convoqué jeudi 29 octobre par la police judiciaire à la suite d’une chronique diffusée 15 jours plus tôt, suggérant des actions violentes contre Vincent Bolloré et Bernard Arnault, et citant leurs adresses respectives. Celles-ci ont toutefois été bipées à l’antenne. Selon la convocation que Blast a pu consulter, l’enquête porte sur des soupçons de « provocation publique et directe non suivie d’effet à commettre un crime ou un délit » et de « divulgation d’informations personnelles permettant d’identifier ou de localiser une personne et exposant à un…",
-            "date_detection": "7 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Écologie",
-              "Institutions / libertés publiques"
-            ],
-            "candidats_mentions": [],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
             "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
@@ -231,17 +232,14 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 5,
-    "reutilises": 3,
-    "indisponibles": 3,
+    "resumes": 1,
+    "reutilises": 4,
+    "indisponibles": 6,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {
-      "noms": 1,
-      "copie": 1
-    },
+    "rejets": {},
     "erreurs": {
-      "ValueError": 3
+      "DelaiDepasse": 2
     }
   },
   "publications_par_media": {
@@ -265,7 +263,7 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 55,
-    "pages_accessibles": 35,
+    "pages_accessibles": 36,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -275,7 +273,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 4
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,
