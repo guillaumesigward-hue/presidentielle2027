@@ -1245,5 +1245,26 @@
     "candidats_mentions": [],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "« Gilets jaunes » versus « 17 octobre » : Voici pourquoi, cette fois, le mouvement n’a pas été récupéré par l’extrême droite",
+    "url": "https://www.blast-info.fr/articles/2026/gilets-jaunes-versus-17-octobre-voici-pourquoi-cette-fois-le-mouvement-na-pas-ete-recupere-par-lextreme-droite-hI3KjorcTS2Cm5GbUPzckQ",
+    "resume": "En déplacement à Limoges au lendemain de l’incendie de la mairie, le 18 octobre dernier, Vincent Lapierre, vidéaste d’extrême droite et ancien proche d’Alain Soral, surjoue le soutien aux forces de l’ordre, et l’indignation face aux manifestants : « Ces mecs-là, ils sont sans foi ni loi, (…) ils lancent des pavés contre des policiers » . Le même, il y a sept ans, dénonçait pourtant les violences policières : « Ils [les policiers] ont le devoir moral de ne pas appliquer des ordres, souvent illégaux, qui ne font que jeter de l'huile sur le feu » , déclarait-il au site d’extrême droite Breizh-info , alors que les manifestations des gilets…",
+    "date_detection": "7 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Fiscalité",
+      "Institutions / libertés publiques",
+      "Immigration",
+      "Travail"
+    ],
+    "candidats_mentions": [
+      "Jean-Luc Mélenchon",
+      "Marine Le Pen"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
