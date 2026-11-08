@@ -1,6 +1,31 @@
 {
-  "last_checked_utc": "2026-11-07T20:53:10.983081+00:00",
+  "last_checked_utc": "2026-11-08T11:57:24.830021+00:00",
   "articles": [
+    {
+      "titre": "En 2027, un nouveau gouvernement remettra-t-il en cause la dette ?",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/en-2027-un-nouveau-gouvernement-remettra-t-il-en-cause-la-dette-tt6-U0aLSg6UpmHUDi3YRQ",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-11-08T09:00:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École",
+        "Santé",
+        "Énergie",
+        "Fiscalité",
+        "Écologie",
+        "Institutions / libertés publiques",
+        "Travail"
+      ],
+      "candidats_mentions": [
+        "Jean-Luc Mélenchon"
+      ],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+    },
     {
       "titre": "Chère Prisca Thevenot – Boxing Day #101",
       "source": "Blast",
@@ -22,7 +47,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-07T20:53:10.983081+00:00",
+      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -46,10 +71,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-07T20:53:10.983081+00:00",
-      "resume_tente_utc": "2026-11-07T12:11:06.981827+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
+      "resume_tente_utc": "2026-11-08T11:58:11.536237+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume": "Selon Blast, le mouvement des 'Gilets jaunes' n'a pas été récupéré par l'extrême droite comme le fut le mouvement de 2018-2019. Vincent Lapierre, un vidéaste d'extrême droite, a soutenu les 'Gilets jaunes' initialement mais condamne aujourd'hui les récentes mobilisations. Cette évolution reflète celle de nombreux militants d'extrême droite qui, après avoir soutenu les 'Gilets jaunes', se sont aujourd'hui alignés sur le macronisme en agissant comme des supplétifs de la police.\n\nAucune réponse officielle n'est rapportée dans l'article. La publication Blast souligne simplement que la composition sociologique différente du mouvement actuel et sa forte orientation de gauche rendent difficile une récupération par l'extrême droite.",
+      "resume_empreinte": "85807bf17af3b3f59b2585ca1c47092d44f1d61a15d09e3b0d95b3d353491098",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Loi Ripost : Le premier condamné d’une free party écope de 150€ d’amende",
@@ -65,7 +93,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-07T20:53:10.983081+00:00",
+      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
       "resume_tente_utc": "2026-11-07T12:15:22.938560+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -89,10 +117,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-07T20:53:10.983081+00:00",
-      "resume_tente_utc": "2026-11-07T12:17:25.855873+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
+      "resume_tente_utc": "2026-11-08T12:07:19.458361+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume": "Selon Blast, après l'attentat de Trappes, des éditocrates comme Mathieu Bock-Côté et Philippe de Villiers continuent à propager des discours islamophobes et racistes dans les médias du groupe Bolloré. Le 23 octobre 2026, un tueur a tué un jeune homme noir et blessé plusieurs dizaines de personnes à Trappes, ciblant des personnes de type musulman, africain ou nord-africain.\n\nLe groupe Bolloré n'a pas commenté spécifiquement les accusations de Blast. Le gouvernement français n'a pas non plus fait de déclaration directe sur le rôle des médias dans la propagation de discours haineux. Le Journal du dimanche a reçu plus d'un million d'euros d'aides publiques en 2025.",
+      "resume_empreinte": "0dbc838aebb0739c3e97fc8a05f28310e8fdb7438fc24c2f031bfc42d2b43d7e",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "USA after Trump : dernière étape à Portland, l’insurrection, les punks et la nuit des résultats",
@@ -108,13 +139,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-07T20:53:10.983081+00:00",
-      "resume_tente_utc": "2026-11-07T20:53:51.935782+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, Portland a été le théâtre d'une insurrection contre l'État et la police après l'assassinat de George Floyd en mai 2020. Les manifestations, d'abord pacifiques, se sont rapidement transformées en émeutes, avec des affrontements entre manifestants et forces de l'ordre. La ville a également été la cible de critiques de la part du président Trump, qui la qualifie de zone de guerre.\n\nAucune réponse officielle n'est rapportée dans l'article. La situation à Portland reste incertaine et les autorités n'ont pas fait de déclaration publique sur les événements décrits.",
-      "resume_empreinte": "06baed29ad16abe84beef81bcf721f56a9cd6755aeca4447ed4e15600e85c2a4",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
+      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
+      "resume_tente_utc": "2026-11-08T12:15:18.572817+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Commission d’enquête sur le 17 octobre : Nunez s’embourbe dans les dénégations",
@@ -131,35 +160,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-07T20:53:10.983081+00:00",
+      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
       "resume_tente_utc": "2026-11-06T22:08:28.908131+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
       "resume": "Selon Blast, la commission d'enquête sur les événements des 17 et 18 octobre a auditionné Laurent Nuñez, ministre de l'Intérieur. Nuñez a reconnu des défaillances dans la gestion des manifestations, tout en justifiant l'ampleur de la mobilisation et l'usage de la force. Il a également défendu l'utilisation des grenades de désencerclement et des MICAS, malgré les critiques.\n\nLaurent Nuñez a déclaré qu'il ne retirait pas d'enseignement de l'incident à Lens et maintenait l'usage des grenades de désencerclement. Il a également affirmé que les actes de nature à mettre en péril les institutions justifiaient le recours aux MICAS. Le ministre n'a pas exclu un black-out des réseaux sociaux en cas de circonstances exceptionnelles.",
       "resume_empreinte": "324a1aebff38f55ab1f2f6d054948f029482660e47d915ee50be638b3af72099",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
-    },
-    {
-      "titre": "Italie : pourquoi une gauche radicale peine à émerger ?",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/italie-pourquoi-une-gauche-radicale-peine-a-emerger-o3rbflqyQJuVOXPPmnKIjw",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-11-04T11:00:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Institutions / libertés publiques",
-        "Travail"
-      ],
-      "candidats_mentions": [
-        "Jean-Luc Mélenchon"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-07T20:53:10.983081+00:00",
-      "resume_tente_utc": "2026-11-07T12:21:51.859073+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -177,8 +184,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-07T20:53:10.983081+00:00",
-      "resume_tente_utc": "2026-11-07T21:04:06.663931+00:00",
+      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
+      "resume_tente_utc": "2026-11-08T12:27:21.672638+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "DelaiDepasse"
@@ -197,7 +204,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-07T20:53:10.983081+00:00",
+      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -221,7 +228,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-07T20:53:10.983081+00:00",
+      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
       "resume_tente_utc": "2026-11-04T22:38:47.854381+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -245,11 +252,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-07T20:53:10.983081+00:00",
+      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
       "resume_tente_utc": "2026-11-07T21:24:17.798433+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     }
   ]
 }

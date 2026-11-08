@@ -1,6 +1,6 @@
 {
-  "last_checked_utc": "2026-11-07T20:53:10.983081+00:00",
-  "last_checked_fr": "7 novembre 2026",
+  "last_checked_utc": "2026-11-08T11:57:24.830021+00:00",
+  "last_checked_fr": "8 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
@@ -33,10 +33,29 @@
           {
             "type": "media_independant_investigation",
             "source": "Blast",
+            "titre": "Après l’attentat de Trappes, la logorrhée raciste continue dans les médias Bolloré",
+            "url": "https://www.blast-info.fr/articles/2026/apres-lattentat-de-trappes-la-logorrhee-raciste-continue-dans-les-medias-bollore-EOgTDfVsSCe4XON6xYlROw",
+            "resume": "L’éditocrate Mathieu Bock-Côté, immigré québécois venu vendre en France ses prêches identitaires et nationalistes, est comme chez lui chez Vincent Bolloré - ou, plus précisément, dans les médias du groupe du milliardaire d’extrême droite (1) : il dispose d’une tribune quotidienne sur la chaîne de propagande CNews, il intervient régulièrement dans Le Journal du dimanche (JDD), et il tient une chronique hebdomadaire dans Le JDNews , magazine paraissant le mercredi, mais qui est ensuite offert gratuitement, quatre jours plus tard, aux heureux acheteurs du JDD. C’est là qu’il écrivait, dans un article paru le 5 août dernier, que l’Europe était…",
+            "date_detection": "8 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Institutions / libertés publiques",
+              "Immigration"
+            ],
+            "candidats_mentions": [
+              "Éric Zemmour"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
             "titre": "L’historien qui ne voyait pas l’Histoire, par Sandra Lucbert",
             "url": "https://www.blast-info.fr/articles/2026/lhistorien-qui-ne-voyait-pas-lhistoire-par-sandra-lucbert-eUxm89hVTnydUNrb_QliyA",
             "resume": "L’entretien de Patrick Boucheron auquel répond cette tribune est à lire sur le site de Libération . Libération a tenté quelque chose : Patrick Boucheron. Voilà un « intellectuel » qui a célébré en Macron le nouveau Machiavel, a écumé devant les Gilets jaunes, a désactivé Louise Michel et la Révolution française pour l’ouverture des Jeux Olympiques.",
-            "date_detection": "7 novembre 2026",
+            "date_detection": "8 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École"
@@ -54,7 +73,7 @@
             "titre": "USA after Trump : dernière étape à Portland, l’insurrection, les punks et la nuit des résultats",
             "url": "https://www.blast-info.fr/articles/2026/usa-after-trump-derniere-etape-a-portland-linsurrection-les-punks-et-la-nuit-des-resultats-nUNeJSgpSdK7ZEq0hifK7g",
             "resume": "Depuis Olympia : prendre l’Interstate 5 en direction du Sud, et rallier Portland. Portland, ou l’anarchie Au Sandy Hut, North Eastside Portland, il n'y a pas de fenêtres et les tireuses à bière tournent au ralenti, au lendemain de la fiesta d'Halloween. On sent dans l'air un parfum de gueule de bois, une mélancolie de jour férié.",
-            "date_detection": "7 novembre 2026",
+            "date_detection": "8 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Énergie",
@@ -71,7 +90,7 @@
             "titre": "Commission d’enquête sur le 17 octobre : Nunez s’embourbe dans les dénégations",
             "url": "https://www.blast-info.fr/articles/2026/commission-denquete-sur-le-17-octobre-nunez-sembourbe-dans-les-denegations-Az9EPtOFS92N93G1CsT7ng",
             "resume": "La commission d’enquête sur les évènements des 17 et 18 octobre s’est ouverte ce mardi 3 novembre, en milieu d’après-midi, avec l’audition de Laurent Nuñez. Sous le feu des critiques après les violences survenues en marge des manifestations, le ministre de l’Intérieur a tant bien que mal défendu l’action des services de police et assuré que l’État n’avait pas failli à sa mission, malgré d’indéniables défaillances. La séance était présidée par le député macroniste des Français de l’étranger Vincent Caure.",
-            "date_detection": "7 novembre 2026",
+            "date_detection": "8 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -86,30 +105,10 @@
           {
             "type": "media_independant_investigation",
             "source": "Blast",
-            "titre": "Italie : pourquoi une gauche radicale peine à émerger ?",
-            "url": "https://www.blast-info.fr/articles/2026/italie-pourquoi-une-gauche-radicale-peine-a-emerger-o3rbflqyQJuVOXPPmnKIjw",
-            "resume": "Alors que la France traverse une énième crise sociale et qu’Emmanuel Macron ne cache même plus son néolibéralisme autoritaire, de l’autre côté des Alpes, la colère gronde également. Ces dernières semaines, en Italie, d’importants mouvements sociaux ont émergé : les dockers et les ouvriers sidérurgistes de l’usine ex-Ilva à Gênes, en passant par les étudiants et la jeunesse , ou encore les agriculteurs, routiers et petits patrons dans le sud de l’Italie . Malgré ce contexte favorable à la gauche radicale, elle peine à se faire entendre.",
-            "date_detection": "7 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École",
-              "Institutions / libertés publiques",
-              "Travail"
-            ],
-            "candidats_mentions": [
-              "Jean-Luc Mélenchon"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
             "titre": "Histoire falsifiée, roman national : les historiens démontent l’extrême droite",
             "url": "https://www.blast-info.fr/emissions/2026/histoire-falsifiee-roman-national-les-historiens-demontent-lextreme-droite-7vz9Et7jR8eKJxVOVOYIQA",
             "resume": "La colonisation serait une « bénédiction » d’après Éric Zemmour, les chambres à gaz, « un détail de l’histoire » pour Jean-Marie Le Pen. On oublierait presque que le RN, anciennement Front national, a compté d’anciens Waffen-SS parmi ses fondateurs… Un parti qui ne compterait même aucun antisémite dans ses rangs… Depuis des décennies, ces contre-vérités sont au cœur des discours d’extrême droite. Un pseudo-roman national que sont venus contrer une cinquantaine d’historiens et d’intellectuels dans Les Faussaires de la nation : comment l’extrême droite défigure l’histoire (et comment lui résister).",
-            "date_detection": "7 novembre 2026",
+            "date_detection": "8 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -146,7 +145,7 @@
             "titre": "ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
             "url": "https://disclose.ngo/fr/article/arcelormittal-derriere-lacier-made-in-france-les-terres-volees-du-liberia",
             "resume": "Pour fabriquer de l’acier dans ses usines de Dunkerque et Fos-sur-Mer, ArcelorMittal exploite des gisements de minerai de fer au Liberia. Entre accaparement de terres agricoles et contamination des ressources en eau, la firme met en danger plusieurs milliers d’habitant·es de ce pays d’Afrique de l’Ouest. Révélations sur les pratiques climaticides et néocoloniales du géant mondial de la sidérurgie.",
-            "date_detection": "7 novembre 2026",
+            "date_detection": "8 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -165,7 +164,7 @@
             "titre": "La justice relance la traque de nos sources",
             "url": "https://disclose.ngo/fr/article/la-justice-sobstine-a-enqueter-sur-disclose-et-relance-la-traque-de-nos-sources",
             "resume": "La Cour d’appel de Paris a suivi les demandes du parquet général et ordonné, mercredi 8 juillet, la réouverture des investigations visant à identifier les sources ayant contribué à nos révélations sur la complicité de la France dans des exécutions extrajudiciaires perpétrées par la dictature égyptienne. Disclose appelle à la mobilisation pour défendre le droit à l’information des citoyen·nes. Le 8 juillet, la chambre de l’instruction de la Cour d’appel de Paris a ordonné la réouverture de l’enquête judiciaire initiée contre Disclose il y a un peu plus de trois ans.",
-            "date_detection": "7 novembre 2026",
+            "date_detection": "8 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -182,7 +181,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pfas-six-communes-des-ardennes-portent-plainte-pour-mise-en-danger-de-la-vie-dautrui",
             "resume": "Six communes des Ardennes ont porté plainte pour « mise en danger de la vie d’autrui » et « pollution de l’eau », mardi 7 avril, après avoir découvert l’ampleur de la contamination aux « polluants éternels » sur leur territoire. La procédure, qui s’appuie largement sur les enquêtes successives de Disclose, s’ajoute à trois autres plaintes enregistrées depuis l’été 2025. Dans les Ardennes et la Meuse, la riposte judiciaire s’organise face à la contamination aux PFAS révélée par Disclose et France 3.",
-            "date_detection": "7 novembre 2026",
+            "date_detection": "8 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -199,7 +198,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pollution-aux-pfas-deux-agriculteurs-des-ardennes-portent-plainte-et-demandent-des-comptes-a-letat",
             "resume": "Un couple de maraîchers des Ardennes a déposé plainte, vendredi 27 mars, pour « mise en danger de la vie d’autrui », après les révélations de Disclose et France 3 sur la contamination aux PFAS de leurs légumes et de leur sang. Deux autres plaintes ont été déposées ces derniers jours par des habitant·es de ce territoire, touché par l’une des plus graves pollutions industrielles connues en France. Dans leurs terres, leurs légumes, et jusque dans leur sang : les PFAS se sont immiscés partout chez les Abraham.",
-            "date_detection": "7 novembre 2026",
+            "date_detection": "8 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -217,7 +216,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/ventes-darmes-francaises-dans-la-guerre-au-yemen-pourquoi-disclose-saisit-la-cour-europeenne-des-droits-de-lhomme",
             "resume": "Disclose, Amnesty International et le Centre européen pour les droits humains et institutionnels s’attaquent au déni de démocratie de l’État français sur ses ventes d’armes aux régimes autoritaires responsables de crimes de guerre. Le 1er avril, elles ont déposé plainte pour violation des droits fondamentaux auprès de la Cour européenne des droits de l’Homme. La France refuse à Disclose, Amnesty International France et ECCHR d’accéder aux documents douaniers liés aux exportations d’armes françaises vers l’Arabie saoudite, les Émirats arabes unis et l’Égypte, soupçonnés de crimes de guerre au Yémen.",
-            "date_detection": "7 novembre 2026",
+            "date_detection": "8 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
@@ -232,14 +231,17 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 1,
+    "resumes": 2,
     "reutilises": 4,
-    "indisponibles": 6,
+    "indisponibles": 5,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {},
+    "rejets": {
+      "noms": 1
+    },
     "erreurs": {
-      "DelaiDepasse": 2
+      "ValueError": 1,
+      "DelaiDepasse": 1
     }
   },
   "publications_par_media": {
@@ -264,7 +266,7 @@
   "campagnes_automatiques": {
     "pages_examinees": 55,
     "pages_accessibles": 36,
-    "propositions_extraites": 3,
+    "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {

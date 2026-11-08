@@ -1288,5 +1288,27 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "En 2027, un nouveau gouvernement remettra-t-il en cause la dette ?",
+    "url": "https://www.blast-info.fr/articles/2026/en-2027-un-nouveau-gouvernement-remettra-t-il-en-cause-la-dette-tt6-U0aLSg6UpmHUDi3YRQ",
+    "resume": "La France traverse une crise politique et sociale profonde. Depuis 2017, Emmanuel Macron gouverne au service d'une orientation économique qui privilégie les intérêts des grandes entreprises, des détenteurs de capitaux et des plus fortunés. La jeunesse réclame des conditions d'études dignes, des enseignants en nombre suffisant, des établissements correctement financés et une éducation qui ne soit pas sacrifiée à des impératifs comptables.",
+    "date_detection": "8 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Santé",
+      "Énergie",
+      "Fiscalité",
+      "Écologie",
+      "Institutions / libertés publiques",
+      "Travail"
+    ],
+    "candidats_mentions": [
+      "Jean-Luc Mélenchon"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
