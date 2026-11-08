@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-08T11:57:24.830021+00:00",
+  "last_checked_utc": "2026-11-08T21:11:45.772249+00:00",
   "articles": [
     {
       "titre": "En 2027, un nouveau gouvernement remettra-t-il en cause la dette ?",
@@ -22,7 +22,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
+      "derniere_verification_utc": "2026-11-08T21:11:45.772249+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -47,7 +47,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
+      "derniere_verification_utc": "2026-11-08T21:11:45.772249+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -71,8 +71,8 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
-      "resume_tente_utc": "2026-11-08T11:58:11.536237+00:00",
+      "derniere_verification_utc": "2026-11-08T21:11:45.772249+00:00",
+      "resume_tente_utc": "2026-11-08T21:27:54.278378+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
       "resume": "Selon Blast, le mouvement des 'Gilets jaunes' n'a pas été récupéré par l'extrême droite comme le fut le mouvement de 2018-2019. Vincent Lapierre, un vidéaste d'extrême droite, a soutenu les 'Gilets jaunes' initialement mais condamne aujourd'hui les récentes mobilisations. Cette évolution reflète celle de nombreux militants d'extrême droite qui, après avoir soutenu les 'Gilets jaunes', se sont aujourd'hui alignés sur le macronisme en agissant comme des supplétifs de la police.\n\nAucune réponse officielle n'est rapportée dans l'article. La publication Blast souligne simplement que la composition sociologique différente du mouvement actuel et sa forte orientation de gauche rendent difficile une récupération par l'extrême droite.",
@@ -93,7 +93,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
+      "derniere_verification_utc": "2026-11-08T21:11:45.772249+00:00",
       "resume_tente_utc": "2026-11-07T12:15:22.938560+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -117,8 +117,8 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
-      "resume_tente_utc": "2026-11-08T12:07:19.458361+00:00",
+      "derniere_verification_utc": "2026-11-08T21:11:45.772249+00:00",
+      "resume_tente_utc": "2026-11-08T21:35:03.144218+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
       "resume": "Selon Blast, après l'attentat de Trappes, des éditocrates comme Mathieu Bock-Côté et Philippe de Villiers continuent à propager des discours islamophobes et racistes dans les médias du groupe Bolloré. Le 23 octobre 2026, un tueur a tué un jeune homme noir et blessé plusieurs dizaines de personnes à Trappes, ciblant des personnes de type musulman, africain ou nord-africain.\n\nLe groupe Bolloré n'a pas commenté spécifiquement les accusations de Blast. Le gouvernement français n'a pas non plus fait de déclaration directe sur le rôle des médias dans la propagation de discours haineux. Le Journal du dimanche a reçu plus d'un million d'euros d'aides publiques en 2025.",
@@ -139,8 +139,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
-      "resume_tente_utc": "2026-11-08T12:15:18.572817+00:00",
+      "derniere_verification_utc": "2026-11-08T21:11:45.772249+00:00",
+      "resume_tente_utc": "2026-11-08T21:42:32.027612+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -160,7 +160,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
+      "derniere_verification_utc": "2026-11-08T21:11:45.772249+00:00",
       "resume_tente_utc": "2026-11-06T22:08:28.908131+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -184,8 +184,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
-      "resume_tente_utc": "2026-11-08T12:27:21.672638+00:00",
+      "derniere_verification_utc": "2026-11-08T21:11:45.772249+00:00",
+      "resume_tente_utc": "2026-11-08T21:53:51.241822+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "DelaiDepasse"
@@ -204,7 +204,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
+      "derniere_verification_utc": "2026-11-08T21:11:45.772249+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -228,7 +228,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
+      "derniere_verification_utc": "2026-11-08T21:11:45.772249+00:00",
       "resume_tente_utc": "2026-11-04T22:38:47.854381+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -252,10 +252,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-08T11:57:24.830021+00:00",
-      "resume_tente_utc": "2026-11-07T21:24:17.798433+00:00",
+      "derniere_verification_utc": "2026-11-08T21:11:45.772249+00:00",
+      "resume_tente_utc": "2026-11-08T21:12:31.136488+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "ValueError"
     }
   ]
 }
