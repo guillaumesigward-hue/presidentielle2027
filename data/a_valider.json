@@ -1310,5 +1310,67 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Manifestation du 7 novembre : une « manifest’enfant » à l'écart des violences policières, et pleine de bons slogans",
+    "url": "https://www.blast-info.fr/articles/2026/manifestation-du-7-novembre-une-manifestenfant-a-l-ecart-des-violences-policieres-et-pleine-de-bons-slogans-PYcsbbifR5uMCslWdffZjQ",
+    "resume": "« On a eu l’idée la première fois de faire ce rassemblement d’enfants, c’était le samedi 17 octobre, parce que je voulais aller à la manifestation de Rennes pour soutenir les lycéens, pour dire que j’en avais marre de la pollution, et des idées injustes du gouvernement et du racisme. Mais on n’a pas pu aller à Rennes parce que c’était trop violent » . Il est élève à l’école primaire de la petite commune de Saint-Senoux (2 000 habitants), au sud de Rennes.",
+    "date_detection": "9 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Écologie",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Pourquoi devrait-on payer une dette illégitime ?",
+    "url": "https://www.blast-info.fr/emissions/2026/pourquoi-devrait-on-payer-une-dette-illegitime-lVu1QDsTRuySd8DtXSF8wQ",
+    "resume": "FR Ignorer les liens de navigation Créer 9+ Image d'avatar POURQUOI DEVRAIT-ON PAYER UNE DETTE ILLÉGITIME ? BLAST, Le souffle de l'info BLAST, Le souffle de l'info 1,73 M d’abonnés 3,2 k 115 063 vues 8 nov. 2026 #dette #érictoussaint #capitalisme Soutenez Blast, nouveau média indépendant : https://www.blast-info.fr/soutenir La France est traversée par un mouvement de révolte jamais vu depuis les gilets jaunes.",
+    "date_detection": "9 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Fiscalité",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [
+      "Jean-Luc Mélenchon"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Budget : Comprendre ce qui nous attend en 2027",
+    "url": "https://www.blast-info.fr/emissions/2026/budget-comprendre-ce-qui-nous-attend-en-2027-lJIsB0kxSjGFtXn0DJTF3g",
+    "resume": "Alors que le mouvement social parti des lycées secoue le pays depuis près de deux mois, le gouvernement de Sébastien Lecornu défendait à la fin de l'été 2026 un budget 2027 qui prévoit 54 milliards d’euros d’économies pour ramener le déficit public à 5 % du PIB. À l’Assemblée nationale, les deux textes ont été rejetés. Le budget de la Sécurité sociale l’a été le 23 octobre, et celui de l’État le 4 novembre, par 458 voix contre et aucune pour.",
+    "date_detection": "9 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Santé",
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Attal : loser",
+    "url": "https://www.blast-info.fr/emissions/2026/attal-loser-OrMQ-q0wR3mEf-YYLSLJtQ",
+    "resume": "Le macronisme mourant ne s’arrête pas d’en finir : chaque semaine un nouveau scandale, chaque semaine une nouvelle cruauté. Dans cet épisode on va décortiquer à quoi sert la candidature d’Attal pour le bloc central, entre appel à l’union et survivance d’un appareil électoral. Mais on fera aussi un tour du côté de la musique des clips insoumis, pour en proposer une analyse jusqu’ici, inédite.",
+    "date_detection": "9 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Gabriel Attal"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
