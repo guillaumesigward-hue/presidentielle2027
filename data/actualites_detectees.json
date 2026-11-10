@@ -2588,5 +2588,44 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10363 Pres Potentiel électoral TOLUNA HARRIS INTERACTIVE 10 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2385",
+    "date_detection": "10 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Présidentielle : à Saint-Raphaël, la droite entre cheveux blancs, gilets sans manche et idées rances",
+    "url": "https://www.blast-info.fr/articles/2026/presidentielle-a-saint-raphael-la-droite-entre-cheveux-blancs-gilets-sans-manche-et-idees-rances-zrzLiPS9TQSEBhU1Gs4KIw",
+    "resume": "Ça s’appelle les Rencontres de l’avenir, mais dans la salle, il y a tout de même beaucoup (beaucoup) de cheveux blancs – quand il en reste… Beaucoup de gilets sans manche aussi. C’est que ces rencontres qui se déroulent les 6, 7 et 8 novembre à Saint-Raphaël, dans le Var, un fief sûr de l’extrême droite en France, accueillent du « beau » monde cette année : tout — ou presque — ce que la droite compte de candidats à l’élection présidentielle (pas d’écriture inclusive ici : il n’y a que des hommes, et il ne faudrait pas choquer celles et ceux qui ont participé à ces rencontres). La droite dans son spectre le plus large : on commence avec Bruno…",
+    "date_detection": "10 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Santé",
+      "Énergie",
+      "Écologie",
+      "Institutions / libertés publiques",
+      "Immigration",
+      "Travail"
+    ],
+    "candidats_mentions": [
+      "Édouard Philippe",
+      "Gabriel Attal",
+      "Bruno Retailleau",
+      "Jean-Luc Mélenchon",
+      "Marine Le Pen",
+      "Éric Zemmour",
+      "Jordan Bardella",
+      "Raphaël Glucksmann"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]

@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-11-10T00:43:25.283404+00:00",
+  "last_checked_utc": "2026-11-10T13:29:42.530579+00:00",
   "last_checked_fr": "10 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 226,
-      "dernier_id_detecte": 2384,
+      "notices_detectees": 227,
+      "dernier_id_detecte": 2385,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -33,6 +33,29 @@
           {
             "type": "media_independant_investigation",
             "source": "Blast",
+            "titre": "« Gilets jaunes » versus « 17 octobre » : Voici pourquoi, cette fois, le mouvement n’a pas été récupéré par l’extrême droite",
+            "url": "https://www.blast-info.fr/articles/2026/gilets-jaunes-versus-17-octobre-voici-pourquoi-cette-fois-le-mouvement-na-pas-ete-recupere-par-lextreme-droite-hI3KjorcTS2Cm5GbUPzckQ",
+            "resume": "En déplacement à Limoges au lendemain de l’incendie de la mairie, le 18 octobre dernier, Vincent Lapierre, vidéaste d’extrême droite et ancien proche d’Alain Soral, surjoue le soutien aux forces de l’ordre, et l’indignation face aux manifestants : « Ces mecs-là, ils sont sans foi ni loi, (…) ils lancent des pavés contre des policiers » . Le même, il y a sept ans, dénonçait pourtant les violences policières : « Ils [les policiers] ont le devoir moral de ne pas appliquer des ordres, souvent illégaux, qui ne font que jeter de l'huile sur le feu » , déclarait-il au site d’extrême droite Breizh-info , alors que les manifestations des gilets…",
+            "date_detection": "10 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Fiscalité",
+              "Institutions / libertés publiques",
+              "Immigration",
+              "Travail"
+            ],
+            "candidats_mentions": [
+              "Jean-Luc Mélenchon",
+              "Marine Le Pen"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
             "titre": "Loi Ripost : Le premier condamné d’une free party écope de 150€ d’amende",
             "url": "https://www.blast-info.fr/articles/2026/loi-ripost-le-premier-condamne-dune-free-party-ecope-de-150eur-damende-510CZbZWR-25IxA-ZlIWwQ",
             "resume": "La free party de la Hoguette (Calvados), le week-end du 12 septembre dernier est entrée dans l’histoire judiciaire. Organisé sans déclaration auprès de la préfecture du Calvados, l'événement baptisé par les fêtards Invasion Normandy a réuni près de 300 personnes, et presque autant de gendarmes ! La rave a en effet été l’occasion pour les autorités de mettre en branle pour la première fois le dispositif de la loi Ripost, dont tout un pan a été spécialement conçu contre le mouvement tekno.",
@@ -43,25 +66,6 @@
               "Institutions / libertés publiques"
             ],
             "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Après l’attentat de Trappes, la logorrhée raciste continue dans les médias Bolloré",
-            "url": "https://www.blast-info.fr/articles/2026/apres-lattentat-de-trappes-la-logorrhee-raciste-continue-dans-les-medias-bollore-EOgTDfVsSCe4XON6xYlROw",
-            "resume": "L’éditocrate Mathieu Bock-Côté, immigré québécois venu vendre en France ses prêches identitaires et nationalistes, est comme chez lui chez Vincent Bolloré - ou, plus précisément, dans les médias du groupe du milliardaire d’extrême droite (1) : il dispose d’une tribune quotidienne sur la chaîne de propagande CNews, il intervient régulièrement dans Le Journal du dimanche (JDD), et il tient une chronique hebdomadaire dans Le JDNews , magazine paraissant le mercredi, mais qui est ensuite offert gratuitement, quatre jours plus tard, aux heureux acheteurs du JDD. C’est là qu’il écrivait, dans un article paru le 5 août dernier, que l’Europe était…",
-            "date_detection": "10 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Institutions / libertés publiques",
-              "Immigration"
-            ],
-            "candidats_mentions": [
-              "Éric Zemmour"
-            ],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
             "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
@@ -226,17 +230,14 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 5,
-    "reutilises": 2,
-    "indisponibles": 4,
+    "resumes": 0,
+    "reutilises": 3,
+    "indisponibles": 8,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {
-      "copie": 2,
-      "titre": 1
-    },
+    "rejets": {},
     "erreurs": {
-      "ValueError": 3
+      "DelaiDepasse": 3
     }
   },
   "publications_par_media": {
@@ -260,7 +261,7 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 55,
-    "pages_accessibles": 36,
+    "pages_accessibles": 37,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -270,7 +271,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 5
+        "accessibles": 6
       },
       "Fabien Roussel": {
         "examinees": 6,
