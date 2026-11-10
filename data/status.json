@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-10T13:29:42.530579+00:00",
+  "last_checked_utc": "2026-11-10T22:24:53.109258+00:00",
   "last_checked_fr": "10 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -22,14 +22,62 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 10,
+      "detections": 8,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 118,
+      "liens_trouves": 117,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 10,
+        "nombre": 8,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "En 2027, un nouveau gouvernement remettra-t-il en cause la dette ?",
+            "url": "https://www.blast-info.fr/articles/2026/en-2027-un-nouveau-gouvernement-remettra-t-il-en-cause-la-dette-tt6-U0aLSg6UpmHUDi3YRQ",
+            "resume": "La France traverse une crise politique et sociale profonde. Depuis 2017, Emmanuel Macron gouverne au service d'une orientation économique qui privilégie les intérêts des grandes entreprises, des détenteurs de capitaux et des plus fortunés. La jeunesse réclame des conditions d'études dignes, des enseignants en nombre suffisant, des établissements correctement financés et une éducation qui ne soit pas sacrifiée à des impératifs comptables.",
+            "date_detection": "10 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Santé",
+              "Énergie",
+              "Fiscalité",
+              "Écologie",
+              "Institutions / libertés publiques",
+              "Travail"
+            ],
+            "candidats_mentions": [
+              "Jean-Luc Mélenchon"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Chère Prisca Thevenot – Boxing Day #101",
+            "url": "https://www.blast-info.fr/articles/2026/chere-prisca-thevenot-boxing-day-101-KnSM-G9fRuOyVywcoeYOSA",
+            "resume": "Samedi 31 octobre, vous expliquiez sur Franceinfo TV, au sujet de l’absence de votre candidat pour la prochaine élection présidentielle, un certain Gabriel Attal , à l’hommage organisé à Trappes la veille, soit une semaine après l’attentat raciste du 23 octobre, que « le racisme, on ne le combat pas avec des symboles marketing » , c’est bien noté, on en déduira donc que selon vous une présence au côté des familles et des proches des victimes d’un terroriste d’extrême droite est de l’ordre de la communication publicitaire, on va vomir et on revient. Et, comme si cette abjection ne suffisait pas, vous avez jugé bon de la republier sur votre…",
+            "date_detection": "10 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Santé",
+              "Écologie",
+              "Institutions / libertés publiques",
+              "Immigration",
+              "Travail"
+            ],
+            "candidats_mentions": [
+              "Gabriel Attal",
+              "Bruno Retailleau"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -49,23 +97,6 @@
               "Jean-Luc Mélenchon",
               "Marine Le Pen"
             ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Loi Ripost : Le premier condamné d’une free party écope de 150€ d’amende",
-            "url": "https://www.blast-info.fr/articles/2026/loi-ripost-le-premier-condamne-dune-free-party-ecope-de-150eur-damende-510CZbZWR-25IxA-ZlIWwQ",
-            "resume": "La free party de la Hoguette (Calvados), le week-end du 12 septembre dernier est entrée dans l’histoire judiciaire. Organisé sans déclaration auprès de la préfecture du Calvados, l'événement baptisé par les fêtards Invasion Normandy a réuni près de 300 personnes, et presque autant de gendarmes ! La rave a en effet été l’occasion pour les autorités de mettre en branle pour la première fois le dispositif de la loi Ripost, dont tout un pan a été spécialement conçu contre le mouvement tekno.",
-            "date_detection": "10 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Santé",
-              "Institutions / libertés publiques"
-            ],
-            "candidats_mentions": [],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
             "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
@@ -102,22 +133,6 @@
               "Institutions / libertés publiques"
             ],
             "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Attal : loser",
-            "url": "https://www.blast-info.fr/emissions/2026/attal-loser-OrMQ-q0wR3mEf-YYLSLJtQ",
-            "resume": "Le macronisme mourant ne s’arrête pas d’en finir : chaque semaine un nouveau scandale, chaque semaine une nouvelle cruauté. Dans cet épisode on va décortiquer à quoi sert la candidature d’Attal pour le bloc central, entre appel à l’union et survivance d’un appareil électoral. Mais on fera aussi un tour du côté de la musique des clips insoumis, pour en proposer une analyse jusqu’ici, inédite.",
-            "date_detection": "10 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [
-              "Gabriel Attal"
-            ],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
             "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
@@ -230,14 +245,17 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 0,
+    "resumes": 2,
     "reutilises": 3,
-    "indisponibles": 8,
+    "indisponibles": 6,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {},
+    "rejets": {
+      "titre": 1
+    },
     "erreurs": {
-      "DelaiDepasse": 3
+      "ValueError": 1,
+      "DelaiDepasse": 2
     }
   },
   "publications_par_media": {
@@ -261,7 +279,7 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 55,
-    "pages_accessibles": 37,
+    "pages_accessibles": 36,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -271,7 +289,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 6
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,

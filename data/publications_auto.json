@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-10T13:29:42.530579+00:00",
+  "last_checked_utc": "2026-11-10T22:24:53.109258+00:00",
   "articles": [
     {
       "titre": "Présidentielle : à Saint-Raphaël, la droite entre cheveux blancs, gilets sans manche et idées rances",
@@ -26,7 +26,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-10T13:29:42.530579+00:00",
+      "derniere_verification_utc": "2026-11-10T22:24:53.109258+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -43,7 +43,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-10T13:29:42.530579+00:00",
+      "derniere_verification_utc": "2026-11-10T22:24:53.109258+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -62,11 +62,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-10T13:29:42.530579+00:00",
+      "derniere_verification_utc": "2026-11-10T22:24:53.109258+00:00",
       "resume_tente_utc": "2026-11-10T14:10:59.748319+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
     {
       "titre": "Pourquoi devrait-on payer une dette illégitime ?",
@@ -84,10 +83,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-10T13:29:42.530579+00:00",
-      "resume_tente_utc": "2026-11-10T01:09:58.693085+00:00",
+      "derniere_verification_utc": "2026-11-10T22:24:53.109258+00:00",
+      "resume_tente_utc": "2026-11-10T22:25:43.529119+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "En 2027, un nouveau gouvernement remettra-t-il en cause la dette ?",
@@ -110,10 +110,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-10T13:29:42.530579+00:00",
-      "resume_tente_utc": "2026-11-10T01:11:14.088084+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-10T22:24:53.109258+00:00",
+      "resume_tente_utc": "2026-11-10T22:30:34.030080+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume": "Selon Blast, la France pourrait voir un nouveau gouvernement en 2027 remettre en question une partie de la dette publique accumulée sous Emmanuel Macron. La dette a augmenté de 1 400 milliards d'euros depuis 2017, atteignant 3 596 milliards d'euros en 2026. Le CADTM France suggère que cette dette pourrait être considérée comme illégitime ou odieuse, justifiant ainsi une suspension ou une annulation partielle.\n\nLe gouvernement actuel n'a pas encore répondu officiellement à ces allégations. Toutefois, il est prévu qu'un audit citoyen de la dette soit mené par un gouvernement démocratiquement élu en 2027, afin d'examiner la légitimité et la nécessité de rembourser certaines créances.",
+      "resume_empreinte": "1667b40fb990185419e4fe2835343df48a64c18048af91200eeed18edb3ffbaf",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Chère Prisca Thevenot – Boxing Day #101",
@@ -136,7 +139,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-10T13:29:42.530579+00:00",
+      "derniere_verification_utc": "2026-11-10T22:24:53.109258+00:00",
       "resume_tente_utc": "2026-11-10T01:15:06.807682+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -158,10 +161,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-10T13:29:42.530579+00:00",
-      "resume_tente_utc": "2026-11-10T01:19:18.061272+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-10T22:24:53.109258+00:00",
+      "resume_tente_utc": "2026-11-10T22:40:45.068522+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume": "Selon Blast, le gouvernement de Sébastien Lecornu propose un budget 2027 visant à réduire le déficit public à 5 % du PIB grâce à 54 milliards d’euros d’économies. Le projet a été rejeté par l’Assemblée nationale, mais le Sénat examine actuellement le texte initial à partir du 9 novembre pour la Sécurité sociale et du 20 novembre pour l’État.\n\nLe gouvernement n'a pas encore fourni de réponse officielle à la rejet du budget par l'Assemblée nationale. Le Sénat examinera le texte initial sans modifications apportées par les députés.",
+      "resume_empreinte": "4ad929cd6b5c68df1f6bbb94cc511cebd94ba709decdbb916eb6f8e2baf6b5e7",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -179,8 +185,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-10T13:29:42.530579+00:00",
-      "resume_tente_utc": "2026-11-10T13:50:48.686308+00:00",
+      "derniere_verification_utc": "2026-11-10T22:24:53.109258+00:00",
+      "resume_tente_utc": "2026-11-10T23:02:56.379490+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "DelaiDepasse"
@@ -199,7 +205,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-10T13:29:42.530579+00:00",
+      "derniere_verification_utc": "2026-11-10T22:24:53.109258+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -223,7 +229,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-10T13:29:42.530579+00:00",
+      "derniere_verification_utc": "2026-11-10T22:24:53.109258+00:00",
       "resume_tente_utc": "2026-11-04T22:38:47.854381+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -247,8 +253,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-10T13:29:42.530579+00:00",
-      "resume_tente_utc": "2026-11-10T13:30:37.562231+00:00",
+      "derniere_verification_utc": "2026-11-10T22:24:53.109258+00:00",
+      "resume_tente_utc": "2026-11-10T22:42:45.209427+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "DelaiDepasse"
