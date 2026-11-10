@@ -1372,5 +1372,20 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "L'éditrice de Zemmour et Bardella nommée à la tête de Grasset",
+    "url": "https://www.blast-info.fr/articles/2026/l-editrice-de-zemmour-et-bardella-nommee-a-la-tete-de-grasset-XFO54gFGT_-uUJQAsk-v4Q",
+    "resume": "",
+    "date_detection": "10 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Éric Zemmour",
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

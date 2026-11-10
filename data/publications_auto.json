@@ -1,6 +1,23 @@
 {
-  "last_checked_utc": "2026-11-09T13:55:13.784490+00:00",
+  "last_checked_utc": "2026-11-10T00:43:25.283404+00:00",
   "articles": [
+    {
+      "titre": "L'éditrice de Zemmour et Bardella nommée à la tête de Grasset",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/l-editrice-de-zemmour-et-bardella-nommee-a-la-tete-de-grasset-XFO54gFGT_-uUJQAsk-v4Q",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-11-09T16:15:00+00:00",
+      "controle": "automatique",
+      "themes": [],
+      "candidats_mentions": [
+        "Jordan Bardella"
+      ],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-11-10T00:43:25.283404+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
+    },
     {
       "titre": "Manifestation du 7 novembre : une « manifest’enfant » à l'écart des violences policières, et pleine de bons slogans",
       "source": "Blast",
@@ -16,9 +33,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-09T13:55:13.784490+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-10T00:43:25.283404+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume_tente_utc": "2026-11-10T01:07:09.830616+00:00",
+      "resume": "Selon Blast, une manifestation intitulée « manifest'enfant » s'est tenue le 7 novembre à Pont-Réan, réunissant environ 120 personnes, dont une moitié d'enfants. Ces derniers ont exprimé leurs préoccupations sur des sujets tels que la pollution, le racisme et les violences policières, tout en dénonçant les injustices.\n\nAucune réponse officielle n'est rapportée dans l'article. Les organisateurs de la manifestation ont souligné l'importance de donner la parole aux enfants et de les écouter sur leurs préoccupations.",
+      "resume_empreinte": "154f099e78fc12f6d6de0c63668f5556b199c95ea5b827a6f1fc5b55894f4fa4",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Pourquoi devrait-on payer une dette illégitime ?",
@@ -36,9 +57,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-09T13:55:13.784490+00:00",
+      "derniere_verification_utc": "2026-11-10T00:43:25.283404+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_tente_utc": "2026-11-10T01:09:58.693085+00:00",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "En 2027, un nouveau gouvernement remettra-t-il en cause la dette ?",
@@ -61,9 +84,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-09T13:55:13.784490+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-10T00:43:25.283404+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume_tente_utc": "2026-11-10T01:11:14.088084+00:00",
+      "resume": "Selon Blast, la dette publique française pourrait être remise en cause par un nouveau gouvernement en 2027. Depuis 2017, la dette a augmenté de 1 400 milliards d'euros, atteignant 3 596 milliards d'euros en 2026. Cette croissance est attribuée à des politiques favorisant les entreprises et les détenteurs de capitaux, au détriment des services publics et de l'éducation. L'article suggère que certaines dettes pourraient être considérées comme illégales, illégitimes, odieuses ou insoutenables.\n\nLe gouvernement n'a pas encore répondu officiellement à ces allégations. Il est prévu qu'un audit citoyen de la dette soit mené par un nouveau gouvernement en 2027, mais aucune décision n'a été prise concernant la suspension, la restructuration ou l'annulation de certaines créances. La question de la légitimité de la dette reste ouverte et sera examinée dans le cadre de futures élections.",
+      "resume_empreinte": "1667b40fb990185419e4fe2835343df48a64c18048af91200eeed18edb3ffbaf",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Chère Prisca Thevenot – Boxing Day #101",
@@ -86,9 +113,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-09T13:55:13.784490+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-10T00:43:25.283404+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume_tente_utc": "2026-11-10T01:15:06.807682+00:00",
+      "resume": "Selon Blast, Prisca Thevenot, ministre déléguée et porte-parole du gouvernement, a critiqué la présence de Gabriel Attal lors d’un hommage à des victimes d’un attentat raciste. Thevenot a déclaré que le racisme ne se combat pas avec des symboles marketing, ce qui a suscité des critiques pour son attitude face à la lutte contre le racisme.\n\nLe gouvernement n'a pas fourni de réponse officielle à ces allégations. La situation reste donc incertaine et aucune déclaration officielle n'a été faite pour clarifier la position de Prisca Thevenot.",
+      "resume_empreinte": "3124e2fcd9522935528165e0cf742394b3605f6d2d1829c3195f9ffa55384893",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Budget : Comprendre ce qui nous attend en 2027",
@@ -104,9 +135,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-09T13:55:13.784490+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-10T00:43:25.283404+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
+      "resume_tente_utc": "2026-11-10T01:19:18.061272+00:00",
+      "resume": "Selon Blast, le gouvernement de Sébastien Lecornu propose un budget 2027 visant à réduire le déficit public à 5 % du PIB grâce à 54 milliards d’euros d’économies. Le budget prévoit le gel des crédits des ministères hors défense, le gel des prestations sociales et du point d’indice, ainsi que la sous-indexation des retraites et le freinage des dépenses de santé.\n\nLe gouvernement n'a pas encore répondu officiellement aux rejets par l'Assemblée nationale des budgets de la Sécurité sociale et de l'État. Le Sénat examinera ces textes à partir du 9 novembre pour la Sécurité sociale et du 20 novembre pour l'État.",
+      "resume_empreinte": "4ad929cd6b5c68df1f6bbb94cc511cebd94ba709decdbb916eb6f8e2baf6b5e7",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "« Gilets jaunes » versus « 17 octobre » : Voici pourquoi, cette fois, le mouvement n’a pas été récupéré par l’extrême droite",
@@ -128,34 +163,12 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-09T13:55:13.784490+00:00",
-      "resume_tente_utc": "2026-11-09T14:16:13.514437+00:00",
+      "derniere_verification_utc": "2026-11-10T00:43:25.283404+00:00",
+      "resume_tente_utc": "2026-11-10T00:53:39.639709+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, le mouvement des 'gilets jaunes' n'a pas été récupéré par l'extrême droite comme le fut le mouvement de 2018-2019. Vincent Lapierre, un vidéaste d'extrême droite, a soutenu les gilets jaunes initialement mais condamne aujourd'hui les récentes mobilisations. Cette évolution reflète celle de nombreux militants d'extrême droite qui, après avoir soutenu les gilets jaunes, se sont aujourd'hui alignés sur le macronisme en agissant comme des supplétifs de la police.\n\nAucune réponse officielle n'est rapportée dans l'article. La publication Blast souligne cependant que la composition sociologique différente du mouvement actuel, ainsi que sa forte orientation politique de gauche, rendent difficile une récupération par l'extrême droite.",
+      "resume": "Selon Blast, le mouvement des 'Gilets jaunes' n'a pas été récupéré par l'extrême droite comme le fut le mouvement de 2018-2019. Vincent Lapierre, un vidéaste d'extrême droite, a soutenu les 'Gilets jaunes' initialement mais condamne aujourd'hui les récentes mobilisations. Cette évolution reflète celle de nombreux militants d'extrême droite qui, après avoir soutenu les 'Gilets jaunes', se sont aujourd'hui alignés sur le macronisme en agissant comme des supplétifs de la police.\n\nAucune réponse officielle n'est rapportée dans l'article. La publication Blast souligne simplement que la composition sociologique différente du mouvement actuel et sa forte orientation de gauche rendent difficile une récupération par l'extrême droite.",
       "resume_empreinte": "85807bf17af3b3f59b2585ca1c47092d44f1d61a15d09e3b0d95b3d353491098",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
-    },
-    {
-      "titre": "Loi Ripost : Le premier condamné d’une free party écope de 150€ d’amende",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/loi-ripost-le-premier-condamne-dune-free-party-ecope-de-150eur-damende-510CZbZWR-25IxA-ZlIWwQ",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-11-06T13:30:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "Santé",
-        "Institutions / libertés publiques"
-      ],
-      "candidats_mentions": [],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-09T13:55:13.784490+00:00",
-      "resume_tente_utc": "2026-11-07T12:15:22.938560+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, la première condamnation en vertu de la loi Ripost a été prononcée contre un participant à une free party à la Hoguette, Calvados. Le jeune homme de 20 ans a été condamné à une amende de 150 euros pour participation à un rassemblement festif non autorisé, bien que la loi prévoie jusqu'à 500 euros d'amende.\n\nLe parquet de Caen n'a pas commenté la situation concernant les poursuites contre les organisateurs de la free party. La loi Ripost, qui vise à empêcher les free parties, pourrait entraîner des enquêtes plus longues et des procédures judiciaires complexes.",
-      "resume_empreinte": "db04c69c6f659959083c9a19a29c06b5585a3176f1bb17795467a2e72de35ae8",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
@@ -174,11 +187,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-09T13:55:13.784490+00:00",
-      "resume_tente_utc": "2026-11-09T14:28:16.805884+00:00",
+      "derniere_verification_utc": "2026-11-10T00:43:25.283404+00:00",
+      "resume_tente_utc": "2026-11-10T00:57:50.454886+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -194,7 +207,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-09T13:55:13.784490+00:00",
+      "derniere_verification_utc": "2026-11-10T00:43:25.283404+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -218,7 +231,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-09T13:55:13.784490+00:00",
+      "derniere_verification_utc": "2026-11-10T00:43:25.283404+00:00",
       "resume_tente_utc": "2026-11-04T22:38:47.854381+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -242,11 +255,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-09T13:55:13.784490+00:00",
-      "resume_tente_utc": "2026-11-09T13:56:02.436442+00:00",
+      "derniere_verification_utc": "2026-11-10T00:43:25.283404+00:00",
+      "resume_tente_utc": "2026-11-10T00:44:07.034480+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     }
   ]
 }

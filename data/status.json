@@ -1,6 +1,6 @@
 {
-  "last_checked_utc": "2026-11-09T13:55:13.784490+00:00",
-  "last_checked_fr": "9 novembre 2026",
+  "last_checked_utc": "2026-11-10T00:43:25.283404+00:00",
+  "last_checked_fr": "10 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
@@ -33,10 +33,27 @@
           {
             "type": "media_independant_investigation",
             "source": "Blast",
+            "titre": "Loi Ripost : Le premier condamné d’une free party écope de 150€ d’amende",
+            "url": "https://www.blast-info.fr/articles/2026/loi-ripost-le-premier-condamne-dune-free-party-ecope-de-150eur-damende-510CZbZWR-25IxA-ZlIWwQ",
+            "resume": "La free party de la Hoguette (Calvados), le week-end du 12 septembre dernier est entrée dans l’histoire judiciaire. Organisé sans déclaration auprès de la préfecture du Calvados, l'événement baptisé par les fêtards Invasion Normandy a réuni près de 300 personnes, et presque autant de gendarmes ! La rave a en effet été l’occasion pour les autorités de mettre en branle pour la première fois le dispositif de la loi Ripost, dont tout un pan a été spécialement conçu contre le mouvement tekno.",
+            "date_detection": "10 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Santé",
+              "Institutions / libertés publiques"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
             "titre": "Après l’attentat de Trappes, la logorrhée raciste continue dans les médias Bolloré",
             "url": "https://www.blast-info.fr/articles/2026/apres-lattentat-de-trappes-la-logorrhee-raciste-continue-dans-les-medias-bollore-EOgTDfVsSCe4XON6xYlROw",
             "resume": "L’éditocrate Mathieu Bock-Côté, immigré québécois venu vendre en France ses prêches identitaires et nationalistes, est comme chez lui chez Vincent Bolloré - ou, plus précisément, dans les médias du groupe du milliardaire d’extrême droite (1) : il dispose d’une tribune quotidienne sur la chaîne de propagande CNews, il intervient régulièrement dans Le Journal du dimanche (JDD), et il tient une chronique hebdomadaire dans Le JDNews , magazine paraissant le mercredi, mais qui est ensuite offert gratuitement, quatre jours plus tard, aux heureux acheteurs du JDD. C’est là qu’il écrivait, dans un article paru le 5 août dernier, que l’Europe était…",
-            "date_detection": "9 novembre 2026",
+            "date_detection": "10 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -52,28 +69,10 @@
           {
             "type": "media_independant_investigation",
             "source": "Blast",
-            "titre": "L’historien qui ne voyait pas l’Histoire, par Sandra Lucbert",
-            "url": "https://www.blast-info.fr/articles/2026/lhistorien-qui-ne-voyait-pas-lhistoire-par-sandra-lucbert-eUxm89hVTnydUNrb_QliyA",
-            "resume": "L’entretien de Patrick Boucheron auquel répond cette tribune est à lire sur le site de Libération . Libération a tenté quelque chose : Patrick Boucheron. Voilà un « intellectuel » qui a célébré en Macron le nouveau Machiavel, a écumé devant les Gilets jaunes, a désactivé Louise Michel et la Révolution française pour l’ouverture des Jeux Olympiques.",
-            "date_detection": "9 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École"
-            ],
-            "candidats_mentions": [
-              "Raphaël Glucksmann"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
             "titre": "Pourquoi devrait-on payer une dette illégitime ?",
             "url": "https://www.blast-info.fr/emissions/2026/pourquoi-devrait-on-payer-une-dette-illegitime-lVu1QDsTRuySd8DtXSF8wQ",
             "resume": "FR Ignorer les liens de navigation Créer 9+ Image d'avatar POURQUOI DEVRAIT-ON PAYER UNE DETTE ILLÉGITIME ? BLAST, Le souffle de l'info BLAST, Le souffle de l'info 1,73 M d’abonnés 3,2 k 115 063 vues 8 nov. 2026 #dette #érictoussaint #capitalisme Soutenez Blast, nouveau média indépendant : https://www.blast-info.fr/soutenir La France est traversée par un mouvement de révolte jamais vu depuis les gilets jaunes.",
-            "date_detection": "9 novembre 2026",
+            "date_detection": "10 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Fiscalité",
@@ -92,7 +91,7 @@
             "titre": "Budget : Comprendre ce qui nous attend en 2027",
             "url": "https://www.blast-info.fr/emissions/2026/budget-comprendre-ce-qui-nous-attend-en-2027-lJIsB0kxSjGFtXn0DJTF3g",
             "resume": "Alors que le mouvement social parti des lycées secoue le pays depuis près de deux mois, le gouvernement de Sébastien Lecornu défendait à la fin de l'été 2026 un budget 2027 qui prévoit 54 milliards d’euros d’économies pour ramener le déficit public à 5 % du PIB. À l’Assemblée nationale, les deux textes ont été rejetés. Le budget de la Sécurité sociale l’a été le 23 octobre, et celui de l’État le 4 novembre, par 458 voix contre et aucune pour.",
-            "date_detection": "9 novembre 2026",
+            "date_detection": "10 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -109,7 +108,7 @@
             "titre": "Attal : loser",
             "url": "https://www.blast-info.fr/emissions/2026/attal-loser-OrMQ-q0wR3mEf-YYLSLJtQ",
             "resume": "Le macronisme mourant ne s’arrête pas d’en finir : chaque semaine un nouveau scandale, chaque semaine une nouvelle cruauté. Dans cet épisode on va décortiquer à quoi sert la candidature d’Attal pour le bloc central, entre appel à l’union et survivance d’un appareil électoral. Mais on fera aussi un tour du côté de la musique des clips insoumis, pour en proposer une analyse jusqu’ici, inédite.",
-            "date_detection": "9 novembre 2026",
+            "date_detection": "10 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [],
             "candidats_mentions": [
@@ -141,7 +140,7 @@
             "titre": "ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
             "url": "https://disclose.ngo/fr/article/arcelormittal-derriere-lacier-made-in-france-les-terres-volees-du-liberia",
             "resume": "Pour fabriquer de l’acier dans ses usines de Dunkerque et Fos-sur-Mer, ArcelorMittal exploite des gisements de minerai de fer au Liberia. Entre accaparement de terres agricoles et contamination des ressources en eau, la firme met en danger plusieurs milliers d’habitant·es de ce pays d’Afrique de l’Ouest. Révélations sur les pratiques climaticides et néocoloniales du géant mondial de la sidérurgie.",
-            "date_detection": "9 novembre 2026",
+            "date_detection": "10 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -160,7 +159,7 @@
             "titre": "La justice relance la traque de nos sources",
             "url": "https://disclose.ngo/fr/article/la-justice-sobstine-a-enqueter-sur-disclose-et-relance-la-traque-de-nos-sources",
             "resume": "La Cour d’appel de Paris a suivi les demandes du parquet général et ordonné, mercredi 8 juillet, la réouverture des investigations visant à identifier les sources ayant contribué à nos révélations sur la complicité de la France dans des exécutions extrajudiciaires perpétrées par la dictature égyptienne. Disclose appelle à la mobilisation pour défendre le droit à l’information des citoyen·nes. Le 8 juillet, la chambre de l’instruction de la Cour d’appel de Paris a ordonné la réouverture de l’enquête judiciaire initiée contre Disclose il y a un peu plus de trois ans.",
-            "date_detection": "9 novembre 2026",
+            "date_detection": "10 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -177,7 +176,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pfas-six-communes-des-ardennes-portent-plainte-pour-mise-en-danger-de-la-vie-dautrui",
             "resume": "Six communes des Ardennes ont porté plainte pour « mise en danger de la vie d’autrui » et « pollution de l’eau », mardi 7 avril, après avoir découvert l’ampleur de la contamination aux « polluants éternels » sur leur territoire. La procédure, qui s’appuie largement sur les enquêtes successives de Disclose, s’ajoute à trois autres plaintes enregistrées depuis l’été 2025. Dans les Ardennes et la Meuse, la riposte judiciaire s’organise face à la contamination aux PFAS révélée par Disclose et France 3.",
-            "date_detection": "9 novembre 2026",
+            "date_detection": "10 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -194,7 +193,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pollution-aux-pfas-deux-agriculteurs-des-ardennes-portent-plainte-et-demandent-des-comptes-a-letat",
             "resume": "Un couple de maraîchers des Ardennes a déposé plainte, vendredi 27 mars, pour « mise en danger de la vie d’autrui », après les révélations de Disclose et France 3 sur la contamination aux PFAS de leurs légumes et de leur sang. Deux autres plaintes ont été déposées ces derniers jours par des habitant·es de ce territoire, touché par l’une des plus graves pollutions industrielles connues en France. Dans leurs terres, leurs légumes, et jusque dans leur sang : les PFAS se sont immiscés partout chez les Abraham.",
-            "date_detection": "9 novembre 2026",
+            "date_detection": "10 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -212,7 +211,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/ventes-darmes-francaises-dans-la-guerre-au-yemen-pourquoi-disclose-saisit-la-cour-europeenne-des-droits-de-lhomme",
             "resume": "Disclose, Amnesty International et le Centre européen pour les droits humains et institutionnels s’attaquent au déni de démocratie de l’État français sur ses ventes d’armes aux régimes autoritaires responsables de crimes de guerre. Le 1er avril, elles ont déposé plainte pour violation des droits fondamentaux auprès de la Cour européenne des droits de l’Homme. La France refuse à Disclose, Amnesty International France et ECCHR d’accéder aux documents douaniers liés aux exportations d’armes françaises vers l’Arabie saoudite, les Émirats arabes unis et l’Égypte, soupçonnés de crimes de guerre au Yémen.",
-            "date_detection": "9 novembre 2026",
+            "date_detection": "10 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
@@ -227,14 +226,17 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 1,
-    "reutilises": 3,
-    "indisponibles": 7,
+    "resumes": 5,
+    "reutilises": 2,
+    "indisponibles": 4,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {},
+    "rejets": {
+      "copie": 2,
+      "titre": 1
+    },
     "erreurs": {
-      "DelaiDepasse": 2
+      "ValueError": 3
     }
   },
   "publications_par_media": {
@@ -258,7 +260,7 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 55,
-    "pages_accessibles": 33,
+    "pages_accessibles": 36,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -268,7 +270,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 2
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,
