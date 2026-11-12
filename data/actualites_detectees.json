@@ -2627,5 +2627,23 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Affaire Kéziah Nuissier : la justice coloniale en procès, une justice « à géographie variable »",
+    "url": "https://www.blast-info.fr/articles/2026/affaire-keziah-nuissier-la-justice-coloniale-en-proces-une-justice-a-geographie-variable-MX-q2XoyT6CWW6_O6-OAMA",
+    "resume": "Voilà un homme noir, un Martiniquais, qu’un jour des policiers ont fracassé, et qui se retrouve, ce lundi 9 novembre 2026, six ans après les faits, dans un tribunal français. Ce n’est pas de Michel Zecler dont il s’agit ici. Le hasard du calendrier judiciaire a fait que le même jour, deux Martiniquais victimes de violences policières en 2020 soient appelés à la barre de deux tribunaux distants de moins de dix kilomètres.",
+    "date_detection": "11 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Énergie",
+      "Institutions / libertés publiques",
+      "Travail"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]

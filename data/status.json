@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-11T12:44:00.125859+00:00",
+  "last_checked_utc": "2026-11-11T23:29:54.290155+00:00",
   "last_checked_fr": "11 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -30,6 +30,36 @@
       "mise_a_jour": {
         "nombre": 7,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Présidentielle : à Saint-Raphaël, la droite entre cheveux blancs, gilets sans manche et idées rances",
+            "url": "https://www.blast-info.fr/articles/2026/presidentielle-a-saint-raphael-la-droite-entre-cheveux-blancs-gilets-sans-manche-et-idees-rances-zrzLiPS9TQSEBhU1Gs4KIw",
+            "resume": "Ça s’appelle les Rencontres de l’avenir, mais dans la salle, il y a tout de même beaucoup (beaucoup) de cheveux blancs – quand il en reste… Beaucoup de gilets sans manche aussi. C’est que ces rencontres qui se déroulent les 6, 7 et 8 novembre à Saint-Raphaël, dans le Var, un fief sûr de l’extrême droite en France, accueillent du « beau » monde cette année : tout — ou presque — ce que la droite compte de candidats à l’élection présidentielle (pas d’écriture inclusive ici : il n’y a que des hommes, et il ne faudrait pas choquer celles et ceux qui ont participé à ces rencontres). La droite dans son spectre le plus large : on commence avec Bruno…",
+            "date_detection": "11 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "Santé",
+              "Énergie",
+              "Écologie",
+              "Institutions / libertés publiques",
+              "Immigration",
+              "Travail"
+            ],
+            "candidats_mentions": [
+              "Édouard Philippe",
+              "Gabriel Attal",
+              "Bruno Retailleau",
+              "Jean-Luc Mélenchon",
+              "Marine Le Pen",
+              "Éric Zemmour",
+              "Jordan Bardella",
+              "Raphaël Glucksmann"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -67,30 +97,6 @@
             ],
             "candidats_mentions": [
               "Jean-Luc Mélenchon"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Chère Prisca Thevenot – Boxing Day #101",
-            "url": "https://www.blast-info.fr/articles/2026/chere-prisca-thevenot-boxing-day-101-KnSM-G9fRuOyVywcoeYOSA",
-            "resume": "Samedi 31 octobre, vous expliquiez sur Franceinfo TV, au sujet de l’absence de votre candidat pour la prochaine élection présidentielle, un certain Gabriel Attal , à l’hommage organisé à Trappes la veille, soit une semaine après l’attentat raciste du 23 octobre, que « le racisme, on ne le combat pas avec des symboles marketing » , c’est bien noté, on en déduira donc que selon vous une présence au côté des familles et des proches des victimes d’un terroriste d’extrême droite est de l’ordre de la communication publicitaire, on va vomir et on revient. Et, comme si cette abjection ne suffisait pas, vous avez jugé bon de la republier sur votre…",
-            "date_detection": "11 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "École",
-              "Santé",
-              "Écologie",
-              "Institutions / libertés publiques",
-              "Immigration",
-              "Travail"
-            ],
-            "candidats_mentions": [
-              "Gabriel Attal",
-              "Bruno Retailleau"
             ],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
@@ -240,9 +246,9 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 3,
+    "resumes": 2,
     "reutilises": 3,
-    "indisponibles": 5,
+    "indisponibles": 6,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {
@@ -273,9 +279,9 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 55,
-    "pages_accessibles": 34,
-    "propositions_extraites": 2,
+    "pages_examinees": 57,
+    "pages_accessibles": 40,
+    "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
@@ -283,8 +289,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 8,
-        "accessibles": 3
+        "examinees": 10,
+        "accessibles": 9
       },
       "Fabien Roussel": {
         "examinees": 6,
