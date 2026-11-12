@@ -2673,5 +2673,59 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10364 Pres barometre stature présidentielle V7 VERIAN 10 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2391",
+    "date_detection": "12 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10365 Pres barometre des personnalites politiques CLUSTER17 9 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2390",
+    "date_detection": "12 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10366 Pres candidature T Riner CSA Cnews JDD Europe 1 10 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2389",
+    "date_detection": "12 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10367 Pres potentiel electoral T Riner 10 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2388",
+    "date_detection": "12 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10368 Pres IV CLUSTER17 Politico 11 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2387",
+    "date_detection": "12 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10369 Pres candidature T. Riner ODOXA 12 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2386",
+    "date_detection": "12 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
   }
 ]

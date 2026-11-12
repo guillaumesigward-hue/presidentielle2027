@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-11-12T13:46:37.570055+00:00",
+  "last_checked_utc": "2026-11-12T22:46:34.853276+00:00",
   "last_checked_fr": "12 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 227,
-      "dernier_id_detecte": 2385,
+      "notices_detectees": 233,
+      "dernier_id_detecte": 2391,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -22,13 +22,13 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 7,
+      "detections": 6,
       "liens_examines": 16,
       "extractions_vides": 4,
       "liens_trouves": 116,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 7,
+        "nombre": 6,
         "articles": [
           {
             "type": "media_independant_investigation",
@@ -240,19 +240,14 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 2,
+    "resumes": 0,
     "reutilises": 2,
-    "indisponibles": 7,
+    "indisponibles": 9,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {
-      "chiffres": 1,
-      "titre": 2,
-      "copie": 2
-    },
+    "rejets": {},
     "erreurs": {
-      "ValueError": 5,
-      "DelaiDepasse": 1
+      "RuntimeError": 8
     }
   },
   "publications_par_media": {
@@ -263,20 +258,20 @@
     "notices_examinees": 8,
     "scenarios_extraits": 0,
     "non_exploitables": [
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2387",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2381",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2376",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2361",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2357",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2352",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2351",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2347",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2346"
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2347"
     ],
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 52,
-    "pages_accessibles": 35,
+    "pages_examinees": 55,
+    "pages_accessibles": 36,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -286,7 +281,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 7
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,
@@ -297,8 +292,8 @@
         "accessibles": 5
       },
       "Édouard Philippe": {
-        "examinees": 4,
-        "accessibles": 4
+        "examinees": 7,
+        "accessibles": 7
       },
       "Nicolas Dupont-Aignan": {
         "examinees": 10,

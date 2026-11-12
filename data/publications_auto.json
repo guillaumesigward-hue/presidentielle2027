@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-12T13:46:37.570055+00:00",
+  "last_checked_utc": "2026-11-12T22:46:34.853276+00:00",
   "articles": [
     {
       "titre": "Jusqu'ici tout va mal – Octobre 2026",
@@ -26,11 +26,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
+      "resume_tente_utc": "2026-11-12T14:19:57.008059+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_tente_utc": "2026-11-12T14:19:57.008059+00:00",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "Affaire Kéziah Nuissier : la justice coloniale en procès, une justice « à géographie variable »",
@@ -47,13 +47,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
       "resume_tente_utc": "2026-11-12T14:25:06.680531+00:00",
-      "resume": "Selon Blast, le procès de Kéziah Nuissier, un Martiniquais accusé de violences sur des forces de l'ordre lors d'une manifestation en 2020, met en lumière les différences dans l'application de la justice en fonction de la géographie. Le procès, qui se déroule six ans après les faits, est critiqué pour sa lenteur et pour la disparition de certaines plaintes.\n\nLa justice n'a pas commenté spécifiquement les allégations de Kéziah Nuissier. La procureure a demandé une peine de six mois de prison assortie d'un sursis simple sans peine complémentaire, ce qui est considéré comme inhabituel pour une telle accusation. Le verdict est attendu pour le 29 janvier 2027.",
-      "resume_empreinte": "7f3ad83bed277ba3a591445c76ad6a3de2843d483059ed982243fc2c4b858f5a",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "Présidentielle : à Saint-Raphaël, la droite entre cheveux blancs, gilets sans manche et idées rances",
@@ -80,11 +78,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
+      "resume_tente_utc": "2026-11-12T14:29:57.338500+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_tente_utc": "2026-11-12T14:29:57.338500+00:00",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "L'éditrice de Zemmour et Bardella nommée à la tête de Grasset",
@@ -99,7 +97,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -118,11 +116,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
-      "resume_tente_utc": "2026-11-12T13:47:16.817605+00:00",
+      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
+      "resume_tente_utc": "2026-11-12T22:47:24.170067+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "Pourquoi devrait-on payer une dette illégitime ?",
@@ -140,11 +138,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
       "resume_tente_utc": "2026-11-12T13:55:04.859417+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "En 2027, un nouveau gouvernement remettra-t-il en cause la dette ?",
@@ -167,13 +165,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
       "resume_tente_utc": "2026-11-12T13:56:37.644847+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, la dette publique française pourrait être remise en cause par un nouveau gouvernement en 2027. Depuis 2017, la dette a augmenté de 1 400 milliards d'euros, atteignant 3 596 milliards d'euros en 2026. Cette croissance est attribuée à des politiques favorisant les entreprises et les détenteurs de capitaux, au détriment des services publics et de l'éducation. L'article suggère que certaines dettes pourraient être considérées comme illégales, illégitimes, odieuses ou insoutenables.\n\nLe gouvernement n'a pas encore répondu officiellement à ces allégations. Il est prévu qu'un audit citoyen de la dette soit mené par un nouveau gouvernement en 2027, mais aucune décision n'a été prise concernant la suspension, la restructuration ou l'annulation de certaines créances. La question de la légitimité de la dette reste ouverte et sera examinée dans le cadre de futures élections.",
-      "resume_empreinte": "1667b40fb990185419e4fe2835343df48a64c18048af91200eeed18edb3ffbaf",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -191,11 +187,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
       "resume_tente_utc": "2026-11-12T14:09:38.375106+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -211,7 +207,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -235,7 +231,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
       "resume_tente_utc": "2026-11-04T22:38:47.854381+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -259,11 +255,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
       "resume_tente_utc": "2026-11-12T14:00:49.281428+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "RuntimeError"
     }
   ]
 }
