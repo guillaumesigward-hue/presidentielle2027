@@ -1,6 +1,37 @@
 {
-  "last_checked_utc": "2026-11-11T23:29:54.290155+00:00",
+  "last_checked_utc": "2026-11-12T13:46:37.570055+00:00",
   "articles": [
+    {
+      "titre": "Jusqu'ici tout va mal – Octobre 2026",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/jusqu-ici-tout-va-mal-octobre-2026-l7WWXIGCQDyx4WgHvngHJg",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-11-12T12:15:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École",
+        "Énergie",
+        "Écologie",
+        "Institutions / libertés publiques",
+        "Immigration",
+        "Travail"
+      ],
+      "candidats_mentions": [
+        "Bruno Retailleau",
+        "Jean-Luc Mélenchon",
+        "Marine Le Pen",
+        "Éric Zemmour",
+        "Jordan Bardella",
+        "Raphaël Glucksmann"
+      ],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_tente_utc": "2026-11-12T14:19:57.008059+00:00",
+      "resume_erreur": "ValueError"
+    },
     {
       "titre": "Affaire Kéziah Nuissier : la justice coloniale en procès, une justice « à géographie variable »",
       "source": "Blast",
@@ -16,9 +47,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-11T23:29:54.290155+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume_tente_utc": "2026-11-12T14:25:06.680531+00:00",
+      "resume": "Selon Blast, le procès de Kéziah Nuissier, un Martiniquais accusé de violences sur des forces de l'ordre lors d'une manifestation en 2020, met en lumière les différences dans l'application de la justice en fonction de la géographie. Le procès, qui se déroule six ans après les faits, est critiqué pour sa lenteur et pour la disparition de certaines plaintes.\n\nLa justice n'a pas commenté spécifiquement les allégations de Kéziah Nuissier. La procureure a demandé une peine de six mois de prison assortie d'un sursis simple sans peine complémentaire, ce qui est considéré comme inhabituel pour une telle accusation. Le verdict est attendu pour le 29 janvier 2027.",
+      "resume_empreinte": "7f3ad83bed277ba3a591445c76ad6a3de2843d483059ed982243fc2c4b858f5a",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Présidentielle : à Saint-Raphaël, la droite entre cheveux blancs, gilets sans manche et idées rances",
@@ -45,9 +80,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-11T23:29:54.290155+00:00",
+      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_tente_utc": "2026-11-12T14:29:57.338500+00:00",
+      "resume_erreur": "DelaiDepasse"
     },
     {
       "titre": "L'éditrice de Zemmour et Bardella nommée à la tête de Grasset",
@@ -62,7 +99,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-11T23:29:54.290155+00:00",
+      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -81,13 +118,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-11T23:29:54.290155+00:00",
-      "resume_tente_utc": "2026-11-11T23:30:48.257224+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, une manifestation intitulée 'manifest'enfant' s'est tenue le 7 novembre à Pont-Réan, réunissant environ 120 personnes, dont une moitié d'enfants. Ces derniers ont exprimé leurs préoccupations sur des sujets tels que la pollution, le racisme et les violences policières, tout en dénonçant les injustices.\n\nAucune réponse officielle n'est rapportée dans l'article. Les organisateurs de la manifestation ont souligné l'importance de donner la parole aux enfants et de les écouter sur leurs préoccupations.",
-      "resume_empreinte": "154f099e78fc12f6d6de0c63668f5556b199c95ea5b827a6f1fc5b55894f4fa4",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
+      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "resume_tente_utc": "2026-11-12T13:47:16.817605+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Pourquoi devrait-on payer une dette illégitime ?",
@@ -105,8 +140,8 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-11T23:29:54.290155+00:00",
-      "resume_tente_utc": "2026-11-11T23:40:16.604121+00:00",
+      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "resume_tente_utc": "2026-11-12T13:55:04.859417+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -132,41 +167,12 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-11T23:29:54.290155+00:00",
-      "resume_tente_utc": "2026-11-11T23:43:12.967665+00:00",
+      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "resume_tente_utc": "2026-11-12T13:56:37.644847+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Blast, la France pourrait voir un nouveau gouvernement en 2027 remettre en question une partie de la dette publique accumulée sous Emmanuel Macron. La dette a augmenté de 1 400 milliards d'euros depuis 2017, atteignant 3 596 milliards d'euros en 2026. Le CADTM France suggère que cette dette pourrait être considérée comme illégitime ou odieuse, justifiant ainsi une suspension ou une annulation partielle.\n\nLe gouvernement actuel n'a pas encore répondu officiellement à ces allégations. Toutefois, il est prévu qu'un audit citoyen de la dette soit mené par un gouvernement démocratiquement élu en 2027, afin d'examiner la légitimité et la nécessité de rembourser certaines créances.",
+      "resume": "Selon Blast, la dette publique française pourrait être remise en cause par un nouveau gouvernement en 2027. Depuis 2017, la dette a augmenté de 1 400 milliards d'euros, atteignant 3 596 milliards d'euros en 2026. Cette croissance est attribuée à des politiques favorisant les entreprises et les détenteurs de capitaux, au détriment des services publics et de l'éducation. L'article suggère que certaines dettes pourraient être considérées comme illégales, illégitimes, odieuses ou insoutenables.\n\nLe gouvernement n'a pas encore répondu officiellement à ces allégations. Il est prévu qu'un audit citoyen de la dette soit mené par un nouveau gouvernement en 2027, mais aucune décision n'a été prise concernant la suspension, la restructuration ou l'annulation de certaines créances. La question de la légitimité de la dette reste ouverte et sera examinée dans le cadre de futures élections.",
       "resume_empreinte": "1667b40fb990185419e4fe2835343df48a64c18048af91200eeed18edb3ffbaf",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
-    },
-    {
-      "titre": "Chère Prisca Thevenot – Boxing Day #101",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/chere-prisca-thevenot-boxing-day-101-KnSM-G9fRuOyVywcoeYOSA",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-11-07T16:00:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Santé",
-        "Écologie",
-        "Institutions / libertés publiques",
-        "Immigration",
-        "Travail"
-      ],
-      "candidats_mentions": [
-        "Gabriel Attal",
-        "Bruno Retailleau"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-11T23:29:54.290155+00:00",
-      "resume_tente_utc": "2026-11-10T01:15:06.807682+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Blast, Prisca Thevenot, ministre déléguée et porte-parole du gouvernement, a critiqué la présence de Gabriel Attal lors d’un hommage à des victimes d’un attentat raciste. Thevenot a déclaré que le racisme ne se combat pas avec des symboles marketing, ce qui a suscité des critiques pour son attitude face à la lutte contre le racisme.\n\nLe gouvernement n'a pas fourni de réponse officielle à ces allégations. La situation reste donc incertaine et aucune déclaration officielle n'a été faite pour clarifier la position de Prisca Thevenot.",
-      "resume_empreinte": "3124e2fcd9522935528165e0cf742394b3605f6d2d1829c3195f9ffa55384893",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
@@ -185,11 +191,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-11T23:29:54.290155+00:00",
-      "resume_tente_utc": "2026-11-12T00:13:21.456845+00:00",
+      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "resume_tente_utc": "2026-11-12T14:09:38.375106+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -205,7 +211,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-11T23:29:54.290155+00:00",
+      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -229,7 +235,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-11T23:29:54.290155+00:00",
+      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
       "resume_tente_utc": "2026-11-04T22:38:47.854381+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -253,11 +259,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-11T23:29:54.290155+00:00",
-      "resume_tente_utc": "2026-11-11T23:53:10.277855+00:00",
+      "derniere_verification_utc": "2026-11-12T13:46:37.570055+00:00",
+      "resume_tente_utc": "2026-11-12T14:00:49.281428+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     }
   ]
 }

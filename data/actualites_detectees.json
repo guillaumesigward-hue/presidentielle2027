@@ -2645,5 +2645,33 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Jusqu'ici tout va mal – Octobre 2026",
+    "url": "https://www.blast-info.fr/articles/2026/jusqu-ici-tout-va-mal-octobre-2026-l7WWXIGCQDyx4WgHvngHJg",
+    "resume": "2 octobre Le Premier ministre macroniste Sébastien Lecornu, qui prétend s’appuyer sur une note rédigée par la direction du renseignement de la préfecture de police de Paris, fait dire par ses communicants que la mobilisation des lycéens et lycéennes de France qui réclament depuis plusieurs semaines de pouvoir suivre leur scolarité dans des conditions décentes - et dont il suggère donc au passage qu’ils étaient des petits êtres immatures incapables de penser et de s’organiser par eux-mêmes — est une « manœuvre organisée par La France insoumise et ses proxys de l’ultragauche » . Cette déclaration est, comme toujours avec les macronistes qui…",
+    "date_detection": "12 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Énergie",
+      "Écologie",
+      "Institutions / libertés publiques",
+      "Immigration",
+      "Travail"
+    ],
+    "candidats_mentions": [
+      "Bruno Retailleau",
+      "Jean-Luc Mélenchon",
+      "Marine Le Pen",
+      "Éric Zemmour",
+      "Jordan Bardella",
+      "Raphaël Glucksmann"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]
