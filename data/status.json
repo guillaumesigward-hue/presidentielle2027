@@ -1,6 +1,6 @@
 {
-  "last_checked_utc": "2026-11-12T22:46:34.853276+00:00",
-  "last_checked_fr": "12 novembre 2026",
+  "last_checked_utc": "2026-11-13T13:07:03.327762+00:00",
+  "last_checked_fr": "13 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
@@ -25,7 +25,7 @@
       "detections": 6,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 116,
+      "liens_trouves": 115,
       "etat_extraction": "partielle",
       "mise_a_jour": {
         "nombre": 6,
@@ -33,10 +33,38 @@
           {
             "type": "media_independant_investigation",
             "source": "Blast",
+            "titre": "Jusqu'ici tout va mal – Octobre 2026",
+            "url": "https://www.blast-info.fr/articles/2026/jusqu-ici-tout-va-mal-octobre-2026-l7WWXIGCQDyx4WgHvngHJg",
+            "resume": "2 octobre Le Premier ministre macroniste Sébastien Lecornu, qui prétend s’appuyer sur une note rédigée par la direction du renseignement de la préfecture de police de Paris, fait dire par ses communicants que la mobilisation des lycéens et lycéennes de France qui réclament depuis plusieurs semaines de pouvoir suivre leur scolarité dans des conditions décentes - et dont il suggère donc au passage qu’ils étaient des petits êtres immatures incapables de penser et de s’organiser par eux-mêmes — est une « manœuvre organisée par La France insoumise et ses proxys de l’ultragauche » . Cette déclaration est, comme toujours avec les macronistes qui…",
+            "date_detection": "13 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Énergie",
+              "Écologie",
+              "Institutions / libertés publiques",
+              "Immigration",
+              "Travail"
+            ],
+            "candidats_mentions": [
+              "Bruno Retailleau",
+              "Jean-Luc Mélenchon",
+              "Marine Le Pen",
+              "Éric Zemmour",
+              "Jordan Bardella",
+              "Raphaël Glucksmann"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
             "titre": "Affaire Kéziah Nuissier : la justice coloniale en procès, une justice « à géographie variable »",
             "url": "https://www.blast-info.fr/articles/2026/affaire-keziah-nuissier-la-justice-coloniale-en-proces-une-justice-a-geographie-variable-MX-q2XoyT6CWW6_O6-OAMA",
             "resume": "Voilà un homme noir, un Martiniquais, qu’un jour des policiers ont fracassé, et qui se retrouve, ce lundi 9 novembre 2026, six ans après les faits, dans un tribunal français. Ce n’est pas de Michel Zecler dont il s’agit ici. Le hasard du calendrier judiciaire a fait que le même jour, deux Martiniquais victimes de violences policières en 2020 soient appelés à la barre de deux tribunaux distants de moins de dix kilomètres.",
-            "date_detection": "12 novembre 2026",
+            "date_detection": "13 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Énergie",
@@ -54,7 +82,7 @@
             "titre": "Présidentielle : à Saint-Raphaël, la droite entre cheveux blancs, gilets sans manche et idées rances",
             "url": "https://www.blast-info.fr/articles/2026/presidentielle-a-saint-raphael-la-droite-entre-cheveux-blancs-gilets-sans-manche-et-idees-rances-zrzLiPS9TQSEBhU1Gs4KIw",
             "resume": "Ça s’appelle les Rencontres de l’avenir, mais dans la salle, il y a tout de même beaucoup (beaucoup) de cheveux blancs – quand il en reste… Beaucoup de gilets sans manche aussi. C’est que ces rencontres qui se déroulent les 6, 7 et 8 novembre à Saint-Raphaël, dans le Var, un fief sûr de l’extrême droite en France, accueillent du « beau » monde cette année : tout — ou presque — ce que la droite compte de candidats à l’élection présidentielle (pas d’écriture inclusive ici : il n’y a que des hommes, et il ne faudrait pas choquer celles et ceux qui ont participé à ces rencontres). La droite dans son spectre le plus large : on commence avec Bruno…",
-            "date_detection": "12 novembre 2026",
+            "date_detection": "13 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -81,35 +109,16 @@
           {
             "type": "media_independant_investigation",
             "source": "Blast",
-            "titre": "Manifestation du 7 novembre : une « manifest’enfant » à l'écart des violences policières, et pleine de bons slogans",
-            "url": "https://www.blast-info.fr/articles/2026/manifestation-du-7-novembre-une-manifestenfant-a-l-ecart-des-violences-policieres-et-pleine-de-bons-slogans-PYcsbbifR5uMCslWdffZjQ",
-            "resume": "« On a eu l’idée la première fois de faire ce rassemblement d’enfants, c’était le samedi 17 octobre, parce que je voulais aller à la manifestation de Rennes pour soutenir les lycéens, pour dire que j’en avais marre de la pollution, et des idées injustes du gouvernement et du racisme. Mais on n’a pas pu aller à Rennes parce que c’était trop violent » . Il est élève à l’école primaire de la petite commune de Saint-Senoux (2 000 habitants), au sud de Rennes.",
-            "date_detection": "12 novembre 2026",
+            "titre": "Sois jeune et ne te tais (surtout) pas",
+            "url": "https://www.blast-info.fr/emissions/2026/sois-jeune-et-ne-te-tais-surtout-pas-Osuly8W6Sj2qShbOJL7R6g",
+            "resume": "Le 7 novembre, Franceinfo a recueilli les impressions d’un enfant de 8 ans qui manifestait à Paris avec son père, et le jeune Marcel, a répondu, sous le regard discrètement réjoui de son papa, que d’après lui Emmanuel Macron était « un énorme connard ». Immédiatement, la presse et les médias d’extrême droite se sont mis à pousser de grands cris d’indignation. La direction de Franceinfo, cédant à cette pression , a immédiatement publié un message expliquant que la radio n’aurait « pas dû donner la parole à un enfant ».",
+            "date_detection": "13 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
-              "École",
-              "Écologie",
-              "Institutions / libertés publiques"
-            ],
-            "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Pourquoi devrait-on payer une dette illégitime ?",
-            "url": "https://www.blast-info.fr/emissions/2026/pourquoi-devrait-on-payer-une-dette-illegitime-lVu1QDsTRuySd8DtXSF8wQ",
-            "resume": "FR Ignorer les liens de navigation Créer 9+ Image d'avatar POURQUOI DEVRAIT-ON PAYER UNE DETTE ILLÉGITIME ? BLAST, Le souffle de l'info BLAST, Le souffle de l'info 1,73 M d’abonnés 3,2 k 115 063 vues 8 nov. 2026 #dette #érictoussaint #capitalisme Soutenez Blast, nouveau média indépendant : https://www.blast-info.fr/soutenir La France est traversée par un mouvement de révolte jamais vu depuis les gilets jaunes.",
-            "date_detection": "12 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Fiscalité",
               "Institutions / libertés publiques"
             ],
             "candidats_mentions": [
-              "Jean-Luc Mélenchon"
+              "Éric Zemmour"
             ],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
@@ -118,14 +127,13 @@
           {
             "type": "media_independant_investigation",
             "source": "Blast",
-            "titre": "Budget : Comprendre ce qui nous attend en 2027",
-            "url": "https://www.blast-info.fr/emissions/2026/budget-comprendre-ce-qui-nous-attend-en-2027-lJIsB0kxSjGFtXn0DJTF3g",
-            "resume": "Alors que le mouvement social parti des lycées secoue le pays depuis près de deux mois, le gouvernement de Sébastien Lecornu défendait à la fin de l'été 2026 un budget 2027 qui prévoit 54 milliards d’euros d’économies pour ramener le déficit public à 5 % du PIB. À l’Assemblée nationale, les deux textes ont été rejetés. Le budget de la Sécurité sociale l’a été le 23 octobre, et celui de l’État le 4 novembre, par 458 voix contre et aucune pour.",
-            "date_detection": "12 novembre 2026",
+            "titre": "Parcoursup : \"la marque d'une infamie\" à abolir définitivement",
+            "url": "https://www.blast-info.fr/emissions/2026/parcoursup-la-marque-d-une-infamie-a-abolir-definitivement-jFnh3YtTTLaR4MNjOk3qMg",
+            "resume": "Parcoursup, plateforme de sélection des élèves pour l'accès à l'enseignement supérieur, est au cœur des revendications lycéennes. Cet outil opaque, mis en place par le feu ministre de l'éducation nationale macroniste Jean-Michel Blanquer, apparaît comme le symbole paradigmatique d'un déjà ancien monde à abattre. Johan Faerber, enseignant et essayiste, nous explique pourquoi.",
+            "date_detection": "13 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
-              "Santé",
-              "Institutions / libertés publiques"
+              "École"
             ],
             "candidats_mentions": [],
             "statut": "À vérifier manuellement",
@@ -154,7 +162,7 @@
             "titre": "ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
             "url": "https://disclose.ngo/fr/article/arcelormittal-derriere-lacier-made-in-france-les-terres-volees-du-liberia",
             "resume": "Pour fabriquer de l’acier dans ses usines de Dunkerque et Fos-sur-Mer, ArcelorMittal exploite des gisements de minerai de fer au Liberia. Entre accaparement de terres agricoles et contamination des ressources en eau, la firme met en danger plusieurs milliers d’habitant·es de ce pays d’Afrique de l’Ouest. Révélations sur les pratiques climaticides et néocoloniales du géant mondial de la sidérurgie.",
-            "date_detection": "12 novembre 2026",
+            "date_detection": "13 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -173,7 +181,7 @@
             "titre": "La justice relance la traque de nos sources",
             "url": "https://disclose.ngo/fr/article/la-justice-sobstine-a-enqueter-sur-disclose-et-relance-la-traque-de-nos-sources",
             "resume": "La Cour d’appel de Paris a suivi les demandes du parquet général et ordonné, mercredi 8 juillet, la réouverture des investigations visant à identifier les sources ayant contribué à nos révélations sur la complicité de la France dans des exécutions extrajudiciaires perpétrées par la dictature égyptienne. Disclose appelle à la mobilisation pour défendre le droit à l’information des citoyen·nes. Le 8 juillet, la chambre de l’instruction de la Cour d’appel de Paris a ordonné la réouverture de l’enquête judiciaire initiée contre Disclose il y a un peu plus de trois ans.",
-            "date_detection": "12 novembre 2026",
+            "date_detection": "13 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -190,7 +198,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pfas-six-communes-des-ardennes-portent-plainte-pour-mise-en-danger-de-la-vie-dautrui",
             "resume": "Six communes des Ardennes ont porté plainte pour « mise en danger de la vie d’autrui » et « pollution de l’eau », mardi 7 avril, après avoir découvert l’ampleur de la contamination aux « polluants éternels » sur leur territoire. La procédure, qui s’appuie largement sur les enquêtes successives de Disclose, s’ajoute à trois autres plaintes enregistrées depuis l’été 2025. Dans les Ardennes et la Meuse, la riposte judiciaire s’organise face à la contamination aux PFAS révélée par Disclose et France 3.",
-            "date_detection": "12 novembre 2026",
+            "date_detection": "13 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -207,7 +215,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pollution-aux-pfas-deux-agriculteurs-des-ardennes-portent-plainte-et-demandent-des-comptes-a-letat",
             "resume": "Un couple de maraîchers des Ardennes a déposé plainte, vendredi 27 mars, pour « mise en danger de la vie d’autrui », après les révélations de Disclose et France 3 sur la contamination aux PFAS de leurs légumes et de leur sang. Deux autres plaintes ont été déposées ces derniers jours par des habitant·es de ce territoire, touché par l’une des plus graves pollutions industrielles connues en France. Dans leurs terres, leurs légumes, et jusque dans leur sang : les PFAS se sont immiscés partout chez les Abraham.",
-            "date_detection": "12 novembre 2026",
+            "date_detection": "13 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -225,7 +233,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/ventes-darmes-francaises-dans-la-guerre-au-yemen-pourquoi-disclose-saisit-la-cour-europeenne-des-droits-de-lhomme",
             "resume": "Disclose, Amnesty International et le Centre européen pour les droits humains et institutionnels s’attaquent au déni de démocratie de l’État français sur ses ventes d’armes aux régimes autoritaires responsables de crimes de guerre. Le 1er avril, elles ont déposé plainte pour violation des droits fondamentaux auprès de la Cour européenne des droits de l’Homme. La France refuse à Disclose, Amnesty International France et ECCHR d’accéder aux documents douaniers liés aux exportations d’armes françaises vers l’Arabie saoudite, les Émirats arabes unis et l’Égypte, soupçonnés de crimes de guerre au Yémen.",
-            "date_detection": "12 novembre 2026",
+            "date_detection": "13 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
@@ -247,7 +255,9 @@
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
     "rejets": {},
     "erreurs": {
-      "RuntimeError": 8
+      "DelaiDepasse": 2,
+      "OSError": 1,
+      "RuntimeError": 4
     }
   },
   "publications_par_media": {
@@ -270,8 +280,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 55,
-    "pages_accessibles": 36,
+    "pages_examinees": 57,
+    "pages_accessibles": 39,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -280,8 +290,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 8,
-        "accessibles": 5
+        "examinees": 10,
+        "accessibles": 8
       },
       "Fabien Roussel": {
         "examinees": 6,

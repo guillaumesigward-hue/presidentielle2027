@@ -1,6 +1,45 @@
 {
-  "last_checked_utc": "2026-11-12T22:46:34.853276+00:00",
+  "last_checked_utc": "2026-11-13T13:07:03.327762+00:00",
   "articles": [
+    {
+      "titre": "Classe Défense, 11 novembre... : Comment l’école devient un lieu d’embrigadement de la jeunesse",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/classe-defense-11-novembre-comment-lecole-devient-un-lieu-dembrigadement-de-la-jeunesse-qobAAropRyGHEbt8tg3GXQ",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-11-13T07:00:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École",
+        "Travail"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "RuntimeError"
+    },
+    {
+      "titre": "Sois jeune et ne te tais (surtout) pas",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/emissions/2026/sois-jeune-et-ne-te-tais-surtout-pas-Osuly8W6Sj2qShbOJL7R6g",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-11-12T17:21:35.862000+00:00",
+      "controle": "automatique",
+      "themes": [
+        "Institutions / libertés publiques"
+      ],
+      "candidats_mentions": [
+        "Éric Zemmour"
+      ],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "RuntimeError"
+    },
     {
       "titre": "Jusqu'ici tout va mal – Octobre 2026",
       "source": "Blast",
@@ -26,11 +65,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
-      "resume_tente_utc": "2026-11-12T14:19:57.008059+00:00",
+      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
+      "resume_tente_utc": "2026-11-13T13:48:10.251007+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "RuntimeError"
+      "resume_erreur": "OSError"
     },
     {
       "titre": "Affaire Kéziah Nuissier : la justice coloniale en procès, une justice « à géographie variable »",
@@ -47,11 +86,28 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
+      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
       "resume_tente_utc": "2026-11-12T14:25:06.680531+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "RuntimeError"
+    },
+    {
+      "titre": "Parcoursup : \"la marque d'une infamie\" à abolir définitivement",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/emissions/2026/parcoursup-la-marque-d-une-infamie-a-abolir-definitivement-jFnh3YtTTLaR4MNjOk3qMg",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-11-10T17:39:19.616000+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École"
+      ],
+      "candidats_mentions": [],
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
     {
       "titre": "Présidentielle : à Saint-Raphaël, la droite entre cheveux blancs, gilets sans manche et idées rances",
@@ -78,7 +134,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
+      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
       "resume_tente_utc": "2026-11-12T14:29:57.338500+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
@@ -97,79 +153,9 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
+      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
-    },
-    {
-      "titre": "Manifestation du 7 novembre : une « manifest’enfant » à l'écart des violences policières, et pleine de bons slogans",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/manifestation-du-7-novembre-une-manifestenfant-a-l-ecart-des-violences-policieres-et-pleine-de-bons-slogans-PYcsbbifR5uMCslWdffZjQ",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-11-09T11:45:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Écologie",
-        "Institutions / libertés publiques"
-      ],
-      "candidats_mentions": [],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
-      "resume_tente_utc": "2026-11-12T22:47:24.170067+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "RuntimeError"
-    },
-    {
-      "titre": "Pourquoi devrait-on payer une dette illégitime ?",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/emissions/2026/pourquoi-devrait-on-payer-une-dette-illegitime-lVu1QDsTRuySd8DtXSF8wQ",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-11-08T09:00:29.964000+00:00",
-      "controle": "automatique",
-      "themes": [
-        "Fiscalité",
-        "Institutions / libertés publiques"
-      ],
-      "candidats_mentions": [
-        "Jean-Luc Mélenchon"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
-      "resume_tente_utc": "2026-11-12T13:55:04.859417+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "RuntimeError"
-    },
-    {
-      "titre": "En 2027, un nouveau gouvernement remettra-t-il en cause la dette ?",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/en-2027-un-nouveau-gouvernement-remettra-t-il-en-cause-la-dette-tt6-U0aLSg6UpmHUDi3YRQ",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-11-08T09:00:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Santé",
-        "Énergie",
-        "Fiscalité",
-        "Écologie",
-        "Institutions / libertés publiques",
-        "Travail"
-      ],
-      "candidats_mentions": [
-        "Jean-Luc Mélenchon"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
-      "resume_tente_utc": "2026-11-12T13:56:37.644847+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
@@ -187,11 +173,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
-      "resume_tente_utc": "2026-11-12T14:09:38.375106+00:00",
+      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
+      "resume_tente_utc": "2026-11-13T13:28:00.157434+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "RuntimeError"
+      "resume_erreur": "DelaiDepasse"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -207,7 +193,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
+      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -231,7 +217,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
+      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
       "resume_tente_utc": "2026-11-04T22:38:47.854381+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -255,11 +241,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-12T22:46:34.853276+00:00",
-      "resume_tente_utc": "2026-11-12T14:00:49.281428+00:00",
+      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
+      "resume_tente_utc": "2026-11-13T13:07:48.982303+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "RuntimeError"
+      "resume_erreur": "DelaiDepasse"
     }
   ]
 }

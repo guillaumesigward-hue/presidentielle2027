@@ -2727,5 +2727,56 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Classe Défense, 11 novembre... : Comment l’école devient un lieu d’embrigadement de la jeunesse",
+    "url": "https://www.blast-info.fr/articles/2026/classe-defense-11-novembre-comment-lecole-devient-un-lieu-dembrigadement-de-la-jeunesse-qobAAropRyGHEbt8tg3GXQ",
+    "resume": "Ce sont les commémorations du 11 novembre, qui sont venues remettre le sujet sur la table. Dans une circulaire publiée en juillet , le ministre de l’Éducation, Édouard Geffray, exhorte les chefs d’établissement, du CM1 à la terminale, à rendre obligatoire un « temps commémoratif » en hommage aux « Morts pour la France » . Le texte recommande ainsi de s’appuyer sur des « personnes-ressources identifiées » : délégué militaire départemental, réservistes, associations du monde combattant ou encore élus locaux.",
+    "date_detection": "13 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Travail"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Sois jeune et ne te tais (surtout) pas",
+    "url": "https://www.blast-info.fr/emissions/2026/sois-jeune-et-ne-te-tais-surtout-pas-Osuly8W6Sj2qShbOJL7R6g",
+    "resume": "Le 7 novembre, Franceinfo a recueilli les impressions d’un enfant de 8 ans qui manifestait à Paris avec son père, et le jeune Marcel, a répondu, sous le regard discrètement réjoui de son papa, que d’après lui Emmanuel Macron était « un énorme connard ». Immédiatement, la presse et les médias d’extrême droite se sont mis à pousser de grands cris d’indignation. La direction de Franceinfo, cédant à cette pression , a immédiatement publié un message expliquant que la radio n’aurait « pas dû donner la parole à un enfant ».",
+    "date_detection": "13 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [
+      "Éric Zemmour"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Parcoursup : \"la marque d'une infamie\" à abolir définitivement",
+    "url": "https://www.blast-info.fr/emissions/2026/parcoursup-la-marque-d-une-infamie-a-abolir-definitivement-jFnh3YtTTLaR4MNjOk3qMg",
+    "resume": "Parcoursup, plateforme de sélection des élèves pour l'accès à l'enseignement supérieur, est au cœur des revendications lycéennes. Cet outil opaque, mis en place par le feu ministre de l'éducation nationale macroniste Jean-Michel Blanquer, apparaît comme le symbole paradigmatique d'un déjà ancien monde à abattre. Johan Faerber, enseignant et essayiste, nous explique pourquoi.",
+    "date_detection": "13 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]
