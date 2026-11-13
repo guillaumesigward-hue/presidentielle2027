@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-13T13:07:03.327762+00:00",
+  "last_checked_utc": "2026-11-13T22:38:51.858509+00:00",
   "articles": [
     {
       "titre": "Classe Défense, 11 novembre... : Comment l’école devient un lieu d’embrigadement de la jeunesse",
@@ -15,10 +15,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
+      "derniere_verification_utc": "2026-11-13T22:38:51.858509+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "RuntimeError"
+      "resume_tente_utc": "2026-11-13T23:13:08.741212+00:00",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Sois jeune et ne te tais (surtout) pas",
@@ -35,10 +36,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
+      "derniere_verification_utc": "2026-11-13T22:38:51.858509+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "RuntimeError"
+      "resume_tente_utc": "2026-11-13T23:21:11.129433+00:00",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Jusqu'ici tout va mal – Octobre 2026",
@@ -65,11 +67,11 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
-      "resume_tente_utc": "2026-11-13T13:48:10.251007+00:00",
+      "derniere_verification_utc": "2026-11-13T22:38:51.858509+00:00",
+      "resume_tente_utc": "2026-11-13T23:08:20.082944+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "OSError"
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Affaire Kéziah Nuissier : la justice coloniale en procès, une justice « à géographie variable »",
@@ -86,11 +88,13 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
-      "resume_tente_utc": "2026-11-12T14:25:06.680531+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "RuntimeError"
+      "derniere_verification_utc": "2026-11-13T22:38:51.858509+00:00",
+      "resume_tente_utc": "2026-11-13T22:39:29.864536+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume": "Selon Blast, Kéziah Nuissier, un étudiant martiniquais de 21 ans, est jugé pour des violences commises en 2020 lors d'une manifestation contre l'empoisonnement au chlordécone. Il est accusé d'avoir frappé un gendarme et résisté à plusieurs forces de l'ordre, tandis que des vidéos montrent des coups et des insultes subis par Nuissier. Le procès soulève des questions sur la justice « à géographie variable » en Martinique.\n\nLa procureure a requis six mois de prison avec sursis pour Nuissier, ce qui suggère un malaise du parquet. Le verdict est attendu le 29 janvier 2027. La plainte de Nuissier pour violences policières reste introuvable depuis plus de six ans.",
+      "resume_empreinte": "69110d2480440766357bf7915eaf3ca7ca9ac8f47fcb19a390a54bf9265500f6",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "Parcoursup : \"la marque d'une infamie\" à abolir définitivement",
@@ -105,7 +109,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
+      "derniere_verification_utc": "2026-11-13T22:38:51.858509+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -134,11 +138,13 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
-      "resume_tente_utc": "2026-11-12T14:29:57.338500+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "RuntimeError"
+      "derniere_verification_utc": "2026-11-13T22:38:51.858509+00:00",
+      "resume_tente_utc": "2026-11-13T22:45:23.457639+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume": "Selon Blast, la droite française s'est réunie à Saint-Raphaël pour les Rencontres de l'avenir, un événement qui a attiré de nombreux candidats à l'élection présidentielle, dont Bruno Retailleau, Edouard Philippe et Gabriel Attal. L'événement a été critiqué pour son manque de diversité et son orientation vers des idées conservatrices, avec une forte présence de personnes âgées et de discours ultralibéraux.\n\nLes organisateurs n'ont pas fait de déclaration officielle concernant les critiques sur la diversité et les idées conservatrices. Ils ont cependant souligné que l'événement visait à promouvoir des discussions sur l'avenir de la France. Aucune information supplémentaire n'a été fournie concernant le financement de l'événement.",
+      "resume_empreinte": "31e22761e39992483ef8517016ee09ab7316a67d6c85cefbb081042ba31fec1a",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "L'éditrice de Zemmour et Bardella nommée à la tête de Grasset",
@@ -153,7 +159,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
+      "derniere_verification_utc": "2026-11-13T22:38:51.858509+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -173,11 +179,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
-      "resume_tente_utc": "2026-11-13T13:28:00.157434+00:00",
+      "derniere_verification_utc": "2026-11-13T22:38:51.858509+00:00",
+      "resume_tente_utc": "2026-11-13T22:57:28.184758+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -193,7 +199,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
+      "derniere_verification_utc": "2026-11-13T22:38:51.858509+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -217,7 +223,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
+      "derniere_verification_utc": "2026-11-13T22:38:51.858509+00:00",
       "resume_tente_utc": "2026-11-04T22:38:47.854381+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -241,11 +247,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-13T13:07:03.327762+00:00",
-      "resume_tente_utc": "2026-11-13T13:07:48.982303+00:00",
+      "derniere_verification_utc": "2026-11-13T22:38:51.858509+00:00",
+      "resume_tente_utc": "2026-11-13T22:48:28.149657+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_erreur": "ValueError"
     }
   ]
 }
