@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-14T12:11:52.898394+00:00",
+  "last_checked_utc": "2026-11-14T21:31:14.248707+00:00",
   "last_checked_fr": "14 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -25,11 +25,28 @@
       "detections": 7,
       "liens_examines": 16,
       "extractions_vides": 4,
-      "liens_trouves": 115,
+      "liens_trouves": 116,
       "etat_extraction": "partielle",
       "mise_a_jour": {
         "nombre": 7,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Classe Défense, 11 novembre... : Comment l’école devient un lieu d’embrigadement de la jeunesse",
+            "url": "https://www.blast-info.fr/articles/2026/classe-defense-11-novembre-comment-lecole-devient-un-lieu-dembrigadement-de-la-jeunesse-qobAAropRyGHEbt8tg3GXQ",
+            "resume": "Ce sont les commémorations du 11 novembre, qui sont venues remettre le sujet sur la table. Dans une circulaire publiée en juillet , le ministre de l’Éducation, Édouard Geffray, exhorte les chefs d’établissement, du CM1 à la terminale, à rendre obligatoire un « temps commémoratif » en hommage aux « Morts pour la France » . Le texte recommande ainsi de s’appuyer sur des « personnes-ressources identifiées » : délégué militaire départemental, réservistes, associations du monde combattant ou encore élus locaux.",
+            "date_detection": "14 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Travail"
+            ],
+            "candidats_mentions": [],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -72,36 +89,6 @@
               "Travail"
             ],
             "candidats_mentions": [],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "Présidentielle : à Saint-Raphaël, la droite entre cheveux blancs, gilets sans manche et idées rances",
-            "url": "https://www.blast-info.fr/articles/2026/presidentielle-a-saint-raphael-la-droite-entre-cheveux-blancs-gilets-sans-manche-et-idees-rances-zrzLiPS9TQSEBhU1Gs4KIw",
-            "resume": "Ça s’appelle les Rencontres de l’avenir, mais dans la salle, il y a tout de même beaucoup (beaucoup) de cheveux blancs – quand il en reste… Beaucoup de gilets sans manche aussi. C’est que ces rencontres qui se déroulent les 6, 7 et 8 novembre à Saint-Raphaël, dans le Var, un fief sûr de l’extrême droite en France, accueillent du « beau » monde cette année : tout — ou presque — ce que la droite compte de candidats à l’élection présidentielle (pas d’écriture inclusive ici : il n’y a que des hommes, et il ne faudrait pas choquer celles et ceux qui ont participé à ces rencontres). La droite dans son spectre le plus large : on commence avec Bruno…",
-            "date_detection": "14 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [
-              "Santé",
-              "Énergie",
-              "Écologie",
-              "Institutions / libertés publiques",
-              "Immigration",
-              "Travail"
-            ],
-            "candidats_mentions": [
-              "Édouard Philippe",
-              "Gabriel Attal",
-              "Bruno Retailleau",
-              "Jean-Luc Mélenchon",
-              "Marine Le Pen",
-              "Éric Zemmour",
-              "Jordan Bardella",
-              "Raphaël Glucksmann"
-            ],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
             "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
@@ -248,16 +235,18 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 2,
+    "resumes": 1,
     "reutilises": 2,
-    "indisponibles": 7,
+    "indisponibles": 8,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {},
+    "rejets": {
+      "titre": 2,
+      "copie": 1
+    },
     "erreurs": {
-      "DelaiDepasse": 1,
-      "OSError": 1,
-      "RuntimeError": 4
+      "ValueError": 3,
+      "DelaiDepasse": 1
     }
   },
   "publications_par_media": {

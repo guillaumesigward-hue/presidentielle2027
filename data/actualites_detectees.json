@@ -2815,5 +2815,31 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Cher Teddy Riner – Boxing Day #102",
+    "url": "https://www.blast-info.fr/articles/2026/cher-teddy-riner-boxing-day-102-wwaCiu5US7KC3Ofbt_4TWw",
+    "resume": "Lundi 9 novembre, vous annonciez votre candidature à l’élection présidentielle en dénonçant notamment « un système où ceux qui se lèvent tôt, qui bossent dur, qui respectent les règles n’en peuvent plus de payer pour tout le monde » , c’est bien noté, soit un quasi-plagiat de Nicolas Sarkozy déclarant, le 12 octobre 2006 , « [refuser] que ceux qui ne veulent pas travailler vivent sur le dos de ceux qui se lèvent tôt et qui travaillent dur » , on se disait bien que ça nous rappelait un truc. À moins qu’il ne s’agisse d’un quasi-plagiat de Gérald Darmanin proclamant en septembre 2023 que « [ceux qui] bossent, ils ont l’impression qu’ils paient…",
+    "date_detection": "14 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Santé",
+      "Fiscalité",
+      "Institutions / libertés publiques",
+      "Immigration",
+      "Travail"
+    ],
+    "candidats_mentions": [
+      "Édouard Philippe",
+      "Gabriel Attal",
+      "Bruno Retailleau",
+      "Jean-Luc Mélenchon"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]
