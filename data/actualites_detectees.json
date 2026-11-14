@@ -2778,5 +2778,42 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10371 Pres IV OPINIONWAY Cnews 12 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2393",
+    "date_detection": "14 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10370 Pres primaire centre droite IFOP Sud Radio 12 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2392",
+    "date_detection": "14 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "SOS Racisme : comment le PS a tenté de récupérer l’antiracisme",
+    "url": "https://www.blast-info.fr/articles/2026/sos-racisme-comment-le-ps-a-tente-de-recuperer-lantiracisme-fRdQqlwVQvynD3ranIEVZw",
+    "resume": "La scène s’est produite près de la place de la République, lundi dernier. Un rassemblement en hommage aux victimes de la tuerie de Trappes du 23 octobre — qui a fait un mort, Pengo Bossio Wangi, 26 ans, et quatre blessés graves — avait été interdit par la préfecture de police, mais néanmoins maintenu sous la forme d’un meeting à la Bourse du Travail, rue du Château d'Eau. L’événement était appelé par la Coalition antiraciste , qui rassemble plusieurs organisations des quartiers populaires et contre les violences policières dont le Comité Adama, l’Assemblée des quartiers ou encore le Front des mères.",
+    "date_detection": "14 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Institutions / libertés publiques",
+      "Immigration",
+      "Travail"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]

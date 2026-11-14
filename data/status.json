@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-11-13T22:38:51.858509+00:00",
-  "last_checked_fr": "13 novembre 2026",
+  "last_checked_utc": "2026-11-14T12:11:52.898394+00:00",
+  "last_checked_fr": "14 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 233,
-      "dernier_id_detecte": 2391,
+      "notices_detectees": 235,
+      "dernier_id_detecte": 2393,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -22,13 +22,13 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 6,
+      "detections": 7,
       "liens_examines": 16,
       "extractions_vides": 4,
       "liens_trouves": 115,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 6,
+        "nombre": 7,
         "articles": [
           {
             "type": "media_independant_investigation",
@@ -36,7 +36,7 @@
             "titre": "Jusqu'ici tout va mal – Octobre 2026",
             "url": "https://www.blast-info.fr/articles/2026/jusqu-ici-tout-va-mal-octobre-2026-l7WWXIGCQDyx4WgHvngHJg",
             "resume": "2 octobre Le Premier ministre macroniste Sébastien Lecornu, qui prétend s’appuyer sur une note rédigée par la direction du renseignement de la préfecture de police de Paris, fait dire par ses communicants que la mobilisation des lycéens et lycéennes de France qui réclament depuis plusieurs semaines de pouvoir suivre leur scolarité dans des conditions décentes - et dont il suggère donc au passage qu’ils étaient des petits êtres immatures incapables de penser et de s’organiser par eux-mêmes — est une « manœuvre organisée par La France insoumise et ses proxys de l’ultragauche » . Cette déclaration est, comme toujours avec les macronistes qui…",
-            "date_detection": "13 novembre 2026",
+            "date_detection": "14 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -64,7 +64,7 @@
             "titre": "Affaire Kéziah Nuissier : la justice coloniale en procès, une justice « à géographie variable »",
             "url": "https://www.blast-info.fr/articles/2026/affaire-keziah-nuissier-la-justice-coloniale-en-proces-une-justice-a-geographie-variable-MX-q2XoyT6CWW6_O6-OAMA",
             "resume": "Voilà un homme noir, un Martiniquais, qu’un jour des policiers ont fracassé, et qui se retrouve, ce lundi 9 novembre 2026, six ans après les faits, dans un tribunal français. Ce n’est pas de Michel Zecler dont il s’agit ici. Le hasard du calendrier judiciaire a fait que le même jour, deux Martiniquais victimes de violences policières en 2020 soient appelés à la barre de deux tribunaux distants de moins de dix kilomètres.",
-            "date_detection": "13 novembre 2026",
+            "date_detection": "14 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Énergie",
@@ -82,7 +82,7 @@
             "titre": "Présidentielle : à Saint-Raphaël, la droite entre cheveux blancs, gilets sans manche et idées rances",
             "url": "https://www.blast-info.fr/articles/2026/presidentielle-a-saint-raphael-la-droite-entre-cheveux-blancs-gilets-sans-manche-et-idees-rances-zrzLiPS9TQSEBhU1Gs4KIw",
             "resume": "Ça s’appelle les Rencontres de l’avenir, mais dans la salle, il y a tout de même beaucoup (beaucoup) de cheveux blancs – quand il en reste… Beaucoup de gilets sans manche aussi. C’est que ces rencontres qui se déroulent les 6, 7 et 8 novembre à Saint-Raphaël, dans le Var, un fief sûr de l’extrême droite en France, accueillent du « beau » monde cette année : tout — ou presque — ce que la droite compte de candidats à l’élection présidentielle (pas d’écriture inclusive ici : il n’y a que des hommes, et il ne faudrait pas choquer celles et ceux qui ont participé à ces rencontres). La droite dans son spectre le plus large : on commence avec Bruno…",
-            "date_detection": "13 novembre 2026",
+            "date_detection": "14 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -112,7 +112,7 @@
             "titre": "Sois jeune et ne te tais (surtout) pas",
             "url": "https://www.blast-info.fr/emissions/2026/sois-jeune-et-ne-te-tais-surtout-pas-Osuly8W6Sj2qShbOJL7R6g",
             "resume": "Le 7 novembre, Franceinfo a recueilli les impressions d’un enfant de 8 ans qui manifestait à Paris avec son père, et le jeune Marcel, a répondu, sous le regard discrètement réjoui de son papa, que d’après lui Emmanuel Macron était « un énorme connard ». Immédiatement, la presse et les médias d’extrême droite se sont mis à pousser de grands cris d’indignation. La direction de Franceinfo, cédant à cette pression , a immédiatement publié un message expliquant que la radio n’aurait « pas dû donner la parole à un enfant ».",
-            "date_detection": "13 novembre 2026",
+            "date_detection": "14 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
@@ -130,7 +130,7 @@
             "titre": "Parcoursup : \"la marque d'une infamie\" à abolir définitivement",
             "url": "https://www.blast-info.fr/emissions/2026/parcoursup-la-marque-d-une-infamie-a-abolir-definitivement-jFnh3YtTTLaR4MNjOk3qMg",
             "resume": "Parcoursup, plateforme de sélection des élèves pour l'accès à l'enseignement supérieur, est au cœur des revendications lycéennes. Cet outil opaque, mis en place par le feu ministre de l'éducation nationale macroniste Jean-Michel Blanquer, apparaît comme le symbole paradigmatique d'un déjà ancien monde à abattre. Johan Faerber, enseignant et essayiste, nous explique pourquoi.",
-            "date_detection": "13 novembre 2026",
+            "date_detection": "14 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École"
@@ -162,7 +162,7 @@
             "titre": "ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
             "url": "https://disclose.ngo/fr/article/arcelormittal-derriere-lacier-made-in-france-les-terres-volees-du-liberia",
             "resume": "Pour fabriquer de l’acier dans ses usines de Dunkerque et Fos-sur-Mer, ArcelorMittal exploite des gisements de minerai de fer au Liberia. Entre accaparement de terres agricoles et contamination des ressources en eau, la firme met en danger plusieurs milliers d’habitant·es de ce pays d’Afrique de l’Ouest. Révélations sur les pratiques climaticides et néocoloniales du géant mondial de la sidérurgie.",
-            "date_detection": "13 novembre 2026",
+            "date_detection": "14 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -181,7 +181,7 @@
             "titre": "La justice relance la traque de nos sources",
             "url": "https://disclose.ngo/fr/article/la-justice-sobstine-a-enqueter-sur-disclose-et-relance-la-traque-de-nos-sources",
             "resume": "La Cour d’appel de Paris a suivi les demandes du parquet général et ordonné, mercredi 8 juillet, la réouverture des investigations visant à identifier les sources ayant contribué à nos révélations sur la complicité de la France dans des exécutions extrajudiciaires perpétrées par la dictature égyptienne. Disclose appelle à la mobilisation pour défendre le droit à l’information des citoyen·nes. Le 8 juillet, la chambre de l’instruction de la Cour d’appel de Paris a ordonné la réouverture de l’enquête judiciaire initiée contre Disclose il y a un peu plus de trois ans.",
-            "date_detection": "13 novembre 2026",
+            "date_detection": "14 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -198,7 +198,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pfas-six-communes-des-ardennes-portent-plainte-pour-mise-en-danger-de-la-vie-dautrui",
             "resume": "Six communes des Ardennes ont porté plainte pour « mise en danger de la vie d’autrui » et « pollution de l’eau », mardi 7 avril, après avoir découvert l’ampleur de la contamination aux « polluants éternels » sur leur territoire. La procédure, qui s’appuie largement sur les enquêtes successives de Disclose, s’ajoute à trois autres plaintes enregistrées depuis l’été 2025. Dans les Ardennes et la Meuse, la riposte judiciaire s’organise face à la contamination aux PFAS révélée par Disclose et France 3.",
-            "date_detection": "13 novembre 2026",
+            "date_detection": "14 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Écologie",
@@ -215,7 +215,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/pollution-aux-pfas-deux-agriculteurs-des-ardennes-portent-plainte-et-demandent-des-comptes-a-letat",
             "resume": "Un couple de maraîchers des Ardennes a déposé plainte, vendredi 27 mars, pour « mise en danger de la vie d’autrui », après les révélations de Disclose et France 3 sur la contamination aux PFAS de leurs légumes et de leur sang. Deux autres plaintes ont été déposées ces derniers jours par des habitant·es de ce territoire, touché par l’une des plus graves pollutions industrielles connues en France. Dans leurs terres, leurs légumes, et jusque dans leur sang : les PFAS se sont immiscés partout chez les Abraham.",
-            "date_detection": "13 novembre 2026",
+            "date_detection": "14 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Santé",
@@ -233,7 +233,7 @@
             "titre": "En savoir plus",
             "url": "https://disclose.ngo/fr/article/ventes-darmes-francaises-dans-la-guerre-au-yemen-pourquoi-disclose-saisit-la-cour-europeenne-des-droits-de-lhomme",
             "resume": "Disclose, Amnesty International et le Centre européen pour les droits humains et institutionnels s’attaquent au déni de démocratie de l’État français sur ses ventes d’armes aux régimes autoritaires responsables de crimes de guerre. Le 1er avril, elles ont déposé plainte pour violation des droits fondamentaux auprès de la Cour européenne des droits de l’Homme. La France refuse à Disclose, Amnesty International France et ECCHR d’accéder aux documents douaniers liés aux exportations d’armes françaises vers l’Arabie saoudite, les Émirats arabes unis et l’Égypte, soupçonnés de crimes de guerre au Yémen.",
-            "date_detection": "13 novembre 2026",
+            "date_detection": "14 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques"
@@ -253,12 +253,11 @@
     "indisponibles": 7,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {
-      "copie": 2,
-      "titre": 2
-    },
+    "rejets": {},
     "erreurs": {
-      "ValueError": 5
+      "DelaiDepasse": 1,
+      "OSError": 1,
+      "RuntimeError": 4
     }
   },
   "publications_par_media": {
@@ -269,20 +268,20 @@
     "notices_examinees": 8,
     "scenarios_extraits": 0,
     "non_exploitables": [
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2393",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2387",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2381",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2376",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2361",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2357",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2352",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2351",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2347"
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2351"
     ],
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 57,
-    "pages_accessibles": 38,
+    "pages_examinees": 55,
+    "pages_accessibles": 36,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -291,8 +290,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 10,
-        "accessibles": 7
+        "examinees": 8,
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,
