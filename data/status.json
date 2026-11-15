@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-15T12:45:20.553911+00:00",
+  "last_checked_utc": "2026-11-15T21:49:03.831171+00:00",
   "last_checked_fr": "15 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -240,13 +240,11 @@
     "indisponibles": 9,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {
-      "titre": 2,
-      "copie": 1
-    },
+    "rejets": {},
     "erreurs": {
-      "ValueError": 4,
-      "DelaiDepasse": 1
+      "DelaiDepasse": 1,
+      "OSError": 1,
+      "RuntimeError": 6
     }
   },
   "publications_par_media": {
@@ -270,8 +268,8 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 55,
-    "pages_accessibles": 35,
-    "propositions_extraites": 2,
+    "pages_accessibles": 37,
+    "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
@@ -280,7 +278,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 4
+        "accessibles": 6
       },
       "Fabien Roussel": {
         "examinees": 6,

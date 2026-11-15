@@ -708,7 +708,17 @@
               "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/"
             }
           ],
-          "dernier_controle_sources": "15 novembre 2026"
+          "dernier_controle_sources": "15 novembre 2026",
+          "propositions_automatiques": [
+            {
+              "texte": "L’UE veut nous imposer l’identité numérique, le carnet de santé numérique, l’euro numérique, le permis de conduire numérique… Résistons !",
+              "themes": [
+                "sante"
+              ],
+              "url": "https://www.dupontaignan.fr/",
+              "date_publication": null
+            }
+          ]
         },
         "energie": {
           "statut": "Axes énergétiques explicitement intégrés au projet présidentiel 2027",
