@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-14T21:31:14.248707+00:00",
+  "last_checked_utc": "2026-11-15T12:45:20.553911+00:00",
   "articles": [
     {
       "titre": "Cher Teddy Riner – Boxing Day #102",
@@ -24,7 +24,7 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-14T21:31:14.248707+00:00",
+      "derniere_verification_utc": "2026-11-15T12:45:20.553911+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -44,7 +44,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-14T21:31:14.248707+00:00",
+      "derniere_verification_utc": "2026-11-15T12:45:20.553911+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     },
@@ -62,8 +62,8 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-14T21:31:14.248707+00:00",
-      "resume_tente_utc": "2026-11-14T21:42:31.521762+00:00",
+      "derniere_verification_utc": "2026-11-15T12:45:20.553911+00:00",
+      "resume_tente_utc": "2026-11-15T13:14:34.054800+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -83,8 +83,8 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-14T21:31:14.248707+00:00",
-      "resume_tente_utc": "2026-11-14T21:56:00.417660+00:00",
+      "derniere_verification_utc": "2026-11-15T12:45:20.553911+00:00",
+      "resume_tente_utc": "2026-11-15T13:27:57.671880+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -114,8 +114,8 @@
       ],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-14T21:31:14.248707+00:00",
-      "resume_tente_utc": "2026-11-14T21:32:04.075122+00:00",
+      "derniere_verification_utc": "2026-11-15T12:45:20.553911+00:00",
+      "resume_tente_utc": "2026-11-15T13:06:05.179276+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -135,13 +135,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-14T21:31:14.248707+00:00",
-      "resume_tente_utc": "2026-11-14T21:57:44.486827+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Blast, le procès de Kéziah Nuissier, un Martiniquais accusé de violences sur des forces de l'ordre lors d'une manifestation en 2020, met en lumière les différences dans l'application de la justice en fonction de la géographie. Le procès, qui se déroule six ans après les faits, est critiqué pour sa lenteur et pour la disparition de certaines plaintes.\n\nLa justice n'a pas commenté spécifiquement les allégations de Kéziah Nuissier. La procureure a demandé une peine de six mois de prison assortie d'un sursis simple sans peine complémentaire, ce qui est considéré comme inhabituel pour une telle accusation. Le verdict est attendu pour le 29 janvier 2027.",
-      "resume_empreinte": "69110d2480440766357bf7915eaf3ca7ca9ac8f47fcb19a390a54bf9265500f6",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
+      "derniere_verification_utc": "2026-11-15T12:45:20.553911+00:00",
+      "resume_tente_utc": "2026-11-15T13:29:42.363308+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "DelaiDepasse"
     },
     {
       "titre": "Parcoursup : \"la marque d'une infamie\" à abolir définitivement",
@@ -156,7 +154,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-14T21:31:14.248707+00:00",
+      "derniere_verification_utc": "2026-11-15T12:45:20.553911+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -176,10 +174,11 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-14T21:31:14.248707+00:00",
-      "resume_tente_utc": "2026-11-14T12:54:07.496689+00:00",
+      "derniere_verification_utc": "2026-11-15T12:45:20.553911+00:00",
+      "resume_tente_utc": "2026-11-15T12:46:11.239854+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "ValueError"
     },
     {
       "titre": "Disclose.ngo — La justice relance la traque de nos sources",
@@ -195,7 +194,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-14T21:31:14.248707+00:00",
+      "derniere_verification_utc": "2026-11-15T12:45:20.553911+00:00",
       "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
@@ -219,7 +218,7 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-14T21:31:14.248707+00:00",
+      "derniere_verification_utc": "2026-11-15T12:45:20.553911+00:00",
       "resume_tente_utc": "2026-11-04T22:38:47.854381+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -243,11 +242,10 @@
       "candidats_mentions": [],
       "enquete_anterieure": true,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-14T21:31:14.248707+00:00",
+      "derniere_verification_utc": "2026-11-15T12:45:20.553911+00:00",
       "resume_tente_utc": "2026-11-14T22:05:30.808074+00:00",
       "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
     }
   ]
 }
