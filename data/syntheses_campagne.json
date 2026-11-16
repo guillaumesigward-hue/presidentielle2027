@@ -22,7 +22,7 @@
     ],
     "nature": "Synthèse sourcée du discours",
     "evolution": "Présentation du programme au Bourget ; caractère inédit de chaque mesure non établi par cette seule transcription.",
-    "dernier_controle_utc": "2026-11-16T16:39:24.465831+00:00",
+    "dernier_controle_utc": "2026-11-16T17:00:43.080855+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -50,7 +50,7 @@
     ],
     "nature": "Synthèse sourcée du programme",
     "evolution": "Programme publié et daté ; cette date de mise à jour ne prouve pas que toutes ces propositions sont nouvelles.",
-    "dernier_controle_utc": "2026-11-16T16:39:24.465831+00:00",
+    "dernier_controle_utc": "2026-11-16T17:00:43.080855+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -78,7 +78,7 @@
     ],
     "nature": "Synthèse sourcée du programme",
     "evolution": "Engagements actuellement publiés ; date initiale et nouveauté politique non établies.",
-    "dernier_controle_utc": "2026-11-16T16:39:24.465831+00:00",
+    "dernier_controle_utc": "2026-11-16T17:00:43.080855+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -97,7 +97,7 @@
     ],
     "nature": "Synthèse automatique de source primaire",
     "version": "synthese-campagne-v1",
-    "dernier_controle_utc": "2026-11-16T16:39:24.465831+00:00",
+    "dernier_controle_utc": "2026-11-16T17:00:43.080855+00:00",
     "date_evenement": "2026-09-25T11:33:06+02:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité.",
