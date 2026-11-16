@@ -1,30 +1,6 @@
 {
-  "last_checked_utc": "2026-11-16T13:39:28.978595+00:00",
+  "last_checked_utc": "2026-11-16T16:02:00.674402+00:00",
   "articles": [
-    {
-      "titre": "Deadmocratie #1 – La Ve République et le présidentialisme, étouffoirs de la démocratie",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/deadmocratie-1-la-ve-republique-et-le-presidentialisme-etouffoirs-de-la-democratie-ShGjGknTSTCf6qbKPgQiQg",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-11-16T08:00:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "Santé",
-        "Institutions / libertés publiques",
-        "Travail"
-      ],
-      "candidats_mentions": [
-        "Gabriel Attal",
-        "Jean-Luc Mélenchon",
-        "Marine Le Pen",
-        "Jordan Bardella"
-      ],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-16T13:39:28.978595+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
-    },
     {
       "titre": "Cher Teddy Riner – Boxing Day #102",
       "source": "Blast",
@@ -41,53 +17,18 @@
         "Travail"
       ],
       "candidats_mentions": [
-        "Édouard Philippe",
-        "Gabriel Attal",
-        "Bruno Retailleau",
-        "Jean-Luc Mélenchon"
+        "Gabriel Attal"
       ],
+      "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-16T13:39:28.978595+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
-    },
-    {
-      "titre": "SOS Racisme : comment le PS a tenté de récupérer l’antiracisme",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/sos-racisme-comment-le-ps-a-tente-de-recuperer-lantiracisme-fRdQqlwVQvynD3ranIEVZw",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-11-14T10:00:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Institutions / libertés publiques",
-        "Immigration",
-        "Travail"
-      ],
-      "candidats_mentions": [],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-16T13:39:28.978595+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
-    },
-    {
-      "titre": "De Trump à Netanyahu : la Palestine au coeur de leurs défaites électorales",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/emissions/2026/de-trump-a-netanyahu-la-palestine-au-coeur-de-leurs-defaites-electorales-suZdrhdxQS-nh5UT2pLAcQ",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-11-14T09:00:33.696000+00:00",
-      "controle": "automatique",
-      "themes": [
-        "Institutions / libertés publiques"
-      ],
-      "candidats_mentions": [],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-16T13:39:28.978595+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé reporté au prochain passage : le budget de calcul de cette mise à jour est atteint."
+      "derniere_verification_utc": "2026-11-16T16:02:00.674402+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume_tente_utc": "2026-11-16T16:11:50.516158+00:00",
+      "resume": "Selon Blast, Teddy Riner a annoncé sa candidature à l'élection présidentielle en dénonçant un système où les travailleurs durs paient pour les autres. Cette candidature a suscité un grand intérêt médiatique, avec plus de 1 000 mentions dans les médias francophones en trois jours.\n\nAucune réponse officielle n'est rapportée dans l'article. Cependant, Emmanuel Macron a déclaré être heureux de la candidature de Riner, tandis que Pierre Gattaz a salué ses valeurs de travail et de mérite. La réaction de Bruno Retailleau a été plus nuancée, suggérant que les choses se clarifieront avec le temps.",
+      "resume_empreinte": "b78f1b0c2aee1aa9d30064da80ce027f92ee74624b822ce034e83c92fc482756",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
       "titre": "2027 : Mélenchon est-il inarrêtable ?",
@@ -100,31 +41,12 @@
       "candidats_mentions": [
         "Jean-Luc Mélenchon"
       ],
+      "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-16T13:39:28.978595+00:00",
+      "derniere_verification_utc": "2026-11-16T16:02:00.674402+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
-    },
-    {
-      "titre": "Classe Défense, 11 novembre... : Comment l’école devient un lieu d’embrigadement de la jeunesse",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/classe-defense-11-novembre-comment-lecole-devient-un-lieu-dembrigadement-de-la-jeunesse-qobAAropRyGHEbt8tg3GXQ",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-11-13T07:00:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Travail"
-      ],
-      "candidats_mentions": [],
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-16T13:39:28.978595+00:00",
-      "resume_tente_utc": "2026-11-16T13:40:18.221871+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
     },
     {
       "titre": "Sois jeune et ne te tais (surtout) pas",
@@ -139,103 +61,96 @@
       "candidats_mentions": [
         "Éric Zemmour"
       ],
+      "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-16T13:39:28.978595+00:00",
-      "resume_tente_utc": "2026-11-16T14:00:19.892875+00:00",
+      "derniere_verification_utc": "2026-11-16T16:02:00.674402+00:00",
+      "resume_tente_utc": "2026-11-16T16:10:27.435828+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
     },
     {
-      "titre": "Disclose.ngo — ArcelorMittal : derrière l’acier « made in France », les terres volées du Liberia",
-      "source": "Disclose",
-      "url": "https://disclose.ngo/fr/article/arcelormittal-derriere-lacier-made-in-france-les-terres-volees-du-liberia",
+      "titre": "Présidentielle : à Saint-Raphaël, la droite entre cheveux blancs, gilets sans manche et idées rances",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/presidentielle-a-saint-raphael-la-droite-entre-cheveux-blancs-gilets-sans-manche-et-idees-rances-zrzLiPS9TQSEBhU1Gs4KIw",
       "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-10-12T17:11:28+00:00",
+      "date_publication": "2026-11-10T12:00:00+00:00",
       "controle": "automatique",
       "themes": [
-        "École",
         "Santé",
         "Énergie",
-        "Écologie"
-      ],
-      "candidats_mentions": [],
-      "enquete_anterieure": true,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-16T13:39:28.978595+00:00",
-      "resume_tente_utc": "2026-11-16T14:23:50.073661+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
-    },
-    {
-      "titre": "Disclose.ngo — La justice relance la traque de nos sources",
-      "source": "Disclose",
-      "url": "https://disclose.ngo/fr/article/la-justice-sobstine-a-enqueter-sur-disclose-et-relance-la-traque-de-nos-sources",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-07-10T09:50:28+00:00",
-      "controle": "automatique",
-      "themes": [
-        "Institutions / libertés publiques",
-        "Immigration"
-      ],
-      "candidats_mentions": [],
-      "enquete_anterieure": true,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-16T13:39:28.978595+00:00",
-      "resume_tente_utc": "2026-10-21T20:59:38.924808+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment.",
-      "resume": "Selon Disclose.ngo, la Cour d'appel de Paris a ordonné mercredi 8 juillet la réouverture des investigations visant à identifier les sources de révélations sur la complicité de la France dans des exécutions extrajudiciaires en Égypte. La journaliste Ariane Lavrilleux et quatre coauteurs risquent d’être mis en examen pour divulgation de secrets de la défense nationale.\n\nLe parquet général a demandé la réouverture du dossier, contredisant les conclusions de deux juges d’instruction qui avaient clos l’enquête en 2025. L'État français n'a pas encore répondu officiellement à cette décision.",
-      "resume_empreinte": "76a5e7aec0c7357b27874838a3b66896a0a97484032bc90ea43a6b920b638444",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
-    },
-    {
-      "titre": "Disclose.ngo — Reconnaissance faciale illégale : la police prise en flagrant délit",
-      "source": "Disclose",
-      "url": "https://disclose.ngo/fr/article/reconnaissance-faciale-illegale-la-police-prise-en-flagrant-delit",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-07-06T17:16:20+00:00",
-      "controle": "automatique",
-      "themes": [
         "Écologie",
         "Institutions / libertés publiques",
         "Immigration",
         "Travail"
       ],
-      "candidats_mentions": [],
-      "enquete_anterieure": true,
+      "candidats_mentions": [
+        "Édouard Philippe",
+        "Gabriel Attal",
+        "Bruno Retailleau",
+        "Éric Zemmour",
+        "Jordan Bardella",
+        "David Lisnard"
+      ],
+      "perimetre": "candidats-v1",
+      "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-16T13:39:28.978595+00:00",
-      "resume_tente_utc": "2026-11-04T22:38:47.854381+00:00",
+      "derniere_verification_utc": "2026-11-16T16:02:00.674402+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Disclose, les forces de l’ordre en France utilisent illégalement la reconnaissance faciale lors des contrôles d’identité. Une vidéo et des témoignages révèlent que cette pratique vise principalement des personnes racisées et des activistes politiques, conduisant à des erreurs d’identification et des risques pour la liberté publique. Le ministère de l’intérieur a déclaré que cette technique est interdite, mais les policiers continuent d’en faire usage.\n\nLe ministère de l’intérieur n’a pas souhaité commenter spécifiquement les allégations de Disclose. La Commission nationale de l’informatique et des libertés (CNIL) indique que ses contrôles sur le déploiement de la reconnaissance faciale sont toujours en cours, mais sans effet tangible à ce jour.",
-      "resume_empreinte": "9ef9e2f48490262fcb54e9e3dc470185f77aa36de6c7055fdb1be1a87f659511",
+      "resume_tente_utc": "2026-11-16T16:16:13.188228+00:00",
+      "resume": "Selon Blast, la droite française s'est réunie à Saint-Raphaël pour les Rencontres de l'avenir, un événement qui a attiré de nombreux candidats à l'élection présidentielle, dont Bruno Retailleau, Edouard Philippe et Gabriel Attal. L'événement a été critiqué pour son manque de diversité et son orientation vers des idées conservatrices, avec une forte présence de personnes âgées et de discours ultralibéraux.\n\nLes organisateurs n'ont pas fait de déclaration officielle concernant les critiques sur la diversité et les idées conservatrices. Ils ont cependant souligné que l'événement visait à promouvoir des discussions sur l'avenir de la France. Aucune information supplémentaire n'a été fournie concernant le financement de l'événement.",
+      "resume_empreinte": "31e22761e39992483ef8517016ee09ab7316a67d6c85cefbb081042ba31fec1a",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
     {
-      "titre": "Disclose.ngo — Le gouvernement détourne les aides de l'Ademe pour financer l'un des plus gros pollueurs de France",
-      "source": "Disclose",
-      "url": "https://disclose.ngo/fr/article/le-gouvernement-detourne-les-aides-de-lademe-pour-financer-lun-des-plus-gros-pollueurs-de-france",
+      "titre": "L'éditrice de Zemmour et Bardella nommée à la tête de Grasset",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/l-editrice-de-zemmour-et-bardella-nommee-a-la-tete-de-grasset-XFO54gFGT_-uUJQAsk-v4Q",
       "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-06-18T13:42:00+00:00",
+      "date_publication": "2026-11-09T16:15:00+00:00",
+      "controle": "automatique",
+      "themes": [],
+      "candidats_mentions": [
+        "Éric Zemmour",
+        "Jordan Bardella"
+      ],
+      "perimetre": "candidats-v1",
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-11-16T16:02:00.674402+00:00",
+      "resume_statut": "indisponible",
+      "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
+    },
+    {
+      "titre": "Chère Prisca Thevenot – Boxing Day #101",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/chere-prisca-thevenot-boxing-day-101-KnSM-G9fRuOyVywcoeYOSA",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-11-07T16:00:00+00:00",
       "controle": "automatique",
       "themes": [
-        "Énergie",
+        "École",
+        "Santé",
         "Écologie",
         "Institutions / libertés publiques",
+        "Immigration",
         "Travail"
       ],
-      "candidats_mentions": [],
-      "enquete_anterieure": true,
+      "candidats_mentions": [
+        "Gabriel Attal"
+      ],
+      "perimetre": "candidats-v1",
+      "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-16T13:39:28.978595+00:00",
-      "resume_tente_utc": "2026-11-16T14:03:39.016510+00:00",
-      "resume_statut": "indisponible",
-      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "DelaiDepasse"
+      "derniere_verification_utc": "2026-11-16T16:02:00.674402+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume_tente_utc": "2026-11-16T16:19:34.881297+00:00",
+      "resume": "Selon Blast, Prisca Thevenot, ministre déléguée et porte-parole du gouvernement, a critiqué la présence de Gabriel Attal lors d’un hommage à des victimes d’un attentat raciste. Thevenot a déclaré que le racisme ne se combat pas avec des symboles marketing, ce qui a suscité des critiques pour son attitude face à la lutte contre le racisme.\n\nLe gouvernement n'a pas fourni de réponse officielle à ces allégations. La situation reste donc incertaine et aucune déclaration officielle n'a été faite pour clarifier la position de Prisca Thevenot.",
+      "resume_empreinte": "3124e2fcd9522935528165e0cf742394b3605f6d2d1829c3195f9ffa55384893",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     }
   ]
 }
