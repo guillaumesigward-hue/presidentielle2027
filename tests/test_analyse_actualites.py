@@ -3,7 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from analyse_actualites import analyser_actualite, enrichir_actualites, VERSION
+from analyse_actualites import analyser_actualite, enrichir_actualites, enrichir_syntheses, VERSION
 from construire_site import preparer_site
 import update
 
@@ -61,6 +61,22 @@ class AnalyseActualitesTests(unittest.TestCase):
             self.assertTrue(all(x.get('point_reflexion', {}).get('version') == VERSION
                                 for x in election['actualites']))
             self.assertTrue(all(x['point_reflexion'].get('avis') for x in election['actualites']))
+            self.assertTrue(election['syntheses_campagne'])
+            self.assertTrue(all(x.get('point_reflexion', {}).get('version') == VERSION
+                                for x in election['syntheses_campagne']))
+
+    def test_bourget_recoit_une_analyse_complete(self):
+        syntheses = json.loads((update.DATA_DIR / 'syntheses_campagne.json').read_text(encoding='utf-8'))
+        bourget = next(x for x in syntheses if 'Bourget' in x.get('titre', ''))
+        enrichir_syntheses([bourget], self.programmes)
+        point = bourget['point_reflexion']
+        self.assertEqual(point['version'], VERSION)
+        for theme in ('École et jeunesse', 'Finances publiques et financement',
+                      'Santé et protection sociale', 'Travail, retraites et pouvoir d’achat',
+                      'Énergie et industrie', 'Écologie et climat', 'International et défense'):
+            self.assertIn(theme, point['themes_concernes'])
+        self.assertIn('Cette synthèse', point['apport'])
+        self.assertTrue(point['questions'])
 
 
 if __name__ == '__main__':

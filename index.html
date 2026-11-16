@@ -912,8 +912,8 @@ ecologie: "Écologie"
       <p><strong>Ce que l’actualité apporte :</strong> ${escapeHtml(point.apport || "")}</p>
       <p><strong>Lien avec la fiche programme :</strong> ${escapeHtml(point.comparaison_programme || "Comparaison non disponible.")}</p>
       <p><strong>Finances publiques :</strong> ${escapeHtml(point.finances_publiques || "Non documentées.")}</p>
-      <details>
-        <summary>Voir l’avis complet et les questions à examiner</summary>
+      <details open>
+        <summary>Avis complet et questions à examiner</summary>
         <p><strong>Appréciation :</strong> ${escapeHtml(point.avis || "")}</p>
         ${questions.length ? `<p><strong>Questions utiles :</strong></p><ul>${questions.map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>` : ""}
         ${absents.length ? `<p class="reflection-missing"><strong>Sujets prioritaires non documentés par cette actualité :</strong> ${escapeHtml(absents.join(", "))}. Cette absence ne vaut pas absence de proposition dans le programme.</p>` : ""}
@@ -1062,6 +1062,7 @@ ecologie: "Écologie"
       <p><strong>État d’avancement</strong> — ${escapeHtml(x.evolution || 'Nouveauté non établie.')}</p>
       <p class="source-meta">${escapeHtml(x.limite || '')}</p>
       ${x.verification_differee ? '<p class="source-meta">Source non revérifiée lors du dernier passage : la synthèse conserve sa date de contrôle antérieure.</p>' : ''}
+      ${afficherPointReflexion(x)}
       <p>${lienSource(x.url, 'Texte de référence — source de campagne')}</p>
       <p class="source-meta">Dernier contrôle du texte : ${escapeHtml(x.dernier_controle_utc?.slice(0,10) || 'Non établi')}</p>
       </article>`).join('') : '<p>Aucune synthèse disponible pour cette personne. Cela ne signifie pas une absence de propositions.</p>';
