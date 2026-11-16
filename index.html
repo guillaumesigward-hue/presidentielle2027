@@ -283,6 +283,60 @@
   }
 }
     .news-card {
+      border-top: 3px solid #d7e4f6;
+    }
+
+    .reflection-box {
+      margin: 18px 0 8px;
+      padding: 15px;
+      border: 1px solid #c9d7e9;
+      border-radius: 10px;
+      background: #f7faff;
+    }
+
+    .reflection-level {
+      margin: 0 0 10px;
+      color: #173b6c;
+      font-weight: 700;
+    }
+
+    .reflection-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 8px 0 12px;
+    }
+
+    .reflection-tag {
+      display: inline-block;
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: #e7f0ff;
+      color: #164c98;
+      font-size: .82rem;
+      font-weight: 700;
+    }
+
+    .reflection-box details {
+      margin-top: 10px;
+    }
+
+    .reflection-box summary {
+      cursor: pointer;
+      color: #075bc8;
+      font-weight: 700;
+    }
+
+    .reflection-box li {
+      margin-bottom: 7px;
+    }
+
+    .reflection-missing {
+      color: #5d6675;
+      font-size: .9rem;
+    }
+
+    .news-card {
       border-top: 4px solid #075bc8;
     }
 
@@ -422,6 +476,8 @@
       Uniquement les publications directement liées aux personnes suivies pour la présidentielle.
       Les discours, conventions et programmes sont synthétisés à partir de leurs textes vérifiables, sans vidéo intégrée.
       Les annonces sont attribuées aux candidats ; leur efficacité et leur financement ne sont pas tenus pour acquis.
+      Chaque actualité comporte un point de réflexion sur les thèmes suivis. L’« avis de lecture » évalue
+      uniquement l’utilité et la documentation de l’information, jamais la valeur d’un candidat ni une consigne de vote.
     </p>
     <label for="actualites-candidat">Filtrer par personne</label>
     <select id="actualites-candidat" onchange="afficherActualites()" style="max-width:100%;padding:.65rem;margin:0 0 1.25rem .5rem"><option value="">Toutes les personnes suivies</option></select>
@@ -839,6 +895,32 @@ ecologie: "Écologie"
     return paragraphes + `<p class="source-meta">${escapeHtml(item.resume_limite || "Le texte accessible ne permet pas de produire un résumé détaillé.")}</p>`;
   }
 
+  function afficherPointReflexion(item) {
+    const point = item?.point_reflexion;
+    if (!point || point.version !== "lecture-thematique-v1") return "";
+    const themes = Array.isArray(point.themes_concernes) ? point.themes_concernes : [];
+    const questions = Array.isArray(point.questions) ? point.questions : [];
+    const absents = Array.isArray(point.themes_non_documentes) ? point.themes_non_documentes : [];
+    const etiquettes = themes.length
+      ? themes.map(theme => `<span class="reflection-tag">${escapeHtml(theme)}</span>`).join("")
+      : '<span class="reflection-tag">Aucun thème prioritaire directement documenté</span>';
+    return `<section class="reflection-box" aria-label="Point de réflexion thématique">
+      <h4>Point de réflexion sur vos sujets</h4>
+      <p class="reflection-level">Avis de lecture : ${escapeHtml(point.niveau || "À approfondir")}</p>
+      <div class="reflection-tags">${etiquettes}</div>
+      <p><strong>Nature :</strong> ${escapeHtml(point.nature || "Non déterminée")}</p>
+      <p><strong>Ce que l’actualité apporte :</strong> ${escapeHtml(point.apport || "")}</p>
+      <p><strong>Lien avec la fiche programme :</strong> ${escapeHtml(point.comparaison_programme || "Comparaison non disponible.")}</p>
+      <p><strong>Finances publiques :</strong> ${escapeHtml(point.finances_publiques || "Non documentées.")}</p>
+      <details>
+        <summary>Voir l’avis complet et les questions à examiner</summary>
+        <p><strong>Appréciation :</strong> ${escapeHtml(point.avis || "")}</p>
+        ${questions.length ? `<p><strong>Questions utiles :</strong></p><ul>${questions.map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>` : ""}
+        ${absents.length ? `<p class="reflection-missing"><strong>Sujets prioritaires non documentés par cette actualité :</strong> ${escapeHtml(absents.join(", "))}. Cette absence ne vaut pas absence de proposition dans le programme.</p>` : ""}
+      </details>
+    </section>`;
+  }
+
   function afficherProgrammes() {
     const container =
       document.getElementById("programmes-grid");
@@ -998,6 +1080,7 @@ ecologie: "Écologie"
         ${item.controle === "automatique" ? `<p><strong>${item.enquete_anterieure ? "Publication antérieure — sélection automatique" : "Lien sélectionné automatiquement"}</strong> — ${escapeHtml(item.date_publication?.slice(0, 10) || "")}</p>` : ""}
         <p>${escapeHtml(item.description || "")}</p>
         ${afficherResume(item)}
+        ${afficherPointReflexion(item)}
         ${
           item.url
             ? `<p>${lienSource(item.url, item.source || "Source")}</p>`

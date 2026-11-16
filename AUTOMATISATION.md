@@ -136,3 +136,21 @@ Une promesse n'est jamais présentée comme une loi adoptée, un financement
 vérifié ou un résultat acquis. Les limites de faisabilité et d'accès sont
 explicites. Les sondages et la périodicité existante restent conservés.
 
+# Points de réflexion associés aux actualités
+
+Le paquet public calcule hors réseau un point de réflexion pour chaque actualité
+retenue. Il couvre l'école, les finances publiques, la santé, le travail et le
+pouvoir d'achat, la fiscalité, l'énergie et l'industrie, l'écologie, les
+institutions et libertés, l'immigration, l'international et la défense, ainsi
+que le handicap et les AESH. Les formes fléchies et les pluriels sont reconnus.
+
+Le point distingue la nature de l'information, les thèmes documentés, le lien
+avec les cinq fiches programme prioritaires, les enjeux de financement, les
+questions encore ouvertes et les thèmes absents de l'actualité. L'absence d'un
+thème ne vaut jamais absence de proposition. L'« avis de lecture » qualifie
+l'utilité documentaire de l'article : il ne note ni le candidat, ni la qualité
+politique, ni la faisabilité réelle de la mesure et ne recommande aucun vote.
+Cette analyse déterministe est recalculée à chaque construction, y compris pour
+les anciennes actualités et après une mise à jour automatique ; elle ne dépend
+d'aucune clé API et n'ajoute aucun fait au contenu source.
+

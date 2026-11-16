@@ -20,6 +20,7 @@ THEMES = {
     'Santé': ['santé', 'hôpital', 'médecin', 'soins', 'sécurité sociale'],
     'Énergie': ['énergie', 'électricité', 'nucléaire', 'gaz', 'énergétique'],
     'Fiscalité': ['impôt', 'fiscalité', 'taxe'],
+    'Finances publiques': ['budget', 'dépense publique', 'déficit', 'dette', 'financement', 'économie budgétaire'],
     'Écologie': ['écologie', 'écologique', 'climat', 'environnement', 'pollution', 'pollueur', 'pollueurs', 'biodiversité'],
     'Handicap / AESH': ['handicap', 'aesh', 'inclusion scolaire', 'école inclusive'],
     'Institutions / libertés publiques': [
