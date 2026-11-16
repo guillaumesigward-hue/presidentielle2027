@@ -6,6 +6,7 @@ import json
 import re
 from urllib.error import HTTPError
 from veille import url_article_valide, contient_expression, extraire_html, THEMES
+from pertinence import candidats_centraux, actualite_candidat
 
 class Metadonnees(HTMLParser):
     def __init__(self):
@@ -77,9 +78,11 @@ def controler_article(item, source, body, now=None):
     # pertinence dans le corps public réel, en plus des métadonnées et du texte
     # extrait à la détection, pour ne pas manquer les sujets absents du chapeau.
     corps = extraire_html(body)
-    analyse = ' '.join((titre,
-                        str(meta.get('og:description') or article.get('description') or ''),
-                        str(item.get('resume') or ''), corps))
+    description = str(meta.get('og:description') or article.get('description') or '')
+    analyse = ' '.join((titre, description, corps))
+    centraux = candidats_centraux(titre, corps or description)
+    if not centraux:
+        return None
     themes = [theme for theme, mots in THEMES.items() if any(contient_expression(analyse, mot) for mot in mots)]
     contexte = any(contient_expression(analyse, mot) for mot in
                    ('présidentielle', 'présidentiel', 'candidature'))
@@ -99,14 +102,16 @@ def controler_article(item, source, body, now=None):
     return {'titre': titre, 'source': source['nom'], 'url': url,
             'description': 'Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.',
             'date_publication': date.isoformat(), 'controle': 'automatique',
-            'themes': themes, 'candidats_mentions': mentions,
+            'themes': themes, 'candidats_mentions': centraux,
+            'perimetre': 'candidats-v1',
             'enquete_anterieure': date < now - timedelta(days=30),
             'nature': 'Lien de presse — contrôle automatique',
             'derniere_verification_utc': now.isoformat()}
 
 def conserver_article(item, source, now):
     """Repli de sept jours sur un article déjà contrôlé, jamais sur une détection."""
-    if item.get('controle') != 'automatique' or not url_article_valide(item.get('url', ''), source['url']):
+    if (item.get('controle') != 'automatique' or not actualite_candidat(item)
+            or not url_article_valide(item.get('url', ''), source['url'])):
         return None
     try:
         date = datetime.fromisoformat(item['date_publication'])

@@ -5,7 +5,7 @@ import subprocess
 import tempfile
 
 FICHIERS = ['data/' + nom + '.json' for nom in (
-    'election', 'programmes', 'status', 'actualites_detectees', 'a_valider', 'publications_auto')]
+    'election', 'programmes', 'status', 'actualites_detectees', 'a_valider', 'publications_auto', 'syntheses_campagne')]
 
 
 def git(*args, check=True):

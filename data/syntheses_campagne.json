@@ -1,0 +1,83 @@
+[
+  {
+    "candidat": "Jean-Luc Mélenchon",
+    "url": "https://melenchon.fr/2026/11/07/grand-meeting-du-bourget-notre-programme-de-gouvernement/",
+    "titre": "Bourget : les orientations du programme présenté par Mélenchon",
+    "empreinte": "4c88d75d1c5cc556473ffbfd52b89bed2d14b461575ad30d35e0faac0fd7062b",
+    "date_publication": "2026-11-07T17:27:44+01:00",
+    "date_evenement": "2026-11-07",
+    "paragraphes": [
+      {
+        "titre": "Le projet présenté",
+        "texte": "Le 7 novembre au Bourget, Jean-Luc Mélenchon expose une relance par la consommation et une orientation de l’épargne vers les besoins sociaux et écologiques. Il défend le blocage des prix, une hausse du SMIC et des salaires indexés sur l’inflation, ainsi qu’un dispositif juridique d’urgence sociale."
+      },
+      {
+        "titre": "Les mesures concrètes",
+        "texte": "Il propose une planification écologique conditionnant les aides publiques, des écorégions et le développement du recyclage. Il rejette le nouveau programme nucléaire au profit des renouvelables. Pour la santé, il défend un pôle public du médicament, une couverture intégrale par la Sécurité sociale et des cantines biologiques gratuites. Il souhaite également quitter l’OTAN et renforcer une coopération internationale non alignée."
+      },
+      {
+        "titre": "Portée et limites",
+        "texte": "Ce discours présente une cohérence de gouvernement et des engagements politiques. Il ne constitue ni une loi adoptée ni une évaluation indépendante de leurs effets. Le financement détaillé et le calendrier de chaque mesure doivent être recherchés dans les documents programmatiques associés."
+      }
+    ],
+    "nature": "Synthèse sourcée du discours",
+    "evolution": "Présentation du programme au Bourget ; caractère inédit de chaque mesure non établi par cette seule transcription.",
+    "dernier_controle_utc": "2026-11-16T15:23:44.451626+00:00",
+    "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
+    "version": "synthese-campagne-v1"
+  },
+  {
+    "candidat": "Édouard Philippe",
+    "url": "https://www.edouardphilippe.fr/programme/retraites",
+    "titre": "Édouard Philippe : retraites, âge de départ et capitalisation",
+    "empreinte": "a11f95a9c7f4bf5d0d35b446929e35e7a02fa9a5f64be979651af830342e7d14",
+    "date_publication": null,
+    "date_evenement": "2026-11-12",
+    "paragraphes": [
+      {
+        "titre": "Les engagements publiés",
+        "texte": "La fiche de campagne mise à jour le 12 novembre propose de porter progressivement le départ à 65 ans et la cotisation à 45 annuités, en moins de dix ans. Édouard Philippe maintient des départs anticipés pour les carrières longues et pour raisons de santé ; son site estime qu’un Français sur trois pourrait partir avant 65 ans."
+      },
+      {
+        "titre": "Le mécanisme proposé",
+        "texte": "Il veut ajouter une capitalisation collective à la répartition et ouvrir un plan d’épargne retraite avec 500 euros versés par l’État au premier emploi. La gestion du système serait confiée aux partenaires sociaux après retour à l’équilibre."
+      },
+      {
+        "titre": "Ce qui reste à apprécier",
+        "texte": "Le candidat promet de préserver globalement les pensions et de ne pas augmenter les cotisations. Ces engagements ne démontrent pas à eux seuls l’équilibre financier de la réforme ni son effet pour chaque carrière."
+      }
+    ],
+    "nature": "Synthèse sourcée du programme",
+    "evolution": "Programme publié et daté ; cette date de mise à jour ne prouve pas que toutes ces propositions sont nouvelles.",
+    "dernier_controle_utc": "2026-11-16T15:23:44.958735+00:00",
+    "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
+    "version": "synthese-campagne-v1"
+  },
+  {
+    "candidat": "Bruno Retailleau",
+    "url": "https://www.avecretailleau.fr/projet/theme/logement",
+    "titre": "Bruno Retailleau : construction de logements et règles du marché locatif",
+    "empreinte": "faaacd4523bffa1ce1254d3079101597f29160b3004d64624ef2cb0655b3de69",
+    "date_publication": null,
+    "date_evenement": null,
+    "paragraphes": [
+      {
+        "titre": "L’objectif et les moyens",
+        "texte": "Le projet de Bruno Retailleau vise un million de logements supplémentaires en cinq ans. Il mise sur une construction facilitée avec les maires, des incitations aux communes et la transformation de bureaux inutilisés en logements. Il propose aussi un gel de dix ans des normes de construction."
+      },
+      {
+        "titre": "Les changements de règles",
+        "texte": "Son projet prévoit de supprimer l’encadrement des loyers, de lever les interdictions de louer liées au DPE et d’abroger le ZAN. Il souhaite faciliter l’achat de logements HLM par leurs locataires et rendre les intérêts d’emprunt déductibles pour les familles."
+      },
+      {
+        "titre": "Ce qui reste à apprécier",
+        "texte": "Il s’agit des engagements du candidat, sans démonstration ici de leurs effets sur les loyers ou de leur coût total. La page consultée ne permet pas de dater précisément l’annonce initiale."
+      }
+    ],
+    "nature": "Synthèse sourcée du programme",
+    "evolution": "Engagements actuellement publiés ; date initiale et nouveauté politique non établies.",
+    "dernier_controle_utc": "2026-11-16T15:23:45.512136+00:00",
+    "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
+    "version": "synthese-campagne-v1"
+  }
+]

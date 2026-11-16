@@ -171,6 +171,7 @@ def extraire_html(body):
 
 
 def surveiller_source(source, fetch, extraire, resume, candidats, date_fr, ajouter, detections):
+    from pertinence import candidats_centraux
     nom, source_url = source['nom'], source['url']
     resultat = {'ok': True, 'url': source_url, 'publication_automatique': False,
                 'raison': 'Détections soumises aux contrôles automatiques de publication.'}
@@ -203,7 +204,8 @@ def surveiller_source(source, fetch, extraire, resume, candidats, date_fr, ajout
                       if any(contient_expression(analyse, mot) for mot in mots)]
             institutions = any(contient_expression(analyse, mot) for mot in
                                ['gouvernement', 'ministre', 'matignon', 'bercy', 'argent public', 'politique publique'])
-            if not contexte and not mentions and not (themes and institutions):
+            mentions = candidats_centraux(titre, texte)
+            if not mentions:
                 continue
             detection = {
                 'type': source['type'], 'source': nom, 'titre': titre, 'url': url,

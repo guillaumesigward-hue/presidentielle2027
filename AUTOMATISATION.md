@@ -102,3 +102,37 @@ Chaque article sélectionné est traité, mais un texte fermé, trop court, un d
 de temps ou une sortie rejetée reste explicitement sans résumé. Le dispositif ne peut
 garantir un résumé pour un contenu auquel il n'a pas accès.
 
+# Actualisation du 16 novembre 2026 : candidats et propositions
+
+La veille d'actualités exige maintenant un candidat identifié dans le titre ou
+dans le début d'un texte traitant de campagne/propositions. Une mention isolée
+en fin de page, une ancienne liste de mentions, « gouvernement », « ministre »
+ou « présidentielle » seuls ne suffisent plus. La même restriction s'applique
+aux replis après panne, aux anciennes actualités et au paquet public hors réseau.
+Les personnes suivies peuvent être déclarées ou seulement envisagées : leur
+présence dans la veille ne change jamais leur statut de candidature.
+
+Les synthèses de campagne apparaissent séparément de la presse, avec un filtre
+par personne, le document de référence, les propositions, l'état d'avancement,
+les limites et la date de contrôle. Aucun lecteur vidéo ni transcription brute
+n'est publié. Le Bourget du 7 novembre est traité à partir de sa transcription
+officielle ; des fiches des programmes Philippe et Retailleau complètent ce
+premier lot. Leur sélection n'est ni un classement ni une couverture exhaustive.
+
+`discours_auto.py` découvre aussi des supports sur les domaines de campagne
+autorisés, suivant une règle identique pour chacun. Il exige un texte suffisant,
+un auteur établi et un rattachement à la campagne. Une vidéo sans transcription
+accessible n'est pas résumée. Les pages sans date non encore identifiées sont
+écartées. Le moteur local, sans clé API, peut résumer de nouveaux documents ;
+son budget est borné à dix minutes pour ce suivi. Les documents inchangés
+réutilisent leur synthèse. Si le texte change, l'ancienne synthèse n'est pas
+présentée comme celle du nouveau document. Une panne conserve la version datée
+avec avertissement. La découverte est bornée à 32 documents et trois liens par
+racine ; ce suivi ne promet donc pas de couvrir tous les discours ni YouTube.
+
+Une modification de page est distinguée d'une nouvelle proposition politique.
+Sans ancienne version comparable, la nouveauté d'une mesure reste non établie.
+Une promesse n'est jamais présentée comme une loi adoptée, un financement
+vérifié ou un résultat acquis. Les limites de faisabilité et d'accès sont
+explicites. Les sondages et la périodicité existante restent conservés.
+

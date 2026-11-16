@@ -49,8 +49,20 @@ setImmediate(() => {
   assert(vm.runInContext('afficherSolidite({solidite_documentaire:"bad"})', context).includes('Non évaluée'));
   assert(elements.suivi.innerHTML.includes('extraction partielle'));
   assert(elements.suivi.innerHTML.includes('Source indisponible'));
-  vm.runInContext('electionData.actualites = [{titre:"Lien sans texte",controle:"automatique",resume_statut:"indisponible"},{titre:"Enquête résumée",controle:"automatique",resume_statut:"disponible",resume:"Résumé attribué",source:"Disclose"}]; afficherActualites()', context);
+  vm.runInContext('electionData.actualites = [{titre:"Lien sans texte",date_publication:"2026-11-01",controle:"automatique",resume_statut:"indisponible"},{titre:"Enquête résumée",date_publication:"2026-11-16",controle:"automatique",resume_statut:"disponible",resume:"Résumé attribué",source:"Disclose"}]; afficherActualites()', context);
   assert(elements['actualites-grid'].innerHTML.indexOf('Enquête résumée') < elements['actualites-grid'].innerHTML.indexOf('Lien sans texte'));
+  vm.runInContext(`electionData.syntheses_campagne = [
+    {candidat:"Jean-Luc Mélenchon",titre:"Bourget",date_evenement:"2026-11-07",paragraphes:[{titre:"Mesures",texte:"<iframe src='x'>"}],url:"https://melenchon.fr/texte"},
+    {candidat:"Édouard Philippe",titre:"Retraites",date_evenement:"2026-11-12",paragraphes:[],url:"https://www.edouardphilippe.fr/programme/retraites"}];
+    afficherActualites()`,context);
+  assert(elements['syntheses-grid'].innerHTML.includes('Bourget'));
+  assert(elements['syntheses-grid'].innerHTML.includes('&lt;iframe'));
+  assert(!elements['syntheses-grid'].innerHTML.includes('<iframe'));
+  elements['actualites-candidat'].value = 'Jean-Luc Mélenchon';
+  vm.runInContext('afficherActualites()',context);
+  assert(elements['syntheses-grid'].innerHTML.includes('Bourget'));
+  assert(!elements['syntheses-grid'].innerHTML.includes('Retraites'));
+  elements['actualites-candidat'].value = '';
   vm.runInContext(`electionData.eclairages_automatiques = [{source:"Disclose",titre:"Gouvernement et pollution",url:"https://disclose.ngo/fr/article/test",date_publication:"2026-06-18",themes:["Écologie"],candidats_mentions:[]}];
     electionData.notices_automatiques = [{titre:"Notice officielle",url:"https://www.commission-des-sondages.fr/notices/medias/fichiers/add/1",date_detection:"10 octobre 2026"}];
     themeActif = "ecologie"; afficherProgrammes(); afficherSondages();`, context);
