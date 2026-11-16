@@ -333,8 +333,9 @@
 
     .reflection-subjects {
       display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 9px;
-      margin-top: 16px;
+      margin-top: 10px;
     }
 
     .reflection-subjects h5 {
@@ -344,19 +345,24 @@
 
     .reflection-subject {
       padding: 10px 12px;
-      border-left: 4px solid #147a4b;
+      border: 1px solid #c9d7e9;
       border-radius: 6px;
-      background: #edf8f2;
+      background: #fff;
     }
 
     .reflection-subject.is-missing {
-      border-left-color: #8993a2;
+      border-color: #d8dde5;
       background: #f2f4f7;
       color: #535d6b;
     }
 
     .reflection-subject p {
       margin: 4px 0;
+    }
+
+    .reflection-subject ul {
+      margin: 6px 0 0;
+      padding-left: 20px;
     }
 
     .reflection-missing {
@@ -926,35 +932,20 @@ ecologie: "Écologie"
   function afficherPointReflexion(item) {
     const point = item?.point_reflexion;
     if (!point || point.version !== "lecture-thematique-v2") return "";
-    const themes = Array.isArray(point.themes_concernes) ? point.themes_concernes : [];
-    const questions = Array.isArray(point.questions) ? point.questions : [];
-    const absents = Array.isArray(point.themes_non_documentes) ? point.themes_non_documentes : [];
     const analyseParSujet = Array.isArray(point.analyse_par_sujet) ? point.analyse_par_sujet : [];
-    const etiquettes = themes.length
-      ? themes.map(theme => `<span class="reflection-tag">${escapeHtml(theme)}</span>`).join("")
-      : '<span class="reflection-tag">Aucun thème prioritaire directement documenté</span>';
     return `<section class="reflection-box" aria-label="Point de réflexion thématique">
-      <h4>Point de réflexion sur vos sujets</h4>
-      <p class="reflection-level">Avis de lecture : ${escapeHtml(point.niveau || "À approfondir")}</p>
-      <div class="reflection-tags">${etiquettes}</div>
-      <p><strong>Nature :</strong> ${escapeHtml(point.nature || "Non déterminée")}</p>
-      <p><strong>Ce que l’actualité apporte :</strong> ${escapeHtml(point.apport || "")}</p>
-      <p><strong>Lien avec la fiche programme :</strong> ${escapeHtml(point.comparaison_programme || "Comparaison non disponible.")}</p>
-      <p><strong>Finances publiques :</strong> ${escapeHtml(point.finances_publiques || "Non documentées.")}</p>
+      <h4>Sujets et éléments correspondants</h4>
       <div class="reflection-subjects">
-        <h5>Analyse précise, sujet par sujet</h5>
-        ${analyseParSujet.map(sujet => `<article class="reflection-subject ${sujet.statut === "aborde" ? "is-addressed" : "is-missing"}">
-          <p><strong>${escapeHtml(sujet.theme || "Sujet")}</strong> — ${escapeHtml(sujet.libelle_statut || "Statut non déterminé")}</p>
-          <p>${escapeHtml(sujet.constat || "Sujet non abordé dans cette information.")}</p>
-          ${sujet.statut === "aborde" && sujet.question ? `<p><strong>À vérifier :</strong> ${escapeHtml(sujet.question)}</p>` : ""}
-        </article>`).join("")}
+        ${analyseParSujet.map(sujet => {
+          const elements = Array.isArray(sujet.elements) ? sujet.elements : [];
+          return `<article class="reflection-subject ${sujet.statut === "aborde" ? "is-addressed" : "is-missing"}">
+          <h5>${escapeHtml(sujet.theme || "Sujet")}</h5>
+          ${sujet.statut === "aborde"
+            ? (elements.length ? `<ul>${elements.map(element => `<li>${escapeHtml(element)}</li>`).join("")}</ul>` : `<p>${escapeHtml(sujet.constat || "Aucun élément précis disponible.")}</p>`)
+            : "<p>Sujet non abordé.</p>"}
+        </article>`;
+        }).join("")}
       </div>
-      <details open>
-        <summary>Avis complet et questions à examiner</summary>
-        <p><strong>Appréciation :</strong> ${escapeHtml(point.avis || "")}</p>
-        ${questions.length ? `<p><strong>Questions utiles :</strong></p><ul>${questions.map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>` : ""}
-        ${absents.length ? `<p class="reflection-missing"><strong>Sujets prioritaires non documentés par cette actualité :</strong> ${escapeHtml(absents.join(", "))}. Cette absence ne vaut pas absence de proposition dans le programme.</p>` : ""}
-      </details>
     </section>`;
   }
 

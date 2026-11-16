@@ -81,37 +81,55 @@ def _nature(texte):
         return 'Proposition ou orientation de programme'
     return 'Prise de position ou élément de contexte'
 
-def _extrait_theme(texte, theme):
-    """Retient les phrases qui justifient le classement, sans inventer de contenu."""
+def _elements_theme(texte, theme):
+    """Retient jusqu'à deux éléments courts, sans commentaire ajouté."""
     phrases = [re.sub(r'\s+', ' ', x).strip(' -•\t') for x in
                re.split(r'(?<=[.!?])\s+|[\r\n]+', str(texte))]
     mots = THEMES[theme]
-    retenues = [phrase for phrase in phrases
-                if len(phrase) >= 20 and any(contient(normaliser(phrase), mot) for mot in mots)]
-    extrait = ' '.join(retenues[:2])
-    if len(extrait) > 650:
-        extrait = extrait[:647].rsplit(' ', 1)[0] + '…'
-    return extrait
+    candidats = []
+    for phrase in phrases:
+        segments = re.split(r'[,;]|\s+ainsi que\s+|\s+et\s+(?=(?:un|une|des|le|la|les)\b)',
+                            phrase, flags=re.I)
+        precis = [segment.strip() for segment in segments
+                  if len(segment.strip()) >= 20
+                  and any(contient(normaliser(segment), mot) for mot in mots)]
+        candidats.extend(precis or ([phrase] if len(phrase) >= 20
+                           and any(contient(normaliser(phrase), mot) for mot in mots) else []))
+    retenues = []
+    for element in candidats:
+        element = element.strip()
+        element = element[:1].upper() + element[1:]
+        if element and element[-1] not in '.!?…':
+            element += '.'
+        if element not in retenues:
+            retenues.append(element)
+    elements = []
+    for phrase in retenues[:2]:
+        if len(phrase) > 360:
+            phrase = phrase[:357].rsplit(' ', 1)[0] + '…'
+        elements.append(phrase)
+    return elements
 
 def _grille_thematique(texte, themes):
     grille = []
     for theme in THEMES:
         if theme in themes:
-            extrait = _extrait_theme(texte, theme)
-            constat = (f'Information relevée : {extrait}' if extrait else
-                       'Le thème est rattaché à cette information, mais le texte accessible ne fournit '
-                       'pas de passage assez précis pour en détailler davantage le contenu.')
+            elements = _elements_theme(texte, theme)
+            constat = (' '.join(elements) if elements else
+                       'Aucun élément précis disponible dans le texte accessible.')
             grille.append({'theme': theme, 'statut': 'aborde', 'libelle_statut': 'Sujet abordé',
-                            'constat': constat, 'question': QUESTIONS[theme]})
+                            'constat': constat, 'elements': elements, 'question': QUESTIONS[theme]})
         else:
             grille.append({'theme': theme, 'statut': 'non_aborde',
                             'libelle_statut': 'Sujet non abordé',
                             'constat': 'Sujet non abordé dans cette information.',
+                            'elements': [],
                             'question': QUESTIONS[theme]})
     return grille
 
 def analyser_actualite(item, programmes=None):
-    texte = ' '.join(str(item.get(k, '')) for k in ('titre', 'description', 'resume'))
+    texte = '. '.join(str(item.get(k, '')).strip().rstrip('.')
+                      for k in ('titre', 'description', 'resume') if item.get(k))
     themes = _themes(texte, item.get('themes', []))
     nature = _nature(texte)
     # Une date de publication ne rend pas une mesure « chiffrée ».
@@ -189,8 +207,8 @@ def enrichir_actualites(actualites, programmes=None):
 def enrichir_syntheses(syntheses, programmes=None):
     """Applique la même grille aux discours, congrès et programmes résumés."""
     for item in syntheses:
-        paragraphes = ' '.join(
-            str(paragraphe.get('titre', '')) + ' ' + str(paragraphe.get('texte', ''))
+        paragraphes = '. '.join(
+            str(paragraphe.get('texte', '')).strip().rstrip('.')
             for paragraphe in item.get('paragraphes', []) if isinstance(paragraphe, dict)
         )
         document = {
