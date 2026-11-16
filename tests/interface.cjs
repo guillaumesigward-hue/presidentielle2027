@@ -45,13 +45,16 @@ setImmediate(() => {
   assert(resume.includes('&lt;script&gt;'));
   assert(!resume.includes('<script>'));
   assert(vm.runInContext('afficherResume({controle:"automatique",resume_statut:"indisponible"})', context).includes('indisponible'));
-  const point = vm.runInContext(`afficherPointReflexion({point_reflexion:{version:"lecture-thematique-v1",niveau:"Utile <à vérifier>",nature:"Proposition",themes_concernes:["École"],apport:"Apport <test>",comparaison_programme:"Fiche école",finances_publiques:"Non chiffré",avis:"Avis argumenté",questions:["Quel coût ?"],themes_non_documentes:["Santé"]}})`, context);
+  const point = vm.runInContext(`afficherPointReflexion({point_reflexion:{version:"lecture-thematique-v2",niveau:"Utile <à vérifier>",nature:"Proposition",themes_concernes:["École"],apport:"Apport <test>",comparaison_programme:"Fiche école",finances_publiques:"Non chiffré",avis:"Avis argumenté",questions:["Quel coût ?"],themes_non_documentes:["Santé"],analyse_par_sujet:[{theme:"École",statut:"aborde",libelle_statut:"Sujet abordé",constat:"Information relevée : école <publique>",question:"Quels moyens ?"},{theme:"Santé",statut:"non_aborde",libelle_statut:"Sujet non abordé",constat:"Sujet non abordé dans cette information.",question:"Quels moyens ?"}]}})`, context);
   assert(point.includes('Point de réflexion'));
   assert(point.includes('&lt;à vérifier&gt;'));
   assert(point.includes('&lt;test&gt;'));
   assert(!point.includes('<test>'));
   assert(point.includes('Quel coût ?'));
   assert(point.includes('<details open>'));
+  assert(point.includes('Analyse précise, sujet par sujet'));
+  assert(point.includes('Sujet non abordé dans cette information.'));
+  assert(point.includes('&lt;publique&gt;'));
   assert(vm.runInContext('escapeHtml("<script>")', context).includes('&lt;'));
   assert(vm.runInContext('afficherSolidite({solidite_documentaire:"bad"})', context).includes('Non évaluée'));
   assert(elements.suivi.innerHTML.includes('extraction partielle'));
@@ -59,7 +62,7 @@ setImmediate(() => {
   vm.runInContext('electionData.actualites = [{titre:"Lien sans texte",date_publication:"2026-11-01",controle:"automatique",resume_statut:"indisponible"},{titre:"Enquête résumée",date_publication:"2026-11-16",controle:"automatique",resume_statut:"disponible",resume:"Résumé attribué",source:"Disclose"}]; afficherActualites()', context);
   assert(elements['actualites-grid'].innerHTML.indexOf('Enquête résumée') < elements['actualites-grid'].innerHTML.indexOf('Lien sans texte'));
   vm.runInContext(`electionData.syntheses_campagne = [
-    {candidat:"Jean-Luc Mélenchon",titre:"Bourget",date_evenement:"2026-11-07",paragraphes:[{titre:"Mesures",texte:"<iframe src='x'>"}],url:"https://melenchon.fr/texte",point_reflexion:{version:"lecture-thematique-v1",niveau:"Pertinente",nature:"Discours",themes_concernes:["École"],apport:"Cette synthèse éclaire l’école",comparaison_programme:"Fiche école",finances_publiques:"À chiffrer",avis:"Analyse complète",questions:["Quel coût ?"],themes_non_documentes:["Santé"]}},
+    {candidat:"Jean-Luc Mélenchon",titre:"Bourget",date_evenement:"2026-11-07",paragraphes:[{titre:"Mesures",texte:"<iframe src='x'>"}],url:"https://melenchon.fr/texte",point_reflexion:{version:"lecture-thematique-v2",niveau:"Pertinente",nature:"Discours",themes_concernes:["École"],apport:"Cette synthèse éclaire l’école",comparaison_programme:"Fiche école",finances_publiques:"À chiffrer",avis:"Analyse complète",questions:["Quel coût ?"],themes_non_documentes:["Santé"],analyse_par_sujet:[{theme:"École",statut:"aborde",libelle_statut:"Sujet abordé",constat:"Information relevée : école",question:"Quels moyens ?"},{theme:"Santé",statut:"non_aborde",libelle_statut:"Sujet non abordé",constat:"Sujet non abordé dans cette information.",question:"Quels moyens ?"}]}},
     {candidat:"Édouard Philippe",titre:"Retraites",date_evenement:"2026-11-12",paragraphes:[],url:"https://www.edouardphilippe.fr/programme/retraites"}];
     afficherActualites()`,context);
   assert(elements['syntheses-grid'].innerHTML.includes('Bourget'));

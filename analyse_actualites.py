@@ -6,11 +6,11 @@ ou ne permet pas de conclure au regard des sujets suivis par le site.
 import re
 import unicodedata
 
-VERSION = 'lecture-thematique-v1'
+VERSION = 'lecture-thematique-v2'
 
 THEMES = {
     'École et jeunesse': ('ecole', 'education', 'enseignant', 'eleve', 'college', 'lycee', 'aesh', 'scolaire', 'cantine', 'enfant'),
-    'Finances publiques et financement': ('budget', 'cout', 'financement', 'depense', 'economie', 'deficit', 'dette', 'milliard', 'million', 'aide publique'),
+    'Finances publiques et financement': ('budget', 'cout', 'financement', 'depense', 'economie', 'deficit', 'dette', 'milliard', 'million', 'aide publique', 'aides publiques', 'epargne'),
     'Santé et protection sociale': ('sante', 'hopital', 'medecin', 'soin', 'securite sociale', 'medicament', 'retraite', 'protection sociale'),
     'Travail, retraites et pouvoir d’achat': ('travail', 'emploi', 'salaire', 'smic', 'retraite', 'prix', 'pouvoir d achat', 'carburant', 'syndicat'),
     'Fiscalité': ('impot', 'fiscalite', 'taxe', 'tva', 'cotisation', 'prelevement'),
@@ -81,6 +81,35 @@ def _nature(texte):
         return 'Proposition ou orientation de programme'
     return 'Prise de position ou élément de contexte'
 
+def _extrait_theme(texte, theme):
+    """Retient les phrases qui justifient le classement, sans inventer de contenu."""
+    phrases = [re.sub(r'\s+', ' ', x).strip(' -•\t') for x in
+               re.split(r'(?<=[.!?])\s+|[\r\n]+', str(texte))]
+    mots = THEMES[theme]
+    retenues = [phrase for phrase in phrases
+                if len(phrase) >= 20 and any(contient(normaliser(phrase), mot) for mot in mots)]
+    extrait = ' '.join(retenues[:2])
+    if len(extrait) > 650:
+        extrait = extrait[:647].rsplit(' ', 1)[0] + '…'
+    return extrait
+
+def _grille_thematique(texte, themes):
+    grille = []
+    for theme in THEMES:
+        if theme in themes:
+            extrait = _extrait_theme(texte, theme)
+            constat = (f'Information relevée : {extrait}' if extrait else
+                       'Le thème est rattaché à cette information, mais le texte accessible ne fournit '
+                       'pas de passage assez précis pour en détailler davantage le contenu.')
+            grille.append({'theme': theme, 'statut': 'aborde', 'libelle_statut': 'Sujet abordé',
+                            'constat': constat, 'question': QUESTIONS[theme]})
+        else:
+            grille.append({'theme': theme, 'statut': 'non_aborde',
+                            'libelle_statut': 'Sujet non abordé',
+                            'constat': 'Sujet non abordé dans cette information.',
+                            'question': QUESTIONS[theme]})
+    return grille
+
 def analyser_actualite(item, programmes=None):
     texte = ' '.join(str(item.get(k, '')) for k in ('titre', 'description', 'resume'))
     themes = _themes(texte, item.get('themes', []))
@@ -149,7 +178,8 @@ def analyser_actualite(item, programmes=None):
             'themes_concernes': themes, 'apport': apport, 'avis': avis,
             'finances_publiques': finance, 'questions': questions,
             'comparaison_programme': comparaison,
-            'themes_non_documentes': non_documentes}
+            'themes_non_documentes': non_documentes,
+            'analyse_par_sujet': _grille_thematique(texte, themes)}
 
 def enrichir_actualites(actualites, programmes=None):
     for item in actualites:
