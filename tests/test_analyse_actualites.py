@@ -31,7 +31,10 @@ class AnalyseActualitesTests(unittest.TestCase):
         immigration = next(x for x in point['analyse_par_sujet'] if x['theme'] == 'Immigration')
         self.assertEqual(ecole['statut'], 'aborde')
         self.assertIn('enseignants', ecole['constat'])
+        self.assertTrue(ecole['elements'])
+        self.assertTrue(all('Information relevée' not in x for x in ecole['elements']))
         self.assertEqual(immigration['statut'], 'non_aborde')
+        self.assertEqual(immigration['elements'], [])
         self.assertEqual(immigration['constat'], 'Sujet non abordé dans cette information.')
 
     def test_prise_de_position_signale_les_limites(self):
@@ -91,6 +94,14 @@ class AnalyseActualitesTests(unittest.TestCase):
         self.assertEqual(len(point['analyse_par_sujet']), 11)
         fiscalite = next(x for x in point['analyse_par_sujet'] if x['theme'] == 'Fiscalité')
         self.assertEqual(fiscalite['libelle_statut'], 'Sujet non abordé')
+        finances = next(x for x in point['analyse_par_sujet']
+                        if x['theme'] == 'Finances publiques et financement')
+        ecole = next(x for x in point['analyse_par_sujet'] if x['theme'] == 'École et jeunesse')
+        self.assertTrue(finances['elements'])
+        self.assertTrue(all('Le projet présenté' not in x and 'Les mesures concrètes' not in x
+                            for x in finances['elements']))
+        self.assertTrue(any('cantines biologiques gratuites' in x for x in ecole['elements']))
+        self.assertTrue(all('médicament' not in x for x in ecole['elements']))
 
 
 if __name__ == '__main__':
