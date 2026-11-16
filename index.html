@@ -331,6 +331,34 @@
       margin-bottom: 7px;
     }
 
+    .reflection-subjects {
+      display: grid;
+      gap: 9px;
+      margin-top: 16px;
+    }
+
+    .reflection-subjects h5 {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .reflection-subject {
+      padding: 10px 12px;
+      border-left: 4px solid #147a4b;
+      border-radius: 6px;
+      background: #edf8f2;
+    }
+
+    .reflection-subject.is-missing {
+      border-left-color: #8993a2;
+      background: #f2f4f7;
+      color: #535d6b;
+    }
+
+    .reflection-subject p {
+      margin: 4px 0;
+    }
+
     .reflection-missing {
       color: #5d6675;
       font-size: .9rem;
@@ -897,10 +925,11 @@ ecologie: "Écologie"
 
   function afficherPointReflexion(item) {
     const point = item?.point_reflexion;
-    if (!point || point.version !== "lecture-thematique-v1") return "";
+    if (!point || point.version !== "lecture-thematique-v2") return "";
     const themes = Array.isArray(point.themes_concernes) ? point.themes_concernes : [];
     const questions = Array.isArray(point.questions) ? point.questions : [];
     const absents = Array.isArray(point.themes_non_documentes) ? point.themes_non_documentes : [];
+    const analyseParSujet = Array.isArray(point.analyse_par_sujet) ? point.analyse_par_sujet : [];
     const etiquettes = themes.length
       ? themes.map(theme => `<span class="reflection-tag">${escapeHtml(theme)}</span>`).join("")
       : '<span class="reflection-tag">Aucun thème prioritaire directement documenté</span>';
@@ -912,6 +941,14 @@ ecologie: "Écologie"
       <p><strong>Ce que l’actualité apporte :</strong> ${escapeHtml(point.apport || "")}</p>
       <p><strong>Lien avec la fiche programme :</strong> ${escapeHtml(point.comparaison_programme || "Comparaison non disponible.")}</p>
       <p><strong>Finances publiques :</strong> ${escapeHtml(point.finances_publiques || "Non documentées.")}</p>
+      <div class="reflection-subjects">
+        <h5>Analyse précise, sujet par sujet</h5>
+        ${analyseParSujet.map(sujet => `<article class="reflection-subject ${sujet.statut === "aborde" ? "is-addressed" : "is-missing"}">
+          <p><strong>${escapeHtml(sujet.theme || "Sujet")}</strong> — ${escapeHtml(sujet.libelle_statut || "Statut non déterminé")}</p>
+          <p>${escapeHtml(sujet.constat || "Sujet non abordé dans cette information.")}</p>
+          ${sujet.statut === "aborde" && sujet.question ? `<p><strong>À vérifier :</strong> ${escapeHtml(sujet.question)}</p>` : ""}
+        </article>`).join("")}
+      </div>
       <details open>
         <summary>Avis complet et questions à examiner</summary>
         <p><strong>Appréciation :</strong> ${escapeHtml(point.avis || "")}</p>

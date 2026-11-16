@@ -26,6 +26,13 @@ class AnalyseActualitesTests(unittest.TestCase):
         self.assertIn('coût net', point['finances_publiques'])
         self.assertTrue(any('déficit' in question for question in point['questions']))
         self.assertNotIn('École et jeunesse', point['themes_non_documentes'])
+        self.assertEqual(len(point['analyse_par_sujet']), 11)
+        ecole = next(x for x in point['analyse_par_sujet'] if x['theme'] == 'École et jeunesse')
+        immigration = next(x for x in point['analyse_par_sujet'] if x['theme'] == 'Immigration')
+        self.assertEqual(ecole['statut'], 'aborde')
+        self.assertIn('enseignants', ecole['constat'])
+        self.assertEqual(immigration['statut'], 'non_aborde')
+        self.assertEqual(immigration['constat'], 'Sujet non abordé dans cette information.')
 
     def test_prise_de_position_signale_les_limites(self):
         point = analyser_actualite({'titre': 'Marine Le Pen prend position sur la Russie et l’Ukraine',
@@ -61,8 +68,12 @@ class AnalyseActualitesTests(unittest.TestCase):
             self.assertTrue(all(x.get('point_reflexion', {}).get('version') == VERSION
                                 for x in election['actualites']))
             self.assertTrue(all(x['point_reflexion'].get('avis') for x in election['actualites']))
+            self.assertTrue(all(len(x['point_reflexion'].get('analyse_par_sujet', [])) == 11
+                                for x in election['actualites']))
             self.assertTrue(election['syntheses_campagne'])
             self.assertTrue(all(x.get('point_reflexion', {}).get('version') == VERSION
+                                for x in election['syntheses_campagne']))
+            self.assertTrue(all(len(x['point_reflexion'].get('analyse_par_sujet', [])) == 11
                                 for x in election['syntheses_campagne']))
 
     def test_bourget_recoit_une_analyse_complete(self):
@@ -77,6 +88,9 @@ class AnalyseActualitesTests(unittest.TestCase):
             self.assertIn(theme, point['themes_concernes'])
         self.assertIn('Cette synthèse', point['apport'])
         self.assertTrue(point['questions'])
+        self.assertEqual(len(point['analyse_par_sujet']), 11)
+        fiscalite = next(x for x in point['analyse_par_sujet'] if x['theme'] == 'Fiscalité')
+        self.assertEqual(fiscalite['libelle_statut'], 'Sujet non abordé')
 
 
 if __name__ == '__main__':
