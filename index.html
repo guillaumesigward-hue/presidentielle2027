@@ -979,6 +979,7 @@ ecologie: "Écologie"
       ${(x.paragraphes || []).map(p => `<h4>${escapeHtml(p.titre)}</h4><p>${escapeHtml(p.texte).replace(/\n\n/g, '</p><p>')}</p>`).join('')}
       <p><strong>État d’avancement</strong> — ${escapeHtml(x.evolution || 'Nouveauté non établie.')}</p>
       <p class="source-meta">${escapeHtml(x.limite || '')}</p>
+      ${x.verification_differee ? '<p class="source-meta">Source non revérifiée lors du dernier passage : la synthèse conserve sa date de contrôle antérieure.</p>' : ''}
       <p>${lienSource(x.url, 'Texte de référence — source de campagne')}</p>
       <p class="source-meta">Dernier contrôle du texte : ${escapeHtml(x.dernier_controle_utc?.slice(0,10) || 'Non établi')}</p>
       </article>`).join('') : '<p>Aucune synthèse disponible pour cette personne. Cela ne signifie pas une absence de propositions.</p>';

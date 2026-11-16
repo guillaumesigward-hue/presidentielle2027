@@ -107,8 +107,7 @@ def actualiser_syntheses(anciennes, fetch, generate=None):
             if not support:
                 bilan['sources'][url] = {'ok': False, 'erreur': erreur}
                 if old:
-                    resultat.append(dict(old, verification_differee=True,
-                        limite='Source momentanément inaccessible ; synthèse conservée avec sa date de vérification antérieure.'))
+                    resultat.append(dict(old, verification_differee=True))
                 continue
             bilan['accessibles'] += 1
             bilan['sources'][url] = {'ok': True}
@@ -129,7 +128,8 @@ def actualiser_syntheses(anciennes, fetch, generate=None):
                 with delai_reel(max(1, limite-time.monotonic())):
                     if rediger is None: rediger = moteur(campagne=True)
                     resume = rediger(preuve)
-                if raison_rejet(resume, preuve) or not resume.rstrip().endswith(('.', '!', '?')):
+                if (raison_rejet(resume, preuve) or support['candidat'] not in mentions(resume)
+                        or not resume.rstrip().endswith(('.', '!', '?'))):
                     raise ValueError('Résumé incohérent')
                 support.pop('texte')
                 support.update(paragraphes=[{'titre': 'Propositions présentées', 'texte': resume}],
