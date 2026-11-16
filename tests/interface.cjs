@@ -45,6 +45,12 @@ setImmediate(() => {
   assert(resume.includes('&lt;script&gt;'));
   assert(!resume.includes('<script>'));
   assert(vm.runInContext('afficherResume({controle:"automatique",resume_statut:"indisponible"})', context).includes('indisponible'));
+  const point = vm.runInContext(`afficherPointReflexion({point_reflexion:{version:"lecture-thematique-v1",niveau:"Utile <à vérifier>",nature:"Proposition",themes_concernes:["École"],apport:"Apport <test>",comparaison_programme:"Fiche école",finances_publiques:"Non chiffré",avis:"Avis argumenté",questions:["Quel coût ?"],themes_non_documentes:["Santé"]}})`, context);
+  assert(point.includes('Point de réflexion'));
+  assert(point.includes('&lt;à vérifier&gt;'));
+  assert(point.includes('&lt;test&gt;'));
+  assert(!point.includes('<test>'));
+  assert(point.includes('Quel coût ?'));
   assert(vm.runInContext('escapeHtml("<script>")', context).includes('&lt;'));
   assert(vm.runInContext('afficherSolidite({solidite_documentaire:"bad"})', context).includes('Non évaluée'));
   assert(elements.suivi.innerHTML.includes('extraction partielle'));

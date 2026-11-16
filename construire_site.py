@@ -8,6 +8,7 @@ from resumes_auto import titre_coherent
 from update import SOURCES_JOURNALISTIQUES, fetch
 from urllib.parse import urlsplit
 from pertinence import actualite_candidat, candidats_centraux
+from analyse_actualites import enrichir_actualites
 
 ROOT = Path(__file__).resolve().parent
 CHAMPS_SUIVI = ('ok', 'url', 'notices_detectees', 'detections', 'liens_examines',
@@ -86,6 +87,8 @@ def preparer_site(output, data_dir=None):
             if item.get('type') == 'commission_sondages' and item.get('titre') and
             re.fullmatch(r'https://www\.commission-des-sondages\.fr/notices/medias/fichiers/add/\d+', item.get('url', ''))
         ][:12]
+    enrichir_actualites(election['actualites'], programmes)
+    enrichir_actualites(election.get('eclairages_automatiques', []), programmes)
     urls = {item.get('url') for item in election['sources']}
     for source in SOURCES_JOURNALISTIQUES:
         if source['url'] not in urls:
