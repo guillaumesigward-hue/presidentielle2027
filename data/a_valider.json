@@ -1543,5 +1543,54 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Deadmocratie #1 – La Ve République et le présidentialisme, étouffoirs de la démocratie",
+    "url": "https://www.blast-info.fr/articles/2026/deadmocratie-1-la-ve-republique-et-le-presidentialisme-etouffoirs-de-la-democratie-ShGjGknTSTCf6qbKPgQiQg",
+    "resume": "Adapté par Jules Blaster En avril et mai 2027 sera organisée, en France, l’élection présidentielle. Tel est le nom de cet étrange rendez-vous à l’occasion duquel l’ensemble des citoyens et citoyennes françaises confient à un individu, après une campagne de plusieurs mois et un vote lors d’un scrutin uninominal à deux tours (1), de nombreux et conséquents pouvoirs personnels, et renoncent par là même, de façon, leur dit-on, librement consentie, à exercer leur souveraineté. Mais comme on ne manque pas d’humour en France, on appelle ça : démocratie — un terme signifiant étymologiquement « le pouvoir du peuple » .",
+    "date_detection": "16 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Santé",
+      "Institutions / libertés publiques",
+      "Travail"
+    ],
+    "candidats_mentions": [
+      "Gabriel Attal",
+      "Jean-Luc Mélenchon",
+      "Marine Le Pen",
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "De Trump à Netanyahu : la Palestine au coeur de leurs défaites électorales",
+    "url": "https://www.blast-info.fr/emissions/2026/de-trump-a-netanyahu-la-palestine-au-coeur-de-leurs-defaites-electorales-suZdrhdxQS-nh5UT2pLAcQ",
+    "resume": "Quelle place tient aujourd’hui la question palestinienne dans le débat public ? En Israël, des élections législatives se sont tenues, les premières depuis le 7 octobre. Netanyahu et sa coalition sont arrivés en tête, mais sans la majorité : 53 sièges pour Netanyahu contre 48 pour le bloc de l’ancien chef d’état-major Gadi Eisenkot.",
+    "date_detection": "16 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques"
+    ],
+    "candidats_mentions": [],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "2027 : Mélenchon est-il inarrêtable ?",
+    "url": "https://www.blast-info.fr/emissions/2026/2027-melenchon-est-il-inarretable-9v-1OHzkQieIzpHh1rGKuQ",
+    "resume": "Le 7 novembre 2026, les insoumis ont organisé leur premier grand meeting au Bourget. La réunion a été une opération de communication politique bien calibrée et efficace, par rapport aux campagnes confuses des concurrents. Alors, cette opération n’était-elle que ça, des promesses, des choses creuses et de la com, bref de la propagande ?",
+    "date_detection": "16 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Jean-Luc Mélenchon"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
