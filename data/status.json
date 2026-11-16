@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-16T16:02:00.674402+00:00",
+  "last_checked_utc": "2026-11-16T16:27:04.900629+00:00",
   "last_checked_fr": "16 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -90,9 +90,9 @@
   },
   "syntheses_campagne": {
     "documents_examines": 7,
-    "accessibles": 5,
-    "syntheses": 3,
-    "reportes": 2,
+    "accessibles": 4,
+    "syntheses": 4,
+    "reportes": 1,
     "sources": {
       "https://melenchon.fr/2026/11/07/grand-meeting-du-bourget-notre-programme-de-gouvernement/": {
         "ok": true
@@ -101,7 +101,8 @@
         "ok": true
       },
       "https://www.avecretailleau.fr/projet/theme/logement": {
-        "ok": true
+        "ok": false,
+        "erreur": "TimeoutError"
       },
       "https://attalpresident.fr/meeting": {
         "ok": false,
@@ -110,18 +111,18 @@
       "https://attalpresident.fr/programme": {
         "ok": true
       },
-      "https://www.avecretailleau.fr/projet": {
+      "https://melenchon2027.fr/programme/laec/": {
         "ok": false,
-        "erreur": "TimeoutError"
+        "erreur": "ValueError"
       },
-      "https://www.avecretailleau.fr/projet/mesure/inscrire-le-droit-a-la-securite-dans-la-constitution": {
+      "https://melenchon2027.fr/programme/decouvrir/": {
         "ok": true
       }
     }
   },
   "resumes_automatiques": {
-    "resumes": 3,
-    "reutilises": 0,
+    "resumes": 1,
+    "reutilises": 2,
     "indisponibles": 3,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",

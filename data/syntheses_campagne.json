@@ -22,7 +22,7 @@
     ],
     "nature": "Synthèse sourcée du discours",
     "evolution": "Présentation du programme au Bourget ; caractère inédit de chaque mesure non établi par cette seule transcription.",
-    "dernier_controle_utc": "2026-11-16T16:02:50.305435+00:00",
+    "dernier_controle_utc": "2026-11-16T16:27:48.151606+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -50,7 +50,7 @@
     ],
     "nature": "Synthèse sourcée du programme",
     "evolution": "Programme publié et daté ; cette date de mise à jour ne prouve pas que toutes ces propositions sont nouvelles.",
-    "dernier_controle_utc": "2026-11-16T16:02:50.305435+00:00",
+    "dernier_controle_utc": "2026-11-16T16:27:48.151606+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -81,6 +81,25 @@
     "dernier_controle_utc": "2026-11-16T16:02:50.305435+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
-    "verification_differee": false
+    "verification_differee": true
+  },
+  {
+    "candidat": "Jean-Luc Mélenchon",
+    "url": "https://melenchon2027.fr/programme/decouvrir/",
+    "titre": "Découvrir le programme - Mélenchon 2027 : Soutenez ma candidature à l’élection présidentielle",
+    "empreinte": "f80d893496e1b65cb128fb2fc9d3398f850685f163cafc52e78f7a3aee790929",
+    "date_publication": "2026-09-25T11:33:06+02:00",
+    "paragraphes": [
+      {
+        "titre": "Propositions présentées",
+        "texte": "Jean-Luc Mélenchon présente son programme 'L'Avenir en commun' pour la Nouvelle France. Le programme vise à répondre à l'urgence sociale et aux défis écologiques et géopolitiques. Il propose 1 069 mesures concrètes à mettre en œuvre dès mai 2027. Le programme a été élaboré par un travail collectif impliquant des syndicats, des associations et des contributions citoyennes.\n\nLe programme n'établit pas de chiffrage complet pour l'année 2027. Il ne précise pas non plus les dates exactes de mise en œuvre des mesures. De plus, il ne détaille pas comment les investissements productifs seront financés."
+      }
+    ],
+    "nature": "Synthèse automatique de source primaire",
+    "version": "synthese-campagne-v1",
+    "dernier_controle_utc": "2026-11-16T16:27:48.151606+00:00",
+    "date_evenement": "2026-09-25T11:33:06+02:00",
+    "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
+    "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité."
   }
 ]
