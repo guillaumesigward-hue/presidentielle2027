@@ -51,6 +51,7 @@ setImmediate(() => {
   assert(point.includes('&lt;test&gt;'));
   assert(!point.includes('<test>'));
   assert(point.includes('Quel coût ?'));
+  assert(point.includes('<details open>'));
   assert(vm.runInContext('escapeHtml("<script>")', context).includes('&lt;'));
   assert(vm.runInContext('afficherSolidite({solidite_documentaire:"bad"})', context).includes('Non évaluée'));
   assert(elements.suivi.innerHTML.includes('extraction partielle'));
@@ -58,12 +59,14 @@ setImmediate(() => {
   vm.runInContext('electionData.actualites = [{titre:"Lien sans texte",date_publication:"2026-11-01",controle:"automatique",resume_statut:"indisponible"},{titre:"Enquête résumée",date_publication:"2026-11-16",controle:"automatique",resume_statut:"disponible",resume:"Résumé attribué",source:"Disclose"}]; afficherActualites()', context);
   assert(elements['actualites-grid'].innerHTML.indexOf('Enquête résumée') < elements['actualites-grid'].innerHTML.indexOf('Lien sans texte'));
   vm.runInContext(`electionData.syntheses_campagne = [
-    {candidat:"Jean-Luc Mélenchon",titre:"Bourget",date_evenement:"2026-11-07",paragraphes:[{titre:"Mesures",texte:"<iframe src='x'>"}],url:"https://melenchon.fr/texte"},
+    {candidat:"Jean-Luc Mélenchon",titre:"Bourget",date_evenement:"2026-11-07",paragraphes:[{titre:"Mesures",texte:"<iframe src='x'>"}],url:"https://melenchon.fr/texte",point_reflexion:{version:"lecture-thematique-v1",niveau:"Pertinente",nature:"Discours",themes_concernes:["École"],apport:"Cette synthèse éclaire l’école",comparaison_programme:"Fiche école",finances_publiques:"À chiffrer",avis:"Analyse complète",questions:["Quel coût ?"],themes_non_documentes:["Santé"]}},
     {candidat:"Édouard Philippe",titre:"Retraites",date_evenement:"2026-11-12",paragraphes:[],url:"https://www.edouardphilippe.fr/programme/retraites"}];
     afficherActualites()`,context);
   assert(elements['syntheses-grid'].innerHTML.includes('Bourget'));
   assert(elements['syntheses-grid'].innerHTML.includes('&lt;iframe'));
   assert(!elements['syntheses-grid'].innerHTML.includes('<iframe'));
+  assert(elements['syntheses-grid'].innerHTML.includes('Point de réflexion'));
+  assert(elements['syntheses-grid'].innerHTML.includes('Analyse complète'));
   elements['actualites-candidat'].value = 'Jean-Luc Mélenchon';
   vm.runInContext('afficherActualites()',context);
   assert(elements['syntheses-grid'].innerHTML.includes('Bourget'));

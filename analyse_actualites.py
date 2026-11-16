@@ -9,7 +9,7 @@ import unicodedata
 VERSION = 'lecture-thematique-v1'
 
 THEMES = {
-    'École et jeunesse': ('ecole', 'education', 'enseignant', 'eleve', 'college', 'lycee', 'aesh', 'scolaire'),
+    'École et jeunesse': ('ecole', 'education', 'enseignant', 'eleve', 'college', 'lycee', 'aesh', 'scolaire', 'cantine', 'enfant'),
     'Finances publiques et financement': ('budget', 'cout', 'financement', 'depense', 'economie', 'deficit', 'dette', 'milliard', 'million', 'aide publique'),
     'Santé et protection sociale': ('sante', 'hopital', 'medecin', 'soin', 'securite sociale', 'medicament', 'retraite', 'protection sociale'),
     'Travail, retraites et pouvoir d’achat': ('travail', 'emploi', 'salaire', 'smic', 'retraite', 'prix', 'pouvoir d achat', 'carburant', 'syndicat'),
@@ -123,7 +123,7 @@ def analyser_actualite(item, programmes=None):
                if financement else
                'Aucun chiffrage ou financement suffisamment identifiable n’apparaît dans le texte résumé. '
                'Ce silence ne signifie pas que la proposition serait sans coût.')
-    questions = [QUESTIONS[t] for t in themes[:4]]
+    questions = [QUESTIONS[t] for t in themes]
     if not financement:
         questions.append(QUESTIONS['Finances publiques et financement'])
     if not questions:
@@ -147,7 +147,7 @@ def analyser_actualite(item, programmes=None):
                        'prioritaires actuellement affichées.')
     return {'version': VERSION, 'nature': nature, 'niveau': niveau,
             'themes_concernes': themes, 'apport': apport, 'avis': avis,
-            'finances_publiques': finance, 'questions': questions[:5],
+            'finances_publiques': finance, 'questions': questions,
             'comparaison_programme': comparaison,
             'themes_non_documentes': non_documentes}
 
@@ -155,3 +155,25 @@ def enrichir_actualites(actualites, programmes=None):
     for item in actualites:
         item['point_reflexion'] = analyser_actualite(item, programmes)
     return actualites
+
+def enrichir_syntheses(syntheses, programmes=None):
+    """Applique la même grille aux discours, congrès et programmes résumés."""
+    for item in syntheses:
+        paragraphes = ' '.join(
+            str(paragraphe.get('titre', '')) + ' ' + str(paragraphe.get('texte', ''))
+            for paragraphe in item.get('paragraphes', []) if isinstance(paragraphe, dict)
+        )
+        document = {
+            'titre': item.get('titre', ''),
+            'description': paragraphes,
+            'resume': item.get('evolution', ''),
+            'candidats_mentions': [item.get('candidat')] if item.get('candidat') else [],
+            'themes': item.get('themes', []),
+        }
+        point = analyser_actualite(document, programmes)
+        point['nature'] = item.get('nature') or point['nature']
+        point['apport'] = point['apport'].replace('Cette actualité', 'Cette synthèse', 1)
+        point['avis'] = point['avis'].replace('Actualité', 'Synthèse', 1)
+        point['finances_publiques'] = point['finances_publiques'].replace("l’article seul", 'le document seul')
+        item['point_reflexion'] = point
+    return syntheses
