@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-16T16:27:04.900629+00:00",
+  "last_checked_utc": "2026-11-16T16:38:38.164102+00:00",
   "last_checked_fr": "16 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -42,6 +42,7 @@
               "École",
               "Santé",
               "Fiscalité",
+              "Finances publiques",
               "Institutions / libertés publiques",
               "Immigration",
               "Travail"
@@ -89,10 +90,10 @@
     }
   },
   "syntheses_campagne": {
-    "documents_examines": 7,
-    "accessibles": 4,
+    "documents_examines": 8,
+    "accessibles": 6,
     "syntheses": 4,
-    "reportes": 1,
+    "reportes": 2,
     "sources": {
       "https://melenchon.fr/2026/11/07/grand-meeting-du-bourget-notre-programme-de-gouvernement/": {
         "ok": true
@@ -101,8 +102,10 @@
         "ok": true
       },
       "https://www.avecretailleau.fr/projet/theme/logement": {
-        "ok": false,
-        "erreur": "TimeoutError"
+        "ok": true
+      },
+      "https://melenchon2027.fr/programme/decouvrir/": {
+        "ok": true
       },
       "https://attalpresident.fr/meeting": {
         "ok": false,
@@ -111,11 +114,11 @@
       "https://attalpresident.fr/programme": {
         "ok": true
       },
-      "https://melenchon2027.fr/programme/laec/": {
+      "https://www.avecretailleau.fr/projet": {
         "ok": false,
         "erreur": "ValueError"
       },
-      "https://melenchon2027.fr/programme/decouvrir/": {
+      "https://www.avecretailleau.fr/projet/mesure/inscrire-le-droit-a-la-securite-dans-la-constitution": {
         "ok": true
       }
     }
