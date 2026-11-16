@@ -40,10 +40,10 @@ class PublicationTests(unittest.TestCase):
             status['publication_automatique'] = True
             (data / 'status.json').write_text(json.dumps(status), encoding='utf-8')
             date = datetime.now(timezone.utc).isoformat()
-            item = {'source':'Blast','titre':'École et travaux à la mairie',
+            item = {'source':'Blast','titre':'Gabriel Attal : financement des travaux scolaires',
                     'url':'https://www.blast-info.fr/articles/2026/test-auto',
                     'date_publication':date,'controle':'automatique',
-                    'resume_statut':'disponible','resume':'Résumé vérifié des travaux scolaires de la mairie.'}
+                    'resume_statut':'disponible','resume':'Gabriel Attal propose un financement des travaux scolaires.'}
             (data / 'publications_auto.json').write_text(json.dumps({'last_checked_utc':status['last_checked_utc'],'articles':[item,item]}), encoding='utf-8')
             output = Path(directory) / 'site'
             suivi = preparer_site(output, data)
@@ -52,7 +52,7 @@ class PublicationTests(unittest.TestCase):
             self.assertEqual(suivi['articles_automatiques'],1)
             self.assertEqual(len([x for x in actualites if x.get('url')==item['url']]),1)
             self.assertEqual(actualites[0]['controle'],'automatique')
-            self.assertEqual(actualites[0]['resume'],'Résumé vérifié des travaux scolaires de la mairie.')
+            self.assertEqual(actualites[0]['resume'],'Gabriel Attal propose un financement des travaux scolaires.')
             self.assertFalse((output / 'data/a_valider.json').exists())
 
     def test_active_site_hides_automatic_articles_without_a_valid_summary(self):

@@ -7,6 +7,7 @@ from automatisation import selectionner_articles
 from resumes_auto import titre_coherent
 from update import SOURCES_JOURNALISTIQUES, fetch
 from urllib.parse import urlsplit
+from pertinence import actualite_candidat, candidats_centraux
 
 ROOT = Path(__file__).resolve().parent
 CHAMPS_SUIVI = ('ok', 'url', 'notices_detectees', 'detections', 'liens_examines',
@@ -24,6 +25,8 @@ def preparer_site(output, data_dir=None):
     election = json.loads((data_dir / 'election.json').read_text(encoding='utf-8'))
     programmes = json.loads((data_dir / 'programmes.json').read_text(encoding='utf-8'))
     status = json.loads((data_dir / 'status.json').read_text(encoding='utf-8'))
+    syntheses = data_dir / 'syntheses_campagne.json'
+    election['syntheses_campagne'] = json.loads(syntheses.read_text(encoding='utf-8')) if syntheses.exists() else []
     for champ in ('candidatures', 'sondages', 'actualites', 'sources'):
         if not isinstance(election.get(champ), list) or any(not isinstance(x, dict) for x in election[champ]):
             raise ValueError(f'election.json : structure incorrecte pour {champ}')
@@ -33,12 +36,16 @@ def preparer_site(output, data_dir=None):
         raise ValueError('status.json : garanties de veille absentes')
     # Retrait demandé : les anciens paquets ne doivent pas réintroduire cette source.
     for champ in ('actualites', 'sources'):
-        election[champ] = [item for item in election[champ] if not source_retiree(item)]
+        election[champ] = [item for item in election[champ] if not source_retiree(item)
+                           and (champ != 'actualites' or actualite_candidat(item))]
+    for item in election['actualites']:
+        item['candidats_mentions'] = candidats_centraux(item.get('titre', ''), item.get('resume', '') or item.get('description', ''))
     suivi = {key: status.get(key) for key in ('last_checked_utc', 'last_checked_fr')}
     suivi['publication_automatique'] = status['publication_automatique']
     suivi['sondages_automatiques'] = status.get('sondages_automatiques', {})
     suivi['campagnes_automatiques'] = status.get('campagnes_automatiques', {})
     suivi['resumes_automatiques'] = status.get('resumes_automatiques', {})
+    suivi['syntheses_campagne'] = status.get('syntheses_campagne', {})
     if status['publication_automatique']:
         detections = json.loads((data_dir / 'actualites_detectees.json').read_text(encoding='utf-8'))
         queue = json.loads((data_dir / 'a_valider.json').read_text(encoding='utf-8'))
@@ -60,7 +67,7 @@ def preparer_site(output, data_dir=None):
                 continue
             vus.add(url)
             uniques.append(item)
-        articles_valides = [item for item in uniques if item.get('resume_statut') == 'disponible'
+        articles_valides = [item for item in uniques if actualite_candidat(item) and item.get('resume_statut') == 'disponible'
                             and item.get('resume') and titre_coherent(item.get('titre', ''), item.get('resume', ''))]
         indisponibles = len(uniques) - len(articles_valides)
         articles = articles_valides

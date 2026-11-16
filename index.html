@@ -417,12 +417,18 @@
   </section>
 
   <section id="actualites">
-    <h2>Actualités</h2>
+    <h2>Actualités des candidats et suivi des propositions</h2>
     <p class="section-intro">
-      Actualités éditoriales et liens de presse sélectionnés automatiquement.
-      Les résumés disponibles apparaissent en premier. Un article fermé ou une vidéo sans texte accessible reste signalé sans résumé.
-      Les liens automatiques sont attribués à leur média ; leurs contrôles de provenance et de date ne constituent pas une vérification indépendante des faits.
+      Uniquement les publications directement liées aux personnes suivies pour la présidentielle.
+      Les discours, conventions et programmes sont synthétisés à partir de leurs textes vérifiables, sans vidéo intégrée.
+      Les annonces sont attribuées aux candidats ; leur efficacité et leur financement ne sont pas tenus pour acquis.
     </p>
+    <label for="actualites-candidat">Filtrer par personne</label>
+    <select id="actualites-candidat" onchange="afficherActualites()" style="max-width:100%;padding:.65rem;margin:0 0 1.25rem .5rem"><option value="">Toutes les personnes suivies</option></select>
+    <h3>Propositions : ce qui est publié et ce qui reste à préciser</h3>
+    <p>Une nouvelle publication ne prouve pas qu’une proposition est nouvelle. Sans comparaison documentée, cette nouveauté reste non établie. Les sources de campagne décrivent les engagements ; les médias indépendants apportent un regard distinct.</p>
+    <div class="grid" id="syntheses-grid"></div>
+    <h3>La presse sur les candidats</h3>
     <div class="grid" id="actualites-grid"></div>
   </section>
 
@@ -961,8 +967,23 @@ ecologie: "Écologie"
     const container =
       document.getElementById("actualites-grid");
 
-    const actualites = [...(electionData?.actualites || [])].sort((a, b) =>
-      Number(b.resume_statut === "disponible") - Number(a.resume_statut === "disponible"));
+    const select = document.getElementById("actualites-candidat");
+    const choisi = select.value || "";
+    const syntheses = electionData?.syntheses_campagne || [];
+    const personnes = [...new Set(syntheses.map(x => x.candidat).concat((electionData?.actualites || []).flatMap(x => x.candidats_mentions || [])))].sort((a,b) => a.localeCompare(b, 'fr'));
+    select.innerHTML = '<option value="">Toutes les personnes suivies</option>' + personnes.map(nom => `<option value="${escapeHtml(nom)}" ${nom === choisi ? 'selected' : ''}>${escapeHtml(nom)}</option>`).join('');
+    const retenues = syntheses.filter(x => !choisi || x.candidat === choisi).sort((a,b) => String(b.date_evenement || '').localeCompare(String(a.date_evenement || '')));
+    document.getElementById("syntheses-grid").innerHTML = retenues.length ? retenues.map(x => `<article class="card news-card">
+      <p class="source-meta">${escapeHtml(x.candidat)} · ${escapeHtml(x.nature || 'Synthèse sourcée')} · ${escapeHtml(x.date_evenement?.slice(0,10) || 'Date de publication non établie')}</p>
+      <h3>${escapeHtml(x.titre)}</h3>
+      ${(x.paragraphes || []).map(p => `<h4>${escapeHtml(p.titre)}</h4><p>${escapeHtml(p.texte).replace(/\n\n/g, '</p><p>')}</p>`).join('')}
+      <p><strong>État d’avancement</strong> — ${escapeHtml(x.evolution || 'Nouveauté non établie.')}</p>
+      <p class="source-meta">${escapeHtml(x.limite || '')}</p>
+      <p>${lienSource(x.url, 'Texte de référence — source de campagne')}</p>
+      <p class="source-meta">Dernier contrôle du texte : ${escapeHtml(x.dernier_controle_utc?.slice(0,10) || 'Non établi')}</p>
+      </article>`).join('') : '<p>Aucune synthèse disponible pour cette personne. Cela ne signifie pas une absence de propositions.</p>';
+    const actualites = [...(electionData?.actualites || [])].filter(x => !choisi || (x.candidats_mentions || []).includes(choisi)).sort((a, b) =>
+      String(b.date_publication || '').localeCompare(String(a.date_publication || '')));
 
     if (!actualites.length) {
       container.innerHTML =

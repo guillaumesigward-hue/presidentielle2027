@@ -8,14 +8,14 @@ class AutomatisationTests(unittest.TestCase):
         self.source = {'nom':'Mediapart','url':'https://www.mediapart.fr/journal/politique'}
         self.item = {'source':'Mediapart','url':'https://www.mediapart.fr/journal/politique/101026/article','candidats_mentions':[]}
         self.now = datetime(2026,10,10,18,tzinfo=timezone.utc)
-        self.body = '<meta property="og:title" content="La présidentielle et les propositions pour 2027"><meta property="article:published_time" content="2026-10-10T10:00:00Z">'
+        self.body = '<meta property="og:title" content="Gabriel Attal présente ses propositions pour 2027"><meta property="article:published_time" content="2026-10-10T10:00:00Z">'
     def test_source_date_pertinence_and_no_invented_summary(self):
         article = controler_article(self.item,self.source,self.body,self.now)
         self.assertEqual(article['controle'],'automatique')
         self.assertEqual(article['source'],'Mediapart')
         self.assertNotIn('resume',article)
         self.assertIsNotNone(controler_article(self.item,self.source,self.body.replace('article:published_time','og:article:published_time'),self.now))
-        for body in [self.body.replace('2026-10-10','2025-10-10'),self.body.replace('2026-10-10','2026-11-10'),self.body.replace('article:published_time','missing'),self.body.replace('La présidentielle et les propositions pour 2027','Le jardinage pour tout le monde')]:
+        for body in [self.body.replace('2026-10-10','2025-10-10'),self.body.replace('2026-10-10','2026-11-10'),self.body.replace('article:published_time','missing'),self.body.replace('Gabriel Attal présente ses propositions pour 2027','Le jardinage pour tout le monde')]:
             self.assertIsNone(controler_article(self.item,self.source,body,self.now))
         self.assertIsNone(controler_article(dict(self.item,url='https://evil.test/article'),self.source,self.body,self.now))
     def test_relevance_uses_public_article_body_when_metadata_is_generic(self):
@@ -25,7 +25,7 @@ class AutomatisationTests(unittest.TestCase):
         body = ('<meta property="og:title" content="Une enquête exclusive">'
                 '<meta property="og:description" content="Une enquête de la rédaction.">'
                 '<meta property="article:published_time" content="2026-10-10T10:00:00Z">'
-                '<article><p>La police utilise la reconnaissance faciale lors de contrôles. '
+                '<article><p>Gabriel Attal propose un encadrement de la reconnaissance faciale utilisée par la police. '
                 'Cette pratique soulève des questions de libertés publiques et de respect '
                 'des droits fondamentaux.</p></article>')
         result = controler_article(item, source, body, self.now)
@@ -59,7 +59,7 @@ class AutomatisationTests(unittest.TestCase):
     def test_disclose_investigation_is_dated_and_theme_classified(self):
         source = {'nom':'Disclose','url':'https://disclose.ngo/fr'}
         url = 'https://disclose.ngo/fr/article/financement-pollution'
-        data = {'@type':'NewsArticle','mainEntityOfPage':{'@id':url},'headline':'Le gouvernement finance la pollution et le climat', 'datePublished':'2026-06-18T10:00:00Z'}
+        data = {'@type':'NewsArticle','mainEntityOfPage':{'@id':url},'headline':'Gabriel Attal propose un financement pour le climat', 'datePublished':'2026-06-18T10:00:00Z'}
         body = '<script type="application/ld+json">'+json.dumps(data)+'</script>'
         result = controler_article({'url':url},source,body,self.now)
         self.assertTrue(result['enquete_anterieure'])

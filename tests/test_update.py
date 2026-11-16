@@ -33,7 +33,7 @@ class VeilleTests(unittest.TestCase):
         calls, detections = [], []
         def extract(url):
             calls.append(url)
-            return 'Gabriel Attal parle du financement de l’école.'
+            return 'Gabriel Attal propose un financement de l’école.'
         result = surveiller_source(source, lambda url: body, extract, update.creer_resume_article,
                                   update.candidats_recherches, '10 octobre 2026', update.ajouter_detection, detections)
         self.assertEqual(len(calls), 20)

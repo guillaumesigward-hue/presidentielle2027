@@ -558,6 +558,11 @@ def main():
     for article in precedentes:
         article.setdefault('derniere_verification_utc', paquet_precedent.get('last_checked_utc'))
     articles = selectionner_articles(detections, SOURCES_JOURNALISTIQUES, fetch, now, exclusions, precedentes)
+    from discours_auto import actualiser_syntheses
+    fichier_syntheses = DATA_DIR / 'syntheses_campagne.json'
+    syntheses = charger_json(fichier_syntheses, []) if fichier_syntheses.exists() else []
+    syntheses, status['syntheses_campagne'] = actualiser_syntheses(syntheses, fetch)
+    ecrire_json(fichier_syntheses, syntheses)
     status['resumes_automatiques'] = resumer_publications(articles, fetch, precedentes)
     ecrire_json(DATA_DIR / 'publications_auto.json', {'last_checked_utc': status['last_checked_utc'], 'articles': articles})
     status['publications_par_media'] = {source['nom']: sum(x['source'] == source['nom'] for x in articles) for source in SOURCES_JOURNALISTIQUES}
