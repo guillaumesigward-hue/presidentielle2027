@@ -36,6 +36,12 @@ class PerimetreCandidats(unittest.TestCase):
                          {'nom':'Disclose','url':'https://disclose.ngo/fr'},body,datetime(2026,11,16,tzinfo=timezone.utc)))
 
 class SupportsPrimaires(unittest.TestCase):
+    def test_party_site_does_not_assign_another_speakers_words(self):
+        body='<meta property="og:title" content="Discours de Jordan Bardella"><article>' + 'Marine Le Pen soutient notre programme 2027. '*70 + '</article>'
+        with self.assertRaises(ValueError):
+            lire_support('Marine Le Pen','https://www.rassemblementnational.fr/discours',body)
+        with self.assertRaises(ValueError):
+            lire_support('Jean-Luc Mélenchon','https://exemple.fr/discours',body)
     def test_video_description_is_not_a_transcript(self):
         with self.assertRaises(ValueError):
             lire_support('Jean-Luc Mélenchon','https://melenchon.fr/2026/11/07/meeting/',

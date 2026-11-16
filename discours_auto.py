@@ -9,7 +9,7 @@ import time
 from automatisation import Metadonnees, donnees_article
 from delais import delai_reel, DelaiDepasse
 from officiel_auto import CAMPAGNES, TextePrincipal, lien_officiel
-from pertinence import normaliser
+from pertinence import normaliser, mentions
 from resumes_auto import moteur, raison_rejet, extrait_pertinent
 
 VERSION = 'synthese-campagne-v1'
@@ -20,6 +20,9 @@ SUPPORTS = [
 ]
 
 def lire_support(nom, url, body):
+    racines = [(n, r) for n, r in CAMPAGNES.items()] + [('Jean-Luc Mélenchon', 'https://melenchon.fr/')]
+    if not any(n == nom and lien_officiel(url, root) for n, root in racines):
+        raise ValueError('Domaine primaire non autorisé pour cette personne')
     parser = TextePrincipal(); parser.feed(body)
     texte = parser.texte()
     # Certains programmes composent leur <main> de dizaines de petites fiches
@@ -32,6 +35,11 @@ def lire_support(nom, url, body):
     meta = Metadonnees(); meta.feed(body)
     article = donnees_article(meta, url)
     titre = meta.meta.get('og:title') or article.get('headline') or ''
+    if nom in ('Marine Le Pen', 'Fabien Roussel'):
+        author = article.get('author', {})
+        author = author.get('name', '') if isinstance(author, dict) else ''
+        if nom not in mentions(titre + ' ' + str(author)):
+            raise ValueError('Auteur personnel non établi sur le site du parti')
     # Un espace de campagne est autorisé pour son titulaire, sans attribuer
     # les propos d'un invité ou d'un adversaire au candidat.
     if normaliser(nom) not in normaliser(texte + ' ' + titre):
