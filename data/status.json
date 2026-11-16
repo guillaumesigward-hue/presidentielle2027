@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-16T16:59:48.246451+00:00",
+  "last_checked_utc": "2026-11-16T17:48:03.203444+00:00",
   "last_checked_fr": "16 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -90,10 +90,10 @@
     }
   },
   "syntheses_campagne": {
-    "documents_examines": 8,
-    "accessibles": 6,
-    "syntheses": 4,
-    "reportes": 2,
+    "documents_examines": 11,
+    "accessibles": 8,
+    "syntheses": 5,
+    "reportes": 3,
     "sources": {
       "https://melenchon.fr/2026/11/07/grand-meeting-du-bourget-notre-programme-de-gouvernement/": {
         "ok": true
@@ -114,11 +114,21 @@
       "https://attalpresident.fr/programme": {
         "ok": true
       },
-      "https://www.avecretailleau.fr/projet": {
+      "https://melenchon2027.fr/programme/laec/": {
         "ok": false,
         "erreur": "ValueError"
       },
-      "https://www.avecretailleau.fr/projet/mesure/inscrire-le-droit-a-la-securite-dans-la-constitution": {
+      "https://melenchon2027.fr/programme/livre/": {
+        "ok": false,
+        "erreur": "ValueError"
+      },
+      "https://www.edouardphilippe.fr/programme": {
+        "ok": true
+      },
+      "https://www.edouardphilippe.fr/programme/justice": {
+        "ok": true
+      },
+      "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/": {
         "ok": true
       }
     }
@@ -157,7 +167,7 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 57,
-    "pages_accessibles": 39,
+    "pages_accessibles": 38,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -167,7 +177,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 10,
-        "accessibles": 8
+        "accessibles": 7
       },
       "Fabien Roussel": {
         "examinees": 6,

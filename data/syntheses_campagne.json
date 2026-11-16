@@ -22,7 +22,7 @@
     ],
     "nature": "Synthèse sourcée du discours",
     "evolution": "Présentation du programme au Bourget ; caractère inédit de chaque mesure non établi par cette seule transcription.",
-    "dernier_controle_utc": "2026-11-16T17:00:43.080855+00:00",
+    "dernier_controle_utc": "2026-11-16T17:48:39.154153+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -50,7 +50,7 @@
     ],
     "nature": "Synthèse sourcée du programme",
     "evolution": "Programme publié et daté ; cette date de mise à jour ne prouve pas que toutes ces propositions sont nouvelles.",
-    "dernier_controle_utc": "2026-11-16T17:00:43.080855+00:00",
+    "dernier_controle_utc": "2026-11-16T17:48:39.154153+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -78,7 +78,7 @@
     ],
     "nature": "Synthèse sourcée du programme",
     "evolution": "Engagements actuellement publiés ; date initiale et nouveauté politique non établies.",
-    "dernier_controle_utc": "2026-11-16T17:00:43.080855+00:00",
+    "dernier_controle_utc": "2026-11-16T17:48:39.154153+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -97,10 +97,29 @@
     ],
     "nature": "Synthèse automatique de source primaire",
     "version": "synthese-campagne-v1",
-    "dernier_controle_utc": "2026-11-16T17:00:43.080855+00:00",
+    "dernier_controle_utc": "2026-11-16T17:48:39.154153+00:00",
     "date_evenement": "2026-09-25T11:33:06+02:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité.",
     "verification_differee": false
+  },
+  {
+    "candidat": "Nicolas Dupont-Aignan",
+    "url": "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/",
+    "titre": "Libérons la France ! · Discours de rentrée de Nicolas Dupont-Aignan",
+    "empreinte": "285c0fc4e8c6d0136e30c42d51f8115b4f369c6b7f392dc9a116fb624329260b",
+    "date_publication": "2026-09-19T15:13:01+00:00",
+    "paragraphes": [
+      {
+        "titre": "Propositions présentées",
+        "texte": "Nicolas Dupont-Aignan, candidat à l'élection présidentielle, propose de relocaliser deux millions d'emplois et de baisser les taxes sur l'énergie. Il souhaite également instaurer un fonds d'aide à la relocalisation et un RIC à partir d'un million de signatures. Il défend une sortie de l'OTAN et une recherche de paix en Ukraine.\n\nLa mise en œuvre de ces propositions nécessiterait des changements importants dans les politiques actuelles. Le document ne précise pas les détails de financement, les dates de mise en œuvre ou les résultats attendus."
+      }
+    ],
+    "nature": "Synthèse automatique de source primaire",
+    "version": "synthese-campagne-v1",
+    "dernier_controle_utc": "2026-11-16T17:48:39.154153+00:00",
+    "date_evenement": "2026-09-19T15:13:01+00:00",
+    "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
+    "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité. Source longue : seuls des passages ont été traités."
   }
 ]
