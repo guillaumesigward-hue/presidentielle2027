@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-17T00:49:11.719922+00:00",
+  "last_checked_utc": "2026-11-17T12:12:49.583348+00:00",
   "last_checked_fr": "17 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -90,8 +90,8 @@
     }
   },
   "syntheses_campagne": {
-    "documents_examines": 12,
-    "accessibles": 9,
+    "documents_examines": 14,
+    "accessibles": 8,
     "syntheses": 6,
     "reportes": 3,
     "sources": {
@@ -102,12 +102,16 @@
         "ok": true
       },
       "https://www.avecretailleau.fr/projet/theme/logement": {
-        "ok": true
+        "ok": false,
+        "erreur": "TimeoutError"
       },
       "https://melenchon2027.fr/programme/decouvrir/": {
         "ok": true
       },
       "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/": {
+        "ok": true
+      },
+      "https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/": {
         "ok": true
       },
       "https://attalpresident.fr/meeting": {
@@ -131,8 +135,13 @@
       "https://www.edouardphilippe.fr/programme/justice": {
         "ok": true
       },
-      "https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/": {
-        "ok": true
+      "https://melenchon.fr/2026/11/11/discours-sur-la-paix-jean-luc-melenchon-a-la-souterraine/": {
+        "ok": false,
+        "erreur": "ValueError"
+      },
+      "https://melenchon.fr/2026/11/11/maudite-soit-la-guerre-discours-a-gentioux/": {
+        "ok": false,
+        "erreur": "ValueError"
       }
     }
   },
@@ -169,8 +178,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 57,
-    "pages_accessibles": 37,
+    "pages_examinees": 55,
+    "pages_accessibles": 38,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -179,8 +188,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 10,
-        "accessibles": 6
+        "examinees": 8,
+        "accessibles": 7
       },
       "Fabien Roussel": {
         "examinees": 6,

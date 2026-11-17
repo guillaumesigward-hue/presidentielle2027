@@ -22,7 +22,7 @@
     ],
     "nature": "Synthèse sourcée du discours",
     "evolution": "Présentation du programme au Bourget ; caractère inédit de chaque mesure non établi par cette seule transcription.",
-    "dernier_controle_utc": "2026-11-17T00:49:57.313278+00:00",
+    "dernier_controle_utc": "2026-11-17T12:13:29.567159+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -50,7 +50,7 @@
     ],
     "nature": "Synthèse sourcée du programme",
     "evolution": "Programme publié et daté ; cette date de mise à jour ne prouve pas que toutes ces propositions sont nouvelles.",
-    "dernier_controle_utc": "2026-11-17T00:49:57.313278+00:00",
+    "dernier_controle_utc": "2026-11-17T12:13:29.567159+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -81,7 +81,7 @@
     "dernier_controle_utc": "2026-11-17T00:49:57.313278+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
-    "verification_differee": false
+    "verification_differee": true
   },
   {
     "candidat": "Jean-Luc Mélenchon",
@@ -97,7 +97,7 @@
     ],
     "nature": "Synthèse automatique de source primaire",
     "version": "synthese-campagne-v1",
-    "dernier_controle_utc": "2026-11-17T00:49:57.313278+00:00",
+    "dernier_controle_utc": "2026-11-17T12:13:29.567159+00:00",
     "date_evenement": "2026-09-25T11:33:06+02:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité.",
@@ -117,7 +117,7 @@
     ],
     "nature": "Synthèse automatique de source primaire",
     "version": "synthese-campagne-v1",
-    "dernier_controle_utc": "2026-11-17T00:49:57.313278+00:00",
+    "dernier_controle_utc": "2026-11-17T12:13:29.567159+00:00",
     "date_evenement": "2026-09-19T15:13:01+00:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité. Source longue : seuls des passages ont été traités.",
@@ -137,9 +137,10 @@
     ],
     "nature": "Synthèse automatique de source primaire",
     "version": "synthese-campagne-v1",
-    "dernier_controle_utc": "2026-11-17T00:49:57.313278+00:00",
+    "dernier_controle_utc": "2026-11-17T12:13:29.567159+00:00",
     "date_evenement": "2026-11-12T11:51:43+00:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
-    "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité."
+    "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité.",
+    "verification_differee": false
   }
 ]
