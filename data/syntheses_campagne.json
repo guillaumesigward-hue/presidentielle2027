@@ -22,35 +22,7 @@
     ],
     "nature": "Synthèse sourcée du discours",
     "evolution": "Présentation du programme au Bourget ; caractère inédit de chaque mesure non établi par cette seule transcription.",
-    "dernier_controle_utc": "2026-11-17T12:13:29.567159+00:00",
-    "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
-    "version": "synthese-campagne-v1",
-    "verification_differee": false
-  },
-  {
-    "candidat": "Édouard Philippe",
-    "url": "https://www.edouardphilippe.fr/programme/retraites",
-    "titre": "Édouard Philippe : retraites, âge de départ et capitalisation",
-    "empreinte": "a11f95a9c7f4bf5d0d35b446929e35e7a02fa9a5f64be979651af830342e7d14",
-    "date_publication": null,
-    "date_evenement": "2026-11-12",
-    "paragraphes": [
-      {
-        "titre": "Les engagements publiés",
-        "texte": "La fiche de campagne mise à jour le 12 novembre propose de porter progressivement le départ à 65 ans et la cotisation à 45 annuités, en moins de dix ans. Édouard Philippe maintient des départs anticipés pour les carrières longues et pour raisons de santé ; son site estime qu’un Français sur trois pourrait partir avant 65 ans."
-      },
-      {
-        "titre": "Le mécanisme proposé",
-        "texte": "Il veut ajouter une capitalisation collective à la répartition et ouvrir un plan d’épargne retraite avec 500 euros versés par l’État au premier emploi. La gestion du système serait confiée aux partenaires sociaux après retour à l’équilibre."
-      },
-      {
-        "titre": "Ce qui reste à apprécier",
-        "texte": "Le candidat promet de préserver globalement les pensions et de ne pas augmenter les cotisations. Ces engagements ne démontrent pas à eux seuls l’équilibre financier de la réforme ni son effet pour chaque carrière."
-      }
-    ],
-    "nature": "Synthèse sourcée du programme",
-    "evolution": "Programme publié et daté ; cette date de mise à jour ne prouve pas que toutes ces propositions sont nouvelles.",
-    "dernier_controle_utc": "2026-11-17T12:13:29.567159+00:00",
+    "dernier_controle_utc": "2026-11-17T13:22:08.290221+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -101,7 +73,7 @@
     "date_evenement": "2026-09-25T11:33:06+02:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité.",
-    "verification_differee": false
+    "verification_differee": true
   },
   {
     "candidat": "Nicolas Dupont-Aignan",
@@ -121,7 +93,7 @@
     "date_evenement": "2026-09-19T15:13:01+00:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité. Source longue : seuls des passages ont été traités.",
-    "verification_differee": false
+    "verification_differee": true
   },
   {
     "candidat": "Nicolas Dupont-Aignan",
@@ -141,6 +113,6 @@
     "date_evenement": "2026-11-12T11:51:43+00:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité.",
-    "verification_differee": false
+    "verification_differee": true
   }
 ]
