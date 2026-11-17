@@ -12,7 +12,7 @@ THEMES = {
     'École et jeunesse': ('ecole', 'education', 'enseignant', 'eleve', 'college', 'lycee', 'aesh', 'scolaire', 'cantine', 'enfant'),
     'Finances publiques et financement': ('budget', 'cout', 'financement', 'depense', 'economie', 'deficit', 'dette', 'milliard', 'million', 'aide publique', 'aides publiques', 'epargne'),
     'Santé et protection sociale': ('sante', 'hopital', 'medecin', 'soin', 'securite sociale', 'medicament', 'retraite', 'protection sociale'),
-    'Travail, retraites et pouvoir d’achat': ('travail', 'emploi', 'salaire', 'smic', 'retraite', 'prix', 'pouvoir d achat', 'carburant', 'syndicat'),
+    'Travail, retraites et pouvoir d’achat': ('travail', 'emploi', 'salaire', 'smic', 'retraite', 'prix', 'pouvoir d achat', 'carburant', 'syndicat', 'urgence sociale'),
     'Fiscalité': ('impot', 'fiscalite', 'taxe', 'tva', 'cotisation', 'prelevement'),
     'Énergie et industrie': ('energie', 'electricite', 'nucleaire', 'gaz', 'carburant', 'industrie', 'industriel'),
     'Écologie et climat': ('ecologie', 'climat', 'environnement', 'pollution', 'biodiversite', 'renouvelable', 'adaptation climatique'),
@@ -82,18 +82,18 @@ def _nature(texte):
     return 'Prise de position ou élément de contexte'
 
 def _elements_theme(texte, theme):
-    """Retient jusqu'à deux éléments courts, sans commentaire ajouté."""
+    """Retient tous les éléments correspondants, sans commentaire ajouté."""
     phrases = [re.sub(r'\s+', ' ', x).strip(' -•\t') for x in
                re.split(r'(?<=[.!?])\s+|[\r\n]+', str(texte))]
     mots = THEMES[theme]
     candidats = []
     for phrase in phrases:
-        segments = re.split(r'[,;]|\s+ainsi que\s+|\s+et\s+(?=(?:un|une|des|le|la|les)\b)',
+        segments = re.split(r'[,;]|\s+ainsi que\s+|\s+et\s+(?=des\b)',
                             phrase, flags=re.I)
         precis = [segment.strip() for segment in segments
-                  if len(segment.strip()) >= 20
+                  if len(segment.strip()) >= 15
                   and any(contient(normaliser(segment), mot) for mot in mots)]
-        candidats.extend(precis or ([phrase] if len(phrase) >= 20
+        candidats.extend(precis or ([phrase] if len(phrase) >= 15
                            and any(contient(normaliser(phrase), mot) for mot in mots) else []))
     retenues = []
     for element in candidats:
@@ -103,12 +103,7 @@ def _elements_theme(texte, theme):
             element += '.'
         if element not in retenues:
             retenues.append(element)
-    elements = []
-    for phrase in retenues[:2]:
-        if len(phrase) > 360:
-            phrase = phrase[:357].rsplit(' ', 1)[0] + '…'
-        elements.append(phrase)
-    return elements
+    return retenues
 
 def _grille_thematique(texte, themes):
     grille = []
