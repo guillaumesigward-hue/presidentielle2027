@@ -32,7 +32,7 @@ vm.runInContext(script, context);
 setImmediate(() => {
   assert.equal(requests.length, 3);
   assert(!requests.some(url => url.includes('a_valider')));
-  for (const id of ['candidatures-grid', 'sondages-grid', 'programmes-grid', 'actualites-grid', 'sources-grid']) {
+  for (const id of ['candidatures-grid', 'sondages-grid', 'programmes-grid', 'decision-grid', 'actualites-grid', 'sources-grid']) {
     assert(elements[id].innerHTML.includes('<article'), id);
     assert(!elements[id].innerHTML.includes('undefined'), id);
   }
@@ -40,6 +40,13 @@ setImmediate(() => {
     button.click();
     assert(elements['programmes-grid'].innerHTML.includes('<article'));
   }
+  assert(elements['decision-grid'].innerHTML.includes('Mesures documentées'));
+  assert(elements['decision-grid'].innerHTML.includes('Effets et limites documentés'));
+  assert(!elements['decision-grid'].innerHTML.includes('score-candidat'));
+  elements['decision-axe'].value = 'patrimoine';
+  vm.runInContext('afficherAideDecision()', context);
+  assert(elements['decision-grid'].innerHTML.includes('Éléments documentés'));
+  assert(elements['decision-grid'].innerHTML.includes('Financement'));
   assert.equal(vm.runInContext('lienSource("javascript:alert(1)", "x")', context), '');
   const resume = vm.runInContext('afficherResume({controle:"automatique",resume_statut:"disponible",resume:"<script>alert(1)</script>",source:"Test",resume_limite:"Texte accessible"})', context);
   assert(resume.includes('&lt;script&gt;'));
