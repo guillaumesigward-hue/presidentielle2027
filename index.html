@@ -370,6 +370,50 @@
       font-size: .9rem;
     }
 
+    .decision-controls {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 16px 0 20px;
+    }
+
+    .decision-controls select {
+      min-width: min(100%, 360px);
+      padding: 10px 12px;
+      border: 1px solid #9eb2cd;
+      border-radius: 7px;
+      background: #fff;
+      font: inherit;
+    }
+
+    .decision-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 18px;
+    }
+
+    .decision-card {
+      border-top: 4px solid #173b6c;
+    }
+
+    .decision-card h4 {
+      margin-bottom: 5px;
+    }
+
+    .decision-missing {
+      color: #5d6675;
+      background: #f2f4f7;
+      padding: 10px;
+      border-radius: 6px;
+    }
+
+    .decision-news {
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px solid #d8e0eb;
+    }
+
     .news-card {
       border-top: 4px solid #075bc8;
     }
@@ -440,6 +484,7 @@
     <a href="#candidatures">Candidatures</a>
     <a href="#sondages">Sondages</a>
     <a href="#programmes">Programmes</a>
+    <a href="#reperes-decision">Repères de décision</a>
     <a href="#actualites">Actualités</a>
     <a href="#methodologie">Méthodologie</a>
     <a href="#sources">Sources</a>
@@ -504,14 +549,32 @@
     <div class="programme-grid" id="programmes-grid"></div>
   </section>
 
+  <section id="reperes-decision">
+    <h2>Repères factuels pour vos priorités</h2>
+    <p class="section-intro">
+      Comparaison documentaire sans score ni recommandation. Aucune donnée personnelle ou médicale n’est enregistrée ou publiée.
+    </p>
+    <div class="decision-controls">
+      <label for="decision-axe"><strong>Sujet à comparer</strong></label>
+      <select id="decision-axe" onchange="afficherAideDecision()">
+        <option value="inclusion">TDAH, TSA, handicap, AESH et école inclusive</option>
+        <option value="patrimoine">Finances publiques, fiscalité, patrimoine et transmission</option>
+        <option value="ecole">École et jeunesse</option>
+        <option value="sante">Santé et protection sociale</option>
+        <option value="energie">Énergie et industrie</option>
+        <option value="ecologie">Écologie et climat</option>
+      </select>
+    </div>
+    <div class="decision-grid" id="decision-grid"></div>
+  </section>
+
   <section id="actualites">
     <h2>Actualités des candidats et suivi des propositions</h2>
     <p class="section-intro">
       Uniquement les publications directement liées aux personnes suivies pour la présidentielle.
       Les discours, conventions et programmes sont synthétisés à partir de leurs textes vérifiables, sans vidéo intégrée.
       Les annonces sont attribuées aux candidats ; leur efficacité et leur financement ne sont pas tenus pour acquis.
-      Chaque actualité comporte un point de réflexion sur les thèmes suivis. L’« avis de lecture » évalue
-      uniquement l’utilité et la documentation de l’information, jamais la valeur d’un candidat ni une consigne de vote.
+      Chaque actualité présente les sujets suivis et les éléments correspondants disponibles dans l’information.
     </p>
     <label for="actualites-candidat">Filtrer par personne</label>
     <select id="actualites-candidat" onchange="afficherActualites()" style="max-width:100%;padding:.65rem;margin:0 0 1.25rem .5rem"><option value="">Toutes les personnes suivies</option></select>
@@ -949,6 +1012,79 @@ ecologie: "Écologie"
     </section>`;
   }
 
+  const axesDecision = {
+    inclusion: {
+      programme: "ecole",
+      themesActualite: ["Handicap et AESH"],
+      inclusion: true
+    },
+    patrimoine: {
+      programme: "fiscalite",
+      themesActualite: ["Fiscalité", "Finances publiques et financement"]
+    },
+    ecole: { programme: "ecole", themesActualite: ["École et jeunesse"] },
+    sante: { programme: "sante", themesActualite: ["Santé et protection sociale"] },
+    energie: { programme: "energie", themesActualite: ["Énergie et industrie"] },
+    ecologie: { programme: "ecologie", themesActualite: ["Écologie et climat"] }
+  };
+
+  function actualitesPourDecision(nom, axe) {
+    const contenus = [
+      ...(electionData?.syntheses_campagne || []).map(x => ({...x, personnes: [x.candidat], date: x.date_evenement})),
+      ...(electionData?.actualites || []).map(x => ({...x, personnes: x.candidats_mentions || [], date: x.date_publication}))
+    ];
+    return contenus.filter(x => x.personnes.includes(nom)).map(x => {
+      const sujets = x.point_reflexion?.analyse_par_sujet || [];
+      const elements = sujets.filter(s => axe.themesActualite.includes(s.theme) && s.statut === "aborde")
+        .flatMap(s => s.elements || []);
+      return {...x, elements: [...new Set(elements)]};
+    }).filter(x => x.elements.length).sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+  }
+
+  function sourcesDecision(theme, axe) {
+    const sources = axe.inclusion
+      ? theme?.handicap_aesh?.sources || []
+      : theme?.sources || [];
+    return sources.length
+      ? `<ul class="sources-list">${sources.map(source => `<li>${lienSource(source.url, source.nom || "Source")}</li>`).join("")}</ul>`
+      : '<p class="decision-missing">Aucune source spécifique publiée dans cette fiche.</p>';
+  }
+
+  function afficherAideDecision() {
+    const container = document.getElementById("decision-grid");
+    const select = document.getElementById("decision-axe");
+    if (!container || !select || !programmesData || !electionData) return;
+    const axe = axesDecision[select.value] || axesDecision.inclusion;
+    const personnes = [...(programmesData.pretendants || [])]
+      .sort((a, b) => String(a.nom).localeCompare(String(b.nom), "fr"));
+    container.innerHTML = personnes.map(personne => {
+      const theme = personne.themes?.[axe.programme];
+      const inclusion = axe.inclusion ? theme?.handicap_aesh : null;
+      const actualites = actualitesPourDecision(personne.nom, axe);
+      const contenu = axe.inclusion ? (inclusion ? `
+          <h4>Mesures documentées</h4><p>${escapeHtml(inclusion.propositions || "Aucune mesure spécifique documentée.")}</p>
+          <h4>Effets et limites documentés</h4><p>${escapeHtml(inclusion.impact_familles || "Non précisés.")}</p>
+          <h4>Financement</h4><p>${escapeHtml(inclusion.financement || "Non précisé.")}</p>
+        ` : '<p class="decision-missing">Aucune mesure 2027 spécifique au TDAH, au TSA ou aux AESH n’est documentée dans cette fiche.</p>') : theme ? `
+        <h4>Éléments documentés</h4><p>${escapeHtml(theme.resume || "Aucun élément documenté.")}</p>
+        <h4>Financement</h4><p>${escapeHtml(theme.financement || "Non précisé.")}</p>
+        <h4>Personnes concernées</h4><p>${escapeHtml(theme.population_concernee || "Non précisées.")}</p>
+        <h4>Informations encore incomplètes</h4><p>${escapeHtml(theme.solidite_explication || "Non précisées.")}</p>
+      ` : '<p class="decision-missing">Aucune fiche documentée pour ce sujet.</p>';
+      const actualitesHtml = actualites.length ? `<div class="decision-news"><h4>Actualités correspondantes</h4>${actualites.map(item => `
+        <p><strong>${escapeHtml(item.titre || "Actualité")}</strong>${item.date ? ` — ${escapeHtml(String(item.date).slice(0, 10))}` : ""}</p>
+        <ul>${item.elements.map(element => `<li>${escapeHtml(element)}</li>`).join("")}</ul>
+        ${item.url ? `<p>${lienSource(item.url, "Source de l’actualité")}</p>` : ""}
+      `).join("")}</div>` : '<p class="decision-missing">Aucune actualité correspondante actuellement retenue.</p>';
+      return `<article class="card decision-card">
+        <h3>${escapeHtml(personne.nom)}</h3>
+        ${contenu}
+        <h4>Sources du programme</h4>${sourcesDecision(theme, axe)}
+        ${actualitesHtml}
+      </article>`;
+    }).join("");
+  }
+
   function afficherProgrammes() {
     const container =
       document.getElementById("programmes-grid");
@@ -1199,6 +1335,7 @@ ecologie: "Écologie"
       afficherCandidatures();
       afficherSondages();
       afficherProgrammes();
+      afficherAideDecision();
       afficherActualites();
       afficherSources();
 
