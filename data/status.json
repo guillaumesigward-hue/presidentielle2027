@@ -1,6 +1,6 @@
 {
-  "last_checked_utc": "2026-11-16T17:48:03.203444+00:00",
-  "last_checked_fr": "16 novembre 2026",
+  "last_checked_utc": "2026-11-17T00:49:11.719922+00:00",
+  "last_checked_fr": "17 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
@@ -36,7 +36,7 @@
             "titre": "Cher Teddy Riner – Boxing Day #102",
             "url": "https://www.blast-info.fr/articles/2026/cher-teddy-riner-boxing-day-102-wwaCiu5US7KC3Ofbt_4TWw",
             "resume": "Lundi 9 novembre, vous annonciez votre candidature à l’élection présidentielle en dénonçant notamment « un système où ceux qui se lèvent tôt, qui bossent dur, qui respectent les règles n’en peuvent plus de payer pour tout le monde » , c’est bien noté, soit un quasi-plagiat de Nicolas Sarkozy déclarant, le 12 octobre 2006 , « [refuser] que ceux qui ne veulent pas travailler vivent sur le dos de ceux qui se lèvent tôt et qui travaillent dur » , on se disait bien que ça nous rappelait un truc. À moins qu’il ne s’agisse d’un quasi-plagiat de Gérald Darmanin proclamant en septembre 2023 que « [ceux qui] bossent, ils ont l’impression qu’ils paient…",
-            "date_detection": "16 novembre 2026",
+            "date_detection": "17 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -60,7 +60,7 @@
             "titre": "2027 : Mélenchon est-il inarrêtable ?",
             "url": "https://www.blast-info.fr/emissions/2026/2027-melenchon-est-il-inarretable-9v-1OHzkQieIzpHh1rGKuQ",
             "resume": "Le 7 novembre 2026, les insoumis ont organisé leur premier grand meeting au Bourget. La réunion a été une opération de communication politique bien calibrée et efficace, par rapport aux campagnes confuses des concurrents. Alors, cette opération n’était-elle que ça, des promesses, des choses creuses et de la com, bref de la propagande ?",
-            "date_detection": "16 novembre 2026",
+            "date_detection": "17 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [],
             "candidats_mentions": [
@@ -90,9 +90,9 @@
     }
   },
   "syntheses_campagne": {
-    "documents_examines": 11,
-    "accessibles": 8,
-    "syntheses": 5,
+    "documents_examines": 12,
+    "accessibles": 9,
+    "syntheses": 6,
     "reportes": 3,
     "sources": {
       "https://melenchon.fr/2026/11/07/grand-meeting-du-bourget-notre-programme-de-gouvernement/": {
@@ -105,6 +105,9 @@
         "ok": true
       },
       "https://melenchon2027.fr/programme/decouvrir/": {
+        "ok": true
+      },
+      "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/": {
         "ok": true
       },
       "https://attalpresident.fr/meeting": {
@@ -128,7 +131,7 @@
       "https://www.edouardphilippe.fr/programme/justice": {
         "ok": true
       },
-      "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/": {
+      "https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/": {
         "ok": true
       }
     }
@@ -167,7 +170,7 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 57,
-    "pages_accessibles": 38,
+    "pages_accessibles": 37,
     "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
@@ -177,7 +180,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 10,
-        "accessibles": 7
+        "accessibles": 6
       },
       "Fabien Roussel": {
         "examinees": 6,

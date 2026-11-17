@@ -22,7 +22,7 @@
     ],
     "nature": "Synthèse sourcée du discours",
     "evolution": "Présentation du programme au Bourget ; caractère inédit de chaque mesure non établi par cette seule transcription.",
-    "dernier_controle_utc": "2026-11-16T17:48:39.154153+00:00",
+    "dernier_controle_utc": "2026-11-17T00:49:57.313278+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -50,7 +50,7 @@
     ],
     "nature": "Synthèse sourcée du programme",
     "evolution": "Programme publié et daté ; cette date de mise à jour ne prouve pas que toutes ces propositions sont nouvelles.",
-    "dernier_controle_utc": "2026-11-16T17:48:39.154153+00:00",
+    "dernier_controle_utc": "2026-11-17T00:49:57.313278+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -78,7 +78,7 @@
     ],
     "nature": "Synthèse sourcée du programme",
     "evolution": "Engagements actuellement publiés ; date initiale et nouveauté politique non établies.",
-    "dernier_controle_utc": "2026-11-16T17:48:39.154153+00:00",
+    "dernier_controle_utc": "2026-11-17T00:49:57.313278+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -97,7 +97,7 @@
     ],
     "nature": "Synthèse automatique de source primaire",
     "version": "synthese-campagne-v1",
-    "dernier_controle_utc": "2026-11-16T17:48:39.154153+00:00",
+    "dernier_controle_utc": "2026-11-17T00:49:57.313278+00:00",
     "date_evenement": "2026-09-25T11:33:06+02:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité.",
@@ -117,9 +117,29 @@
     ],
     "nature": "Synthèse automatique de source primaire",
     "version": "synthese-campagne-v1",
-    "dernier_controle_utc": "2026-11-16T17:48:39.154153+00:00",
+    "dernier_controle_utc": "2026-11-17T00:49:57.313278+00:00",
     "date_evenement": "2026-09-19T15:13:01+00:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
-    "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité. Source longue : seuls des passages ont été traités."
+    "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité. Source longue : seuls des passages ont été traités.",
+    "verification_differee": false
+  },
+  {
+    "candidat": "Nicolas Dupont-Aignan",
+    "url": "https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/",
+    "titre": "Présentation du projet économique 2027",
+    "empreinte": "af7b0fd8339104963a4821e910bc8d99e2ff96d4423f1f3260b1e100e4693ae5",
+    "date_publication": "2026-11-12T11:51:43+00:00",
+    "paragraphes": [
+      {
+        "titre": "Propositions présentées",
+        "texte": "Nicolas Dupont-Aignan, candidat à l'élection présidentielle de 2027, propose un plan économique visant à relancer la production en France et à créer deux millions d'emplois en cinq ans. Son plan comprend des baisses d'impôts et de prix de l'énergie, ainsi qu'un fonds de relocalisation. Il prévoit également un plan de redressement financier de 140 milliards d'euros pour réduire le déficit et stabiliser la dette.\n\nLe plan nécessite la mise en œuvre de 100 milliards d'euros d'économies et de 40 milliards d'euros de nouvelles recettes. Il ne précise pas comment ces mesures seront financées ni les dates exactes de leur mise en œuvre."
+      }
+    ],
+    "nature": "Synthèse automatique de source primaire",
+    "version": "synthese-campagne-v1",
+    "dernier_controle_utc": "2026-11-17T00:49:57.313278+00:00",
+    "date_evenement": "2026-11-12T11:51:43+00:00",
+    "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
+    "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité."
   }
 ]
