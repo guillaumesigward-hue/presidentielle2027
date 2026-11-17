@@ -59,6 +59,19 @@ class AnalyseActualitesTests(unittest.TestCase):
         self.assertEqual(items[0]['point_reflexion']['version'], VERSION)
         self.assertIn('déficit', items[0]['point_reflexion']['questions'][0].casefold())
 
+    def test_tous_les_elements_d_un_sujet_sont_conserves(self):
+        point = analyser_actualite({
+            'titre': 'Programme pour l’école',
+            'description': ('Le candidat propose de recruter des enseignants. '
+                            'Il prévoit de rénover les collèges. '
+                            'Il souhaite renforcer les AESH dans les établissements scolaires.'),
+            'candidats_mentions': ['Candidat test']}, {'pretendants': []})
+        ecole = next(x for x in point['analyse_par_sujet'] if x['theme'] == 'École et jeunesse')
+        self.assertGreaterEqual(len(ecole['elements']), 3)
+        self.assertTrue(any('enseignants' in x for x in ecole['elements']))
+        self.assertTrue(any('collèges' in x for x in ecole['elements']))
+        self.assertTrue(any('AESH' in x for x in ecole['elements']))
+
     def test_paquet_public_enrichit_toutes_les_actualites(self):
         with tempfile.TemporaryDirectory() as directory:
             data = Path(directory) / 'data'; data.mkdir()
@@ -97,11 +110,17 @@ class AnalyseActualitesTests(unittest.TestCase):
         finances = next(x for x in point['analyse_par_sujet']
                         if x['theme'] == 'Finances publiques et financement')
         ecole = next(x for x in point['analyse_par_sujet'] if x['theme'] == 'École et jeunesse')
+        travail = next(x for x in point['analyse_par_sujet']
+                       if x['theme'] == 'Travail, retraites et pouvoir d’achat')
         self.assertTrue(finances['elements'])
+        self.assertGreaterEqual(len(finances['elements']), 3)
+        self.assertTrue(any('financement détaillé' in x.casefold() for x in finances['elements']))
         self.assertTrue(all('Le projet présenté' not in x and 'Les mesures concrètes' not in x
                             for x in finances['elements']))
         self.assertTrue(any('cantines biologiques gratuites' in x for x in ecole['elements']))
         self.assertTrue(all('médicament' not in x for x in ecole['elements']))
+        self.assertTrue(any('hausse du SMIC' in x for x in travail['elements']))
+        self.assertTrue(any('urgence sociale' in x for x in travail['elements']))
 
 
 if __name__ == '__main__':
