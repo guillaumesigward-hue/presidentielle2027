@@ -2966,5 +2966,50 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10383 Pres logement IFOP 18 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2407",
+    "date_detection": "18 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10384 Pres IV IFOP 18 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2406",
+    "date_detection": "18 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10379 Pres candidature T. Riner IFOP Paris Match 17 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2405",
+    "date_detection": "18 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10381 Pres participation 2nd tour JL Melenchon M Le Pen IFOP Franc Tireur 18 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2404",
+    "date_detection": "18 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10375 Pres IV ELABE 14 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2402",
+    "date_detection": "18 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
   }
 ]

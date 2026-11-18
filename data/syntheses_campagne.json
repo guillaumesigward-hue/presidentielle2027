@@ -22,7 +22,7 @@
     ],
     "nature": "Synthèse sourcée du discours",
     "evolution": "Présentation du programme au Bourget ; caractère inédit de chaque mesure non établi par cette seule transcription.",
-    "dernier_controle_utc": "2026-11-17T23:53:28.264215+00:00",
+    "dernier_controle_utc": "2026-11-18T13:59:32.428753+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -69,11 +69,11 @@
     ],
     "nature": "Synthèse automatique de source primaire",
     "version": "synthese-campagne-v1",
-    "dernier_controle_utc": "2026-11-17T12:13:29.567159+00:00",
+    "dernier_controle_utc": "2026-11-18T13:59:32.428753+00:00",
     "date_evenement": "2026-09-25T11:33:06+02:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité.",
-    "verification_differee": true
+    "verification_differee": false
   },
   {
     "candidat": "Nicolas Dupont-Aignan",
@@ -89,11 +89,11 @@
     ],
     "nature": "Synthèse automatique de source primaire",
     "version": "synthese-campagne-v1",
-    "dernier_controle_utc": "2026-11-17T12:13:29.567159+00:00",
+    "dernier_controle_utc": "2026-11-18T13:59:32.428753+00:00",
     "date_evenement": "2026-09-19T15:13:01+00:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité. Source longue : seuls des passages ont été traités.",
-    "verification_differee": true
+    "verification_differee": false
   },
   {
     "candidat": "Nicolas Dupont-Aignan",
@@ -109,10 +109,29 @@
     ],
     "nature": "Synthèse automatique de source primaire",
     "version": "synthese-campagne-v1",
-    "dernier_controle_utc": "2026-11-17T12:13:29.567159+00:00",
+    "dernier_controle_utc": "2026-11-18T13:59:32.428753+00:00",
     "date_evenement": "2026-11-12T11:51:43+00:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité.",
-    "verification_differee": true
+    "verification_differee": false
+  },
+  {
+    "candidat": "Bruno Retailleau",
+    "url": "https://www.avecretailleau.fr/projet/mesure/d",
+    "titre": "Pouvoir partir dès 63 ans, à 65 ans pour un taux plein garanti · Bruno Retailleau 2027",
+    "empreinte": "a3817ebb1c9b63c9430da38666e86ede2fa143301e7c1889609cba00adb2733b",
+    "date_publication": "2026-10-08T08:45:19.602Z",
+    "paragraphes": [
+      {
+        "titre": "Propositions présentées",
+        "texte": "Bruno Retailleau propose de permettre aux Français de partir à la retraite à 63 ans, avec un taux plein garanti à 65 ans. Il souhaite simplifier le système actuel pour assurer la viabilité des retraites à long terme.\n\nLa mise en œuvre de cette réforme nécessiterait une modification législative et une adaptation du système de calcul des pensions. Le document ne précise pas les détails de la transition ni les effets sur les pensions existantes."
+      }
+    ],
+    "nature": "Synthèse automatique de source primaire",
+    "version": "synthese-campagne-v1",
+    "dernier_controle_utc": "2026-11-18T13:59:32.428753+00:00",
+    "date_evenement": "2026-10-08T08:45:19.602Z",
+    "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
+    "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité."
   }
 ]

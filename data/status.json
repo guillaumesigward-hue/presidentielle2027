@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-11-17T23:52:47.150648+00:00",
-  "last_checked_fr": "17 novembre 2026",
+  "last_checked_utc": "2026-11-18T13:58:38.583992+00:00",
+  "last_checked_fr": "18 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 243,
-      "dernier_id_detecte": 2401,
+      "notices_detectees": 246,
+      "dernier_id_detecte": 2407,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -36,7 +36,7 @@
             "titre": "Cher Teddy Riner – Boxing Day #102",
             "url": "https://www.blast-info.fr/articles/2026/cher-teddy-riner-boxing-day-102-wwaCiu5US7KC3Ofbt_4TWw",
             "resume": "Lundi 9 novembre, vous annonciez votre candidature à l’élection présidentielle en dénonçant notamment « un système où ceux qui se lèvent tôt, qui bossent dur, qui respectent les règles n’en peuvent plus de payer pour tout le monde » , c’est bien noté, soit un quasi-plagiat de Nicolas Sarkozy déclarant, le 12 octobre 2006 , « [refuser] que ceux qui ne veulent pas travailler vivent sur le dos de ceux qui se lèvent tôt et qui travaillent dur » , on se disait bien que ça nous rappelait un truc. À moins qu’il ne s’agisse d’un quasi-plagiat de Gérald Darmanin proclamant en septembre 2023 que « [ceux qui] bossent, ils ont l’impression qu’ils paient…",
-            "date_detection": "17 novembre 2026",
+            "date_detection": "18 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -60,7 +60,7 @@
             "titre": "2027 : Mélenchon est-il inarrêtable ?",
             "url": "https://www.blast-info.fr/emissions/2026/2027-melenchon-est-il-inarretable-9v-1OHzkQieIzpHh1rGKuQ",
             "resume": "Le 7 novembre 2026, les insoumis ont organisé leur premier grand meeting au Bourget. La réunion a été une opération de communication politique bien calibrée et efficace, par rapport aux campagnes confuses des concurrents. Alors, cette opération n’était-elle que ça, des promesses, des choses creuses et de la com, bref de la propagande ?",
-            "date_detection": "17 novembre 2026",
+            "date_detection": "18 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [],
             "candidats_mentions": [
@@ -90,15 +90,42 @@
     }
   },
   "syntheses_campagne": {
-    "documents_examines": 2,
-    "accessibles": 2,
-    "syntheses": 5,
-    "reportes": 1,
+    "documents_examines": 10,
+    "accessibles": 7,
+    "syntheses": 6,
+    "reportes": 2,
     "sources": {
       "https://melenchon.fr/2026/11/07/grand-meeting-du-bourget-notre-programme-de-gouvernement/": {
         "ok": true
       },
       "https://www.edouardphilippe.fr/programme/retraites": {
+        "ok": true
+      },
+      "https://www.avecretailleau.fr/projet/theme/logement": {
+        "ok": false,
+        "erreur": "TimeoutError"
+      },
+      "https://melenchon2027.fr/programme/decouvrir/": {
+        "ok": true
+      },
+      "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/": {
+        "ok": true
+      },
+      "https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/": {
+        "ok": true
+      },
+      "https://attalpresident.fr/meeting": {
+        "ok": false,
+        "erreur": "ValueError"
+      },
+      "https://attalpresident.fr/programme": {
+        "ok": true
+      },
+      "https://www.avecretailleau.fr/projet": {
+        "ok": false,
+        "erreur": "TimeoutError"
+      },
+      "https://www.avecretailleau.fr/projet/mesure/d": {
         "ok": true
       }
     }
@@ -124,20 +151,20 @@
     "notices_examinees": 8,
     "scenarios_extraits": 0,
     "non_exploitables": [
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2394",
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2406",
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2402",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2393",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2387",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2381",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2376",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2361",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2357",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2352"
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2357"
     ],
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 56,
-    "pages_accessibles": 36,
+    "pages_examinees": 58,
+    "pages_accessibles": 40,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -146,8 +173,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 8,
-        "accessibles": 4
+        "examinees": 10,
+        "accessibles": 8
       },
       "Fabien Roussel": {
         "examinees": 6,
