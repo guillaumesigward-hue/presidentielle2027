@@ -22,7 +22,7 @@
     ],
     "nature": "Synthèse sourcée du discours",
     "evolution": "Présentation du programme au Bourget ; caractère inédit de chaque mesure non établi par cette seule transcription.",
-    "dernier_controle_utc": "2026-11-18T13:59:32.428753+00:00",
+    "dernier_controle_utc": "2026-11-18T23:24:30.288059+00:00",
     "limite": "Source primaire de campagne : engagements attribués au candidat, sans validation indépendante de leur faisabilité.",
     "version": "synthese-campagne-v1",
     "verification_differee": false
@@ -73,7 +73,7 @@
     "date_evenement": "2026-09-25T11:33:06+02:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité.",
-    "verification_differee": false
+    "verification_differee": true
   },
   {
     "candidat": "Nicolas Dupont-Aignan",
@@ -93,7 +93,7 @@
     "date_evenement": "2026-09-19T15:13:01+00:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité. Source longue : seuls des passages ont été traités.",
-    "verification_differee": false
+    "verification_differee": true
   },
   {
     "candidat": "Nicolas Dupont-Aignan",
@@ -113,7 +113,7 @@
     "date_evenement": "2026-11-12T11:51:43+00:00",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
     "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité.",
-    "verification_differee": false
+    "verification_differee": true
   },
   {
     "candidat": "Bruno Retailleau",
@@ -132,6 +132,7 @@
     "dernier_controle_utc": "2026-11-18T13:59:32.428753+00:00",
     "date_evenement": "2026-10-08T08:45:19.602Z",
     "evolution": "Document nouveau ou modifié dans la veille ; nouveauté politique non établie.",
-    "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité."
+    "limite": "Propositions du candidat, sans validation indépendante de leur faisabilité.",
+    "verification_differee": true
   }
 ]

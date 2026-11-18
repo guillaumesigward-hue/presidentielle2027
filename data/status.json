@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-11-18T13:58:38.583992+00:00",
+  "last_checked_utc": "2026-11-18T23:23:40.882950+00:00",
   "last_checked_fr": "18 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 246,
-      "dernier_id_detecte": 2407,
+      "notices_detectees": 247,
+      "dernier_id_detecte": 2408,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -90,57 +90,29 @@
     }
   },
   "syntheses_campagne": {
-    "documents_examines": 10,
-    "accessibles": 7,
+    "documents_examines": 2,
+    "accessibles": 2,
     "syntheses": 6,
-    "reportes": 2,
+    "reportes": 1,
     "sources": {
       "https://melenchon.fr/2026/11/07/grand-meeting-du-bourget-notre-programme-de-gouvernement/": {
         "ok": true
       },
       "https://www.edouardphilippe.fr/programme/retraites": {
         "ok": true
-      },
-      "https://www.avecretailleau.fr/projet/theme/logement": {
-        "ok": false,
-        "erreur": "TimeoutError"
-      },
-      "https://melenchon2027.fr/programme/decouvrir/": {
-        "ok": true
-      },
-      "https://www.dupontaignan.fr/actualite/liberons-la-france-%c2%b7-discours-de-rentree-de-nicolas-dupont-aignan/": {
-        "ok": true
-      },
-      "https://www.dupontaignan.fr/actualite/presentation-du-projet-economique-2027/": {
-        "ok": true
-      },
-      "https://attalpresident.fr/meeting": {
-        "ok": false,
-        "erreur": "ValueError"
-      },
-      "https://attalpresident.fr/programme": {
-        "ok": true
-      },
-      "https://www.avecretailleau.fr/projet": {
-        "ok": false,
-        "erreur": "TimeoutError"
-      },
-      "https://www.avecretailleau.fr/projet/mesure/d": {
-        "ok": true
       }
     }
   },
   "resumes_automatiques": {
-    "resumes": 1,
+    "resumes": 0,
     "reutilises": 2,
-    "indisponibles": 3,
+    "indisponibles": 4,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {
-      "titre": 1
-    },
+    "rejets": {},
     "erreurs": {
-      "ValueError": 1
+      "OSError": 1,
+      "RuntimeError": 1
     }
   },
   "publications_par_media": {
@@ -163,8 +135,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 58,
-    "pages_accessibles": 40,
+    "pages_examinees": 56,
+    "pages_accessibles": 36,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -173,8 +145,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 10,
-        "accessibles": 8
+        "examinees": 8,
+        "accessibles": 4
       },
       "Fabien Roussel": {
         "examinees": 6,
