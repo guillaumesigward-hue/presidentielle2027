@@ -3065,5 +3065,24 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "media_independant_investigation",
+    "source": "Blast",
+    "titre": "Nice, baie des cochons (épisode 2) : Les mystères de l’opération tête de porc",
+    "url": "https://www.blast-info.fr/articles/2026/nice-baie-des-cochons-episode-2-les-mysteres-de-loperation-tete-de-porc-b0ZNMAUtQ2iRntriY6fTsA",
+    "resume": "Fin février 2026, Christian Estrosi, vice-président du parti Horizons d'Édouard Philippe, voit se matérialiser son pire cauchemar : son meilleur ennemi Eric Ciotti le devance largement dans la campagne des municipales de Nice. Devant la défaite qui se dessine, l’homme aux abois, recourt à une stratégie baroque. Depuis le 20 février 2026, une équipe secrète travaillé à le sauver, en parallèle de l’équipe officielle .",
+    "date_detection": "19 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "Institutions / libertés publiques",
+      "Travail"
+    ],
+    "candidats_mentions": [
+      "Édouard Philippe"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
   }
 ]

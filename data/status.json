@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-19T14:26:52.788175+00:00",
+  "last_checked_utc": "2026-11-19T23:36:19.903801+00:00",
   "last_checked_fr": "19 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -22,49 +22,28 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 2,
-      "liens_examines": 16,
+      "detections": 1,
+      "liens_examines": 19,
       "extractions_vides": 4,
-      "liens_trouves": 120,
+      "liens_trouves": 137,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 2,
+        "nombre": 1,
         "articles": [
           {
             "type": "media_independant_investigation",
             "source": "Blast",
-            "titre": "Cher Teddy Riner – Boxing Day #102",
-            "url": "https://www.blast-info.fr/articles/2026/cher-teddy-riner-boxing-day-102-wwaCiu5US7KC3Ofbt_4TWw",
-            "resume": "Lundi 9 novembre, vous annonciez votre candidature à l’élection présidentielle en dénonçant notamment « un système où ceux qui se lèvent tôt, qui bossent dur, qui respectent les règles n’en peuvent plus de payer pour tout le monde » , c’est bien noté, soit un quasi-plagiat de Nicolas Sarkozy déclarant, le 12 octobre 2006 , « [refuser] que ceux qui ne veulent pas travailler vivent sur le dos de ceux qui se lèvent tôt et qui travaillent dur » , on se disait bien que ça nous rappelait un truc. À moins qu’il ne s’agisse d’un quasi-plagiat de Gérald Darmanin proclamant en septembre 2023 que « [ceux qui] bossent, ils ont l’impression qu’ils paient…",
+            "titre": "Nice, baie des cochons (épisode 2) : Les mystères de l’opération tête de porc",
+            "url": "https://www.blast-info.fr/articles/2026/nice-baie-des-cochons-episode-2-les-mysteres-de-loperation-tete-de-porc-b0ZNMAUtQ2iRntriY6fTsA",
+            "resume": "Fin février 2026, Christian Estrosi, vice-président du parti Horizons d'Édouard Philippe, voit se matérialiser son pire cauchemar : son meilleur ennemi Eric Ciotti le devance largement dans la campagne des municipales de Nice. Devant la défaite qui se dessine, l’homme aux abois, recourt à une stratégie baroque. Depuis le 20 février 2026, une équipe secrète travaillé à le sauver, en parallèle de l’équipe officielle .",
             "date_detection": "19 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
-              "École",
-              "Santé",
-              "Fiscalité",
-              "Finances publiques",
               "Institutions / libertés publiques",
-              "Immigration",
               "Travail"
             ],
             "candidats_mentions": [
-              "Gabriel Attal"
-            ],
-            "statut": "À vérifier manuellement",
-            "publication_automatique": false,
-            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
-          },
-          {
-            "type": "media_independant_investigation",
-            "source": "Blast",
-            "titre": "2027 : Mélenchon est-il inarrêtable ?",
-            "url": "https://www.blast-info.fr/emissions/2026/2027-melenchon-est-il-inarretable-9v-1OHzkQieIzpHh1rGKuQ",
-            "resume": "Le 7 novembre 2026, les insoumis ont organisé leur premier grand meeting au Bourget. La réunion a été une opération de communication politique bien calibrée et efficace, par rapport aux campagnes confuses des concurrents. Alors, cette opération n’était-elle que ça, des promesses, des choses creuses et de la com, bref de la propagande ?",
-            "date_detection": "19 novembre 2026",
-            "nature": "actualité à qualifier",
-            "themes": [],
-            "candidats_mentions": [
-              "Jean-Luc Mélenchon"
+              "Édouard Philippe"
             ],
             "statut": "À vérifier manuellement",
             "publication_automatique": false,
@@ -104,7 +83,7 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 1,
+    "resumes": 2,
     "reutilises": 2,
     "indisponibles": 3,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
@@ -117,7 +96,7 @@
     }
   },
   "publications_par_media": {
-    "Blast": 6,
+    "Blast": 7,
     "Disclose": 0
   },
   "sondages_automatiques": {
@@ -136,8 +115,8 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 58,
-    "pages_accessibles": 41,
+    "pages_examinees": 56,
+    "pages_accessibles": 37,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -146,8 +125,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 10,
-        "accessibles": 9
+        "examinees": 8,
+        "accessibles": 5
       },
       "Fabien Roussel": {
         "examinees": 6,
