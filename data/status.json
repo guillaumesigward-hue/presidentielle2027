@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-11-19T23:36:19.903801+00:00",
-  "last_checked_fr": "19 novembre 2026",
+  "last_checked_utc": "2026-11-20T14:02:22.321583+00:00",
+  "last_checked_fr": "20 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 252,
-      "dernier_id_detecte": 2413,
+      "notices_detectees": 253,
+      "dernier_id_detecte": 2415,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -36,7 +36,7 @@
             "titre": "Nice, baie des cochons (épisode 2) : Les mystères de l’opération tête de porc",
             "url": "https://www.blast-info.fr/articles/2026/nice-baie-des-cochons-episode-2-les-mysteres-de-loperation-tete-de-porc-b0ZNMAUtQ2iRntriY6fTsA",
             "resume": "Fin février 2026, Christian Estrosi, vice-président du parti Horizons d'Édouard Philippe, voit se matérialiser son pire cauchemar : son meilleur ennemi Eric Ciotti le devance largement dans la campagne des municipales de Nice. Devant la défaite qui se dessine, l’homme aux abois, recourt à une stratégie baroque. Depuis le 20 février 2026, une équipe secrète travaillé à le sauver, en parallèle de l’équipe officielle .",
-            "date_detection": "19 novembre 2026",
+            "date_detection": "20 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -83,8 +83,8 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 2,
-    "reutilises": 2,
+    "resumes": 1,
+    "reutilises": 3,
     "indisponibles": 3,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
@@ -116,7 +116,7 @@
   },
   "campagnes_automatiques": {
     "pages_examinees": 56,
-    "pages_accessibles": 37,
+    "pages_accessibles": 36,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
@@ -126,7 +126,7 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 5
+        "accessibles": 4
       },
       "Fabien Roussel": {
         "examinees": 6,
