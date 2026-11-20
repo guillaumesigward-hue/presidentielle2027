@@ -318,7 +318,17 @@
               "url": "https://www.lemonde.fr/politique/live/2026/09/12/en-direct-presidentielle-2027-jean-luc-melenchon-et-fabien-roussel-a-la-fete-de-l-huma-bruno-retailleau-avec-les-jeunes-lr-suivez-le-deplacement-des-candidats_6770586_823448.html"
             }
           ],
-          "dernier_controle_sources": "20 novembre 2026"
+          "dernier_controle_sources": "20 novembre 2026",
+          "propositions_automatiques": [
+            {
+              "texte": "Oui, nous mettrons des cotisations sur les revenus financiers et sur les dividendes pour financer la Sécurité sociale et notre système de retraite par répartition.",
+              "themes": [
+                "sante"
+              ],
+              "url": "https://www.pcf.fr/fete_de_lhumanite_2026_discours_de_fabien_roussel",
+              "date_publication": null
+            }
+          ]
         },
         "energie": {
           "statut": "Orientations et propositions 2027 confirmées — programme énergétique détaillé en cours de consolidation",

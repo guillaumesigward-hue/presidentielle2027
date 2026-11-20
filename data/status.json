@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-11-20T14:02:22.321583+00:00",
+  "last_checked_utc": "2026-11-20T23:06:31.668016+00:00",
   "last_checked_fr": "20 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 253,
-      "dernier_id_detecte": 2415,
+      "notices_detectees": 254,
+      "dernier_id_detecte": 2416,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -25,7 +25,7 @@
       "detections": 1,
       "liens_examines": 19,
       "extractions_vides": 4,
-      "liens_trouves": 137,
+      "liens_trouves": 134,
       "etat_extraction": "partielle",
       "mise_a_jour": {
         "nombre": 1,
@@ -103,21 +103,21 @@
     "notices_examinees": 8,
     "scenarios_extraits": 0,
     "non_exploitables": [
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2416",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2410",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2406",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2402",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2393",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2387",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2381",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2376",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2361"
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2376"
     ],
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 56,
-    "pages_accessibles": 36,
-    "propositions_extraites": 2,
+    "pages_examinees": 59,
+    "pages_accessibles": 43,
+    "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
@@ -126,11 +126,11 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 4
+        "accessibles": 3
       },
       "Fabien Roussel": {
-        "examinees": 6,
-        "accessibles": 0
+        "examinees": 9,
+        "accessibles": 8
       },
       "Jean-Luc Mélenchon": {
         "examinees": 10,

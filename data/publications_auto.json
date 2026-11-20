@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-20T14:02:22.321583+00:00",
+  "last_checked_utc": "2026-11-20T23:06:31.668016+00:00",
   "articles": [
     {
       "titre": "Nice, baie des cochons (épisode 2) : Les mystères de l’opération tête de porc",
@@ -18,7 +18,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-20T14:02:22.321583+00:00",
+      "derniere_verification_utc": "2026-11-20T23:06:31.668016+00:00",
       "resume_tente_utc": "2026-11-19T23:54:24.406650+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -48,7 +48,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-20T14:02:22.321583+00:00",
+      "derniere_verification_utc": "2026-11-20T23:06:31.668016+00:00",
       "resume_tente_utc": "2026-11-16T16:11:50.516158+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -70,7 +70,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-20T14:02:22.321583+00:00",
+      "derniere_verification_utc": "2026-11-20T23:06:31.668016+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -90,8 +90,8 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-20T14:02:22.321583+00:00",
-      "resume_tente_utc": "2026-11-20T14:11:22.673896+00:00",
+      "derniere_verification_utc": "2026-11-20T23:06:31.668016+00:00",
+      "resume_tente_utc": "2026-11-20T23:15:57.072396+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -122,8 +122,8 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-20T14:02:22.321583+00:00",
-      "resume_tente_utc": "2026-11-20T14:13:02.699958+00:00",
+      "derniere_verification_utc": "2026-11-20T23:06:31.668016+00:00",
+      "resume_tente_utc": "2026-11-20T23:17:39.239755+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
       "resume": "Selon Blast, la droite française s'est réunie à Saint-Raphaël pour les Rencontres de l'avenir, un événement qui a accueilli plusieurs candidats à la présidence, dont Bruno Retailleau, David Lisnard et Edouard Philippe. L'événement a été critiqué pour son manque de diversité et son orientation vers des idées conservatrices, avec une forte présence de personnes âgées et de discours anti-système.\n\nLes organisateurs n'ont pas fait de déclaration officielle concernant les critiques. La participation de candidats de la droite et de figures politiques controversées a été confirmée, mais aucune réaction officielle n'a été donnée par les candidats ou les autorités concernant les critiques sur la diversité et les idées rances.",
@@ -145,7 +145,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-20T14:02:22.321583+00:00",
+      "derniere_verification_utc": "2026-11-20T23:06:31.668016+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -170,7 +170,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-20T14:02:22.321583+00:00",
+      "derniere_verification_utc": "2026-11-20T23:06:31.668016+00:00",
       "resume_tente_utc": "2026-11-16T16:19:34.881297+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
