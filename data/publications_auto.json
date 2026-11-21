@@ -1,6 +1,35 @@
 {
-  "last_checked_utc": "2026-11-21T13:28:34.732773+00:00",
+  "last_checked_utc": "2026-11-21T22:13:19.260360+00:00",
   "articles": [
+    {
+      "titre": "Cher Frank Tapiro – Boxing Day #103",
+      "source": "Blast",
+      "url": "https://www.blast-info.fr/articles/2026/cher-frank-tapiro-boxing-day-103-bvW5l3cGTyOxyRWYq3uhBg",
+      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
+      "date_publication": "2026-11-21T16:00:00+00:00",
+      "controle": "automatique",
+      "themes": [
+        "École",
+        "Énergie",
+        "Finances publiques",
+        "Institutions / libertés publiques",
+        "Immigration"
+      ],
+      "candidats_mentions": [
+        "Jean-Luc Mélenchon",
+        "Marine Le Pen"
+      ],
+      "perimetre": "candidats-v1",
+      "enquete_anterieure": false,
+      "nature": "Lien de presse — contrôle automatique",
+      "derniere_verification_utc": "2026-11-21T22:13:19.260360+00:00",
+      "resume_statut": "disponible",
+      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
+      "resume_tente_utc": "2026-11-21T22:27:44.974867+00:00",
+      "resume": "Selon Blast, Frank Tapiro, un publicitaire et conseiller en communication, a été invité sur Franceinfo TV pour commenter la candidature présidentielle de Teddy Riner. Tapiro est également un soutien affiché du candidat ultra-libéral David Lisnard, dont il multiplie les posts de soutien sur X. Ses déclarations sur les réseaux sociaux et les médias sont souvent controversées et accusées de partialité politique.\n\nAucune réponse officielle n'est rapportée dans l'article. La publication critique les interventions de Frank Tapiro dans les médias et sur les réseaux sociaux, sans mentionner de réponses formelles de sa part ou de ses soutiens.",
+      "resume_empreinte": "d1e2c5f8230054e6382bd7b6f666851d7e51a02d0a9e5cad5cd5dbc80c0fc2c7",
+      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
+    },
     {
       "titre": "Nice, baie des cochons (épisode 2) : Les mystères de l’opération tête de porc",
       "source": "Blast",
@@ -18,7 +47,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-21T13:28:34.732773+00:00",
+      "derniere_verification_utc": "2026-11-21T22:13:19.260360+00:00",
       "resume_tente_utc": "2026-11-19T23:54:24.406650+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -48,7 +77,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-21T13:28:34.732773+00:00",
+      "derniere_verification_utc": "2026-11-21T22:13:19.260360+00:00",
       "resume_tente_utc": "2026-11-16T16:11:50.516158+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -70,7 +99,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-21T13:28:34.732773+00:00",
+      "derniere_verification_utc": "2026-11-21T22:13:19.260360+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -90,8 +119,8 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-21T13:28:34.732773+00:00",
-      "resume_tente_utc": "2026-11-21T13:39:37.656987+00:00",
+      "derniere_verification_utc": "2026-11-21T22:13:19.260360+00:00",
+      "resume_tente_utc": "2026-11-21T22:22:20.380092+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
       "resume_erreur": "ValueError"
@@ -122,11 +151,11 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-21T13:28:34.732773+00:00",
-      "resume_tente_utc": "2026-11-21T13:42:24.336132+00:00",
+      "derniere_verification_utc": "2026-11-21T22:13:19.260360+00:00",
+      "resume_tente_utc": "2026-11-21T22:24:00.195525+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Blast, la droite française s'est réunie à Saint-Raphaël pour les Rencontres de l'avenir, un événement qui a attiré de nombreux candidats à l'élection présidentielle, dont Bruno Retailleau, Edouard Philippe et Gabriel Attal. L'événement a été critiqué pour son manque de diversité et son orientation vers des idées conservatrices, avec une forte présence de personnes âgées et de discours ultralibéraux.\n\nLes organisateurs des Rencontres de l'avenir n'ont pas fourni de réponses officielles à ces critiques. Ils ont cependant souligné que l'événement visait à promouvoir des idées libérales et à rassembler des candidats de droite. Aucune information supplémentaire n'a été communiquée concernant le financement de l'événement.",
+      "resume": "Selon Blast, la droite française s'est réunie à Saint-Raphaël pour les Rencontres de l'avenir, un événement qui a accueilli plusieurs candidats à la présidence, dont Bruno Retailleau, David Lisnard et Edouard Philippe. L'événement a été critiqué pour son manque de diversité et son orientation vers des idées conservatrices, avec une forte présence de personnes âgées et de discours anti-système.\n\nLes organisateurs n'ont pas fait de déclaration officielle concernant les critiques. La participation de candidats de la droite et de figures politiques controversées a été confirmée, mais aucune réaction officielle n'a été donnée par les candidats ou les autorités concernant les critiques sur la diversité et les idées rances.",
       "resume_empreinte": "31e22761e39992483ef8517016ee09ab7316a67d6c85cefbb081042ba31fec1a",
       "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     },
@@ -145,38 +174,9 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-21T13:28:34.732773+00:00",
+      "derniere_verification_utc": "2026-11-21T22:13:19.260360+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
-    },
-    {
-      "titre": "Chère Prisca Thevenot – Boxing Day #101",
-      "source": "Blast",
-      "url": "https://www.blast-info.fr/articles/2026/chere-prisca-thevenot-boxing-day-101-KnSM-G9fRuOyVywcoeYOSA",
-      "description": "Lien de presse sélectionné automatiquement. Les informations et analyses sont celles du média cité.",
-      "date_publication": "2026-11-07T16:00:00+00:00",
-      "controle": "automatique",
-      "themes": [
-        "École",
-        "Santé",
-        "Écologie",
-        "Institutions / libertés publiques",
-        "Immigration",
-        "Travail"
-      ],
-      "candidats_mentions": [
-        "Gabriel Attal"
-      ],
-      "perimetre": "candidats-v1",
-      "enquete_anterieure": false,
-      "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-21T13:28:34.732773+00:00",
-      "resume_tente_utc": "2026-11-16T16:19:34.881297+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Blast, Prisca Thevenot, ministre déléguée et porte-parole du gouvernement, a critiqué la présence de Gabriel Attal lors d’un hommage à des victimes d’un attentat raciste. Thevenot a déclaré que le racisme ne se combat pas avec des symboles marketing, ce qui a suscité des critiques pour son attitude face à la lutte contre le racisme.\n\nLe gouvernement n'a pas fourni de réponse officielle à ces allégations. La situation reste donc incertaine et aucune déclaration officielle n'a été faite pour clarifier la position de Prisca Thevenot.",
-      "resume_empreinte": "3124e2fcd9522935528165e0cf742394b3605f6d2d1829c3195f9ffa55384893",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
     }
   ]
 }

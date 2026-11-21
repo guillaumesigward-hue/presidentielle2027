@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-21T13:28:34.732773+00:00",
+  "last_checked_utc": "2026-11-21T22:13:19.260360+00:00",
   "last_checked_fr": "21 novembre 2026",
   "publication_automatique": true,
   "sources": {
@@ -22,14 +22,37 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 1,
+      "detections": 2,
       "liens_examines": 19,
       "extractions_vides": 4,
       "liens_trouves": 133,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 1,
+        "nombre": 2,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Cher Frank Tapiro – Boxing Day #103",
+            "url": "https://www.blast-info.fr/articles/2026/cher-frank-tapiro-boxing-day-103-bvW5l3cGTyOxyRWYq3uhBg",
+            "resume": "Vendredi 13 novembre, Franceinfo TV a jugé bon de vous convier en plateau pour que vous nous gratifiiez de vos indispensables commentaires de « publicitaire et conseiller en communication » au sujet de la candidature présidentielle de Teddy Riner , intéressant, confirmant par cette invitation que le service public n’est pas trop regardant sur ses « analystes » lorsque l’on sait, par exemple, que le même jour vous écriviez sur votre compte X que « combattre Marine Le Pen et son programme étato-communiste n’empêche pas de tout faire pour éviter le pire ennemi de la France, Mélenchon et ses fachos de gauche » , tout de même, que deux semaines…",
+            "date_detection": "21 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [
+              "École",
+              "Énergie",
+              "Finances publiques",
+              "Institutions / libertés publiques",
+              "Immigration"
+            ],
+            "candidats_mentions": [
+              "Jean-Luc Mélenchon",
+              "Marine Le Pen"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -83,8 +106,8 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 1,
-    "reutilises": 3,
+    "resumes": 2,
+    "reutilises": 2,
     "indisponibles": 3,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",

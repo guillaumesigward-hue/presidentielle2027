@@ -1609,5 +1609,26 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Cher Frank Tapiro – Boxing Day #103",
+    "url": "https://www.blast-info.fr/articles/2026/cher-frank-tapiro-boxing-day-103-bvW5l3cGTyOxyRWYq3uhBg",
+    "resume": "Vendredi 13 novembre, Franceinfo TV a jugé bon de vous convier en plateau pour que vous nous gratifiiez de vos indispensables commentaires de « publicitaire et conseiller en communication » au sujet de la candidature présidentielle de Teddy Riner , intéressant, confirmant par cette invitation que le service public n’est pas trop regardant sur ses « analystes » lorsque l’on sait, par exemple, que le même jour vous écriviez sur votre compte X que « combattre Marine Le Pen et son programme étato-communiste n’empêche pas de tout faire pour éviter le pire ennemi de la France, Mélenchon et ses fachos de gauche » , tout de même, que deux semaines…",
+    "date_detection": "21 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [
+      "École",
+      "Énergie",
+      "Finances publiques",
+      "Institutions / libertés publiques",
+      "Immigration"
+    ],
+    "candidats_mentions": [
+      "Jean-Luc Mélenchon",
+      "Marine Le Pen"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]
