@@ -1,6 +1,6 @@
 {
-  "last_checked_utc": "2026-11-20T23:06:31.668016+00:00",
-  "last_checked_fr": "20 novembre 2026",
+  "last_checked_utc": "2026-11-21T13:28:34.732773+00:00",
+  "last_checked_fr": "21 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
@@ -25,7 +25,7 @@
       "detections": 1,
       "liens_examines": 19,
       "extractions_vides": 4,
-      "liens_trouves": 134,
+      "liens_trouves": 133,
       "etat_extraction": "partielle",
       "mise_a_jour": {
         "nombre": 1,
@@ -36,7 +36,7 @@
             "titre": "Nice, baie des cochons (épisode 2) : Les mystères de l’opération tête de porc",
             "url": "https://www.blast-info.fr/articles/2026/nice-baie-des-cochons-episode-2-les-mysteres-de-loperation-tete-de-porc-b0ZNMAUtQ2iRntriY6fTsA",
             "resume": "Fin février 2026, Christian Estrosi, vice-président du parti Horizons d'Édouard Philippe, voit se matérialiser son pire cauchemar : son meilleur ennemi Eric Ciotti le devance largement dans la campagne des municipales de Nice. Devant la défaite qui se dessine, l’homme aux abois, recourt à une stratégie baroque. Depuis le 20 février 2026, une équipe secrète travaillé à le sauver, en parallèle de l’équipe officielle .",
-            "date_detection": "20 novembre 2026",
+            "date_detection": "21 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -115,9 +115,9 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 59,
-    "pages_accessibles": 43,
-    "propositions_extraites": 3,
+    "pages_examinees": 56,
+    "pages_accessibles": 37,
+    "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
@@ -126,11 +126,11 @@
       },
       "Bruno Retailleau": {
         "examinees": 8,
-        "accessibles": 3
+        "accessibles": 5
       },
       "Fabien Roussel": {
-        "examinees": 9,
-        "accessibles": 8
+        "examinees": 6,
+        "accessibles": 0
       },
       "Jean-Luc Mélenchon": {
         "examinees": 10,
