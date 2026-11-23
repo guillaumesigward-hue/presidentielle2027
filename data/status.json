@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-11-22T22:29:29.812786+00:00",
-  "last_checked_fr": "22 novembre 2026",
+  "last_checked_utc": "2026-11-23T15:58:51.993399+00:00",
+  "last_checked_fr": "23 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 254,
-      "dernier_id_detecte": 2416,
+      "notices_detectees": 256,
+      "dernier_id_detecte": 2418,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -25,7 +25,7 @@
       "detections": 2,
       "liens_examines": 19,
       "extractions_vides": 4,
-      "liens_trouves": 133,
+      "liens_trouves": 132,
       "etat_extraction": "partielle",
       "mise_a_jour": {
         "nombre": 2,
@@ -36,7 +36,7 @@
             "titre": "Cher Frank Tapiro – Boxing Day #103",
             "url": "https://www.blast-info.fr/articles/2026/cher-frank-tapiro-boxing-day-103-bvW5l3cGTyOxyRWYq3uhBg",
             "resume": "Vendredi 13 novembre, Franceinfo TV a jugé bon de vous convier en plateau pour que vous nous gratifiiez de vos indispensables commentaires de « publicitaire et conseiller en communication » au sujet de la candidature présidentielle de Teddy Riner , intéressant, confirmant par cette invitation que le service public n’est pas trop regardant sur ses « analystes » lorsque l’on sait, par exemple, que le même jour vous écriviez sur votre compte X que « combattre Marine Le Pen et son programme étato-communiste n’empêche pas de tout faire pour éviter le pire ennemi de la France, Mélenchon et ses fachos de gauche » , tout de même, que deux semaines…",
-            "date_detection": "22 novembre 2026",
+            "date_detection": "23 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -59,7 +59,7 @@
             "titre": "Nice, baie des cochons (épisode 2) : Les mystères de l’opération tête de porc",
             "url": "https://www.blast-info.fr/articles/2026/nice-baie-des-cochons-episode-2-les-mysteres-de-loperation-tete-de-porc-b0ZNMAUtQ2iRntriY6fTsA",
             "resume": "Fin février 2026, Christian Estrosi, vice-président du parti Horizons d'Édouard Philippe, voit se matérialiser son pire cauchemar : son meilleur ennemi Eric Ciotti le devance largement dans la campagne des municipales de Nice. Devant la défaite qui se dessine, l’homme aux abois, recourt à une stratégie baroque. Depuis le 20 février 2026, une équipe secrète travaillé à le sauver, en parallèle de l’équipe officielle .",
-            "date_detection": "22 novembre 2026",
+            "date_detection": "23 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -126,19 +126,19 @@
     "notices_examinees": 8,
     "scenarios_extraits": 0,
     "non_exploitables": [
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2417",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2416",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2410",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2406",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2402",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2393",
       "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2387",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2381",
-      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2376"
+      "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2381"
     ],
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 58,
+    "pages_examinees": 56,
     "pages_accessibles": 38,
     "propositions_extraites": 2,
     "statuts_actualises": 0,
@@ -148,8 +148,8 @@
         "accessibles": 10
       },
       "Bruno Retailleau": {
-        "examinees": 10,
-        "accessibles": 6
+        "examinees": 8,
+        "accessibles": 7
       },
       "Fabien Roussel": {
         "examinees": 6,
@@ -157,7 +157,7 @@
       },
       "Jean-Luc Mélenchon": {
         "examinees": 10,
-        "accessibles": 5
+        "accessibles": 4
       },
       "Édouard Philippe": {
         "examinees": 8,
