@@ -1,5 +1,5 @@
 {
-  "last_checked_utc": "2026-11-25T01:27:16.370919+00:00",
+  "last_checked_utc": "2026-11-25T15:36:30.997739+00:00",
   "articles": [
     {
       "titre": "Cher Frank Tapiro – Boxing Day #103",
@@ -22,7 +22,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-25T01:27:16.370919+00:00",
+      "derniere_verification_utc": "2026-11-25T15:36:30.997739+00:00",
       "resume_tente_utc": "2026-11-21T22:27:44.974867+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -47,7 +47,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-25T01:27:16.370919+00:00",
+      "derniere_verification_utc": "2026-11-25T15:36:30.997739+00:00",
       "resume_tente_utc": "2026-11-19T23:54:24.406650+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -77,7 +77,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-25T01:27:16.370919+00:00",
+      "derniere_verification_utc": "2026-11-25T15:36:30.997739+00:00",
       "resume_tente_utc": "2026-11-16T16:11:50.516158+00:00",
       "resume_statut": "disponible",
       "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
@@ -99,7 +99,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-25T01:27:16.370919+00:00",
+      "derniere_verification_utc": "2026-11-25T15:36:30.997739+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     },
@@ -119,11 +119,11 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-25T01:27:16.370919+00:00",
-      "resume_tente_utc": "2026-11-25T01:36:20.180110+00:00",
+      "derniere_verification_utc": "2026-11-25T15:36:30.997739+00:00",
+      "resume_tente_utc": "2026-11-25T15:48:05.439009+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
-      "resume_erreur": "ValueError"
+      "resume_erreur": "OSError"
     },
     {
       "titre": "Présidentielle : à Saint-Raphaël, la droite entre cheveux blancs, gilets sans manche et idées rances",
@@ -151,13 +151,11 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-25T01:27:16.370919+00:00",
+      "derniere_verification_utc": "2026-11-25T15:36:30.997739+00:00",
       "resume_tente_utc": "2026-11-25T01:37:40.715779+00:00",
-      "resume_statut": "disponible",
-      "resume_limite": "Résumé automatique du texte accessible. Les affirmations restent attribuées au média et ne sont pas vérifiées indépendamment. Article long : résumé établi à partir du début, de la fin et des passages liés au titre accessibles ; certaines parties intermédiaires n’ont pas été traitées.",
-      "resume": "Selon Blast, la droite française s'est réunie à Saint-Raphaël pour les Rencontres de l'avenir, un événement qui a attiré de nombreux candidats à l'élection présidentielle, dont Bruno Retailleau, Edouard Philippe et Gabriel Attal. L'événement a été critiqué pour son manque de diversité et son orientation vers des idées conservatrices, avec une forte présence de personnes âgées et de discours ultralibéraux.\n\nLes organisateurs n'ont pas fait de déclaration officielle concernant les critiques sur la diversité et les idées conservatrices. Ils ont cependant souligné que l'événement visait à promouvoir des discussions sur l'avenir de la France. Aucune information supplémentaire n'a été fournie concernant le financement de l'événement.",
-      "resume_empreinte": "31e22761e39992483ef8517016ee09ab7316a67d6c85cefbb081042ba31fec1a",
-      "resume_version": "qwen14b-gguf-v6-b466e1f8-b11541"
+      "resume_statut": "indisponible",
+      "resume_limite": "Résumé indisponible : extraction ou contrôle automatique non abouti. Aucun contenu supplémentaire n’a été inventé.",
+      "resume_erreur": "RuntimeError"
     },
     {
       "titre": "L'éditrice de Zemmour et Bardella nommée à la tête de Grasset",
@@ -174,7 +172,7 @@
       "perimetre": "candidats-v1",
       "enquete_anterieure": false,
       "nature": "Lien de presse — contrôle automatique",
-      "derniere_verification_utc": "2026-11-25T01:27:16.370919+00:00",
+      "derniere_verification_utc": "2026-11-25T15:36:30.997739+00:00",
       "resume_statut": "indisponible",
       "resume_limite": "Le texte accessible est insuffisant pour produire un résumé détaillé fiable."
     }
