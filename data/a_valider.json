@@ -1630,5 +1630,19 @@
     ],
     "statut": "À vérifier manuellement",
     "publication_automatique": false
+  },
+  {
+    "source": "Blast",
+    "titre": "Antisémitisme de Bardella : de nouvelles révélations du Monde et de Mediapart",
+    "url": "https://www.blast-info.fr/articles/2026/antisemitisme-de-bardella-de-nouvelles-revelations-du-monde-et-de-mediapart-xwIPxw4gR3GmfGaU4aWAYg",
+    "resume": "",
+    "date_detection": "26 novembre 2026",
+    "nature": "actualité à qualifier",
+    "themes": [],
+    "candidats_mentions": [
+      "Jordan Bardella"
+    ],
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false
   }
 ]

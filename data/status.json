@@ -1,13 +1,13 @@
 {
-  "last_checked_utc": "2026-11-26T01:00:49.297431+00:00",
+  "last_checked_utc": "2026-11-26T15:14:21.989552+00:00",
   "last_checked_fr": "26 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
       "ok": true,
       "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/bytag/14/2027-Presidentielle",
-      "notices_detectees": 257,
-      "dernier_id_detecte": 2419,
+      "notices_detectees": 261,
+      "dernier_id_detecte": 2423,
       "publication_automatique": false,
       "raison": "La rubrique présidentielle de la Commission peut contenir des enquêtes thématiques qui ne sont pas des intentions de vote. Seuls les tableaux explicitement identifiés et contrôlés sont extraits automatiquement."
     },
@@ -22,14 +22,30 @@
       "url": "https://www.blast-info.fr/",
       "publication_automatique": false,
       "raison": "Détections soumises aux contrôles automatiques de publication.",
-      "detections": 2,
+      "detections": 3,
       "liens_examines": 19,
       "extractions_vides": 4,
-      "liens_trouves": 133,
+      "liens_trouves": 134,
       "etat_extraction": "partielle",
       "mise_a_jour": {
-        "nombre": 2,
+        "nombre": 3,
         "articles": [
+          {
+            "type": "media_independant_investigation",
+            "source": "Blast",
+            "titre": "Antisémitisme de Bardella : de nouvelles révélations du Monde et de Mediapart",
+            "url": "https://www.blast-info.fr/articles/2026/antisemitisme-de-bardella-de-nouvelles-revelations-du-monde-et-de-mediapart-xwIPxw4gR3GmfGaU4aWAYg",
+            "resume": "",
+            "date_detection": "26 novembre 2026",
+            "nature": "actualité à qualifier",
+            "themes": [],
+            "candidats_mentions": [
+              "Jordan Bardella"
+            ],
+            "statut": "À vérifier manuellement",
+            "publication_automatique": false,
+            "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+          },
           {
             "type": "media_independant_investigation",
             "source": "Blast",
@@ -83,7 +99,7 @@
       "detections": 0,
       "liens_examines": 20,
       "extractions_vides": 0,
-      "liens_trouves": 167,
+      "liens_trouves": 166,
       "etat_extraction": "ok",
       "mise_a_jour": {
         "nombre": 0,
@@ -138,9 +154,9 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 62,
-    "pages_accessibles": 51,
-    "propositions_extraites": 3,
+    "pages_examinees": 59,
+    "pages_accessibles": 43,
+    "propositions_extraites": 2,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
@@ -152,8 +168,8 @@
         "accessibles": 10
       },
       "Fabien Roussel": {
-        "examinees": 9,
-        "accessibles": 8
+        "examinees": 6,
+        "accessibles": 0
       },
       "Jean-Luc Mélenchon": {
         "examinees": 10,
