@@ -1,6 +1,6 @@
 {
-  "last_checked_utc": "2026-11-25T15:36:30.997739+00:00",
-  "last_checked_fr": "25 novembre 2026",
+  "last_checked_utc": "2026-11-26T01:00:49.297431+00:00",
+  "last_checked_fr": "26 novembre 2026",
   "publication_automatique": true,
   "sources": {
     "commission_sondages": {
@@ -36,7 +36,7 @@
             "titre": "Nice, baie des cochons (épisode 2) : Les mystères de l’opération tête de porc",
             "url": "https://www.blast-info.fr/articles/2026/nice-baie-des-cochons-episode-2-les-mysteres-de-loperation-tete-de-porc-b0ZNMAUtQ2iRntriY6fTsA",
             "resume": "Fin février 2026, Christian Estrosi, vice-président du parti Horizons d'Édouard Philippe, voit se matérialiser son pire cauchemar : son meilleur ennemi Eric Ciotti le devance largement dans la campagne des municipales de Nice. Devant la défaite qui se dessine, l’homme aux abois, recourt à une stratégie baroque. Depuis le 20 février 2026, une équipe secrète travaillé à le sauver, en parallèle de l’équipe officielle .",
-            "date_detection": "25 novembre 2026",
+            "date_detection": "26 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "Institutions / libertés publiques",
@@ -55,7 +55,7 @@
             "titre": "Cher Frank Tapiro – Boxing Day #103",
             "url": "https://www.blast-info.fr/articles/2026/cher-frank-tapiro-boxing-day-103-bvW5l3cGTyOxyRWYq3uhBg",
             "resume": "Vendredi 13 novembre, Franceinfo TV a jugé bon de vous convier en plateau pour que vous nous gratifiiez de vos indispensables commentaires de « publicitaire et conseiller en communication » au sujet de la candidature présidentielle de Teddy Riner , intéressant, confirmant par cette invitation que le service public n’est pas trop regardant sur ses « analystes » lorsque l’on sait, par exemple, que le même jour vous écriviez sur votre compte X que « combattre Marine Le Pen et son programme étato-communiste n’empêche pas de tout faire pour éviter le pire ennemi de la France, Mélenchon et ses fachos de gauche » , tout de même, que deux semaines…",
-            "date_detection": "25 novembre 2026",
+            "date_detection": "26 novembre 2026",
             "nature": "actualité à qualifier",
             "themes": [
               "École",
@@ -106,15 +106,16 @@
     }
   },
   "resumes_automatiques": {
-    "resumes": 0,
+    "resumes": 1,
     "reutilises": 3,
-    "indisponibles": 4,
+    "indisponibles": 3,
     "modele": "Qwen/Qwen2.5-14B-Instruct-GGUF",
     "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
-    "rejets": {},
+    "rejets": {
+      "titre": 1
+    },
     "erreurs": {
-      "OSError": 1,
-      "RuntimeError": 1
+      "ValueError": 1
     }
   },
   "publications_par_media": {
@@ -137,9 +138,9 @@
     "nouvelles_personnes_testees": 0
   },
   "campagnes_automatiques": {
-    "pages_examinees": 58,
-    "pages_accessibles": 37,
-    "propositions_extraites": 2,
+    "pages_examinees": 62,
+    "pages_accessibles": 51,
+    "propositions_extraites": 3,
     "statuts_actualises": 0,
     "sources": {
       "Gabriel Attal": {
@@ -148,19 +149,19 @@
       },
       "Bruno Retailleau": {
         "examinees": 10,
-        "accessibles": 5
+        "accessibles": 10
       },
       "Fabien Roussel": {
-        "examinees": 6,
-        "accessibles": 0
+        "examinees": 9,
+        "accessibles": 8
       },
       "Jean-Luc Mélenchon": {
         "examinees": 10,
         "accessibles": 5
       },
       "Édouard Philippe": {
-        "examinees": 8,
-        "accessibles": 8
+        "examinees": 9,
+        "accessibles": 9
       },
       "Nicolas Dupont-Aignan": {
         "examinees": 10,
