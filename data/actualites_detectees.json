@@ -3204,5 +3204,23 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Extrait automatique incomplet possible. Vérifier la source, les chiffres et le contexte avant publication."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10401 Pres duel E Philippe D Lisnard OPINIONWAY 26 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2425",
+    "date_detection": "27 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10400 Pres IV Vague 5 OPINIONWAY 26 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2424",
+    "date_detection": "27 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
   }
 ]
