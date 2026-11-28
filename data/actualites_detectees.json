@@ -3240,5 +3240,14 @@
     "statut": "À vérifier manuellement",
     "publication_automatique": false,
     "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
+  },
+  {
+    "type": "commission_sondages",
+    "titre": "10403 Pres barometre confiance politique TOLUNA HARRIS INTERACTIVE 27 novembre",
+    "url": "https://www.commission-des-sondages.fr/notices/medias/fichiers/add/2428",
+    "date_detection": "28 novembre 2026",
+    "statut": "À vérifier manuellement",
+    "publication_automatique": false,
+    "note": "Cette notice peut être une intention de vote, une enquête thématique ou une autre question d'opinion. Ne pas publier comme sondage électoral sans vérification du document."
   }
 ]
